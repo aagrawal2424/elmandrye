@@ -1,0 +1,136 @@
+<style>
+.page-content {
+  display: none;
+}
+.product-block {
+  text-align: center;
+}
+.product__thumbs, afterpay-placement, .product__photos {
+  display: none!important;
+}
+.product-single__meta {
+  padding-left: 0;
+}
+.template-product .shopify-section__product .grid {
+  display: block;
+  max-width: 600px;
+  margin: auto;
+}
+.template-product .shopify-section__product .grid__item,
+.variant-wrapper--dropdown {
+  width: 100%!important;
+}
+.variant-input-wrap select {
+  width: 100%;
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #008060;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  display: block;
+  margin: 10% auto auto auto;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
+
+<div class="loader"></div>
+
+<script>
+  $(document).ready(function(){
+    levelCheck();
+    // After an item is added to cart, remove the page-content and add a success text
+    $(".add-to-cart").click(function() {
+      $(".page-content").hide();
+      $(".loader").show();
+      setTimeout(() => {
+        $(".loader").hide();
+        $(".main-content").append("<div style='text-align:center;margin-top:10%;'><h1 style=''>Your gift has been added to cart!</h1><a href='/'>Continue Shopping</a></div>");
+      }, "1000")
+    });
+  });
+  function levelCheck() {
+    $.getJSON('/cart.js', function(cart) {
+      let giftCount = 0;
+      cart.items.forEach(function(item) {
+        if (item.handle == "free-gift") {
+          giftCount++;
+          $(".variant-input-wrap select").find("option[value='"+item.variant_title+"']").remove();
+        }
+      });
+      if (cart.currency == "USD") {
+        var cartTotal = cart.total_price / 100;  
+        var levelOne = 99;
+        var levelTwo = 149;
+        var levelThree = 199;
+        var levelFour = 249;
+      } else {
+        var amount = cart.total_price / 100;
+        var fromCurrency = cart.currency;
+        var toCurrency = "USD";
+        var exchangeRate = Currency.rates[toCurrency] / Currency.rates[fromCurrency];
+        var convertedAmount = amount * exchangeRate;
+        var cartTotal = amount.toFixed(2);  
+        var levelOne = (99 * exchangeRate).toFixed(2); 
+        var levelTwo = (149 * exchangeRate).toFixed(2); 
+        var levelThree = (199 * exchangeRate).toFixed(2); 
+        var levelFour = (249 * exchangeRate).toFixed(2); 
+      }
+      // ****** Level 0 ******
+      if (cartTotal < levelOne) {
+        window.location.replace("/cart");
+      }
+
+      // ****** Level 1 ******
+      if (cartTotal > 99 && cartTotal < levelTwo) {
+        window.location.replace("/cart");
+      }
+      
+      // ****** Level 2 ******
+      if (cartTotal > levelTwo && cartTotal < levelThree) {
+        if (giftCount >= 1) {
+          window.location.replace("/cart");
+        } else {
+          $(".loader").hide();
+          $(".page-content").show();
+        }
+      }
+      
+      // ****** Level 3 ******
+      if (cartTotal > levelThree && cartTotal < levelFour) {
+        if (giftCount >= 2) {
+          window.location.replace("/cart");
+        } else {
+          $(".loader").hide();
+          $(".page-content").show();
+        }
+      }
+
+      // ****** Level 4 ******
+      if (cartTotal > levelFour) {
+        if (giftCount >= 3) {
+          window.location.replace("/cart");
+        } else {
+          $(".loader").hide();
+          $(".page-content").show();
+        }
+      }
+    });
+  }
+</script>

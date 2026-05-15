@@ -1,0 +1,143 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "166051406013636777": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\ndiv[data-section-id=\"header\"] { position: absolute; width: 100%; z-index: 1; }\n.site-header {background: transparent; color: #fff;}\n.site-nav__link, .header-logo a, .site-header__logo a {color:#fff;}\n</style>"
+      }
+    },
+    "slideshow_UxiQmE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_6nJ8La": {
+          "type": "image",
+          "settings": {
+            "title": "We Are Loni",
+            "title_size": 90,
+            "subheading": "With a vision of a healthier future for generations to come, we’re on a mission to do good for humans and the planet.",
+            "link": "/collections/home",
+            "link_text": "Shop Now",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/loni-test-2.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_6nJ8La"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>At Loni, we believe that a cleaner world starts with a cleaner home. Inspired by nature and perfected with science, our collection raises the standard for safe, sustainable, and effective laundry care. </p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": true
+      }
+    },
+    "text_and_image_WRdNdy": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/noah-buscher-x8ZStukS2PM-unsplash.jpg",
+        "video_link": "",
+        "image_width": 600,
+        "subtitle": "",
+        "title": "Good For You, Good For the Planet",
+        "text": "<p>Most laundry care products rely on harsh synthetics and petrochemicals that pollute the environment and absorb into our skin, causing irritation, extreme dryness, and more. At Loni, we formulate our bio laundry products with natural, non-toxic ingredients that are hypoallergenic and safe for you, your family, and your home. We say no to carcinogens, toxins, skin irritants, artificial fragrances, and harsh chemicals, so you can too. </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "text_and_image_Jk67zb": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/chuttersnap-UmncJq4KPcA-unsplash_1.jpg",
+        "video_link": "",
+        "image_width": 600,
+        "subtitle": "",
+        "title": "The Power of Enzymes",
+        "text": "<p>Our bio detergents tackle dirty laundry with clean science. Phytolase, our advanced enzyme technology, actively breaks down stains into microscopic, water-soluble components that wash away with water for an <em>ultra-clean</em> clean. Tiny enzymes, big results.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "alt": false
+      }
+    },
+    "text_and_image_8Qw9F8": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/matthew-tkocz-q697-Akhwkc-unsplash.jpg",
+        "video_link": "",
+        "image_width": 600,
+        "subtitle": "",
+        "title": "Concentrated Cleaning",
+        "text": "<p>Compared to traditional laundry detergents, our consciously crafted formulas are ultra-concentrated and come in planet-friendly, plastic-free packaging. Meaning less really is more—less waste, more powerful wash cycles.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166051406013636777",
+    "slideshow_UxiQmE",
+    "rich-text",
+    "text_and_image_WRdNdy",
+    "text_and_image_Jk67zb",
+    "text_and_image_8Qw9F8",
+    "form"
+  ]
+}

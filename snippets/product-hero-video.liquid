@@ -1,0 +1,88 @@
+{% if product.metafields.custom.hero_videos != blank %}
+  <style>#hero-video-modal video { width: 100%; } #hero-video-modal .modal__container { padding: 0; background: transparent; max-width: 85vw; } #hero-video-modal .modal__close { background: #fff; border: 0; border-radius: 50%; font-size: 30px; width: 50px; height: 50px; max-width: 50px; max-height: 50px; display: flex; align-items: center; justify-content: center; } #hero-video-modal .modal__close { position: fixed; top: 40px; right: 10px; border: 0; box-shadow: none; z-index: 999999; } .video-poster { position: relative; cursor: pointer; } .video-poster .play-button { position: absolute; left: calc(50% - 60px); top:  calc(50% - 60px); max-width: 120px; } .video-poster img.main-vid, .modal-video { display: none; } .video-poster img.main-vid.active, .modal-video.active { display: block; } @media screen and (max-width: 600px) { #hero-video-modal .modal__close { background: transparent; color: #fff; font-size: 20px; font-weight: bold; top: 25px; right: 35px; } }</style>
+  <div class="modal micromodal-slide" id="hero-video-modal" aria-hidden="true">
+    <div class="modal__overlay" tabindex="-1" data-micromodal-close">
+      <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+        <header class="modal__header">
+          <button class="modal__close" aria-label="Close modal" data-micromodal-close"></button>
+        </header>
+        <main class="modal__content" id="modal-1-content">
+          {% for video in product.metafields.custom.hero_videos.value.videos %}
+             <video class="modal-video {% if video.variant != blank %}{{ video.variant }}{% endif %}{% if forloop.index0 == 0 %} active{% endif %}" controls>
+              <source src="{{ video.url }}" type="video/mp4">
+             </video>
+          {% endfor %}
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <div class="video-poster">
+    {% for video in product.metafields.custom.hero_videos.value.videos %}
+      <img data-variant="{% if video.variant != blank %}{{ video.variant }}{% endif %}" class="main-vid {% if video.variant != blank %}{{ video.variant }}{% endif %}{% if forloop.index0 == 0 %} active{% endif %}" src="{{ video.poster }}" data-url="{{ video.url }}"/>
+    {% endfor %}
+  </div>
+
+  <script src="{{ 'micromodal.js' | asset_url }}"></script>
+  <script>
+    function updateVideo(variantLabel) {
+      if (variantLabel) {
+        var variant = $(".variant-input-wrap[data-handle='"+variantLabel+"'] input:checked").val().toLowerCase();
+        $('.video-poster img').removeClass('active');
+        $('.video-poster img.' + variant).addClass('active');
+        $('#hero-video-modal .modal-video').removeClass('active');
+        $('#hero-video-modal .modal-video.' + variant).addClass('active');
+      }
+      if ($(window).width() < 960) {
+        $(".video-poster").detach().prependTo('.mobile-only');
+        {% for video in product.metafields.custom.hero_videos.value.videos %}
+        $(".modal-video{% if video.variant != blank %}.{{ video.variant }}{% endif %} source").attr("src", "{{ video.mobile_url }}")
+        {% endfor %}
+      } else {
+        $(".video-poster").detach().prependTo('.desktop-only');
+      }
+    }
+    
+    function pauseModalVideo() {
+      $('.modal-video').each(function() {
+        $(this).get(0).pause();
+      });
+    }
+
+    $(".video-poster .main-vid").click(function() {
+      var variant = $(this).data('variant');
+      if (variant) {
+        $('.modal-video.' + variant).get(0).play();
+      } else {
+        $('.modal-video').get(0).play();
+      }
+      MicroModal.show('hero-video-modal');
+    });
+    
+    $(".modal__overlay, .modal__close").click(function() {
+      pauseModalVideo();
+      MicroModal.close('hero-video-modal');
+    });
+    
+    
+    $(window).resize(function() {
+      updateVideo();
+    });
+    
+    $(document).ready(function(){
+      MicroModal.init();
+      updateVideo();
+      $("#hero-video-modal").detach().appendTo('body');
+      {% if product.metafields.custom.hero_videos.value.videos[0].variant_label != blank %}
+        {% comment %}If video is variant dependent, then check selected variant on load and update video accordingly.{% endcomment %}
+        $(".variant-input").click(function() {
+          updateVideo('{{ product.metafields.custom.hero_videos.value.videos[0].variant_label }}');
+        });
+        updateVideo('{{ product.metafields.custom.hero_videos.value.videos[0].variant_label }}');
+      {% endif %}
+    });
+
+
+  </script>
+
+{% endif %}

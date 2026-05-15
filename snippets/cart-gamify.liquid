@@ -1,0 +1,440 @@
+{% comment %}
+  ***** Gamified Cart ******
+  - Customers can recieve free gift(s) if they reach a subtotal threshold in their cart.
+{% endcomment %}
+
+<style>
+  #CartDrawerForm {
+    padding-top: 130px;
+  }
+  .remove-gift {
+    font-size: 11px;
+    border: 1px solid #fff;
+    padding: 3px 14px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .template-cart .remove-gift {
+    border-color: #000;
+  }
+  .remove-gift:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .cart__item.free-gift .cart__item--qty {
+/*     display: none; 
+    position: absolute;
+    left: -999999px;
+    pointer-events: none; */
+  }
+  .drawer__header {
+    display: block; 
+    align-items: center;
+    height: unset;
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 10;
+    position: absolute;
+    top: -11px;
+    right: -30px;
+  }
+  #progress-bar {
+    text-align: center;
+    position: absolute;
+    margin: 30px 0;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    background-color: #141416;
+    width: 100%;
+    z-index: 9;
+    border-bottom: 1px solid rgba(255,255,255,0.2); 
+  }
+  #progress-bar .text {
+    font-size: 13px;
+  }
+  #progress-bar .progress-bar {
+    width: 100%;
+    background-color: #EBEBEB;
+    border-radius: 3px;
+    margin-bottom: 4px;
+  }
+  #progress-bar .progress-bar-fill {
+    display: block;
+    height: 8px;
+    background-color: #008060;
+    border-radius: 1px;
+    transition: width 500ms ease-in-out;
+  }
+  #progress-bar .level {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 18px;
+    border: 6px solid #EBEBEB;
+    background-size: 160%;
+    background-position: center;
+  }
+  #progress-bar .level .level-threshold {
+    position: absolute; 
+    top: -20px;
+    left: 0%;
+    width: 100%;
+    font-size: 11px;
+    line-height: 10px;
+  }
+  #progress-bar .level-one::before {
+    content: 'Free US Shipping';
+    font-size: 8px;
+    position: absolute;
+    top: 27%;
+    line-height: 10px;
+    color: #333;
+    letter-spacing: 0;
+  }
+  #progress-bar .level-one {
+    left: calc(10% - 30px);
+  }
+  #progress-bar .level-two {
+    left: calc(36% - 30px);
+    background-size: contain;
+    background-image: url('https://cdn.shopify.com/s/files/1/0522/5309/8141/files/gift.png?v=1675245837');
+    background-repeat: no-repeat;
+  }
+  #progress-bar .level-three {
+    left:  calc(63% - 30px);
+    background-size: contain;
+    background-image: url('https://cdn.shopify.com/s/files/1/0522/5309/8141/files/gift.png?v=1675245837');
+    background-repeat: no-repeat;
+  }
+  #progress-bar .level-four {
+    left:  calc(90% - 30px);
+    background-size: contain;
+    background-image: url('https://cdn.shopify.com/s/files/1/0522/5309/8141/files/gift.png?v=1675245837');
+    background-repeat: no-repeat;
+  }
+  .divider {
+    content: '';
+    display: block;
+    width: calc(100%+42px);
+    height: 1px;
+    background-color: #EBEBEB;
+    margin-left: -42px;
+    margin-right: -42px;
+    margin-bottom: 0;
+  }
+  .progress-text {
+    width: 100%;
+    position: absolute;
+    top: -22px;
+    text-align: center;
+    font-size: 12px;
+  }
+  .free-gift-button {
+    display: none;
+    color: #fff;
+    position: absolute;
+    bottom: -16px;
+    left: 25%;
+    padding: 6px 20px;
+    font-size: 12px;
+    background-color: #008060;
+    letter-spacing: 0;
+    margin: auto;
+    border-radius: 4px;
+  }
+  @media screen and (max-width: 600px) {
+    .progress-text {
+      font-size: 10px;
+    }
+  }
+</style>
+
+<div id="progress-bar">
+  <div class="progress-text"></div>
+  <div class="level level-one"><div class="level-threshold">$99</div></div> 
+  <div class="level level-two"><div class="level-threshold">$149</div></div>
+  <div class="level level-three"><div class="level-threshold">$199</div></div>
+  <div class="level level-four"><div class="level-threshold">$249</div></div>
+  <div class="progress-bar">
+    <span class="progress-bar-fill" style="width: 0%;"></span>
+  </div>
+  <div class="text"></div>
+  <a class="free-gift-button bounce-top" href="/products/free-gift">🎁 Click Here To Claim Your Gift</a>
+</div>
+<div class="divider"></div>
+
+
+<script>
+
+  function maxGiftQty(Id) {
+    $.ajax({
+      type: "POST",
+      url: "/cart/change.js",
+      data: {
+        id: Id,
+        quantity: 1,
+      },
+    }).then((data) => {});
+  }
+  
+  function removeGifts(productIds) {
+    var updates = {};
+    for (var i = 0; i < productIds.length; i++) {
+      updates[productIds[i]] = 0;
+    }
+    $.post('/cart/update.js', {
+      updates: updates,
+      success: function(response) {
+        console.log('Removed gift from cart');
+      }
+    });
+  }
+
+  function removeSingleItem(productId) {
+    $.ajax({
+      type: "POST",
+      url: "/cart/change.js",
+      dataType: "json",
+      data: {
+        id: parseFloat(productId),
+        quantity: 0,
+      },
+    }).then((data) => {
+      var event = new Event('cart:build');
+      document.dispatchEvent(event);
+    });
+  }
+  
+  function isInCart(productSKU, cart, callback) {
+    for (var i = 0; i < cart.items.length; i++) {
+      var item = cart.items[i];
+      if (item.sku.includes(productSKU)) { 
+        callback(true);
+        return;
+      }
+    }
+    callback(false); 
+  }
+
+  function isBundleGiftInCart(cart) {
+    for (var i = 0; i < cart.items.length; i++) {
+      var item = cart.items[i];
+      if (item.properties.is_free_item == true) {
+        // Replace level 2 image with product
+        $("#progress-bar .level-two").css("background-image", "url('" + item.image + "')")
+        return true;
+      }
+    }
+    $("#progress-bar .level-two").css("background-image", "url('" + gift.levelTwo.image + "')")
+    return false;
+  }
+  
+  function updateProgressText(cartTotal, level, product, currency) {
+    if (level == false) {
+      $(".progress-text").hide();
+      return;
+    } else {
+      $(".progress-text").show();
+    }
+    var currencySymbol = '';
+    if (currency == "USD") {
+      currencySymbol = "$";
+    }
+    var remainingPrice = (level - cartTotal);
+    var text = 'You are ' + currencySymbol + remainingPrice.toFixed(2) + ' away from ' + product;
+    $(".progress-text").html(text);
+  }
+
+  $("#progress-bar").click(function() {
+    giftCheck();
+  });
+
+  function updateShippingBar() {
+    console.log('Gift Progress Bar Updated');
+    $.getJSON('/cart.js', function(cart) {    
+      if (cart.currency == "USD") {
+        var totalPrice = cart.total_price / 100;  
+        var levelOne = 99;
+        var levelTwo = 149;
+        var levelThree = 199;
+        var levelFour = 249;
+      } else {
+        var amount = cart.total_price / 100;
+        var fromCurrency = cart.currency;
+        var toCurrency = "USD";
+        var exchangeRate = Currency.rates[toCurrency] / Currency.rates[fromCurrency];
+        var convertedAmount = amount * exchangeRate;
+        var totalPrice = amount.toFixed(2);  
+        var levelOne = (99 * exchangeRate).toFixed(2); 
+        var levelTwo = (149 * exchangeRate).toFixed(2); 
+        var levelThree = (199 * exchangeRate).toFixed(2); 
+        var levelFour = (249 * exchangeRate).toFixed(2); 
+        $('#progress-bar .level-one .level-threshold').html(levelOne + ' ' +  cart.currency);
+        $('#progress-bar .level-two .level-threshold').html(levelTwo + ' ' +  cart.currency);
+        $('#progress-bar .level-three .level-threshold').html(levelThree + ' ' +  cart.currency);
+        $('#progress-bar .level-four .level-threshold').html(levelFour + ' ' +  cart.currency);
+      }
+      var progressBarPercentage = (totalPrice / levelThree) * 100;
+      if (totalPrice > levelOne && totalPrice < levelTwo) {
+        $(".progress-bar-fill").css("width", "10%");
+        $("#progress-bar .level-one").css("border-color", "#008060");
+        $("#progress-bar .level-two").css("border-color", "#EBEBEB");
+        $("#progress-bar .level-three").css("border-color", "#EBEBEB");
+        $("#progress-bar .level-four").css("border-color", "#EBEBEB");
+      } else if (totalPrice > levelTwo && totalPrice < levelThree) {
+        $(".progress-bar-fill").css("width", "36%");
+        $("#progress-bar .level-one").css("border-color", "#008060");
+        $("#progress-bar .level-two").css("border-color", "#008060");
+        $("#progress-bar .level-three").css("border-color", "#EBEBEB");
+        $("#progress-bar .level-four").css("border-color", "#EBEBEB");
+      } else if (totalPrice > levelThree && totalPrice < levelFour) {
+        $(".progress-bar-fill").css("width", "63%");
+        $("#progress-bar .level-one").css("border-color", "#008060");
+        $("#progress-bar .level-two").css("border-color", "#008060");
+        $("#progress-bar .level-three").css("border-color", "#008060");
+        $("#progress-bar .level-four").css("border-color", "#EBEBEB");
+      } else if (totalPrice > levelFour) {
+        $(".progress-bar-fill").css("width", "100%");
+        $("#progress-bar .level-one").css("border-color", "#008060");
+        $("#progress-bar .level-two").css("border-color", "#008060");
+        $("#progress-bar .level-three").css("border-color", "#008060");
+        $("#progress-bar .level-four").css("border-color", "#008060");
+      } else {
+        $(".progress-bar-fill").css("width", "0%");
+        $("#progress-bar .level").css("border-color", "#EBEBEB");
+      }
+    });
+  }
+  
+  function giftCheck() {
+    let giftCount = 0;
+    let giftIds = [];
+    $(".cart__form").addClass("processing");
+    $.getJSON('/cart.js', function(cart) {
+      console.log(cart);
+      cart.items.forEach(function(item) {
+        if (item.handle == "free-gift") {
+          giftCount++;
+          giftIds.push(item.variant_id);
+          if (item.quantity > 1) {
+            maxGiftQty(item.variant_id);
+          }
+        }
+      });
+      if (cart.currency == "USD") {
+        var cartTotal = cart.total_price / 100;  
+        var levelOne = 99;
+        var levelTwo = 149;
+        var levelThree = 199;
+        var levelFour = 249;
+      } else {
+        var amount = cart.total_price / 100;
+        var fromCurrency = cart.currency;
+        var toCurrency = "USD";
+        var exchangeRate = Currency.rates[toCurrency] / Currency.rates[fromCurrency];
+        var convertedAmount = amount * exchangeRate;
+        var cartTotal = amount.toFixed(2);  
+        var levelOne = (99 * exchangeRate).toFixed(2); 
+        var levelTwo = (149 * exchangeRate).toFixed(2); 
+        var levelThree = (199 * exchangeRate).toFixed(2); 
+        var levelFour = (249 * exchangeRate).toFixed(2); 
+      }
+      
+      // ****** Level 0 ******
+      if (cartTotal < levelOne) {
+        updateProgressText(cartTotal, levelOne, 'Free Shipping', cart.currency);
+        $(".free-gift-button").hide();
+        // Remove all gifts
+        giftIds.forEach(function(giftId) {
+          removeSingleItem(giftId);
+        });
+      }
+      
+      // ****** Level 1 ******
+      if (cartTotal > 99 && cartTotal < levelTwo) {
+        // Free Shipping
+        $(".free-gift-button").hide();
+        updateProgressText(cartTotal, levelTwo, 'a free gift!', cart.currency);
+        // Remove all gifts
+        giftIds.forEach(function(giftId) {
+          removeSingleItem(giftId);
+        });
+      }
+      
+      // ****** Level 2 ******
+      if (cartTotal > levelTwo && cartTotal < levelThree) {
+        if (giftCount < 1) {
+          $(".free-gift-button").show();
+        }
+        if (giftCount > 1) {
+          // Remove all gifts but the first one.
+          giftIds.forEach(function(giftId, index) {
+            if (index === 0) {
+              return;
+            }
+            removeSingleItem(giftId);
+          });
+        }
+        if (giftCount == 1) {
+          $(".free-gift-button").hide();
+        }
+        updateProgressText(cartTotal, levelThree, 'another free gift!', cart.currency);
+      }
+      
+      // ****** Level 3 ******
+      if (cartTotal > levelThree && cartTotal < levelFour) {
+        if (giftCount < 2) {
+          $(".free-gift-button").show();
+        }
+        if (giftCount > 2) {
+          // Remove all gifts but the two.
+          giftIds.forEach(function(giftId, index) {
+            if (index < 2) {
+              return;
+            }
+            removeSingleItem(giftId);
+          });
+        }
+        if (giftCount == 2) {
+          $(".free-gift-button").hide();
+        }
+        updateProgressText(cartTotal, false, false, cart.currency);
+      }
+
+      // ****** Level 4 ******
+      if (cartTotal > levelFour) {
+        if (giftCount < 3) {
+          $(".free-gift-button").show();
+        }
+        if (giftCount > 3) {
+          // Remove all gifts but the two.
+          giftIds.forEach(function(giftId, index) {
+            if (index < 3) {
+              return;
+            }
+            removeSingleItem(giftId);
+          });
+        }
+        if (giftCount == 3) {
+          $(".free-gift-button").hide();
+        }
+        updateProgressText(cartTotal, false, false, cart.currency);
+      }
+    });
+    updateShippingBar();
+    var event = new Event('cart:build');
+    document.dispatchEvent(event);
+  }
+</script>

@@ -1,0 +1,392 @@
+{% unless product.metafields.product.usage == blank or product.metafields.product.benefits == blank %}
+  {%  unless product.metafields.product.ingredients == blank and product.metafields.product.dynamic_ingredients == blank %}
+    <style>
+      #product-info {
+        padding: 100px 40px;
+        background-color: #1D1D1E;
+        color: #fff;
+      }
+      .accordion__title.h2 {
+        font-family: Sugo Pro Classic;
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: 1px;
+        color: #fff;
+        margin: 0;
+      }
+      .accordion {
+        position: relative;
+        color: #fff;
+        cursor: pointer;
+        padding: 26px 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 20px;
+        transition: 0.4s;
+        display: block;
+        border-top: 2px solid #fff;
+      }
+      .accordion.last {
+        border-bottom: 2px solid #fff;
+      }
+      .accordion__inner .rte {
+        padding: 20px;
+      }
+      .accordion:hover {
+        opacity: 0.7;
+      }
+      .panel {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+      .panel p {
+        padding: 0 20px;
+      }
+      .tab {
+        overflow: hidden;
+        margin: 0;
+        display: flex;
+        max-width: 400px;
+        width: 100%;
+      }
+    
+      .tab button {
+        font-family: 'Instruction', sans-serif;
+        background-color: inherit;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 16px;
+        transition: 0.3s;
+        border: 2px solid #fff;
+        font-size: 16px;
+        border-radius: 2px;
+        color: #fff;
+        opacity: 0.7;
+        margin: 0 4px;
+      }
+      /* Create an active/current tablink class */
+      .tab button.active {
+        border-color: #fff;
+        opacity: 1;
+      }
+    
+      /* Style the tab content */
+      .tabcontent {
+        display: none;
+        animation: fadeEffect 1s; /* Fading effect takes 1 second */
+      }
+    
+      /* Go from zero to full opacity */
+      @keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+      }
+      #product-info .left {
+        margin-right: auto; width: 40%;
+      }
+      #accordion-container {
+        padding-left: 40px;
+      }
+      .accordion::after {
+        content: '';
+        display: block;
+        height: 10px;
+        width: 10px;
+        position: absolute;
+        background-image: url('https://cdn.shopify.com/s/files/1/0522/5309/8141/files/plus-icon.svg?v=1661124363');
+        background-size: contain;
+        right: 10px;
+        top: 45%;
+        filter: invert(1);
+      }
+      .accordion.active::after {
+        background-image: url('https://cdn.shopify.com/s/files/1/0522/5309/8141/files/minus-icon.svg?v=1661124363');
+      }
+      .flex-container {
+        display: flex;
+      }
+      h2 {
+        font-size: 70px; letter-spacing: -5px;
+      }
+      @media screen and (max-width: 600px) {
+        #product-info {
+          padding: 80px 0px;
+          background-color: #1D1D1E;
+          color: #fff;
+        }
+        .tab button {
+          font-size: 14px;
+        }
+        .tab {
+          justify-content: center;
+        }
+        .tab-ingredient-container {
+          padding: 50px 20px;
+        }
+        .accordion__title.h2 {
+          font-size: 20px;
+        }
+        #product-info {
+          flex-direction: column;
+        }
+        #product-info .left {
+          width: 100%;
+          margin-bottom: 40px;
+        }
+        .flex-container {
+           flex-direction: column;
+        }
+        #accordion-container {
+          padding-left: 0px;
+        }
+        h2 {
+          font-size: 50px; letter-spacing: -5px;
+        }
+      }
+    
+    </style>
+    
+    <div id="product-info">
+    
+      <div class="page-width flex-container" style="">
+    
+      <div class="left">
+    
+        <h2 style="">the basics</h2>
+    
+        <div id="accordion-container">
+    
+          {% if product.metafields.product.usage != blank %}
+          <button class="accordion">Usage</button>
+          <div class="panel">
+            {{ product.metafields.product.usage }}
+          </div>
+          {% endif %}
+      
+          {% if product.metafields.product.ingredients != blank and product.metafields.product.ingredients_are_dynamic != true %}
+          <button class="accordion">Ingredients</button>
+          <div class="panel">
+            <p>{{ product.metafields.product.ingredients }}</p>
+          </div>
+          {% endif %}
+
+          {% if product.metafields.product.dynamic_ingredients != blank and product.metafields.product.ingredients_are_dynamic == true and product.metafields.product.dynamic_ingredients.value.option %}
+          <button class="accordion" id="dynamic-ingredients-accordian-button">Ingredients</button>
+          <div class="panel">
+            <p id="dynamic-ingredients-display">{{ product.metafields.product.ingredients }}</p>
+          </div>
+
+
+          <!--      Script to change Ingredients in and out      -->
+          <script>
+            // Set Ingredients options json
+            const dynamicIngredientOptions = {{product.metafields.product.dynamic_ingredients.value | json }}
+            
+            // Set ingredients intially
+            $(document).ready(function(){
+
+            if (dynamicIngredientOptions.option2) {
+        
+              // Get Initial Option 1 Value
+              const initialOption1Value = $(`input[name=${dynamicIngredientOptions.option}]:checked`).val();
+
+              // Get Initial Option 2 Value
+              const initialOption2Value = $(`input[name=${dynamicIngredientOptions.option2}]:checked`).val();
+
+              // If Initial option 1 has text options -- input that
+              if (dynamicIngredientOptions.ingredients_options[initialOption1Value] && typeof dynamicIngredientOptions.ingredients_options[initialOption1Value] === "string") {
+                $("#dynamic-ingredients-display").text(dynamicIngredientOptions.ingredients_options[initialOption1Value])
+                return
+              }
+
+              // Get Values from option 2
+              if (dynamicIngredientOptions.ingredients_options[initialOption1Value] && dynamicIngredientOptions.ingredients_options[initialOption1Value][initialOption2Value]) {
+                $("#dynamic-ingredients-display").text(dynamicIngredientOptions.ingredients_options[initialOption1Value][initialOption2Value])
+              }
+            
+              return;
+            
+            }
+
+            // Get initial option value
+            const initialValue = $(`input[name=${dynamicIngredientOptions.option}]:checked`).val();
+
+            // Check for ingredients for that option
+            const initialIngredients = dynamicIngredientOptions.ingredients_options[initialValue];
+
+            // Display ingredients if they exist
+            if (initialIngredients) {
+              $("#dynamic-ingredients-display").text(initialIngredients)
+            }
+
+
+            
+            })
+
+
+            // Set new ingredients on swatch select of option 1
+            $(`input[name=${dynamicIngredientOptions.option}]`).on("change", function(){
+
+                if (dynamicIngredientOptions.option2) {
+          
+                  // Get New Option 1 Value
+                  const newOption1Value = $(`input[name=${dynamicIngredientOptions.option}]:checked`).val();
+    
+                  // Get New Option 2 Value
+                  const newOption2Value = $(`input[name=${dynamicIngredientOptions.option2}]:checked`).val();
+    
+                  // If New option 1 has text options -- input that
+                  if (dynamicIngredientOptions.ingredients_options[newOption1Value] && typeof dynamicIngredientOptions.ingredients_options[newOption1Value] === "string") {
+                    $("#dynamic-ingredients-display").text(dynamicIngredientOptions.ingredients_options[newOption1Value])
+
+                    // Reset Height of ingredients display
+                    $("#dynamic-ingredients-accordian-button").click().click()
+                    
+                    return
+                  }
+    
+                  // Get Values from option 2
+                  if (dynamicIngredientOptions.ingredients_options[newOption1Value] && dynamicIngredientOptions.ingredients_options[newOption1Value][newOption2Value]) {
+                    $("#dynamic-ingredients-display").text(dynamicIngredientOptions.ingredients_options[newOption1Value][newOption2Value])
+                  }
+
+                  // Reset Height of ingredients display
+                  $("#dynamic-ingredients-accordian-button").click().click()
+                  
+                  return;
+              
+              }
+
+              // Get new option value
+              const newValue = $(`input[name=${dynamicIngredientOptions.option}]:checked`).val();
+
+              // Check for ingredients for that option
+              const newIngredients = dynamicIngredientOptions.ingredients_options[newValue];
+
+              // Display ingredients if they exist
+              if (newIngredients) {
+                $("#dynamic-ingredients-display").text(newIngredients)
+              }
+
+              // Reset Height of ingredients display
+              $("#dynamic-ingredients-accordian-button").click().click()
+            
+            })
+
+
+            // Set new ingredients on swatch select of option 2
+            if (dynamicIngredientOptions.option2) {
+              $(`input[name=${dynamicIngredientOptions.option2}]`).on("change", function(){
+  
+                  if (dynamicIngredientOptions.option2) {
+            
+                    // Get New Option 1 Value
+                    const newOption1Value = $(`input[name=${dynamicIngredientOptions.option}]:checked`).val();
+      
+                    // Get New Option 2 Value
+                    const newOption2Value = $(`input[name=${dynamicIngredientOptions.option2}]:checked`).val();
+      
+                    // If New option 1 has text options -- input that
+                    if (dynamicIngredientOptions.ingredients_options[newOption1Value] && typeof dynamicIngredientOptions.ingredients_options[newOption1Value] === "string") {
+                      $("#dynamic-ingredients-display").text(dynamicIngredientOptions.ingredients_options[newOption1Value])
+
+                      // Reset Height of ingredients display
+                      $("#dynamic-ingredients-accordian-button").click().click()
+                      
+                      return
+                    }
+      
+                    // Get Values from option 2
+                    if (dynamicIngredientOptions.ingredients_options[newOption1Value] && dynamicIngredientOptions.ingredients_options[newOption1Value][newOption2Value]) {
+                      $("#dynamic-ingredients-display").text(dynamicIngredientOptions.ingredients_options[newOption1Value][newOption2Value])
+                    }
+
+                    // Reset Height of ingredients display
+                    $("#dynamic-ingredients-accordian-button").click().click()
+            
+                    return;
+                
+                }
+  
+                // Get new option value
+                const newValue = $(`input[name=${dynamicIngredientOptions.option}]:checked`).val();
+  
+                // Check for ingredients for that option
+                const newIngredients = dynamicIngredientOptions.ingredients_options[newValue];
+  
+                // Display ingredients if they exist
+                if (newIngredients) {
+                  $("#dynamic-ingredients-display").text(newIngredients)
+                }
+
+                // Reset Height of ingredients display
+                $("#dynamic-ingredients-accordian-button").click().click()
+              
+              })
+            }
+          </script>
+          {% endif %}
+      
+          {% if product.metafields.product.benefits != blank %}
+          <button id="defaultOpen" class="accordion">Benefits</button>
+          <div class="panel">
+            {{ product.metafields.product.benefits }}
+          </div>
+          {% endif %}
+    
+          <div style="height: 2px; width: 100%; display: block; background-color: #fff;"></div>
+    
+        </div>
+        
+      </div>
+    
+    <video class="video-div" style="object-fit: cover; width: 100%; max-width: 600px; max-height: 800px;" data-type="mp4" src="{% if product.metafields.custom.product_info_video != blank %}{{ product.metafields.custom.product_info_video }}{% else %}https://cdn.shopify.com/videos/c/o/v/47b7343edc4a4f468b30bfef7cc1360a.mp4{% endif %}" loop="" muted="" playsinline="" autoplay=""></video>
+    
+      </div>
+    </div>
+    
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+    
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function(e) {
+          e.preventDefault();
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+          }
+        });
+      }
+      document.getElementById("defaultOpen").click();
+    
+      function openTab(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+    
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+    
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+    
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
+    {% endunless %}
+{% endunless %}

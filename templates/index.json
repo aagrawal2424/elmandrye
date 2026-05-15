@@ -1,0 +1,278 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "738eeae6-d55d-472e-a964-f21e80d675b2": {
+      "type": "slideshow",
+      "blocks": {
+        "image_MYnaJD": {
+          "type": "image",
+          "settings": {
+            "title": "FREE BIO DETERGENT YOU'LL \nFEEL GOOD ABOUT",
+            "title_size": 40,
+            "subheading": "Spend $200+ to receive a free bottle of the best-selling \"bio\" detergent",
+            "link": "https://elmandrye.com/collections/products",
+            "link_text": "SHOP NOW",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/loni-test-1.png",
+            "focal_point": "center center"
+          }
+        },
+        "template--16636909846740__738eeae6-d55d-472e-a964-f21e80d675b2-16717368271eab4853-0": {
+          "type": "image",
+          "settings": {
+            "title": "Modern Supplements \nFor A Healthier You",
+            "title_size": 70,
+            "subheading": "Science Backed. Research Based.",
+            "link": "shopify://pages/quiz",
+            "link_text": "Take the quiz",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/2412124_copy.jpg",
+            "image_mobile": "shopify://shop_images/24_copy4_1a6102df-51a1-4589-b0c5-d685cea0aa1e.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_MYnaJD",
+        "template--16636909846740__738eeae6-d55d-472e-a964-f21e80d675b2-16717368271eab4853-0"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 40,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "166050714297523b7b": {
+      "type": "logo-list",
+      "blocks": {
+        "1660507142067c568e-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/forbes.png",
+            "link": "",
+            "testimonial": "The #1 supplement brand."
+          }
+        },
+        "1660507142067c568e-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/discoverlogo.png",
+            "link": "",
+            "testimonial": "“World's best supplement brand to keep you healthy.”"
+          }
+        },
+        "1660507142067c568e-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/mens.png",
+            "link": "",
+            "testimonial": "\"The simple and straightforward attitude of the company is praiseworthy.\""
+          }
+        },
+        "276f3ff6-051c-4442-b8ae-260732560331": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/salt.png",
+            "link": "",
+            "testimonial": "\"Elm and Rye supplements are a great way to improve your overall health.\""
+          }
+        },
+        "1660507142067c568e-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/lamag.png",
+            "link": "",
+            "testimonial": "\"Elm & Rye should be your first choice.\""
+          }
+        }
+      },
+      "block_order": [
+        "1660507142067c568e-1",
+        "1660507142067c568e-0",
+        "1660507142067c568e-2",
+        "276f3ff6-051c-4442-b8ae-260732560331",
+        "1660507142067c568e-3"
+      ],
+      "settings": {
+        "title": "",
+        "class": "",
+        "logo_opacity": 76,
+        "alt": true
+      }
+    },
+    "166051919869f20eff": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"display: block; margin: 100px 0;\"></div>"
+      }
+    },
+    "featured-collection-slider": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "Best Sellers",
+        "description": "Optimize Your Mind & Body",
+        "home_featured_products": "best-sellers",
+        "per_row": "small",
+        "alt": false
+      }
+    },
+    "16605188102d20b33e": {
+      "type": "advanced-content",
+      "blocks": {
+        "1660518810d075cf42-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<center><a href=\"/collections/products\">See All Supplements</a></center>\n<div style=\"display: block; margin: 100px 0;\"></div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1660518810d075cf42-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "alt": false
+      }
+    },
+    "166052124592965993": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/mic124.png",
+        "video_link": "",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Transparent Supply Chain With 0 Shortcuts",
+        "text": "<p>Each and every one of our supplements are meticulously researched, formulated, and approved by our research team. We only use ingredients that have been third party tested and backed by peer reviewed studies. </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "alt": true
+      }
+    },
+    "1660469380dcfea581": {
+      "type": "hero-video",
+      "settings": {
+        "title": "New Science,\nBuilt On Ancient Roots",
+        "product": "",
+        "title_size": 60,
+        "subheading": "Our nutrition team sources the best nutrients from around the globe to ensure our products are using the least amount of altering as possible. This means all of our supplements are pesticide free, cruelty free, low fuss manufacturing, and our whey protein is produced only with free range, pasture raised cows.",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-left",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/23052c1659074312afaf37661b38d6bd.mp4",
+        "section_height": "750px",
+        "mobile_height": "auto"
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/pexels-tara-winstead-7110136.jpg",
+        "image2": "shopify://shop_images/vanilla.jpg",
+        "video_link": "",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Continuous Improvement",
+        "text": "<p>Science is always evolving. As such, we're constantly altering our formulations as new research, extraction methods, and technological advances are discovered. We're not focused on having the most products on the market. Instead, we strive for the best of the best in what we create.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "align_text": "left",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "text-and-image-2": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/pexels-cottonbro-7191414.jpg",
+        "image2": "shopify://shop_images/pexels-artem-podrez-5726697.jpg",
+        "video_link": "",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Transparent Testing",
+        "text": "<p>We test, test, and test again. Of our company values, testing ranks as #1. Because of this, you can find third party testing for our products available on our site. All testing takes place domestically, making sure we only release supplements that meet our standard.</p><p><a href=\"https://elmandrye.com/pages/lab-results\">View Lab Results</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "secondary",
+        "align_text": "left",
+        "layout": "left",
+        "alt": false
+      }
+    },
+    "16605203929f15eb47": {
+      "type": "text-and-image",
+      "settings": {
+        "image2": "shopify://shop_images/3.jpg",
+        "video_link": "https://cdn.shopify.com/videos/c/o/v/bd974c7c89cf4cd180c4bb8ed2b530c0.mp4",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Don't know where to start?",
+        "text": "<p>Click below to take a survey. We'll ask you a few questions then we'll curate a list of supplements customized around your lifestyle and needs.</p><p><a href=\"https://elmandrye.com/pages/quiz\">TAKE THE QUIZ</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "16636296058d901d77": {
+      "type": "medical-advisory-board",
+      "settings": {}
+    },
+    "1660521969271627a5": {
+      "type": "advanced-content",
+      "blocks": {
+        "c3920533-8a5c-4388-a7f9-a968e6f2428a": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"text-align: center\">\n<h2 style=\"font-weight: 600; font-size: 50px; margin-bottom: 24px;\">Ready to get started?</h2>\n<p><a class=\"btn btn--inverse\" style=\"min-width: 300px;\" href=\"/pages/quiz\">Take the quiz</a></p>\n<p>\n<a href=\"/collections/products\">Browse all products</a></p>\n</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "c3920533-8a5c-4388-a7f9-a968e6f2428a"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "alt": true
+      }
+    }
+  },
+  "order": [
+    "738eeae6-d55d-472e-a964-f21e80d675b2",
+    "166050714297523b7b",
+    "166051919869f20eff",
+    "featured-collection-slider",
+    "16605188102d20b33e",
+    "166052124592965993",
+    "1660469380dcfea581",
+    "text-and-image",
+    "text-and-image-2",
+    "16605203929f15eb47",
+    "16636296058d901d77",
+    "1660521969271627a5"
+  ]
+}

@@ -1,0 +1,143 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "166051406013636777": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\ndiv[data-section-id=\"header\"] { position: absolute; width: 100%; z-index: 1; }\n.site-header {background: transparent; color: #fff;}\n.site-nav__link, .header-logo a, .site-header__logo a {color:#fff;}\n</style>"
+      }
+    },
+    "slideshow_UxiQmE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_6nJ8La": {
+          "type": "image",
+          "settings": {
+            "title": "We Are Saint Felix",
+            "title_size": 90,
+            "subheading": "",
+            "link": "",
+            "link_text": "Shop Now",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/tb252706_Capture_a_modern_minimal_and_masculine_bathroom_in_a_p_475bb0d3-6b1f-4bd8-a33e-5ba0bd918a28.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_6nJ8La"
+      ],
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Fueled by our passion for clean science and effective skincare, we’ve set out to craft the <em>perfect </em>premium men’s skincare line. Whether your routine has ten steps or two, you’ll find everything you need for healthier, better-looking skin here.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": true
+      }
+    },
+    "text_and_image_WRdNdy": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/st_felix_1.png",
+        "video_link": "",
+        "image_width": 600,
+        "subtitle": "",
+        "title": "Redefining Men’s Skincare",
+        "text": "<p>Long gone are the days of 3-in-1 washes and chemical-packed products. Never again will you have to settle for mediocre men’s skincare that doesn’t yield results. At Saint Felix, we’re redefining men’s skincare one hard-working product at a time. Formulated with men’s skin in mind, our high-performing line combines innovative science with the best natural ingredients to address your unique skincare problems.  </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "text_and_image_Jk67zb": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/cream.png",
+        "video_link": "",
+        "image_width": 600,
+        "subtitle": "",
+        "title": "Attainable Luxury",
+        "text": "<p>We don’t believe in compromising. Each Saint Felix product promises a sophisticated formula and luxe ingredients designed to improve skin health. Our complete skincare range offers everything you need to elevate your daily routine and indulge in self-care, so you can look (and feel) your best every day.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "alt": false
+      }
+    },
+    "text_and_image_8Qw9F8": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/st_felix_2.png",
+        "video_link": "",
+        "image_width": 600,
+        "subtitle": "",
+        "title": "Gentle Ingredients, Powerful Results",
+        "text": "<p>Soothing botanicals, refreshing hydrators, fortifying vitamins, and other nourishing actives. Our clean formulas blend nature’s best with scientific precision to create quality men’s skincare that actually works. No parabens, phthalates, sulfates, or synthetic fragrances ever.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166051406013636777",
+    "slideshow_UxiQmE",
+    "rich-text",
+    "text_and_image_WRdNdy",
+    "text_and_image_Jk67zb",
+    "text_and_image_8Qw9F8",
+    "form"
+  ]
+}

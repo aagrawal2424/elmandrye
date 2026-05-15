@@ -1,0 +1,176 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "166051406013636777": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\ndiv[data-section-id=\"header\"] { position: absolute; width: 100%; z-index: 1; }\n.site-header {background: transparent; color: #fff;}\n.site-nav__link, .header-logo a, .site-header__logo a {color:#fff;}\n</style>"
+      }
+    },
+    "1660513684ca47ad24": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Hey There, \nWe're Elm & Rye.",
+        "product": "",
+        "title_size": 80,
+        "subheading": "We're on a mission to make supplements that's better for our planet and better for you",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/1a288d81c8de4dfaa0281d911ec46f23.mp4",
+        "section_height": "100vh",
+        "mobile_height": "auto"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "We Take The Extra Step"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>From an ethical and transparent supply chain, to a dedication to animal welfare, we take 0 shortcuts in every product we make.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": true
+      }
+    },
+    "1661142566a70b51b9": {
+      "type": "text-with-icons",
+      "blocks": {
+        "16611425662c9570fa-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "plant",
+            "title": "Responsible",
+            "text": "<p>We understand that our customers put their health and lives into our hands and we are proud to have earned their trust. This is not something that we take lightly. Your health is our priority.</p>"
+          }
+        },
+        "16611425662c9570fa-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "Pure & High Quality",
+            "text": "<p>We only use pure and high quality ingredients in all of our supplements. No pesticides, no fillers, no BS. These ingredients combine and results in a premium formula and approach to your daily lifestyle</p>"
+          }
+        },
+        "16611425662c9570fa-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "recycle",
+            "title": "Sustainable",
+            "text": "<p>Sustainability is a defining characteristic of who we are and how we do business on a daily basis. Our commitment is reflected in all aspects of our operations.</p>"
+          }
+        },
+        "74931561-3201-4d23-93ba-d0ece659b103": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Transparent",
+            "text": "<p>Transparancy builds trust and there is nothing more valuable to a brand than their customer's trust. We're here to build a long term relationship with you.</p>"
+          }
+        },
+        "28d51d63-cfbc-4e2b-9eb0-9e8d4dc9a7f3": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "Empowering",
+            "text": "<p>Healthcare can be incredibly complex and difficult to understand. We believe that all consumers have the right to easily accessible information. We prioritize educating our customers so they can make informed and educated decisions.<br/></p>"
+          }
+        },
+        "0d124391-32cc-42f2-b74a-e2609eb1ba58": {
+          "type": "text_block",
+          "settings": {
+            "icon": "truck",
+            "title": "Ongoing",
+            "text": "<p>Taking care of your body is an ongoing process. That's why we put a great amount of effort into opening a dialogue with our customers. We're glad to answer any questions you may have, no matter how small.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16611425662c9570fa-0",
+        "16611425662c9570fa-1",
+        "16611425662c9570fa-2",
+        "74931561-3201-4d23-93ba-d0ece659b103",
+        "28d51d63-cfbc-4e2b-9eb0-9e8d4dc9a7f3",
+        "0d124391-32cc-42f2-b74a-e2609eb1ba58"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "alt": false
+      }
+    },
+    "1663629761b78895ba": {
+      "type": "medical-advisory-board",
+      "settings": {}
+    },
+    "1660514295a2077f9c": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Our mission is to improve the lives of humanity by making high-quality supplements accessible and convenient.",
+        "product": "",
+        "title_size": 40,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/9e7afb8c619f491c9351b6630468d1a8.mp4",
+        "section_height": "750px",
+        "mobile_height": "auto"
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "166051406013636777",
+    "1660513684ca47ad24",
+    "rich-text",
+    "1661142566a70b51b9",
+    "1663629761b78895ba",
+    "1660514295a2077f9c",
+    "form"
+  ]
+}

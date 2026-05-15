@@ -1,0 +1,326 @@
+<style>html,body { overflow: visible }</style>
+{% form 'product', product, id: form_id, class: 'product-single__form small--text-center' %}
+  <input type="hidden" name="data-product-id" value="{{ product.id }}">
+
+  {% render 'skio-plan-picker', product: product, form_id: form_id %}
+  
+  {%- liquid
+    assign enable_dynamic_buttons = false
+    if show_dynamic_checkout and template != 'product.preorder'
+      assign enable_dynamic_buttons = true
+    endif
+  -%}
+
+  {%- if enable_dynamic_buttons -%}
+    <div class="payment-buttons">
+  {%- endif -%}
+
+    {%- liquid
+      assign default_text = 'products.product.add_to_cart' | t
+      assign button_text = 'products.product.add_to_cart' | t
+      if template contains 'preorder'
+        assign default_text = 'products.product.preorder' | t
+        assign button_text = 'products.product.preorder' | t
+      endif
+      unless current_variant.available
+        assign button_text = 'products.product.sold_out' | t
+      endunless
+    -%}
+  
+    <!-- Custom Styles -->
+    <style>
+      
+      .popup-container {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        width: 100%;
+      }
+
+      .popup-content-container {
+        flex: 1 1 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: .5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+
+      .popup-content-container h4 {
+        letter-spacing: 0.1em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      .popup-content-container button {
+        font-size: 0.875rem; /* 14px */
+        line-height: 1.25rem; /* 20px */
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 2rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+      }
+
+      .popup-content-container h1 {
+        font-size: 2.25rem; /* 36px */
+        line-height: 2.5rem; /* 40px */
+        letter-spacing: 0.05em;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      .popup-content-container p {
+        font-size: 0.75rem; /* 12px */
+        line-height: 1rem; /* 16px */
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .popup-container img {
+        width: 10rem;
+        object-fit: cover;
+      }
+
+      .popup-content-subheader {
+        font-weight: 300;
+      }
+
+       /* media width equal or greater 1024px */
+       @media (min-width: 1024px) {
+
+        .popup-content-container {
+          gap: 1rem;
+        }
+
+        .popup-content-container h4 {
+          font-size: 1.25rem; /* 20px */
+          line-height: 1.75rem; /* 28px */
+        }
+
+        .popup-content-subheader {
+          width: 75%;
+        }
+
+        .popup-content-container button {
+          width: 50%;
+          height: 3rem;
+          font-size: 1.125rem; /* 18px */
+          line-height: 1.75rem; /* 28px */
+        }
+
+        .popup-content-container h1 {
+          font-size: 4.5rem; /* 72px */
+          line-height: 1;
+        }
+
+        .popup-content-container img {
+          height: 1.5rem;
+        }
+
+        .popup-content-container p {
+          font-size: 1.125rem; /* 18px */
+          line-height: 1.75rem; /* 28px */
+        }
+
+        .popup-container img {
+          width: 20rem; /* 320px */
+        }
+
+
+      }
+
+    </style>
+
+    <!-- popup html -->
+		<div id="subscribe-popup" class="white-popup mfp-hide">
+			<div class="popup-container">
+				<div
+					class="popup-content-container"
+					style="background-color: #fff">
+					<h4>not so fast...</h4>
+					<h1>Unlock 20% Off</h1>
+					<h4 class="popup-content-subheader">
+						when you choose a monthly subscription!
+					</h4>
+					<button
+          data-add-to-cart type="submit" form="{{form_id}}" id="custom-form-submit-inside-popup" 
+						form="{{ form_id }}">
+						<span data-add-to-cart-text> GET 20% OFF NOW </span>
+					</button>
+
+					<!-- no thanks button -->
+					<p class="subscribe-popup-close">
+						no, thanks
+					</p>
+				</div>
+				<img
+					src="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/Screen_Shot_2022-09-19_at_3.32.08_PM.png?v=1663626789"
+					alt=""
+				  />
+			</div>
+		</div>
+
+    <style>
+      .white-popup {
+        position: relative;
+        background: #FFF;
+        width: auto;
+        max-width: 800px;
+        margin: 20px auto;
+      }
+    </style>
+
+
+    <!-- popup link -->
+    <button 
+      id="{% if product.handle != 'free-gift' %}subscribe-popup-submit{% endif %}" 
+      {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+      name="add"
+      data-add-to-cart
+      class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--tertiary{% endif %}"
+      {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+      <span data-add-to-cart-text data-default-text="{{ default_text }}">
+        {{ button_text }}
+      </span>
+    </button>
+    
+
+    <script>
+
+      $(document).ready(function($) {
+        // on form submit
+        $('#subscribe-popup-submit').on("click", function(e) {
+          e.preventDefault();
+
+          // show popup
+          $.magnificPopup.open({
+            items: {
+              src: '#subscribe-popup'
+            },
+            callbacks: {
+              open : function () {
+                // if subscribe is checked
+                
+                if ($('#{{form_id}} input[name="selling_plan"]').attr('value')) {
+                  $("#custom-form-submit-inside-popup").click();
+                  $.magnificPopup.close();
+
+                }
+
+              },
+              close: function() {
+
+                // skip function if subscribe is checked
+                if ($('#{{form_id}} input[name="selling_plan"]').attr('value')) {
+                  return;
+                }
+
+                // Submit product form if the popup is closed and subscribe is not checked
+                $("#custom-form-submit-inside-popup").click();
+
+              }
+            },
+            type: 'inline'
+          });
+        });
+
+
+        // Change to Subscribe on popup button mousedown
+        $("#custom-form-submit-inside-popup").on("mousedown", function() {
+
+          // change to subscribe
+          $(".skio-group-container--available .skio-group-label--subscription").click();
+
+          // close popup
+          // set timeout
+          setTimeout(function() {
+
+            // hide text
+            $("#custom-form-submit-inside-popup span").hide();
+            
+            // set interval every 20 ms
+            let interval = setInterval(function() {
+
+              // if CartDrawer is visible
+              
+              if ($("#CartDrawer").is(":visible")) {
+
+                // close popup
+                $.magnificPopup.close();
+
+                // clear interval
+                clearInterval(interval);
+
+                // show text
+                $("#custom-form-submit-inside-popup span").show();
+
+
+              }
+
+            }, 20);
+
+          }, 500);
+
+        });
+
+        // close popup
+        $(".subscribe-popup-close").on("click", function() {
+          $.magnificPopup.close();
+        });
+
+
+      })
+
+      
+    </script>
+
+    {%- if enable_dynamic_buttons -%}
+      {{ form | payment_button }}
+    {%- endif -%}
+
+  {%- if enable_dynamic_buttons -%}
+    </div>
+  {%- endif -%}
+
+  <div class="shopify-payment-terms product__policies">{{ form | payment_terms }}</div>
+  
+  <select name="id" id="ProductSelect-{{ section_id }}" class="product-single__variants no-js" data-product-select>
+    {%- for variant in product.variants -%}
+      {%- if variant.available -%}
+        <script>console.log({{ variant | json }})</script>
+        <option value="{{ variant.id }}"{% if variant == product.selected_or_first_available_variant %}
+          selected="selected"{% endif %}>
+          {{ variant.title }} - {{ variant.price | money_with_currency }}
+        </option>
+      {%- else -%}
+        <option disabled="disabled">
+          {{ variant.title }} - {{ 'products.product.sold_out' | t }}
+        </option>
+      {%- endif -%}
+    {%- endfor -%}
+  </select>
+
+  {%- unless product.empty? -%}
+    <textarea class="hide" aria-hidden="true" aria-label="Product JSON" data-variant-json>
+      {{ product.variants | json }}
+    </textarea>
+    {%- if product.options.size > 1 -%}
+      <textarea class="hide" aria-hidden="true" aria-label="Variant JSON" data-current-variant-json>
+        {{ current_variant | json }}
+      </textarea>
+    {%- endif -%}
+  {%- endunless -%}
+
+{% endform %}

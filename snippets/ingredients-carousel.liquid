@@ -1,0 +1,95 @@
+{% if product.metafields.custom.ingredient_callout != blank %}
+
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<style>
+  #scent-notes {
+    padding: 0 0 100px 0;
+    max-width: 89%; 
+    margin: 40px 0 auto auto;
+  }
+  #scent-notes h3 {
+    font-size: 36px;
+  }
+  .main-carousel {
+    margin: auto;
+  }
+  .main-carousel .carousel-cell {
+    width: 28%;
+    margin: 8px 4px;
+    background-color: #19191a;
+    overflow: hidden;
+    height: 100%;
+    min-height: 220px;
+  }
+  .main-carousel .carousel-cell h4 {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #fff;
+    margin-bottom: 16px;
+    padding: 0 14px;
+    font-family: "Roboto Mono", sans-serif;
+
+  }
+  .main-carousel .carousel-cell h4 span {
+    display: block;
+    font-size: 14px;
+    opacity: 0.25;
+  }
+  .main-carousel .carousel-cell img {
+    height: 170px;
+    object-fit: cover;
+    margin: auto;
+    width: 100%;
+  }
+  .flickity-button {
+    display: none;
+  }
+  @media screen and (max-width: 1000px) {
+    .main-carousel .carousel-cell {
+      width: 30%;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .main-carousel .carousel-cell {
+      width: 70%;
+    }
+    #scent-notes {
+      max-width: 100%; 
+    }
+  }
+</style>
+<div id="key-ingredients">
+  <div id="scent-notes">
+    <h4>Key Ingredients</h4>
+    <div class="main-carousel">
+      {% for ingredient in product.metafields.custom.ingredient_callout.value.ingredients %}
+        <div class="carousel-cell">
+          <div>
+            <img src="{{ ingredient.image  }}" loading="lazy"/>
+            <h4>{{ ingredient.title }} <span>{{ ingredient.description  }}</span></h4>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<script>
+$('.main-carousel').flickity({
+  wrapAround: true,
+  cellAlign: 'left',
+  lazyLoad: true,
+  freeScroll: true
+});
+// function handleResize() {
+//   el = $('#scent-notes');
+//   if($('body').width() < 500) {
+//     el.detach().appendTo('.product-single__form');
+//   } else {
+//     el.detach().appendTo('#key-ingredients');
+//   }
+// }
+// $(document).ready(handleResize);
+// $(window).on("resize", handleResize);
+</script>
+
+{% endif %}

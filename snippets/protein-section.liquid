@@ -1,0 +1,102 @@
+{% if product.handle == 'protein-supplement' %}
+   <style>
+      #ingredients .i-container {
+        position: relative;
+      }
+      #ingredients .i-flex {
+        position: absolute; 
+        z-index: 1; 
+        color: #fff; 
+        width: 100%; 
+        height: 100%; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        flex-direction: column;
+      }
+      #ingredients .i-container h3 {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 8px;
+      }
+      #ingredients .i-container p {
+        color: #fff;
+        max-width: 620px;
+        text-align: center;
+        font-size: 18px;
+        padding: 0 20px;
+      }
+      #ingredients .i-container img {
+        filter: brightness(0.35); max-height: 800px; object-fit: cover; width: 100%; object-position: center; height: 100%; margin-bottom: -14px;
+      }
+      #ingredients strong {
+        color: #fff;
+      }
+      @media screen and (max-width: 600px) {
+        #ingredients .i-container img {
+          height: 600px;
+      }
+    </style>
+
+    <div id="ingredients" style="padding: 0;">
+     
+      <div class="i-container">
+        <div class="i-flex">
+          <h3>Grass Fed, Free Range, Torture Free Cows</h3>
+          <p>Many protein brands cut corners by sourcing cows kept in awful, inhumane conditions. These conditions lower the quality of the ingredients, stripping essential amino acids in the milk produced by these cows.</p>
+        </div>
+        <img class="ingredient-img" loading="lazy" src="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/33_228cd9fa-5108-4e73-bd55-a8a2675b47ae.jpg?v=1672025710" />
+      </div>
+      
+      <div class="i-container">
+        <div class="i-flex">
+          <h3>Ashwaganda</h3>
+          <p>Ashwagandha is an herb that have been used for thousands of years. The plant is a small shurb with yellow floweres that is native to India and Southeast Asia. One study shows its participant taking Ashwagandha with significantly greater gains in muscle strength and size compared to a placebo group. This ingredient is <strong>not</strong> in our vegan protein.</p>
+        </div>
+        <img class="ingredient-img" loading="lazy" src="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/AdobeStock_228891011_800x.jpg?v=1657089370" />
+      </div>
+      
+      <div class="i-container">
+        <div class="i-flex">
+          <h3>Tumeric</h3>
+          <p>Tumeric contains compounds called “curcuminoids”, which have medicinal properties. Curcumin is a natural anti-inflammatory compound. Research suggests turmeric has anti-inflammatory properties that can speed up recovery.</p>
+        </div>
+        <img class="ingredient-img" loading="lazy" src="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/AdobeStock_306455973_800x.jpg?v=1657090490" />
+      </div>
+      
+      <div class="i-container">
+        <div class="i-flex">
+          <h3>Mushroom Complex</h3>
+          <p>Our mushroom complex is a powerful, potent, and effective mushroom extract supplement made from whole fruiting bodies and thoroughly extracted for bio-active compounds. It's the ultimate blend to deliver all the amazing benefits of mushrooms.</p>
+        </div>
+        <img class="ingredient-img" loading="lazy" src="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/AdobeStock_308974996_800x.jpg?v=1657090490" />
+      </div>
+      
+      <div class="i-container">
+        <div class="i-flex">
+          <h3>BCAAs</h3>
+          <p>BCAAs are branched-chain amino acids, which are a group of three essential amino acids called leucine, isoleucine and valine. They are essential, meaning they can't be produced by your body and must be obtained from food. BCAA supplements have been shown to build muscle, decrease muscle fatigue and alleviate muscle soreness.</p>
+        </div>
+        <img class="ingredient-img" loading="lazy" src="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/AdobeStock_302609603_800x.jpg?v=1657090523" />
+      </div>
+      
+      <div class="i-container">
+        <div class="i-flex">
+          <h3>MCT Oil</h3>
+          <p>MCT oil is comprised of a type of fat called medium-chain triglycerides. These molecules are smaller than those in most of the fats you eat, which makes them easier to digest and signficantly easier to absorb MCT in your bloodstream quickly. This turns it into energy you can use. This ingredient is <strong>not</strong> in our vegan protein.</p>
+        </div>
+        <img class="ingredient-img" loading="lazy" src="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/AdobeStock_356400922_800x.jpg?v=1657090490" />
+      </div>
+      
+      <div class="i-container">
+        <div class="i-flex">
+          <h3>Collagen</h3>
+          <p>Collagen is the most abundant protein in your body. It’s the main component of connective tissues that make up several body parts, including tendons, ligaments, skin, and muscles. In a 3-month long study, over 20 men took 15 grams of collagen while participating in a daily exercise program. The men who took collagen gained significantly more muscle mass and strength. This ingredient is <strong>not</strong> in our vegan protein.</p>
+        </div>
+        <img class="ingredient-img" loading="lazy" src="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/AdobeStock_512624585_800x.jpg?v=1657090490" />
+      </div>
+      
+    </div><!-- ingredients -->
+
+  {% endif %}

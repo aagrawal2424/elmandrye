@@ -1,0 +1,956 @@
+<script src="{{  'jquery.js' | asset_url }}"></script>
+<script src="{{  'survey.js' | asset_url }}"></script>
+<link href="{{  'survey-core.css' | asset_url }}" type="text/css" rel="stylesheet"/>
+<script src="{{  'velocity.js' | asset_url }}"></script>
+
+<script>
+  Survey.StylesManager.applyTheme("defaultV2");
+  var json = {
+    "completeText": "Finish",
+    "pageNextText": "Continue",
+    "pagePrevText": "Previous",
+    "pages": [
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "html",
+                "name": "income_intro",
+                "html": "{% render 'quiz-intro-html' %}"
+              }
+            ],
+            "name": "panel1"
+          }
+        ],
+        "name": "intro"
+      },
+      /******* Name *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "text",
+                "startWithNewLine": false,
+                "hideNumber": false,
+                "name": "person_name",
+                "isRequired": true,
+                "title": " "
+              }
+            ],
+            "name": "panel13",
+            "title": "What's your first name?"
+          }
+        ],
+        "name": "get_name"
+      },
+      /******* Age *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "text",
+                "startWithNewLine": false,
+                "hideNumber": false,
+                "name": "person_age",
+                "isRequired": true,
+                "inputType": "number",
+                "title": " ",
+                "validators": [
+                  {
+                    "type": "numeric",
+                    "minValue": 18,
+                  }
+                ],
+              }
+            ],
+            "name": "panel13",
+            "title": "How old are you?"
+          }
+        ],
+        "name": "get_age"
+      },
+      /******* Email *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "text",
+                "startWithNewLine": false,
+                "hideNumber": false,
+                "name": "person_email",
+                "isRequired": true,
+                "title": " ",
+                "validators": [
+                  {
+                    "type": "email",
+                  }
+                ],
+              }
+            ],
+            "name": "panel13",
+            "title": "What's your e-mail?"
+          }
+        ],
+        "name": "get_email"
+      },
+      /******* Vitamin Experience *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "yes",
+                    "text": "Yes"
+                  }, {
+                    "value": "no",
+                    "text": "No"
+                  }
+                ],
+                "colCount": 2,
+                "isRequired": true,
+                "name": "vitamin_experience",
+                "title": " "
+              }
+            ],
+            "name": "vitamin_experience",
+            "title": "Have you taken vitamins in the past?"
+          }
+        ],
+        "name": "vitamin_experience"
+      },
+      /******* Vitamin Experience: If vitamin_experience = "yes" *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "none",
+                    "text": "None"
+                  }, {
+                    "value": "average",
+                    "text": "1-4"
+                  }, {
+                    "value": "more",
+                    "text": "5+"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "vitamin_quantity",
+                "title": " "
+              }
+            ],
+            "name": "vitamin_quantity",
+            "title": "How many vitamins or supplements do you currently take?"
+          }
+        ],
+        "visible": false,
+        "visibleIf": "{vitamin_experience} =yes",
+        "name": "vitamin_quantity"
+      },
+      /******* Powder Experience *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "yes",
+                    "text": "Yes"
+                  }, {
+                    "value": "no",
+                    "text": "No"
+                  }
+                ],
+                "colCount": 2,
+                "isRequired": true,
+                "name": "powder_experience",
+                "title": " "
+              }
+            ],
+            "name": "powder_experience",
+            "title": "Have you taken powders in the past?"
+          }
+        ],
+        "name": "powder_experience"
+      },
+      /******* Powder Experience: If powder_experience = "yes" *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "sometimes",
+                    "text": "Couple Days"
+                  }, {
+                    "value": "usually",
+                    "text": "Most Days"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "powder_quantity",
+                "title": " "
+              }
+            ],
+            "name": "powder_quantity",
+            "title": "In an average week, how often do you take powders?"
+          }
+        ],
+        "visible": false,
+        "visibleIf": "{powder_experience} =yes",
+        "name": "powder_quantity"
+      },
+      /******* Gender *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "female",
+                    "text": "Female"
+                  }, {
+                    "value": "male",
+                    "text": "Male"
+                  }, {
+                    "value": "na",
+                    "text": "Prefer not to say"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "get_gender",
+                "title": " "
+              }
+            ],
+            "name": "get_gender",
+            "title": "Which sex best describes you?"
+          }
+        ],
+        "name": "get_gender"
+      },
+      /******* If female *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "yes",
+                    "text": "Yes"
+                  }, {
+                    "value": "no",
+                    "text": "No"
+                  }
+                ],
+                "colCount": 2,
+                "isRequired": true,
+                "name": "prepostnatal",
+                "title": " "
+              }
+            ],
+            "name": "prepostnatal",
+            "title": "Are you interested in prenatal or postnatal health?"
+          }
+        ],
+        "visible": false,
+        "visibleIf": "{get_gender} =test",
+        "name": "prepostnatal"
+      },
+      /******* Health Goals *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "checkbox",
+                "choices": [
+                  {
+                    "value": "Immunity",
+                    "text": "Immunity"
+                  }, {
+                    "value": "Sleep",
+                    "text": "Sleep"
+                  }, {
+                    "value": "Stress",
+                    "text": "Stress"
+                  }, {
+                    "value": "Energy",
+                    "text": "Energy"
+                  }, {
+                    "value": "Fitness",
+                    "text": "Fitness"
+                  }, {
+                    "value": "Digestion",
+                    "text": "Digestion"
+                  }, {
+                    "value": "Brain",
+                    "text": "Brain"
+                  }, {
+                    "value": "Hair",
+                    "text": "Hair"
+                  }, {
+                    "value": "Skin",
+                    "text": "Skin"
+                  }, {
+                    "value": "Heart",
+                    "text": "Heart"
+                  }, {
+                    "value": "Bones",
+                    "text": "Bones"
+                  }, {
+                    "value": "Joints",
+                    "text": "Joints"
+                  }, {
+                    "value": "weight-loss",
+                    "text": "Weight Loss"
+                  }, {
+                    "value": "muscle",
+                    "text": "Muscle Growth"
+                  }, {
+                    "value": "libido",
+                    "text": "Libido"
+                  }
+                ],
+                "colCount": 4,
+                "isRequired": true,
+                "name": "health_goals",
+                "title": " "
+              }
+            ],
+            "name": "health_goals",
+            "title": "Choose your health goals:"
+          }
+        ],
+        "name": "health_goals"
+      },
+      /******* Fruit *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "once_or_twice",
+                    "text": "Once or twice"
+                  }, {
+                    "value": "three_or_more",
+                    "text": "Three or more times"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "eat_fruit",
+                "title": " "
+              }
+            ],
+            "name": "eat_fruit",
+            "title": "On an average day, you eat fruit:"
+          }
+        ],
+        "name": "eat_fruit"
+      },
+      /******* Vegetables *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "once_or_twice",
+                    "text": "Once or twice"
+                  }, {
+                    "value": "three_or_more",
+                    "text": "Three or more times"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "eat_veggies",
+                "title": " "
+              }
+            ],
+            "name": "eat_veggies",
+            "title": "On an average day, you eat vegetables:"
+          }
+        ],
+        "name": "eat_veggies"
+      },
+      /******* Dairy *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "once_or_twice",
+                    "text": "Once or twice"
+                  }, {
+                    "value": "three_or_more",
+                    "text": "Three or more times"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "eat_dairy",
+                "title": " "
+              }
+            ],
+            "name": "eat_dairy",
+            "title": "On an average day, you eat dairy:"
+          }
+        ],
+        "name": "eat_dairy"
+      },
+      /******* Fiber *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "once_or_twice",
+                    "text": "Once or twice"
+                  }, {
+                    "value": "three_or_more",
+                    "text": "Three or more times"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "eat_fiber",
+                "title": " "
+              }
+            ],
+            "name": "eat_fiber",
+            "title": "On an average day, you eat high fiber foods:"
+          }
+        ],
+        "name": "eat_fiber"
+      },
+      /******* Protein *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "once_or_twice",
+                    "text": "Once or twice"
+                  }, {
+                    "value": "three_or_more",
+                    "text": "Three or more times"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "eat_protein",
+                "title": " "
+              }
+            ],
+            "name": "eat_protein",
+            "title": "On an average day, you eat protein:"
+          }
+        ],
+        "name": "eat_protein"
+      },
+      /******* Meat *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "once_or_twice",
+                    "text": "Once or twice"
+                  }, {
+                    "value": "three_or_more",
+                    "text": "Three or more times"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "eat_meat",
+                "title": " "
+              }
+            ],
+            "name": "eat_meat",
+            "title": "In an average week, you eat meat:"
+          }
+        ],
+        "name": "eat_meat"
+      },
+      /******* Fish *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "once_or_twice",
+                    "text": "Once or twice"
+                  }, {
+                    "value": "three_or_more",
+                    "text": "Three or more times"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "eat_fish",
+                "title": " "
+              }
+            ],
+            "name": "eat_fish",
+            "title": "In an average week, you eat fatty fish:"
+          }
+        ],
+        "name": "eat_fish"
+      },
+      /******* Alcohol *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "yes",
+                    "text": "Yes"
+                  }, {
+                    "value": "no",
+                    "text": "No"
+                  }
+                ],
+                "colCount": 2,
+                "isRequired": true,
+                "name": "drink_alcohol",
+                "title": " "
+              }
+            ],
+            "name": "drink_alcohol",
+            "title": "Do you often consume 8 or more alcoholic drinks in a week?"
+          }
+        ],
+        "name": "drink_alcohol"
+      },      
+      /******* Diet *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "plant-based",
+                    "text": "Prefer plant-based"
+                  }, {
+                    "value": "vegetarian",
+                    "text": "Vegetarian"
+                  }, 
+                  {
+                    "value": "vegan",
+                    "text": "Vegan"
+                  }, 
+                  {
+                    "value": "anything",
+                    "text": "Anything goes"
+                  }
+                ],
+                "colCount": 2,
+                "isRequired": true,
+                "name": "describe_diet",
+                "title": " "
+              }
+            ],
+            "name": "describe_diet",
+            "title": "How would you describe your diet?"
+          }
+        ],
+        "name": "describe_diet"
+      },
+      /******* Exercise *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "two_to_four",
+                    "text": "Two to four times"
+                  }, {
+                    "value": "five_or_more",
+                    "text": "Five or more times"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "exercise_amount",
+                "title": " "
+              }
+            ],
+            "name": "exercise_amount",
+            "title": "In an average week, you exercise:"
+          }
+        ],
+        "name": "exercise_amount"
+      },
+      /******* Exercise Type *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "checkbox",
+                "choices": [
+                  {
+                    "value": "performance",
+                    "text": "Performance"
+                  }, {
+                    "value": "muscle-tone",
+                    "text": "Muscle Toning"
+                  }, {
+                    "value": "sweating",
+                    "text": "Breaking a sweat"
+                  }, {
+                    "value": "muscle_building",
+                    "text": "Muscle Building"
+                  }, {
+                    "value": "general",
+                    "text": "General Health"
+                  }, {
+                    "value": "na",
+                    "text": "Not applicable"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "exercise_type",
+                "title": " "
+              }
+            ],
+            "name": "exercise_type",
+            "title": "When it comes to exercise, you care most about:"
+          }
+        ],
+        "name": "exercise_type"
+      },
+      /******* Smoke *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "yes",
+                    "text": "Yes"
+                  }, {
+                    "value": "no",
+                    "text": "No"
+                  }
+                ],
+                "colCount": 2,
+                "isRequired": true,
+                "name": "smoke",
+                "title": " "
+              }
+            ],
+            "name": "smoke",
+            "title": "Do you smoke?"
+          }
+        ],
+        "name": "smoke"
+      },
+      /******* Joint *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "rarely",
+                    "text": "Rarely"
+                  }, {
+                    "value": "sometimes",
+                    "text": "Two to three days"
+                  }, {
+                    "value": "everyday",
+                    "text": "Every day"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "joint",
+                "title": " "
+              }
+            ],
+            "name": "joint",
+            "title": "In an average week, how often do you experience temporary joint discomfort or stiffness?"
+          }
+        ],
+        "name": "joint"
+      },
+      /******* Digestion *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "yes",
+                    "text": "Yes"
+                  }, {
+                    "value": "no",
+                    "text": "No"
+                  }
+                ],
+                "colCount": 2,
+                "isRequired": true,
+                "name": "digestion",
+                "title": " "
+              }
+            ],
+            "name": "digestion",
+            "title": "Do you experience gas, bloating, burping, or indigestion more than 3 times per week?"
+          }
+        ],
+        "name": "digestion"
+      },
+      /******* Sex *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "yes",
+                    "text": "Yes"
+                  }, {
+                    "value": "no",
+                    "text": "No"
+                  }
+                ],
+                "colCount": 2,
+                "isRequired": true,
+                "name": "sexually_active",
+                "title": " "
+              }
+            ],
+            "name": "sexually_active",
+            "title": "Are you sexually active?"
+          }
+        ],
+        "name": "sexually_active"
+      },
+      /******* Libido *******/
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "radiogroup",
+                "choices": [
+                  {
+                    "value": "good",
+                    "text": "Great. I'm fine."
+                  }, {
+                    "value": "not-good",
+                    "text": "Not good. I need help."
+                  }, {
+                    "value": "other",
+                    "text": "Not applicable"
+                  }
+                ],
+                "colCount": 3,
+                "isRequired": true,
+                "name": "libido",
+                "title": " "
+              }
+            ],
+            "name": "libido",
+            "title": "How is your libido?"
+          }
+        ],
+        "visible": false,
+        "visibleIf": "{sexually_active} =yes",
+        "name": "libido"
+      },
+      {
+        "elements": [
+          {
+            "type": "panel",
+            "elements": [
+              {
+                "type": "panel",
+                "startWithNewLine": false,
+              }
+            ],
+            "name": "panel10",
+            "title": ""
+          }
+        ],
+        "name": "",
+        "visible": false
+      }
+    ],
+    "requiredText": "",
+    "showQuestionNumbers": "off",
+    "storeOthersAsComment": false,
+    "showProgressBar": "bottom"
+  };
+  window.survey = new Survey.Model(json);
+  survey.onComplete.add(function (sender) {
+    console.log(JSON.stringify(sender.data, null, 3));
+    surveyResult(sender.data);
+    setCookie('survey',  'completed', 1);
+  });
+  $("#surveyElement").Survey({
+    model: survey
+    // goNextPageAutomatic: true
+  });
+
+  survey.onAfterRenderQuestion.add(function () {
+    $(".sd-element .sd-item.sd-radio label").click(function() {
+      $(".sd-navigation__next-btn").click();
+      if($('.sd-navigation__complete-btn').css('display') != 'none') {
+        $(".sd-navigation__complete-btn").click();
+      }
+    });
+  });
+
+  function animate(animitionType, duration) {
+    if (! duration) 
+      duration = 1000;
+
+    var element = document.getElementById("surveyElement");
+    //     $(element).velocity(animitionType, {duration: duration});
+  }
+  var doAnimantion = true;
+  survey.onCurrentPageChanging.add(function (sender, options) {
+    if (! doAnimantion) 
+      return;
+
+    options.allowChanging = false;
+    setTimeout(function () {
+      doAnimantion = false;
+      sender.currentPage = options.newCurrentPage;
+      doAnimantion = true;
+    }, 500);
+    $("#surveyElement").css('opacity', 0);
+  });
+  survey.onCurrentPageChanged.add(function (sender) {
+    $("#surveyElement").css('opacity', 1);
+  });
+  survey.onCompleting.add(function (sender, options) {
+    if (! doAnimantion) 
+      return;
+
+    options.allowComplete = false;
+    setTimeout(function () {
+      doAnimantion = false;
+      sender.doComplete();
+      doAnimantion = true;
+    }, 500);
+    $("#surveyElement").css('opacity', 0);
+  });
+  $("#surveyElement").css('opacity', 1);
+</script>

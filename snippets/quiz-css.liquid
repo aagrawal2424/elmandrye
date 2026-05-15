@@ -1,0 +1,289 @@
+<style>
+  .sd-root-modern * {
+    text-align: center;
+    letter-spacing: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .site-header {
+    background-color: #fff;
+  }
+  .sd-question__content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .sd-element .sd-item.sd-radio label {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    height: 150px;
+    margin: auto;
+  }
+  .sd-item__control-label {
+    font-size: 16px!important;
+    text-transform: capitalize;
+  }
+  .sd-element:not(.sd-element--collapsed),
+  .sd-question__header--location-top {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+  .sd-question__erbox--tooltip {
+    display: block!important;
+    position: absolute!important;
+    top: 47px!important;
+    left: 0!important;
+    border-radius: 0!important;
+    padding: 14px !important;
+    max-width: 100%!important;
+    width: 100%!important;
+    opacity: 1!important;
+    background: transparent!important;
+    box-shadow: none!important;
+    pointer-events: none;
+  }
+  .sd-question__erbox--tooltip span {
+    font-size: 12px!important;
+    font-weight: 300;
+    color: #c1434d!important;
+  }
+  .sd-element[role="radiogroup"] .sd-question__erbox--tooltip {
+    top: -22px!important;
+  }
+  .sd-element[role="radiogroup"] .sd-navigation__next-btn {
+    opacity: 0;
+  }
+  #attentive_overlay { display: none; }
+  body {
+    background-color: #fff;
+    min-height: 100vh;
+  }
+  .main-content {
+    display: flex;
+  }
+  #surveyElement {
+    max-width: 640px;
+    display: block;
+    margin: auto;
+    transition: all 1s;
+  }
+  #surveyElement h1 {
+    font-size: 60px; 
+    font-family: "Bebas Neue", sans-serif;
+  }
+  #surveyElement input, 
+  #surveyElement textarea, 
+  #surveyElement select {
+    border: 3px solid #333;
+  }
+  #surveyElement input:active, 
+  #surveyElement input:focus, 
+  #surveyElement textarea:active, 
+  #surveyElement textarea:focus, 
+  #surveyElement select:active, 
+  #surveyElement select:focus {
+    border: 3px solid #333;
+  }
+  .sd-element__title span {
+    font-size: 36px!important;
+    line-height: 46px!important;
+    font-weight: 300;
+  }
+  .sd-selectbase__label {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .header-item--navigation,
+  .header-item--icons,
+  .announcement,
+  #shopify-section-footer,
+  .sd-element--complex.sd-element--with-frame>.sd-element__header--location-top:after,
+  .sd-item__decorator {
+    display: none!important;
+  }
+  .header-layout--left-center .header-item--logo {
+    flex: unset;
+  }
+  .sd-item {
+    padding: 0!important;
+    margin: 20px 0;
+  }
+  .sd-input {
+    box-shadow: unset!important;
+  }
+  .sd-item.sd-radio label {
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 4px;
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sd-item.sd-radio--checked label {
+    border: 5px solid #000;
+  }
+  .sd-item.sd-checkbox label {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 50px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 160px;
+    width: 100%;
+  }
+  .sd-item.sd-checkbox--checked label {
+    border: 2px solid #000;
+  }
+  .sd-input.sd-text {
+    max-width: 600px;
+    padding: 40px 16px;
+    font-size: 24px;
+    border-radius: 6px;
+  }
+  #sv-nav-prev {
+    /*     position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 99999; */
+    order: 2;
+  }
+  #sv-nav-prev input {
+    font-weight: 400;
+  }
+  #sv-nav-next {
+    order: 1;
+    flex-grow: 1;
+    width: 100%;
+  }
+  .sd-body.sd-body--responsive .sd-body__navigation{
+    flex-grow: 1;
+    width: 100%;
+    display: block;
+    display: flex;
+    flex-direction: column;
+  }
+  .sd-body__navigation .sd-btn {
+    flex-grow: 1;
+    width: 100%;
+    display: block;
+    background-color: #000;
+    padding: 24px!important;
+    border: 2px solid #000;
+    color: #fff;
+    max-width: 600px;
+    margin: auto;
+    font-size: 18px;
+    box-shadow: none!important;
+  }
+  .sd-navigation__prev-btn {
+    background-color: transparent!important;
+    border: none!important;
+    color: #000!important;
+    box-shadow: none;
+  }
+  .sd-btn:not(:disabled):hover, .sd-btn:not(:disabled):focus {
+    box-shadow: unset!important;
+    background-color: #333;
+  }
+  .header-layout {
+    justify-content: center;
+  }
+  .sd-root-modern {
+    background-color: #fff!important;
+  }
+  .sd-root-modern p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .sd-body__navigation .sv-action:not(.sv-action--hidden)~.sv-action:not(.sv-action--hidden) {
+    margin-left: 0!important;
+    display: block;
+    width: 100%;
+  }
+  div:only-child>.sd-element--with-frame:not(.sd-element--collapsed) {
+    padding: 0!important;
+    border: none!important;
+    box-shadow: unset!important;
+    background-color: #fff!important;
+  }
+  .sd-element[data-name="knowledge_level"] label {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  label[aria-label="Informed"]::before,
+  label[aria-label="Curious"]::before,
+  label[aria-label="Skeptical"]::before {
+    content: '';
+    display: block;
+    height: 150px;
+    width: 150px;
+    background-image: url('https://via.placeholder.com/150');
+    margin: auto;
+  }
+  label[aria-label="Informed"]::after {
+    content: 'You know more than the average person.';
+    display: block;
+  }
+  label[aria-label="Curious"]::after  {
+    content: 'You know a bit, but want to learn more';
+    display: block;
+  }
+  label[aria-label="Skeptical"]::after {
+    content: 'You\'re not convinced yet.';
+    display: block;
+  }
+  h4.sd-title span::after {
+    display: block;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 26px;
+  }
+  /* What's your name? */
+  #sp_103 h4.sd-title span::after {
+    content: 'We’ll use this to personalize your experience. Think: daily vitamin packs.';
+  }
+  /* How old are you? */
+  #sp_105 h4.sd-title span::after {
+    content: 'Depending on your stage of life, you may require different nutrients in your day-to-day diet.';
+  }
+  /* Have you taken vitamins in the past? */
+  #sp_109 h4.sd-title span::after {
+    content: 'Vitamins, fish oil, or similar.';
+  }
+  /* Have you taken powders in the past? */
+  #sp_113 h4.sd-title span::after {
+    content: 'Protein, collagen, or anything mixed into a drink.';
+  }
+  /* On an average day, you eat fruit: */
+  #sp_122 h4.sd-title span::after {
+    content: 'Like a medium apple, a banana, or ½ cup berries.';
+  }
+  /* On an average day, you eat vegetables : */
+  #sp_125 h4.sd-title span::after {
+    content: 'Like ½ cup cooked vegetables or one cup raw vegetables.';
+  }
+  /* On an average day, you eat dairy : */
+  #sp_127 h4.sd-title span::after {
+    content: 'Like milk, yogurt, and cheese.';
+  }
+  /* On an average day, you eat high fiber foods: */
+  #sp_129 h4.sd-title span::after {
+    content: 'Like grains, seeds, beans, green vegetables, berries.';
+  }
+  /* On an average day, you eat protein : */
+  #sp_131 h4.sd-title span::after {
+    content: 'Like eggs, meat, beans, and tofu.';
+  }
+  /* On an average day, you eat meat : */
+  #sp_133 h4.sd-title span::after {
+    content: 'This doesn’t include fish or seafood.';
+  }
+  /* On an average day, you eat fish : */
+  #sp_134 h4.sd-title span::after {
+    content: 'Like salmon, sardines, or anchovies.';
+  }
+</style>

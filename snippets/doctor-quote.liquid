@@ -1,0 +1,50 @@
+{% if product.metafields.my_fields.doctor_quote != blank %}
+<style>
+  #d-quote {
+    padding: 60px 20px; 
+    max-width: 1400px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*     color: #fff; */
+  }
+  #d-quote img {
+    border-radius: 50%;
+    max-width: 120px;
+    margin-right: 30px;
+  }
+  #d-quote .quote {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  #d-quote a {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 600px) {
+    #d-quote {
+      flex-direction: column;
+    }
+    #d-quote img {
+      border-radius: 50%;
+      max-width: 140px;
+      margin-right: 0px;
+      margin-bottom: 14px;
+    }
+  }
+</style>
+
+<div style="">
+  <div id="d-quote">
+    <img src="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/dgraves.jpg?v=1648626172"/>
+    <div class="content">
+      <p class="quote">
+        "{{ product.metafields.my_fields.doctor_quote }}"
+      </p>
+      <p class="author" style="margin:0;"><strong>Dr. Diana Rangaves</strong>, PharmD Consultant, Professor of Pharmacology, Elm & Rye Scientific Advisory Board Member</p>
+    </div>
+  </div>
+</div>
+{% endif %}

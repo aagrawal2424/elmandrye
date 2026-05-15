@@ -1,0 +1,416 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "98f43946-91a7-49b6-992c-901a91cdeeac": {
+          "type": "custom",
+          "settings": {
+            "code": "<div style=\"justify-content: flex-start;\" class=\"spr-starrating spr-summary-starrating\">\n<div class=\"spr-stars\">\n  <span role=\"img\" aria-label=\"5.0 out of 5 stars\">\n\n        <svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"spr-star\" style=\"width: 19px; height: 19px;\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 512 512\" xml:space=\"preserve\">\n          <path fill=\"#000000\" d=\"M512,197.816L325.961 185.585 255.898 9.569 185.835 185.585 0 197.816 142.534 318.842 95.762 502.431 255.898 401.21 416.035 502.431 369.263 318.842z\"></path>\n        </svg>\n      \n    \n      \n       \n        <svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"spr-star\" style=\"width: 19px; height: 19px;\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 512 512\" xml:space=\"preserve\">\n          <path fill=\"#000000\" d=\"M512,197.816L325.961 185.585 255.898 9.569 185.835 185.585 0 197.816 142.534 318.842 95.762 502.431 255.898 401.21 416.035 502.431 369.263 318.842z\"></path>\n        </svg>\n      \n    \n      \n       \n        <svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"spr-star\" style=\"width: 19px; height: 19px;\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 512 512\" xml:space=\"preserve\">\n          <path fill=\"#000000\" d=\"M512,197.816L325.961 185.585 255.898 9.569 185.835 185.585 0 197.816 142.534 318.842 95.762 502.431 255.898 401.21 416.035 502.431 369.263 318.842z\"></path>\n        </svg>\n      \n    \n      \n       \n        <svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"spr-star\" style=\"width: 19px; height: 19px;\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 512 512\" xml:space=\"preserve\">\n          <path fill=\"#000000\" d=\"M512,197.816L325.961 185.585 255.898 9.569 185.835 185.585 0 197.816 142.534 318.842 95.762 502.431 255.898 401.21 416.035 502.431 369.263 318.842z\"></path>\n        </svg>\n      \n    \n      \n       \n        <svg aria-hidden=\"true\" focusable=\"false\" role=\"presentation\" class=\"spr-star\" style=\"width: 19px; height: 19px;\" xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 512 512\" xml:space=\"preserve\">\n          <path fill=\"#000000\" d=\"M512,197.816L325.961 185.585 255.898 9.569 185.835 185.585 0 197.816 142.534 318.842 95.762 502.431 255.898 401.21 416.035 502.431 369.263 318.842z\"></path>\n        </svg>\n      \n    \n  </span>\n</div>\n\n</div>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "61760d9c-0a6a-4d4e-9d19-f1655d50295f": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'make-a-bundle-button' %}"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
+        "b13657d8-fe8b-4ee4-8533-b08e38f7825b": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'preorder-banner' %}"
+          }
+        },
+        "7415a535-c185-4a7e-9d3b-22f3c055298b": {
+          "type": "custom",
+          "settings": {
+            "code": "{% render 'product-pair' %}"
+          }
+        },
+        "trustreviews_reviews_widget_MJcmmr": {
+          "type": "shopify://apps/trustreviews/blocks/reviews_widget/56d0fe1b-e701-4cff-8f84-466a26e09adb",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "trustreviews_star_rating_JrTn4x": {
+          "type": "shopify://apps/trustreviews/blocks/star_rating/56d0fe1b-e701-4cff-8f84-466a26e09adb",
+          "settings": {
+            "product": "{{product}}",
+            "hide_on_no_reviews": false,
+            "enable_jsonld": false,
+            "starsize": 16
+          }
+        },
+        "judge_me_reviews_preview_badge_nCfc7w": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "98f43946-91a7-49b6-992c-901a91cdeeac",
+        "variant_picker",
+        "61760d9c-0a6a-4d4e-9d19-f1655d50295f",
+        "description",
+        "buy_buttons",
+        "b13657d8-fe8b-4ee4-8533-b08e38f7825b",
+        "7415a535-c185-4a7e-9d3b-22f3c055298b",
+        "trustreviews_reviews_widget_MJcmmr",
+        "trustreviews_star_rating_JrTn4x",
+        "judge_me_reviews_preview_badge_nCfc7w"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "slider",
+        "thumbnail_height": "fixed",
+        "product_zoom_enable": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "1660512042fed2a933": {
+      "type": "logo-list",
+      "blocks": {
+        "1660512042f48bc405-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/forbes.png",
+            "link": "",
+            "testimonial": "\"Not all supplements are created equal.\""
+          }
+        },
+        "1660512042f48bc405-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/discoverlogo.png",
+            "link": "",
+            "testimonial": "“World's best supplement brand to keep you healthy.”"
+          }
+        },
+        "1660512042f48bc405-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/mens.png",
+            "link": "",
+            "testimonial": "\"The simple and straightforward attitude of the company is praiseworthy.\""
+          }
+        },
+        "1660512042f48bc405-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/salt.png",
+            "link": "",
+            "testimonial": "\"Elm and Rye supplements are a great way to improve your overall health.\""
+          }
+        },
+        "49013f06-9145-40db-bf83-79a396c97f80": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify://shop_images/lamag.png",
+            "link": "",
+            "testimonial": "\"Elm & Rye should be your first choice.\""
+          }
+        }
+      },
+      "block_order": [
+        "1660512042f48bc405-0",
+        "1660512042f48bc405-1",
+        "1660512042f48bc405-2",
+        "1660512042f48bc405-3",
+        "49013f06-9145-40db-bf83-79a396c97f80"
+      ],
+      "settings": {
+        "title": "",
+        "class": "pdp-logo-list",
+        "logo_opacity": 76,
+        "alt": false
+      }
+    },
+    "166089303156134e7b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'product-info' %}"
+      }
+    },
+    "166235177731a318f4": {
+      "type": "hero-video",
+      "settings": {
+        "title": "PRE-WORKOUT PERFECTED",
+        "product": "pre-workout",
+        "title_size": 63,
+        "subheading": "A premium pre-workout formulated with science-backed ingredients and fully loaded with everything you need to train harder, recover faster, and achieve your best results.",
+        "link_text": "",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/3628790d91a141f893d8ac9f69c37555.mp4",
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "16611345875cb50656": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% if product.handle == 'protein-supplement' %}\n{% render 'protein-section' %}\n{% endif %}"
+      }
+    },
+    "16608888364d846996": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'doctor-quote' %}"
+      }
+    },
+    "16623524444b49ae68": {
+      "type": "text-columns",
+      "blocks": {
+        "1662352444d3f4d596-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/caffeine.jpg",
+            "image_width": 650,
+            "title": "Caffeine",
+            "text": "<p>Caffeine is used to<strong> increase energy and focus. </strong>This stimulant may improve mental alertness, memory, and exercise performance, as well as help reduce body fat.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1662352444d3f4d596-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/beta.jpg",
+            "image_width": 650,
+            "title": "Beta Alanine",
+            "text": "<p>Beta Alanine is used to prevent muscle soreness and enhance athletic performance. This results in more muscle gains due to less muscle fatigue and more sets and reps at the gym.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "e8386981-ac72-4191-bdfb-461afa928d56": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ash.jpg",
+            "image_width": 650,
+            "title": "Ashwagandha",
+            "text": "<p>Ashwagandha is an herb that could supercharge your workout. It has been shown to increase muscle mass, reduce body fat, and increase strength in men.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "3821153d-7e49-47c5-89a1-aca959f8fdf0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/b12.jpg",
+            "image_width": 650,
+            "title": "B12",
+            "text": "<p>Vitamin B12 is essential for protein breakdown and plays a role in muscle building. It has a important role in DNA synthesis and forming of red blood cells, which helps oxygen to reach the muscles resulting in more stamina and strength.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "74327feb-1445-47e9-82c1-f884ace9e181": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/reishi.jpg",
+            "image_width": 650,
+            "title": "Reishi",
+            "text": "<p>Studies suggests that the beta-glucan polysaccharides in reishi mushrooms may assist in modulating the body’s immune response and provide anti-inflammatory effects associated with overexercising.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "61788566-a865-4be7-9504-ad153a0bf085": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/coq.jpg",
+            "image_width": 650,
+            "title": "CoQ10",
+            "text": "<p>Several studies have found that CoQ10 supplementation improves aerobic power, anaerobic threshold, exercise performance, and/or recovery after exercise in trained athletes and untrained individuals</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662352444d3f4d596-0",
+        "1662352444d3f4d596-1",
+        "e8386981-ac72-4191-bdfb-461afa928d56",
+        "3821153d-7e49-47c5-89a1-aca959f8fdf0",
+        "74327feb-1445-47e9-82c1-f884ace9e181",
+        "61788566-a865-4be7-9504-ad153a0bf085"
+      ],
+      "settings": {
+        "product": "pre-workout",
+        "title": "Premium Ingredients",
+        "align_text": "center",
+        "alt": false
+      }
+    },
+    "1660889404990c6739": {
+      "type": "text-and-image",
+      "settings": {
+        "image2": "shopify://shop_images/pexels-cottonbro-7191414.jpg",
+        "video_link": "https://cdn.shopify.com/videos/c/o/v/8314b4eb857b4d1f814766bb9e8df866.mp4",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "Pure Quality. Lab Tested.",
+        "text": "<p>Not all supplements are created equal. We regularly send our supplements to third party labs to analyze and test. Then we post the results here for full transparency.</p>",
+        "button_label": "Lab Results",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "left",
+        "alt": false
+      }
+    },
+    "1663629699f94a8980": {
+      "type": "medical-advisory-board",
+      "settings": {}
+    },
+    "16612018297736a496": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'review-quote' %}"
+      }
+    },
+    "1661129712611a031e": {
+      "type": "featured-collection-slider",
+      "settings": {
+        "title": "You May Also Like",
+        "description": "",
+        "home_featured_products": "best-sellers",
+        "per_row": "small",
+        "alt": false
+      }
+    },
+    "166120505909789b9e": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'video-reviews' %}"
+      }
+    },
+    "166112951485ebfeb1": {
+      "type": "advanced-content",
+      "blocks": {
+        "1661129514a66d5f90-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div style=\"text-align: center\">\n<h2 style=\"font-weight: 600; font-size: 50px; margin-bottom: 24px;\">Need help with your routine?</h2>\n<p><a class=\"btn btn--inverse\" style=\"min-width: 300px;\" href=\"/pages/quiz\">Take the quiz</a></p>\n<p>\n<a href=\"/collections/products\">Browse all products</a></p>\n</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1661129514a66d5f90-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "alt": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "f00f3f81-9e7e-4ba6-ae0b-db280802ce4b": {
+          "type": "custom",
+          "settings": {
+            "code": "<h2>Testosterone Benefits\n</h2><p>Use this advanced section to add custom HTML, app scripts, or liquid.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "f00f3f81-9e7e-4ba6-ae0b-db280802ce4b"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "1712873189bed9b8e4": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_htk7Xp": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_htk7Xp"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1660512042fed2a933",
+    "166089303156134e7b",
+    "166235177731a318f4",
+    "16611345875cb50656",
+    "16608888364d846996",
+    "16623524444b49ae68",
+    "1660889404990c6739",
+    "1663629699f94a8980",
+    "16612018297736a496",
+    "1661129712611a031e",
+    "166120505909789b9e",
+    "166112951485ebfeb1",
+    "product-recommendations",
+    "collection-return",
+    "sub",
+    "1712873189bed9b8e4"
+  ]
+}

@@ -1,0 +1,457 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+<style>
+  [x-cloak] {
+    display: none !important;
+  }
+</style>
+
+<script>
+  document.addEventListener('alpine:init', () => {
+    Alpine.store('bundle', {
+      items: localStorage.getItem('bundle')
+        ? JSON.parse(localStorage.getItem('bundle'))
+        : [],
+      addToCartLoading: false,
+      checkoutLoading: false,
+
+
+
+      addItem(variantID, price, productImageURL, productTitle, options = []) {
+        const currentItem = this.getItemsByVariantID(variantID).find(
+          (item) => item.item_price === price && item.item_price !== 0
+        )
+
+        if (currentItem) {
+          currentItem.quantity += 1;
+        } else {
+          this.items.push({
+            variantID: variantID,
+            quantity: 1,
+            item_price: parseFloat(price),
+            productImageURL: productImageURL,
+            product_title: productTitle,
+            options: options
+          })
+        }
+        localStorage.setItem('bundle', JSON.stringify(this.items));
+      },
+
+
+      removeItem(variantID) {
+        
+        const itemsByVariantID = this.getItemsByVariantID(variantID);
+        const currentItem = itemsByVariantID.find((item) => item.item_price > 0) || itemsByVariantID[0];
+
+        if (typeof currentItem === 'undefined') {
+          return;
+        }
+
+        if (currentItem.quantity > 1) {
+          currentItem.quantity -= 1;
+        } else {
+          this.items = this.items.filter(item => item.variantID !== variantID || item.item_price !== currentItem.item_price);
+        }
+
+        if (this.getPercentageToFreeItem() !== 100) {
+          this.items = this.items.filter(item => item.item_price !== 0)
+        } else if (this.getPercentageToSecondFreeItem() !== 100 && this.freeItemCount() > 1) {
+          const firstFreeItemIndex = this.items.findIndex(item => item.item_price === 0);
+          this.items.splice(firstFreeItemIndex, 1);
+        }
+
+        localStorage.setItem('bundle', JSON.stringify(this.items));
+      },
+
+      removeItemByIndex(index) {
+
+        this.items.splice(index, 1);
+
+        if (this.getPercentageToFreeItem() !== 100) {
+          this.items = this.items.filter(item => item.item_price !== 0)
+        } else if (this.getPercentageToSecondFreeItem() !== 100 && this.freeItemCount() > 1) {
+          const firstFreeItemIndex = this.items.findIndex(item => item.item_price === 0);
+          this.items.splice(firstFreeItemIndex, 1);
+        }
+
+        if (this.getPercentageToSecondFreeItem() !== 100) {
+          
+        }
+
+        localStorage.setItem('bundle', JSON.stringify(this.items));
+        
+      },
+
+      emptyBundleLocalStorage() {
+        localStorage.setItem('bundle', JSON.stringify([]));
+      },
+
+      getItemsByVariantID(variantID) {
+        return this.items.filter(item => item.variantID === variantID);
+      },
+
+      getQuantityOfVariantID(variantID) {
+        return this.getItemsByVariantID(variantID).reduce((acc, item) => acc + item.quantity, 0);
+      },
+
+      getBundlePrice() {
+        return this.items.reduce((total, item) => total + (item.quantity * parseFloat(item.item_price)), 0).toFixed(2);
+      },
+
+      getPercentageToFreeItem() {
+        const percentage = Math.round((this.getBundlePrice() / 149.99) * 100);
+        return percentage > 100
+          ? 100
+          : percentage;
+      },
+
+      getPercentageToSecondFreeItem() {
+        const percentage = Math.round((this.getBundlePrice() / 249.99) * 100);
+        return percentage > 100
+          ? 100
+          : percentage;
+      },
+
+      freeItemCount() {
+        return this.items.filter(item => item.item_price === 0).length;
+      },
+
+      async handleAddToCart() {
+        this.addToCartLoading = true;
+        await this.addItemsToCart();
+        this.emptyBundleLocalStorage();
+        window.location.href = '/cart';
+      },
+
+      async handleCheckout() {
+        this.checkoutLoading = true;
+        await this.addItemsToCart();
+        this.emptyBundleLocalStorage();
+        window.location.href = '/checkout';
+      },
+
+      addItemsToCart() {
+        return fetch('/cart/add.js', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(
+            {items: this.formatItemsForAddToCart()}
+          )
+        })
+      },
+
+      formatItemsForAddToCart() {
+        return this.items.map(item => {
+          return {
+            id: item.variantID,
+            quantity: item.quantity,
+            properties: {
+                'is_free_item' : item.item_price === 0,
+                'is_bundle_item' : true
+              }
+          }
+        })
+      },
+    })
+  })
+</script>
+
+<div x-data>
+  <div class="w-full py-12">
+    <h1 class="mx-auto text-center font-bold text-6xl my-2">Build Your Own Bundle</h1>
+    <h3 class="mx-auto text-center text-xl my-2">Create your custom kit and stack free goods as you build your perfect bathroom.</h3>
+  </div>
+
+  <div class="relative z-10" aria-labelledby="modal-title" role="dialog" aria-modal="true" x-cloak x-show="($store.bundle.getPercentageToFreeItem() === 100 && $store.bundle.freeItemCount() < 1) || ($store.bundle.getPercentageToSecondFreeItem() === 100 && $store.bundle.freeItemCount() < 2)">
+
+    <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity"></div>
+
+    <div class="fixed inset-0 z-10 overflow-y-auto">
+      <div class="flex min-h-full items-center justify-center p-4 text-center sm:items-center sm:p-0">
+        <div class="relative transform overflow-hidden bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+          <div class="flex flex-col p-4">
+            <div class="flex items-start justify-between">
+              <h3 class="text-lg font-medium leading-6 text-gray-900" id="modal-title">
+                Select your free item
+              </h3>
+            </div>
+          </div>
+          <div class="border-t border-gray-200">
+            <ul class="divide-y divide-gray-200">
+              {% for product in collections['allowed-free-bundle-item'].products %}
+
+                {% if product.available == false %}
+                  {% continue %}
+                {% endif %}
+
+                <li class="py-3" x-data='{ selectedVariantID: {{product.first_available_variant.id}}, selectedVariantImage: `{{ product.featured_image | img_url: '600x600' }}`, selectedOptions: {{product.first_available_variant.options | json}} }'>
+                  <div class="flex px-4 space-x-4">
+                    <div class="flex-shrink-0">
+                      <img class="h-16 w-16" :src="selectedVariantImage" alt="">
+                    </div>
+                    <div class="flex-1 flex items-center justify-between space-x-4">
+                      <div class="text-sm font-medium text-gray-900 flex-1">
+                        <p>
+                          {{ product.title }}
+                        </p>
+                      </div>
+                      <div class="flex-shrink-0">
+                        <button type="button" class="relative inline-flex items-center px-4 py-2 text-sm text-white bg-black hover:bg-white hover:text-black transition" style="border: 1px solid black;" @click="$store.bundle.addItem(parseInt(selectedVariantID), 0, selectedVariantImage, '{{ product.title }}', selectedOptions)">
+                          Select
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="px-4">
+                  <select class="pr-6" value="{{product.first_available_variant.id}}" @change='(event) => {
+                    selectedVariantID = event.target.value
+
+                    {% for variant in product.variants %}
+
+                      if (event.target.value == {{variant.id}}) {
+
+                        {% if variant.featured_image %}
+                        selectedVariantImage = `{{ variant.featured_image | img_url: '600x600' }}`
+                        {% endif %}
+
+                        selectedOptions = {{variant.options | json}}
+
+                      }
+                     
+                    {% endfor %}
+
+                    }' >
+                    {% for variant in product.variants %}
+
+                      {% if variant.option1 == "2-Pack" or variant.option1 == "4-Pack" or variant.option2 == "2-Pack" or variant.option2 == "4-Pack" or variant.option3 == "2-Pack" or variant.option3 == "4-Pack" %}
+                        {% continue %}
+                      {% endif %}
+
+                      <option value="{{variant.id}}" {% if variant.id == product.first_available_variant.id %}selected{% endif %}>
+                        {% for option in variant.options %}
+
+                          {% if option == "Single" %}
+                            {% continue %}
+                          {% endif %}
+
+                          {% if forloop.index0 > 0 %}
+                            /
+                          {% endif %}
+
+                          {{ option }}
+                        {% endfor %}
+                      </option>
+                    {% endfor %}
+                  </select>
+                  </div>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="px-4 md:px-16 pr-10 md:pr-24">
+    <div class="w-full mx-auto relative h-24 mb-10 flex items-center justify-center">
+      <div class="w-full bg-gray-200 rounded-full h-1.5 md:h-2.5 dark:bg-gray-700">
+        <div class="h-1.5 md:h-2.5 rounded-full" :style="`width: ${$store.bundle.getPercentageToSecondFreeItem()}%; background-color: #000;`"></div>
+      </div>
+
+      <div style="transform: translate(-50%, 0); background-color: #000; left: 40%" class="absolute h-8 w-8 text-xs md:text-base md:h-12 md:w-12 text-white rounded-full flex items-center justify-center" x-text="$store.bundle.getPercentageToFreeItem() >= 66 ? '&#10003;': '$99'"></div>
+      <div style="transform: translate(-50%, 0); left: 40%" class="absolute text-xs w-32 bottom-2 md:bottom-0 text-center">Free Shipping</div>
+
+      <div style="transform: translate(-50%, 0);background-color: #000; left: 60%" class="absolute h-8 w-8 text-xs md:text-base md:h-12 md:w-12 text-white rounded-full flex items-center justify-center" x-text="$store.bundle.getPercentageToFreeItem() >= 100 ? '&#10003;': '$149'"></div>
+      <div style="transform: translate(-50%, 0); left: 61%" class="absolute text-xs bottom-16 w-20 md:bottom-0">Free Item</div>
+
+      <div style="transform: translate(-50%, 0);background-color: #000; left: 100%" class="absolute h-8 w-8 text-xs md:text-base md:h-12 md:w-12 text-white rounded-full flex items-center justify-center" x-text="$store.bundle.getPercentageToFreeItem() >= 100 ? '&#10003;': '$149'"></div>
+      <div style="transform: translate(-50%, 0); left: 100%" class="absolute text-xs bottom-2 w-20 md:bottom-0">Free Item</div>
+
+    </div>
+  </div>
+
+  <div class="mt-4 mb-12 px-6 md:px-16">
+    <h2 class="text-4xl font-semibold">Your Bundle</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 py-4 mx-auto">
+      <template x-for="(item, index) in $store.bundle.items">
+        
+        <div class="relative flex flex-col justify-between">
+          <div>
+          <img x-bind:src="`${item.productImageURL}`" alt="" class="object-cover aspect-square rounded-xl" style="border: 2px solid black;">
+          <p class="text-center font-bold mt-2" x-text="item.product_title"></p>
+          </div>
+
+          <p class="text-center mt-2 text-sm">
+            <template x-for="(option, optionIndex) in item.options">
+              <template x-if="option && option !== 'Single'">
+                <span>
+                  <template x-if="optionIndex !== 0"><span> / </span></template>
+                  <span x-text="option"></span>
+                </span>
+              </template>
+            </template>
+          </p>
+
+          <div :class="`absolute h-8 ${ item.item_price > 0 ? 'w-8' : 'w-14' } bg-black text-white flex items-center justify-center rounded-full`" :style="`left:${ item.item_price > 0 ? '-10' : '-18' }px; top:-10px`" x-text="item.item_price > 0 ? item.quantity : 'Free'"></div>
+          <div x-transition.duration.300ms class="absolute h-6 w-6 bg-black text-white hidden md:flex items-center justify-center rounded-full right-1 top-1 cursor-pointer text-sm hover:bg-white hover:text-black" @click="$store.bundle.removeItemByIndex(index)">&#x2715</div>
+          <div class="absolute h-4 w-4 bg-black text-white flex md:hidden items-center justify-center rounded-full right-1 top-1 text-xs" @click="$store.bundle.removeItemByIndex(index)">&#x2715</div>
+        </div>
+      </template>
+      <template x-if="$store.bundle.items.length < 4">
+        <template x-for="i in 4 - $store.bundle.items.length">
+          <div style="border: 1px dotted black; aspect-ratio: 1;" class="flex items-center justify-center rounded-xl">&plus;</div>
+        </template>
+      </template>
+    </div>
+
+    <div class="w-full hidden md:flex items-center justify-between">
+      <div class="text-3xl font-semibold">$<span x-text="$store.bundle.getBundlePrice()"></span>
+      </div>
+      <div class="flex items-center justify-end gap-3">
+        <button class="bg-black text-white px-4 py-2 hover:bg-transparent hover:text-black transition disabled:bg-gray-400 disabled:text-white track-add-to-cart" style="border: 1px solid black;" @click="$store.bundle.handleAddToCart()" x-bind:disabled="$store.bundle.addToCartLoading || $store.bundle.checkoutLoading || $store.bundle.items.length < 1">
+          <span x-text="$store.bundle.addToCartLoading ? 'Adding To Cart...' : 'Add To Cart'">
+            Add To Cart
+          </span>
+        </button>
+        <button class="bg-black text-white px-4 py-2 hover:bg-transparent hover:text-black transition disabled:bg-gray-400 disabled:text-white track-add-to-cart" style="border: 1px solid black;" @click="$store.bundle.handleCheckout()" x-bind:disabled="$store.bundle.addToCartLoading || $store.bundle.checkoutLoading || $store.bundle.items.length < 1">
+          <span x-text="$store.bundle.checkoutLoading ? 'Going To Checkout...' : 'Checkout'">
+            Checkout
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full md:hidden px-8">
+
+      <div class="w-full flex items-center justify-between text-2xl font-semibold my-4">
+        <div>Total: </div>
+        <div>$<span x-text="$store.bundle.getBundlePrice()"></span></div> 
+      </div>
+
+      <button class="block w-full my-2 bg-black text-white px-4 py-2 hover:bg-transparent hover:text-black transition disabled:bg-gray-400 disabled:text-white" style="border: 1px solid black;" @click="$store.bundle.handleAddToCart()" x-bind:disabled="$store.bundle.addToCartLoading || $store.bundle.checkoutLoading || $store.bundle.items.length < 1">
+          <span x-text="$store.bundle.addToCartLoading ? 'Adding To Cart...' : 'Add To Cart'">
+            Add To Cart
+          </span>
+        </button>
+
+      <button class="block w-full my-2  bg-black text-white px-4 py-2 hover:bg-transparent hover:text-black transition disabled:bg-gray-400 disabled:text-white" style="border: 1px solid black;" @click="$store.bundle.handleCheckout()" x-bind:disabled="$store.bundle.addToCartLoading || $store.bundle.checkoutLoading || $store.bundle.items.length < 1">
+        <span x-text="$store.bundle.checkoutLoading ? 'Going To Checkout...' : 'Checkout'">
+          Checkout
+        </span>
+      </button>
+    </div>
+  </div>
+
+  <hr class="my-8 h-1 bg-gray-400 border-0 dark:bg-gray-700 mx-6 md:mx-16">
+
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-6 px-4 mx-auto md:px-20">
+    {% for product in collections['bundle-products'].products %}
+
+      {% if product.available == false %}
+        {% continue %}
+      {% endif %}
+
+
+      <div class="flex flex-col" x-data='{
+        selectedVariantID: {{ product.first_available_variant.id }},
+        selectedVariantImage: `{{ product.featured_image | img_url: '600x600' }}`,
+        variants: {{ product.variants | json }},
+        selectedValues: {
+          option1: `{{ product.first_available_variant.option1 }}`,
+          option2: `{{ product.first_available_variant.option2 }}`,
+          option3: `{{ product.first_available_variant.option3 }}`
+        }
+      }'
+      x-init="() => {
+        $watch('selectedValues', (value) => {
+          const variant = variants.find((variant) => {
+            
+            if (variant.option1 && variant.option1 !== value.option1) {
+              return false;
+            }
+
+            if (variant.option2 && variant.option2 !== value.option2) {
+              return false;
+            }
+
+            if (variant.option3 && variant.option3 !== value.option3) {
+              return false;
+            }
+
+            return true;
+
+          })
+
+          if (variant) {
+            selectedVariantID = variant.id
+            
+            if (variant.featured_image) {
+              selectedVariantImage = variant.featured_image.src
+            }
+
+          }
+        })
+      }"
+      >
+
+        <a href="{{ product.url }}" class="block">
+          <img class="object-cover aspect-square" :src="selectedVariantImage" alt="">
+        </a>
+
+        <div class="py-4 flex flex-col items-center justify-between">
+          <div class="h-20">
+            <p class="text-center font-bold">{{ product.title }}</p>
+            <p class="text-center text-lg">{{ product.price | money }}</p>
+          </div>
+          <div class="w-full flex items-stretch justify-center my-2 select-none rounded-lg" style="border: 1px solid rgb(0, 0, 0, 100);">
+
+            <div class="h-12 flex items-center justify-center w-full cursor-pointer hover:bg-black hover:text-white transition rounded" x-show="$store.bundle.getQuantityOfVariantID(selectedVariantID) === 0" @click="$store.bundle.addItem(selectedVariantID, {{ product.price | money_without_currency }}, selectedVariantImage, '{{ product.title }}', Object.values(selectedValues))">Add to Bundle</div>
+            <div class="h-12 flex items-stretch justify-between w-full" x-show="$store.bundle.getQuantityOfVariantID(selectedVariantID) > 0">
+              <div class="w-1/4 text-2xl flex justify-center items-center cursor-pointer hover:bg-black hover:text-white transition rounded-l" @click="$store.bundle.removeItem(selectedVariantID)">&minus;</div>
+              <div class="text-xl w-1/2 flex justify-center items-center" style="border-right: solid rgb(0, 0, 0, 100);border-left: solid rgb(0, 0, 0, 100);" x-text="$store.bundle.getQuantityOfVariantID(selectedVariantID)"></div>
+              <div class="w-1/4 text-2xl flex justify-center items-center cursor-pointer hover:bg-black hover:text-white transition rounded-r" @click="$store.bundle.addItem(selectedVariantID,  {{ product.price | money_without_currency }}, selectedVariantImage, '{{ product.title }}', Object.values(selectedValues))">&plus;</div>
+            </div>
+
+          </div>
+          <div class="my-2 w-full">
+            {% for option in product.options %}
+
+              {% assign optionSize = product.options_by_name[option].values | size %}
+              {% if option != "Bundle" and option != "Bundles" and optionSize > 1 %}
+
+                <div class="w-full md:text-base text-lg mt-1 mb-2" style="border-bottom: 1px solid black">{{option}}:</div>
+                <div class="flex items-center gap-2 flex-wrap" 
+                x-data="{
+                  selectedValue: '{{product.options_by_name[option].selected_value}}'
+                }"
+                x-init="$watch('selectedValue', (value) => {
+                  
+                  selectedValues.option{{forloop.index}} = value;
+
+                })"
+                >
+                  {% for value in product.options_by_name[option].values %}
+                    <div :class="`p-1 px-3 text-xs rounded-lg flex items-center justify-center transition ${selectedValue === '{{value}}' ? 'bg-black text-white' : 'hover:bg-black hover:text-white cursor-pointer'}`" style="border: 1px solid black" @click="selectedValue = '{{ value }}'">
+                      {{value}}
+                    </div>
+                  {% endfor %}
+                </div>
+
+              {% endif %}
+
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+
+</div>
+
+

@@ -1,0 +1,336 @@
+{% if product.metafields.custom.product_pair != blank %}
+  {% liquid
+    assign upsellProduct = all_products[product.metafields.custom.product_pair]
+    assign allowedSellingPlanGroupIds = upsellProduct.selling_plan_groups | where: 'app_id', 'SKIO' | map: 'id'
+    assign sellingPlanAllocation = upsellProduct.variants[0].selling_plan_allocations[0]
+    
+    for spa in upsellProduct.variants[0].selling_plan_allocations
+      if allowedSellingPlanGroupIds contains spa.selling_plan_group_id 
+        assign sellingPlanAllocation = spa
+        break
+      endif
+    endfor
+  %}
+  <div class="pair-border" style="background-color: #EBEBEB; width: 100%; height: 1px; display: block; margin-bottom: 24px;"></div>
+  <h3 class="pp-header">Also pairs with</h3>
+  <div class="product-pair-container pair_one active">
+    <a href="{{ upsellProduct.url }}" class="pair-link"><img src="{% if upsellProduct.title == 'Starter Set' %}https://cdn.shopify.com/s/files/1/0614/5110/8581/files/dark-starter-set.jpg?v=1660170653{% else %}{{ upsellProduct.featured_image | img_url: '800x' }}{% endif %}" /></a>
+    <div style="width: 63%;">
+      <a href="{{ upsellProduct.url }}" class="p-name">
+        <h3>{{ upsellProduct.title }}</h3>
+        <p>{{ upsellProduct.metafields.product.tagline }}</p>
+      </a>
+      <div class="pp-atc-container">
+          <form action="#">
+          <p>
+            <input type="radio" id="sub" name="radio-group" checked>
+            <label for="sub">Subscribe and save</label>
+          </p>
+          <p>
+            <input type="radio" id="once" name="radio-group">
+            <label for="once">Buy once</label>
+          </p>
+        </form>
+        <button data-id="{{ upsellProduct.variants[0].id }}" data-selling-plan-id="{{ sellingPlanAllocation.selling_plan.id }}"  data-name="{{ upsellProduct.title }}" data-price="{{ upsellProduct.price | money }}" data-sub-price="{{ sellingPlanAllocation.price | money }}" data-url="{{ upsellProduct.url }}" data-image="{{ upsellProduct.featured_image | img_url: '100x' }}">Add to cart</button>
+      </div>
+    </div>
+  </div>
+
+  {% if product.metafields.custom.product_pair_2 != blank %}
+  {% liquid
+    assign upsellProduct2 = all_products[product.metafields.custom.product_pair_2]
+    assign allowedSellingPlanGroupIds = upsellProduct2.selling_plan_groups | where: 'app_id', 'SKIO' | map: 'id'
+    assign sellingPlanAllocation = upsellProduct2.variants[0].selling_plan_allocations[0]
+    
+    for spa in upsellProduct2.variants[0].selling_plan_allocations
+      if allowedSellingPlanGroupIds contains spa.selling_plan_group_id 
+        assign sellingPlanAllocation = spa
+        break
+      endif
+    endfor
+  %}
+  <div class="product-pair-container pair_two">
+    <a href="{{ upsellProduct2.url }}" class="pair-link"><img src="{% if upsellProduct2.title == 'Starter Set' %}https://cdn.shopify.com/s/files/1/0614/5110/8581/files/dark-starter-set.jpg?v=1660170653{% else %}{{ upsellProduct2.featured_image | img_url: '800x' }}{% endif %}" /></a>
+    <div style="width: 63%;">
+      <a href="{{ upsellProduct2.url }}" class="p-name">
+        <h3>{{ upsellProduct2.title }}</h3>
+        <p>{{ upsellProduct2.metafields.product.tagline }}</p>
+      </a>
+      <div class="pp-atc-container">
+          <form action="#">
+          <p>
+            <input type="radio" id="sub" name="radio-group" checked>
+            <label for="sub">Subscribe and save</label>
+          </p>
+          <p>
+            <input type="radio" id="once" name="radio-group">
+            <label for="once">Buy once</label>
+          </p>
+        </form>
+        <button data-id="{{ upsellProduct2.variants[0].id }}" data-selling-plan-id="{{ sellingPlanAllocation.selling_plan.id }}"  data-name="{{ upsellProduct2.title }}" data-price="{{ upsellProduct2.price | money }}" data-sub-price="{{ sellingPlanAllocation.price | money }}" data-url="{{ upsellProduct2.url }}" data-image="{{ upsellProduct2.featured_image | img_url: '100x' }}">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
+  <style>
+    .product-pair-container .fa-star:before, .stamped-fa-star:before {
+      color: #000;
+    }
+    .pair-link {
+      width: 37%;
+      background-color: #ecebdc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+    }
+   .md-atc-container {
+      display: flex;
+      font-size: 13px;
+    }
+    .pp-header {
+      font-size: 20px;
+    }
+    .product-pair-container h3 {
+      text-transform: uppercase;
+      font-size: 29px;
+      margin: 0;
+    }
+    .product-pair-container .p-name {
+      flex-grow: 1;
+      width: 50%;
+    }
+    .product-pair-container .p-name p {
+      margin-bottom: 5px;
+    }
+    .product-pair-container form {
+      margin-right: 20px;
+    }
+    .product-pair-container form p {
+      margin-bottom: 4px;
+    }
+    .product-pair-container {
+      width: 100%;
+      max-width: 1500px;
+      margin: auto auto 60px auto;
+      display: none;
+    }
+    .product-pair-container.active {
+      display: flex;
+    }
+    .product-pair-container img {
+      max-width: 100%;
+    }
+    .product-pair-container button {
+      background-color: transparent;
+      border: 2px solid #000;
+      font-family: 'Instruction', sans-serif;
+      padding: 14px 20px;
+      width: 100%;
+      max-width: 300px;
+      cursor: pointer;
+      width: 100%;
+      font-weight: 600;
+    }
+    .product-pair-container button:hover {
+      background-color: #000;
+      color: #fff;
+    }
+    .product-pair-container [type="radio"]:checked,
+    .product-pair-container [type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+    .product-pair-container [type="radio"]:checked + label,
+    .product-pair-container [type="radio"]:not(:checked) + label
+    {
+        position: relative;
+        padding-left: 28px;
+        cursor: pointer;
+        line-height: 20px;
+        display: inline-block;
+        color: #000;
+        font-size: 14px;
+    }
+    .product-pair-container [type="radio"]:checked + label:before,
+    .product-pair-container [type="radio"]:not(:checked) + label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #ddd;
+        border-radius: 100%;
+        background: #fff;
+    }
+    .product-pair-container [type="radio"]:checked + label:after,
+    .product-pair-container [type="radio"]:not(:checked) + label:after {
+        content: '';
+        width: 12px;
+        height: 12px;
+        background: #000;
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        border-radius: 100%;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+    }
+    .product-pair-container [type="radio"]:not(:checked) + label:after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    .product-pair-container [type="radio"]:checked + label:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    .pair_two {
+      display: none;
+    }
+    @media screen and (max-width: 1000px) {
+      .product-pair-container img,
+      .product-pair-container .p-name,
+      .product-pair-container button,
+      .pp-atc-container,
+      .md-atc-container {
+        max-width: 100%;
+        width: 100%;
+        display: block;
+      }
+      .p-name,
+      .pp-atc-container form,
+      .md-atc-container form {
+        margin-bottom: 20px;
+        margin-right: 0;
+      }
+      .product-pair-container img {
+        margin: 0;
+      }
+      .pp-atc-container,
+      .md-atc-container {
+        align-items: unset;
+        justify-content: unset;
+      }
+    }
+  </style>
+
+  <script>
+    
+  $( document ).ready(function() {
+    
+    $(".product-pair-container button").click(function(e) {
+      $(this).html('Adding to cart...');
+      $(".complimentary-add-to-cart").html('Adding to cart...');
+      var el = $(this);
+      var id = $(this).data('id');
+      var name = $(this).data('name');
+      var price = $(this).data('price');
+      var subPrice = $(this).data('sub-price');
+      var image = $(this).data('image');
+      var url = $(this).data('url');
+      var selling_plan_id = $(this).data('selling-plan-id');
+      ga('send', 'event', 'Add To Cart', 'Complementary Upsell', name);
+      e.preventDefault();
+      if ($('#once').is(':checked')) { 
+        jQuery.post('/cart/add.js', {
+          items: [
+            {
+              quantity: 1,
+              id: id
+            }
+          ],
+          success: function(response) {
+            $('.cart__items').append(productDrawerTemplate(id, name, price, image, url, false));
+            setTimeout(function(){ el.html('Added!'); }, 800);
+            setTimeout(function(){ el.html('Add to cart'); }, 2500);
+            setTimeout(function(){ $(".complimentary-add-to-cart").html('Added!'); }, 500);
+            setTimeout(function(){ $(".complimentary-add-to-cart").html('Add to cart'); $("#complimentary-product").attr("aria-hidden","true"); }, 1000);
+            setTimeout(function(){ MicroModal.close('complimentary-product'); }, 1300);
+          }
+        });
+      } else {
+        jQuery.post('/cart/add.js', {
+          items: [
+            {
+              quantity: 1,
+              id: id,
+              selling_plan: selling_plan_id
+            }
+          ],
+          success: function(response) {
+            $('.cart__items').append(productDrawerTemplate(id, name, subPrice, image, url, true));
+            setTimeout(function(){ el.html('Added!'); }, 800);
+            setTimeout(function(){ el.html('Add to cart'); }, 2500);
+            setTimeout(function(){ $(".complimentary-add-to-cart").html('Added!'); }, 500);
+            setTimeout(function(){ $(".complimentary-add-to-cart").html('Add to cart'); $("#complimentary-product").attr("aria-hidden","true"); }, 1000);
+            setTimeout(function(){ MicroModal.close('complimentary-product'); }, 1300);
+          }
+        });
+      }
+    });
+
+  });
+
+    function upsellAddToCart(el) {
+      $(el).html('Adding to cart...');
+      var id = $(el).data('id');
+      var name = $(el).data('name');
+      var price = $(el).data('price');
+      var subPrice = $(el).data('sub-price');
+      var image = $(el).data('image');
+      var url = $(el).data('url');
+      var selling_plan_id = $(el).data('selling-plan-id');
+      ga('send', 'event', 'Add To Cart', 'Bundle Upsell', name);
+      if ($('#once').is(':checked')) { 
+        jQuery.post('/cart/add.js', {
+          items: [
+            {
+              quantity: 1,
+              id: id
+            }
+          ],
+          success: function(response) {
+            $('.cart__items').append(productDrawerTemplate(id, name, price, image, url, false));
+            setTimeout(function(){ $(el).html('Added!'); }, 800);
+            setTimeout(function(){ $(el).html('Add to cart'); }, 2500);
+            setTimeout(function(){ MicroModal.close('complimentary-product'); }, 1300);
+          }
+        });
+      } else {
+        jQuery.post('/cart/add.js', {
+          items: [
+            {
+              quantity: 1,
+              id: id,
+              selling_plan: selling_plan_id
+            }
+          ],
+          success: function(response) {
+            $('.cart__items').append(productDrawerTemplate(id, name, subPrice, image, url, true));
+            setTimeout(function(){ $(el).html('Added!'); }, 800);
+            setTimeout(function(){ $(el).html('Add to cart'); }, 2500);
+            setTimeout(function(){ MicroModal.close('complimentary-product'); }, 1300);
+          }
+        });
+      }
+    }
+    
+    {% if product.handle == 'sex-performance-enhancer' %}
+      $(document).ready(function() {
+        $(".variant-input input[name='Gender']").change(function() {
+          if ($(this).val() == 'Male') {
+            $(".product-pair-container.pair_one").addClass('active');
+            $(".product-pair-container.pair_two").removeClass('active');
+          } else {
+            $(".product-pair-container.pair_one").removeClass('active');
+            $(".product-pair-container.pair_two").addClass('active');
+          }
+        });
+      });
+    {% endif %}
+  </script>
+{% endif %}

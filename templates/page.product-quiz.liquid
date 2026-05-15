@@ -1,0 +1,386 @@
+{% render 'quiz-css' %}
+
+<style>
+  #mps-sales-notification,
+  .emotive-trigger { display: none!important; }
+  #surveyResult {
+    display: none;
+    margin: 0px auto 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    max-width: 1400px;
+  }
+  .intercom-lightweight-app-launcher {
+    right: unset;
+    left: 20px;
+    bottom: 12px!important;
+  }
+  #surveyResult p {
+    font-family: 'Open Sans', sans-serif;
+  }
+  #surveyResult h2 {
+    font-size: 60px;
+    margin-bottom: 0px;
+  }
+  #surveyResult .result-header {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+  }
+  .recommendations {
+    margin: auto auto 115px auto;
+  }
+  .recommendation-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-wrapper {
+    margin-top: 10px;
+  }
+  .product-card {
+    width: 24%;
+    background-color: #fafafa;
+    1px solid #e5e5e5;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 0.5%;
+    position: relative;
+  }
+  .product-card .we-recc {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+  }
+  .product-card .p-title {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+  .product-card .product-card-desc {
+    font-size: 16px;
+    flex-grow: 1;
+    min-height: 140px;
+    margin-bottom: 20px;
+  }
+  .product-card-header {
+    background-color: #E5E9E9;
+  }
+  .product-card-header img {
+    max-height: 240px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .product-card-body {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .survey-atc {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 2px;
+    margin:  0 0 0 20px;
+    display: block;
+    border: 2px solid #000;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+  }
+  .survey-atc:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .browse-all {
+    max-width: 100%;
+    z-index: 9;
+    margin: auto;
+    padding: 18px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    position: fixed;
+    background-color: #E5E9E9;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .browse-all .container {
+    display: flex;
+    max-width: 1400px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: auto;
+  }
+  .browse-all p {
+    margin: 0;
+  }
+  .remove-item {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px;
+    height: 20px;
+    background-image: url('{{ 'cancel.png' | asset_url }}');
+    background-size: contain;
+    opacity: 0.5;
+    z-index: 9;
+  }
+  .remove-item:hover {
+    opacity: 1;
+  }
+  .sd-progress {
+    height: 10px!important;
+    background-color: #E5E9E9!important;
+    position: fixed!important;
+    top: 0px;
+    width: 100%;
+    left: 0;
+  }
+  .sd-progress__bar {
+    background-color: #465454!important;
+  }
+  @media screen and (max-width: 600px) {
+    .recommendation-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+    .product-card {
+      width: auto;
+      margin: 12px;
+    }
+    .header-wrapper {
+      margin-top: 60px; 
+    }
+    #surveyElement h1 {
+      font-size: 40px;
+    }
+    .sd-element__title span {
+      font-size: 29px!important;
+      line-height: 40px!important;
+    }
+    .sd-item.sd-radio label {
+      min-height: 150px;
+    }
+    .intercom-lightweight-app {
+      display: none!important;
+    }
+    .browse-all .container {
+      flex-direction: column;
+    }
+    .survey-atc {
+      width: 100%;
+      margin-bottom: 6px;
+      font-size: 16px;
+    }
+    .survey-atc:last-child {
+      margin-bottom: 0;
+    }
+    
+  }
+</style>
+<div id="surveyElement" style="display:inline-block;width:100%;"></div>
+<div id="surveyResult">
+  <div class="result-header">
+    <div>
+      <p style="font-size: 15px; letter-spacing: 2px; margin-bottom: 10px;">RECOMMENDATIONS</p>
+      <h2>Made for <span class="person_name"></span></h2>
+      <p style="font-size: 22px; line-height: 32px;">Your recommendation is based on the answers to our questions. We referenced hundreds of clinical studies to ensure you’re getting just what your body needs.</p>
+    </div>
+  </div>
+  <div class="recommendations">
+    <div class="recommendation-container">
+    </div>
+  </div>
+  <div class="browse-all">
+    <div class="container">
+      <a href="/pages/quiz" class="survey-atc" style="background-color: transparent; color: #000;">Retake Quiz</a>   
+      <a href="/collections/products" class="survey-atc" target="_blank">Browse More Supplements</a>   
+      <a href="/checkout?discount=survey" class="survey-atc" onclick="addItemToCart();">Checkout With 30% Off</a>   
+    </div>
+  </div>
+</div>
+
+{% render 'product-quiz-script' %}
+
+<script>
+  function addAllToCart() {
+    var direcToCheckoutUrl = '/cart/';
+    var addToCart = '/cart/add?';
+    $('.recommendation-container').children('.product-card').each(function () {
+        addToCart = addToCart + 'items[][id]=' + $(this).data('id') + '&items[][quantity]=1&items[][selling_plan]=' + $(this).data('plan_id') + '&';
+        direcToCheckoutUrl = direcToCheckoutUrl + $(this).data('id') + ':1,';
+    });
+    addToCart = addToCart.slice(0, -1);
+    addToCart = addToCart + '&return_to=/checkout?discount=survey';
+    window.location.href = addToCart;
+  }
+  function surveyResult(data) {
+    $("#surveyElement").hide();
+    $("#surveyResult").show();
+    console.log(data);
+    $(".person_name").html(data.person_name);
+    // Health Goals
+    console.log(data.health_goals);
+    if (data.health_goals.includes('Immunity')) {
+      recommendedProductCard('Elderberry polyphenols were found to support <strong>immune</strong> defense by increasing the number of white blood cells and may have positive effects on some markers of <strong>heart</strong> and blood vessel health.', '{{all_products.elderberry-gummies.handle}}', '{{all_products.elderberry-gummies.title}}', '{{all_products.elderberry-gummies.url}}', '{{all_products.elderberry-gummies.featured_image | img_url: 'large'}}', 42213705679060, 407437469);
+      recommendedProductCard('Zinc is an essential micronutrient that is crucial to almost every aspect of your health. This mineral enhances the <strong>immune</strong> function, optimizes and <strong>boosts metabolism</strong>, and help keep your skin, eyes, and heart healthy.', '{{all_products.zinc.handle}}', '{{all_products.zinc.title}}', '{{all_products.zinc.url}}', '{{all_products.zinc.featured_image | img_url: 'large'}}', 42213717311700, 412483741);
+	}
+    if (data.health_goals.includes('Sleep')) {
+      recommendedProductCard('Melatonin is a hormone that is produced by the pineal gland in the brain. It helps to control the body\'s natural sleep-wake cycle. Our melatonin supplements assists with improving better sleep patterns and morning alertness.', '{{all_products.melatonin-gummies.handle}}', '{{all_products.melatonin-gummies.title}}', '{{all_products.melatonin-gummies.url}}', '{{all_products.melatonin-gummies.featured_image | img_url: 'large'}}', 42213714657492, 407240861);
+    }
+    if (data.health_goals.includes('Energy')) {
+      recommendedProductCard('Caffeine is a stimulant that is found in coffee, tea, cola, and chocolate. It is a psychoactive drug that blocks the effects of adenosine. It helps with <strong>decreasing fatigue and energy</strong>.', '{{all_products.caffeine.handle}}', '{{all_products.caffeine.title}}', '{{all_products.caffeine.url}}', '{{all_products.caffeine.featured_image | img_url: 'large'}}', 42213688017108, 405045405);
+    }
+    if (data.health_goals.includes('Fitness')) {
+      if (data.get_gender == 'male') {
+      	recommendedProductCard('Testosterone is a hormone that helps to maintain <strong>muscle mass</strong>, bone density, and red blood cell levels.', '{{all_products.testosterone.handle}}', '{{all_products.testosterone.title}}', '{{all_products.testosterone.url}}', '{{all_products.testosterone.featured_image | img_url: 'large'}}', 42213681234132, 407109789);
+      }
+      recommendedProductCard('Creatine is synthesized in the body from the amino acids glycine and arginine. It is transported to muscle cells, where it is converted into creatine phosphate (CP), a high-energy molecule used to provide energy for <strong>muscle</strong> contraction.', '{{all_products.creatine.handle}}', '{{all_products.creatine.title}}', '{{all_products.creatine.url}}', '{{all_products.creatine.featured_image | img_url: 'large'}}', 42213703188692, 407306397);
+    }
+    if (data.health_goals.includes('Digestion')) {
+      recommendedProductCard('Probiotics are live microorganisms that help our bodies with <strong>immunity, allergy, digestion</strong>, and other essential functionality for the body..', '{{all_products.probiotic-supplements.handle}}', '{{all_products.probiotic-supplements.title}}', '{{all_products.probiotic-supplements.url}}', '{{all_products.probiotic-supplements.featured_image | img_url: 'large'}}', 42213703844052, 407142557);
+      recommendedProductCard('Turmeric has the ability to reduce inflammation and oxidation which can assist with <strong>heart</strong> and <strong>joint</strong> health.', '{{all_products.turmeric.handle}}', '{{all_products.turmeric.title}}', '{{all_products.turmeric.url}}', '{{all_products.turmeric.featured_image | img_url: 'large'}}', 42213716820180, 407208093);
+      recommendedProductCard('Sea moss are rich in fiber that can assist in feeling fuller and helps with <strong>preventing overeating</strong>. They are also a good source of live bacteria and fiber, which both support a <strong>healthy gut microbiome</strong>', '{{all_products.sea-moss.handle}}', '{{all_products.sea-moss.title}}', '{{all_products.sea-moss.url}}', '{{all_products.sea-moss.featured_image | img_url: 'large'}}', 42855076823252, 2547876052);
+	}
+    if (data.health_goals.includes('Brain')) {
+      recommendedProductCard('Nootropics are a class of drugs that are designed to improve cognitive function. Our nootropic can assist with <strong>memory, focus, and energy</strong>.', '{{all_products.nootropics-supplements.handle}}', '{{all_products.nootropics-supplements.title}}', '{{all_products.nootropics-supplements.url}}', '{{all_products.nootropics-supplements.featured_image | img_url: 'large'}}', 42213715640532, 407371933);
+      recommendedProductCard('Caffeine is a stimulant that is found in coffee, tea, cola, and chocolate. It is a psychoactive drug that blocks the effects of adenosine. It helps with <strong>decreasing fatigue and energy</strong>.', '{{all_products.caffeine.handle}}', '{{all_products.caffeine.title}}', '{{all_products.caffeine.url}}', '{{all_products.caffeine.featured_image | img_url: 'large'}}', 42213688017108, 405045405);
+      recommendedProductCard('Iron is an essential mineral that boosts blood health, improve concentration, and increases <strong>energy</strong>.', '{{all_products.iron.handle}}', '{{all_products.iron.title}}', '{{all_products.iron.url}}', '{{all_products.iron.featured_image | img_url: 'large'}}', 42213712789716, 407273629);
+     }
+    if (data.health_goals.includes('Hair')) {
+      recommendedProductCard('Collagen helps maintain the integrity of your <strong>skin</strong> and cartilage, which is the rubber-like tissue that protects your <strong>joints</strong>.', '{{all_products.collagen.handle}}', '{{all_products.collagen.title}}', '{{all_products.collagen.url}}', '{{all_products.collagen.featured_image | img_url: 'large'}}', 42213702729940, 407175325);
+    }
+    if (data.health_goals.includes('weight-loss')) {
+      recommendedProductCard('Our fat burner is a daily supplement developed to be the most effective <strong>fat burner</strong> to assist with increasing energy, metabolism boost, and optimizes calorie burning', '{{all_products.fat-burner.handle}}', '{{all_products.fat-burner.title}}', '{{all_products.fat-burner.url}}', '{{all_products.fat-burner.featured_image | img_url: 'large'}}', 42213710725332, 407535773);
+      recommendedProductCard('Vinegar has been used as a remedy for centuries. Apple cider vinegar have been found to aid in <strong>weight loss</strong>, reduce cholesterol, and lower blood sugar levels..', '{{all_products.apple-cider-vinegar.handle}}', '{{all_products.apple-cider-vinegar.title}}', '{{all_products.apple-cider-vinegar.url}}', '{{all_products.apple-cider-vinegar.featured_image | img_url: 'large'}}', 43011366781140, 2568454356);
+      recommendedProductCard('Zinc is an essential micronutrient that is crucial to almost every aspect of your health. This mineral enhances the <strong>immune</strong> function, optimizes and <strong>boosts metabolism</strong>, and help keep your skin, eyes, and heart healthy.', '{{all_products.zinc.handle}}', '{{all_products.zinc.title}}', '{{all_products.zinc.url}}', '{{all_products.zinc.featured_image | img_url: 'large'}}', 42213717311700, 412483741);
+      recommendedProductCard('Sea moss are rich in fiber that can assist in feeling fuller and helps with <strong>preventing overeating</strong>. They are also a good source of live bacteria and fiber, which both support a <strong>healthy gut microbiome</strong>', '{{all_products.sea-moss.handle}}', '{{all_products.sea-moss.title}}', '{{all_products.sea-moss.url}}', '{{all_products.sea-moss.featured_image | img_url: 'large'}}', 42855076823252, 2547876052);
+    }
+    if (data.health_goals.includes('Skin')) {
+      recommendedProductCard('Collagen helps maintain the integrity of your <strong>skin</strong> and cartilage, which is the rubber-like tissue that protects your <strong>joints</strong>.', '{{all_products.collagen.handle}}', '{{all_products.collagen.title}}', '{{all_products.collagen.url}}', '{{all_products.collagen.featured_image | img_url: 'large'}}');
+      recommendedProductCard('Vitamin D works with calcium to support your <strong>bones</strong> and plays an important role with <strong>skin</strong>.', '{{all_products.vitamin-d3.handle}}', '{{all_products.vitamin-d3.title}}', '{{all_products.vitamin-d3.url}}', '{{all_products.vitamin-d3.featured_image | img_url: 'large'}}');
+	}
+    if (data.health_goals.includes('Heart')) {
+      recommendedProductCard('Omega-3 fatty acids and other nutrients in fish may benefit <strong>heart</strong> health and reduce the risk of dying of heart disease.', '{{all_products.fish-oil.handle}}', '{{all_products.fish-oil.title}}', '{{all_products.fish-oil.url}}', '{{all_products.fish-oil.featured_image | img_url: 'large'}}', 42213711282388, 407470237);
+      recommendedProductCard('Magnesium is central to a healthy <strong>heart</strong>. because it\'s involved in transporting electrolytes into cells.', '{{all_products.magnesium.handle}}', '{{all_products.magnesium.title}}', '{{all_products.magnesium.url}}', '{{all_products.magnesium.featured_image | img_url: 'large'}}', 42213714034900, 407404701);
+      recommendedProductCard('Turmeric has the ability to reduce inflammation and oxidation which can assist with <strong>heart</strong> and <strong>joint</strong> health.', '{{all_products.turmeric.handle}}', '{{all_products.turmeric.title}}', '{{all_products.turmeric.url}}', '{{all_products.turmeric.featured_image | img_url: 'large'}}', 42213716820180, 407208093);
+    }
+    if (data.health_goals.includes('Bones')) {
+      recommendedProductCard('Calcium is a mineral found in many foods. The body needs calcium to maintain strong <strong>bones</strong>.', '{{all_products.calcium.handle}}', '{{all_products.calcium.title}}', '{{all_products.calcium.url}}', '{{all_products.calcium.featured_image | img_url: 'large'}}', 42213701648596, 406945949);
+      recommendedProductCard('Vitamin D works with calcium to support your <strong>bones</strong> and plays an important role with <strong>skin</strong>.', '{{all_products.vitamin-d3.handle}}', '{{all_products.vitamin-d3.title}}', '{{all_products.vitamin-d3.url}}', '{{all_products.vitamin-d3.featured_image | img_url: 'large'}}', 42613358985428, 2547843284);
+    } 
+    if (data.health_goals.includes('libido')) {
+      recommendedProductCard('You said you need help with your libido. Our sex performance supplement contains powerful blend of natural ingredients has been designed to improve and support sexual performance for both men and women.', 'sex-performance-enhancer', 'Sex Performance Enhancer', '/products/sex-performance-enhancer', 'https://cdn.shopify.com/s/files/1/0522/5309/8141/products/Performance-Enhancer_1500x.png?v=1647012586', 42213716263124, 2500821204);
+    } 
+    if (data.health_goals.includes('muscle')) {
+      if (data.get_gender == 'male') {
+      	recommendedProductCard('You said you were interested in muscle growth. Testosterone is a hormone that helps to maintain <strong>muscle mass</strong>, bone density, and red blood cell levels.', '{{all_products.testosterone.handle}}', '{{all_products.testosterone.title}}', '{{all_products.testosterone.url}}', '{{all_products.testosterone.featured_image | img_url: 'large'}}', 42213681234132, 407109789);
+      }
+      recommendedProductCard('You said you were interested in muscle growth. Creatine is synthesized in the body from the amino acids glycine and arginine. It is transported to muscle cells, where it is converted into creatine phosphate (CP), a high-energy molecule used to provide energy for <strong>muscle</strong> contraction.', '{{all_products.creatine.handle}}', '{{all_products.creatine.title}}', '{{all_products.creatine.url}}', '{{all_products.creatine.featured_image | img_url: 'large'}}', 42213703188692, 407306397);
+   } 
+    if (data.health_goals.includes('Joints')) {
+      recommendedProductCard('Turmeric has the ability to reduce inflammation and oxidation which can assist with <strong>heart</strong> and <strong>joint</strong> health.', '{{all_products.turmeric.handle}}', '{{all_products.turmeric.title}}', '{{all_products.turmeric.url}}', '{{all_products.turmeric.featured_image | img_url: 'large'}}', 42213716820180, 407208093);
+      recommendedProductCard('Collagen helps maintain the integrity of your <strong>skin</strong> and cartilage, which is the rubber-like tissue that protects your <strong>joints</strong>.', '{{all_products.collagen.handle}}', '{{all_products.collagen.title}}', '{{all_products.collagen.url}}', '{{all_products.collagen.featured_image | img_url: 'large'}}', 42213702729940, 407175325);
+      recommendedProductCard('Glucosamine is a naturally occurring chemical found in cartilage - the resilient tissue that cushions <strong>joints</strong>.', '{{all_products.glucosamine-sulfate.handle}}', '{{all_products.glucosamine-sulfate.title}}', '{{all_products.glucosamine-sulfate.url}}', '{{all_products.glucosamine-sulfate.featured_image | img_url: 'large'}}', 42213712560340, 407339165);
+      recommendedProductCard('Krill oil is high in omega-3 fatty acids and is often used to help improve <strong>joint</strong> health and reduce inflammation.', '{{all_products.krill-oil.handle}}', '{{all_products.krill-oil.title}}', '{{all_products.krill-oil.url}}', '{{all_products.krill-oil.featured_image | img_url: 'large'}}', 42213713215700, 407503005);
+    }
+    if (data.eat_dairy == 'rarely') {
+      recommendedProductCard('You said you rarely eat dairy. The body needs calcium to maintain strong <strong>bones</strong>.', '{{all_products.calcium.handle}}', '{{all_products.calcium.title}}', '{{all_products.calcium.url}}', '{{all_products.calcium.featured_image | img_url: 'large'}}', 42213701648596, 406945949);
+    }
+//     if (data.eat_meat == 'rarely') {
+//       recommendedProductCard('You said you rarely eat meat. Protein is an important part of a healthy diet. Proteins are made up of chemical building blocks called amino acids. Your body uses amino acids to build and repair muscles and bones and to make hormones and enzymes.', '{{all_products['protein-supplement'].handle}}', '{{all_products['protein-supplement'].title}}', '{{all_products['protein-supplement'].url}}', '{{all_products['protein-supplement'].featured_image | img_url: 'large'}}', 40219452014749);
+//     }
+    if (data.eat_fish == 'rarely') {
+      recommendedProductCard('You said you rarely eat fish. Omega-3s are nutrients you get from food (or supplements) that help build and maintain a healthy body. They’re also an energy source and help keep your body working the way it should.', '{{all_products.fish-oil.handle}}', '{{all_products.fish-oil.title}}', '{{all_products.fish-oil.url}}', '{{all_products.fish-oil.featured_image | img_url: 'large'}}', 42213711282388, 407470237);
+    }
+    if (data.libido == 'not-good') {
+      recommendedProductCard('You said you need help with your libido. Our sex performance supplement contains powerful blend of natural ingredients has been designed to improve and support sexual performance for both men and women.', 'sex-performance-enhancer', 'Sex Performance Enhancer', '/products/sex-performance-enhancer', 'https://cdn.shopify.com/s/files/1/0522/5309/8141/products/Performance-Enhancer_1500x.png?v=1647012586', 42213716263124, 2500821204);
+    }
+  }
+  function recommendedProductCard(description, handle, title, url, image, id, plan_id) {
+    var template = '<div class="product-card" data-handle="' + handle + '" data-id="' + id + '" data-plan_id="' + plan_id + '"><div class="remove-item" onclick="removeItem(this);"></div><div class="product-card-header"><img src="' + image + '" /></div><div class="product-card-body"><p class="product-card-desc">' + description + '</p><p class="we-recc">We recommend</p><p class="p-title">' + title + '</p></div><div class="product-card-footer"></div></div>';
+    // if data-handle already exists in the container, don't do anything.
+    $(".recommendation-container").prepend(template);
+    var found = {};
+    $('[data-handle]').each(function(){
+       var $this = $(this);
+       if(found[$this.data('handle')]){
+          $this.remove();   
+       } else {
+         found[$this.data('handle')] = true;   
+       }
+    });
+  }
+
+function removeItem(el) {
+  if (confirm('Are you sure you want to remove this supplement from your bag?')) {
+    $.ajax({
+      type: "POST",
+      url: "/cart/change.js",
+      dataType: "json",
+      data: {
+        id: parseFloat($(el).parent().data('id')),
+        quantity: 0,
+      },
+    }).then((data) => {
+      console.log($(el).parent().data('id') + ' removed from cart.');
+    });
+    $(el).parent().remove();
+  }
+}
+  
+function clearCart() {
+  jQuery.ajax({
+    type: 'POST',
+    url: '/cart/clear.js',
+    data: '',
+    dataType: 'json',
+    success: function() { 
+      console.log('Cart Cleared!');
+    }
+  });
+}
+  
+function addItemToCart() {
+  jQuery.ajax({
+    type: 'POST',
+    url: '/cart/clear.js',
+    data: '',
+    dataType: 'json',
+    success: function() { 
+      console.log('Cart Cleared!');
+    }
+  });
+  var data = {items:[]};
+  $('.recommendation-container').children('.product-card').each(function () {
+    data.items.push({ "quantity": 1, "id": $(this).data("id"), "selling_plan": $(this).data('plan_id') });
+  });
+  jQuery.ajax({
+    type: 'POST',
+    url: '/cart/add.js',
+    data: data,
+    dataType: 'json',
+    success: function() { 
+      console.log("Added to cart");
+    },
+    error: function(e) { 
+      console.log("Error log: " + (JSON.stringify(e))); 
+    }  
+  });
+  jQuery.ajax({
+    type: 'GET',
+    url: '/discount/SURVEY',
+    success: function(data) {
+      console.log(data);
+    }
+  })
+}
+
+  // var json = '{ "person_name": "John", "person_age": 22, "person_email": "2@2.com", "vitamin_experience": "yes", "vitamin_quantity": "average", "powder_experience": "yes", "powder_quantity": "rarely", "get_gender": "male", "health_goals": [ "Bones", "Joints" ], "eat_fruit": "once_or_twice", "eat_veggies": "once_or_twice", "eat_dairy": "once_or_twice", "eat_fiber": "once_or_twice", "eat_protein": "once_or_twice", "eat_meat": "once_or_twice", "eat_fish": "once_or_twice", "drink_alcohol": "no", "describe_diet": "anything", "exercise_amount": "two_to_four", "exercise_type": "na", "smoke": "no", "joint": "sometimes", "digestion": "no", "sexually_active": "yes", "libido": "not-good" }';
+  // var data = $.parseJSON( json );
+  // surveyResult(data);   
+</script>

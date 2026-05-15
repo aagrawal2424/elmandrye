@@ -1,0 +1,113 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "1660513213b17e18e2": {
+      "type": "faq",
+      "blocks": {
+        "1660513213eae3ee58-0": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship internationally?",
+            "text": "<p>We ship to the United States, Afghanistan, Åland Islands, Albania, Andorra, Angola, Anguilla, Antigua & Barbuda, Argentina, Armenia, Aruba, Ascension Island, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bosnia & Herzegovina, Botswana, British Indian Ocean Territory, British Virgin Islands, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Cape Verde, Caribbean Netherlands, Cayman Islands, Central African Republic, Chad, Chile, China, Christmas Island, Cocos (Keeling) Islands, Colombia, Comoros, Congo - Brazzaville, Congo - Kinshasa, Cook Islands, Costa Rica, Côte d’Ivoire, Croatia, Curaçao, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Falkland Islands, Faroe Islands, Fiji, Finland, France, French Guiana, French Polynesia, French Southern Territories, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar, Greece, Greenland, Grenada, Guadeloupe, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hong Kong SAR China, Hungary, Iceland, India, Indonesia, Iraq, Isle of Man, Israel, Italy, Jamaica, Japan, Jersey, Jordan, Kazakhstan, Kenya, Kiribati, Kosovo, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macau SAR China, Macedonia, Madagascar, Malawi, Maldives, Mali, Malta, Martinique, Mauritania, Mauritius, Mayotte, Moldova, Monaco, Mongolia, Montenegro, Montserrat, Morocco, Mozambique, Myanmar (Burma), Namibia, Nauru, Nepal, Netherlands, New Caledonia, New Zealand, Nicaragua, Niger, Nigeria, Niue, Norfolk Island, Norway, Pakistan, Palestinian Territories, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Pitcairn Islands, Poland, Portugal, Qatar, Réunion, Romania, Russia, Rwanda, Saint Martin, Samoa, San Marino, São Tomé & Príncipe, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, South Georgia & South Sandwich Islands, South Korea, South Sudan, Sri Lanka, St. Barthélemy, St. Helena, St. Kitts & Nevis, St. Lucia, St. Martin, St. Pierre & Miquelon, St. Vincent & Grenadines, Sudan, Suriname, Svalbard & Jan Mayen, Sweden, Switzerland, Taiwan, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tokelau, Tonga, Trinidad & Tobago, Tristan da Cunha, Tunisia, Turkey, Turkmenistan, Turks & Caicos Islands, Tuvalu, U.S. Outlying Islands, Uganda, Ukraine, United Arab Emirates, Uruguay, Uzbekistan, Vanuatu, Vatican City, Venezuela, Vietnam, Wallis & Futuna, Western Sahara, Yemen, Zambia, and Zimbabwe.</p><p>You may be subjected to import duties depending on your country. Elm & Rye is not responsible for international duties and customs fees and all duties, taxes, and shipping fees are nonrefundable. </p><p></p>"
+          }
+        },
+        "1660513213eae3ee58-1": {
+          "type": "question",
+          "settings": {
+            "title": "How much is shipping?",
+            "text": "<p>Shipping is free for orders over $75 within the Contintental United States.</p>"
+          }
+        },
+        "e81f9a78-cdc1-4667-b0b2-f32bc32a91f2": {
+          "type": "question",
+          "settings": {
+            "title": "Will my order require a signature upon delivery?",
+            "text": "<p>Elm & Rye does not require a signature upon delivery unless you specifically purchase a shipping option where it requires a signature. Please keep in mind that the decision to require a signature upon delivery is ultimately left to the discretion of the carrier.</p><p></p><p><strong>Please note:</strong> It is your responsibility to be available to receive this shipment at the ship-to address specified in your order details. Elm & Rye is not responsible for your package once it's in the hands of the carrier.</p>"
+          }
+        },
+        "bab567db-40fe-4d0b-a4d2-5e097a1b715e": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return my order?",
+            "text": "<p>If for any reason you are not satisfied with your purchase, you may request a refund within 30 days of delivery of your first order. We’ll refund you for the full cost of the product less shipping, VAT, or duties—no questions asked.</p>"
+          }
+        },
+        "e3dd58dc-2f20-45e5-b0ae-2f09769b99cc": {
+          "type": "question",
+          "settings": {
+            "title": "What payments do you accept?",
+            "text": "<p>We accept all of the major cards. Visa, MasterCard, American Express, and Discover. We unfortunately cannot accept cash, checks, money orders, bitcoin, or hugs. 🙂</p>"
+          }
+        },
+        "fe7ade32-3058-4c9c-a76f-7a349dc6d492": {
+          "type": "question",
+          "settings": {
+            "title": "Will my probiotic survive the heat during shipment?",
+            "text": "<p>We've conducted extensive heat testing on all of our products. After days of constant 100º F heat (which is very unlikely even during the summer), we've found that all of our products still exceeded viability. However we do recommend that your store your product as recommended for the longest shelf life.</p>"
+          }
+        },
+        "f09608d7-23de-4b51-964a-b8103668c0e4": {
+          "type": "question",
+          "settings": {
+            "title": "Can I trust that my payment information is safe and secure?",
+            "text": "<p>We are a certified PCI DSS compliant service provider. This means we take your security very seriously and never disclose your personal identity or information with anyone. You can read our full Privacy Policy <a href=\"https://elmandrye.com/pages/privacy-policy\">here</a>.</p>"
+          }
+        },
+        "1743561f-d95e-4ff7-a7ff-9521030ad069": {
+          "type": "question",
+          "settings": {
+            "title": "Where is my order? How long will it take to arrive?",
+            "text": "<p>Tracking details are automatically sent once the order has been processed by the courier. Notification will be sent from our email, support@elmandrye.com, to the email address on file for your Elm & Rye account with the subject line “Your order is on its way.”</p>"
+          }
+        },
+        "9e6bdef4-55e7-4bea-ab69-69a60c1c6a47": {
+          "type": "question",
+          "settings": {
+            "title": "How does my subscription work?",
+            "text": "<p>We'll send you a renewal order every 30 days. You can edit your subscription at anytime and we always remind you a few days before any renewal order in case any adjustments are necessary.</p><p></p><p>Need a customized subscription plan? Send us a message at support@elmandrye.com and we'll work with you to customize a routine.</p>"
+          }
+        },
+        "5bef2a2e-f6e9-4556-9d5a-e8ecd423685f": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Still need help?",
+            "text": "<p>Send us an email at support@elmandrye.com with any other questions or feedback and we'll get back to you as soon as possible.</p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1660513213eae3ee58-0",
+        "1660513213eae3ee58-1",
+        "e81f9a78-cdc1-4667-b0b2-f32bc32a91f2",
+        "bab567db-40fe-4d0b-a4d2-5e097a1b715e",
+        "e3dd58dc-2f20-45e5-b0ae-2f09769b99cc",
+        "fe7ade32-3058-4c9c-a76f-7a349dc6d492",
+        "f09608d7-23de-4b51-964a-b8103668c0e4",
+        "1743561f-d95e-4ff7-a7ff-9521030ad069",
+        "9e6bdef4-55e7-4bea-ab69-69a60c1c6a47",
+        "5bef2a2e-f6e9-4556-9d5a-e8ecd423685f"
+      ],
+      "settings": {
+        "title": "FAQ"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1660513213b17e18e2"
+  ]
+}

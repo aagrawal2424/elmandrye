@@ -1,0 +1,97 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "166089303156134e7b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% render 'free-gift' %}"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "21101621-6ff6-4773-ae0f-1af0e2159dc4": {
+          "type": "custom",
+          "settings": {
+            "code": "<h4>Choose Your Free Gift</h4>\n<p style=\"margin-bottom:-15px;\">Select below:</p>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": false,
+            "picker_type": "dropdown",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        }
+      },
+      "block_order": [
+        "21101621-6ff6-4773-ae0f-1af0e2159dc4",
+        "variant_picker",
+        "buy_buttons"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "slider",
+        "thumbnail_height": "fixed",
+        "product_zoom_enable": false,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "blocks": {
+        "f00f3f81-9e7e-4ba6-ae0b-db280802ce4b": {
+          "type": "custom",
+          "settings": {
+            "code": "<h2>Testosterone Benefits\n</h2><p>Use this advanced section to add custom HTML, app scripts, or liquid.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "f00f3f81-9e7e-4ba6-ae0b-db280802ce4b"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    }
+  },
+  "order": [
+    "166089303156134e7b",
+    "main",
+    "product-recommendations",
+    "collection-return",
+    "sub"
+  ]
+}

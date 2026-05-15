@@ -1,0 +1,55 @@
+{% if product.metafields.product.video_reviews != blank %}
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  
+  <style>
+    #video-reviews {
+      padding: 90px 40px;
+    }
+    .video-container {
+      max-width: 1400px;
+      margin: auto;
+      position: relative;
+    }
+    .video-container video {
+      display: block;
+      object-fit: cover;
+      border-radius: 6px;
+      height: 700px;
+      margin: auto 20px;
+    }
+    @media screen and (max-width: 600px) {
+        #video-reviews {
+          padding: 70px 10px;
+        }
+       .video-container video {
+        height: 550px;
+      }
+    }
+  </style>
+    <script>
+    $(window).on('load', function() {
+      $('.video-container').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true
+      });
+    });
+  </script>
+  <div id="video-reviews">
+    <center><h2 style="font-size: 50px; letter-spacing: 0;">Reviews</h2></center>
+    <div class="video-container">
+     {% for videos in product.metafields.product.video_reviews.value  %}
+        {% for video in videos.sources %}
+          {% if video.url contains 'mp4' or video.url contains '.mov' %}
+            <video controls playsinline autoplay muted loop>
+              <source src="{{ video.url }}" type="video/mp4">
+            </video>
+          {% endif %}
+        {% endfor %}
+     {% endfor %} 
+    </div>
+  </div>
+
+{% endif %}

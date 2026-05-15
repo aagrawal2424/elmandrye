@@ -1,0 +1,8 @@
+{% for tag in product.tags %}
+  {% if tag contains 'preorder' %}
+     <div style="background-color: #FFF2CD; color: #856404; padding: 10px 20px; font-size: 14px; border: 1px solid #FFEEBA; border-radius: 4px;">This is a preorder. This product may take up to 60 days to ship.</div>
+  {% endif %}
+  {% if tag contains 'delayed' and product.handle contains 'colostrum' %}
+     <div style="background-color: #FFF2CD; color: #856404; padding: 10px 20px; font-size: 14px; border: 1px solid #FFEEBA; border-radius: 4px;">There is an 8-week shipping delay for this product due to demand</div>
+  {% endif %}
+{% endfor %}
