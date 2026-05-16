@@ -1,0 +1,18 @@
+{
+  "metafields": [
+    {
+      "ownerId": "gid://shopify/Product/9170589417684",
+      "namespace": "product",
+      "key": "dynamic_ingredients",
+      "type": "json",
+      "value": "{\"option\":\"Type\",\"ingredients_options\":{\"Capsules\":\"Irish seamoss, organic mct, gelatin, glycerin, water\",\"Gummies\":\"Irish seamoss, glucose syrup, sugar, distilled water, pectin, natural and artificial flavoring, natural and artificial coloring, citric acid, food starch, gelatin, ferrous fumarate, pyridoxine hydrocholride hcl, zinc oxide\",\"Gel\":\"Wildcrafted Irish Sea Moss, Spring Water, Lime Juice (natural preservative).\"}}"
+    },
+    {
+      "ownerId": "gid://shopify/Product/9170589417684",
+      "namespace": "product",
+      "key": "usage",
+      "type": "multi_line_text_field",
+      "value": "<p><strong>Capsules:</strong> Adults may take 2 capsules per serving.</p>\n<p><strong>Gummies:</strong> Adults may take 2 gummies per serving.</p>\n<p><strong>Gel:</strong> Take 1–2 tablespoons (15–30ml) per day. Mix into smoothies, juices, water, oatmeal, or your favorite recipes. One 8oz jar contains 16 servings.</p>\n<p>As with any dietary supplement, consult your physician before use if you are pregnant, nursing, have or suspect a medical condition, or are taking any medications.</p>"
+    }
+  ]
+}
