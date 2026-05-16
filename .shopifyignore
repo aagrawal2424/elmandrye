@@ -1,0 +1,10 @@
+.env
+.env.*
+.gitignore
+.shopifyignore
+node_modules/
+scripts/
+*.token
+.token-cache.json
+.DS_Store
+README.md

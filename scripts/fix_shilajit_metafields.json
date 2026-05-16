@@ -1,0 +1,32 @@
+{
+  "metafields": [
+    {
+      "ownerId": "gid://shopify/Product/9170572837076",
+      "namespace": "product",
+      "key": "benefits",
+      "type": "multi_line_text_field",
+      "value": "<p>Elm & Rye Shilajit is sourced from pristine high-altitude regions of the Himalayan mountains, where it has been formed over centuries through the gradual breakdown of plant matter and trace minerals between layers of rock.</p>\n<p>A potent adaptogen rich in fulvic acid, humic acid, and 84+ trace minerals, Shilajit has been used for thousands of years in Ayurvedic medicine to support natural energy, cognitive function, recovery, and overall vitality. Modern research continues to validate its role in cellular energy production, mineral absorption, and helping the body adapt to physical and mental stress.</p>\n<p>Available in three forms — easy-to-take capsules, delicious gummies, or the original pure resin — Elm & Rye Shilajit brings the wisdom of ancient mountains into your daily routine.</p>\n<p>Every batch is third-party tested for heavy metals, microbial contamination, and purity. Lab results available on our site.</p>"
+    },
+    {
+      "ownerId": "gid://shopify/Product/9170572837076",
+      "namespace": "product",
+      "key": "ingredients",
+      "type": "single_line_text_field",
+      "value": "Pure Himalayan Shilajit Extract."
+    },
+    {
+      "ownerId": "gid://shopify/Product/9170572837076",
+      "namespace": "product",
+      "key": "dynamic_ingredients",
+      "type": "json",
+      "value": "{\"option\":\"Type\",\"ingredients_options\":{\"Capsules\":\"Pure Himalayan Shilajit Extract (standardized to 50% Fulvic Acid, 250mg per capsule), Vegetable Cellulose Capsule, Organic Rice Flour.\",\"Gummies\":\"Pure Himalayan Shilajit Extract (standardized to 50% Fulvic Acid, 250mg per gummy), Organic Tapioca Syrup, Organic Cane Sugar, Purified Water, Pectin, Natural Flavors, Malic Acid, Citric Acid, Sodium Citrate, Organic Sunflower Lecithin.\",\"Resin\":\"Pure Himalayan Shilajit Resin (60%+ Fulvic Acid, 84+ trace minerals, dibenzo-\\u03b1-pyrones, humic acid). Zero fillers, zero binders.\"}}"
+    },
+    {
+      "ownerId": "gid://shopify/Product/9170572837076",
+      "namespace": "product",
+      "key": "usage",
+      "type": "multi_line_text_field",
+      "value": "<p><strong>Capsules:</strong> Take 1–2 capsules per day with water, preferably with a meal.</p>\n<p><strong>Gummies:</strong> Take 1–2 gummies per day. Best taken in the morning.</p>\n<p><strong>Resin:</strong> Scoop a pea-sized amount (~300mg) with the included spoon and dissolve in warm water, tea, or milk. Take once daily.</p>\n<p>As with any dietary supplement, consult your physician before use if you are pregnant, nursing, have or suspect a medical condition, or are taking any medications.</p>"
+    }
+  ]
+}

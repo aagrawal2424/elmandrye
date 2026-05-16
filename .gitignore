@@ -1,0 +1,8 @@
+.env
+.env.local
+.env.*.local
+.shopify/
+node_modules/
+*.token
+.token-cache.json
+.DS_Store
