@@ -1,0 +1,10 @@
+{
+  "title": "Stamina+ Stack",
+  "handle": "stamina-stack",
+  "descriptionHtml": "<p>The two supplements that work together for performance, drive, and recovery — bundled and discounted.</p><p>Each Stamina+ Stack contains <strong>one Libido</strong> (Male formula) and <strong>one Testosterone Support</strong>. The Libido formula features Tongkat Ali, Muira Puama, L-Arginine, and Maca for stamina and drive. Testosterone Support features Zinc, D-Aspartic Acid, Ashwagandha, Fenugreek, and Vitamin D3 to support healthy testosterone levels, energy, and recovery.</p><p>Designed to be taken daily, together. <strong>Save 15%</strong> vs buying separately. Lab tested, third-party verified, 60-day money-back guarantee.</p>",
+  "tags": ["libido", "testosterone", "bundle", "stamina", "stack", "mens-health"],
+  "productOptions": [
+    { "name": "Type", "values": [{ "name": "Capsules" }, { "name": "Gummies" }] },
+    { "name": "Bundle", "values": [{ "name": "Single" }, { "name": "2-Pack" }] }
+  ]
+}

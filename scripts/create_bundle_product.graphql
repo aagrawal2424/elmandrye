@@ -1,0 +1,21 @@
+mutation CreateBundleProduct(
+  $title: String!
+  $handle: String!
+  $descriptionHtml: String!
+  $tags: [String!]!
+  $productOptions: [OptionCreateInput!]!
+) {
+  productCreate(product: {
+    title: $title
+    handle: $handle
+    descriptionHtml: $descriptionHtml
+    status: DRAFT
+    vendor: "Elm & Rye"
+    productType: "Supplements"
+    tags: $tags
+    productOptions: $productOptions
+  }) {
+    product { id handle status }
+    userErrors { field message }
+  }
+}

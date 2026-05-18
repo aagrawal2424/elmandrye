@@ -1,0 +1,10 @@
+mutation InventoryActivate($itemId: ID!, $locationId: ID!, $available: Int!) {
+  inventoryActivate(
+    inventoryItemId: $itemId
+    locationId: $locationId
+    available: $available
+  ) {
+    inventoryLevel { quantities(names: ["available"]) { quantity } }
+    userErrors { field message }
+  }
+}

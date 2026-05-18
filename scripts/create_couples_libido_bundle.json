@@ -1,0 +1,10 @@
+{
+  "title": "Couple's Libido Bundle",
+  "handle": "couples-libido-bundle",
+  "descriptionHtml": "<p>Both of you want to feel your best — bundle His &amp; Hers and save.</p><p>Each Couple's Bundle contains <strong>one Male formula</strong> and <strong>one Female formula</strong>, each scientifically formulated for what your body needs. Capsules or gummies, your choice. The Male formula features Tongkat Ali, Muira Puama, L-Arginine, and Maca; the Female formula features L-Citrulline, Damiana, Ashwagandha, and a synergistic adaptogen blend.</p><p><strong>Save up to $50</strong> vs buying separately. Same daily routine, same 60-day money-back guarantee, same lab-tested quality.</p>",
+  "tags": ["libido", "couples", "bundle", "sex-performance", "his-and-hers"],
+  "productOptions": [
+    { "name": "Type", "values": [{ "name": "Capsules" }, { "name": "Gummies" }] },
+    { "name": "Bundle", "values": [{ "name": "Single" }, { "name": "2-Pack" }, { "name": "4-Pack" }] }
+  ]
+}

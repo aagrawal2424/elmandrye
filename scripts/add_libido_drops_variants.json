@@ -1,0 +1,60 @@
+{
+  "productId": "gid://shopify/Product/7043166666909",
+  "strategy": null,
+  "variants": [
+    {
+      "price": "79.99",
+      "inventoryItem": { "sku": "PERFORMANCE-ENHANCER-DROPS", "tracked": true, "measurement": { "weight": { "value": 0.4, "unit": "POUNDS" } } },
+      "optionValues": [
+        { "optionName": "Type", "name": "Drops" },
+        { "optionName": "Gender", "name": "Male" },
+        { "optionName": "Bundle", "name": "Single" }
+      ]
+    },
+    {
+      "price": "149.99",
+      "inventoryItem": { "sku": "PERFORMANCE-ENHANCER-DROPS-2", "tracked": true, "measurement": { "weight": { "value": 0.8, "unit": "POUNDS" } } },
+      "optionValues": [
+        { "optionName": "Type", "name": "Drops" },
+        { "optionName": "Gender", "name": "Male" },
+        { "optionName": "Bundle", "name": "2-Pack" }
+      ]
+    },
+    {
+      "price": "279.99",
+      "inventoryItem": { "sku": "PERFORMANCE-ENHANCER-DROPS-4", "tracked": true, "measurement": { "weight": { "value": 1.6, "unit": "POUNDS" } } },
+      "optionValues": [
+        { "optionName": "Type", "name": "Drops" },
+        { "optionName": "Gender", "name": "Male" },
+        { "optionName": "Bundle", "name": "4-Pack" }
+      ]
+    },
+    {
+      "price": "79.99",
+      "inventoryItem": { "sku": "PERFORMANCE-ENHANCER-DROPS-FEMALE", "tracked": true, "measurement": { "weight": { "value": 0.4, "unit": "POUNDS" } } },
+      "optionValues": [
+        { "optionName": "Type", "name": "Drops" },
+        { "optionName": "Gender", "name": "Female" },
+        { "optionName": "Bundle", "name": "Single" }
+      ]
+    },
+    {
+      "price": "149.99",
+      "inventoryItem": { "sku": "PERFORMANCE-ENHANCER-DROPS-FEMALE-2", "tracked": true, "measurement": { "weight": { "value": 0.8, "unit": "POUNDS" } } },
+      "optionValues": [
+        { "optionName": "Type", "name": "Drops" },
+        { "optionName": "Gender", "name": "Female" },
+        { "optionName": "Bundle", "name": "2-Pack" }
+      ]
+    },
+    {
+      "price": "279.99",
+      "inventoryItem": { "sku": "PERFORMANCE-ENHANCER-DROPS-FEMALE-4", "tracked": true, "measurement": { "weight": { "value": 1.6, "unit": "POUNDS" } } },
+      "optionValues": [
+        { "optionName": "Type", "name": "Drops" },
+        { "optionName": "Gender", "name": "Female" },
+        { "optionName": "Bundle", "name": "4-Pack" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+mutation DuplicateProduct($productId: ID!, $newTitle: String!, $newStatus: ProductStatus!) {
+  productDuplicate(
+    productId: $productId
+    newTitle: $newTitle
+    newStatus: $newStatus
+    includeImages: true
+  ) {
+    newProduct { id handle status title onlineStorePreviewUrl }
+    userErrors { field message }
+  }
+}
