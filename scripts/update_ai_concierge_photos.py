@@ -42,14 +42,16 @@ AGENTS = [
         "role": "Recovery",
         "bio": "Sleep, stress &amp; HRV specialist. Reads your Oura/Whoop data and tells you when to push and when to rest.",
         "photo": "https://cdn.shopify.com/s/files/1/0522/5309/8141/files/Angelica_agent.jpg?v=1779568879",
+        "position": "center 30%",
     },
 ]
 
 
 def agent_card(a):
+    pos = a.get("position", "center top")
     return f"""
       <div class="aic-agent">
-        <div class="aic-agent-photo" style="background-image: url('{a['photo']}'); background-position: center top;"></div>
+        <div class="aic-agent-photo" style="background-image: url('{a['photo']}'); background-position: {pos};"></div>
         <h3>{a['name']}</h3>
         <p class="aic-role">{a['role']}</p>
         <p class="aic-bio">{a['bio']}</p>
