@@ -195,7 +195,7 @@
           "show_currency_selector": false,
           "show_currency_flags": false,
           "show_social_icons": false,
-          "menu": "",
+          "menu": "footer",
           "show_payment_icons": false,
           "show_copyright": true,
           "copyright_text": ""
