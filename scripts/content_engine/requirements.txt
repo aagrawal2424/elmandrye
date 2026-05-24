@@ -1,0 +1,6 @@
+# Content engine has zero third-party Python dependencies — all HTTP is
+# done via urllib from the standard library. This file is here so
+# GitHub Actions has something to pip install (a noop) and so future
+# contributors know the constraint.
+#
+# If you ever add a dep (e.g. anthropic SDK, openai SDK), pin it here.

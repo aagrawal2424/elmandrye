@@ -6,3 +6,4 @@ node_modules/
 *.token
 .token-cache.json
 .DS_Store
+__pycache__/
