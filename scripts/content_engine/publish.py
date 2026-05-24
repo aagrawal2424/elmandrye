@@ -248,20 +248,7 @@ def build_jsonld(title: str, summary: str, hero_image_url: str,
 
 
 def extract_tags(md: str, topic: dict) -> list[str]:
-    tags = ["auto-generated"]
-    if topic.get("subreddit"):
-        tags.append(f"reddit-{topic['subreddit'].lower()}")
-    else:
-        tags.append("evergreen")
-    # naive keyword tags from common supplement names
-    md_lower = md.lower()
-    for kw in ("magnesium", "creatine", "ashwagandha", "rhodiola", "tongkat",
-               "berberine", "nac", "glycine", "theanine", "vitamin d",
-               "vitamin b12", "omega-3", "probiotic", "sleep", "cortisol",
-               "testosterone", "shilajit", "sea moss", "libido", "recovery"):
-        if kw in md_lower:
-            tags.append(kw)
-    return tags[:10]
+    return []
 
 
 # --- Shopify publish -------------------------------------------------------
