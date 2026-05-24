@@ -1,12 +1,9 @@
 name: Daily Content Engine
 
 on:
-  # Mon / Wed / Fri at 14:00 UTC = 9am EST / 10am EDT.
-  # Capped at 3 articles per rolling 7 days (enforced in main.py) so this cadence
-  # stays safely below Google's scaled-content-abuse threshold. If a Reddit topic
-  # is unfit on a given day, main.py exits cleanly without publishing.
+  # Every day at 14:00 UTC = 9am EST / 10am EDT.
   schedule:
-    - cron: "0 14 * * 1,3,5"
+    - cron: "0 14 * * *"
   # Manual trigger for testing
   workflow_dispatch:
     inputs:

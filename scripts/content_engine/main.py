@@ -41,10 +41,7 @@ from originality import signature, find_most_similar, SIMILARITY_THRESHOLD  # no
 STATE_FILE = HERE / "state.json"
 DRY_RUN = os.environ.get("CONTENT_ENGINE_DRY_RUN", "").lower() in ("true", "1", "yes")
 DEDUP_WINDOW_DAYS = 90
-# Hard ceiling: never publish more than this many articles in any rolling 7 days.
-# Daily-for-years on a niche store is the exact footprint Google's scaled-content
-# spam policy targets. 3/week = ~150/year, healthy long-term cadence.
-MAX_ARTICLES_PER_7_DAYS = 3
+MAX_ARTICLES_PER_7_DAYS = 7
 
 
 def load_state() -> dict:
