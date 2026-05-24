@@ -43,7 +43,7 @@ from social import distribute  # noqa: E402
 STATE_FILE = HERE / "state.json"
 DRY_RUN = os.environ.get("CONTENT_ENGINE_DRY_RUN", "").lower() in ("true", "1", "yes")
 DEDUP_WINDOW_DAYS = 90
-MAX_ARTICLES_PER_7_DAYS = 7
+MAX_ARTICLES_PER_7_DAYS = 5
 
 
 def load_state() -> dict:

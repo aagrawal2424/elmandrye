@@ -1,9 +1,9 @@
 name: Daily Content Engine
 
 on:
-  # Every day at 14:00 UTC = 9am EST / 10am EDT.
+  # Mon-Fri at 14:00 UTC = 9am EST / 10am EDT.
   schedule:
-    - cron: "0 14 * * *"
+    - cron: "0 14 * * 1-5"
   # Manual trigger for testing
   workflow_dispatch:
     inputs:

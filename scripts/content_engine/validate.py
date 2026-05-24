@@ -212,11 +212,11 @@ def validate(md: str) -> ValidationResult:
         )
 
     # 11. "Our take:" first-party block — exactly one short paragraph
-    our_take_matches = re.findall(r'(?im)^\s*(?:[\*_]{0,2})our take[\*_]{0,2}\s*:', md)
+    our_take_matches = re.findall(r'(?im)^\s*(?:[\*_]{0,2})(my|our) take[\*_]{0,2}\s*:', md)
     result.stats["our_take_blocks"] = len(our_take_matches)
     if len(our_take_matches) == 0:
         result.errors.append(
-            "Missing required 'Our take:' block — one short paragraph naming a specific "
+            "Missing required 'My take:' block — one short paragraph naming a specific "
             "Elm & Rye sourcing, dosing, or formulation choice with the reason."
         )
     elif len(our_take_matches) > 1:
