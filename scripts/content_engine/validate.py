@@ -11,6 +11,8 @@ from dataclasses import dataclass, field
 
 
 BANNED_PHRASES = [
+    # Em dash — banned entirely; use comma/period/colon instead
+    "—",
     # Hype / cliché
     "powerhouse", "game-changer", "game changer", "revolutionary", "supercharge",
     "secret weapon", "unlock the power", "unleash", "harness the power",
