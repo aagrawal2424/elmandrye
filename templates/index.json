@@ -1,59 +1,5 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "738eeae6-d55d-472e-a964-f21e80d675b2": {
-      "type": "slideshow",
-      "blocks": {
-        "image_MYnaJD": {
-          "type": "image",
-          "settings": {
-            "title": "FREE BIO DETERGENT YOU'LL \nFEEL GOOD ABOUT",
-            "title_size": 40,
-            "subheading": "Spend $200+ to receive a free bottle of the best-selling \"bio\" detergent",
-            "link": "https://elmandrye.com/collections/products",
-            "link_text": "SHOP NOW",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/loni-test-1.png",
-            "focal_point": "center center"
-          }
-        },
-        "template--16636909846740__738eeae6-d55d-472e-a964-f21e80d675b2-16717368271eab4853-0": {
-          "type": "image",
-          "settings": {
-            "title": "Modern Supplements \nFor A Healthier You",
-            "title_size": 70,
-            "subheading": "Science Backed. Research Based.",
-            "link": "shopify://pages/quiz",
-            "link_text": "Take the quiz",
-            "color_accent": "#ffffff",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify://shop_images/2412124_copy.jpg",
-            "image_mobile": "shopify://shop_images/24_copy4_1a6102df-51a1-4589-b0c5-d685cea0aa1e.jpg",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "image_MYnaJD",
-        "template--16636909846740__738eeae6-d55d-472e-a964-f21e80d675b2-16717368271eab4853-0"
-      ],
-      "settings": {
-        "style": "arrows",
-        "desktop_size": 0,
-        "mobile_size": 40,
-        "autoplay": false,
-        "autoplay_speed": 7
-      }
-    },
     "166050714297523b7b": {
       "type": "logo-list",
       "blocks": {
@@ -70,7 +16,7 @@
           "settings": {
             "image": "shopify://shop_images/discoverlogo.png",
             "link": "",
-            "testimonial": "“World's best supplement brand to keep you healthy.”"
+            "testimonial": "\u201cWorld's best supplement brand to keep you healthy.\u201d"
           }
         },
         "1660507142067c568e-2": {
@@ -259,10 +205,50 @@
         "space_around": true,
         "alt": true
       }
+    },
+    "er-hero-main": {
+      "type": "er-hero",
+      "blocks": {
+        "badge-1": {
+          "type": "badge",
+          "settings": {
+            "icon": "\u2713",
+            "label": "Third-party tested"
+          }
+        },
+        "badge-3": {
+          "type": "badge",
+          "settings": {
+            "icon": "\u2713",
+            "label": "Clinically dosed"
+          }
+        }
+      },
+      "block_order": [
+        "badge-1",
+        "badge-3"
+      ],
+      "settings": {
+        "eyebrow": "Evidence-based supplements",
+        "heading": "Clean formulas.\nReal results.",
+        "subheading": "Trusted By Professional Athletes",
+        "cta_primary_text": "Shop All Supplements",
+        "cta_primary_url": "/collections/products",
+        "cta_secondary_text": "Take the Quiz",
+        "cta_secondary_url": "/pages/quiz",
+        "trust_text": "As seen in Forbes, Men's Health, and more.",
+        "min_height": 680,
+        "bg_color": "#0f0f0d",
+        "text_color": "#f5f0e8",
+        "accent_color": "#c9b27a",
+        "image_bg_color": "#0f0f0d",
+        "focal_point": "center center",
+        "image_url": "https://cdn.shopify.com/s/files/1/0522/5309/8141/files/er-hero-athlete.png?v=1779664324"
+      }
     }
   },
   "order": [
-    "738eeae6-d55d-472e-a964-f21e80d675b2",
+    "er-hero-main",
     "166050714297523b7b",
     "166051919869f20eff",
     "featured-collection-slider",

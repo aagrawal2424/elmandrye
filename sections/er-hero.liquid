@@ -1,0 +1,466 @@
+{%- style -%}
+  .er-hero--{{ section.id }} {
+    background: {{ section.settings.bg_color }};
+    min-height: {{ section.settings.min_height }}px;
+    display: flex;
+    align-items: stretch;
+  }
+
+  .er-hero__inner--{{ section.id }} {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .er-hero__content--{{ section.id }} {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 64px 80px 7vw;
+    color: {{ section.settings.text_color }};
+  }
+
+  .er-hero__eyebrow--{{ section.id }} {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: {{ section.settings.accent_color }};
+    margin-bottom: 20px;
+  }
+
+  .er-hero__heading--{{ section.id }} {
+    font-size: clamp(38px, 4.2vw, 68px);
+    font-weight: 700;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin: 0 0 24px;
+    color: {{ section.settings.text_color }};
+  }
+
+  .er-hero__subheading--{{ section.id }} {
+    font-size: clamp(16px, 1.25vw, 20px);
+    line-height: 1.5;
+    font-weight: 500;
+    color: {{ section.settings.text_color }};
+    max-width: 440px;
+    margin: 0 0 40px;
+    opacity: 0.9;
+  }
+
+  .er-hero__ctas--{{ section.id }} {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+
+  .er-hero__btn-primary--{{ section.id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: {{ section.settings.text_color }};
+    color: {{ section.settings.bg_color }};
+    padding: 16px 32px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid {{ section.settings.text_color }};
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .er-hero__btn-primary--{{ section.id }}:hover {
+    background: transparent;
+    color: {{ section.settings.text_color }};
+  }
+
+  .er-hero__btn-secondary--{{ section.id }} {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: {{ section.settings.text_color }};
+    padding: 16px 32px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid {{ section.settings.text_color | color_modify: 'alpha', 0.25 }};
+    transition: border-color 0.2s;
+  }
+
+  .er-hero__btn-secondary--{{ section.id }}:hover {
+    border-color: {{ section.settings.text_color }};
+  }
+
+  .er-hero__trust--{{ section.id }} {
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: {{ section.settings.text_color | color_modify: 'alpha', 0.45 }};
+    margin: 0;
+  }
+
+  .er-hero__trust--{{ section.id }} strong {
+    color: {{ section.settings.text_color | color_modify: 'alpha', 0.65 }};
+  }
+
+  .er-hero__media--{{ section.id }} {
+    position: relative;
+    overflow: hidden;
+    background: {{ section.settings.image_bg_color }};
+  }
+
+  .er-hero__media--{{ section.id }} img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: {{ section.settings.focal_point }};
+    display: block;
+  }
+
+  .er-hero__media--{{ section.id }} .placeholder-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Pill badges */
+  .er-hero__badges--{{ section.id }} {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+  }
+
+  .er-hero__badge--{{ section.id }} {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    padding: 6px 14px;
+    border: 1px solid {{ section.settings.accent_color | color_modify: 'alpha', 0.4 }};
+    color: {{ section.settings.accent_color }};
+  }
+
+  /* Mobile */
+  @media screen and (max-width: 768px) {
+    .er-hero__inner--{{ section.id }} {
+      grid-template-columns: 1fr;
+      grid-template-rows: 380px auto;
+    }
+
+    .er-hero__media--{{ section.id }} {
+      order: -1;
+    }
+
+    .er-hero__content--{{ section.id }} {
+      padding: 48px 24px 56px;
+    }
+
+    .er-hero__ctas--{{ section.id }} {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .er-hero__btn-primary--{{ section.id }},
+    .er-hero__btn-secondary--{{ section.id }} {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .er-hero--{{ section.id }} {
+      min-height: auto;
+    }
+  }
+{%- endstyle -%}
+
+<script>
+  (function() {
+    function erHeroOffset() {
+      var hero = document.querySelector('.er-hero--{{ section.id }}');
+      if (!hero) return;
+      var header = document.querySelector('.header-wrapper');
+      if (!header) return;
+      // Only offset if the header is position:absolute (overlay mode) — i.e. it
+      // doesn't take up flow space. Check computed position.
+      var pos = window.getComputedStyle(header).position;
+      if (pos === 'absolute' || pos === 'fixed') {
+        hero.style.paddingTop = header.offsetHeight + 'px';
+      } else {
+        hero.style.paddingTop = '';
+      }
+    }
+    document.addEventListener('DOMContentLoaded', erHeroOffset);
+    window.addEventListener('resize', erHeroOffset);
+  })();
+</script>
+
+<section
+  class="er-hero--{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  data-section-type="er-hero">
+
+  <div class="er-hero__inner--{{ section.id }}">
+
+    {%- comment %} Left: Text {%- endcomment %}
+    <div class="er-hero__content--{{ section.id }}">
+
+      {%- if section.settings.eyebrow != blank -%}
+        <span class="er-hero__eyebrow--{{ section.id }}">{{ section.settings.eyebrow }}</span>
+      {%- endif -%}
+
+      {%- if section.settings.heading != blank -%}
+        <h1 class="er-hero__heading--{{ section.id }}">{{ section.settings.heading | newline_to_br }}</h1>
+      {%- endif -%}
+
+      {%- if section.blocks.size > 0 -%}
+        <div class="er-hero__badges--{{ section.id }}">
+          {%- for block in section.blocks -%}
+            {%- if block.type == 'badge' and block.settings.label != blank -%}
+              <span class="er-hero__badge--{{ section.id }}" {{ block.shopify_attributes }}>
+                {%- if block.settings.icon != blank -%}{{ block.settings.icon }} {%- endif -%}
+                {{ block.settings.label }}
+              </span>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endif -%}
+
+      {%- if section.settings.subheading != blank -%}
+        <p class="er-hero__subheading--{{ section.id }}">{{ section.settings.subheading }}</p>
+      {%- endif -%}
+
+      <div class="er-hero__ctas--{{ section.id }}">
+        {%- if section.settings.cta_primary_text != blank -%}
+          <a href="{{ section.settings.cta_primary_url }}" class="er-hero__btn-primary--{{ section.id }}">
+            {{ section.settings.cta_primary_text }}
+          </a>
+        {%- endif -%}
+        {%- if section.settings.cta_secondary_text != blank -%}
+          <a href="{{ section.settings.cta_secondary_url }}" class="er-hero__btn-secondary--{{ section.id }}">
+            {{ section.settings.cta_secondary_text }}
+          </a>
+        {%- endif -%}
+      </div>
+
+      {%- if section.settings.trust_text != blank -%}
+        <p class="er-hero__trust--{{ section.id }}">{{ section.settings.trust_text }}</p>
+      {%- endif -%}
+
+    </div>
+
+    {%- comment %} Right: Image {%- endcomment %}
+    <div class="er-hero__media--{{ section.id }}">
+      {%- if section.settings.image != blank -%}
+        {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+        <img
+          src="{{ section.settings.image | img_url: '800x' }}"
+          data-src="{{ img_url }}"
+          data-sizes="auto"
+          data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+          class="lazyload"
+          alt="{{ section.settings.image.alt | default: section.settings.heading | escape }}"
+          width="{{ section.settings.image.width }}"
+          height="{{ section.settings.image.height }}"
+          loading="eager"
+          fetchpriority="high">
+        <noscript>
+          <img
+            src="{{ section.settings.image | img_url: '1000x' }}"
+            alt="{{ section.settings.image.alt | default: section.settings.heading | escape }}">
+        </noscript>
+      {%- elsif section.settings.image_url != blank -%}
+        <img
+          src="{{ section.settings.image_url }}"
+          alt="{{ section.settings.heading | escape }}"
+          loading="eager"
+          fetchpriority="high"
+          style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:{{ section.settings.focal_point }};">
+      {%- else -%}
+        {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endif -%}
+    </div>
+
+  </div>
+
+</section>
+
+{% schema %}
+{
+  "name": "ER Hero",
+  "class": "index-section--er-hero",
+  "tag": "div",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow label",
+      "default": "Evidence-based supplements"
+    },
+    {
+      "type": "textarea",
+      "id": "heading",
+      "label": "Headline",
+      "default": "Clean formulas.\nReal results."
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "Every ingredient dosed for effect, not the label. No proprietary blends, no filler, no hype."
+    },
+    {
+      "type": "header",
+      "content": "Primary CTA"
+    },
+    {
+      "type": "text",
+      "id": "cta_primary_text",
+      "label": "Button label",
+      "default": "Shop All Supplements"
+    },
+    {
+      "type": "url",
+      "id": "cta_primary_url",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Secondary CTA"
+    },
+    {
+      "type": "text",
+      "id": "cta_secondary_text",
+      "label": "Button label",
+      "default": "Take the Quiz"
+    },
+    {
+      "type": "url",
+      "id": "cta_secondary_url",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Trust line"
+    },
+    {
+      "type": "text",
+      "id": "trust_text",
+      "label": "Trust line text",
+      "default": "As seen in Forbes, Men's Health, and more."
+    },
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Hero image (upload)"
+    },
+    {
+      "type": "text",
+      "id": "image_url",
+      "label": "Hero image URL (override)",
+      "info": "Paste a direct CDN URL. Only used when no image is picked above."
+    },
+    {
+      "type": "select",
+      "id": "focal_point",
+      "label": "Image focal point",
+      "default": "center center",
+      "options": [
+        { "value": "top center", "label": "Top" },
+        { "value": "center center", "label": "Center" },
+        { "value": "bottom center", "label": "Bottom" },
+        { "value": "center left", "label": "Left" },
+        { "value": "center right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Layout & Colors"
+    },
+    {
+      "type": "range",
+      "id": "min_height",
+      "label": "Min height (desktop)",
+      "min": 400,
+      "max": 900,
+      "step": 20,
+      "default": 680,
+      "unit": "px"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#f8f5f0"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Accent / eyebrow color",
+      "default": "#c9b27a"
+    },
+    {
+      "type": "color",
+      "id": "image_bg_color",
+      "label": "Image panel background",
+      "default": "#e8e2d8"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "badge",
+      "name": "Trust badge",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "text",
+          "id": "icon",
+          "label": "Icon / emoji",
+          "default": "✓"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "Third-party tested"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "ER Hero",
+      "blocks": [
+        { "type": "badge", "settings": { "icon": "✓", "label": "Third-party tested" } },
+        { "type": "badge", "settings": { "icon": "✓", "label": "No proprietary blends" } },
+        { "type": "badge", "settings": { "icon": "✓", "label": "Clinically dosed" } }
+      ]
+    }
+  ]
+}
+{% endschema %}
