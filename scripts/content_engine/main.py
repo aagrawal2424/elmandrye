@@ -37,6 +37,8 @@ from generate_image import generate_hero  # noqa: E402
 from validate import validate  # noqa: E402
 from publish import publish_article, extract_title  # noqa: E402
 from originality import signature, find_most_similar, SIMILARITY_THRESHOLD  # noqa: E402
+from formats import pick_format  # noqa: E402
+from social import distribute  # noqa: E402
 
 STATE_FILE = HERE / "state.json"
 DRY_RUN = os.environ.get("CONTENT_ENGINE_DRY_RUN", "").lower() in ("true", "1", "yes")
@@ -112,16 +114,16 @@ def keywords_for_topic(topic: dict) -> list[str]:
     return [w for w in words if w not in stop][:15]
 
 
-def attempt_generate(topic: dict, comments: list[str], links: list[dict]):
+def attempt_generate(topic: dict, comments: list[str], links: list[dict], format_prompt: str = ""):
     """Generate + validate. Returns (markdown, validation_result, attempts)."""
-    md = generate_article(topic, comments, links)
+    md = generate_article(topic, comments, links, format_prompt=format_prompt)
     v = validate(md)
     if v.ok:
         return md, v, 1
 
     print(f"      Validation FAILED on attempt 1: {v.errors}")
     feedback = "\n".join(f"- {e}" for e in v.errors)
-    md = generate_article(topic, comments, links, retry_feedback=feedback)
+    md = generate_article(topic, comments, links, retry_feedback=feedback, format_prompt=format_prompt)
     v = validate(md)
     return md, v, 2
 
@@ -187,9 +189,13 @@ def main() -> int:
     links = pick_relevant(keywords, registry, max_n=8)
     print(f"      Selected {len(links)} candidate links for the writer.")
 
+    # Step 4b: pick article format
+    fmt = pick_format(state)
+    print(f"      Format: {fmt['id']}")
+
     # Step 5-6: generate + validate
     print("[5/9] Generating article with Claude...")
-    md, v, attempts = attempt_generate(topic, comments, links)
+    md, v, attempts = attempt_generate(topic, comments, links, format_prompt=fmt["structure_prompt"])
     print(f"      Done. Attempts: {attempts}. Word count: {v.stats.get('word_count_main', '?')}.")
 
     if not v.ok:
@@ -245,12 +251,16 @@ def main() -> int:
     article = publish_article(md, topic, hero_image_url=hero_url, publish_live=True)
     print(f"      LIVE: {article['live_url']}")
 
+    print("[8b/9] Distributing to social...")
+    distribute(article, md)
+
     # Step 9: state update
     state.setdefault("covered_topics", []).append({
         "ts": time.time(),
         "title": topic["title"],
         "subreddit": topic.get("subreddit"),
         "live_url": article["live_url"],
+        "article_id": article["id"],
         "signature": new_sig,
     })
     if not topic.get("subreddit"):

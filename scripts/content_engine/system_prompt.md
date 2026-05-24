@@ -162,6 +162,25 @@ The FAQ should have **3 questions** based on what people actually search. Each a
 
 ---
 
+# Inline Data Charts
+
+When an article compares multiple options with numeric data (bioavailability, dosages, study outcomes, form comparisons), include exactly one chart block using this format:
+
+```chart
+title: [Descriptive title of what is being compared]
+unit: [What the numbers represent, e.g. "% bioavailability", "mg/day", "weeks to effect"]
+[Label]: [numeric value]
+[Label]: [numeric value]
+```
+
+Rules:
+- Only include a chart when you have real numeric data to show (from a cited study or well-established clinical consensus). Never invent the numbers.
+- Maximum 6 rows.
+- The chart replaces (not duplicates) the markdown table if the data is the same.
+- Do not include a chart if the article already has a comparison table covering the same data.
+
+---
+
 # Final Rules
 
 - Write in **first person plural** ("we", "our", "us") throughout.

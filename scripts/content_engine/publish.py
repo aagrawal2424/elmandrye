@@ -15,6 +15,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from gql import call  # noqa: E402
+from chart_renderer import preprocess_charts, inject_charts  # noqa: E402
 
 BLOG_ID = "gid://shopify/Blog/74623221917"  # /blogs/news
 BLOG_HANDLE = "news"
@@ -22,7 +23,7 @@ BLOG_HANDLE = "news"
 # signal (Google AI disclosure / E-E-A-T) while keeping AJ as editor-in-chief.
 AUTHOR_NAME = "AJ Agrawal & Elm & Rye Editorial"
 AUTHOR_PERSON = "AJ Agrawal"
-AUTHOR_PERSON_URL = "https://elmandrye.com/pages/about"  # swap when a dedicated author page exists
+AUTHOR_PERSON_URL = "https://elmandrye.com/pages/aj-agrawal"
 STORE = "elmandrye.com"
 ORG_LOGO_URL = "https://elmandrye.com/cdn/shop/files/elmandrye-logo.png"
 
@@ -247,7 +248,7 @@ def build_jsonld(title: str, summary: str, hero_image_url: str,
     return "\n".join(blocks)
 
 
-def extract_tags(md: str, topic: dict) -> list[str]:
+def extract_tags(_md: str, _topic: dict) -> list[str]:
     return []
 
 
@@ -271,7 +272,8 @@ def build_article_body_html(md: str, hero_image_url: str, handle_hint: str) -> t
     """Return (body_html, summary). Body includes JSON-LD + disclaimer."""
     title = extract_title(md)
     summary = extract_summary(md)
-    article_html = md_to_html(md)
+    md_processed, rendered_charts = preprocess_charts(md)
+    article_html = inject_charts(md_to_html(md_processed), rendered_charts)
     faq_pairs = extract_faq_pairs(md)
     article_url = f"https://{STORE}/blogs/{BLOG_HANDLE}/{handle_hint}"
     jsonld = build_jsonld(title, summary, hero_image_url, article_url, faq_pairs)

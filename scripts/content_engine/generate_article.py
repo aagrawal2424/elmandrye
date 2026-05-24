@@ -21,7 +21,8 @@ def load_system_prompt() -> str:
     return (HERE / "system_prompt.md").read_text()
 
 
-def build_user_message(topic: dict, comments: list[str], links: list[dict]) -> str:
+def build_user_message(topic: dict, comments: list[str], links: list[dict],
+                       format_prompt: str = "") -> str:
     """Assemble what we send to Claude after the system prompt."""
     lines = []
     lines.append("Write today's article on the following topic.")
@@ -53,8 +54,13 @@ def build_user_message(topic: dict, comments: list[str], links: list[dict]) -> s
         lines.append(f"- [{kind_label}] {it['title']} → {it['url']}")
     lines.append("")
 
+    if format_prompt:
+        lines.append("## Article Format")
+        lines.append(format_prompt.strip())
+        lines.append("")
+
     lines.append("## Output")
-    lines.append("Return ONLY the article in markdown. No preamble. Start with `# Title` and end with the FAQ section. Follow the format template in the system prompt exactly. Stay between 800–1,200 words (excluding the FAQ at the bottom).")
+    lines.append("Return ONLY the article in markdown. No preamble. Start with `# Title` and end with the FAQ section. Follow the format template above (or the system prompt default if none given). Stay between 800–1,200 words (excluding the FAQ at the bottom).")
     return "\n".join(lines)
 
 
@@ -98,9 +104,10 @@ def call_claude(system: str, user: str, retry_feedback: str = "") -> str:
     return "".join(text_blocks).strip()
 
 
-def generate(topic: dict, comments: list[str], links: list[dict], retry_feedback: str = "") -> str:
+def generate(topic: dict, comments: list[str], links: list[dict],
+             retry_feedback: str = "", format_prompt: str = "") -> str:
     system = load_system_prompt()
-    user = build_user_message(topic, comments, links)
+    user = build_user_message(topic, comments, links, format_prompt)
     return call_claude(system, user, retry_feedback)
 
 
