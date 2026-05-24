@@ -18,8 +18,11 @@ from gql import call  # noqa: E402
 
 BLOG_ID = "gid://shopify/Blog/74623221917"  # /blogs/news
 BLOG_HANDLE = "news"
-AUTHOR_NAME = "AJ Agrawal"
-AUTHOR_URL = "https://elmandrye.com/pages/about"  # update when a dedicated author page exists
+# Combined editor + team byline. Removes the sole-human-author impersonation
+# signal (Google AI disclosure / E-E-A-T) while keeping AJ as editor-in-chief.
+AUTHOR_NAME = "AJ Agrawal & Elm & Rye Editorial"
+AUTHOR_PERSON = "AJ Agrawal"
+AUTHOR_PERSON_URL = "https://elmandrye.com/pages/about"  # swap when a dedicated author page exists
 STORE = "elmandrye.com"
 ORG_LOGO_URL = "https://elmandrye.com/cdn/shop/files/elmandrye-logo.png"
 
@@ -196,11 +199,18 @@ def build_jsonld(title: str, summary: str, hero_image_url: str,
         "description": summary,
         "datePublished": now_iso,
         "dateModified": now_iso,
-        "author": {
-            "@type": "Person",
-            "name": AUTHOR_NAME,
-            "url": AUTHOR_URL,
-        },
+        "author": [
+            {
+                "@type": "Person",
+                "name": AUTHOR_PERSON,
+                "url": AUTHOR_PERSON_URL,
+            },
+            {
+                "@type": "Organization",
+                "name": "Elm & Rye Editorial",
+                "url": f"https://{STORE}",
+            },
+        ],
         "publisher": {
             "@type": "Organization",
             "name": "Elm & Rye",
