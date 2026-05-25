@@ -1,0 +1,17 @@
+{
+  "created_products": [
+    {
+      "product_name": "Iron Chelation Complex",
+      "product_title": "Iron chelation complex",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9179228504276",
+      "handle": "iron-chelation-complex",
+      "image_url": "",
+      "created_at": "2026-05-24",
+      "price_usd": 84.99,
+      "reddit_url": "https://reddit.com/r/Longevity/test",
+      "why_interesting": "Newly published Nature Aging research directly links dysregulated iron metabolism in aging neurons to memory loss, creating a credible hook for a brain-health supplement targeting iron balance."
+    }
+  ]
+}

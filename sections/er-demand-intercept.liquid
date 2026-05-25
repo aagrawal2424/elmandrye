@@ -1,0 +1,324 @@
+{% comment %}
+  Demand-test checkout intercept.
+  Runs on every page. Intercepts checkout when the cart contains a
+  coming-soon product, captures email, and issues a unique discount code.
+  If the cart also contains in-stock products, offers to remove the coming-soon
+  item and proceed to checkout so in-stock sales are never blocked.
+{% endcomment %}
+
+{% assign coming_soon = collections['coming-soon'].products %}
+
+<!-- Demand-test modal — always in DOM so erDtIntercept is always defined -->
+<div id="er-dt-overlay"
+  style="display:none;position:fixed;inset:0;z-index:100000;background:rgba(0,0,0,0.75);
+         align-items:center;justify-content:center;padding:1rem;">
+  <div style="background:#0f0f0d;color:#f5f0e8;max-width:480px;width:100%;padding:2.5rem 2rem;
+              position:relative;border:1px solid #2a2a28;box-shadow:0 20px 60px rgba(0,0,0,0.6);">
+
+    <button id="er-dt-close"
+      style="position:absolute;top:1rem;right:1.25rem;background:none;border:none;
+             color:#888;font-size:1.5rem;cursor:pointer;line-height:1;padding:0;"
+      aria-label="Close">&times;</button>
+
+    <p style="font-size:0.7rem;letter-spacing:0.18em;color:#c9b27a;text-transform:uppercase;margin:0 0 0.75rem;">
+      Limited availability
+    </p>
+    <h2 id="er-dt-title"
+      style="font-size:1.35rem;font-weight:600;margin:0 0 0.75rem;line-height:1.3;"></h2>
+    <p style="font-size:0.9rem;color:#a0998e;margin:0 0 1.75rem;line-height:1.65;">
+      You're early — this product is still coming. Leave your email and we'll
+      notify you the moment it's available, plus send you a
+      <strong style="color:#c9b27a;">personal 50% off coupon</strong> just for you.
+    </p>
+
+    <!-- Email capture form -->
+    <div id="er-dt-form-wrap">
+      <form id="er-dt-form">
+        <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+          <input id="er-dt-email" type="email" required placeholder="your@email.com"
+            style="flex:1;min-width:200px;padding:0.7rem 1rem;background:#1a1a18;
+                   border:1px solid #3a3a38;color:#f5f0e8;font-size:0.9rem;outline:none;border-radius:0;">
+          <button id="er-dt-submit" type="submit"
+            style="padding:0.7rem 1.4rem;background:#c9b27a;color:#0f0f0d;border:none;
+                   font-size:0.8rem;font-weight:700;letter-spacing:0.1em;cursor:pointer;
+                   text-transform:uppercase;white-space:nowrap;">
+            Notify Me
+          </button>
+        </div>
+        <p id="er-dt-error"
+          style="display:none;color:#e07070;font-size:0.8rem;margin:0.5rem 0 0;"></p>
+      </form>
+    </div>
+
+    <!-- Loading state -->
+    <div id="er-dt-loading" style="display:none;text-align:center;padding:1rem 0;">
+      <p style="color:#a0998e;font-size:0.9rem;margin:0;">Generating your code&hellip;</p>
+    </div>
+
+    <!-- Success state -->
+    <div id="er-dt-success" style="display:none;">
+      <p style="font-size:1rem;color:#c9b27a;font-weight:600;margin:0 0 0.5rem;">You're on the list!</p>
+      <p style="font-size:0.875rem;color:#a0998e;margin:0 0 1.25rem;line-height:1.6;">
+        Your personal 50% off code — valid only for this product, one use only:
+      </p>
+      <div id="er-dt-code"
+        style="background:#1a1a18;border:1px solid #c9b27a;padding:0.85rem 1rem;
+               text-align:center;letter-spacing:0.22em;font-size:1.15rem;
+               font-weight:700;color:#c9b27a;cursor:pointer;"
+        title="Click to copy"></div>
+      <p id="er-dt-copied"
+        style="display:none;font-size:0.78rem;color:#c9b27a;text-align:center;margin:0.4rem 0 0;">
+        Copied!
+      </p>
+      <p style="font-size:0.78rem;color:#555;margin:0.75rem 0 0;">
+        We'll also email you when the product launches.
+      </p>
+    </div>
+
+    <!-- Continue to checkout strip — shown when other in-stock items are in cart -->
+    <div id="er-dt-continue-wrap"
+      style="display:none;border-top:1px solid #2a2a28;margin-top:1.5rem;padding-top:1.25rem;">
+      <p style="font-size:0.8rem;color:#a0998e;margin:0 0 0.75rem;line-height:1.5;">
+        You have other items ready to ship. We'll remove
+        <span id="er-dt-continue-name" style="color:#f5f0e8;"></span>
+        from your cart so you can check out now.
+      </p>
+      <button id="er-dt-continue-btn"
+        style="width:100%;padding:0.75rem 1rem;background:transparent;color:#f5f0e8;
+               border:1px solid #3a3a38;font-size:0.8rem;font-weight:600;letter-spacing:0.08em;
+               cursor:pointer;text-transform:uppercase;">
+        Remove &amp; continue to checkout &rarr;
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var HANDLE_TO_GID = {
+    'iron-chelation-complex': 'gid://shopify/Product/9179228504276'
+  };
+  {% for p in coming_soon %}
+  HANDLE_TO_GID['{{ p.handle }}'] = 'gid://shopify/Product/{{ p.id }}';
+  {% endfor %}
+
+  var DEMAND_HANDLES = Object.keys(HANDLE_TO_GID);
+  var WAITLIST_API   = '{{ section.settings.waitlist_api_url | default: "https://elmandrye.vercel.app/api/waitlist" }}';
+
+  var overlay      = document.getElementById('er-dt-overlay');
+  var closeBtn     = document.getElementById('er-dt-close');
+  var titleEl      = document.getElementById('er-dt-title');
+  var form         = document.getElementById('er-dt-form');
+  var formWrap     = document.getElementById('er-dt-form-wrap');
+  var loadingDiv   = document.getElementById('er-dt-loading');
+  var successDiv   = document.getElementById('er-dt-success');
+  var codeEl       = document.getElementById('er-dt-code');
+  var copiedEl     = document.getElementById('er-dt-copied');
+  var errorEl      = document.getElementById('er-dt-error');
+  var submitBtn    = document.getElementById('er-dt-submit');
+  var continueWrap = document.getElementById('er-dt-continue-wrap');
+  var continueName = document.getElementById('er-dt-continue-name');
+  var continueBtn  = document.getElementById('er-dt-continue-btn');
+
+  var demandItem   = null;
+  var hasOtherItems = false;
+
+  // ── Cart helpers ────────────────────────────────────────────────────────────
+
+  function findDemandItem(cart) {
+    for (var i = 0; i < cart.items.length; i++) {
+      if (DEMAND_HANDLES.indexOf(cart.items[i].handle) !== -1) {
+        return cart.items[i];
+      }
+    }
+    return null;
+  }
+
+  function cartHasOtherItems(cart, demandHandle) {
+    for (var i = 0; i < cart.items.length; i++) {
+      if (cart.items[i].handle !== demandHandle) return true;
+    }
+    return false;
+  }
+
+  function refreshCart() {
+    return fetch('/cart.js')
+      .then(function (r) { return r.json(); })
+      .then(function (cart) {
+        demandItem    = findDemandItem(cart);
+        hasOtherItems = demandItem ? cartHasOtherItems(cart, demandItem.handle) : false;
+        return demandItem;
+      });
+  }
+
+  refreshCart();
+  setInterval(refreshCart, 2000);
+  ['cart:refresh', 'cart:updated', 'ajaxProduct:added', 'product:added'].forEach(function (e) {
+    document.addEventListener(e, refreshCart);
+  });
+
+  // ── Remove demand item from cart, then go to checkout ──────────────────────
+
+  function removeAndCheckout(item) {
+    continueBtn.disabled    = true;
+    continueBtn.textContent = 'Removing…';
+    fetch('/cart/change.js', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: item.key, quantity: 0 })
+    })
+    .then(function () { window.location.href = '/checkout'; })
+    .catch(function () { window.location.href = '/checkout'; });
+  }
+
+  // ── Modal open / close ──────────────────────────────────────────────────────
+
+  function openModal(item, otherItems) {
+    titleEl.textContent      = '"' + item.product_title + '" is coming soon';
+    formWrap.style.display   = '';
+    loadingDiv.style.display = 'none';
+    successDiv.style.display = 'none';
+    errorEl.style.display    = 'none';
+    overlay.style.display    = 'flex';
+    document.body.style.overflow = 'hidden';
+
+    // Show or hide the "continue to checkout" strip
+    if (otherItems) {
+      continueName.textContent     = item.product_title;
+      continueWrap.style.display   = '';
+      continueBtn.disabled         = false;
+      continueBtn.textContent      = 'Remove & continue to checkout →';
+    } else {
+      continueWrap.style.display = 'none';
+    }
+
+    setTimeout(function () {
+      var el = document.getElementById('er-dt-email');
+      if (el) { el.value = ''; el.focus(); }
+      submitBtn.disabled = false;
+    }, 60);
+  }
+
+  function closeModal() {
+    overlay.style.display        = 'none';
+    document.body.style.overflow = '';
+  }
+
+  closeBtn.addEventListener('click', closeModal);
+  overlay.addEventListener('click', function (e) { if (e.target === overlay) closeModal(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+
+  continueBtn.addEventListener('click', function () {
+    if (demandItem) removeAndCheckout(demandItem);
+  });
+
+  // ── Global intercept ────────────────────────────────────────────────────────
+
+  window.erDtIntercept = function (btn, event) {
+    event.preventDefault();
+    event.stopImmediatePropagation();
+
+    if (demandItem) {
+      openModal(demandItem, hasOtherItems);
+      return false;
+    }
+
+    // Cache may be stale — live check
+    fetch('/cart.js')
+      .then(function (r) { return r.json(); })
+      .then(function (cart) {
+        var item   = findDemandItem(cart);
+        var others = item ? cartHasOtherItems(cart, item.handle) : false;
+        demandItem    = item;
+        hasOtherItems = others;
+        if (item) {
+          openModal(item, others);
+        } else {
+          window.location.href = '/checkout';
+        }
+      })
+      .catch(function () { window.location.href = '/checkout'; });
+    return false;
+  };
+
+  // ── Copy-to-clipboard ───────────────────────────────────────────────────────
+
+  codeEl.addEventListener('click', function () {
+    var text = codeEl.textContent.trim();
+    if (!text) return;
+    navigator.clipboard && navigator.clipboard.writeText(text).then(function () {
+      copiedEl.style.display = '';
+      setTimeout(function () { copiedEl.style.display = 'none'; }, 2000);
+    });
+  });
+
+  // ── Email form → Vercel API ─────────────────────────────────────────────────
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!WAITLIST_API) {
+      errorEl.textContent = 'Waitlist API not configured.';
+      errorEl.style.display = ''; return;
+    }
+    var email  = document.getElementById('er-dt-email').value.trim();
+    var item   = demandItem || {};
+    var handle = item.handle || '';
+    var title  = item.product_title || '';
+    var gid    = HANDLE_TO_GID[handle] || '';
+
+    errorEl.style.display    = 'none';
+    formWrap.style.display   = 'none';
+    loadingDiv.style.display = '';
+    submitBtn.disabled       = true;
+
+    fetch(WAITLIST_API, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email: email, product_id: gid, product_handle: handle, product_title: title })
+    })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      loadingDiv.style.display = 'none';
+      if (data.error) {
+        formWrap.style.display = ''; errorEl.textContent = data.error;
+        errorEl.style.display = ''; submitBtn.disabled = false; return;
+      }
+      codeEl.textContent = data.code;
+      successDiv.style.display = '';
+      // Keep the continue-to-checkout strip visible on the success screen too
+      if (hasOtherItems && demandItem) {
+        continueWrap.style.display = '';
+      }
+      if (typeof window._learnq !== 'undefined') {
+        window._learnq.push(['identify', { '$email': email }]);
+        window._learnq.push(['track', 'Demand Test Checkout Attempt', {
+          Product: title, Handle: handle, DiscountCode: data.code, Source: 'checkout-intercept'
+        }]);
+      }
+    })
+    .catch(function () {
+      loadingDiv.style.display = 'none'; formWrap.style.display = '';
+      errorEl.textContent = 'Something went wrong. Please try again.';
+      errorEl.style.display = ''; submitBtn.disabled = false;
+    });
+  });
+
+})();
+</script>
+
+{% schema %}
+{
+  "name": "Demand Test Intercept",
+  "settings": [
+    {
+      "type": "text",
+      "id": "waitlist_api_url",
+      "label": "Waitlist API URL",
+      "info": "Full URL of the /api/waitlist Vercel endpoint, e.g. https://elmandrye-tools.vercel.app/api/waitlist"
+    }
+  ]
+}
+{% endschema %}

@@ -66,7 +66,7 @@
           </p>
         {%- endif -%}
 
-        <button type="submit" class="custom-checkout-button btn btn--full cart__checkout cart__checkout--drawer" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}">
+        <button type="submit" class="custom-checkout-button btn btn--full cart__checkout cart__checkout--drawer" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" onclick="if(window.erDtIntercept)return window.erDtIntercept(this,event);">
           <span>{{ 'cart.general.checkout' | t }}</span>
         </button>
 

@@ -76,7 +76,7 @@
           {%- endif -%}
 
           <div class="cart__checkout-wrapper">
-            <button type="submit" name="checkout" {% if settings.cart_terms_conditions_enable %} data-terms="CartPageAgree"{% endif %} class="btn btn--no-animate cart__checkout">
+            <button type="submit" name="checkout" {% if settings.cart_terms_conditions_enable %} data-terms="CartPageAgree"{% endif %} class="btn btn--no-animate cart__checkout" onclick="if(window.erDtIntercept)return window.erDtIntercept(this,event);">
               {{ 'cart.general.checkout' | t }}
             </button>
 

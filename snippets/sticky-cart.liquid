@@ -16,7 +16,8 @@
     <button
       type="submit" name="checkout"
       id="StickySubmit"
-      class="btn sticky-cart__item">
+      class="btn sticky-cart__item"
+      onclick="if(window.erDtIntercept)return window.erDtIntercept(this,event);">
       <span>{{ 'cart.general.checkout' | t }}</span>
     </button>
   </form>
