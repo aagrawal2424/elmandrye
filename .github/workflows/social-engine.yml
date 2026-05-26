@@ -2,16 +2,26 @@ name: Daily Social Posts
 
 on:
   schedule:
-    - cron: "0 16 * * *"  # noon ET daily
+    - cron: "0 16 * * *"  # noon ET — generate + email for review
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: "Dry run (no posting)"
+      mode:
+        description: "generate (make video) or publish (post approved video)"
+        required: true
+        default: "generate"
+        type: choice
+        options: [generate, publish]
+      video_url:
+        description: "Video URL to post (publish mode only)"
         required: false
-        default: "false"
+        default: ""
+      captions:
+        description: "Captions JSON (publish mode only)"
+        required: false
+        default: "{}"
 
 jobs:
-  post:
+  run:
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
@@ -30,6 +40,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_TOKEN }}
           SHOPIFY_STORE: elmandrye.myshopify.com
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           META_PAGE_ACCESS_TOKEN: ${{ secrets.META_PAGE_ACCESS_TOKEN }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
@@ -39,8 +50,12 @@ jobs:
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
         run: |
-          DRY=${{ github.event.inputs.dry_run || 'false' }}
-          FLAG=""
-          if [ "$DRY" = "true" ]; then FLAG="--dry-run"; fi
-          python -m social_engine.main $FLAG
+          MODE="${{ github.event.inputs.mode || 'generate' }}"
+          if [ "$MODE" = "publish" ]; then
+            python -m social_engine.main publish \
+              --video-url "${{ github.event.inputs.video_url }}" \
+              --captions '${{ github.event.inputs.captions }}'
+          else
+            python -m social_engine.main generate
+          fi
         working-directory: scripts
