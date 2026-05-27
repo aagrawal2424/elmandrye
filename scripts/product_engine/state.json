@@ -12,6 +12,19 @@
       "price_usd": 84.99,
       "reddit_url": "https://reddit.com/r/Longevity/test",
       "why_interesting": "Newly published Nature Aging research directly links dysregulated iron metabolism in aging neurons to memory loss, creating a credible hook for a brain-health supplement targeting iron balance."
+    },
+    {
+      "product_name": "Biosurfactant Laundry Wash",
+      "product_title": "Biosurfactant laundry wash",
+      "category": "cleaning",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9180511830228",
+      "handle": "biosurfactant-laundry-wash",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/59488b3a-5de5-4bb7-8905-1d4b2c6f0c5b/er-product-biosurfactant-laundry-wash.png",
+      "created_at": "2026-05-27",
+      "price_usd": 19.99,
+      "reddit_url": "https://reddit.com/r/laundry/comments/1tobryx/spa_day_didnt_work/",
+      "why_interesting": "Rhamnolipid biosurfactants are microbially-derived compounds with proven ability to break down the lipid-rich sebum and apocrine secretions that bind BO-causing bacteria to fabric fibers \u2014 a mechanism standard enzymes and detergents miss, making it a compelling premium solution for the persistent armpit odor problem this post describes."
     }
   ]
 }
