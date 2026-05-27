@@ -249,9 +249,12 @@ Return a JSON array:
         with urllib.request.urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read())
         raw = data["content"][0]["text"].strip()
-        if raw.startswith("```"):
-            raw = re.sub(r"^```[a-z]*\n?", "", raw)
-            raw = raw.rstrip("`").strip()
+        # Extract the JSON array robustly — find first [ and last ]
+        start = raw.find("[")
+        end   = raw.rfind("]")
+        if start == -1 or end == -1:
+            raise ValueError("No JSON array found in Claude response")
+        raw = raw[start:end + 1]
         results = json.loads(raw)
         filtered = [
             r for r in results

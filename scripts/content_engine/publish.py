@@ -59,11 +59,12 @@ def md_to_html(md: str) -> str:
             i += 1
             continue
 
-        # headings
+        # headings — skip h1 (Shopify theme renders article title as h1 already)
         m = re.match(r'^(#{1,6})\s+(.+)$', line)
         if m:
             level = len(m.group(1))
-            html_parts.append(f"<h{level}>{inline(m.group(2))}</h{level}>")
+            if level > 1:
+                html_parts.append(f"<h{level}>{inline(m.group(2))}</h{level}>")
             i += 1
             continue
 
