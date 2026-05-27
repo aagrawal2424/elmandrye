@@ -2,8 +2,9 @@
   Demand-test checkout intercept.
   Runs on every page. Intercepts checkout when the cart contains a
   coming-soon product, captures email, and issues a unique discount code.
-  If the cart also contains in-stock products, offers to remove the coming-soon
-  item and proceed to checkout so in-stock sales are never blocked.
+  If the cart also contains in-stock products:
+  - Closing the modal automatically removes the coming-soon item and proceeds to checkout
+  - After email submit, shows the code for 3 seconds then auto-proceeds to checkout
 {% endcomment %}
 
 {% assign coming_soon = collections['coming-soon'].products %}
@@ -73,22 +74,10 @@
       <p style="font-size:0.78rem;color:#555;margin:0.75rem 0 0;">
         We'll also email you when the product launches.
       </p>
-    </div>
-
-    <!-- Continue to checkout strip — shown when other in-stock items are in cart -->
-    <div id="er-dt-continue-wrap"
-      style="display:none;border-top:1px solid #2a2a28;margin-top:1.5rem;padding-top:1.25rem;">
-      <p style="font-size:0.8rem;color:#a0998e;margin:0 0 0.75rem;line-height:1.5;">
-        You have other items ready to ship. We'll remove
-        <span id="er-dt-continue-name" style="color:#f5f0e8;"></span>
-        from your cart so you can check out now.
+      <p id="er-dt-redirect-msg"
+        style="display:none;font-size:0.8rem;color:#a0998e;margin:1rem 0 0;text-align:center;">
+        Taking you to checkout in <span id="er-dt-countdown">3</span>s…
       </p>
-      <button id="er-dt-continue-btn"
-        style="width:100%;padding:0.75rem 1rem;background:transparent;color:#f5f0e8;
-               border:1px solid #3a3a38;font-size:0.8rem;font-weight:600;letter-spacing:0.08em;
-               cursor:pointer;text-transform:uppercase;">
-        Remove &amp; continue to checkout &rarr;
-      </button>
     </div>
 
   </div>
@@ -119,12 +108,10 @@
   var copiedEl     = document.getElementById('er-dt-copied');
   var errorEl      = document.getElementById('er-dt-error');
   var submitBtn    = document.getElementById('er-dt-submit');
-  var continueWrap = document.getElementById('er-dt-continue-wrap');
-  var continueName = document.getElementById('er-dt-continue-name');
-  var continueBtn  = document.getElementById('er-dt-continue-btn');
 
-  var demandItem   = null;
+  var demandItem    = null;
   var hasOtherItems = false;
+  var redirectTimer = null;
 
   // ── Cart helpers ────────────────────────────────────────────────────────────
 
@@ -163,8 +150,6 @@
   // ── Remove demand item from cart, then go to checkout ──────────────────────
 
   function removeAndCheckout(item) {
-    continueBtn.disabled    = true;
-    continueBtn.textContent = 'Removing…';
     fetch('/cart/change.js', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -172,6 +157,25 @@
     })
     .then(function () { window.location.href = '/checkout'; })
     .catch(function () { window.location.href = '/checkout'; });
+  }
+
+  // ── Countdown redirect (after email submit, when other items exist) ─────────
+
+  function startRedirectCountdown(item) {
+    var countEl = document.getElementById('er-dt-countdown');
+    var msgEl   = document.getElementById('er-dt-redirect-msg');
+    if (!countEl || !msgEl) return;
+    msgEl.style.display = '';
+    var secs = 3;
+    countEl.textContent = secs;
+    redirectTimer = setInterval(function () {
+      secs -= 1;
+      countEl.textContent = secs;
+      if (secs <= 0) {
+        clearInterval(redirectTimer);
+        removeAndCheckout(item);
+      }
+    }, 1000);
   }
 
   // ── Modal open / close ──────────────────────────────────────────────────────
@@ -184,16 +188,7 @@
     errorEl.style.display    = 'none';
     overlay.style.display    = 'flex';
     document.body.style.overflow = 'hidden';
-
-    // Show or hide the "continue to checkout" strip
-    if (otherItems) {
-      continueName.textContent     = item.product_title;
-      continueWrap.style.display   = '';
-      continueBtn.disabled         = false;
-      continueBtn.textContent      = 'Remove & continue to checkout →';
-    } else {
-      continueWrap.style.display = 'none';
-    }
+    if (redirectTimer) { clearInterval(redirectTimer); redirectTimer = null; }
 
     setTimeout(function () {
       var el = document.getElementById('er-dt-email');
@@ -203,17 +198,18 @@
   }
 
   function closeModal() {
+    if (redirectTimer) { clearInterval(redirectTimer); redirectTimer = null; }
     overlay.style.display        = 'none';
     document.body.style.overflow = '';
+    // If other in-stock items exist, remove demand item and go to checkout
+    if (hasOtherItems && demandItem) {
+      removeAndCheckout(demandItem);
+    }
   }
 
   closeBtn.addEventListener('click', closeModal);
   overlay.addEventListener('click', function (e) { if (e.target === overlay) closeModal(); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
-
-  continueBtn.addEventListener('click', function () {
-    if (demandItem) removeAndCheckout(demandItem);
-  });
 
   // ── Global intercept ────────────────────────────────────────────────────────
 
@@ -288,9 +284,9 @@
       }
       codeEl.textContent = data.code;
       successDiv.style.display = '';
-      // Keep the continue-to-checkout strip visible on the success screen too
+      // Auto-proceed to checkout with in-stock items after showing the code
       if (hasOtherItems && demandItem) {
-        continueWrap.style.display = '';
+        startRedirectCountdown(demandItem);
       }
       if (typeof window._learnq !== 'undefined') {
         window._learnq.push(['identify', { '$email': email }]);
