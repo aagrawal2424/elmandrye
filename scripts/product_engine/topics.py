@@ -192,11 +192,90 @@ If this post does not contain a clear product opportunity, return {{"product_nam
         return None
 
 
+def _claude_fallback(limit: int, existing: set[str], env: dict) -> list[dict]:
+    """Generate product opportunities via Claude when Reddit is unavailable."""
+    print("[topics] Reddit unavailable — using Claude market research fallback")
+    existing_list = ", ".join(sorted(existing)) if existing else "none yet"
+
+    prompt = f"""You are a product analyst for Elm & Rye, a premium supplement, skincare, and cleaning brand.
+
+Existing products already in catalog: {existing_list}
+
+Generate {limit + 3} emerging niche product opportunities for Elm & Rye. Focus on:
+- Supplements: ingredients with growing clinical research but not yet mainstream (e.g. urolithin A, spermidine, fisetin, AKG, plasmalogens)
+- Skincare: active ingredients gaining traction in clinical/enthusiast communities (e.g. tranexamic acid, polyglutamic acid, bakuchiol, snow mushroom)
+- Cleaning: plant-based or enzyme-based innovation (e.g. enzyme laundry, oxygen bleach concentrate)
+
+Rules:
+- Must NOT be in the existing catalog
+- Must NOT be already mainstream (no creatine, whey, vitamin C, retinol, etc.)
+- Must have real scientific backing
+- Must NOT be prescription, controlled, or illegal
+- Niche score 6-9 out of 10
+
+Return a JSON array:
+[
+  {{
+    "product_name": "2-4 word name matching Elm & Rye style",
+    "ingredient": "specific active ingredient",
+    "category": "supplements|skincare|cleaning",
+    "is_niche": true,
+    "has_research": true,
+    "is_rx_or_illegal": false,
+    "niche_score": <6-9>,
+    "why_interesting": "one sentence on the opportunity",
+    "reddit_url": "",
+    "subreddit": "claude_research",
+    "reddit_score": 0
+  }}
+]"""
+
+    body = json.dumps({
+        "model": env.get("ANTHROPIC_MODEL", "claude-sonnet-4-6"),
+        "max_tokens": 2048,
+        "messages": [{"role": "user", "content": prompt}],
+    }).encode()
+
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=body,
+        headers={
+            "x-api-key": env["ANTHROPIC_API_KEY"],
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            data = json.loads(resp.read())
+        raw = data["content"][0]["text"].strip()
+        if raw.startswith("```"):
+            raw = re.sub(r"^```[a-z]*\n?", "", raw)
+            raw = raw.rstrip("`").strip()
+        results = json.loads(raw)
+        filtered = [
+            r for r in results
+            if r.get("product_name")
+            and not r.get("is_rx_or_illegal")
+            and r.get("is_niche")
+            and r.get("has_research")
+            and r.get("niche_score", 0) >= 5
+            and r["product_name"].lower() not in existing
+        ]
+        for r in filtered:
+            print(f"[topics] Claude found: {r['product_name']} (niche score: {r['niche_score']}/10) — {r['why_interesting']}")
+        return filtered[:limit]
+    except Exception as e:
+        print(f"[topics] Claude fallback failed: {e}", file=sys.stderr)
+        return []
+
+
 def fetch_trending(limit: int = 10, existing_titles: set[str] | None = None) -> list[dict]:
     """
-    Return up to `limit` product opportunities scraped from Reddit and
-    validated by Claude. Each dict has: product_name, ingredient, category,
-    niche_score, why_interesting, reddit_url.
+    Return up to `limit` product opportunities. Tries Reddit first;
+    falls back to Claude market research if Reddit is blocked.
+    Each dict has: product_name, ingredient, category, niche_score,
+    why_interesting, reddit_url.
     """
     env = load_env()
     existing = {t.lower() for t in (existing_titles or set())}
@@ -206,7 +285,6 @@ def fetch_trending(limit: int = 10, existing_titles: set[str] | None = None) -> 
     for category, subs in SUBREDDITS.items():
         for sub in subs:
             posts = _fetch_reddit(sub, listing="hot", limit=20)
-            # Also pull "rising" for early-signal posts
             posts += _fetch_reddit(sub, listing="rising", limit=10)
             for p in posts:
                 if p.get("stickied") or p.get("over_18"):
@@ -234,6 +312,10 @@ def fetch_trending(limit: int = 10, existing_titles: set[str] | None = None) -> 
 
     print(f"[topics] {len(unique)} candidate posts found across all subs")
 
+    # If Reddit returned nothing (blocked), fall back to Claude
+    if not unique:
+        return _claude_fallback(limit, existing, env)
+
     # Extract opportunities via Claude (top candidates only to save API calls)
     opportunities: list[dict] = []
     for post in unique[:30]:
@@ -244,7 +326,6 @@ def fetch_trending(limit: int = 10, existing_titles: set[str] | None = None) -> 
         opp = _extract_product_opportunity(post, comments, env)
         if not opp:
             continue
-        # Skip if already in catalog
         if opp["product_name"].lower() in existing:
             print(f"[topics] Skipping '{opp['product_name']}' — already in catalog")
             continue
