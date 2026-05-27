@@ -1,11 +1,15 @@
 """Create Shopify demand-test products — live, 0 inventory, deny checkout."""
 from __future__ import annotations
 
+import json
+import re
 import sys
+import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from gql import call  # noqa: E402
+from gql import call           # noqa: E402
+from get_token import load_env, get_token  # noqa: E402
 
 COMING_SOON_COLLECTION_ID  = "gid://shopify/Collection/456538521812"  # coming-soon
 PRODUCTS_COLLECTION_ID     = "gid://shopify/Collection/270075756701"  # all products
@@ -44,8 +48,54 @@ mutation publishablePublish($id: ID!, $input: [PublicationInput!]!) {
 """
 
 
+LIVE_THEME_ID = "136704000212"
+INTERCEPT_KEY = "sections/er-demand-intercept.liquid"
+
+
 def _money(usd: float) -> str:
     return f"{usd:.2f}"
+
+
+def _patch_intercept_section(handle: str, product_gid: str) -> None:
+    """Add the new product handle to the hardcoded HANDLE_TO_GID in the live theme
+    intercept section so the checkout block is instant — no waiting on Liquid cache."""
+    env = load_env()
+    token = get_token()
+    store = env.get("SHOPIFY_STORE", "elmandrye.myshopify.com")
+    base = f"https://{store}/admin/api/2025-01/themes/{LIVE_THEME_ID}/assets.json"
+
+    # Fetch current section
+    req = urllib.request.Request(
+        f"{base}?asset[key]={INTERCEPT_KEY}",
+        headers={"X-Shopify-Access-Token": token},
+    )
+    with urllib.request.urlopen(req) as r:
+        current = json.loads(r.read())["asset"]["value"]
+
+    # Already present? Nothing to do
+    if f"'{handle}'" in current:
+        print(f"[product] Intercept section already has '{handle}'")
+        return
+
+    # Insert new handle right after the opening brace of HANDLE_TO_GID
+    numeric_id = product_gid.split("/")[-1]
+    new_line = f"\n    '{handle}': 'gid://shopify/Product/{numeric_id}',"
+    patched = current.replace(
+        "var HANDLE_TO_GID = {",
+        f"var HANDLE_TO_GID = {{{new_line}",
+        1,
+    )
+
+    payload = json.dumps({
+        "asset": {"key": INTERCEPT_KEY, "value": patched}
+    }).encode()
+    req = urllib.request.Request(
+        base, data=payload,
+        headers={"X-Shopify-Access-Token": token, "Content-Type": "application/json"},
+        method="PUT",
+    )
+    urllib.request.urlopen(req)
+    print(f"[product] Intercept section updated — '{handle}' now blocks checkout instantly")
 
 
 def create_demand_product(research: dict, image_url: str, dry_run: bool = False) -> dict:
@@ -135,5 +185,11 @@ def create_demand_product(research: dict, image_url: str, dry_run: bool = False)
         print(f"[product] Published to Online Store: https://elmandrye.com/products/{product['handle']}")
     except Exception as e:
         print(f"[product] Warning: publish to Online Store failed: {e}")
+
+    # Patch the checkout intercept immediately — don't wait for Liquid cache
+    try:
+        _patch_intercept_section(product["handle"], product["id"])
+    except Exception as e:
+        print(f"[product] Warning: intercept patch failed (non-fatal): {e}")
 
     return product
