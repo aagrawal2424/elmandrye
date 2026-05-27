@@ -143,6 +143,55 @@
 
   refreshCart();
   setInterval(refreshCart, 2000);
+
+  // ── Inject visible price on demand-test product pages ──────────────────────
+  function injectPriceBanner() {
+    // Only run on demand-test product pages
+    var path = window.location.pathname;
+    var match = path.match(/^\/products\/([^/?]+)/);
+    if (!match) return;
+    var handle = match[1];
+    if (DEMAND_HANDLES.indexOf(handle) === -1) return;
+    if (document.getElementById('er-dt-price-banner')) return;
+
+    // Pull variants from window.product (set by Shopify theme) or fetch
+    var loadVariants = function (cb) {
+      if (window.product && window.product.variants) {
+        cb(window.product.variants);
+      } else {
+        fetch('/products/' + handle + '.js')
+          .then(function (r) { return r.json(); })
+          .then(function (p) { cb(p.variants); })
+          .catch(function () {});
+      }
+    };
+
+    loadVariants(function (variants) {
+      if (!variants || !variants.length) return;
+      var prices = variants.map(function (v) { return v.price; });
+      var min = Math.min.apply(null, prices) / 100;
+      var max = Math.max.apply(null, prices) / 100;
+      var label = (min === max)
+        ? '$' + min.toFixed(2)
+        : 'From $' + min.toFixed(2);
+
+      var banner = document.createElement('div');
+      banner.id = 'er-dt-price-banner';
+      banner.style.cssText =
+        'font-size:2rem;font-weight:600;color:#0f0f0d;' +
+        'margin:0.5rem 0 1rem;letter-spacing:0.01em;';
+      banner.textContent = label;
+
+      // Insert after the product title
+      var titleEl = document.querySelector('.product-single__title, .product__title, h1.product-single__title');
+      if (titleEl && titleEl.parentNode) {
+        titleEl.parentNode.insertBefore(banner, titleEl.nextSibling);
+      }
+    });
+  }
+  injectPriceBanner();
+  setTimeout(injectPriceBanner, 600);
+  setTimeout(injectPriceBanner, 1500);
   ['cart:refresh', 'cart:updated', 'ajaxProduct:added', 'product:added'].forEach(function (e) {
     document.addEventListener(e, refreshCart);
   });

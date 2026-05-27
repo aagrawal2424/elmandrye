@@ -135,10 +135,7 @@ def create_demand_product(research: dict, image_url: str, dry_run: bool = False)
 
     product_input = {
         "title": title,
-        "descriptionHtml": (
-            f"<p>{desc}</p>"
-            f"<p><em>This product is coming soon. Join the waitlist to be first to know when it's available.</em></p>"
-        ),
+        "descriptionHtml": f"<p>{desc}</p>",
         "vendor": "Elm & Rye",
         "productType": "Supplement",
         "tags": tags,
