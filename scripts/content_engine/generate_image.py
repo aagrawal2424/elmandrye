@@ -1,13 +1,9 @@
-"""Generate a hero image via OpenAI's image API and upload it to Shopify Files.
+"""Generate a hero image via OpenAI DALL-E 3 and upload it to Shopify Files.
 
 Returns the Shopify CDN URL for the image, which gets attached to the
 article via the articleCreate mutation's `image` field.
 
 Prompts explicitly forbid text and faces — bad for hero images.
-
-Model note: DALL-E 3 was retired; we use `gpt-image-1`, OpenAI's current
-image model. It returns base64 PNG only (no `url`, no `response_format`,
-no `style`). Landscape size is `1536x1024`.
 """
 from __future__ import annotations
 
@@ -40,17 +36,18 @@ def build_image_prompt(article_title: str) -> str:
 
 
 def generate_image_bytes(prompt: str) -> bytes:
-    """Call the OpenAI Images API (gpt-image-1) and return PNG bytes."""
+    """Call the OpenAI Images API (DALL-E 3) and return PNG bytes."""
     env = load_env()
     api_key = env["OPENAI_API_KEY"]
-    model = env.get("OPENAI_IMAGE_MODEL", "gpt-image-1")
+    model = env.get("OPENAI_IMAGE_MODEL", "dall-e-3")
 
     body = json.dumps({
         "model": model,
         "prompt": prompt,
         "n": 1,
-        "size": "1536x1024",  # landscape — closest to 16:9 supported
-        "quality": "medium",  # low / medium / high (gpt-image-1)
+        "size": "1792x1024",  # landscape — 16:9 closest for dall-e-3
+        "quality": "hd",
+        "response_format": "b64_json",
     }).encode()
 
     req = urllib.request.Request(
