@@ -15,6 +15,7 @@
   <link rel="dns-prefetch" href="https://maps.googleapis.com">
   <link rel="dns-prefetch" href="https://maps.gstatic.com">
   <meta name="google-site-verification" content="eTkcbP3U-nq3TJW--RA_3sHPeb_xb5kZnl1jelsjWes" />
+  <script src="https://analytics.ahrefs.com/analytics.js" data-key="mfhyq2WEWB4ZMbLNBOtYgQ" async></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11065489806"></script>
@@ -49,9 +50,13 @@
   </script>
   <script src="https://sendlane.com/scripts/pusher.js" async></script>
   <!-- END SENDLANE BEACON Pixel Code -->
-  {%- if settings.favicon != blank -%}
-    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
-  {%- endif -%}
+  {%- comment -%} Hardcoded favicon — settings.favicon was failing after the
+    backing file was removed from Shopify Files. Stable CDN URL below
+    works for Google search results, browsers, and iOS Home Screen icons. {%- endcomment -%}
+  <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/elmandrye-favicon-2026.png?v=1779973925&width=32&height=32" />
+  <link rel="icon" type="image/png" sizes="192x192" href="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/elmandrye-favicon-2026.png?v=1779973925&width=192&height=192" />
+  <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/elmandrye-favicon-2026.png?v=1779973925&width=180&height=180" />
+  <link rel="shortcut icon" href="https://cdn.shopify.com/s/files/1/0522/5309/8141/files/elmandrye-favicon-2026.png?v=1779973925&width=32&height=32" type="image/png" />
 
   {%- render 'seo-title' -%}
 
