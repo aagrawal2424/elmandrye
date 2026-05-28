@@ -1097,7 +1097,13 @@
       "live_url": "https://elmandrye.com/blogs/news/the-4-week-b12-optimization-protocol-what-to-take-and-when-1",
       "word_count": 953,
       "attempts": 1
+    },
+    {
+      "ts": 1780004240.822694,
+      "topic": "How long does it actually take ashwagandha to work for cortisol?",
+      "status": "duplicate_skipped",
+      "reason": "Predicted slug 'ashwagandha-and-cortisol-how-long-it-actually-takes-to-work' would collide with existing article 'ashwagandha-and-cortisol-how-long-it-actually-takes-to-work' on the blog. Skipping publish to avoid creating a '<slug>-N' duplicate."
     }
   ],
-  "format_index": 3
+  "format_index": 4
 }
