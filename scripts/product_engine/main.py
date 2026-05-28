@@ -10,6 +10,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from product_engine.topics import fetch_trending          # noqa: E402
+from product_engine.sources.errors import NoIdeasError    # noqa: E402
 from product_engine.market_research import research_topic  # noqa: E402
 from product_engine.image_generator import generate_product_image  # noqa: E402
 from product_engine.product_creator import create_demand_product   # noqa: E402
@@ -37,15 +38,28 @@ def already_created(product_name: str, state: dict) -> bool:
     return product_name.lower() in existing_titles(state)
 
 
-def run(dry_run: bool = False) -> None:
+def run(dry_run: bool = False) -> int:
     state = load_state()
     print(f"[main] State loaded — {len(state['created_products'])} products created so far.")
 
-    # Pass existing titles so Reddit scanner skips duplicates
-    opportunities = fetch_trending(limit=10, existing_titles=existing_titles(state))
+    try:
+        opportunities = fetch_trending(
+            limit=10, existing_titles=existing_titles(state)
+        )
+    except NoIdeasError as e:
+        # Backstop reserve was empty AND all live sources failed —
+        # mathematically near-impossible by design (the reserve alone
+        # holds 200 curated entries). Fail loud, alert, return non-zero.
+        print(f"[main] CRITICAL: source chain returned zero — {e}")
+        _alert_no_ideas(str(e))
+        return 2
+
     if not opportunities:
-        print("[main] No new opportunities found today. Exiting.")
-        return
+        # Source chain returned a non-empty list but main.py filtered them
+        # all (every candidate already in state). Soft-exit, no alert —
+        # but log so we notice if it persists.
+        print("[main] All candidates already in state — nothing new to create. Exiting.")
+        return 0
 
     created_count = 0
     for opp in opportunities:
@@ -103,8 +117,53 @@ def run(dry_run: bool = False) -> None:
         print(f"[main] Created: {research['product_title']}")
 
     print(f"\n[main] Done. {created_count} new product(s) this run.")
+    return 0
+
+
+def _alert_no_ideas(reason: str) -> None:
+    """Send a Resend alert when the source chain produces zero usable
+    candidates. Best-effort — never raises."""
+    import urllib.request
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    from get_token import load_env as _load
+    env = _load()
+    key = env.get("RESEND_API_KEY", "")
+    if not key:
+        print("[alert] no RESEND_API_KEY — skipping no-ideas alert")
+        return
+    body = json.dumps({
+        "from": "Elm & Rye product engine <support@elmandrye.com>",
+        "to": ["aj@portraitpal.ai"],
+        "subject": "[product-engine] CRITICAL: source chain returned zero candidates",
+        "html": (
+            "<h2>Product engine: source chain produced no usable candidates</h2>"
+            "<p>Every source — including the curated evergreen reserve — "
+            "returned nothing this run. No new product was created.</p>"
+            "<p><strong>Most likely causes:</strong></p>"
+            "<ul>"
+            "<li>Ahrefs key revoked or quota exhausted</li>"
+            "<li>Shopify catalog fetch saturated the dedupe set (200+ reserve items already shipped)</li>"
+            "<li>reserve.json missing or corrupted in this commit</li>"
+            "</ul>"
+            f"<p><strong>Raw diagnostic:</strong></p><pre>{reason[:2000]}</pre>"
+        ),
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=body, method="POST",
+        headers={
+            "Authorization": f"Bearer {key}",
+            "Content-Type": "application/json",
+            "User-Agent": "elmandrye-product-engine/1.0",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            print(f"[alert] no-ideas email sent: {r.status}")
+    except Exception as e:
+        print(f"[alert] Resend send failed: {e}")
 
 
 if __name__ == "__main__":
     dry_run = os.environ.get("PRODUCT_ENGINE_DRY_RUN", "false").lower() == "true"
-    run(dry_run=dry_run)
+    sys.exit(run(dry_run=dry_run) or 0)
