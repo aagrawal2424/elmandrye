@@ -10,15 +10,27 @@ from __future__ import annotations
 import json
 import re
 import sys
+import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from gql import call  # noqa: E402
 from chart_renderer import preprocess_charts, inject_charts  # noqa: E402
+from get_token import get_token, load_env  # noqa: E402
 
 BLOG_ID = "gid://shopify/Blog/74623221917"  # /blogs/news
 BLOG_HANDLE = "news"
+BLOG_NUMERIC_ID = "74623221917"
+API_VERSION = "2025-01"
+
+
+def _token() -> str:
+    return get_token()
+
+
+def _admin_host() -> str:
+    return load_env().get("SHOPIFY_STORE", "elmandrye.myshopify.com")
 # Combined editor + team byline. Removes the sole-human-author impersonation
 # signal (Google AI disclosure / E-E-A-T) while keeping AJ as editor-in-chief.
 AUTHOR_NAME = "AJ Agrawal"
@@ -280,14 +292,100 @@ def slugify(title: str) -> str:
     return s[:80] or "article"
 
 
+class DuplicateArticleError(Exception):
+    """Raised when an article with the same slug already exists on the blog.
+
+    Single source of truth for dedup is the Shopify blog itself — state.json
+    can lose entries across repo migrations or be out of sync.
+    """
+
+
+def _existing_article_handles() -> set[str]:
+    """Pull every handle (slug) from the elmandrye blog.
+
+    Shopify caps a single GET at 250 articles; we paginate via Link header
+    until empty. ~250 articles per call is plenty for current volume.
+    """
+    handles: set[str] = set()
+    cursor: str | None = None
+    while True:
+        params = ["limit=250", "fields=handle"]
+        if cursor:
+            params.append(f"page_info={cursor}")
+        url = (
+            f"https://{_admin_host()}/admin/api/{API_VERSION}/blogs/"
+            f"{BLOG_NUMERIC_ID}/articles.json?{'&'.join(params)}"
+        )
+        req = urllib.request.Request(
+            url, headers={"X-Shopify-Access-Token": _token()},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                link = r.headers.get("Link", "")
+                data = json.loads(r.read())
+        except Exception as e:
+            print(f"[publish] Could not fetch existing handles ({e}); "
+                  f"proceeding without Shopify-side dedup.")
+            return handles
+        for a in data.get("articles", []):
+            h = a.get("handle")
+            if h:
+                handles.add(h)
+        next_cursor: str | None = None
+        for part in link.split(","):
+            part = part.strip()
+            if 'rel="next"' in part and "page_info=" in part:
+                start = part.index("page_info=") + len("page_info=")
+                end = part.index(">", start)
+                next_cursor = part[start:end]
+                break
+        if not next_cursor:
+            break
+        cursor = next_cursor
+    return handles
+
+
+def _slug_matches_existing(predicted_slug: str, existing: set[str]) -> str | None:
+    """Return the matching existing handle if our predicted slug would collide.
+
+    Shopify accepts a slug, then if it's already taken appends `-1`, `-2`, etc.
+    We treat both the exact slug AND the `<slug>-N` variants as collisions.
+    """
+    if predicted_slug in existing:
+        return predicted_slug
+    # Catch the case where the original (without suffix) exists but our run
+    # would also be the original; or where a `-1` exists from a prior dup.
+    for h in existing:
+        if h == predicted_slug or re.fullmatch(
+            re.escape(predicted_slug) + r"-\d+", h,
+        ):
+            return h
+    return None
+
+
 def publish_article(md: str, topic: dict, hero_image_url: str = "", publish_live: bool = True) -> dict:
     title = extract_title(md)
     tags = extract_tags(md, topic)
+    predicted_slug = slugify(title)
+
+    # ── Shopify-side dedup ───────────────────────────────────────────────────
+    # state.json is a soft dedup; the blog itself is the source of truth.
+    # If a collision exists, abort BEFORE creating an article. The caller
+    # (main.py) catches this and logs the skip without touching state.
+    existing = _existing_article_handles()
+    collision = _slug_matches_existing(predicted_slug, existing)
+    if collision is not None:
+        raise DuplicateArticleError(
+            f"Predicted slug '{predicted_slug}' would collide with existing "
+            f"article '{collision}' on the blog. Skipping publish to avoid "
+            f"creating a '<slug>-N' duplicate."
+        )
+
     # Shopify generates the final handle, but we need a stable URL inside the JSON-LD
     # before publish. The slug we predict here will match Shopify's default in nearly
     # all cases (lowercase, hyphenated). If it differs, the JSON-LD @id is still a
     # valid URL on the store.
-    body, summary = build_article_body_html(md, hero_image_url, slugify(title))
+    body, summary = build_article_body_html(md, hero_image_url, predicted_slug)
 
     article_input: dict = {
         "blogId": BLOG_ID,

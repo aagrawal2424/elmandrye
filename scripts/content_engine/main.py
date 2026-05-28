@@ -35,7 +35,7 @@ from internal_links import build_link_registry, pick_relevant  # noqa: E402
 from generate_article import generate as generate_article  # noqa: E402
 from generate_image import generate_hero  # noqa: E402
 from validate import validate  # noqa: E402
-from publish import publish_article, extract_title  # noqa: E402
+from publish import publish_article, extract_title, DuplicateArticleError  # noqa: E402
 from originality import signature, find_most_similar, SIMILARITY_THRESHOLD  # noqa: E402
 from formats import pick_format  # noqa: E402
 from social import distribute  # noqa: E402
@@ -248,7 +248,16 @@ def main() -> int:
         return 0
 
     print("[8/9] Publishing to Shopify...")
-    article = publish_article(md, topic, hero_image_url=hero_url, publish_live=True)
+    try:
+        article = publish_article(md, topic, hero_image_url=hero_url, publish_live=True)
+    except DuplicateArticleError as e:
+        print(f"[8/9] SKIP — {e}")
+        state.setdefault("run_log", []).append({
+            "ts": time.time(), "topic": topic.get("title"),
+            "status": "duplicate_skipped", "reason": str(e),
+        })
+        save_state(state)
+        return 0
     print(f"      LIVE: {article['live_url']}")
 
     print("[8b/9] Distributing to social...")
