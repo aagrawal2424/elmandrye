@@ -36,6 +36,7 @@ from generate_article import generate as generate_article  # noqa: E402
 from generate_image import generate_hero  # noqa: E402
 from validate import validate  # noqa: E402
 from publish import publish_article, extract_title, DuplicateArticleError  # noqa: E402
+from video_summary import generate_video_for_article, build_video_block_html  # noqa: E402
 from originality import signature, find_most_similar, SIMILARITY_THRESHOLD  # noqa: E402
 from formats import pick_format  # noqa: E402
 from social import distribute  # noqa: E402
@@ -239,6 +240,25 @@ def main() -> int:
     else:
         print("      Hero generation failed — publishing without image.")
 
+    # Step 7b: AI video summary (graceful — skips if no ElevenLabs key / no ffmpeg)
+    print("[7b/9] Generating 90s video summary...")
+    video_block_html = ""
+    try:
+        video = generate_video_for_article(md, title)
+        if video:
+            video_block_html = build_video_block_html(
+                video_url=video.cdn_url,
+                title=video.title,
+                transcript=video.transcript,
+                duration_sec=video.duration_sec,
+                poster_url=hero_url or None,
+            )
+            print(f"      Video: {video.cdn_url} ({video.duration_sec:.1f}s)")
+        else:
+            print("      Video step skipped — publishing without summary video.")
+    except Exception as e:
+        print(f"      Video generation errored ({e}) — publishing without summary video.")
+
     # Step 8: publish
     if DRY_RUN:
         print("[8/9] DRY RUN — skipping publish.")
@@ -249,7 +269,12 @@ def main() -> int:
 
     print("[8/9] Publishing to Shopify...")
     try:
-        article = publish_article(md, topic, hero_image_url=hero_url, publish_live=True)
+        article = publish_article(
+            md, topic,
+            hero_image_url=hero_url,
+            publish_live=True,
+            video_block_html=video_block_html,
+        )
     except DuplicateArticleError as e:
         print(f"[8/9] SKIP — {e}")
         state.setdefault("run_log", []).append({

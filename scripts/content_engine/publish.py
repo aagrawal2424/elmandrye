@@ -274,12 +274,34 @@ mutation CreateArticle($article: ArticleCreateInput!) {
 """
 
 
-def build_article_body_html(md: str, hero_image_url: str, handle_hint: str) -> tuple[str, str]:
-    """Return (body_html, summary). Body includes JSON-LD + disclaimer."""
+def build_article_body_html(
+    md: str,
+    hero_image_url: str,
+    handle_hint: str,
+    video_block_html: str = "",
+) -> tuple[str, str]:
+    """Return (body_html, summary). Body includes JSON-LD + disclaimer.
+
+    If video_block_html is non-empty, it's injected after the article's
+    first paragraph so the player is visible above the fold while the
+    opening hook still reads naturally.
+    """
     title = extract_title(md)
     summary = extract_summary(md)
     md_processed, rendered_charts = preprocess_charts(md)
     article_html = inject_charts(md_to_html(md_processed), rendered_charts)
+    if video_block_html:
+        # Insert after the first </p> so the lead paragraph reads first
+        m = re.search(r"</p>", article_html, re.IGNORECASE)
+        if m:
+            idx = m.end()
+            article_html = (
+                article_html[:idx]
+                + "\n\n" + video_block_html + "\n\n"
+                + article_html[idx:]
+            )
+        else:
+            article_html = video_block_html + "\n\n" + article_html
     faq_pairs = extract_faq_pairs(md)
     article_url = f"https://{STORE}/blogs/{BLOG_HANDLE}/{handle_hint}"
     jsonld = build_jsonld(title, summary, hero_image_url, article_url, faq_pairs)
@@ -363,7 +385,13 @@ def _slug_matches_existing(predicted_slug: str, existing: set[str]) -> str | Non
     return None
 
 
-def publish_article(md: str, topic: dict, hero_image_url: str = "", publish_live: bool = True) -> dict:
+def publish_article(
+    md: str,
+    topic: dict,
+    hero_image_url: str = "",
+    publish_live: bool = True,
+    video_block_html: str = "",
+) -> dict:
     title = extract_title(md)
     tags = extract_tags(md, topic)
     predicted_slug = slugify(title)
@@ -385,7 +413,9 @@ def publish_article(md: str, topic: dict, hero_image_url: str = "", publish_live
     # before publish. The slug we predict here will match Shopify's default in nearly
     # all cases (lowercase, hyphenated). If it differs, the JSON-LD @id is still a
     # valid URL on the store.
-    body, summary = build_article_body_html(md, hero_image_url, predicted_slug)
+    body, summary = build_article_body_html(
+        md, hero_image_url, predicted_slug, video_block_html=video_block_html,
+    )
 
     article_input: dict = {
         "blogId": BLOG_ID,
