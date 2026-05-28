@@ -33,7 +33,7 @@ from fetch_topics import fetch_topic_candidates, fetch_top_comments, summarize_f
 from evergreen_topics import get_evergreen_pool  # noqa: E402
 from internal_links import build_link_registry, pick_relevant  # noqa: E402
 from generate_article import generate as generate_article  # noqa: E402
-from generate_image import generate_hero  # noqa: E402
+from generate_image import generate_hero, HeroPipelineFailure  # noqa: E402
 from validate import validate  # noqa: E402
 from publish import publish_article, extract_title, DuplicateArticleError  # noqa: E402
 from video_summary import generate_video_for_article, build_video_block_html  # noqa: E402
@@ -163,6 +163,144 @@ def email_failure(topic: dict, errors: list[str]) -> None:
     print("=" * 60)
 
 
+def _alert_hero_failure(title: str, attempts_log: list[dict]) -> None:
+    """Send an email via Resend when every image provider fails. Best-effort —
+    if Resend isn't configured or fails, we just log and continue."""
+    import urllib.request
+    from get_token import load_env as _load
+    env = _load()
+    resend_key = env.get("RESEND_API_KEY", "")
+    if not resend_key:
+        print("[alert] no RESEND_API_KEY — skipping email alert")
+        return
+
+    rows = "".join(
+        f"<tr><td>{a['provider']}</td><td>{a['attempt']}</td>"
+        f"<td>{a['error_class']}</td><td>{a.get('latency_ms', 0)}ms</td>"
+        f"<td>{(a['error_msg'] or '')[:200]}</td></tr>"
+        for a in attempts_log
+    )
+    html = (
+        "<h2>Content engine: hero image pipeline failed</h2>"
+        f"<p><strong>Article topic:</strong> {title}</p>"
+        "<p>All providers in the fallback chain exhausted. Article was NOT "
+        "published (no imageless publish allowed).</p>"
+        "<table border='1' cellpadding='6' style='border-collapse:collapse;font-family:monospace;font-size:12px;'>"
+        "<tr><th>Provider</th><th>Attempt</th><th>Error class</th><th>Latency</th><th>Message</th></tr>"
+        f"{rows}</table>"
+        "<p>Most likely cause: stale/missing API key, OpenAI moderation, or "
+        "the configured fallback providers aren't yet enabled (REPLICATE_API_TOKEN / STABILITY_API_KEY).</p>"
+    )
+    body = json.dumps({
+        "from": "Elm & Rye content engine <support@elmandrye.com>",
+        "to": ["aj@portraitpal.ai"],
+        "subject": f"[content-engine] hero pipeline failed: {title[:60]}",
+        "html": html,
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=body, method="POST",
+        headers={
+            "Authorization": f"Bearer {resend_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "elmandrye-content-engine/1.0",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            print(f"[alert] email sent: {r.status}")
+    except Exception as e:
+        print(f"[alert] Resend send failed: {e}")
+
+
+def _verify_and_repair_hero(article: dict, title: str, expected_hero_url: str) -> None:
+    """Post-publish belt-and-suspenders: re-fetch the article, confirm Shopify
+    actually attached the hero image. If not, regenerate via the chain and
+    attach via articleUpdate. Idempotent — safe to no-op if image is fine.
+    """
+    import urllib.request
+    import base64
+    from get_token import load_env as _load, get_token as _gt
+    env = _load()
+    token = _gt()
+    store = env.get("SHOPIFY_STORE", "elmandrye.myshopify.com")
+    api = env.get("SHOPIFY_API_VERSION", "2025-01")
+
+    aid = article.get("id")
+    if not aid:
+        return
+    # article['id'] from GraphQL is the GID; extract numeric for REST
+    if isinstance(aid, str) and aid.startswith("gid://"):
+        aid_num = aid.split("/")[-1]
+    else:
+        aid_num = str(aid)
+    blog_gid = (article.get("blog") or {}).get("id")
+    if isinstance(blog_gid, str) and blog_gid.startswith("gid://"):
+        blog_id = blog_gid.split("/")[-1]
+    else:
+        # Fall back to the known elmandrye news blog id
+        blog_id = "74623221917"
+
+    # Step 1: fetch fresh
+    url = f"https://{store}/admin/api/{api}/articles/{aid_num}.json?fields=id,title,image"
+    req = urllib.request.Request(url, headers={"X-Shopify-Access-Token": token})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read())
+    except Exception as e:
+        print(f"[8a/9] hero verifier: could not re-fetch article ({e})")
+        return
+
+    img = data.get("article", {}).get("image")
+    if img and img.get("src"):
+        print(f"[8a/9] hero verifier: image OK ({img['src']})")
+        return
+
+    print("[8a/9] hero verifier: image MISSING after publish — repairing…")
+
+    # Step 2: regenerate (this raises HeroPipelineFailure if all providers fail
+    # — we let that propagate up to the outer except in main loop)
+    try:
+        # Generate fresh bytes; reuse the chain runner directly so we get bytes,
+        # not a Shopify-uploaded URL (we attach inline below).
+        from generate_image import build_image_prompt, generate_hero_bytes, slug_from_title
+        result = generate_hero_bytes(build_image_prompt(title))
+    except HeroPipelineFailure as e:
+        print(f"[8a/9] hero verifier: regenerate FAILED — {e}")
+        try:
+            _alert_hero_failure(f"[repair] {title}", e.attempts_log)
+        except Exception:
+            pass
+        return
+
+    # Step 3: attach via REST (uses base64 attachment field — no separate upload)
+    attach_url = f"https://{store}/admin/api/{api}/blogs/{blog_id}/articles/{aid_num}.json"
+    body = json.dumps({
+        "article": {
+            "id": int(aid_num),
+            "image": {
+                "attachment": base64.b64encode(result.png_bytes).decode(),
+                "filename": f"blog-hero-{slug_from_title(title)}.png",
+                "alt": f"Hero image: {title}",
+            }
+        }
+    }).encode()
+    req = urllib.request.Request(
+        attach_url, data=body, method="PUT",
+        headers={
+            "X-Shopify-Access-Token": token,
+            "Content-Type": "application/json",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            res = json.loads(r.read())
+        new_src = (res.get("article") or {}).get("image", {}).get("src", "")
+        print(f"[8a/9] hero verifier: REPAIRED — image now at {new_src}")
+    except Exception as e:
+        print(f"[8a/9] hero verifier: attach failed ({e})")
+
+
 def main() -> int:
     started = datetime.now(timezone.utc).isoformat()
     print(f"[content_engine] started {started}  dry_run={DRY_RUN}")
@@ -232,13 +370,33 @@ def main() -> int:
     title = extract_title(md)
     print(f"      Title: {title}")
 
-    # Step 7: hero image
-    print("[7/9] Generating hero image via DALL-E...")
-    hero_url = generate_hero(title)
-    if hero_url:
+    # Step 7: hero image (provider chain with retries — FATAL if all fail)
+    print("[7/9] Generating hero image via provider chain...")
+    try:
+        hero_url = generate_hero(title)
         print(f"      Hero: {hero_url}")
-    else:
-        print("      Hero generation failed — publishing without image.")
+    except HeroPipelineFailure as e:
+        # FAIL HARD — never publish imageless. This was the root cause of the
+        # recurring "no photo on blog" bug. The previous code silently swallowed
+        # this and let the article go live without a hero.
+        print(f"[7/9] HERO PIPELINE FAILED — aborting publish for {title!r}")
+        for entry in e.attempts_log:
+            print(f"      {entry['provider']}#{entry['attempt']}  "
+                  f"{entry['error_class']:<18} {entry.get('latency_ms', 0)}ms  "
+                  f"{entry['error_msg'][:100]}")
+        state.setdefault("run_log", []).append({
+            "ts": time.time(),
+            "topic": topic.get("title"),
+            "status": "hero_pipeline_failed",
+            "attempts_log": e.attempts_log,
+        })
+        save_state(state)
+        # Best-effort alert via Resend
+        try:
+            _alert_hero_failure(title, e.attempts_log)
+        except Exception as alert_err:
+            print(f"      (alert send also failed: {alert_err})")
+        return 2  # non-zero so GH Actions marks the run as failed
 
     # Step 7b: AI video summary (graceful — skips if no ElevenLabs key / no ffmpeg)
     print("[7b/9] Generating 90s video summary...")
@@ -284,6 +442,16 @@ def main() -> int:
         save_state(state)
         return 0
     print(f"      LIVE: {article['live_url']}")
+
+    # Step 8a: post-publish image health check.
+    # Belt-and-suspenders — even though step 7 raises HeroPipelineFailure on
+    # full chain failure, articleCreate could still drop the image (Shopify
+    # transient, attachment encoding issue, race). Re-fetch the article and
+    # if image is still missing, regenerate + articleUpdate-attach.
+    try:
+        _verify_and_repair_hero(article, title, hero_url)
+    except Exception as e:
+        print(f"[8a/9] hero verifier errored ({e}) — continuing")
 
     print("[8b/9] Distributing to social...")
     distribute(article, md)

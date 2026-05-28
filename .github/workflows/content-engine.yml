@@ -44,6 +44,28 @@ jobs:
           sudo apt-get install -y ffmpeg
           ffmpeg -version | head -1
 
+      - name: Preflight — require image provider secrets
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          STABILITY_API_KEY: ${{ secrets.STABILITY_API_KEY }}
+        run: |
+          # Hero pipeline needs at minimum OpenAI; warn if fallback providers
+          # are absent (we want at least one fallback so a single key rotation
+          # doesn't break the day).
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::OPENAI_API_KEY is empty — hero pipeline cannot start. Set it in repo secrets."
+            exit 1
+          fi
+          fallback_count=0
+          [ -n "$REPLICATE_API_TOKEN" ] && fallback_count=$((fallback_count+1))
+          [ -n "$STABILITY_API_KEY" ] && fallback_count=$((fallback_count+1))
+          if [ "$fallback_count" -eq 0 ]; then
+            echo "::warning::No fallback image providers configured (REPLICATE_API_TOKEN, STABILITY_API_KEY). One OpenAI hiccup will block today's publish."
+          else
+            echo "OpenAI present; $fallback_count fallback provider(s) configured."
+          fi
+
       - name: Write .env from secrets
         env:
           SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
@@ -54,6 +76,9 @@ jobs:
           ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_IMAGE_MODEL: ${{ secrets.OPENAI_IMAGE_MODEL }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          STABILITY_API_KEY: ${{ secrets.STABILITY_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
         run: |
@@ -66,6 +91,9 @@ jobs:
           ANTHROPIC_MODEL=${ANTHROPIC_MODEL:-claude-sonnet-4-6}
           OPENAI_API_KEY=${OPENAI_API_KEY}
           OPENAI_IMAGE_MODEL=${OPENAI_IMAGE_MODEL:-gpt-image-1}
+          REPLICATE_API_TOKEN=${REPLICATE_API_TOKEN}
+          STABILITY_API_KEY=${STABILITY_API_KEY}
+          RESEND_API_KEY=${RESEND_API_KEY}
           ELEVENLABS_API_KEY=${ELEVENLABS_API_KEY}
           ELEVENLABS_VOICE_ID=${ELEVENLABS_VOICE_ID:-EXAVITQu4vr4xnSDxMaL}
           EOF
