@@ -95,6 +95,25 @@
   {% endfor %}
 
   var DEMAND_HANDLES = Object.keys(HANDLE_TO_GID);
+
+  // Variant-level blocks: products that are partially out of stock.
+  // Only the listed variant_ids on the listed handle trigger the intercept;
+  // other variants of the same product behave normally.
+  //   handle → { variantIds: [numericIds], gid: parentProductGid, label: displayed in modal }
+  var VARIANT_BLOCKS = {
+    'sea-moss': {
+      variantIds: [47949528531156, 47949528563924, 47949528596692], // Gel: Single, 2-Pack, 4-Pack
+      gid: 'gid://shopify/Product/7609832374484',
+      label: 'Sea Moss Gel'
+    }
+  };
+
+  function variantBlockFor(item) {
+    var block = VARIANT_BLOCKS[item.handle];
+    if (!block) return null;
+    var vid = parseInt(item.variant_id || item.id, 10);
+    return block.variantIds.indexOf(vid) !== -1 ? block : null;
+  }
   var WAITLIST_API   = '{{ section.settings.waitlist_api_url | default: "https://elmandrye.vercel.app/api/waitlist" }}';
 
   var overlay      = document.getElementById('er-dt-overlay');
@@ -116,17 +135,35 @@
   // ── Cart helpers ────────────────────────────────────────────────────────────
 
   function findDemandItem(cart) {
+    // Whole-product blocks (coming-soon collection + Iron Chelation Complex)
     for (var i = 0; i < cart.items.length; i++) {
       if (DEMAND_HANDLES.indexOf(cart.items[i].handle) !== -1) {
         return cart.items[i];
       }
     }
+    // Variant-level blocks (e.g. Sea Moss Gel variants only)
+    for (var j = 0; j < cart.items.length; j++) {
+      var block = variantBlockFor(cart.items[j]);
+      if (block) {
+        // Stamp the block label onto the item so the modal title uses it
+        var item = cart.items[j];
+        item._dt_label = block.label;
+        item._dt_variant_key = item.key;
+        return item;
+      }
+    }
     return null;
   }
 
-  function cartHasOtherItems(cart, demandHandle) {
+  function isBlockedItem(item) {
+    return DEMAND_HANDLES.indexOf(item.handle) !== -1 ||
+           variantBlockFor(item) !== null;
+  }
+
+  function cartHasOtherItems(cart, demandItem) {
     for (var i = 0; i < cart.items.length; i++) {
-      if (cart.items[i].handle !== demandHandle) return true;
+      // An item counts as "other" if it's not blocked at all
+      if (!isBlockedItem(cart.items[i])) return true;
     }
     return false;
   }
@@ -136,7 +173,7 @@
       .then(function (r) { return r.json(); })
       .then(function (cart) {
         demandItem    = findDemandItem(cart);
-        hasOtherItems = demandItem ? cartHasOtherItems(cart, demandItem.handle) : false;
+        hasOtherItems = demandItem ? cartHasOtherItems(cart, demandItem) : false;
         return demandItem;
       });
   }
@@ -230,7 +267,10 @@
   // ── Modal open / close ──────────────────────────────────────────────────────
 
   function openModal(item, otherItems) {
-    titleEl.textContent      = '"' + item.product_title + '" is coming soon';
+    // For variant-level blocks (e.g. Sea Moss Gel), use the friendlier label
+    // we stamped onto the item; otherwise fall back to the product title.
+    var label = item._dt_label || item.product_title;
+    titleEl.textContent      = '"' + label + '" is out of stock';
     formWrap.style.display   = '';
     loadingDiv.style.display = 'none';
     successDiv.style.display = 'none';
@@ -276,7 +316,7 @@
       .then(function (r) { return r.json(); })
       .then(function (cart) {
         var item   = findDemandItem(cart);
-        var others = item ? cartHasOtherItems(cart, item.handle) : false;
+        var others = item ? cartHasOtherItems(cart, item) : false;
         demandItem    = item;
         hasOtherItems = others;
         if (item) {
@@ -311,8 +351,11 @@
     var email  = document.getElementById('er-dt-email').value.trim();
     var item   = demandItem || {};
     var handle = item.handle || '';
-    var title  = item.product_title || '';
-    var gid    = HANDLE_TO_GID[handle] || '';
+    // Variant-level blocks supply their own label + parent product gid
+    var variantBlock = variantBlockFor(item);
+    var title  = variantBlock ? variantBlock.label : (item.product_title || '');
+    var gid    = variantBlock ? variantBlock.gid   : (HANDLE_TO_GID[handle] || '');
+    var variantId = variantBlock ? (item.variant_id || item.id || null) : null;
 
     errorEl.style.display    = 'none';
     formWrap.style.display   = 'none';
@@ -322,7 +365,7 @@
     fetch(WAITLIST_API, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email: email, product_id: gid, product_handle: handle, product_title: title })
+      body: JSON.stringify({ email: email, product_id: gid, product_handle: handle, product_title: title, variant_id: variantId })
     })
     .then(function (r) { return r.json(); })
     .then(function (data) {
