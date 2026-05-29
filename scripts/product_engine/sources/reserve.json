@@ -3,214 +3,1161 @@
     "description": "Curated evergreen reserve of niche supplement compounds. Drawn from when live sources return zero so the engine NEVER ships nothing. Each entry is a compound with peer-reviewed mechanism evidence, no FDA Rx restriction, and no existing Elm & Rye SKU as of 2026-05-28.",
     "refresh_cadence_days": 30,
     "last_refreshed": "2026-05-28",
-    "selection_criteria": "Mechanism paper in last 36 months on PubMed; Google search volume < 50k/mo; not in mainstream big-box catalogs; safe at typical supplemental doses; no FDA scheduling."
+    "selection_criteria": "Mechanism paper in last 36 months on PubMed; Google search volume < 50k/mo; not in mainstream big-box catalogs; safe at typical supplemental doses; no FDA scheduling.",
+    "audit_note": "2026-05-28: removed 14 Rx/banned/gray-market entries"
   },
   "compounds": [
-    {"product_name": "Magnolol",                "category": "supplements", "niche_score": 9, "why": "Honokiol's cousin from Magnolia bark; GABA-A modulator + anti-inflammatory; recent sleep + anxiety trials"},
-    {"product_name": "Honokiol",                "category": "supplements", "niche_score": 8, "why": "Magnolia bark biphenyl; PPAR-γ activator + neuroprotective; rare standalone SKU"},
-    {"product_name": "Polygala Tenuifolia",     "category": "supplements", "niche_score": 9, "why": "TCM root used for memory; emerging BDNF + NGF modulation evidence"},
-    {"product_name": "Spermidine",              "category": "supplements", "niche_score": 7, "why": "Autophagy inducer; longevity research darling; growing brand-name competition"},
-    {"product_name": "Pterostilbene",           "category": "supplements", "niche_score": 8, "why": "Resveratrol analog with better bioavailability + half-life; emerging anti-aging SKU"},
-    {"product_name": "Trans-Pterostilbene",     "category": "supplements", "niche_score": 9, "why": "Specifically the trans-isomer form; differentiator vs commodity pterostilbene"},
-    {"product_name": "NMN Beta",                "category": "supplements", "niche_score": 7, "why": "Beta-Nicotinamide Mononucleotide; precise isomer marketing angle"},
-    {"product_name": "Mitoquinol Mesylate",     "category": "supplements", "niche_score": 9, "why": "Mitochondria-targeted CoQ10 analog; clinical trials in fatty liver + endothelial function"},
-    {"product_name": "Bacopa Bacosides A",      "category": "supplements", "niche_score": 8, "why": "Standardized A+B fraction; differentiates from generic bacopa"},
-    {"product_name": "Centella Asiatica Triterpenes", "category": "supplements", "niche_score": 8, "why": "Madecassic + asiatic acids; gotu kola active fraction; wound healing + collagen"},
-    {"product_name": "Salidroside",             "category": "supplements", "niche_score": 9, "why": "Rhodiola's active glycoside; standardized form less common than generic rhodiola"},
-    {"product_name": "Eleutheroside E",         "category": "supplements", "niche_score": 9, "why": "Siberian ginseng adaptogen marker; differentiator from generic ginseng"},
-    {"product_name": "Tongkat Ali Eurycomanone","category": "supplements", "niche_score": 8, "why": "Standardized eurycomanone fraction; T-boosting mechanism backed by RCTs"},
-    {"product_name": "Fadogia Agrestis",        "category": "supplements", "niche_score": 8, "why": "Andrew Huberman-popularized but no big-brand standardized product"},
-    {"product_name": "Turkesterone",            "category": "supplements", "niche_score": 7, "why": "Ajuga turkestanica ecdysteroid; lean-mass interest; quality varies hugely"},
-    {"product_name": "Ecdysterone",             "category": "supplements", "niche_score": 7, "why": "Spinach-derived steroidal compound; lean-mass research"},
-    {"product_name": "Apigenin",                "category": "supplements", "niche_score": 8, "why": "Parsley/chamomile flavonoid; Sinclair lab senolytic angle; sleep + CD38 inhibitor"},
-    {"product_name": "Fisetin",                 "category": "supplements", "niche_score": 7, "why": "Strawberry flavonol; senolytic; widely discussed in longevity circles"},
-    {"product_name": "Urolithin A",             "category": "supplements", "niche_score": 7, "why": "Pomegranate gut metabolite; mitophagy; commercial leader is Mitopure"},
-    {"product_name": "Berberine HCl",           "category": "supplements", "niche_score": 6, "why": "Goldenseal alkaloid; insulin sensitivity; growing nature's-Ozempic narrative"},
-    {"product_name": "Dihydroberberine",        "category": "supplements", "niche_score": 8, "why": "Bioavailable berberine form; 5x absorption; differentiator"},
-    {"product_name": "Sulforaphane Glucoraphanin", "category": "supplements", "niche_score": 8, "why": "Broccoli sprout NRF2 activator; stabilized glucoraphanin form"},
-    {"product_name": "Indole-3-Carbinol",       "category": "supplements", "niche_score": 7, "why": "Cruciferous estrogen-metabolism support; under-marketed"},
-    {"product_name": "Diindolylmethane",        "category": "supplements", "niche_score": 7, "why": "I3C metabolite; hormonal balance positioning"},
-    {"product_name": "Calcium D-Glucarate",     "category": "supplements", "niche_score": 8, "why": "Beta-glucuronidase inhibitor; estrogen detox angle"},
-    {"product_name": "PQQ Disodium",            "category": "supplements", "niche_score": 7, "why": "Pyrroloquinoline quinone; mitochondrial biogenesis"},
-    {"product_name": "Shilajit Fulvic Acid",    "category": "supplements", "niche_score": 6, "why": "Note: only ship if not stepping on existing Shamir SKU; standardized fulvic+humic fraction"},
-    {"product_name": "Lion's Mane Erinacines",  "category": "supplements", "niche_score": 9, "why": "The actual NGF-inducing compound class; differentiator from generic lion's mane"},
-    {"product_name": "Cordyceps Cs-4 Strain",   "category": "supplements", "niche_score": 8, "why": "Lab-fermented cordyceps strain; cordycepin + adenosine fraction"},
-    {"product_name": "Reishi Triterpenes",      "category": "supplements", "niche_score": 8, "why": "Standardized triterpene fraction (vs commodity polysaccharide-only reishi)"},
-    {"product_name": "Chaga Betulinic Acid",    "category": "supplements", "niche_score": 8, "why": "Standardized betulinic-acid fraction; antioxidant + immunomodulation"},
-    {"product_name": "Maitake D-Fraction",      "category": "supplements", "niche_score": 8, "why": "Specific β-glucan fraction with strongest immune research"},
-    {"product_name": "Tremella Fuciformis",     "category": "supplements", "niche_score": 9, "why": "'Hyaluronic acid mushroom'; oral skin-hydration angle"},
-    {"product_name": "Astaxanthin Hawaiian",    "category": "supplements", "niche_score": 7, "why": "Hawaiian-strain natural astaxanthin; skin + eye + endurance"},
-    {"product_name": "Saffron Crocin Crocetin", "category": "supplements", "niche_score": 8, "why": "Standardized crocin+crocetin (Affron / Satiereal style); mood + appetite"},
-    {"product_name": "Lithium Orotate",         "category": "supplements", "niche_score": 8, "why": "Low-dose lithium for mood + neuroprotection; OTC-legal but under-marketed"},
-    {"product_name": "Methylene Blue USP",      "category": "supplements", "niche_score": 9, "why": "Mitochondrial electron-transport enhancer; high biohacker interest; quality matters"},
-    {"product_name": "Glycine Magnesium Bisglycinate", "category": "supplements", "niche_score": 7, "why": "Hyper-bioavailable Mg form; sleep + muscle"},
-    {"product_name": "TMG Trimethylglycine",    "category": "supplements", "niche_score": 7, "why": "Methyl donor; homocysteine support; required with high-dose NMN/NR"},
-    {"product_name": "Betaine HCl",             "category": "supplements", "niche_score": 6, "why": "Stomach acid support; gut-protocol popularity"},
-    {"product_name": "Carnosine L",             "category": "supplements", "niche_score": 8, "why": "Glycation inhibitor; longevity + skin anti-AGE angle"},
-    {"product_name": "Acetyl L-Carnitine HCl",  "category": "supplements", "niche_score": 6, "why": "ALCAR; mitochondrial + neuroprotective; classic but quality-varied"},
-    {"product_name": "PEA Palmitoylethanolamide", "category": "supplements", "niche_score": 8, "why": "Endogenous lipid signaler; pain + neuro-inflammation"},
-    {"product_name": "Lipoic Acid R-Form",      "category": "supplements", "niche_score": 8, "why": "R-isomer (not racemic) alpha-lipoic acid; insulin sensitivity"},
-    {"product_name": "Astragaloside IV",        "category": "supplements", "niche_score": 9, "why": "Astragalus saponin; telomerase activator; TA-65 angle without the price"},
-    {"product_name": "Cycloastragenol",         "category": "supplements", "niche_score": 9, "why": "Astragaloside IV's aglycone; same telomere-length research"},
-    {"product_name": "Quercetin Phytosome",     "category": "supplements", "niche_score": 7, "why": "Lecithin-complexed quercetin; 20x bioavailability"},
-    {"product_name": "Quercetin Dihydrate",     "category": "supplements", "niche_score": 6, "why": "Hydrated crystalline form; better dissolution than anhydrous"},
-    {"product_name": "Resveratrol Phytosome",   "category": "supplements", "niche_score": 7, "why": "Lecithin-complexed resveratrol; addresses commodity-resveratrol bioavailability"},
-    {"product_name": "Citicoline CDP-Choline",  "category": "supplements", "niche_score": 7, "why": "Choline donor that crosses BBB; cognitive + recovery"},
-    {"product_name": "Alpha GPC",               "category": "supplements", "niche_score": 6, "why": "Glycerophosphocholine; classic but persistent interest"},
-    {"product_name": "Forskolin Coleus",        "category": "supplements", "niche_score": 7, "why": "cAMP activator; standardized 95% form differentiator"},
-    {"product_name": "Black Seed Thymoquinone", "category": "supplements", "niche_score": 8, "why": "Nigella sativa standardized to thymoquinone; metabolic + immune"},
-    {"product_name": "Schisandra Lignans",      "category": "supplements", "niche_score": 8, "why": "Schizandrin A/B standardized; adaptogen + liver"},
-    {"product_name": "Holy Basil Ursolic Acid", "category": "supplements", "niche_score": 8, "why": "Tulsi standardized to ursolic acid; muscle + metabolic"},
-    {"product_name": "Mucuna L-Dopa",           "category": "supplements", "niche_score": 7, "why": "Velvet bean standardized to natural L-DOPA; dopamine support"},
-    {"product_name": "Bitter Melon Charantin",  "category": "supplements", "niche_score": 8, "why": "Momordica charantia standardized; glucose support"},
-    {"product_name": "Banaba Corosolic Acid",   "category": "supplements", "niche_score": 9, "why": "Lagerstroemia speciosa standardized; glucose support; under-marketed vs berberine"},
-    {"product_name": "Mulberry 1-Deoxynojirimycin", "category": "supplements", "niche_score": 9, "why": "Alpha-glucosidase inhibitor; postprandial glucose; novel mechanism"},
-    {"product_name": "Salacia Reticulata",      "category": "supplements", "niche_score": 9, "why": "Ayurvedic alpha-glucosidase inhibitor; salacinol active"},
-    {"product_name": "Cinnamon Hydroxychalcone","category": "supplements", "niche_score": 8, "why": "MHCP standardized cinnamon fraction; insulin signaling"},
-    {"product_name": "Olive Leaf Oleuropein",   "category": "supplements", "niche_score": 7, "why": "Standardized oleuropein > generic olive leaf; cardiovascular + metabolic"},
-    {"product_name": "Hydroxytyrosol",          "category": "supplements", "niche_score": 8, "why": "Olive polyphenol; highest ORAC value of any natural antioxidant"},
-    {"product_name": "Pine Bark Pycnogenol",    "category": "supplements", "niche_score": 6, "why": "Standardized French maritime pine; trademarked active but generic equivalents exist"},
-    {"product_name": "Grape Seed Procyanidins", "category": "supplements", "niche_score": 7, "why": "Standardized OPC fraction; cardiovascular"},
-    {"product_name": "Hawthorn Vitexin",        "category": "supplements", "niche_score": 8, "why": "Standardized crataegus; cardiotonic glycosides"},
-    {"product_name": "Bergamot Polyphenols",    "category": "supplements", "niche_score": 8, "why": "Citrus bergamia BPF; lipid profile + glucose"},
-    {"product_name": "Sea Buckthorn Omega 7",   "category": "supplements", "niche_score": 8, "why": "Palmitoleic acid; mucosal health + skin"},
-    {"product_name": "Krill Astaxanthin Phospholipids", "category": "supplements", "niche_score": 7, "why": "Phospholipid-bound omega-3 + astaxanthin"},
-    {"product_name": "Algae DHA Vegan",         "category": "supplements", "niche_score": 6, "why": "Schizochytrium-derived DHA; vegan omega-3 angle"},
-    {"product_name": "Lutein Marigold",         "category": "supplements", "niche_score": 6, "why": "FloraGlo / Lutemax style standardized lutein + zeaxanthin"},
-    {"product_name": "Meso-Zeaxanthin",         "category": "supplements", "niche_score": 8, "why": "Third macular carotenoid; required for full macular protection"},
-    {"product_name": "Lycopene Tomato",         "category": "supplements", "niche_score": 6, "why": "Lyc-O-Mato style standardized; prostate + cardiovascular"},
-    {"product_name": "Crocetin Pure",           "category": "supplements", "niche_score": 9, "why": "Saffron's lipophilic carotenoid; eye fatigue + sleep onset"},
-    {"product_name": "Lavender Silexan",        "category": "supplements", "niche_score": 8, "why": "Oral lavender oil capsule; clinical anxiety data"},
-    {"product_name": "Cannabidiol Broad Spectrum", "category": "supplements", "niche_score": 4, "why": "Watch FDA constraints; under-marketed but heavily regulated"},
-    {"product_name": "Cannabigerol CBG",        "category": "supplements", "niche_score": 7, "why": "Non-psychoactive cannabinoid; less-saturated than CBD"},
-    {"product_name": "Beta Caryophyllene",      "category": "supplements", "niche_score": 9, "why": "Dietary CB2 agonist; copaiba / black pepper oil source"},
-    {"product_name": "Boswellia AKBA",          "category": "supplements", "niche_score": 8, "why": "Frankincense standardized to AKBA; joint inflammation"},
-    {"product_name": "White Willow Salicin",    "category": "supplements", "niche_score": 6, "why": "Aspirin precursor; natural anti-inflammatory positioning"},
-    {"product_name": "Devil's Claw Harpagoside","category": "supplements", "niche_score": 7, "why": "Joint pain; standardized harpagoside fraction"},
-    {"product_name": "Yohimbe Yohimbine HCl",   "category": "supplements", "niche_score": 5, "why": "Caution with stim sensitivities; alpha-2 antagonist"},
-    {"product_name": "Rhodiola Rosavin",        "category": "supplements", "niche_score": 7, "why": "Standardized rosavin + salidroside ratio (3:1)"},
-    {"product_name": "Cistanche Echinacoside",  "category": "supplements", "niche_score": 9, "why": "Hyperion / Andrew Huberman attention; rare adaptogen"},
-    {"product_name": "He Shou Wu Stilbene",     "category": "supplements", "niche_score": 8, "why": "Polygonum multiflorum 2,3,5,4-tetrahydroxystilbene; longevity TCM"},
-    {"product_name": "Gynostemma Gypenosides",  "category": "supplements", "niche_score": 8, "why": "Jiaogulan AMPK activator; insulin sensitivity"},
-    {"product_name": "Reishi Spore Oil",        "category": "supplements", "niche_score": 9, "why": "Sporoderm-broken reishi spores; concentrated triterpene fraction"},
-    {"product_name": "Beta Alanine Sustained",  "category": "supplements", "niche_score": 5, "why": "CarnoSyn sustained-release; endurance"},
-    {"product_name": "L-Citrulline Malate 2:1", "category": "supplements", "niche_score": 5, "why": "Standardized 2:1 form; nitric oxide + pump"},
-    {"product_name": "L-Theanine Suntheanine",  "category": "supplements", "niche_score": 6, "why": "Branded high-purity L-theanine; focus + relaxation"},
-    {"product_name": "Glycine Pure",            "category": "supplements", "niche_score": 5, "why": "Sleep + collagen building block; under-promoted"},
-    {"product_name": "Taurine Pure",            "category": "supplements", "niche_score": 6, "why": "Recent Nature paper renewed longevity interest"},
-    {"product_name": "GABA PharmaGABA",         "category": "supplements", "niche_score": 7, "why": "Lactobacillus-fermented GABA; bioavailability vs synthetic"},
-    {"product_name": "5-HTP Griffonia",         "category": "supplements", "niche_score": 5, "why": "Direct serotonin precursor; sleep + mood"},
-    {"product_name": "Phosphatidylserine Soy-Free", "category": "supplements", "niche_score": 7, "why": "Sunflower-derived; cortisol modulation + cognition"},
-    {"product_name": "Phosphatidylcholine",     "category": "supplements", "niche_score": 6, "why": "Liver + brain cell membrane support"},
-    {"product_name": "Ergothioneine",           "category": "supplements", "niche_score": 9, "why": "Mushroom-derived 'longevity amino acid'; novel antioxidant pathway"},
-    {"product_name": "Glutathione Liposomal",   "category": "supplements", "niche_score": 7, "why": "Encapsulated form addresses oral absorption; master antioxidant"},
-    {"product_name": "Setria Glutathione",      "category": "supplements", "niche_score": 8, "why": "Branded fermented glutathione; clinical bioavailability data"},
-    {"product_name": "NAC N-Acetyl Cysteine Sustained", "category": "supplements", "niche_score": 6, "why": "Sustained-release form; FDA gray-zone since 2020 advisory"},
-    {"product_name": "Glycyrrhizin DGL",        "category": "supplements", "niche_score": 6, "why": "Deglycyrrhizinated licorice; gut lining support"},
-    {"product_name": "Mastic Gum Chios",        "category": "supplements", "niche_score": 8, "why": "Pistacia lentiscus var. chia; H. pylori + jawline-tone trends"},
-    {"product_name": "Slippery Elm Bark",       "category": "supplements", "niche_score": 7, "why": "Mucilage for gut lining; gentle anti-inflammatory"},
-    {"product_name": "Marshmallow Root",        "category": "supplements", "niche_score": 7, "why": "Demulcent for gut + respiratory mucosa"},
-    {"product_name": "Plantain Leaf",           "category": "supplements", "niche_score": 7, "why": "Plantago major aucubin + allantoin; gut + respiratory"},
-    {"product_name": "Cat's Claw Pentacyclic",  "category": "supplements", "niche_score": 7, "why": "Uncaria tomentosa standardized to pentacyclic POAs only"},
-    {"product_name": "Pau D'Arco Lapachol",     "category": "supplements", "niche_score": 7, "why": "Standardized lapachol fraction; immune"},
-    {"product_name": "Andrographis Andrographolide", "category": "supplements", "niche_score": 8, "why": "Standardized to andrographolide; immune + anti-inflammatory"},
-    {"product_name": "Boneset Eupatorium",      "category": "supplements", "niche_score": 8, "why": "Traditional flu-prep herb; small but loyal market"},
-    {"product_name": "Eyebright Euphrasia",     "category": "supplements", "niche_score": 8, "why": "Eye-strain support; under-marketed"},
-    {"product_name": "Bilberry Anthocyanins",   "category": "supplements", "niche_score": 7, "why": "Standardized 25% anthocyanidin fraction; eye + vascular"},
-    {"product_name": "Maqui Berry Delphinol",   "category": "supplements", "niche_score": 8, "why": "Highest-ORAC berry; eye fatigue clinical data"},
-    {"product_name": "Acerola Cherry Vitamin C","category": "supplements", "niche_score": 6, "why": "Whole-fruit C with bioflavonoids; ascorbic-acid alternative"},
-    {"product_name": "Camu Camu Vitamin C",     "category": "supplements", "niche_score": 7, "why": "Highest natural source of C; superfruit positioning"},
-    {"product_name": "Amla Indian Gooseberry",  "category": "supplements", "niche_score": 7, "why": "Vitamin C + tannins; Ayurvedic rasayana"},
-    {"product_name": "Triphala Three Fruit",    "category": "supplements", "niche_score": 6, "why": "Amla+haritaki+bibhitaki; gut + detox"},
-    {"product_name": "Moringa Oleifera Leaf",   "category": "supplements", "niche_score": 6, "why": "Nutrient-dense leaf powder; saturated"},
-    {"product_name": "Spirulina Phycocyanin",   "category": "supplements", "niche_score": 7, "why": "Standardized phycocyanin fraction; vs commodity spirulina"},
-    {"product_name": "Chlorella Cracked Cell",  "category": "supplements", "niche_score": 6, "why": "Cracked-cell wall = absorbable; heavy metal binding angle"},
-    {"product_name": "Wheatgrass Triticum",     "category": "supplements", "niche_score": 5, "why": "Greens powder commodity; need premium angle"},
-    {"product_name": "Barley Grass Lutonarin",  "category": "supplements", "niche_score": 7, "why": "Standardized lutonarin; flavone-rich greens differentiator"},
-    {"product_name": "Sea Moss Iodine",         "category": "supplements", "niche_score": 5, "why": "Chondrus crispus / Eucheuma cottonii; already an ER SKU — skip unless variant"},
-    {"product_name": "Irish Moss Carrageenan",  "category": "supplements", "niche_score": 5, "why": "Watch carrageenan-controversy positioning"},
-    {"product_name": "Kelp Iodine Atlantic",    "category": "supplements", "niche_score": 6, "why": "Standardized iodine source; thyroid support"},
-    {"product_name": "Bladderwrack Fucoxanthin","category": "supplements", "niche_score": 8, "why": "Standardized fucoxanthin; metabolic + thyroid"},
-    {"product_name": "Wakame Fucoidan",         "category": "supplements", "niche_score": 8, "why": "Standardized fucoidan; immune"},
-    {"product_name": "Brown Seaweed Alginate",  "category": "supplements", "niche_score": 7, "why": "Heavy metal binding; satiety"},
-    {"product_name": "Maritime Pine Pycnogenol","category": "supplements", "niche_score": 5, "why": "Trademark-controlled; commodity OPC alternative"},
-    {"product_name": "Lemon Balm Rosmarinic",   "category": "supplements", "niche_score": 7, "why": "Standardized rosmarinic acid; stress + sleep"},
-    {"product_name": "Passionflower Vitexin",   "category": "supplements", "niche_score": 7, "why": "Standardized vitexin; sleep + anxiety"},
-    {"product_name": "Skullcap Baicalin",       "category": "supplements", "niche_score": 8, "why": "Scutellaria baicalensis baicalin; calming + anti-inflammatory"},
-    {"product_name": "Wogonin Skullcap",        "category": "supplements", "niche_score": 9, "why": "Specific flavone from skullcap; emerging neuroprotective research"},
-    {"product_name": "Luteolin",                "category": "supplements", "niche_score": 8, "why": "Celery/parsley flavone; mast-cell stabilizer; anti-inflammatory"},
-    {"product_name": "Hesperidin Citrus",       "category": "supplements", "niche_score": 7, "why": "Vascular + capillary support; vitamin P"},
-    {"product_name": "Diosmin Citrus",          "category": "supplements", "niche_score": 7, "why": "Standardized; venous insufficiency"},
-    {"product_name": "Rutin Sophora",           "category": "supplements", "niche_score": 7, "why": "Quercetin glycoside; vascular"},
-    {"product_name": "Naringin Grapefruit",     "category": "supplements", "niche_score": 8, "why": "CYP3A inhibitor; bioavailability enhancer angle"},
-    {"product_name": "Eriocitrin Lemon",        "category": "supplements", "niche_score": 9, "why": "Lemon-specific flavanone; metabolic + antioxidant; under-marketed"},
-    {"product_name": "Tangeretin",              "category": "supplements", "niche_score": 9, "why": "Tangerine polymethoxyflavone; metabolic + neuroprotective"},
-    {"product_name": "Nobiletin",               "category": "supplements", "niche_score": 9, "why": "Citrus PMF; circadian-rhythm research; metabolic"},
-    {"product_name": "Sinensetin Citrus",       "category": "supplements", "niche_score": 9, "why": "Orange polymethoxyflavone; vasorelaxant + metabolic"},
-    {"product_name": "Curcumin Phytosome",      "category": "supplements", "niche_score": 6, "why": "Meriva-style phospholipid-complexed curcumin"},
-    {"product_name": "Theracurmin Curcumin",    "category": "supplements", "niche_score": 7, "why": "Nano-particle curcumin; 27x bioavailability"},
-    {"product_name": "Curcuminoids Tetrahydro", "category": "supplements", "niche_score": 9, "why": "THC tetrahydrocurcumin metabolite; superior antioxidant"},
-    {"product_name": "Ginger Gingerols",        "category": "supplements", "niche_score": 6, "why": "Standardized 5% gingerols + shogaols; nausea + anti-inflammatory"},
-    {"product_name": "Black Ginger Methoxyflavones", "category": "supplements", "niche_score": 9, "why": "Kaempferia parviflora; testosterone + cognition; Japanese clinical data"},
-    {"product_name": "Coleus Forskohlii 95%",   "category": "supplements", "niche_score": 7, "why": "Standardized 95% forskolin; cAMP modulator"},
-    {"product_name": "Stinging Nettle Root",    "category": "supplements", "niche_score": 7, "why": "Urtica dioica; prostate + DHT modulation"},
-    {"product_name": "Saw Palmetto CO2",        "category": "supplements", "niche_score": 6, "why": "CO2-extracted Serenoa; fatty-acid + sterol fraction"},
-    {"product_name": "Pumpkin Seed Cucurbitin", "category": "supplements", "niche_score": 7, "why": "Standardized cucurbitin; urinary + prostate"},
-    {"product_name": "Beta Sitosterol",         "category": "supplements", "niche_score": 6, "why": "Phytosterol; cholesterol + prostate"},
-    {"product_name": "Policosanol Sugarcane",   "category": "supplements", "niche_score": 7, "why": "Sugarcane long-chain alcohols; lipid profile"},
-    {"product_name": "Red Yeast Rice Monacolin","category": "supplements", "niche_score": 5, "why": "FDA scrutiny; natural statin angle; standardized monacolin K"},
-    {"product_name": "Tocotrienol Annatto",     "category": "supplements", "niche_score": 8, "why": "Tocopherol-free tocotrienol; bone + cardiovascular"},
-    {"product_name": "MK-7 Vitamin K2",         "category": "supplements", "niche_score": 6, "why": "Menaquinone-7; bone + arterial; under-supplemented"},
-    {"product_name": "MK-4 Vitamin K2",         "category": "supplements", "niche_score": 7, "why": "Higher-dose K2 form; under-discussed"},
-    {"product_name": "Vitamin D3K2 Combo",      "category": "supplements", "niche_score": 5, "why": "Bundled vit D + K2; commodity but high-volume"},
-    {"product_name": "Iodine Nascent",          "category": "supplements", "niche_score": 7, "why": "Mono-atomic iodine; thyroid + breast health"},
-    {"product_name": "Selenium Selenomethionine", "category": "supplements", "niche_score": 6, "why": "Yeast-derived selenium; thyroid + glutathione cofactor"},
-    {"product_name": "Boron Glycinate",         "category": "supplements", "niche_score": 7, "why": "Mineral cofactor for hormone production; under-supplemented"},
-    {"product_name": "Strontium Citrate",       "category": "supplements", "niche_score": 8, "why": "Bone density; non-prescription strontium form"},
-    {"product_name": "Silica Bamboo",           "category": "supplements", "niche_score": 6, "why": "Bamboo extract 70% silica; skin/hair/nails"},
-    {"product_name": "Silicon Choline",         "category": "supplements", "niche_score": 8, "why": "ch-OSA stabilized orthosilicic acid; collagen synthesis"},
-    {"product_name": "Lithium Aspartate",       "category": "supplements", "niche_score": 8, "why": "Alt low-dose lithium form; mood + neurotrophic"},
-    {"product_name": "Vanadium Vanadyl",        "category": "supplements", "niche_score": 9, "why": "Insulin-mimetic trace mineral; metabolic"},
-    {"product_name": "Chromium Picolinate Glucose", "category": "supplements", "niche_score": 5, "why": "Classic insulin-sensitivity mineral; saturated"},
-    {"product_name": "Molybdenum Glycinate",    "category": "supplements", "niche_score": 8, "why": "Sulfite detox cofactor; under-supplemented"},
-    {"product_name": "Manganese Chelate",       "category": "supplements", "niche_score": 7, "why": "Bone + SOD cofactor; under-discussed"},
-    {"product_name": "Copper Bisglycinate",     "category": "supplements", "niche_score": 7, "why": "Balanced with zinc; collagen + ceruloplasmin"},
-    {"product_name": "Inositol Myo Form",       "category": "supplements", "niche_score": 6, "why": "PCOS + mood; specific isomer marketing"},
-    {"product_name": "D-Chiro Inositol",        "category": "supplements", "niche_score": 8, "why": "PCOS-specific inositol isomer (40:1 with myo)"},
-    {"product_name": "Choline Bitartrate",      "category": "supplements", "niche_score": 5, "why": "Essential nutrient; saturated"},
-    {"product_name": "Methylfolate L-5-MTHF",   "category": "supplements", "niche_score": 7, "why": "Active folate form; MTHFR-mutation marketing"},
-    {"product_name": "Methylcobalamin B12",     "category": "supplements", "niche_score": 5, "why": "Active B12 form; saturated"},
-    {"product_name": "Adenosylcobalamin B12",   "category": "supplements", "niche_score": 8, "why": "Mitochondrial B12 isomer; rare standalone product"},
-    {"product_name": "P5P Pyridoxal Phosphate", "category": "supplements", "niche_score": 7, "why": "Active B6; neurotransmitter cofactor"},
-    {"product_name": "Riboflavin R5P",          "category": "supplements", "niche_score": 7, "why": "Active B2; migraine + mitochondrial"},
-    {"product_name": "Thiamine TTFD Allithiamine", "category": "supplements", "niche_score": 9, "why": "Fat-soluble B1; crosses BBB; under-supplemented"},
-    {"product_name": "Benfotiamine",            "category": "supplements", "niche_score": 8, "why": "Lipid-soluble B1; AGE inhibition; diabetic neuropathy data"},
-    {"product_name": "Pantethine Active B5",    "category": "supplements", "niche_score": 8, "why": "Active form of B5; lipid profile + adrenal"},
-    {"product_name": "NADH Stabilized",         "category": "supplements", "niche_score": 8, "why": "Reduced NAD form; chronic fatigue + cognition"},
-    {"product_name": "Ribose D-Ribose",         "category": "supplements", "niche_score": 6, "why": "ATP precursor sugar; fibromyalgia + cardiac"},
-    {"product_name": "L-Arginine HCl",          "category": "supplements", "niche_score": 5, "why": "NO precursor; saturated by L-citrulline"},
-    {"product_name": "L-Ornithine Sleep",       "category": "supplements", "niche_score": 7, "why": "Ammonia detox + sleep onset; under-marketed"},
-    {"product_name": "L-Lysine HCl",            "category": "supplements", "niche_score": 6, "why": "Anti-viral + collagen; saturated"},
-    {"product_name": "L-Proline Pure",          "category": "supplements", "niche_score": 7, "why": "Collagen building block; vascular"},
-    {"product_name": "L-Glycine 5g",            "category": "supplements", "niche_score": 6, "why": "High-dose glycine; sleep + collagen"},
-    {"product_name": "L-Tryptophan Pure",       "category": "supplements", "niche_score": 6, "why": "Serotonin precursor; tryptophan-only positioning"},
-    {"product_name": "L-Phenylalanine DLPA",    "category": "supplements", "niche_score": 7, "why": "DL-mix endorphin support; mood"},
-    {"product_name": "L-Tyrosine N-Acetyl",     "category": "supplements", "niche_score": 7, "why": "NALT; dopamine precursor; stress resilience"},
-    {"product_name": "L-Histidine Pure",        "category": "supplements", "niche_score": 8, "why": "Histamine precursor + zinc binding; under-supplemented"},
-    {"product_name": "Beta-Hydroxybutyrate Salts", "category": "supplements", "niche_score": 6, "why": "Exogenous ketones; keto-adjacent market"},
-    {"product_name": "MCT C8 Caprylic",         "category": "supplements", "niche_score": 5, "why": "Pure C8 MCT; ketogenic + cognitive"},
-    {"product_name": "CDP-Choline Cognizin",    "category": "supplements", "niche_score": 7, "why": "Branded citicoline; cognitive"},
-    {"product_name": "Sarcosine Methylglycine", "category": "supplements", "niche_score": 9, "why": "NMDA modulator; emerging schizophrenia + cognition research"},
-    {"product_name": "Agmatine Sulfate",        "category": "supplements", "niche_score": 8, "why": "Arginine metabolite; pain + mood"},
-    {"product_name": "Sulbutiamine Lipophilic", "category": "supplements", "niche_score": 9, "why": "Lipid-soluble B1 dimer; cognitive enhancement"},
-    {"product_name": "Picamilon Niacin GABA",   "category": "supplements", "niche_score": 9, "why": "GABA+niacin conjugate; FDA gray-zone; calming"},
-    {"product_name": "Aniracetam",              "category": "supplements", "niche_score": 8, "why": "Racetam family nootropic; FDA non-approved but legal as research compound"},
-    {"product_name": "Oxiracetam",              "category": "supplements", "niche_score": 8, "why": "Water-soluble racetam; cognitive"},
-    {"product_name": "Pramiracetam",            "category": "supplements", "niche_score": 8, "why": "High-potency racetam; cognitive"},
-    {"product_name": "Coluracetam",             "category": "supplements", "niche_score": 9, "why": "Niche racetam; vision + mood"},
-    {"product_name": "Phenibut HCl",            "category": "supplements", "niche_score": 4, "why": "Caution: dependency risk; FDA target; skip likely"},
-    {"product_name": "Noopept Cerluten",        "category": "supplements", "niche_score": 7, "why": "Russian peptide nootropic; legal as research; cognition"},
-    {"product_name": "Bromantane",              "category": "supplements", "niche_score": 8, "why": "Adaptogenic actoprotector; dopamine + adaptogen"},
-    {"product_name": "Ribose Adenosine ATP",    "category": "supplements", "niche_score": 8, "why": "Combined ATP precursors; mitochondrial"}
+    {
+      "product_name": "Magnolol",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Honokiol's cousin from Magnolia bark; GABA-A modulator + anti-inflammatory; recent sleep + anxiety trials"
+    },
+    {
+      "product_name": "Honokiol",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Magnolia bark biphenyl; PPAR-\u03b3 activator + neuroprotective; rare standalone SKU"
+    },
+    {
+      "product_name": "Polygala Tenuifolia",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "TCM root used for memory; emerging BDNF + NGF modulation evidence"
+    },
+    {
+      "product_name": "Spermidine",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Autophagy inducer; longevity research darling; growing brand-name competition"
+    },
+    {
+      "product_name": "Pterostilbene",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Resveratrol analog with better bioavailability + half-life; emerging anti-aging SKU"
+    },
+    {
+      "product_name": "Trans-Pterostilbene",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Specifically the trans-isomer form; differentiator vs commodity pterostilbene"
+    },
+    {
+      "product_name": "NMN Beta",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Beta-Nicotinamide Mononucleotide; precise isomer marketing angle"
+    },
+    {
+      "product_name": "Mitoquinol Mesylate",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Mitochondria-targeted CoQ10 analog; clinical trials in fatty liver + endothelial function"
+    },
+    {
+      "product_name": "Bacopa Bacosides A",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Standardized A+B fraction; differentiates from generic bacopa"
+    },
+    {
+      "product_name": "Centella Asiatica Triterpenes",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Madecassic + asiatic acids; gotu kola active fraction; wound healing + collagen"
+    },
+    {
+      "product_name": "Salidroside",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Rhodiola's active glycoside; standardized form less common than generic rhodiola"
+    },
+    {
+      "product_name": "Eleutheroside E",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Siberian ginseng adaptogen marker; differentiator from generic ginseng"
+    },
+    {
+      "product_name": "Tongkat Ali Eurycomanone",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Standardized eurycomanone fraction; T-boosting mechanism backed by RCTs"
+    },
+    {
+      "product_name": "Fadogia Agrestis",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Andrew Huberman-popularized but no big-brand standardized product"
+    },
+    {
+      "product_name": "Turkesterone",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Ajuga turkestanica ecdysteroid; lean-mass interest; quality varies hugely"
+    },
+    {
+      "product_name": "Ecdysterone",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Spinach-derived steroidal compound; lean-mass research"
+    },
+    {
+      "product_name": "Apigenin",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Parsley/chamomile flavonoid; Sinclair lab senolytic angle; sleep + CD38 inhibitor"
+    },
+    {
+      "product_name": "Fisetin",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Strawberry flavonol; senolytic; widely discussed in longevity circles"
+    },
+    {
+      "product_name": "Urolithin A",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Pomegranate gut metabolite; mitophagy; commercial leader is Mitopure"
+    },
+    {
+      "product_name": "Berberine HCl",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Goldenseal alkaloid; insulin sensitivity; growing nature's-Ozempic narrative"
+    },
+    {
+      "product_name": "Dihydroberberine",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Bioavailable berberine form; 5x absorption; differentiator"
+    },
+    {
+      "product_name": "Sulforaphane Glucoraphanin",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Broccoli sprout NRF2 activator; stabilized glucoraphanin form"
+    },
+    {
+      "product_name": "Indole-3-Carbinol",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Cruciferous estrogen-metabolism support; under-marketed"
+    },
+    {
+      "product_name": "Diindolylmethane",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "I3C metabolite; hormonal balance positioning"
+    },
+    {
+      "product_name": "Calcium D-Glucarate",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Beta-glucuronidase inhibitor; estrogen detox angle"
+    },
+    {
+      "product_name": "PQQ Disodium",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Pyrroloquinoline quinone; mitochondrial biogenesis"
+    },
+    {
+      "product_name": "Shilajit Fulvic Acid",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Note: only ship if not stepping on existing Shamir SKU; standardized fulvic+humic fraction"
+    },
+    {
+      "product_name": "Lion's Mane Erinacines",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "The actual NGF-inducing compound class; differentiator from generic lion's mane"
+    },
+    {
+      "product_name": "Cordyceps Cs-4 Strain",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Lab-fermented cordyceps strain; cordycepin + adenosine fraction"
+    },
+    {
+      "product_name": "Reishi Triterpenes",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Standardized triterpene fraction (vs commodity polysaccharide-only reishi)"
+    },
+    {
+      "product_name": "Chaga Betulinic Acid",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Standardized betulinic-acid fraction; antioxidant + immunomodulation"
+    },
+    {
+      "product_name": "Maitake D-Fraction",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Specific \u03b2-glucan fraction with strongest immune research"
+    },
+    {
+      "product_name": "Tremella Fuciformis",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "'Hyaluronic acid mushroom'; oral skin-hydration angle"
+    },
+    {
+      "product_name": "Astaxanthin Hawaiian",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Hawaiian-strain natural astaxanthin; skin + eye + endurance"
+    },
+    {
+      "product_name": "Saffron Crocin Crocetin",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Standardized crocin+crocetin (Affron / Satiereal style); mood + appetite"
+    },
+    {
+      "product_name": "Lithium Orotate",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Low-dose lithium for mood + neuroprotection; OTC-legal but under-marketed"
+    },
+    {
+      "product_name": "Glycine Magnesium Bisglycinate",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Hyper-bioavailable Mg form; sleep + muscle"
+    },
+    {
+      "product_name": "TMG Trimethylglycine",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Methyl donor; homocysteine support; required with high-dose NMN/NR"
+    },
+    {
+      "product_name": "Betaine HCl",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Stomach acid support; gut-protocol popularity"
+    },
+    {
+      "product_name": "Carnosine L",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Glycation inhibitor; longevity + skin anti-AGE angle"
+    },
+    {
+      "product_name": "Acetyl L-Carnitine HCl",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "ALCAR; mitochondrial + neuroprotective; classic but quality-varied"
+    },
+    {
+      "product_name": "PEA Palmitoylethanolamide",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Endogenous lipid signaler; pain + neuro-inflammation"
+    },
+    {
+      "product_name": "Lipoic Acid R-Form",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "R-isomer (not racemic) alpha-lipoic acid; insulin sensitivity"
+    },
+    {
+      "product_name": "Astragaloside IV",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Astragalus saponin; telomerase activator; TA-65 angle without the price"
+    },
+    {
+      "product_name": "Cycloastragenol",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Astragaloside IV's aglycone; same telomere-length research"
+    },
+    {
+      "product_name": "Quercetin Phytosome",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Lecithin-complexed quercetin; 20x bioavailability"
+    },
+    {
+      "product_name": "Quercetin Dihydrate",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Hydrated crystalline form; better dissolution than anhydrous"
+    },
+    {
+      "product_name": "Resveratrol Phytosome",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Lecithin-complexed resveratrol; addresses commodity-resveratrol bioavailability"
+    },
+    {
+      "product_name": "Citicoline CDP-Choline",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Choline donor that crosses BBB; cognitive + recovery"
+    },
+    {
+      "product_name": "Alpha GPC",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Glycerophosphocholine; classic but persistent interest"
+    },
+    {
+      "product_name": "Forskolin Coleus",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "cAMP activator; standardized 95% form differentiator"
+    },
+    {
+      "product_name": "Black Seed Thymoquinone",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Nigella sativa standardized to thymoquinone; metabolic + immune"
+    },
+    {
+      "product_name": "Schisandra Lignans",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Schizandrin A/B standardized; adaptogen + liver"
+    },
+    {
+      "product_name": "Holy Basil Ursolic Acid",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Tulsi standardized to ursolic acid; muscle + metabolic"
+    },
+    {
+      "product_name": "Mucuna L-Dopa",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Velvet bean standardized to natural L-DOPA; dopamine support"
+    },
+    {
+      "product_name": "Bitter Melon Charantin",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Momordica charantia standardized; glucose support"
+    },
+    {
+      "product_name": "Banaba Corosolic Acid",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Lagerstroemia speciosa standardized; glucose support; under-marketed vs berberine"
+    },
+    {
+      "product_name": "Mulberry 1-Deoxynojirimycin",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Alpha-glucosidase inhibitor; postprandial glucose; novel mechanism"
+    },
+    {
+      "product_name": "Salacia Reticulata",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Ayurvedic alpha-glucosidase inhibitor; salacinol active"
+    },
+    {
+      "product_name": "Cinnamon Hydroxychalcone",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "MHCP standardized cinnamon fraction; insulin signaling"
+    },
+    {
+      "product_name": "Olive Leaf Oleuropein",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized oleuropein > generic olive leaf; cardiovascular + metabolic"
+    },
+    {
+      "product_name": "Hydroxytyrosol",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Olive polyphenol; highest ORAC value of any natural antioxidant"
+    },
+    {
+      "product_name": "Pine Bark Pycnogenol",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Standardized French maritime pine; trademarked active but generic equivalents exist"
+    },
+    {
+      "product_name": "Grape Seed Procyanidins",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized OPC fraction; cardiovascular"
+    },
+    {
+      "product_name": "Hawthorn Vitexin",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Standardized crataegus; cardiotonic glycosides"
+    },
+    {
+      "product_name": "Bergamot Polyphenols",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Citrus bergamia BPF; lipid profile + glucose"
+    },
+    {
+      "product_name": "Sea Buckthorn Omega 7",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Palmitoleic acid; mucosal health + skin"
+    },
+    {
+      "product_name": "Krill Astaxanthin Phospholipids",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Phospholipid-bound omega-3 + astaxanthin"
+    },
+    {
+      "product_name": "Algae DHA Vegan",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Schizochytrium-derived DHA; vegan omega-3 angle"
+    },
+    {
+      "product_name": "Lutein Marigold",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "FloraGlo / Lutemax style standardized lutein + zeaxanthin"
+    },
+    {
+      "product_name": "Meso-Zeaxanthin",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Third macular carotenoid; required for full macular protection"
+    },
+    {
+      "product_name": "Lycopene Tomato",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Lyc-O-Mato style standardized; prostate + cardiovascular"
+    },
+    {
+      "product_name": "Crocetin Pure",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Saffron's lipophilic carotenoid; eye fatigue + sleep onset"
+    },
+    {
+      "product_name": "Lavender Silexan",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Oral lavender oil capsule; clinical anxiety data"
+    },
+    {
+      "product_name": "Beta Caryophyllene",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Dietary CB2 agonist; copaiba / black pepper oil source"
+    },
+    {
+      "product_name": "Boswellia AKBA",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Frankincense standardized to AKBA; joint inflammation"
+    },
+    {
+      "product_name": "White Willow Salicin",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Aspirin precursor; natural anti-inflammatory positioning"
+    },
+    {
+      "product_name": "Devil's Claw Harpagoside",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Joint pain; standardized harpagoside fraction"
+    },
+    {
+      "product_name": "Rhodiola Rosavin",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized rosavin + salidroside ratio (3:1)"
+    },
+    {
+      "product_name": "Cistanche Echinacoside",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Hyperion / Andrew Huberman attention; rare adaptogen"
+    },
+    {
+      "product_name": "He Shou Wu Stilbene",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Polygonum multiflorum 2,3,5,4-tetrahydroxystilbene; longevity TCM"
+    },
+    {
+      "product_name": "Gynostemma Gypenosides",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Jiaogulan AMPK activator; insulin sensitivity"
+    },
+    {
+      "product_name": "Reishi Spore Oil",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Sporoderm-broken reishi spores; concentrated triterpene fraction"
+    },
+    {
+      "product_name": "Beta Alanine Sustained",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "CarnoSyn sustained-release; endurance"
+    },
+    {
+      "product_name": "L-Citrulline Malate 2:1",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Standardized 2:1 form; nitric oxide + pump"
+    },
+    {
+      "product_name": "L-Theanine Suntheanine",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Branded high-purity L-theanine; focus + relaxation"
+    },
+    {
+      "product_name": "Glycine Pure",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Sleep + collagen building block; under-promoted"
+    },
+    {
+      "product_name": "Taurine Pure",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Recent Nature paper renewed longevity interest"
+    },
+    {
+      "product_name": "GABA PharmaGABA",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Lactobacillus-fermented GABA; bioavailability vs synthetic"
+    },
+    {
+      "product_name": "5-HTP Griffonia",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Direct serotonin precursor; sleep + mood"
+    },
+    {
+      "product_name": "Phosphatidylserine Soy-Free",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Sunflower-derived; cortisol modulation + cognition"
+    },
+    {
+      "product_name": "Phosphatidylcholine",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Liver + brain cell membrane support"
+    },
+    {
+      "product_name": "Ergothioneine",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Mushroom-derived 'longevity amino acid'; novel antioxidant pathway"
+    },
+    {
+      "product_name": "Glutathione Liposomal",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Encapsulated form addresses oral absorption; master antioxidant"
+    },
+    {
+      "product_name": "Setria Glutathione",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Branded fermented glutathione; clinical bioavailability data"
+    },
+    {
+      "product_name": "Glycyrrhizin DGL",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Deglycyrrhizinated licorice; gut lining support"
+    },
+    {
+      "product_name": "Mastic Gum Chios",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Pistacia lentiscus var. chia; H. pylori + jawline-tone trends"
+    },
+    {
+      "product_name": "Slippery Elm Bark",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Mucilage for gut lining; gentle anti-inflammatory"
+    },
+    {
+      "product_name": "Marshmallow Root",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Demulcent for gut + respiratory mucosa"
+    },
+    {
+      "product_name": "Plantain Leaf",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Plantago major aucubin + allantoin; gut + respiratory"
+    },
+    {
+      "product_name": "Cat's Claw Pentacyclic",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Uncaria tomentosa standardized to pentacyclic POAs only"
+    },
+    {
+      "product_name": "Pau D'Arco Lapachol",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized lapachol fraction; immune"
+    },
+    {
+      "product_name": "Andrographis Andrographolide",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Standardized to andrographolide; immune + anti-inflammatory"
+    },
+    {
+      "product_name": "Boneset Eupatorium",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Traditional flu-prep herb; small but loyal market"
+    },
+    {
+      "product_name": "Eyebright Euphrasia",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Eye-strain support; under-marketed"
+    },
+    {
+      "product_name": "Bilberry Anthocyanins",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized 25% anthocyanidin fraction; eye + vascular"
+    },
+    {
+      "product_name": "Maqui Berry Delphinol",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Highest-ORAC berry; eye fatigue clinical data"
+    },
+    {
+      "product_name": "Acerola Cherry Vitamin C",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Whole-fruit C with bioflavonoids; ascorbic-acid alternative"
+    },
+    {
+      "product_name": "Camu Camu Vitamin C",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Highest natural source of C; superfruit positioning"
+    },
+    {
+      "product_name": "Amla Indian Gooseberry",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Vitamin C + tannins; Ayurvedic rasayana"
+    },
+    {
+      "product_name": "Triphala Three Fruit",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Amla+haritaki+bibhitaki; gut + detox"
+    },
+    {
+      "product_name": "Moringa Oleifera Leaf",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Nutrient-dense leaf powder; saturated"
+    },
+    {
+      "product_name": "Spirulina Phycocyanin",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized phycocyanin fraction; vs commodity spirulina"
+    },
+    {
+      "product_name": "Chlorella Cracked Cell",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Cracked-cell wall = absorbable; heavy metal binding angle"
+    },
+    {
+      "product_name": "Wheatgrass Triticum",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Greens powder commodity; need premium angle"
+    },
+    {
+      "product_name": "Barley Grass Lutonarin",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized lutonarin; flavone-rich greens differentiator"
+    },
+    {
+      "product_name": "Sea Moss Iodine",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Chondrus crispus / Eucheuma cottonii; already an ER SKU \u2014 skip unless variant"
+    },
+    {
+      "product_name": "Irish Moss Carrageenan",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Watch carrageenan-controversy positioning"
+    },
+    {
+      "product_name": "Kelp Iodine Atlantic",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Standardized iodine source; thyroid support"
+    },
+    {
+      "product_name": "Bladderwrack Fucoxanthin",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Standardized fucoxanthin; metabolic + thyroid"
+    },
+    {
+      "product_name": "Wakame Fucoidan",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Standardized fucoidan; immune"
+    },
+    {
+      "product_name": "Brown Seaweed Alginate",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Heavy metal binding; satiety"
+    },
+    {
+      "product_name": "Maritime Pine Pycnogenol",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Trademark-controlled; commodity OPC alternative"
+    },
+    {
+      "product_name": "Lemon Balm Rosmarinic",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized rosmarinic acid; stress + sleep"
+    },
+    {
+      "product_name": "Passionflower Vitexin",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized vitexin; sleep + anxiety"
+    },
+    {
+      "product_name": "Skullcap Baicalin",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Scutellaria baicalensis baicalin; calming + anti-inflammatory"
+    },
+    {
+      "product_name": "Wogonin Skullcap",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Specific flavone from skullcap; emerging neuroprotective research"
+    },
+    {
+      "product_name": "Luteolin",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Celery/parsley flavone; mast-cell stabilizer; anti-inflammatory"
+    },
+    {
+      "product_name": "Hesperidin Citrus",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Vascular + capillary support; vitamin P"
+    },
+    {
+      "product_name": "Diosmin Citrus",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized; venous insufficiency"
+    },
+    {
+      "product_name": "Rutin Sophora",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Quercetin glycoside; vascular"
+    },
+    {
+      "product_name": "Naringin Grapefruit",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "CYP3A inhibitor; bioavailability enhancer angle"
+    },
+    {
+      "product_name": "Eriocitrin Lemon",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Lemon-specific flavanone; metabolic + antioxidant; under-marketed"
+    },
+    {
+      "product_name": "Tangeretin",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Tangerine polymethoxyflavone; metabolic + neuroprotective"
+    },
+    {
+      "product_name": "Nobiletin",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Citrus PMF; circadian-rhythm research; metabolic"
+    },
+    {
+      "product_name": "Sinensetin Citrus",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Orange polymethoxyflavone; vasorelaxant + metabolic"
+    },
+    {
+      "product_name": "Curcumin Phytosome",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Meriva-style phospholipid-complexed curcumin"
+    },
+    {
+      "product_name": "Theracurmin Curcumin",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Nano-particle curcumin; 27x bioavailability"
+    },
+    {
+      "product_name": "Curcuminoids Tetrahydro",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "THC tetrahydrocurcumin metabolite; superior antioxidant"
+    },
+    {
+      "product_name": "Ginger Gingerols",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Standardized 5% gingerols + shogaols; nausea + anti-inflammatory"
+    },
+    {
+      "product_name": "Black Ginger Methoxyflavones",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Kaempferia parviflora; testosterone + cognition; Japanese clinical data"
+    },
+    {
+      "product_name": "Coleus Forskohlii 95%",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized 95% forskolin; cAMP modulator"
+    },
+    {
+      "product_name": "Stinging Nettle Root",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Urtica dioica; prostate + DHT modulation"
+    },
+    {
+      "product_name": "Saw Palmetto CO2",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "CO2-extracted Serenoa; fatty-acid + sterol fraction"
+    },
+    {
+      "product_name": "Pumpkin Seed Cucurbitin",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Standardized cucurbitin; urinary + prostate"
+    },
+    {
+      "product_name": "Beta Sitosterol",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Phytosterol; cholesterol + prostate"
+    },
+    {
+      "product_name": "Policosanol Sugarcane",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Sugarcane long-chain alcohols; lipid profile"
+    },
+    {
+      "product_name": "Tocotrienol Annatto",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Tocopherol-free tocotrienol; bone + cardiovascular"
+    },
+    {
+      "product_name": "MK-7 Vitamin K2",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Menaquinone-7; bone + arterial; under-supplemented"
+    },
+    {
+      "product_name": "MK-4 Vitamin K2",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Higher-dose K2 form; under-discussed"
+    },
+    {
+      "product_name": "Vitamin D3K2 Combo",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Bundled vit D + K2; commodity but high-volume"
+    },
+    {
+      "product_name": "Iodine Nascent",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Mono-atomic iodine; thyroid + breast health"
+    },
+    {
+      "product_name": "Selenium Selenomethionine",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Yeast-derived selenium; thyroid + glutathione cofactor"
+    },
+    {
+      "product_name": "Boron Glycinate",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Mineral cofactor for hormone production; under-supplemented"
+    },
+    {
+      "product_name": "Strontium Citrate",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Bone density; non-prescription strontium form"
+    },
+    {
+      "product_name": "Silica Bamboo",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Bamboo extract 70% silica; skin/hair/nails"
+    },
+    {
+      "product_name": "Silicon Choline",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "ch-OSA stabilized orthosilicic acid; collagen synthesis"
+    },
+    {
+      "product_name": "Lithium Aspartate",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Alt low-dose lithium form; mood + neurotrophic"
+    },
+    {
+      "product_name": "Vanadium Vanadyl",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Insulin-mimetic trace mineral; metabolic"
+    },
+    {
+      "product_name": "Chromium Picolinate Glucose",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Classic insulin-sensitivity mineral; saturated"
+    },
+    {
+      "product_name": "Molybdenum Glycinate",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Sulfite detox cofactor; under-supplemented"
+    },
+    {
+      "product_name": "Manganese Chelate",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Bone + SOD cofactor; under-discussed"
+    },
+    {
+      "product_name": "Copper Bisglycinate",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Balanced with zinc; collagen + ceruloplasmin"
+    },
+    {
+      "product_name": "Inositol Myo Form",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "PCOS + mood; specific isomer marketing"
+    },
+    {
+      "product_name": "D-Chiro Inositol",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "PCOS-specific inositol isomer (40:1 with myo)"
+    },
+    {
+      "product_name": "Choline Bitartrate",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Essential nutrient; saturated"
+    },
+    {
+      "product_name": "Methylfolate L-5-MTHF",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Active folate form; MTHFR-mutation marketing"
+    },
+    {
+      "product_name": "Methylcobalamin B12",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Active B12 form; saturated"
+    },
+    {
+      "product_name": "Adenosylcobalamin B12",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Mitochondrial B12 isomer; rare standalone product"
+    },
+    {
+      "product_name": "P5P Pyridoxal Phosphate",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Active B6; neurotransmitter cofactor"
+    },
+    {
+      "product_name": "Riboflavin R5P",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Active B2; migraine + mitochondrial"
+    },
+    {
+      "product_name": "Thiamine TTFD Allithiamine",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Fat-soluble B1; crosses BBB; under-supplemented"
+    },
+    {
+      "product_name": "Benfotiamine",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Lipid-soluble B1; AGE inhibition; diabetic neuropathy data"
+    },
+    {
+      "product_name": "Pantethine Active B5",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Active form of B5; lipid profile + adrenal"
+    },
+    {
+      "product_name": "NADH Stabilized",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Reduced NAD form; chronic fatigue + cognition"
+    },
+    {
+      "product_name": "Ribose D-Ribose",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "ATP precursor sugar; fibromyalgia + cardiac"
+    },
+    {
+      "product_name": "L-Arginine HCl",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "NO precursor; saturated by L-citrulline"
+    },
+    {
+      "product_name": "L-Ornithine Sleep",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Ammonia detox + sleep onset; under-marketed"
+    },
+    {
+      "product_name": "L-Lysine HCl",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Anti-viral + collagen; saturated"
+    },
+    {
+      "product_name": "L-Proline Pure",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Collagen building block; vascular"
+    },
+    {
+      "product_name": "L-Glycine 5g",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "High-dose glycine; sleep + collagen"
+    },
+    {
+      "product_name": "L-Tryptophan Pure",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Serotonin precursor; tryptophan-only positioning"
+    },
+    {
+      "product_name": "L-Phenylalanine DLPA",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "DL-mix endorphin support; mood"
+    },
+    {
+      "product_name": "L-Tyrosine N-Acetyl",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "NALT; dopamine precursor; stress resilience"
+    },
+    {
+      "product_name": "L-Histidine Pure",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Histamine precursor + zinc binding; under-supplemented"
+    },
+    {
+      "product_name": "Beta-Hydroxybutyrate Salts",
+      "category": "supplements",
+      "niche_score": 6,
+      "why": "Exogenous ketones; keto-adjacent market"
+    },
+    {
+      "product_name": "MCT C8 Caprylic",
+      "category": "supplements",
+      "niche_score": 5,
+      "why": "Pure C8 MCT; ketogenic + cognitive"
+    },
+    {
+      "product_name": "CDP-Choline Cognizin",
+      "category": "supplements",
+      "niche_score": 7,
+      "why": "Branded citicoline; cognitive"
+    },
+    {
+      "product_name": "Sarcosine Methylglycine",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "NMDA modulator; emerging schizophrenia + cognition research"
+    },
+    {
+      "product_name": "Agmatine Sulfate",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Arginine metabolite; pain + mood"
+    },
+    {
+      "product_name": "Sulbutiamine Lipophilic",
+      "category": "supplements",
+      "niche_score": 9,
+      "why": "Lipid-soluble B1 dimer; cognitive enhancement"
+    },
+    {
+      "product_name": "Ribose Adenosine ATP",
+      "category": "supplements",
+      "niche_score": 8,
+      "why": "Combined ATP precursors; mitochondrial"
+    }
   ]
 }

@@ -19,6 +19,7 @@ from .errors import NoIdeasError, SourceError
 from .ahrefs import find_trending_keywords
 from .pubmed import find_recent_research
 from .claude_reserve import draw_from_reserve
+from .otc_guard import verify_otc, is_rx_or_banned
 
 Opportunity = dict
 SourceFn = Callable[[dict, set[str], set[str], int], list[Opportunity]]
@@ -36,6 +37,18 @@ SOURCE_CHAIN: list[tuple[str, SourceFn]] = [
     ("pubmed",         find_recent_research),
     ("claude_reserve", draw_from_reserve),
 ]
+
+# Ranking priority — PubMed candidates are specific named compounds with
+# mechanism papers (Anthocyanin, Xanthohumol). Ahrefs candidates can be
+# generic keyword aggregates ("Skin Stockists", "Supplement For Gut
+# Health") which downstream Anthropic research then has to coerce into
+# a coherent product. Reserve is the curated backstop. Order: real
+# compounds first, real search demand second, reserve last.
+SOURCE_PRIORITY: dict[str, int] = {
+    "pubmed":         100,
+    "ahrefs":          50,
+    "claude_reserve":  25,
+}
 
 
 def run_source_chain(
@@ -96,11 +109,17 @@ def run_source_chain(
             continue
         if r.get("handle", "") and r["handle"] in shopify_catalog:
             continue
+        # Hard static blocklist before the LLM gate so we don't waste
+        # tokens on obvious Rx / banned compounds.
+        if is_rx_or_banned(r.get("product_name", "")):
+            print(f"[sources] static blocklist drop: {r.get('product_name')} ({r.get('source')})")
+            continue
         seen.add(key)
         unique.append(r)
 
     unique.sort(
         key=lambda r: (
+            SOURCE_PRIORITY.get(r.get("source", ""), 0),
             r.get("growth_score", 0) or 0,
             r.get("niche_score", 0) or 0,
         ),
@@ -113,8 +132,20 @@ def run_source_chain(
             f"Reserve is empty or fully consumed. attempts_log={log}"
         )
 
+    # Final gate: Anthropic OTC-legality verification. We verify a
+    # generous slice (3x the limit) so even if 2/3 get rejected we
+    # still have headroom to fill `limit` slots.
+    verify_slice = unique[: max(limit * 3, 15)]
+    approved = verify_otc(verify_slice, env)
+
+    if not approved:
+        raise NoIdeasError(
+            f"OTC verifier rejected every one of the top {len(verify_slice)} "
+            f"candidates. attempts_log={log}"
+        )
+
     return SourceChainResult(
-        opportunities=unique[:limit],
+        opportunities=approved[:limit],
         attempts_log=log,
         sources_used=sources_used,
     )
