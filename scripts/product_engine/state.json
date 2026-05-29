@@ -25,6 +25,19 @@
       "price_usd": 19.99,
       "reddit_url": "https://reddit.com/r/laundry/comments/1tobryx/spa_day_didnt_work/",
       "why_interesting": "Rhamnolipid biosurfactants are microbially-derived compounds with proven ability to break down the lipid-rich sebum and apocrine secretions that bind BO-causing bacteria to fabric fibers \u2014 a mechanism standard enzymes and detergents miss, making it a compelling premium solution for the persistent armpit odor problem this post describes."
+    },
+    {
+      "product_name": "Anthocyanin",
+      "product_title": "Anthocyanin supplement",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9183544574164",
+      "handle": "anthocyanin-supplement",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/d1b82cc9-e636-4181-b5f4-ba00048bbc8c/er-product-anthocyanin-supplement.png",
+      "created_at": "2026-05-29",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'anthocyanin' appears in 4 recent supplement-research papers (most recent example: \"Acute Effects of Anthocyanin-Rich Blackcurrant Extract on Individual Cardiovascular and Metabolic Responses During Supine Rest and Moderate-Intensity Walking in\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
