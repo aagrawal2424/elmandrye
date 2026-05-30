@@ -41,7 +41,10 @@ from originality import signature, find_most_similar, SIMILARITY_THRESHOLD  # no
 from formats import pick_format  # noqa: E402
 from social import distribute  # noqa: E402
 
-STATE_FILE = HERE / "state.json"
+# Multi-tenant mode: HTTP service points ENGINE_STATE_FILE at a per-shop
+# path (/tmp/engine-state/<shop>/state.json). Daily cron leaves this unset
+# and uses the in-repo state.json for elmandrye.
+STATE_FILE = Path(os.environ.get("ENGINE_STATE_FILE") or (HERE / "state.json"))
 DRY_RUN = os.environ.get("CONTENT_ENGINE_DRY_RUN", "").lower() in ("true", "1", "yes")
 DEDUP_WINDOW_DAYS = 90
 MAX_ARTICLES_PER_7_DAYS = 5
