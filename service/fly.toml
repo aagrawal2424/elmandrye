@@ -1,12 +1,10 @@
 # Fly.io config for the multi-tenant content engine HTTP service.
-# Deploy from this directory: `fly deploy -c service/fly.toml`
-# from the repo root (so the Dockerfile can reach scripts/).
+# Deploy from the repo root so the Dockerfile can COPY scripts/:
+#   fly deploy -c service/fly.toml --dockerfile service/Dockerfile
+# The `dockerfile` path here is unused when --dockerfile is passed.
 
 app = "aj-content-engine"
 primary_region = "sjc"
-
-[build]
-  dockerfile = "service/Dockerfile"
 
 [http_service]
   internal_port = 8080
