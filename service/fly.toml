@@ -1,0 +1,33 @@
+# Fly.io config for the multi-tenant content engine HTTP service.
+# Deploy from this directory: `fly deploy -c service/fly.toml`
+# from the repo root (so the Dockerfile can reach scripts/).
+
+app = "aj-content-engine"
+primary_region = "sjc"
+
+[build]
+  dockerfile = "service/Dockerfile"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0          # cold-start friendly, daily-cron pattern
+  processes = ["app"]
+
+  [http_service.concurrency]
+    type = "requests"
+    soft_limit = 5
+    hard_limit = 10
+
+  [[http_service.checks]]
+    interval = "30s"
+    timeout = "5s"
+    grace_period = "10s"
+    method = "GET"
+    path = "/health"
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "1024mb"                  # comfortable for one concurrent gen
