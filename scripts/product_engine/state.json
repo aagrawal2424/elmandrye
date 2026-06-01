@@ -77,6 +77,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'anthocyanin' appears in 4 recent supplement-research papers (most recent example: \"Acute Effects of Anthocyanin-Rich Blackcurrant Extract on Individual Cardiovascular and Metabolic Responses During Supine Rest and Moderate-Intensity Walking in\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Xanthohumol",
+      "product_title": "Xanthohumol",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9187162751188",
+      "handle": "xanthohumol",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/13075aec-8c69-48b8-9fee-6449500226c3/er-product-xanthohumol.png",
+      "created_at": "2026-06-01",
+      "price_usd": 79.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'xanthohumol' appears in 3 recent supplement-research papers (most recent example: \"Modulation of Microbiota-Derived Bile Acids Linked to Symptom Amelioration in Crohn's Disease: Insights From a Randomized Clinical Trial With Xanthohumol Supple\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
