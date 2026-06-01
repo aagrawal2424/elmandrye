@@ -11,8 +11,11 @@ from dataclasses import dataclass, field
 
 
 BANNED_PHRASES = [
-    # Em dash — banned entirely; use comma/period/colon instead
-    "—",
+    # Em-dashes USED to be banned (validator hard-failed on them) but Claude
+    # refuses to comply on retry, and contemporary publications use them
+    # routinely — they no longer reliably signal AI output in 2026.
+    # Removed from the ban list 2026-06-01 after one missed publish day
+    # (entire content-engine cron failed because the article had em-dashes).
     # Hype / cliché
     "powerhouse", "game-changer", "game changer", "revolutionary", "supercharge",
     "secret weapon", "unlock the power", "unleash", "harness the power",
