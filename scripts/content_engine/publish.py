@@ -8,8 +8,10 @@ Per user direction: publishes LIVE, not as a draft.
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
+import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -436,6 +438,13 @@ def publish_article(
             f"Caller must pass a non-empty hero_image_url; see generate_hero()."
         )
 
+    # Engine-provenance metafield — lets the workflow-build articles/create
+    # webhook validator tell apart "engine-created article" (trust the body)
+    # from "manual paste via Shopify Admin UI" (run quality checks + alert).
+    # GH_RUN_ID is set by the cron's runner; falls back to "local-{pid}"
+    # for ad-hoc runs from a developer's laptop so we can still trace.
+    engine_run_id = os.environ.get("GITHUB_RUN_ID") or f"local-{os.getpid()}-{int(time.time())}"
+
     article_input: dict = {
         "blogId": BLOG_ID,
         "title": title,
@@ -445,6 +454,14 @@ def publish_article(
         "tags": tags,
         "isPublished": publish_live,
         "image": {"url": hero_image_url, "altText": title},
+        "metafields": [
+            {
+                "namespace": "engine",
+                "key": "run_id",
+                "type": "single_line_text_field",
+                "value": engine_run_id,
+            }
+        ],
     }
 
     result = call(MUTATION, {"article": article_input})
