@@ -417,6 +417,25 @@ def publish_article(
         md, hero_image_url, predicted_slug, video_block_html=video_block_html,
     )
 
+    # ── Defensive guard #1: never publish an article whose body starts
+    #    with <h1>. Shopify's theme renders the article title as h1
+    #    automatically — a body h1 makes the title appear twice on the
+    #    page. md_to_html() already skips h1 from the source markdown,
+    #    but this guard catches any path that somehow snuck h1 into the
+    #    body (off-path publishes, manual injections, future regressions).
+    body = re.sub(r"^\s*<h1[^>]*>[^<]*</h1>\s*", "", body, count=1, flags=re.IGNORECASE)
+
+    # ── Defensive guard #2: refuse to publish without a hero image.
+    #    Imageless articles are unacceptable per the workflow-fix memory
+    #    (see also: HeroPipelineFailure raised from generate_hero()).
+    #    main.py catches that exception upstream and aborts; this guard
+    #    is the belt-and-suspenders at the publish layer itself.
+    if not hero_image_url:
+        raise SystemExit(
+            f"publish_article: refusing to publish '{title}' without a hero image. "
+            f"Caller must pass a non-empty hero_image_url; see generate_hero()."
+        )
+
     article_input: dict = {
         "blogId": BLOG_ID,
         "title": title,
@@ -425,9 +444,8 @@ def publish_article(
         "author": {"name": AUTHOR_NAME},
         "tags": tags,
         "isPublished": publish_live,
+        "image": {"url": hero_image_url, "altText": title},
     }
-    if hero_image_url:
-        article_input["image"] = {"url": hero_image_url, "altText": title}
 
     result = call(MUTATION, {"article": article_input})
     if result.get("errors"):

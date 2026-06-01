@@ -30,12 +30,88 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, indent=2))
 
 
+# Suffixes that don't change the underlying ingredient identity. We strip
+# these (case-insensitive) so "Anthocyanin", "Anthocyanin supplement",
+# "Anthocyanin complex", "Anthocyanin extract" all dedupe to one base
+# ingredient. Caused 4-copy Anthocyanin spam on 2026-05-29 → 2026-06-01.
+_PRODUCT_FORM_SUFFIXES = [
+    "supplement", "supplements",
+    "complex", "complexes",
+    "extract", "extracts",
+    "powder", "powders",
+    "capsules", "capsule",
+    "tablets", "tablet",
+    "gummies", "gummy",
+    "softgels", "softgel",
+    "tincture",
+    "drops",
+    "blend",
+    "formula",
+    "support",
+    "premium",
+    "advanced",
+    "pro",
+    "plus",
+    "max",
+]
+
+
+def _ingredient_stem(name: str) -> str:
+    """Reduce a product name to its core ingredient identifier.
+
+    Strips marketing form/dosage suffixes ("supplement", "complex", etc.),
+    lowercases, collapses whitespace. Used for dedup so we don't ship
+    the same ingredient under five different SKU names across a week.
+
+    Examples:
+      "Anthocyanin"             → "anthocyanin"
+      "Anthocyanin supplement"  → "anthocyanin"
+      "Anthocyanin Complex"     → "anthocyanin"
+      "Magnolia Bark Extract"   → "magnolia bark"
+    """
+    import re as _re
+    stem = name.lower().strip()
+    # Strip dosages like "500mg", "1g", "2 grams"
+    stem = _re.sub(r"\b\d+(\.\d+)?\s*(mg|mcg|g|grams|iu|cc|ml)\b", "", stem)
+    # Strip leading/trailing "the ", articles, generic words
+    tokens = stem.split()
+    cleaned: list[str] = []
+    for tok in tokens:
+        tok_clean = tok.strip(".,;:!?()[]{}\"'")
+        if tok_clean in _PRODUCT_FORM_SUFFIXES:
+            continue
+        if not tok_clean:
+            continue
+        cleaned.append(tok_clean)
+    return " ".join(cleaned).strip()
+
+
+def existing_ingredient_stems(state: dict) -> set[str]:
+    """Return the set of ingredient stems we've already shipped, keyed
+    on the per-product reduced form."""
+    return {
+        _ingredient_stem(p["product_title"])
+        for p in state.get("created_products", [])
+        if p.get("product_title")
+    }
+
+
 def existing_titles(state: dict) -> set[str]:
-    return {p["product_title"].lower() for p in state.get("created_products", [])}
+    """Legacy interface — returns full lowercase titles. Source chain
+    still wants both: the full titles (for exact-match catches) AND the
+    stems (for fuzzy-match catches). We pass UNION of both upstream so
+    no candidate slips through either way."""
+    full = {p["product_title"].lower() for p in state.get("created_products", [])}
+    stems = existing_ingredient_stems(state)
+    return full | stems
 
 
 def already_created(product_name: str, state: dict) -> bool:
-    return product_name.lower() in existing_titles(state)
+    """True when this product (by exact title OR by ingredient stem)
+    matches something we've already shipped."""
+    if product_name.lower() in {p["product_title"].lower() for p in state.get("created_products", [])}:
+        return True
+    return _ingredient_stem(product_name) in existing_ingredient_stems(state)
 
 
 def run(dry_run: bool = False) -> int:
