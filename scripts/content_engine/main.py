@@ -35,6 +35,7 @@ from internal_links import build_link_registry, pick_relevant  # noqa: E402
 from generate_article import generate as generate_article  # noqa: E402
 from generate_image import generate_hero, HeroPipelineFailure  # noqa: E402
 from validate import validate  # noqa: E402
+from auto_correct import correct_banned_phrases  # noqa: E402
 from publish import publish_article, extract_title, DuplicateArticleError  # noqa: E402
 from video_summary import generate_video_for_article, build_video_block_html  # noqa: E402
 from originality import signature, find_most_similar, SIMILARITY_THRESHOLD  # noqa: E402
@@ -119,15 +120,39 @@ def keywords_for_topic(topic: dict) -> list[str]:
 
 
 def attempt_generate(topic: dict, comments: list[str], links: list[dict], format_prompt: str = ""):
-    """Generate + validate. Returns (markdown, validation_result, attempts)."""
+    """Generate → auto-correct → validate → retry-with-feedback → return.
+
+    Layer 1 (auto-correct): static text fixes (em-dash → comma, cliché
+    strips, AI-tell connective rewrites). Runs BEFORE validation so
+    surface-level quirks never trigger a failure. See auto_correct.py
+    for the full PHRASE_FIXES list.
+
+    Layer 2 (Claude-retry): if validation still fails after auto-correct
+    (e.g. missing structure, low word count, missing citations — things
+    static fixes can't repair), feed the specific errors back to Claude
+    and regenerate once.
+
+    Returns (markdown, validation_result, attempts).
+    """
     md = generate_article(topic, comments, links, format_prompt=format_prompt)
+    correction = correct_banned_phrases(md)
+    if correction.total_replacements > 0:
+        print(f"      Auto-corrected {correction.total_replacements} banned-phrase hit(s): "
+              f"{[f'{c[0]!r}×{c[2]}' for c in correction.corrections]}")
+    md = correction.corrected
     v = validate(md)
     if v.ok:
         return md, v, 1
 
-    print(f"      Validation FAILED on attempt 1: {v.errors}")
+    print(f"      Validation FAILED after auto-correct (attempt 1): {v.errors}")
     feedback = "\n".join(f"- {e}" for e in v.errors)
     md = generate_article(topic, comments, links, retry_feedback=feedback, format_prompt=format_prompt)
+    # Auto-correct the retry output too — Claude often re-introduces the
+    # same banned phrases on a "rewrite without X" prompt.
+    correction = correct_banned_phrases(md)
+    if correction.total_replacements > 0:
+        print(f"      Auto-corrected (retry) {correction.total_replacements} banned-phrase hit(s)")
+    md = correction.corrected
     v = validate(md)
     return md, v, 2
 
@@ -153,17 +178,68 @@ def check_originality(md: str, state: dict) -> tuple[float, dict | None, list[in
     return sim, match, new_sig
 
 
-def email_failure(topic: dict, errors: list[str]) -> None:
-    """Stub — logged to stdout for GitHub Actions visibility.
-    Wire up Resend/SMTP later if you want a real inbox notification."""
+def email_failure(topic: dict, errors: list[str], stage: str = "pipeline") -> None:
+    """Send a Resend alert when the content engine fails to publish.
+
+    Called only AFTER auto-correct + Claude-retry have both exhausted
+    on a recoverable failure, OR on a hard-stop (originality match
+    against a prior post). The auto-correct pipeline in
+    auto_correct.py handles surface-level fixes silently; this alert
+    means a HUMAN needs to look at the failure.
+
+    Best-effort send: if Resend isn't configured or the request fails,
+    we still print to stdout so the GH Actions log captures the error.
+    """
     print("=" * 60)
-    print("CONTENT ENGINE: GENERATION FAILED — NO ARTICLE PUBLISHED")
+    print(f"CONTENT ENGINE: {stage.upper()} FAILED — NO ARTICLE PUBLISHED")
     print("=" * 60)
     print(f"Topic: {topic.get('title')}")
     print("Errors:")
     for e in errors:
         print(f"  - {e}")
     print("=" * 60)
+
+    # Send via Resend (same pattern as _alert_hero_failure below)
+    import urllib.request
+    from get_token import load_env as _load
+    env = _load()
+    resend_key = env.get("RESEND_API_KEY", "")
+    if not resend_key:
+        print("[alert] no RESEND_API_KEY — Resend email skipped (stdout only)")
+        return
+
+    error_rows = "".join(f"<li><code>{(e or '')[:300]}</code></li>" for e in errors)
+    html = (
+        f"<h2>Content engine: {stage} failed</h2>"
+        f"<p><strong>Topic:</strong> {topic.get('title')}</p>"
+        f"<p>The content engine could not publish today. Both the auto-correct "
+        f"normalizer and the Claude-retry feedback loop were exhausted without "
+        f"producing valid output.</p>"
+        f"<h3>Errors</h3><ul>{error_rows}</ul>"
+        f"<p style='color:#666;font-size:11px;'>Run log: see GitHub Actions "
+        f"<a href='https://github.com/aagrawal2424/elmandrye/actions/workflows/content-engine.yml'>content-engine.yml</a> "
+        f"for the full trace. Next scheduled run: tomorrow 14:00 UTC.</p>"
+    )
+    body = json.dumps({
+        "from": "Elm & Rye content engine <support@elmandrye.com>",
+        "to": ["aj@portraitpal.ai"],
+        "subject": f"[content-engine] {stage} failed: {(topic.get('title') or '')[:60]}",
+        "html": html,
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=body, method="POST",
+        headers={
+            "Authorization": f"Bearer {resend_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "elmandrye-content-engine/1.0",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            print(f"[alert] Resend email sent: {r.status}")
+    except Exception as e:
+        print(f"[alert] Resend send failed: {e}")
 
 
 def _alert_hero_failure(title: str, attempts_log: list[dict]) -> None:
@@ -342,7 +418,7 @@ def main() -> int:
 
     if not v.ok:
         print(f"[6/9] Validation FAILED after retry. Errors: {v.errors}")
-        email_failure(topic, v.errors)
+        email_failure(topic, v.errors, stage="validation")
         # still log to state so we don't retry the same topic tomorrow
         state.setdefault("run_log", []).append({
             "ts": time.time(), "topic": topic.get("title"),
@@ -361,7 +437,7 @@ def main() -> int:
         msg = (f"Article too similar to prior post '{prior_title}' "
                f"(Jaccard {sim:.2f} > {SIMILARITY_THRESHOLD:.2f}). Skipping publish.")
         print(f"[6.5/9] ORIGINALITY FAIL — {msg}")
-        email_failure(topic, [msg])
+        email_failure(topic, [msg], stage="originality")
         state.setdefault("run_log", []).append({
             "ts": time.time(), "topic": topic.get("title"),
             "status": "originality_failed", "similarity": sim,
