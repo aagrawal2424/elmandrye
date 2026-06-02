@@ -14,7 +14,7 @@ from product_engine.sources.errors import NoIdeasError    # noqa: E402
 from product_engine.market_research import research_topic  # noqa: E402
 from product_engine.image_generator import generate_product_image  # noqa: E402
 from product_engine.product_creator import create_demand_product   # noqa: E402
-from product_engine.notify import send_product_live               # noqa: E402
+from product_engine.notify import send_product_live, send_hero_failure  # noqa: E402
 
 STATE_FILE = Path(__file__).parent / "state.json"
 MAX_NEW_PER_RUN = 1  # one new demand-test product per day
@@ -163,8 +163,33 @@ def run(dry_run: bool = False) -> int:
                 dry_run=dry_run,
             )
         except Exception as e:
-            print(f"[main] Image generation failed: {e}")
-            image_url = ""
+            # Fail-loud per AJ 2026-06-02: NEVER publish a product without
+            # a hero. Previous behavior set image_url="" and shipped a
+            # naked product card. Now: skip the candidate, alert ops,
+            # try the next opportunity in the same run so we still ship
+            # something today if another candidate's image succeeds.
+            print(f"[main] HERO PIPELINE FAILED — skipping {name!r}: {e}")
+            try:
+                send_hero_failure(name, str(e))
+            except Exception as alert_err:
+                print(f"[main]   (hero-failure alert send failed: {alert_err})")
+            state.setdefault("skipped_no_image", []).append({
+                "ts": datetime.now(timezone.utc).isoformat(),
+                "product_name": name,
+                "error": str(e),
+            })
+            save_state(state)
+            continue
+
+        if not image_url:
+            # Defense in depth: generate_product_image succeeded by code
+            # path but returned an empty string. Same skip behavior.
+            print(f"[main] generate_product_image returned empty url for {name!r} — skipping")
+            try:
+                send_hero_failure(name, "generate_product_image returned empty url (no exception)")
+            except Exception:
+                pass
+            continue
 
         try:
             product = create_demand_product(research, image_url, dry_run=dry_run)

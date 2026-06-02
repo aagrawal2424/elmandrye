@@ -43,3 +43,25 @@ def send_product_live(product_title: str, handle: str) -> None:
         f"<p>The checkout intercept is active — signups will notify you at {ADMIN_EMAIL}.</p>"
     )
     _send(f"Product live: {product_title}", html)
+
+
+def send_hero_failure(product_name: str, error: str) -> None:
+    """Sent when image generation fails for a candidate product. Per AJ
+    2026-06-02, products MUST ship with a hero image — never silently
+    publish without one (was the legacy behavior). Engine skips this
+    candidate and surfaces the failure so the operator can investigate
+    the image provider (OpenAI, Replicate, Stability) without waiting
+    for a customer to report a blank product card."""
+    html = (
+        f"<h2 style='color:#b00;'>Product engine: image generation FAILED</h2>"
+        f"<p>Candidate: <strong>{product_name}</strong></p>"
+        f"<p>Error:</p><pre>{error}</pre>"
+        f"<p>The engine SKIPPED this candidate rather than publish a no-image "
+        f"product. Investigation steps:</p>"
+        f"<ol>"
+        f"<li>Check OPENAI_API_KEY / REPLICATE_API_TOKEN / STABILITY_API_KEY in repo secrets</li>"
+        f"<li>If transient (5xx, timeout), re-run the workflow via Actions UI</li>"
+        f"<li>If consistent (provider returning 4xx), check provider dashboard for quota/billing</li>"
+        f"</ol>"
+    )
+    _send(f"[product engine] image gen FAILED: {product_name}", html)
