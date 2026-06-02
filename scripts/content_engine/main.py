@@ -497,7 +497,14 @@ def main() -> int:
     print("[7b/9] Generating 90s video summary...")
     video_block_html = ""
     try:
-        video = generate_video_for_article(md, title)
+        from publish import slugify  # local: keeps the import surface narrow
+        predicted_handle = slugify(title)
+        video = generate_video_for_article(
+            md,
+            title,
+            handle=predicted_handle,
+            hero_image_url=hero_url,
+        )
         if video:
             video_block_html = build_video_block_html(
                 video_url=video.cdn_url,

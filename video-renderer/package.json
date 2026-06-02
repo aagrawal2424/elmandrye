@@ -1,0 +1,27 @@
+{
+  "name": "elmandrye-video-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion-based animated video summary renderer for the elmandrye content engine. Invoked from scripts/content_engine/video_summary_remotion.py.",
+  "scripts": {
+    "build": "remotion render src/index.ts VideoSummary out.mp4",
+    "preview": "remotion studio src/index.ts",
+    "browser:ensure": "remotion browser ensure"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.291",
+    "@remotion/cli": "4.0.291",
+    "@remotion/google-fonts": "4.0.291",
+    "@remotion/media-parser": "4.0.291",
+    "@remotion/media-utils": "4.0.291",
+    "@remotion/renderer": "4.0.291",
+    "@remotion/transitions": "4.0.291",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "remotion": "4.0.291"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "typescript": "5.7.2"
+  }
+}
