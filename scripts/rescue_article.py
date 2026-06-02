@@ -44,7 +44,16 @@ SHOPIFY_STORE = load_env().get("SHOPIFY_STORE", "elmandrye.myshopify.com")
 API_VERSION = load_env().get("SHOPIFY_API_VERSION", "2025-01")
 
 
-def _request(method: str, path: str, body: dict | None = None) -> dict:
+def _request(method: str, path: str, body: dict | None = None,
+             _retry_429: int = 3, _retry_401: int = 1) -> dict:
+    """Admin REST call with 429 Retry-After backoff and one 401 token-refresh.
+
+    Shopify Admin REST returns 429 on rate-limit with a `Retry-After` header
+    (seconds). We honor it up to _retry_429 attempts.
+
+    A 401 typically means the cached token expired between our refresh
+    buffer and the actual call. Wipe the cache and retry once.
+    """
     token = get_token()
     url = f"https://{SHOPIFY_STORE}/admin/api/{API_VERSION}{path}"
     data = json.dumps(body).encode() if body is not None else None
@@ -58,9 +67,25 @@ def _request(method: str, path: str, body: dict | None = None) -> dict:
             "Accept": "application/json",
         },
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        raw = r.read()
-    return json.loads(raw) if raw else {}
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            raw = r.read()
+        return json.loads(raw) if raw else {}
+    except urllib.error.HTTPError as e:
+        if e.code == 429 and _retry_429 > 0:
+            wait = float(e.headers.get("Retry-After", "2"))
+            print(f"[shopify] 429 on {method} {path}, sleeping {wait:.1f}s")
+            time.sleep(wait)
+            return _request(method, path, body,
+                            _retry_429=_retry_429 - 1, _retry_401=_retry_401)
+        if e.code == 401 and _retry_401 > 0:
+            # Stale token in cache — wipe and re-fetch on the retry.
+            cache = Path(__file__).resolve().parent.parent / ".token-cache.json"
+            cache.unlink(missing_ok=True)
+            print("[shopify] 401, wiped token cache and retrying once")
+            return _request(method, path, body,
+                            _retry_429=_retry_429, _retry_401=_retry_401 - 1)
+        raise
 
 
 def fetch_article(article_id: int) -> dict:
@@ -80,7 +105,30 @@ def strip_leading_h1(body_html: str) -> tuple[str, bool]:
 
 
 def stamp_provenance(article_id: int, run_id: str) -> None:
-    """Attach engine.run_id metafield. Idempotent — upserts on (namespace, key)."""
+    """Attach engine.run_id metafield. Real upsert: GET → PUT-if-exists, else POST.
+
+    Shopify's REST Admin API does NOT upsert on POST — a (namespace, key)
+    collision returns 422 'key has already been taken'. We GET first to
+    detect that and PUT the existing metafield id when found. This matters
+    because rescue_article.py can be re-run on the same article (e.g. if
+    the operator runs both the manual CLI and article_guard fires later),
+    and we want the second run to either no-op cleanly OR refresh the
+    value, never silently fail."""
+    existing = _request(
+        "GET",
+        f"/articles/{article_id}/metafields.json?namespace=engine&key=run_id",
+    )
+    metafields = existing.get("metafields") or []
+    if metafields:
+        mf_id = metafields[0]["id"]
+        if metafields[0].get("value") == run_id:
+            return  # no-op: value already current
+        _request(
+            "PUT",
+            f"/metafields/{mf_id}.json",
+            {"metafield": {"id": mf_id, "value": run_id, "type": "single_line_text_field"}},
+        )
+        return
     _request(
         "POST",
         f"/articles/{article_id}/metafields.json",

@@ -9,16 +9,22 @@ Invariants the engine guarantees but Shopify Admin manual publishes break:
 If an article fails any check, this script:
   - calls scripts/rescue_article.py logic to fix it in place
   - emits a Resend alert to OPS_EMAIL listing what was found + fixed
-  - logs the incident to state.json for audit
+  - records the (article_id, failure_tuple) in a 24h-TTL dedup state so
+    we don't re-alert on the same article every tick
 
 Designed to run on a tight cron (every 30 min during business hours) so an
-off-path manual publish has a max exposure window of ~30 min on the
-storefront. Idempotent — re-running a clean article is a no-op.
+off-path manual publish has a max exposure window of ~30 min. Idempotent —
+re-running on a clean article is a no-op.
 
-Why polling instead of just the workflow-build webhook validator? The
-webhook validator has lower latency but depends on cross-repo Vercel env
-wiring. This guard uses ONLY the elmandrye Custom App creds already in
-the repo's GitHub Secrets — zero external dependencies, ships in one PR.
+Safety floors applied:
+  - MIN_ARTICLE_AGE_MINUTES = 10 — skip articles created in the last 10
+    min so we don't race the daily cron's read-after-write lag.
+  - MIN_CREATED_AT — articles created before the engine.run_id metafield
+    rollout (2026-06-01) only get audited for h1/image violations, NOT
+    for missing metafields. Otherwise the first run would mass-stamp
+    every historical article.
+  - LOOKBACK_HOURS capped at 12 — prevents accidental month-long scans
+    via env-var override.
 """
 from __future__ import annotations
 
@@ -27,6 +33,7 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
@@ -47,8 +54,26 @@ SHOPIFY_STORE = load_env().get("SHOPIFY_STORE", "elmandrye.myshopify.com")
 API_VERSION = load_env().get("SHOPIFY_API_VERSION", "2025-01")
 BLOG_HANDLE = load_env().get("BLOG_HANDLE", "news")
 OPS_EMAIL = os.environ.get("CONTENT_ENGINE_OPS_EMAIL", "aj@portraitpal.ai")
-# How far back to scan on each tick — covers our cron interval + buffer.
-LOOKBACK_HOURS = int(os.environ.get("ARTICLE_GUARD_LOOKBACK_HOURS", "6"))
+# Lookback for the article-listing query. Capped at MAX_LOOKBACK_HOURS so
+# an env-var override can't accidentally trigger a months-long scan.
+MAX_LOOKBACK_HOURS = 12
+LOOKBACK_HOURS = min(MAX_LOOKBACK_HOURS,
+                     int(os.environ.get("ARTICLE_GUARD_LOOKBACK_HOURS", "6")))
+# Skip articles created in this window — gives the daily content engine
+# time to finish stamping its metafield + lets Shopify's read-after-write
+# settle. The daily cron's publish step itself is bounded by the GHA
+# job's 30-min timeout; 10 min is well past the median publish time.
+MIN_ARTICLE_AGE_SEC = 10 * 60
+# Engine started writing engine.run_id at commit 7ef46c4 on 2026-06-01
+# 23:19 UTC. Articles older than that legitimately lack the metafield
+# and should NOT be flagged as "off-path" on that signal alone. They are
+# still audited for h1/image violations.
+ENGINE_METAFIELD_CUTOVER_TS = 1780423140  # 2026-06-01T23:19:00Z
+# Dedup window — don't re-alert on the same (article_id, failure_tuple)
+# within this many seconds. Avoids the every-30-min alert spam loop when
+# a violation can't be auto-fixed (e.g. hero provider returning 5xx).
+DEDUP_TTL_SEC = 24 * 3600
+DEDUP_STATE_FILE = HERE / "article_guard_state.json"
 
 
 @dataclass
@@ -61,7 +86,10 @@ class Violation:
     error: str | None = None
 
 
-def _admin(method: str, path: str, body: dict | None = None) -> dict:
+def _admin(method: str, path: str, body: dict | None = None,
+           _retry_429: int = 3, _retry_401: int = 1) -> dict:
+    """Admin REST with 429 Retry-After backoff + 401 token-refresh.
+    Mirrors rescue_article.py::_request — kept in sync intentionally."""
     token = get_token()
     url = f"https://{SHOPIFY_STORE}/admin/api/{API_VERSION}{path}"
     data = json.dumps(body).encode() if body is not None else None
@@ -75,9 +103,24 @@ def _admin(method: str, path: str, body: dict | None = None) -> dict:
             "Accept": "application/json",
         },
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        raw = r.read()
-    return json.loads(raw) if raw else {}
+    try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            raw = r.read()
+        return json.loads(raw) if raw else {}
+    except urllib.error.HTTPError as e:
+        if e.code == 429 and _retry_429 > 0:
+            wait = float(e.headers.get("Retry-After", "2"))
+            print(f"[guard] 429 on {method} {path}, sleeping {wait:.1f}s")
+            time.sleep(wait)
+            return _admin(method, path, body,
+                          _retry_429=_retry_429 - 1, _retry_401=_retry_401)
+        if e.code == 401 and _retry_401 > 0:
+            cache = HERE.parent.parent / ".token-cache.json"
+            cache.unlink(missing_ok=True)
+            print("[guard] 401 — wiped token cache and retrying once")
+            return _admin(method, path, body,
+                          _retry_429=_retry_429, _retry_401=_retry_401 - 1)
+        raise
 
 
 def _list_blog_id() -> int:
@@ -102,27 +145,55 @@ def _list_recent_articles(blog_id: int, since_iso: str) -> list[dict]:
     return _admin("GET", path).get("articles") or []
 
 
-def _has_run_id_metafield(article_id: int) -> bool:
-    resp = _admin(
-        "GET",
-        f"/articles/{article_id}/metafields.json?namespace=engine&key=run_id",
-    )
-    return bool(resp.get("metafields"))
+def _has_run_id_metafield(article_id: int) -> bool | None:
+    """Returns True/False on success, None on transient API failure (so the
+    caller can skip the violation rather than swallow it silently)."""
+    try:
+        resp = _admin(
+            "GET",
+            f"/articles/{article_id}/metafields.json?namespace=engine&key=run_id",
+        )
+        return bool(resp.get("metafields"))
+    except Exception as e:
+        print(f"[guard] metafield GET failed for {article_id}: {e}")
+        return None
+
+
+def _parse_created_at_ts(s: str | None) -> float:
+    """Best-effort ISO 8601 → unix timestamp. Returns 0.0 on parse failure
+    (caller treats that as 'unknown age → skip safety floor')."""
+    if not s:
+        return 0.0
+    try:
+        # Shopify returns "2026-06-02T11:07:04-07:00"
+        from datetime import datetime
+        return datetime.fromisoformat(s).timestamp()
+    except Exception:
+        return 0.0
 
 
 def audit_one(article: dict) -> Violation | None:
     """Returns a Violation iff the article fails at least one invariant,
-    after attempting to auto-fix what we can."""
+    after attempting to auto-fix what we can. Each invariant check is
+    isolated in its own try block so a transient failure on one doesn't
+    mask the others."""
     aid = int(article["id"])
     title = article.get("title") or ""
     handle = article.get("handle") or ""
     body = article.get("body_html") or ""
+    created_ts = _parse_created_at_ts(article.get("created_at"))
+
+    # Safety floor: skip articles too young for read-after-write to settle.
+    if created_ts and (time.time() - created_ts) < MIN_ARTICLE_AGE_SEC:
+        return None
 
     failures: list[str] = []
     fixed: list[str] = []
-    err: str | None = None
+    errors: list[str] = []
 
-    if re.match(r"^\s*<h1[^>]*>[^<]*</h1>", body, re.IGNORECASE):
+    # Check 1: leading <h1>. Loosened regex — original [^<]* missed h1s
+    # with nested <strong>/<em>. DOTALL handles multi-line h1s.
+    if re.match(r"^\s*<h1[^>]*>.*?</h1>", body, re.IGNORECASE | re.DOTALL):
         failures.append("body_starts_with_h1")
         try:
             new_body, _ = strip_leading_h1(body)
@@ -133,8 +204,9 @@ def audit_one(article: dict) -> Violation | None:
             )
             fixed.append("body_h1_stripped")
         except Exception as e:
-            err = f"h1 strip failed: {e}"
+            errors.append(f"h1 strip failed: {e}")
 
+    # Check 2: feature image.
     has_image = bool((article.get("image") or {}).get("src"))
     if not has_image:
         failures.append("missing_feature_image")
@@ -142,15 +214,19 @@ def audit_one(article: dict) -> Violation | None:
             generate_and_attach_hero(aid, title)
             fixed.append("hero_attached")
         except Exception as e:
-            err = (err + "; " if err else "") + f"hero attach failed: {e}"
+            errors.append(f"hero attach failed: {e}")
 
-    try:
-        if not _has_run_id_metafield(aid):
+    # Check 3: engine.run_id metafield. Only apply to articles created
+    # AFTER the metafield-writing code shipped — older articles get a pass.
+    if created_ts and created_ts >= ENGINE_METAFIELD_CUTOVER_TS:
+        present = _has_run_id_metafield(aid)
+        if present is False:  # explicit False, not None (= skipped on error)
             failures.append("missing_engine_run_id")
-            stamp_provenance(aid, f"guard-{int(time.time())}")
-            fixed.append("run_id_stamped")
-    except Exception as e:
-        err = (err + "; " if err else "") + f"metafield check failed: {e}"
+            try:
+                stamp_provenance(aid, f"guard-{int(time.time())}")
+                fixed.append("run_id_stamped")
+            except Exception as e:
+                errors.append(f"metafield stamp failed: {e}")
 
     if not failures:
         return None
@@ -160,8 +236,38 @@ def audit_one(article: dict) -> Violation | None:
         handle=handle,
         failures=failures,
         fixed=fixed,
-        error=err,
+        error="; ".join(errors) if errors else None,
     )
+
+
+def _load_dedup_state() -> dict:
+    if not DEDUP_STATE_FILE.exists():
+        return {}
+    try:
+        return json.loads(DEDUP_STATE_FILE.read_text())
+    except Exception:
+        return {}
+
+
+def _save_dedup_state(state: dict) -> None:
+    try:
+        DEDUP_STATE_FILE.write_text(json.dumps(state, indent=2))
+    except Exception as e:
+        print(f"[guard] dedup state save failed: {e}")
+
+
+def _dedup_key(v: Violation) -> str:
+    return f"{v.article_id}:{'|'.join(sorted(v.failures))}"
+
+
+def _is_recently_alerted(v: Violation, state: dict) -> bool:
+    """True if we've alerted on this exact (article_id, failure_tuple)
+    in the last DEDUP_TTL_SEC. Prevents re-emailing every 30 min on a
+    violation we can't auto-fix."""
+    last = state.get(_dedup_key(v))
+    if not last:
+        return False
+    return (time.time() - float(last)) < DEDUP_TTL_SEC
 
 
 def alert(violations: list[Violation]) -> None:
@@ -208,10 +314,41 @@ def alert(violations: list[Violation]) -> None:
         print(f"[guard] alert send failed: {e}")
 
 
+def _send_infra_alert(error: Exception) -> None:
+    """Last-resort alert when main() itself throws (auth, network outage,
+    Shopify down). Without this, the guard would just exit non-zero and
+    GHA would mark the run failed — but AJ would only notice on the
+    weekly digest."""
+    key = os.environ.get("RESEND_API_KEY")
+    if not key:
+        return
+    body = json.dumps({
+        "from": "guard@notifications.elmandrye.com",
+        "to": [OPS_EMAIL],
+        "subject": "[elmandrye] Article guard INFRA failure",
+        "html": (
+            "<p>article_guard.py main() raised:</p>"
+            f"<pre>{type(error).__name__}: {error}</pre>"
+            "<p>Check the GitHub Actions run for the full traceback. Common causes: "
+            "Shopify Admin token rotated, Shopify Admin API down, network egress blocked.</p>"
+        ),
+    }).encode()
+    req = urllib.request.Request(
+        "https://api.resend.com/emails",
+        data=body,
+        headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+    )
+    try:
+        urllib.request.urlopen(req, timeout=30)
+    except Exception:
+        pass  # nothing more we can do
+
+
 def main() -> int:
     since = time.time() - LOOKBACK_HOURS * 3600
     since_iso = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime(since))
-    print(f"[guard] scanning articles created since {since_iso}")
+    print(f"[guard] scanning articles created since {since_iso} "
+          f"(lookback={LOOKBACK_HOURS}h, min_age={MIN_ARTICLE_AGE_SEC // 60}min)")
 
     blog_id = _list_blog_id()
     articles = _list_recent_articles(blog_id, since_iso)
@@ -228,10 +365,29 @@ def main() -> int:
                 + (f" error={v.error}" if v.error else "")
             )
 
-    if violations:
-        alert(violations)
-    else:
+    if not violations:
         print("[guard] all clean.")
+        return 0
+
+    # Dedup: only alert on (article_id, failure_tuple)s we haven't
+    # already alerted on in the last 24h.
+    state = _load_dedup_state()
+    new_violations = [v for v in violations if not _is_recently_alerted(v, state)]
+    suppressed = len(violations) - len(new_violations)
+    if suppressed:
+        print(f"[guard] {suppressed} violation(s) suppressed by dedup TTL")
+
+    if new_violations:
+        alert(new_violations)
+        # Record EVERY violation (new + suppressed), so the TTL window
+        # extends each time we see them.
+        now = time.time()
+        for v in violations:
+            state[_dedup_key(v)] = now
+        # Prune entries older than 2× TTL — keeps file bounded.
+        cutoff = now - (2 * DEDUP_TTL_SEC)
+        state = {k: t for k, t in state.items() if float(t) >= cutoff}
+        _save_dedup_state(state)
 
     # Exit 0 either way — violations are auto-corrected, not failures.
     # CI failure should only happen for infra problems (auth, network).
@@ -239,4 +395,11 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except SystemExit:
+        raise
+    except Exception as e:
+        print(f"[guard] INFRA FAILURE: {type(e).__name__}: {e}")
+        _send_infra_alert(e)
+        raise
