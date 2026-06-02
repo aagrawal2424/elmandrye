@@ -51,6 +51,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'xanthohumol' appears in 3 recent supplement-research papers (most recent example: \"Modulation of Microbiota-Derived Bile Acids Linked to Symptom Amelioration in Crohn's Disease: Insights From a Randomized Clinical Trial With Xanthohumol Supple\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Fisetin",
+      "product_title": "Fisetin",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9188426088660",
+      "handle": "fisetin",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/59482a44-58c1-4398-8302-56289dc74840/er-product-fisetin.png",
+      "created_at": "2026-06-02",
+      "price_usd": 79.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'fisetin' appears in 2 recent supplement-research papers (most recent example: \"12\u2011weeks fisetin supplementation and interval resistance with aerobic training: changes in Maresin\u20111 and inflammatory markers in men with obesity: a randomized \"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
