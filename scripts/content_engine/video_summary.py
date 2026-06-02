@@ -562,9 +562,23 @@ def generate_video_for_article(
     article_md: str,
     title: str,
     work_dir: Optional[Path] = None,
+    handle: Optional[str] = None,
+    hero_image_url: Optional[str] = None,
 ) -> Optional[GeneratedVideo]:
-    """Top-level: returns a GeneratedVideo or None if any step gracefully bailed."""
-    if not _ffmpeg_available():
+    """Top-level: returns a GeneratedVideo or None if any step gracefully bailed.
+
+    When CONTENT_ENGINE_VIDEO=true is set in the environment, swaps the
+    static-slide compositor for the Remotion-based animated renderer and
+    upgrades the ElevenLabs voice to Adam + multilingual_v2.
+    """
+    import video_summary_remotion as remotion  # local: optional dep tree
+
+    use_remotion = remotion.is_enabled()
+    if use_remotion and not remotion.renderer_ready():
+        print("[video] CONTENT_ENGINE_VIDEO=true but renderer not ready — falling back to Pillow")
+        use_remotion = False
+
+    if not _ffmpeg_available() and not use_remotion:
         print("[video] ffmpeg not installed — skipping video summary")
         return None
 
@@ -591,18 +605,44 @@ def generate_video_for_article(
         slide_path = work_dir / "slide.png"
         video_path = work_dir / "summary.mp4"
 
-        print("[video] synthesizing voiceover…")
-        if not synthesize_voiceover(script.spoken_text, audio_path):
-            return None
+        if use_remotion:
+            print("[video] (remotion) synthesizing voiceover with Adam / multilingual_v2…")
+            if not remotion.synthesize_voiceover_adam(
+                script.spoken_text, audio_path, elevenlabs_key
+            ):
+                return None
+        else:
+            print("[video] synthesizing voiceover…")
+            if not synthesize_voiceover(script.spoken_text, audio_path):
+                return None
         print(f"[video]   audio: {audio_path.stat().st_size:,} bytes")
 
-        print("[video] rendering slide…")
-        if not _render_slide(script, title, slide_path):
-            return None
+        if use_remotion:
+            print("[video] (remotion) expanding script points into slide headlines…")
+            points_v2 = remotion.expand_points_for_video(script.points, title, article_md)
+            audio_dur_guess = _probe_duration_sec(audio_path) if shutil.which("ffprobe") else max(
+                12.0, len(script.spoken_text) / 16.0
+            )
+            print("[video] (remotion) rendering animated mp4…")
+            if not remotion.render_remotion_video(
+                audio_path=audio_path,
+                title=title,
+                handle=handle or "",
+                points=points_v2,
+                hero_image_url=hero_image_url,
+                audio_duration_sec=audio_dur_guess,
+                output_path=video_path,
+            ):
+                print("[video] (remotion) render failed — NOT falling back; flag is opt-in")
+                return None
+        else:
+            print("[video] rendering slide…")
+            if not _render_slide(script, title, slide_path):
+                return None
 
-        print("[video] compositing mp4…")
-        if not composite_video(audio_path, slide_path, video_path):
-            return None
+            print("[video] compositing mp4…")
+            if not composite_video(audio_path, slide_path, video_path):
+                return None
         print(f"[video]   mp4: {video_path.stat().st_size:,} bytes")
 
         duration = _probe_duration_sec(video_path)

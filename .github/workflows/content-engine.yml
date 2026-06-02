@@ -19,7 +19,10 @@ on:
 jobs:
   publish-daily-article:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    # Bumped from 15→30 to accommodate the Remotion render step (3-6 min on
+    # the runner) when CONTENT_ENGINE_VIDEO=true. Still tight enough to fail
+    # loudly if the bundle stage hangs.
+    timeout-minutes: 30
     permissions:
       contents: write  # needed for the state.json auto-commit at end
 
@@ -29,6 +32,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          # Cache node_modules for video-renderer/ across runs.
+          cache: npm
+          cache-dependency-path: video-renderer/package-lock.json
 
       - name: Install Python deps + Pillow (for video slide rendering)
         run: |
@@ -43,6 +53,15 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg
           ffmpeg -version | head -1
+
+      - name: Install Remotion renderer deps (only when video flag is on)
+        if: ${{ vars.CONTENT_ENGINE_VIDEO == 'true' }}
+        run: |
+          cd video-renderer
+          npm ci
+          # Pre-download the headless Chrome binary so the render step
+          # doesn't pay the cost during the actual run.
+          npx remotion browser ensure
 
       - name: Preflight — require image provider secrets
         env:
@@ -101,6 +120,10 @@ jobs:
       - name: Run content engine
         env:
           CONTENT_ENGINE_DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          # Toggle via repo variables (not secrets) so we can flip from the
+          # GitHub UI without rotating anything. Defaults to off until v1 is
+          # validated on a preview run.
+          CONTENT_ENGINE_VIDEO: ${{ vars.CONTENT_ENGINE_VIDEO || 'false' }}
         run: python scripts/content_engine/main.py
 
       - name: Commit state.json updates
