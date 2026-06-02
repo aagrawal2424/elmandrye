@@ -30,7 +30,7 @@ VIDEO_RENDERER_DIR = REPO_ROOT / "video-renderer"
 # Voice tuning the user signed off on for this v1 — Adam, eleven_multilingual_v2.
 # Anchored here (not in env defaults) so we don't accidentally drift them
 # between runs. Override via env when intentionally A/B testing.
-ELEVENLABS_ADAM_VOICE_ID = "pNInz6obpgDXkVnNRC50"
+ELEVENLABS_ADAM_VOICE_ID = "pNInz6obpgDQGcFmaJgB"  # "Adam - Dominant, Firm" on AJ's account
 ELEVENLABS_V2_MODEL_ID = "eleven_multilingual_v2"
 ELEVENLABS_V2_VOICE_SETTINGS = {
     "stability": 0.35,
