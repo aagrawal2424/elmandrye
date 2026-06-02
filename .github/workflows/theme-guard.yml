@@ -1,0 +1,113 @@
+name: Theme Guard (live-snippet drift detector)
+
+# Runs every hour during business hours and verifies that the live
+# theme's copy of each tracked snippet matches the source-of-truth in
+# theme/ in this repo. Alerts via Resend if it drifts.
+#
+# Born from the 2026-06-02 Skio price-fallback fix: AJ's theme is a
+# subscription-app-managed theme that someone could overwrite by editing
+# in Shopify Admin Theme Editor or by re-installing the Skio app. The
+# fallback snippet we shipped to make engine-created products display
+# their price would be lost without warning.
+
+on:
+  schedule:
+    - cron: "0 12-23 * * *"   # top of every hour 12:00-23:00 UTC
+  workflow_dispatch: {}
+
+jobs:
+  check-tracked-snippets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Write .env from secrets
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+          SHOPIFY_API_VERSION: ${{ secrets.SHOPIFY_API_VERSION }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          cat > .env <<EOF
+          SHOPIFY_STORE=${SHOPIFY_STORE:-elmandrye.myshopify.com}
+          SHOPIFY_CLIENT_ID=${SHOPIFY_CLIENT_ID}
+          SHOPIFY_CLIENT_SECRET=${SHOPIFY_CLIENT_SECRET}
+          SHOPIFY_API_VERSION=${SHOPIFY_API_VERSION:-2025-01}
+          RESEND_API_KEY=${RESEND_API_KEY}
+          EOF
+
+      - name: Check each tracked theme file vs live theme
+        id: check
+        run: |
+          set +e
+          drifted=()
+          # Iterate every file under theme/ that isn't README.md
+          while IFS= read -r f; do
+            key="${f#theme/}"
+            echo "::group::checking $key"
+            python3 scripts/sync_theme_snippet.py --check "$key"
+            rc=$?
+            echo "::endgroup::"
+            if [ $rc -ne 0 ]; then
+              drifted+=("$key")
+            fi
+          done < <(find theme -type f -name '*.liquid' -o -name '*.css' -o -name '*.js' -o -name '*.json')
+
+          if [ ${#drifted[@]} -gt 0 ]; then
+            echo "DRIFT_LIST=${drifted[*]}" >> "$GITHUB_OUTPUT"
+            echo "::error::Drift detected on: ${drifted[*]}"
+            exit 1
+          else
+            echo "All tracked theme files match live."
+          fi
+
+      - name: Alert on drift
+        if: failure() && steps.check.outputs.DRIFT_LIST != ''
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DRIFT_LIST: ${{ steps.check.outputs.DRIFT_LIST }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          python3 - <<'PY'
+          import json, os, urllib.request
+          key = os.environ.get("RESEND_API_KEY", "")
+          if not key:
+              print("no RESEND_API_KEY — cannot alert")
+              raise SystemExit(0)
+          drift = os.environ.get("DRIFT_LIST", "(unknown)")
+          run_url = os.environ.get("RUN_URL", "")
+          html = (
+              "<h2 style='color:#b00;'>Theme drift detected on elmandrye live</h2>"
+              "<p>The following theme file(s) on the live theme no longer match the repo source:</p>"
+              f"<pre>{drift}</pre>"
+              "<p>Likely cause: someone edited via Shopify Admin Theme Editor, "
+              "or a Skio app update overwrote a snippet we customized.</p>"
+              "<p>To restore, run locally:</p>"
+              "<pre>python3 scripts/sync_theme_snippet.py --target preview &lt;path&gt;\n"
+              "# eyeball preview URL\n"
+              "python3 scripts/sync_theme_snippet.py --target live &lt;path&gt;</pre>"
+              f"<p>Run: <a href='{run_url}'>{run_url}</a></p>"
+          )
+          body = json.dumps({
+              "from": "guard@notifications.elmandrye.com",
+              "to": ["aj@portraitpal.ai"],
+              "subject": f"[elmandrye] Theme drift detected: {drift}",
+              "html": html,
+          }).encode()
+          req = urllib.request.Request(
+              "https://api.resend.com/emails", data=body,
+              headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  print(f"alert sent ({r.status})")
+          except Exception as e:
+              print(f"alert send failed: {e}")
+          PY

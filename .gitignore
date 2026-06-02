@@ -7,3 +7,4 @@ node_modules/
 .token-cache.json
 .DS_Store
 __pycache__/
+.theme-backups/
