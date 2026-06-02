@@ -11,7 +11,7 @@ import {
 } from "remotion";
 import { TransitionSeries, linearTiming } from "@remotion/transitions";
 import { fade } from "@remotion/transitions/fade";
-import { z } from "remotion/zod";
+import { z } from "zod";
 import { loadFont } from "@remotion/google-fonts/Inter";
 import { TitleScene } from "./scenes/TitleScene";
 import { PointScene } from "./scenes/PointScene";
