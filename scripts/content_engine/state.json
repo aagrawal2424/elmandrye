@@ -1377,7 +1377,13 @@
       "live_url": "https://elmandrye.com/blogs/news/how-long-does-ashwagandha-actually-take-to-lower-cortisol",
       "word_count": 813,
       "attempts": 1
+    },
+    {
+      "ts": 1780423672.6008835,
+      "topic": "Omega-3 EPA:DHA ratios \u2014 what the research actually shows",
+      "status": "duplicate_skipped",
+      "reason": "Predicted slug 'epa-vs-dha-what-the-research-actually-shows-about-omega-3-ratios' would collide with existing article 'epa-vs-dha-what-the-research-actually-shows-about-omega-3-ratios' on the blog. Skipping publish to avoid creating a '<slug>-N' duplicate."
     }
   ],
-  "format_index": 5
+  "format_index": 6
 }
