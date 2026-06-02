@@ -1,0 +1,59 @@
+name: Article Guard (off-path publish detector)
+
+# Polls the elmandrye blog every 30 min during business hours and auto-
+# rescues any article that violates the engine's invariants (double H1,
+# missing hero image, or missing engine.run_id metafield → strong signal
+# of a manual Shopify Admin paste that bypassed every other guard).
+#
+# Born from two consecutive incidents (omega-3 article 2026-06-01,
+# vitamin D3 article 2026-06-02) where hand-pasted articles shipped with
+# double titles + no images. Closes the loop until the workflow-build
+# webhook validator + admin scope lockdown are wired.
+
+on:
+  schedule:
+    # Every 30 min, 12:00–23:30 UTC (= roughly 7am–6:30pm Eastern).
+    # Off-hours risk is low because AJ isn't pasting articles at 2am.
+    - cron: "*/30 12-23 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  scan-and-rescue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Write .env from secrets
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+          SHOPIFY_API_VERSION: ${{ secrets.SHOPIFY_API_VERSION }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_IMAGE_MODEL: ${{ secrets.OPENAI_IMAGE_MODEL }}
+          REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+          STABILITY_API_KEY: ${{ secrets.STABILITY_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          cat > .env <<EOF
+          SHOPIFY_STORE=${SHOPIFY_STORE:-elmandrye.myshopify.com}
+          SHOPIFY_CLIENT_ID=${SHOPIFY_CLIENT_ID}
+          SHOPIFY_CLIENT_SECRET=${SHOPIFY_CLIENT_SECRET}
+          SHOPIFY_API_VERSION=${SHOPIFY_API_VERSION:-2025-01}
+          OPENAI_API_KEY=${OPENAI_API_KEY}
+          OPENAI_IMAGE_MODEL=${OPENAI_IMAGE_MODEL:-gpt-image-1}
+          REPLICATE_API_TOKEN=${REPLICATE_API_TOKEN}
+          STABILITY_API_KEY=${STABILITY_API_KEY}
+          RESEND_API_KEY=${RESEND_API_KEY}
+          EOF
+
+      - name: Run article guard
+        env:
+          CONTENT_ENGINE_OPS_EMAIL: aj@portraitpal.ai
+        run: python scripts/content_engine/article_guard.py
