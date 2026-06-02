@@ -18,7 +18,12 @@ on:
 
 jobs:
   publish-daily-article:
-    runs-on: ubuntu-latest
+    # Pinned to 22.04 (NOT ubuntu-latest) because Remotion's headless Chrome
+    # download requires the 22.04 shared-lib names (libasound2, libatk1.0-0,
+    # libcups2, etc.). 24.04 renamed several to *t64 variants and Chrome
+    # fails to start with "error while loading shared libraries". Revisit
+    # when @remotion/renderer ships a 24.04-aware bundle.
+    runs-on: ubuntu-22.04
     # Bumped from 15→30 to accommodate the Remotion render step (3-6 min on
     # the runner) when CONTENT_ENGINE_VIDEO=true. Still tight enough to fail
     # loudly if the bundle stage hangs.

@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   AbsoluteFill,
   Audio,
   Sequence,
+  cancelRender,
+  continueRender,
+  delayRender,
   staticFile,
   useVideoConfig,
 } from "remotion";
@@ -17,7 +20,11 @@ import { BRAND, VIDEO } from "./brand";
 import type { VideoPoint } from "./types";
 
 // Bundle Inter so headless Chrome doesn't fall back to a system font.
-const { fontFamily: interFamily } = loadFont();
+// waitUntilDone() returns a promise that resolves once all font weights
+// have loaded — we block render until then to avoid the title-card flash
+// of fallback font (FOUT). This is a documented Remotion gotcha and more
+// visible during render than in studio.
+const { fontFamily: interFamily, waitUntilDone } = loadFont();
 
 export const videoSummarySchema = z.object({
   title: z.string(),
@@ -67,6 +74,16 @@ export const VideoSummary: React.FC<z.infer<typeof videoSummarySchema>> = ({
   heroImageSrc,
 }) => {
   const { fps, durationInFrames } = useVideoConfig();
+
+  // Block render until Inter is fully loaded — otherwise the title
+  // card's first frames rasterize with a system fallback font and you
+  // get a one-frame swap when Inter arrives mid-render.
+  const [fontHandle] = useState(() => delayRender("loading-inter"));
+  useEffect(() => {
+    waitUntilDone()
+      .then(() => continueRender(fontHandle))
+      .catch((e) => cancelRender(e));
+  }, [fontHandle]);
 
   // Split the timeline: 18% title, ~equal share for each point, 14% CTA.
   const totalSec = durationInFrames / fps;
