@@ -97,6 +97,17 @@ def synthesize_voiceover_adam(
         with urllib.request.urlopen(req, timeout=180) as r:
             output_path.write_bytes(r.read())
         return True
+    except urllib.error.HTTPError as e:
+        # ElevenLabs misuses 401 for quota_exceeded — surface the detail
+        # body so the operator knows whether to retry, shorten the script,
+        # or top up credits. Without this the error reads as auth failure
+        # and people waste time rotating keys.
+        try:
+            err_body = e.read().decode(errors="replace")[:500]
+        except Exception:
+            err_body = "<could not read response body>"
+        print(f"[video/remotion] voiceover HTTP {e.code}: {err_body}")
+        return False
     except Exception as e:
         print(f"[video/remotion] voiceover failed: {e}")
         return False
