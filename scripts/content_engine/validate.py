@@ -227,6 +227,49 @@ def validate(md: str) -> ValidationResult:
             f"{len(our_take_matches)} 'Our take:' blocks found; convention is exactly one."
         )
 
+    # 12. First-person SINGULAR voice — must have at least 3 "I/my/me" markers.
+    # Forbids the corporate "we/our/us" voice the prompt explicitly bans.
+    body_text = strip_faq(md)
+    singular_hits = len(re.findall(r'(?:^|[^\w])(I\s|I\'|my\s|me\s|me\.)', body_text))
+    plural_hits = len(re.findall(r'(?:^|[^\w])(we\s|we\'|our\s|us\s|us\.)', body_text, re.IGNORECASE))
+    result.stats["first_person_singular_hits"] = singular_hits
+    result.stats["first_person_plural_hits"] = plural_hits
+    if singular_hits < 3:
+        result.errors.append(
+            f"First-person SINGULAR voice too thin ({singular_hits} 'I/my/me' markers; need "
+            f"≥3). The system prompt mandates first-person singular throughout — this "
+            f"draft reads as brand-anonymous. Add 'I'-anchored sentences in 2-3 paragraphs."
+        )
+    if plural_hits > 2:
+        result.errors.append(
+            f"First-person PLURAL voice detected ({plural_hits} 'we/our/us' markers; max 2). "
+            f"Rewrite as first-person singular ('I have', 'in my experience') — the brand "
+            f"voice is AJ Agrawal speaking, not 'we at Elm & Rye'."
+        )
+
+    # 13. AJ-personal hook — at least ONE concrete reference to USD, tennis,
+    # SF locations, or running. Catches articles that have an "I" voice but
+    # never anchor it in a real place / activity / measurement.
+    PERSONAL_MARKERS = re.compile(
+        r"\b(USD|Toreros|cross[- ]country|tennis|USTA|"
+        r"San Francisco|SF\b|Bay Area|"
+        r"Golden Gate|Marin Headlands|Twin Peaks|Crissy|Presidio|"
+        r"Ferry Building|farmer's market|"
+        r"long run|track work|interval|tempo run|"
+        r"grandfather)\b",
+        re.IGNORECASE,
+    )
+    personal_hits = PERSONAL_MARKERS.findall(body_text)
+    result.stats["aj_personal_hooks"] = len(personal_hits)
+    if len(personal_hits) == 0:
+        result.errors.append(
+            "No AJ-personal hook found. Per the system prompt, every article must include "
+            "at least one concrete first-person moment anchored in AJ's life (USD cross "
+            "country, tennis, SF runs through Golden Gate Park or Marin Headlands, weather "
+            "context, etc.). Rewrite one paragraph to include a specific named place, "
+            "activity, or measurement from AJ's training or daily life."
+        )
+
     result.ok = len(result.errors) == 0
     return result
 
