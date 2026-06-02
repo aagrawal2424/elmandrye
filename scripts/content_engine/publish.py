@@ -321,7 +321,22 @@ class DuplicateArticleError(Exception):
 
     Single source of truth for dedup is the Shopify blog itself — state.json
     can lose entries across repo migrations or be out of sync.
+
+    Carries the colliding handle so main.py's skip handler can update
+    state.json AND link the existing live URL in the alert email.
     """
+
+    def __init__(self, message: str, *, predicted_slug: str = "",
+                 colliding_handle: str = ""):
+        super().__init__(message)
+        self.predicted_slug = predicted_slug
+        self.colliding_handle = colliding_handle
+
+    @property
+    def existing_url(self) -> str:
+        if not self.colliding_handle:
+            return ""
+        return f"https://elmandrye.com/blogs/news/{self.colliding_handle}"
 
 
 def _existing_article_handles() -> set[str]:
@@ -408,7 +423,9 @@ def publish_article(
         raise DuplicateArticleError(
             f"Predicted slug '{predicted_slug}' would collide with existing "
             f"article '{collision}' on the blog. Skipping publish to avoid "
-            f"creating a '<slug>-N' duplicate."
+            f"creating a '<slug>-N' duplicate.",
+            predicted_slug=predicted_slug,
+            colliding_handle=collision,
         )
 
     # Shopify generates the final handle, but we need a stable URL inside the JSON-LD

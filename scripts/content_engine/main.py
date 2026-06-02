@@ -529,12 +529,56 @@ def main() -> int:
             video_block_html=video_block_html,
         )
     except DuplicateArticleError as e:
+        # CRITICAL: mark the topic as "covered" in state BEFORE returning,
+        # otherwise tomorrow's cron picks the same evergreen topic again
+        # and skips again — that loop is what caused AJ to hand-paste the
+        # vitamin D3 article on 2026-06-02 after this exact path skipped
+        # the omega-3 publish at 18:04Z. Keep the engine and the live
+        # blog state synchronized.
         print(f"[8/9] SKIP — {e}")
+        existing_url = getattr(e, "existing_url", None) or (
+            f"https://elmandrye.com/blogs/news/{getattr(e, 'colliding_handle', '')}"
+        )
+        skip_ts = time.time()
+        # Add a stub covered_topics entry so the title-overlap dedup in
+        # is_duplicate() filters this topic out on the next run.
+        state.setdefault("covered_topics", []).append({
+            "ts": skip_ts,
+            "title": topic["title"],
+            "subreddit": topic.get("subreddit"),
+            "live_url": existing_url,
+            "article_id": None,
+            "signature": new_sig,
+            "source": "duplicate_skip_stub",
+        })
+        # And for evergreen topics, mark them used so pick_topic() rotates
+        # past them in the future. (Reddit topics rely on covered_topics
+        # title-overlap and don't need this.)
+        if not topic.get("subreddit"):
+            state.setdefault("evergreen_used", []).append(topic["title"])
         state.setdefault("run_log", []).append({
-            "ts": time.time(), "topic": topic.get("title"),
+            "ts": skip_ts, "topic": topic.get("title"),
             "status": "duplicate_skipped", "reason": str(e),
+            "existing_url": existing_url,
         })
         save_state(state)
+        # Alert AJ so a human knows the cron didn't ship today.
+        # The runbook (RUNBOOK.md) explicitly says NOT to hand-publish
+        # in this case — the right move is to wait for tomorrow's run,
+        # which will now pick a different topic thanks to the state
+        # update above.
+        try:
+            email_failure(
+                topic,
+                [
+                    f"Slug collision with existing article: {existing_url}",
+                    "State has been updated so tomorrow's cron picks a different topic.",
+                    "DO NOT manually publish via Shopify Admin — that bypasses every guard.",
+                ],
+                stage="duplicate-skip",
+            )
+        except Exception as alert_err:
+            print(f"[8/9] (skip alert send failed: {alert_err})")
         return 0
     print(f"      LIVE: {article['live_url']}")
 
