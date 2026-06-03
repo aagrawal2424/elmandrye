@@ -9,3 +9,6 @@ node_modules/
 __pycache__/
 .theme-backups/
 scripts/content_engine/article_guard_state.json
+# CS agent state is auto-committed by the cron job, not gitignored.
+# /tmp staging for CS audit data:
+/tmp/cs_audit/

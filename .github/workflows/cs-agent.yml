@@ -1,0 +1,74 @@
+name: CS Agent (poll Gorgias + auto-handle)
+
+# Polls Gorgias every 5 min for new customer-service tickets, classifies
+# each, and either auto-handles (where-is-my-order / return-portal redirect
+# / subscription self-serve) or escalates with a tag.
+#
+# Safety: defaults to DRY_RUN=true (logs intended actions, mutates nothing).
+# Flip the repo variable CS_AGENT_DRY_RUN to "false" when ready to go live.
+
+on:
+  schedule:
+    - cron: "*/5 12-23 * * *"   # every 5 min, 12-23 UTC (7am-6:30pm Eastern)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Override dry-run (true/false). Defaults to repo var."
+        required: false
+        default: ""
+        type: string
+
+jobs:
+  poll-and-handle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    permissions:
+      contents: write   # auto-commit state.json after each run
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Write .env from secrets
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+          SHOPIFY_API_VERSION: ${{ secrets.SHOPIFY_API_VERSION }}
+          GORGIAS_SUBDOMAIN: ${{ secrets.GORGIAS_SUBDOMAIN }}
+          GORGIAS_USERNAME: ${{ secrets.GORGIAS_USERNAME }}
+          GORGIAS_API_KEY: ${{ secrets.GORGIAS_API_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          cat > .env <<EOF
+          SHOPIFY_STORE=${SHOPIFY_STORE:-elmandrye.myshopify.com}
+          SHOPIFY_CLIENT_ID=${SHOPIFY_CLIENT_ID}
+          SHOPIFY_CLIENT_SECRET=${SHOPIFY_CLIENT_SECRET}
+          SHOPIFY_API_VERSION=${SHOPIFY_API_VERSION:-2025-01}
+          GORGIAS_SUBDOMAIN=${GORGIAS_SUBDOMAIN:-elmandrye.gorgias.com}
+          GORGIAS_USERNAME=${GORGIAS_USERNAME}
+          GORGIAS_API_KEY=${GORGIAS_API_KEY}
+          RESEND_API_KEY=${RESEND_API_KEY}
+          EOF
+
+      - name: Run CS agent
+        env:
+          # Manual override beats repo variable beats hardcoded default.
+          CS_AGENT_DRY_RUN: ${{ github.event.inputs.dry_run != '' && github.event.inputs.dry_run || vars.CS_AGENT_DRY_RUN || 'true' }}
+        run: python scripts/cs_agent/agent.py
+
+      - name: Commit state.json updates
+        if: success()
+        run: |
+          git config user.name "elmandrye-cs-agent-bot"
+          git config user.email "bot@elmandrye.com"
+          git add scripts/cs_agent/state.json
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "[cs-agent] state $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
