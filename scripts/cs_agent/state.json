@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224333755,
-  "last_run_at": "2026-06-03T13:44:35.285119+00:00",
+  "last_processed_ticket_id": 224372797,
+  "last_run_at": "2026-06-03T18:11:42.345861+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-03",
   "ticket_actions": [
@@ -93,6 +93,72 @@
       "ticket_id": 224333755,
       "action": "unknown_escalated_for_aj",
       "detail": "Pupper + Recharge"
+    },
+    {
+      "ts": "2026-06-03T18:11:36.409821+00:00",
+      "ticket_id": 224334521,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Tomorrow June 4, Ask the Expert Webinar"
+    },
+    {
+      "ts": "2026-06-03T18:11:37.041077+00:00",
+      "ticket_id": 224336003,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Tomorrow June 4, Ask the Expert Webinar"
+    },
+    {
+      "ts": "2026-06-03T18:11:37.041105+00:00",
+      "ticket_id": 224337818,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-06-03T18:11:37.650501+00:00",
+      "ticket_id": 224340087,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Noticed issues on your Website !"
+    },
+    {
+      "ts": "2026-06-03T18:11:37.650529+00:00",
+      "ticket_id": 224341307,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Cindy Carewell, has signed up for your program!"
+    },
+    {
+      "ts": "2026-06-03T18:11:38.275580+00:00",
+      "ticket_id": 224350154,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-06-03T18:11:39.417186+00:00",
+      "ticket_id": 224354243,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Barista Brew: Perfect Flavors Await You!"
+    },
+    {
+      "ts": "2026-06-03T18:11:40.328409+00:00",
+      "ticket_id": 224363300,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald News Update for 6/3/2026"
+    },
+    {
+      "ts": "2026-06-03T18:11:41.240488+00:00",
+      "ticket_id": 224364233,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Shopify store is missing a 24/7 salesperson"
+    },
+    {
+      "ts": "2026-06-03T18:11:41.786678+00:00",
+      "ticket_id": 224370123,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Noticed issues on your Website !"
+    },
+    {
+      "ts": "2026-06-03T18:11:42.345845+00:00",
+      "ticket_id": 224372797,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pip"
     }
   ]
 }
