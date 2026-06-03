@@ -46,8 +46,8 @@ SUPPLIER_EMAIL = "Ben@trytenkara.com"
 SUPPLIER_NAME = "Ben"
 
 # Warehouse manager — for damaged-in-transit / shipping carrier issues.
-# AJ owes me this; until then we draft warehouse handoffs for him to forward.
-WAREHOUSE_EMAIL = None   # TODO: AJ to provide Brennan's email
+# Brennan runs Nitro Logistics, elmandrye's 3PL.
+WAREHOUSE_EMAIL = "brennan@nitrologistics.co"
 WAREHOUSE_NAME = "Brennan"
 
 
