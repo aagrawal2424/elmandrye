@@ -36,7 +36,14 @@
 {% endcomment %}
 {%- assign ph_key = '__POSTHOG_API_KEY__' -%}
 {%- assign ph_host = '__POSTHOG_HOST__' -%}
-{%- if ph_key != '__POSTHOG_API_KEY__' and ph_key != '' -%}
+{%- comment -%}
+  Fail-soft check: real PostHog public project keys always start with `phc_`.
+  If the placeholder hasn't been substituted by install_posthog.py, ph_key
+  will still be the literal `__POSTHOG_API_KEY__` (no `phc_` prefix) and
+  we skip rendering. Don't compare to the placeholder literal here — the
+  string-replace step would also replace it and break the check.
+{%- endcomment -%}
+{%- if ph_key contains 'phc_' -%}
 <script>
   !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
   posthog.init('{{ ph_key }}', {
