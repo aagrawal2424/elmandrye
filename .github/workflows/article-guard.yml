@@ -12,9 +12,13 @@ name: Article Guard (off-path publish detector)
 
 on:
   schedule:
-    # Every 30 min, 12:00–23:30 UTC (= roughly 7am–6:30pm Eastern).
-    # Off-hours risk is low because AJ isn't pasting articles at 2am.
-    - cron: "*/30 12-23 * * *"
+    # Every 5 min, 12:00–23:55 UTC (~7am–6:55pm Eastern). GitHub Actions
+    # cron is "best effort" and silently drops scheduled runs under load
+    # — observed 2-3 runs/day on the previous */30 schedule when 24 were
+    # expected. Bumping to */5 gives us ~144 attempted runs/day so even
+    # if 80% are dropped, we still get ~28 successful ticks (≈1 every
+    # 30 min). Each run is ~10s of API + Python, well within free tier.
+    - cron: "*/5 12-23 * * *"
   workflow_dispatch: {}
 
 jobs:
