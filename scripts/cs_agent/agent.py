@@ -113,11 +113,15 @@ def _detect_intent(subject: str, body: str, tag_names: set[str]) -> str:
     subscription_cancel, damaged_or_missing, refund_request, unknown.
 
     Combines Gorgias's existing intent tags + content keywords. This is
-    deliberately simple; Claude-driven classification is V2."""
+    deliberately strict; Claude-driven classification with full context
+    is V2. Patterns tightened after V1.0 dry-run revealed false positives
+    from B2B newsletters whose unsubscribe-footer triggered subscription
+    intent. The new patterns require explicit customer phrasing.
+    """
     import re
 
-    text = f"{subject}\n{body}".lower()
-
+    # Gorgias's own intent tags are authoritative. If their classifier
+    # tagged it, trust that signal first.
     if "WHERE-IS-MY-ORDER" in tag_names or "ORDER-STATUS" in tag_names:
         return "where_is_my_order"
     if "RETURN/EXCHANGE" in tag_names or "return-portal" in tag_names:
@@ -125,20 +129,71 @@ def _detect_intent(subject: str, body: str, tag_names: set[str]) -> str:
     if "ORDER-CHANGE/CANCEL" in tag_names:
         return "order_cancel"
 
-    if re.search(r"\b(where(.?s|\sis)\s+my\s+(order|package)|tracking|haven.?t\s+received)\b", text):
+    # Content fallback — but be strict. Subject-only signal is too noisy
+    # (Instagram digests, Awin "new affiliate signed up", SEO spam all
+    # share footer keywords). Use subject AND body together but require
+    # SPECIFIC phrasings, not generic terms.
+    text_lower = f"{subject}\n{body}".lower()
+    subj_lower = subject.lower()
+
+    if re.search(
+        r"\b(where(.?s|\s+is)\s+my\s+(order|package|shipment)"
+        r"|haven.?t\s+received\s+my"
+        r"|order\s+status"
+        r"|tracking\s+(number|info|update)"
+        r"|when\s+will\s+(I|my\s+order)\s+(get|arrive|ship))\b",
+        subj_lower,
+    ):
         return "where_is_my_order"
-    if re.search(r"\b(return|exchange)\b", text):
+
+    if re.search(
+        r"\b((start|do)\s+a\s+return|return\s+(my|the|this)\s+order|exchange\s+(my|the))\b",
+        text_lower,
+    ):
         return "return_exchange"
-    if re.search(r"\bcancel\s+(my\s+)?subscription|unsubscribe|skio\b", text):
+
+    # Subscription cancel — REQUIRE explicit "cancel my X" phrasing in
+    # subject OR body. The old `|unsubscribe|skio` branch matched every
+    # B2B newsletter footer. Now we need actual customer language.
+    if re.search(
+        r"\b(cancel\s+(my\s+)?(subscription|sub|recurring|monthly\s+order)"
+        r"|pause\s+(my\s+)?subscription"
+        r"|stop\s+(my\s+)?(subscription|monthly\s+order|recurring\s+charge))\b",
+        text_lower,
+    ):
         return "subscription_cancel"
-    if re.search(r"\bcancel\s+(my\s+)?order\b", text):
+
+    if re.search(r"\bcancel\s+(my\s+)?order\b", text_lower):
         return "order_cancel"
-    if re.search(r"\b(damaged|broken|leak(ed|ing)?|missing|wrong\s+(item|product))\b", text):
+
+    # Damaged / missing requires nouns referencing the product OR shipment
+    # context — bare "missing" matches "missing piece in cannabis gummy
+    # production" (vendor pitch).
+    if re.search(
+        r"\b((arrived|came|came in|was)\s+(damaged|broken|leaking|crushed)"
+        r"|missing\s+(item|bottle|product|from\s+my)"
+        r"|never\s+arrived"
+        r"|wrong\s+(item|product|bottle|order|flavor))\b",
+        text_lower,
+    ):
         return "damaged_or_missing"
-    if re.search(r"\b(refund|chargeback|money\s+back)\b", text):
+
+    if re.search(
+        r"\b(refund\s+(my\s+|me|please)|i\s+want\s+a\s+refund"
+        r"|money\s+back\s+please|chargeback)\b",
+        text_lower,
+    ):
         return "refund_request"
 
     return "unknown"
+
+
+def _customer_has_orders(orders: list) -> bool:
+    """Last-line safety check: if the customer email has zero Shopify
+    orders, this almost certainly isn't a real elmandrye customer.
+    Routes to AJ instead of replying with a confused 'manage your
+    subscription' email."""
+    return bool(orders)
 
 
 def process_ticket(ticket: dict) -> str:
@@ -212,7 +267,21 @@ def process_ticket(ticket: dict) -> str:
     if not target_order and orders:
         target_order = orders[0]   # most recent
 
-    # 9. Route by intent
+    # 9. Last-line safety check: if the sender has ZERO Shopify orders on
+    # record, treat them as a non-customer regardless of intent. This
+    # catches the case where a B2B notification (Instagram, Awin, SEO
+    # spam) survives Phase 1 spam rules + content classifier and ends up
+    # with a plausible-looking intent. We can't responsibly reply to
+    # "you can manage your subscription" if they don't have one.
+    if not _customer_has_orders(orders) and intent in (
+        "where_is_my_order", "return_exchange", "subscription_cancel",
+        "order_cancel", "damaged_or_missing", "refund_request"
+    ):
+        print(f"[agent] tid={tid} intent={intent} but customer has 0 orders — escalating")
+        add_tags(tid, ["agent-needs-aj", "NO-MATCHING-CUSTOMER"])
+        return f"{intent}_escalated_no_orders"
+
+    # 10. Route by intent
     action_label = "unhandled"
 
     if intent == "where_is_my_order":
