@@ -64,6 +64,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'fisetin' appears in 2 recent supplement-research papers (most recent example: \"12\u2011weeks fisetin supplementation and interval resistance with aerobic training: changes in Maresin\u20111 and inflammatory markers in men with obesity: a randomized \"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Catechin",
+      "product_title": "Catechin",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9189396742356",
+      "handle": "catechin",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/c0664cd2-110e-4cfc-976b-4cb3ea862d8d/er-product-catechin.png",
+      "created_at": "2026-06-03",
+      "price_usd": 69.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'catechin' appears in 2 recent supplement-research papers (most recent example: \"Effects of catechin-enriched green tea combined with exercise on physical performance and muscle mass in community-dwelling older adults: A cluster-randomized, \"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
