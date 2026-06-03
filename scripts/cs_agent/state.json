@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224237477,
-  "last_run_at": "2026-06-03T02:00:29.275174+00:00",
+  "last_processed_ticket_id": 224333755,
+  "last_run_at": "2026-06-03T13:44:35.285119+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-03",
   "ticket_actions": [
@@ -15,6 +15,84 @@
       "ticket_id": 224237477,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Cancel order"
+    },
+    {
+      "ts": "2026-06-03T13:44:21.759553+00:00",
+      "ticket_id": 224240422,
+      "action": "skip_spam",
+      "detail": "Payout for Jun 3, 2026 ($3.12 USD)"
+    },
+    {
+      "ts": "2026-06-03T13:44:25.097749+00:00",
+      "ticket_id": 224242786,
+      "action": "subscription_self_serve_link_sent",
+      "detail": "elmandrye, catch up on moments that you've missed"
+    },
+    {
+      "ts": "2026-06-03T13:44:26.609065+00:00",
+      "ticket_id": 224245685,
+      "action": "subscription_self_serve_link_sent",
+      "detail": "puppersupplements, see tipsytina105, tiffany_rene1214 and more in your feed"
+    },
+    {
+      "ts": "2026-06-03T13:44:27.400179+00:00",
+      "ticket_id": 224253897,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Geek bar-style 510 hidden cartridge battery"
+    },
+    {
+      "ts": "2026-06-03T13:44:27.400212+00:00",
+      "ticket_id": 224266372,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-06-03T13:44:28.949209+00:00",
+      "ticket_id": 224288971,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Here is your invoice"
+    },
+    {
+      "ts": "2026-06-03T13:44:29.717399+00:00",
+      "ticket_id": 224311341,
+      "action": "wismo_replied_with_tracking_for_#85178",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-06-03T13:44:30.517399+00:00",
+      "ticket_id": 224316373,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A new affiliate, Sean Smith, has signed up for your program!"
+    },
+    {
+      "ts": "2026-06-03T13:44:31.062720+00:00",
+      "ticket_id": 224328866,
+      "action": "subscription_self_serve_link_sent",
+      "detail": "Every broken link on your store is costing you ranking and revenue"
+    },
+    {
+      "ts": "2026-06-03T13:44:31.830484+00:00",
+      "ticket_id": 224329736,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A new affiliate, Son Doan hong, has signed up for your program!"
+    },
+    {
+      "ts": "2026-06-03T13:44:32.376009+00:00",
+      "ticket_id": 224329883,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Stockists"
+    },
+    {
+      "ts": "2026-06-03T13:44:33.769744+00:00",
+      "ticket_id": 224332664,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: A Fresh Start Done Right \ud83c\udf43"
+    },
+    {
+      "ts": "2026-06-03T13:44:35.285098+00:00",
+      "ticket_id": 224333755,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pupper + Recharge"
     }
   ]
 }
