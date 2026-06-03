@@ -131,12 +131,26 @@ jobs:
           CONTENT_ENGINE_VIDEO: ${{ vars.CONTENT_ENGINE_VIDEO || 'false' }}
         run: python scripts/content_engine/main.py
 
+      - name: Run article guard (catch any off-path publishes during this window)
+        # Belt-and-suspenders: the article-guard cron is "best effort" on GH
+        # Actions and silently drops runs under load. Running it as the
+        # final step here guarantees at least one rescue pass right after
+        # every engine cron — catches any hand-paste that happened during
+        # the engine's run window (witnessed 2026-06-03: L-theanine article
+        # pasted at 18:24Z while the engine was mid-run at 18:22Z).
+        if: always()
+        env:
+          CONTENT_ENGINE_OPS_EMAIL: aj@portraitpal.ai
+        run: |
+          python3 scripts/content_engine/article_guard.py || \
+              echo "::warning::article_guard non-fatal failure (engine run continues)"
+
       - name: Commit state.json updates
         if: success() && github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "elmandrye-content-bot"
           git config user.email "bot@elmandrye.com"
-          git add scripts/content_engine/state.json
+          git add scripts/content_engine/state.json scripts/content_engine/article_guard_state.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else
