@@ -1,0 +1,20 @@
+{
+  "last_processed_ticket_id": 224237477,
+  "last_run_at": "2026-06-03T02:00:29.275174+00:00",
+  "daily_refund_total_usd": 0.0,
+  "daily_refund_date": "2026-06-03",
+  "ticket_actions": [
+    {
+      "ts": "2026-06-03T01:59:15.624022+00:00",
+      "ticket_id": 224236458,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Gorgias: Login instructions"
+    },
+    {
+      "ts": "2026-06-03T01:59:16.618343+00:00",
+      "ticket_id": 224237477,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Cancel order"
+    }
+  ]
+}
