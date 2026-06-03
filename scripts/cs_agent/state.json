@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224372797,
-  "last_run_at": "2026-06-03T18:11:42.345861+00:00",
+  "last_processed_ticket_id": 224411278,
+  "last_run_at": "2026-06-03T21:31:46.618598+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-03",
   "ticket_actions": [
@@ -159,6 +159,42 @@
       "ticket_id": 224372797,
       "action": "unknown_escalated_for_aj",
       "detail": "Pip"
+    },
+    {
+      "ts": "2026-06-03T21:31:43.226829+00:00",
+      "ticket_id": 224394560,
+      "action": "unknown_escalated_for_aj",
+      "detail": "try this yet?"
+    },
+    {
+      "ts": "2026-06-03T21:31:43.741768+00:00",
+      "ticket_id": 224397550,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order"
+    },
+    {
+      "ts": "2026-06-03T21:31:44.599533+00:00",
+      "ticket_id": 224407522,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Learn how to get the most from the new Helpdesk"
+    },
+    {
+      "ts": "2026-06-03T21:31:45.366377+00:00",
+      "ticket_id": 224408011,
+      "action": "unknown_escalated_for_aj",
+      "detail": "SHEIN Has Landed in Miami \u2708\ufe0f"
+    },
+    {
+      "ts": "2026-06-03T21:31:46.154515+00:00",
+      "ticket_id": 224409212,
+      "action": "wismo_replied_with_tracking_for_#85084",
+      "detail": "Order # 85084"
+    },
+    {
+      "ts": "2026-06-03T21:31:46.618580+00:00",
+      "ticket_id": 224411278,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Unique SEO & Content Growth - Contact"
     }
   ]
 }
