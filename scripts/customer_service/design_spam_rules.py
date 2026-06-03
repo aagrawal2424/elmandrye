@@ -14,7 +14,6 @@ separate step after AJ approves the backtest results.
 from __future__ import annotations
 
 import json
-import re
 from pathlib import Path
 
 OUT = Path("/tmp/cs_audit")
@@ -176,6 +175,54 @@ RULES = [
         "sender_keywords": [
             "@shop.tiktok.com",
         ],
+    },
+    # Added 2026-06-03 after V1 dry-run caught these slipping through.
+    {
+        "name": "spam-affiliate-signup-notifications",
+        "tag": "auto-spam-affiliate-signup",
+        "subject_keywords": [
+            "A new affiliate", "new affiliate signed up",
+            "has signed up for your program",
+            "affiliate signup", "new publisher signed up",
+        ],
+        "sender_keywords": [],
+    },
+    {
+        "name": "spam-instagram-digest-notifications",
+        "tag": "auto-spam-social-digest",
+        "subject_keywords": [
+            "catch up on moments that you",
+            "see tipsytina",  # specific spammy IG digest format
+            "you've missed",  # paired with the IG sender — case-insensitive
+            "puppersupplements,",  # this format keeps recurring
+            "elmandrye, catch up",
+        ],
+        "sender_keywords": [
+            "@mail.instagram.com", "@e.facebook.com", "@facebookmail.com",
+            "@mail.facebook.com",
+        ],
+    },
+    {
+        "name": "spam-vape-pods-lowercase",
+        "tag": "auto-spam-vape",
+        # Gorgias DSL containsAny appears to be case-sensitive on some
+        # builds. Re-list common spam terms in lowercase to be safe.
+        "subject_keywords": [
+            "geek bar", "pulse x", "beri cliq", "510 hidden cartridge",
+            "disposable vape", "vape pod", "ejuice", "e-juice",
+        ],
+        "sender_keywords": [],
+    },
+    {
+        "name": "spam-broken-link-seo-pitches",
+        "tag": "auto-spam-agency",
+        "subject_keywords": [
+            "broken link on your store",
+            "broken link is costing you",
+            "broken links are hurting",
+            "broken links on your site",
+        ],
+        "sender_keywords": [],
     },
 ]
 
