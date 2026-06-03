@@ -1,0 +1,57 @@
+{% comment %}
+  PostHog product analytics snippet for elmandrye.com.
+
+  Rendered in layout/theme.liquid just before </head> on every storefront
+  page (product, collection, blog, cart, home). NOT loaded inside
+  Shopify Checkout — checkout is a separate iframe domain Shopify
+  controls. If we want checkout-funnel events, add a Web Pixel via
+  Customer Events in Admin.
+
+  What gets captured automatically (config: { autocapture: true }):
+    - $pageview on every page load with the full URL + referrer
+    - $autocapture on clicks, form submits, input changes (lets us
+      build funnels in PostHog without writing any custom event code)
+    - $rageclick
+    - Session recording is OFF by default — turn on per-environment
+      in the PostHog project settings if/when you want it.
+
+  Identity:
+    - If a customer is logged in, we identify them by Shopify customer
+      ID. Anonymous visitors stay anonymous (PostHog assigns a uuid).
+    - {{ customer.id }} is the Shopify-internal numeric id, not the
+      email — keeps PII out of PostHog by default.
+
+  Custom events worth adding later:
+    - product_viewed     (on product page load, with product handle/id/price)
+    - add_to_cart_clicked (on AddToCartForm submit)
+    - cart_viewed        (on /cart load)
+
+  Key handling:
+    - The project API key below is the PUBLIC project key (write-only,
+      cannot read or admin). Safe to ship in client code per PostHog docs.
+    - Filled in by scripts/sync_theme_snippet.py at deploy time when
+      the env var POSTHOG_ELMANDRYE_KEY is set. Without the substitution
+      the snippet emits nothing — fail-soft so a misconfigured push
+      doesn't break the page.
+{% endcomment %}
+{%- assign ph_key = '__POSTHOG_API_KEY__' -%}
+{%- assign ph_host = '__POSTHOG_HOST__' -%}
+{%- if ph_key != '__POSTHOG_API_KEY__' and ph_key != '' -%}
+<script>
+  !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+  posthog.init('{{ ph_key }}', {
+    api_host: '{{ ph_host | default: "https://us.i.posthog.com" }}',
+    person_profiles: 'identified_only',
+    autocapture: true,
+    capture_pageview: true,
+    capture_pageleave: true,
+    disable_session_recording: true
+  });
+  {%- if customer -%}
+    posthog.identify('shopify_customer_{{ customer.id }}', {
+      shopify_customer_id: '{{ customer.id }}',
+      orders_count: {{ customer.orders_count | default: 0 }}
+    });
+  {%- endif -%}
+</script>
+{%- endif -%}
