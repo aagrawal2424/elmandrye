@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224535933,
-  "last_run_at": "2026-06-04T15:31:22.896219+00:00",
+  "last_processed_ticket_id": 224559810,
+  "last_run_at": "2026-06-04T18:00:17.429488+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-04",
   "ticket_actions": [
@@ -315,6 +315,60 @@
       "ticket_id": 224535933,
       "action": "unknown_escalated_for_aj",
       "detail": "How Elm &amp; Rye can win in retail 2026"
+    },
+    {
+      "ts": "2026-06-04T18:00:05.461017+00:00",
+      "ticket_id": 224541781,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Geek Bar Pulse 2 \u2014 In Stock & Ready to Order"
+    },
+    {
+      "ts": "2026-06-04T18:00:06.923211+00:00",
+      "ticket_id": 224546273,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye.com vs takecareof.com"
+    },
+    {
+      "ts": "2026-06-04T18:00:09.091007+00:00",
+      "ticket_id": 224549323,
+      "action": "unknown_escalated_for_aj",
+      "detail": "10% off your first Vantage Boxes order"
+    },
+    {
+      "ts": "2026-06-04T18:00:09.091039+00:00",
+      "ticket_id": 224548845,
+      "action": "skip_spam",
+      "detail": "From nitin___chandra and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-06-04T18:00:10.839332+00:00",
+      "ticket_id": 224549070,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Avoid the New EU Parcel Fee"
+    },
+    {
+      "ts": "2026-06-04T18:00:13.275470+00:00",
+      "ticket_id": 224549581,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your May Search performance for https://elmandrye.com/"
+    },
+    {
+      "ts": "2026-06-04T18:00:14.777625+00:00",
+      "ticket_id": 224551311,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your May Search performance for https://pupper.com/"
+    },
+    {
+      "ts": "2026-06-04T18:00:15.923055+00:00",
+      "ticket_id": 224553957,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Improve your digital presence"
+    },
+    {
+      "ts": "2026-06-04T18:00:17.429469+00:00",
+      "ticket_id": 224559810,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily News Update for 6/4/2026"
     }
   ]
 }
