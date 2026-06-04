@@ -44,7 +44,7 @@ jobs:
 
       - name: Run fulfillment guard
         env:
-          OPS_EMAIL: aj@elmandrye.com
+          OPS_EMAILS: "aj@elmandrye.com,brennan@nitrologistics.co"
           STALE_AGE_DAYS: "5"
           WATCH_AGE_DAYS: "3"
         run: python3 scripts/fulfillment_guard.py
