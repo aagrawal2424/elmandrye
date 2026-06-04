@@ -160,9 +160,26 @@ def send_message(ticket_id: int, body_text: str, body_html: str | None = None) -
 
 
 def add_tags(ticket_id: int, tags: list[str]) -> dict:
-    """Append tags. Gorgias dedupes existing tags server-side."""
-    return _maybe("POST", f"/tickets/{ticket_id}/tags/",
-                  {"tags": [{"name": t} for t in tags]}, f"add_tags {tags}")
+    """Append tags to a ticket.
+
+    Gorgias's PUT /tickets/{id}/ accepts a `tags` field but REPLACES the
+    full tag list (verified 2026-06-04 after first live cs-agent run
+    crashed with `POST /tickets/{id}/tags/` returning 400 'Unknown field:
+    tags'). So we read-merge-write: fetch current tags, union with new,
+    PUT the merged list. Idempotent.
+    """
+    # Read current — even in DRY_RUN we want to log what the resulting
+    # tag set would be.
+    try:
+        current = _request("GET", f"/tickets/{ticket_id}/")
+        existing = [tag.get("name") for tag in (current.get("tags") or []) if tag.get("name")]
+    except Exception as e:
+        print(f"[gorgias] add_tags: failed to read current tags for {ticket_id}: {e}")
+        existing = []
+    merged = list({*existing, *tags})
+    return _maybe("PUT", f"/tickets/{ticket_id}/",
+                  {"tags": [{"name": t} for t in merged]},
+                  f"add_tags new={tags} merged={merged}")
 
 
 def set_status(ticket_id: int, status: str) -> dict:
