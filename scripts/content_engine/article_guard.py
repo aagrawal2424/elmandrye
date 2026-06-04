@@ -63,7 +63,11 @@ LOOKBACK_HOURS = min(MAX_LOOKBACK_HOURS,
 # time to finish stamping its metafield + lets Shopify's read-after-write
 # settle. The daily cron's publish step itself is bounded by the GHA
 # job's 30-min timeout; 10 min is well past the median publish time.
-MIN_ARTICLE_AGE_SEC = 10 * 60
+# Was 10 min — caused the 2026-06-04 inositol incident: the bundled
+# guard fired at 17:00 but the article was 4.5 min old so it got skipped.
+# Lowered to 2 min — still beats Shopify's read-after-write window for
+# the metafield endpoint (~30s observed) while catching everything else.
+MIN_ARTICLE_AGE_SEC = 2 * 60
 # Engine started writing engine.run_id at commit 7ef46c4 on 2026-06-01
 # 23:19 UTC. Articles older than that legitimately lack the metafield
 # and should NOT be flagged as "off-path" on that signal alone. They are
