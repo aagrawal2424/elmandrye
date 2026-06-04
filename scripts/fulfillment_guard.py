@@ -18,7 +18,8 @@ operator (AJ + warehouse) decides what to do with each stuck order.
 Env:
   SHOPIFY_*           — same as content engine
   RESEND_API_KEY      — required for the digest email
-  OPS_EMAIL           — recipient (default aj@elmandrye.com)
+  OPS_EMAILS          — comma-separated recipient list
+                        (default: aj@elmandrye.com,brennan@nitrologistics.co)
   STALE_AGE_DAYS      — threshold (default 5)
   WATCH_AGE_DAYS      — additionally include orders this old in a
                         "watch list" section (default 3)
@@ -39,7 +40,12 @@ from get_token import get_token, load_env  # noqa: E402
 env = load_env()
 STORE = env.get("SHOPIFY_STORE", "elmandrye.myshopify.com")
 API = env.get("SHOPIFY_API_VERSION", "2025-01")
-OPS_EMAIL = os.environ.get("OPS_EMAIL", "aj@elmandrye.com")
+# Comma-separated list of recipients. Both AJ and Brennan (Nitro
+# Logistics, the only 3PL actually shipping per the 2026-06-03 audit)
+# see every digest so the warehouse owns reconciliation alongside AJ.
+OPS_EMAILS = [e.strip() for e in os.environ.get(
+    "OPS_EMAILS", "aj@elmandrye.com,brennan@nitrologistics.co"
+).split(",") if e.strip()]
 STALE_AGE_DAYS = int(os.environ.get("STALE_AGE_DAYS", "5"))
 WATCH_AGE_DAYS = int(os.environ.get("WATCH_AGE_DAYS", "3"))
 SCAN_WINDOW_DAYS = 60   # how far back to look — anything older than this
@@ -53,6 +59,21 @@ def _admin_get(path: str):
     )
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.loads(r.read()), r.headers.get("Link", "")
+
+
+def enrich_with_assigned_location(orders: list[dict]) -> None:
+    """For each order, look up the open fulfillment_order's
+    assigned_location_id (the warehouse Shopify routed it to). Mutates
+    `assigned_location_id` onto each order dict."""
+    for o in orders:
+        try:
+            data, _ = _admin_get(f"/orders/{o['id']}/fulfillment_orders.json")
+            for fo in data.get("fulfillment_orders") or []:
+                if fo.get("status") in ("open", "on_hold", "scheduled"):
+                    o["assigned_location_id"] = fo.get("assigned_location_id")
+                    break
+        except Exception as e:
+            print(f"[guard] enrich {o.get('name')} failed: {e}")
 
 
 def fetch_unfulfilled_orders() -> list[dict]:
@@ -108,7 +129,9 @@ def admin_url(o: dict) -> str:
     return f"https://elmandrye.myshopify.com/admin/orders/{o['id']}"
 
 
-def render_digest_html(stale: list[dict], watch: list[dict]) -> str:
+def render_digest_html(stale: list[dict], watch: list[dict],
+                       loc_names_cache: dict[int, str] | None = None) -> str:
+    loc_names_cache = loc_names_cache or {}
     def _row(o: dict) -> str:
         age = age_days(o)
         cust = (o.get("customer") or {}).get("email") or "(no email)"
@@ -141,6 +164,20 @@ def render_digest_html(stale: list[dict], watch: list[dict]) -> str:
             "</tbody></table>"
         )
 
+    # Per-warehouse breakdown for the stuck bucket — surfaces routing
+    # bugs (e.g. orders assigned to deprecated 3PLs that never ship).
+    from collections import Counter
+    by_loc = Counter()
+    for o in stale:
+        lid = o.get("assigned_location_id")
+        if lid:
+            by_loc[loc_names_cache.get(lid, f"location id={lid}")] += 1
+        else:
+            by_loc["(unassigned)"] += 1
+    by_loc_rows = "".join(
+        f"<li><b>{loc}</b>: {n}</li>" for loc, n in by_loc.most_common()
+    )
+
     parts = [
         "<div style='font-family:-apple-system,sans-serif;max-width:900px;margin:0 auto;'>",
         "<h2 style='margin:0 0 10px;'>📦 Fulfillment guard daily digest</h2>",
@@ -149,6 +186,18 @@ def render_digest_html(stale: list[dict], watch: list[dict]) -> str:
         f"{len(stale)} stuck (>{STALE_AGE_DAYS}d) · {len(watch)} on watch ({WATCH_AGE_DAYS}-{STALE_AGE_DAYS}d)"
         f"</p>",
     ]
+    if by_loc_rows:
+        parts.append(
+            "<div style='background:#fff8e0;border-left:4px solid #d4a017;padding:10px 16px;"
+            "margin:0 0 20px;border-radius:4px;'>"
+            "<p style='margin:0 0 6px;'><b>By assigned warehouse:</b></p>"
+            f"<ul style='margin:4px 0;'>{by_loc_rows}</ul>"
+            "<p style='margin:6px 0 0;font-size:13px;color:#555;'>"
+            "Reminder per AJ 2026-06-03: <b>Shiphero is no longer a supplier</b>. "
+            "Any orders assigned there will never ship — they need to be reassigned "
+            "to Nitro Logistics or cancelled+refunded.</p>"
+            "</div>"
+        )
 
     if stale:
         parts.append(
@@ -195,13 +244,13 @@ def send_digest(html: str, stuck_count: int) -> bool:
     if stuck_count == 0:
         subject = f"[elmandrye] Fulfillment OK ({datetime.now(timezone.utc).strftime('%b %d')})"
     else:
-        subject = f"[elmandrye] 🚨 {stuck_count} order(s) stuck >{STALE_AGE_DAYS}d"
+        subject = f"[elmandrye] 🚨 {stuck_count} paid order(s) not shipped >{STALE_AGE_DAYS}d — AJ + Brennan"
 
     body = json.dumps({
         # Use the same verified Resend FROM as product_engine/notify.py.
         # The notifications.elmandrye.com subdomain isn't DKIM-verified.
         "from": "Elm & Rye Fulfillment <alerts@elmandrye.com>",
-        "to": [OPS_EMAIL],
+        "to": OPS_EMAILS,
         "subject": subject,
         "html": html,
     }).encode()
@@ -219,7 +268,7 @@ def send_digest(html: str, stuck_count: int) -> bool:
     )
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
-            print(f"[guard] digest sent → {OPS_EMAIL} (status={r.status})")
+            print(f"[guard] digest sent → {', '.join(OPS_EMAILS)} (status={r.status})")
         return True
     except Exception as e:
         print(f"[guard] digest send failed: {e}")
@@ -246,10 +295,19 @@ def main() -> int:
 
     print(f"[guard] stuck (>={STALE_AGE_DAYS}d): {len(stale)}")
     print(f"[guard] watch ({WATCH_AGE_DAYS}-{STALE_AGE_DAYS}d): {len(watch)}")
+    print(f"[guard] enriching stuck orders with assigned-location info...")
+    enrich_with_assigned_location(stale)
     for o in sorted(stale, key=age_days, reverse=True)[:5]:
         print(f"  STUCK   {o['name']:>10s}  age={age_days(o)}d  {line_items_summary(o)[:80]}")
 
-    html = render_digest_html(stale, watch)
+    # Fetch location names once for the digest
+    try:
+        locs_resp, _ = _admin_get("/locations.json")
+        loc_names = {l["id"]: l["name"] for l in locs_resp.get("locations") or []}
+    except Exception:
+        loc_names = {}
+
+    html = render_digest_html(stale, watch, loc_names)
     send_digest(html, len(stale))
     return 0
 
