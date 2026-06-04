@@ -77,6 +77,19 @@
       "price_usd": 69.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'catechin' appears in 2 recent supplement-research papers (most recent example: \"Effects of catechin-enriched green tea combined with exercise on physical performance and muscle mass in community-dwelling older adults: A cluster-randomized, \"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Epigallocatechin",
+      "product_title": "Epigallocatechin capsules",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9191313375444",
+      "handle": "epigallocatechin-capsules",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/3092032d-00dd-4d56-bf30-8027c6fbf65b/er-product-epigallocatechin-capsules.png",
+      "created_at": "2026-06-04",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'epigallocatechin' appears in 2 recent supplement-research papers (most recent example: \"A Randomized Controlled Trial to Determine the Effects of Curcumin and Epigallocatechin-3-Gallate Supplementation on Serum Brain-Derived Neurotrophic Factor and\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
