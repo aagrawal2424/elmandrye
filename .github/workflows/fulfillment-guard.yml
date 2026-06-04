@@ -1,0 +1,50 @@
+name: Fulfillment Guard (paid + unfulfilled digest)
+
+# Daily check for paid orders that haven't shipped past STALE_AGE_DAYS.
+# Catches the failure mode where the warehouse silently drops orders
+# and AJ only finds out 2-3 weeks later via Gorgias escalation
+# (witnessed 2026-06-03: Colostrum order #84923 sat 23 days unshipped).
+#
+# Read-only — never mutates orders. Just sends AJ a digest email.
+
+on:
+  schedule:
+    # Daily at 14:30 UTC (= 9:30am Eastern) — 30 min after the
+    # content-engine cron so the two don't compete for API quota.
+    - cron: "30 14 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  scan-and-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Write .env from secrets
+        env:
+          SHOPIFY_STORE: ${{ secrets.SHOPIFY_STORE }}
+          SHOPIFY_CLIENT_ID: ${{ secrets.SHOPIFY_CLIENT_ID }}
+          SHOPIFY_CLIENT_SECRET: ${{ secrets.SHOPIFY_CLIENT_SECRET }}
+          SHOPIFY_API_VERSION: ${{ secrets.SHOPIFY_API_VERSION }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        run: |
+          cat > .env <<EOF
+          SHOPIFY_STORE=${SHOPIFY_STORE:-elmandrye.myshopify.com}
+          SHOPIFY_CLIENT_ID=${SHOPIFY_CLIENT_ID}
+          SHOPIFY_CLIENT_SECRET=${SHOPIFY_CLIENT_SECRET}
+          SHOPIFY_API_VERSION=${SHOPIFY_API_VERSION:-2025-01}
+          RESEND_API_KEY=${RESEND_API_KEY}
+          EOF
+
+      - name: Run fulfillment guard
+        env:
+          OPS_EMAIL: aj@elmandrye.com
+          STALE_AGE_DAYS: "5"
+          WATCH_AGE_DAYS: "3"
+        run: python3 scripts/fulfillment_guard.py
