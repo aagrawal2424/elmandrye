@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224580021,
-  "last_run_at": "2026-06-04T20:19:20.061315+00:00",
+  "last_processed_ticket_id": 224588214,
+  "last_run_at": "2026-06-04T21:58:10.773426+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-04",
   "ticket_actions": [
@@ -411,6 +411,12 @@
       "ticket_id": 224580021,
       "action": "unknown_escalated_for_aj",
       "detail": "Get paid by referring Google Workspace"
+    },
+    {
+      "ts": "2026-06-04T21:58:10.773412+00:00",
+      "ticket_id": 224588214,
+      "action": "error_crash",
+      "detail": "ORDER status #84284"
     }
   ]
 }
