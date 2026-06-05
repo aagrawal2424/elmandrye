@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224597855,
-  "last_run_at": "2026-06-05T01:34:41.428744+00:00",
+  "last_processed_ticket_id": 224700853,
+  "last_run_at": "2026-06-05T15:17:43.049185+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-05",
   "ticket_actions": [
@@ -435,6 +435,114 @@
       "ticket_id": 224597855,
       "action": "error_crash",
       "detail": "Re: Order #85119 confirmed"
+    },
+    {
+      "ts": "2026-06-05T15:17:23.727406+00:00",
+      "ticket_id": 224600540,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-06-05T15:17:23.727435+00:00",
+      "ticket_id": 224601745,
+      "action": "skip_spam",
+      "detail": "Payout for Jun 5, 2026 ($94.66 USD)"
+    },
+    {
+      "ts": "2026-06-05T15:17:23.727444+00:00",
+      "ticket_id": 224602786,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-06-05T15:17:24.892339+00:00",
+      "ticket_id": 224605727,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-06-05T15:17:26.536641+00:00",
+      "ticket_id": 224610907,
+      "action": "unknown_escalated_for_aj",
+      "detail": "WordPress & WooCommerce Experts"
+    },
+    {
+      "ts": "2026-06-05T15:17:26.536676+00:00",
+      "ticket_id": 224611241,
+      "action": "skip_spam",
+      "detail": "Payout for Jun 5, 2026 ($45.43 USD)"
+    },
+    {
+      "ts": "2026-06-05T15:17:26.536685+00:00",
+      "ticket_id": 224611851,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-06-05T15:17:28.039921+00:00",
+      "ticket_id": 224618059,
+      "action": "unknown_escalated_for_aj",
+      "detail": "re: Candelilla wax from aogubio"
+    },
+    {
+      "ts": "2026-06-05T15:17:29.222184+00:00",
+      "ticket_id": 224657651,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-06-05T15:17:30.879874+00:00",
+      "ticket_id": 224667132,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Incident resolved \u2705"
+    },
+    {
+      "ts": "2026-06-05T15:17:32.317835+00:00",
+      "ticket_id": 224675126,
+      "action": "error_crash",
+      "detail": "Re: Order status - Contact"
+    },
+    {
+      "ts": "2026-06-05T15:17:33.309214+00:00",
+      "ticket_id": 224680796,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-06-05T15:17:33.309241+00:00",
+      "ticket_id": 224692792,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-06-05T15:17:34.265165+00:00",
+      "ticket_id": 224695769,
+      "action": "error_crash",
+      "detail": "Order #83672"
+    },
+    {
+      "ts": "2026-06-05T15:17:35.084329+00:00",
+      "ticket_id": 224697193,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Supplement brands only"
+    },
+    {
+      "ts": "2026-06-05T15:17:36.804561+00:00",
+      "ticket_id": 224698600,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your NITRO LOGISTICS LLC receipt [#1591-0089]"
+    },
+    {
+      "ts": "2026-06-05T15:17:37.647090+00:00",
+      "ticket_id": 224699739,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Quick idea for elmandrye.com"
+    },
+    {
+      "ts": "2026-06-05T15:17:43.049167+00:00",
+      "ticket_id": 224700853,
+      "action": "unknown_escalated_for_aj",
+      "detail": "$60K \u2192 $900K/mo for DTC supplements & wellness"
     }
   ]
 }
