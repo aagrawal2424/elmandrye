@@ -1,8 +1,8 @@
 {
-  "last_processed_ticket_id": 224591784,
-  "last_run_at": "2026-06-04T23:18:32.617332+00:00",
+  "last_processed_ticket_id": 224597855,
+  "last_run_at": "2026-06-05T01:34:41.428744+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-06-04",
+  "daily_refund_date": "2026-06-05",
   "ticket_actions": [
     {
       "ts": "2026-06-03T01:59:15.624022+00:00",
@@ -423,6 +423,18 @@
       "ticket_id": 224591784,
       "action": "skip_spam",
       "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-06-05T01:34:40.518732+00:00",
+      "ticket_id": 224596109,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order #85093 has been canceled"
+    },
+    {
+      "ts": "2026-06-05T01:34:41.428729+00:00",
+      "ticket_id": 224597855,
+      "action": "error_crash",
+      "detail": "Re: Order #85119 confirmed"
     }
   ]
 }
