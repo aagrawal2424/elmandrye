@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224724215,
-  "last_run_at": "2026-06-05T19:21:04.738037+00:00",
+  "last_processed_ticket_id": 224742379,
+  "last_run_at": "2026-06-05T21:07:00.875144+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-05",
   "ticket_actions": [
@@ -567,6 +567,60 @@
       "ticket_id": 224724215,
       "action": "unknown_escalated_for_aj",
       "detail": "Noticed issues on your Website !"
+    },
+    {
+      "ts": "2026-06-05T21:06:55.431062+00:00",
+      "ticket_id": 224735412,
+      "action": "error_crash",
+      "detail": "Order Status"
+    },
+    {
+      "ts": "2026-06-05T21:06:55.431082+00:00",
+      "ticket_id": 224736589,
+      "action": "skip_spam",
+      "detail": "Automatic reply: A Delicious Way to Unwind \ud83c\udf53"
+    },
+    {
+      "ts": "2026-06-05T21:06:55.431090+00:00",
+      "ticket_id": 224736762,
+      "action": "skip_spam",
+      "detail": "Automatic reply: A Delicious Way to Unwind \ud83c\udf53"
+    },
+    {
+      "ts": "2026-06-05T21:06:58.342756+00:00",
+      "ticket_id": 224738187,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE: A Delicious Way to Unwind \ud83c\udf53"
+    },
+    {
+      "ts": "2026-06-05T21:06:58.342781+00:00",
+      "ticket_id": 224739579,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-06-05T21:06:58.342790+00:00",
+      "ticket_id": 224739712,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-06-05T21:06:58.342796+00:00",
+      "ticket_id": 224739902,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-06-05T21:07:00.875120+00:00",
+      "ticket_id": 224740296,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily News Update for 6/5/2026"
+    },
+    {
+      "ts": "2026-06-05T21:07:00.875141+00:00",
+      "ticket_id": 224742379,
+      "action": "skip_spam",
+      "detail": "Automatic reply: A Delicious Way to Unwind \ud83c\udf53"
     }
   ]
 }
