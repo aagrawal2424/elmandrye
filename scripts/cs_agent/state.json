@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224742379,
-  "last_run_at": "2026-06-05T22:35:01.027052+00:00",
+  "last_processed_ticket_id": 224749416,
+  "last_run_at": "2026-06-05T23:49:19.747492+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-05",
   "ticket_actions": [
@@ -621,6 +621,12 @@
       "ticket_id": 224742379,
       "action": "skip_spam",
       "detail": "Automatic reply: A Delicious Way to Unwind \ud83c\udf53"
+    },
+    {
+      "ts": "2026-06-05T23:49:19.747475+00:00",
+      "ticket_id": 224749416,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A Delicious Way to Unwind \ud83c\udf53"
     }
   ]
 }
