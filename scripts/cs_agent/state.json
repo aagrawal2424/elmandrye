@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224700853,
-  "last_run_at": "2026-06-05T15:17:43.049185+00:00",
+  "last_processed_ticket_id": 224714541,
+  "last_run_at": "2026-06-05T17:27:01.714478+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-05",
   "ticket_actions": [
@@ -543,6 +543,18 @@
       "ticket_id": 224700853,
       "action": "unknown_escalated_for_aj",
       "detail": "$60K \u2192 $900K/mo for DTC supplements & wellness"
+    },
+    {
+      "ts": "2026-06-05T17:27:00.669311+00:00",
+      "ticket_id": 224706619,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Discover Your Next Best Seller"
+    },
+    {
+      "ts": "2026-06-05T17:27:01.714456+00:00",
+      "ticket_id": 224714541,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Let Other Shopify Stores Sell Your Products \ud83e\udd1d"
     }
   ]
 }
