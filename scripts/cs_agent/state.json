@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224714541,
-  "last_run_at": "2026-06-05T17:27:01.714478+00:00",
+  "last_processed_ticket_id": 224724215,
+  "last_run_at": "2026-06-05T19:21:04.738037+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-05",
   "ticket_actions": [
@@ -555,6 +555,18 @@
       "ticket_id": 224714541,
       "action": "unknown_escalated_for_aj",
       "detail": "Let Other Shopify Stores Sell Your Products \ud83e\udd1d"
+    },
+    {
+      "ts": "2026-06-05T19:21:03.674356+00:00",
+      "ticket_id": 224723326,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Let us help you reformulate your product or quickly formulate a new one!"
+    },
+    {
+      "ts": "2026-06-05T19:21:04.738016+00:00",
+      "ticket_id": 224724215,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Noticed issues on your Website !"
     }
   ]
 }
