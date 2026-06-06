@@ -103,6 +103,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'quercetin' appears in 2 recent supplement-research papers (most recent example: \"Immune Preconditioning with Oral Quercetin Supplement and COVID-19 mRNA Vaccine Responses: A Randomized, Double-Blind, Placebo-Controlled Trial.\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Gallate",
+      "product_title": "Gallate complex",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9193747218644",
+      "handle": "gallate-complex",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/0d1758e6-de88-46e9-91d7-e772420ce5c0/er-product-gallate-complex.png",
+      "created_at": "2026-06-06",
+      "price_usd": 79.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'gallate' appears in 2 recent supplement-research papers (most recent example: \"A Randomized Controlled Trial to Determine the Effects of Curcumin and Epigallocatechin-3-Gallate Supplementation on Serum Brain-Derived Neurotrophic Factor and\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
