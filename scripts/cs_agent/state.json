@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224755681,
-  "last_run_at": "2026-06-06T02:08:24.808171+00:00",
+  "last_processed_ticket_id": 224824371,
+  "last_run_at": "2026-06-06T13:57:50.529763+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-06",
   "ticket_actions": [
@@ -645,6 +645,48 @@
       "ticket_id": 224755681,
       "action": "unknown_escalated_for_aj",
       "detail": ""
+    },
+    {
+      "ts": "2026-06-06T13:57:46.186673+00:00",
+      "ticket_id": 224759202,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-06-06T13:57:46.186706+00:00",
+      "ticket_id": 224759351,
+      "action": "skip_spam",
+      "detail": "elmandrye, see wellnexsolutions, samkmorales and more in your feed"
+    },
+    {
+      "ts": "2026-06-06T13:57:46.186715+00:00",
+      "ticket_id": 224759556,
+      "action": "skip_spam",
+      "detail": "This is how sellers go viral on TikTok \ud83d\udd25"
+    },
+    {
+      "ts": "2026-06-06T13:57:46.186721+00:00",
+      "ticket_id": 224802748,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-06-06T13:57:47.633850+00:00",
+      "ticket_id": 224817043,
+      "action": "error_crash",
+      "detail": "Product order Jan 18"
+    },
+    {
+      "ts": "2026-06-06T13:57:49.229253+00:00",
+      "ticket_id": 224817894,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Order"
+    },
+    {
+      "ts": "2026-06-06T13:57:50.529737+00:00",
+      "ticket_id": 224824371,
+      "action": "return_exchange_escalated_no_orders",
+      "detail": "Order 14949"
     }
   ]
 }
