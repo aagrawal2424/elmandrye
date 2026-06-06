@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224824371,
-  "last_run_at": "2026-06-06T13:57:50.529763+00:00",
+  "last_processed_ticket_id": 224833610,
+  "last_run_at": "2026-06-06T15:22:03.906991+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-06",
   "ticket_actions": [
@@ -687,6 +687,18 @@
       "ticket_id": 224824371,
       "action": "return_exchange_escalated_no_orders",
       "detail": "Order 14949"
+    },
+    {
+      "ts": "2026-06-06T15:22:03.906971+00:00",
+      "ticket_id": 224830331,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-06-06T15:22:03.906988+00:00",
+      "ticket_id": 224833610,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see what's been happening on Instagram"
     }
   ]
 }
