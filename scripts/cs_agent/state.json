@@ -1,8 +1,8 @@
 {
-  "last_processed_ticket_id": 224873549,
-  "last_run_at": "2026-06-06T23:47:24.781649+00:00",
+  "last_processed_ticket_id": 224878369,
+  "last_run_at": "2026-06-07T02:01:45.755664+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-06-06",
+  "daily_refund_date": "2026-06-07",
   "ticket_actions": [
     {
       "ts": "2026-06-03T01:59:15.624022+00:00",
@@ -717,6 +717,12 @@
       "ticket_id": 224873549,
       "action": "skip_spam",
       "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-06-07T02:01:45.755641+00:00",
+      "ticket_id": 224878369,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Wrong shipping address"
     }
   ]
 }
