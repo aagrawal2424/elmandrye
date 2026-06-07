@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224971686,
-  "last_run_at": "2026-06-07T16:58:41.911976+00:00",
+  "last_processed_ticket_id": 224978318,
+  "last_run_at": "2026-06-07T18:14:26.107188+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-07",
   "ticket_actions": [
@@ -759,6 +759,12 @@
       "ticket_id": 224971686,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Status of order"
+    },
+    {
+      "ts": "2026-06-07T18:14:26.107168+00:00",
+      "ticket_id": 224978318,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Noticed issues on your Website !"
     }
   ]
 }
