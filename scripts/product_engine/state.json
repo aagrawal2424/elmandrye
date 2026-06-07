@@ -116,6 +116,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'gallate' appears in 2 recent supplement-research papers (most recent example: \"A Randomized Controlled Trial to Determine the Effects of Curcumin and Epigallocatechin-3-Gallate Supplementation on Serum Brain-Derived Neurotrophic Factor and\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Insulin",
+      "product_title": "Insulin support complex",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9196393398484",
+      "handle": "insulin-support-complex",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/5c55bea1-11e3-497c-9c74-bbf2e9d16411/er-product-insulin-support-complex.png",
+      "created_at": "2026-06-07",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'insulin' appears in 2 recent supplement-research papers (most recent example: \"Green Tea Catechin Plus Inulin Improves Insulin Resistance Without Reducing Visceral Fat and Shows Exploratory Gut Microbiota Signals in Adults with Visceral Ob\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
