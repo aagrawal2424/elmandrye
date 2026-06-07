@@ -1,6 +1,6 @@
 {
-  "last_processed_ticket_id": 224978318,
-  "last_run_at": "2026-06-07T18:14:26.107188+00:00",
+  "last_processed_ticket_id": 224985272,
+  "last_run_at": "2026-06-07T19:50:18.689457+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-07",
   "ticket_actions": [
@@ -765,6 +765,12 @@
       "ticket_id": 224978318,
       "action": "unknown_escalated_for_aj",
       "detail": "Noticed issues on your Website !"
+    },
+    {
+      "ts": "2026-06-07T19:50:18.689438+00:00",
+      "ticket_id": 224985272,
+      "action": "return_exchange_escalated_no_orders",
+      "detail": "Orders for Elm and Rye Fatburner Capsules"
     }
   ]
 }
