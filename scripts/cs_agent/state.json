@@ -1,8 +1,8 @@
 {
-  "last_processed_ticket_id": 224997415,
-  "last_run_at": "2026-06-07T23:33:14.261871+00:00",
+  "last_processed_ticket_id": 225004509,
+  "last_run_at": "2026-06-08T01:57:57.082304+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-06-07",
+  "daily_refund_date": "2026-06-08",
   "ticket_actions": [
     {
       "ts": "2026-06-03T01:59:15.624022+00:00",
@@ -777,6 +777,12 @@
       "ticket_id": 224997415,
       "action": "unknown_escalated_for_aj",
       "detail": "Shopify customer complaint notice"
+    },
+    {
+      "ts": "2026-06-08T01:57:57.082279+00:00",
+      "ticket_id": 225004509,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Your next order is coming up"
     }
   ]
 }
