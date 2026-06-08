@@ -129,6 +129,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'insulin' appears in 2 recent supplement-research papers (most recent example: \"Green Tea Catechin Plus Inulin Improves Insulin Resistance Without Reducing Visceral Fat and Shows Exploratory Gut Microbiota Signals in Adults with Visceral Ob\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Resveratrol",
+      "product_title": "Resveratrol",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9197428506836",
+      "handle": "resveratrol",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/74523c3b-b57a-4d6c-980e-9f8d6bedee8c/er-product-resveratrol.png",
+      "created_at": "2026-06-08",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'resveratrol' appears in 2 recent supplement-research papers (most recent example: \"Resveratrol Promotes Goat Myoblast Differentiation via PROX1-Mediated Inhibition of NOTCH Signaling.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
