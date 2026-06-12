@@ -181,6 +181,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'tannin' appears in 2 recent supplement-research papers (most recent example: \"The impact of supplementing quebracho and chestnut tannin extracts on the growth performance in growing and finishing beef cattle: a meta-analytical assessment.\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Scopolamine",
+      "product_title": "Scopolamine cognitive support",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9202612961492",
+      "handle": "scopolamine-cognitive-support",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/30c3c7d1-2490-47e8-a9fb-1cc5beaad2c4/er-product-scopolamine-cognitive-support.png",
+      "created_at": "2026-06-12",
+      "price_usd": 79.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'scopolamine' appears in 2 recent supplement-research papers (most recent example: \"Cognitive improvement and hippocampal BDNF/GFAP alterations by Schinus molle essential oil in a rat model of scopolamine-induced amnesia.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
