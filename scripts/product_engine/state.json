@@ -324,6 +324,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "NMDA modulator; emerging schizophrenia + cognition research (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
+    },
+    {
+      "product_name": "Bovine",
+      "product_title": "Bovine colostrum capsules",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9239466410196",
+      "handle": "bovine-colostrum-capsules",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/f47d9fb1-4502-4107-9fd5-e91e96f92ae6/er-product-bovine-colostrum-capsules.png",
+      "created_at": "2026-06-28",
+      "price_usd": 84.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'bovine' appears in 3 recent supplement-research papers (most recent example: \"Evidence That Heat Shock Protein A5 (HSPA5) Plays a Role During Bovine In Vitro Embryo Production.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
