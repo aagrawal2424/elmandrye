@@ -337,6 +337,19 @@
       "price_usd": 84.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'bovine' appears in 3 recent supplement-research papers (most recent example: \"Evidence That Heat Shock Protein A5 (HSPA5) Plays a Role During Bovine In Vitro Embryo Production.\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Nobiletin",
+      "product_title": "Nobiletin",
+      "category": "supplements",
+      "niche_score": 9,
+      "shopify_product_id": "gid://shopify/Product/9241577947348",
+      "handle": "nobiletin",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/3f4ec5fe-2e6c-4170-867e-d60d77fc6cad/er-product-nobiletin.png",
+      "created_at": "2026-06-29",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "Citrus PMF; circadian-rhythm research; metabolic (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
     }
   ]
 }
