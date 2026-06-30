@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 228574400,
-  "last_run_at": "2026-06-30T20:30:49.253943+00:00",
+  "last_processed_ticket_id": 228589787,
+  "last_run_at": "2026-06-30T22:01:57.734341+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-30",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449474+00:00",
-      "ticket_id": 227299979,
-      "action": "skip_too_old",
-      "detail": "Re: A quick question about your skincare products"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449481+00:00",
-      "ticket_id": 227300483,
-      "action": "skip_too_old",
-      "detail": "Converted D9 as low as $400 - Special Pricing"
-    },
     {
       "ts": "2026-06-30T20:30:12.449489+00:00",
       "ticket_id": 227310481,
@@ -1203,6 +1191,18 @@
       "ticket_id": 228574400,
       "action": "unknown_escalated_for_aj",
       "detail": "buyeverest.com needs verification of your Account Email to continue using your account"
+    },
+    {
+      "ts": "2026-06-30T22:01:56.104773+00:00",
+      "ticket_id": 228586643,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: A shipment from order #85525 is on the way"
+    },
+    {
+      "ts": "2026-06-30T22:01:57.734320+00:00",
+      "ticket_id": 228589787,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Fw: Subscription management reminder"
     }
   ]
 }
