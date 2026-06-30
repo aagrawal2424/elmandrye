@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 228589787,
-  "last_run_at": "2026-06-30T22:01:57.734341+00:00",
+  "last_processed_ticket_id": 228593909,
+  "last_run_at": "2026-06-30T23:36:28.522722+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-06-30",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449489+00:00",
-      "ticket_id": 227310481,
-      "action": "skip_too_old",
-      "detail": "Re: See something you liked?"
-    },
     {
       "ts": "2026-06-30T20:30:12.449495+00:00",
       "ticket_id": 227310874,
@@ -1203,6 +1197,12 @@
       "ticket_id": 228589787,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Fw: Subscription management reminder"
+    },
+    {
+      "ts": "2026-06-30T23:36:28.522702+00:00",
+      "ticket_id": 228593909,
+      "action": "skip_spam",
+      "detail": "elmandrye, see what's been happening on Instagram"
     }
   ]
 }
