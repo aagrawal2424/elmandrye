@@ -1,93 +1,9 @@
 {
-  "last_processed_ticket_id": 228593909,
-  "last_run_at": "2026-07-01T01:56:11.422937+00:00",
+  "last_processed_ticket_id": 228706434,
+  "last_run_at": "2026-07-01T14:49:25.032720+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-01",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449495+00:00",
-      "ticket_id": 227310874,
-      "action": "skip_too_old",
-      "detail": "Re: Other - Contact"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449503+00:00",
-      "ticket_id": 227336709,
-      "action": "skip_too_old",
-      "detail": "Collaboration: Launching Pupper on TikTok Shop"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449509+00:00",
-      "ticket_id": 227338793,
-      "action": "skip_too_old",
-      "detail": "Re: Did this catch your eye?"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449515+00:00",
-      "ticket_id": 227341578,
-      "action": "skip_too_old",
-      "detail": "Elmandrye data erasure request - from Cesar Cortez - request: QZASW4WM"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449520+00:00",
-      "ticket_id": 227342519,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449525+00:00",
-      "ticket_id": 227343688,
-      "action": "skip_spam",
-      "detail": "saloniisonii and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449531+00:00",
-      "ticket_id": 227354436,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily News Update for 6/22/2026"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449538+00:00",
-      "ticket_id": 227355376,
-      "action": "skip_too_old",
-      "detail": "Unlock Barista Brew Co. Secrets! \u2615\ufe0f"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449545+00:00",
-      "ticket_id": 227356635,
-      "action": "skip_too_old",
-      "detail": "Invoice 2653 from Nitro Logistics, LLC"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449553+00:00",
-      "ticket_id": 227369194,
-      "action": "skip_too_old",
-      "detail": "Let Other Shopify Stores Sell Your Products for You"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449558+00:00",
-      "ticket_id": 227375855,
-      "action": "skip_spam",
-      "detail": "Your competitors launched in June. You still can."
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449563+00:00",
-      "ticket_id": 227376338,
-      "action": "skip_spam",
-      "detail": "Payout for Jun 23, 2026 ($183.68 USD)"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449569+00:00",
-      "ticket_id": 227385999,
-      "action": "skip_too_old",
-      "detail": "Follow-up: Free Sample for Your Pet Supplies Test"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449575+00:00",
-      "ticket_id": 227440451,
-      "action": "skip_too_old",
-      "detail": "your ads"
-    },
     {
       "ts": "2026-06-30T20:30:12.449582+00:00",
       "ticket_id": 227447346,
@@ -1203,6 +1119,90 @@
       "ticket_id": 228593909,
       "action": "skip_spam",
       "detail": "elmandrye, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-07-01T14:49:12.385034+00:00",
+      "ticket_id": 228603983,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 1, 2026 ($117.71 USD)"
+    },
+    {
+      "ts": "2026-07-01T14:49:13.575414+00:00",
+      "ticket_id": 228604094,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elmandrye"
+    },
+    {
+      "ts": "2026-07-01T14:49:13.575449+00:00",
+      "ticket_id": 228613680,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 1, 2026 ($52.69 USD)"
+    },
+    {
+      "ts": "2026-07-01T14:49:13.575458+00:00",
+      "ticket_id": 228630224,
+      "action": "skip_spam",
+      "detail": "[ALERT] You've reached 100% of your monthly limit."
+    },
+    {
+      "ts": "2026-07-01T14:49:14.969070+00:00",
+      "ticket_id": 228675871,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
+    },
+    {
+      "ts": "2026-07-01T14:49:16.067224+00:00",
+      "ticket_id": 228678908,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Shopify store is missing a 24/7 salesperson"
+    },
+    {
+      "ts": "2026-07-01T14:49:17.599295+00:00",
+      "ticket_id": 228688881,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Monthly Review Roundup - June, 2026"
+    },
+    {
+      "ts": "2026-07-01T14:49:18.896774+00:00",
+      "ticket_id": 228689740,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Monthly Review Roundup - June, 2026"
+    },
+    {
+      "ts": "2026-07-01T14:49:19.965441+00:00",
+      "ticket_id": 228693095,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your digital products deserve better than manual delivery"
+    },
+    {
+      "ts": "2026-07-01T14:49:21.194431+00:00",
+      "ticket_id": 228698431,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7/1/2026"
+    },
+    {
+      "ts": "2026-07-01T14:49:22.227212+00:00",
+      "ticket_id": 228700176,
+      "action": "unknown_escalated_for_aj",
+      "detail": "MoCRA Compliance Support for Your Cosmetic Portfolio"
+    },
+    {
+      "ts": "2026-07-01T14:49:23.496297+00:00",
+      "ticket_id": 228700922,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Exclusive Deals on New Products Await! \u26a1"
+    },
+    {
+      "ts": "2026-07-01T14:49:23.496330+00:00",
+      "ticket_id": 228701168,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-01T14:49:25.032697+00:00",
+      "ticket_id": 228706434,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Order Update"
     }
   ]
 }
