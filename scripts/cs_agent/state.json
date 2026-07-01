@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 228706434,
-  "last_run_at": "2026-07-01T14:49:25.032720+00:00",
+  "last_processed_ticket_id": 228730898,
+  "last_run_at": "2026-07-01T17:06:04.236215+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-01",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449582+00:00",
-      "ticket_id": 227447346,
-      "action": "skip_too_old",
-      "detail": "search question"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449588+00:00",
-      "ticket_id": 227454156,
-      "action": "skip_too_old",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1036-6648]"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449593+00:00",
-      "ticket_id": 227470956,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449601+00:00",
-      "ticket_id": 227474471,
-      "action": "skip_too_old",
-      "detail": "Re: Order status - Contact"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449609+00:00",
-      "ticket_id": 227485097,
-      "action": "skip_too_old",
-      "detail": "Webinar Invite: How to Turn your Affiliate Traffic into More Revenue"
-    },
     {
       "ts": "2026-06-30T20:30:12.449615+00:00",
       "ticket_id": 227487871,
@@ -1203,6 +1173,36 @@
       "ticket_id": 228706434,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Order Update"
+    },
+    {
+      "ts": "2026-07-01T17:06:02.773078+00:00",
+      "ticket_id": 228715847,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-07-01T17:06:04.236171+00:00",
+      "ticket_id": 228725201,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-01T17:06:04.236197+00:00",
+      "ticket_id": 228727088,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful"
+    },
+    {
+      "ts": "2026-07-01T17:06:04.236206+00:00",
+      "ticket_id": 228730890,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-01T17:06:04.236213+00:00",
+      "ticket_id": 228730898,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
     }
   ]
 }
