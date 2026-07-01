@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 228757546,
-  "last_run_at": "2026-07-01T22:22:35.636822+00:00",
+  "last_processed_ticket_id": 228768074,
+  "last_run_at": "2026-07-01T23:51:20.209931+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-01",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449701+00:00",
-      "ticket_id": 227534968,
-      "action": "skip_too_old",
-      "detail": "Re: Order #85360 confirmed"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449710+00:00",
-      "ticket_id": 227544396,
-      "action": "skip_too_old",
-      "detail": "Is this Pupper?"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449715+00:00",
-      "ticket_id": 227545980,
-      "action": "skip_spam",
-      "detail": "Payout for Jun 24, 2026 ($79.91 USD)"
-    },
     {
       "ts": "2026-06-30T20:30:12.449723+00:00",
       "ticket_id": 227557358,
@@ -1203,6 +1185,24 @@
       "ticket_id": 228757546,
       "action": "unknown_escalated_for_aj",
       "detail": "A new report is ready"
+    },
+    {
+      "ts": "2026-07-01T23:51:19.320926+00:00",
+      "ticket_id": 228765973,
+      "action": "unknown_escalated_for_aj",
+      "detail": "You've reached your impression limit - ToastiBar - Sales Popup"
+    },
+    {
+      "ts": "2026-07-01T23:51:19.320962+00:00",
+      "ticket_id": 228766237,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-01T23:51:20.209909+00:00",
+      "ticket_id": 228768074,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye.com I Visible on Google but Missing from AI"
     }
   ]
 }
