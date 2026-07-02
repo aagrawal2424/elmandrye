@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 228896604,
-  "last_run_at": "2026-07-02T16:17:45.657754+00:00",
+  "last_processed_ticket_id": 228910080,
+  "last_run_at": "2026-07-02T18:07:49.649797+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-02",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449812+00:00",
-      "ticket_id": 227653814,
-      "action": "skip_spam",
-      "detail": "elmandrye, catch up on moments that you've missed"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449817+00:00",
-      "ticket_id": 227665867,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-06-30T20:30:12.449822+00:00",
       "ticket_id": 227666417,
@@ -1203,6 +1191,18 @@
       "ticket_id": 228896604,
       "action": "unknown_escalated_for_aj",
       "detail": "Fr ee mockup for your next SKU"
+    },
+    {
+      "ts": "2026-07-02T18:07:48.675340+00:00",
+      "ticket_id": 228907743,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New updates to your AI bot controls."
+    },
+    {
+      "ts": "2026-07-02T18:07:49.649776+00:00",
+      "ticket_id": 228910080,
+      "action": "unknown_escalated_for_aj",
+      "detail": "regarding elmandrye.com site visits"
     }
   ]
 }
