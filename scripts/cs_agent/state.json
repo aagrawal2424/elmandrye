@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 228878105,
-  "last_run_at": "2026-07-02T14:17:33.015966+00:00",
+  "last_processed_ticket_id": 228896604,
+  "last_run_at": "2026-07-02T16:17:45.657754+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-02",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449800+00:00",
-      "ticket_id": 227641601,
-      "action": "skip_too_old",
-      "detail": "Webinar Invite: How to Turn your Affiliate Traffic into More Revenue"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449808+00:00",
-      "ticket_id": 227642342,
-      "action": "skip_too_old",
-      "detail": "Get Free Storage Now"
-    },
     {
       "ts": "2026-06-30T20:30:12.449812+00:00",
       "ticket_id": 227653814,
@@ -1203,6 +1191,18 @@
       "ticket_id": 228878105,
       "action": "unknown_escalated_for_aj",
       "detail": "PPWR 2026: Is Your Packaging Compliance Strategy Ready?"
+    },
+    {
+      "ts": "2026-07-02T16:17:44.308312+00:00",
+      "ticket_id": 228889480,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order placed on 6/14"
+    },
+    {
+      "ts": "2026-07-02T16:17:45.657733+00:00",
+      "ticket_id": 228896604,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Fr ee mockup for your next SKU"
     }
   ]
 }
