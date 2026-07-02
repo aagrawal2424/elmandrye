@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 228910080,
-  "last_run_at": "2026-07-02T18:07:49.649797+00:00",
+  "last_processed_ticket_id": 228928842,
+  "last_run_at": "2026-07-02T19:51:33.526854+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-02",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449822+00:00",
-      "ticket_id": 227666417,
-      "action": "skip_spam",
-      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449826+00:00",
-      "ticket_id": 227666438,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449833+00:00",
-      "ticket_id": 227668541,
-      "action": "skip_too_old",
-      "detail": "Your new AI tools for video creation and more"
-    },
     {
       "ts": "2026-06-30T20:30:12.449839+00:00",
       "ticket_id": 227671452,
@@ -1203,6 +1185,24 @@
       "ticket_id": 228910080,
       "action": "unknown_escalated_for_aj",
       "detail": "regarding elmandrye.com site visits"
+    },
+    {
+      "ts": "2026-07-02T19:51:30.406738+00:00",
+      "ticket_id": 228918469,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Bringing your skincare sketches to life (15 days)"
+    },
+    {
+      "ts": "2026-07-02T19:51:31.264251+00:00",
+      "ticket_id": 228918759,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with rfennellrl@yahoo.com"
+    },
+    {
+      "ts": "2026-07-02T19:51:33.526836+00:00",
+      "ticket_id": 228928842,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
     }
   ]
 }
