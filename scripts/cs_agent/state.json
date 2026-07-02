@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 228928842,
-  "last_run_at": "2026-07-02T21:00:42.457788+00:00",
+  "last_processed_ticket_id": 228948913,
+  "last_run_at": "2026-07-02T22:16:19.383424+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-02",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449839+00:00",
-      "ticket_id": 227671452,
-      "action": "skip_too_old",
-      "detail": "Your new AI tools for video creation and more"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449845+00:00",
-      "ticket_id": 227694091,
-      "action": "skip_too_old",
-      "detail": "Breaking Cannabis News (6/24/2026)"
-    },
     {
       "ts": "2026-06-30T20:30:12.449850+00:00",
       "ticket_id": 227700221,
@@ -1203,6 +1191,18 @@
       "ticket_id": 228928842,
       "action": "unknown_escalated_for_aj",
       "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
+    },
+    {
+      "ts": "2026-07-02T22:16:18.003504+00:00",
+      "ticket_id": 228948716,
+      "action": "error_crash",
+      "detail": ""
+    },
+    {
+      "ts": "2026-07-02T22:16:19.383403+00:00",
+      "ticket_id": 228948913,
+      "action": "unknown_escalated_for_aj",
+      "detail": "What if customers could talk to your store?"
     }
   ]
 }
