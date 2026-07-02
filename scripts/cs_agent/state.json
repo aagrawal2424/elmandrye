@@ -1,75 +1,9 @@
 {
-  "last_processed_ticket_id": 228768074,
-  "last_run_at": "2026-07-02T02:50:37.858588+00:00",
+  "last_processed_ticket_id": 228878105,
+  "last_run_at": "2026-07-02T14:17:33.015966+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-02",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449723+00:00",
-      "ticket_id": 227557358,
-      "action": "skip_too_old",
-      "detail": "next shipment"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449730+00:00",
-      "ticket_id": 227562943,
-      "action": "skip_too_old",
-      "detail": "Re: Other - Contact"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449735+00:00",
-      "ticket_id": 227573861,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449744+00:00",
-      "ticket_id": 227591125,
-      "action": "skip_too_old",
-      "detail": "We checked your product listing"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449752+00:00",
-      "ticket_id": 227601469,
-      "action": "skip_too_old",
-      "detail": "We checked your product listing"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449758+00:00",
-      "ticket_id": 227606253,
-      "action": "skip_too_old",
-      "detail": "Please confirm the buyeverest.com account email address to keep your account up to date"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449766+00:00",
-      "ticket_id": 227624562,
-      "action": "skip_too_old",
-      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449775+00:00",
-      "ticket_id": 227629427,
-      "action": "skip_too_old",
-      "detail": "One app to manage every field, every product, every language"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449781+00:00",
-      "ticket_id": 227631517,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily News Update for 6/24/2026"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449786+00:00",
-      "ticket_id": 227637017,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449793+00:00",
-      "ticket_id": 227641547,
-      "action": "skip_too_old",
-      "detail": "Maximize Your Earnings with Top Juice Brands!"
-    },
     {
       "ts": "2026-06-30T20:30:12.449800+00:00",
       "ticket_id": 227641601,
@@ -1203,6 +1137,72 @@
       "ticket_id": 228768074,
       "action": "unknown_escalated_for_aj",
       "detail": "elmandrye.com I Visible on Google but Missing from AI"
+    },
+    {
+      "ts": "2026-07-02T14:17:24.110976+00:00",
+      "ticket_id": 228781633,
+      "action": "skip_spam",
+      "detail": "Your competitors launched in June. You still can."
+    },
+    {
+      "ts": "2026-07-02T14:17:25.329189+00:00",
+      "ticket_id": 228782779,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Fruit Juice"
+    },
+    {
+      "ts": "2026-07-02T14:17:26.398994+00:00",
+      "ticket_id": 228809395,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Vegan Collagen,,"
+    },
+    {
+      "ts": "2026-07-02T14:17:27.342799+00:00",
+      "ticket_id": 228812552,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Rates for content placement for healthwebmagazine.com"
+    },
+    {
+      "ts": "2026-07-02T14:17:28.609117+00:00",
+      "ticket_id": 228816833,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
+    },
+    {
+      "ts": "2026-07-02T14:17:29.433626+00:00",
+      "ticket_id": 228834683,
+      "action": "error_crash",
+      "detail": "Ordered on June 19th. Still no sea moss or update as to what is going on. It is now July 2nd. Do l need to contact my cr"
+    },
+    {
+      "ts": "2026-07-02T14:17:30.454241+00:00",
+      "ticket_id": 228859378,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for pupper.com"
+    },
+    {
+      "ts": "2026-07-02T14:17:30.454303+00:00",
+      "ticket_id": 228873278,
+      "action": "skip_spam",
+      "detail": "Gamerperks - the rewards programme 200M US Gamers actually use"
+    },
+    {
+      "ts": "2026-07-02T14:17:31.476269+00:00",
+      "ticket_id": 228876444,
+      "action": "unknown_escalated_for_aj",
+      "detail": "VanChat \u2014 ChatGPT-powered chat for your store."
+    },
+    {
+      "ts": "2026-07-02T14:17:31.476301+00:00",
+      "ticket_id": 228877232,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-02T14:17:33.015947+00:00",
+      "ticket_id": 228878105,
+      "action": "unknown_escalated_for_aj",
+      "detail": "PPWR 2026: Is Your Packaging Compliance Strategy Ready?"
     }
   ]
 }
