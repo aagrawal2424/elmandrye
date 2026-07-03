@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 229072055,
-  "last_run_at": "2026-07-03T16:05:42.354088+00:00",
+  "last_processed_ticket_id": 229085192,
+  "last_run_at": "2026-07-03T17:46:10.445445+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-03",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449915+00:00",
-      "ticket_id": 227826211,
-      "action": "skip_too_old",
-      "detail": "Increase Revenue from Your Affiliate Traffic"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449922+00:00",
-      "ticket_id": 227827223,
-      "action": "skip_too_old",
-      "detail": "NEW: President Trump Continues to Support Cannabis Banking Reform, Says Advisor"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.449928+00:00",
-      "ticket_id": 227829798,
-      "action": "skip_too_old",
-      "detail": "Hemp just changed \u2014 and it's in writing"
-    },
     {
       "ts": "2026-06-30T20:30:12.449935+00:00",
       "ticket_id": 227831972,
@@ -1203,6 +1185,24 @@
       "ticket_id": 229072055,
       "action": "skip_spam",
       "detail": "chewy and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-07-03T17:46:07.256769+00:00",
+      "ticket_id": 229079969,
+      "action": "error_crash",
+      "detail": "Did not receive order"
+    },
+    {
+      "ts": "2026-07-03T17:46:08.389295+00:00",
+      "ticket_id": 229084049,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-07-03T17:46:10.445425+00:00",
+      "ticket_id": 229085192,
+      "action": "unknown_escalated_for_aj",
+      "detail": "See photo on Google Maps"
     }
   ]
 }
