@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 229108439,
-  "last_run_at": "2026-07-03T21:36:13.614995+00:00",
+  "last_processed_ticket_id": 229112529,
+  "last_run_at": "2026-07-03T22:41:14.746851+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-03",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450014+00:00",
-      "ticket_id": 227889155,
-      "action": "skip_too_old",
-      "detail": ""
-    },
     {
       "ts": "2026-06-30T20:30:12.450021+00:00",
       "ticket_id": 227893225,
@@ -1203,6 +1197,12 @@
       "ticket_id": 229108439,
       "action": "skip_spam",
       "detail": "Automatic reply: Red, White & $25 off \ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "ts": "2026-07-03T22:41:14.746830+00:00",
+      "ticket_id": 229112529,
+      "action": "unknown_escalated_for_aj",
+      "detail": "75%+ of your customers shop on mobile."
     }
   ]
 }
