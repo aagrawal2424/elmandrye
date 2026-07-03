@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 229112529,
-  "last_run_at": "2026-07-03T22:41:14.746851+00:00",
+  "last_processed_ticket_id": 229115678,
+  "last_run_at": "2026-07-03T23:45:55.669486+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-03",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450021+00:00",
-      "ticket_id": 227893225,
-      "action": "skip_too_old",
-      "detail": "Re: Welcome to Elm & Rye"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450028+00:00",
-      "ticket_id": 227898103,
-      "action": "skip_too_old",
-      "detail": "Full-Service Supplement Production Including R&D, Manufacturing, and Logistics"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450035+00:00",
-      "ticket_id": 227946984,
-      "action": "skip_too_old",
-      "detail": "ANNY NORD Tiktok influencer"
-    },
     {
       "ts": "2026-06-30T20:30:12.450042+00:00",
       "ticket_id": 227952843,
@@ -1203,6 +1185,24 @@
       "ticket_id": 229112529,
       "action": "unknown_escalated_for_aj",
       "detail": "75%+ of your customers shop on mobile."
+    },
+    {
+      "ts": "2026-07-03T23:45:52.809685+00:00",
+      "ticket_id": 229115275,
+      "action": "skip_spam",
+      "detail": "saloniisonii and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-03T23:45:54.322133+00:00",
+      "ticket_id": 229115624,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Automatic reply: Red, White & 50% Off \ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "ts": "2026-07-03T23:45:55.669465+00:00",
+      "ticket_id": 229115678,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Red, White & $25 off \ud83c\uddfa\ud83c\uddf8"
     }
   ]
 }
