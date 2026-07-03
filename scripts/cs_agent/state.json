@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 229057673,
-  "last_run_at": "2026-07-03T14:22:28.881585+00:00",
+  "last_processed_ticket_id": 229072055,
+  "last_run_at": "2026-07-03T16:05:42.354088+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-03",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.449906+00:00",
-      "ticket_id": 227814615,
-      "action": "skip_spam",
-      "detail": "Announcing K:Service"
-    },
     {
       "ts": "2026-06-30T20:30:12.449915+00:00",
       "ticket_id": 227826211,
@@ -1203,6 +1197,12 @@
       "ticket_id": 229057673,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-03T16:05:42.354071+00:00",
+      "ticket_id": 229072055,
+      "action": "skip_spam",
+      "detail": "chewy and petco recently added to their stories"
     }
   ]
 }
