@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 229175533,
-  "last_run_at": "2026-07-04T13:47:17.252165+00:00",
+  "last_processed_ticket_id": 229190039,
+  "last_run_at": "2026-07-04T14:54:43.687786+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-04",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450074+00:00",
-      "ticket_id": 227983658,
-      "action": "skip_too_old",
-      "detail": "Increase Revenue from Your Affiliate Traffic"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450081+00:00",
-      "ticket_id": 227983735,
-      "action": "skip_too_old",
-      "detail": "Fresh Flavor Alert: Hot Grabba Chipz Are Here!"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450087+00:00",
-      "ticket_id": 227987715,
-      "action": "skip_too_old",
-      "detail": "Fwd: inventory"
-    },
     {
       "ts": "2026-06-30T20:30:12.450095+00:00",
       "ticket_id": 227988222,
@@ -1203,6 +1185,24 @@
       "ticket_id": 229175533,
       "action": "unknown_escalated_for_aj",
       "detail": "Your Shopify store is missing a 24/7 salesperson"
+    },
+    {
+      "ts": "2026-07-04T14:54:42.245116+00:00",
+      "ticket_id": 229187465,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-04T14:54:43.687740+00:00",
+      "ticket_id": 229187527,
+      "action": "unknown_escalated_for_aj",
+      "detail": "logo boxes"
+    },
+    {
+      "ts": "2026-07-04T14:54:43.687782+00:00",
+      "ticket_id": 229190039,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see what's been happening on Instagram"
     }
   ]
 }
