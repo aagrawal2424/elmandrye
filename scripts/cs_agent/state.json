@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 229217085,
-  "last_run_at": "2026-07-04T20:40:51.073447+00:00",
+  "last_processed_ticket_id": 229222464,
+  "last_run_at": "2026-07-04T21:42:06.829091+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-04",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450108+00:00",
-      "ticket_id": 227994093,
-      "action": "skip_too_old",
-      "detail": "Customize Doorstep Packaging"
-    },
     {
       "ts": "2026-06-30T20:30:12.450115+00:00",
       "ticket_id": 227995705,
@@ -1203,6 +1197,12 @@
       "ticket_id": 229217085,
       "action": "unknown_escalated_for_aj",
       "detail": "\ud83c\udf86 Hope Your Day's a Little Extra Lit \u2728"
+    },
+    {
+      "ts": "2026-07-04T21:42:06.829076+00:00",
+      "ticket_id": 229222464,
+      "action": "error_crash",
+      "detail": "Re: Order #85607 confirmed"
     }
   ]
 }
