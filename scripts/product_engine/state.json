@@ -376,6 +376,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "Ayurvedic alpha-glucosidase inhibitor; salacinol active (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
+    },
+    {
+      "product_name": "Eriocitrin Lemon",
+      "product_title": "Eriocitrin lemon",
+      "category": "supplements",
+      "niche_score": 9,
+      "shopify_product_id": "gid://shopify/Product/9247042076884",
+      "handle": "eriocitrin-lemon",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/3768f0b8-2c9a-4766-bb6e-b77f788e8a56/er-product-eriocitrin-lemon.png",
+      "created_at": "2026-07-04",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "Lemon-specific flavanone; metabolic + antioxidant; under-marketed (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
     }
   ]
 }
