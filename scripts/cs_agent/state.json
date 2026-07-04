@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 229115678,
-  "last_run_at": "2026-07-03T23:45:55.669486+00:00",
+  "last_processed_ticket_id": 229120453,
+  "last_run_at": "2026-07-04T01:22:00.567853+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-03",
+  "daily_refund_date": "2026-07-04",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450042+00:00",
-      "ticket_id": 227952843,
-      "action": "skip_too_old",
-      "detail": "Attached brochure: How to solve solubility & label claim issues with C-GlyMag1.15\u2122"
-    },
     {
       "ts": "2026-06-30T20:30:12.450049+00:00",
       "ticket_id": 227960436,
@@ -1203,6 +1197,12 @@
       "ticket_id": 229115678,
       "action": "unknown_escalated_for_aj",
       "detail": "Red, White & $25 off \ud83c\uddfa\ud83c\uddf8"
+    },
+    {
+      "ts": "2026-07-04T01:22:00.567836+00:00",
+      "ticket_id": 229120453,
+      "action": "unknown_escalated_for_aj",
+      "detail": "product catalog idea"
     }
   ]
 }
