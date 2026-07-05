@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 229326316,
-  "last_run_at": "2026-07-05T22:26:55.181724+00:00",
+  "last_processed_ticket_id": 229343129,
+  "last_run_at": "2026-07-05T23:37:54.095718+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-05",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450164+00:00",
-      "ticket_id": 228006519,
-      "action": "skip_too_old",
-      "detail": "Elm & Rye and Target Samples"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450181+00:00",
-      "ticket_id": 228006836,
-      "action": "skip_too_old",
-      "detail": "Order 85512"
-    },
     {
       "ts": "2026-06-30T20:30:12.450190+00:00",
       "ticket_id": 228013999,
@@ -1203,6 +1191,18 @@
       "ticket_id": 229326316,
       "action": "error_crash",
       "detail": "Re: Order #85447 confirmed"
+    },
+    {
+      "ts": "2026-07-05T23:37:52.490192+00:00",
+      "ticket_id": 229341105,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-05T23:37:54.095698+00:00",
+      "ticket_id": 229343129,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily News Update for 7/5/2026"
     }
   ]
 }
