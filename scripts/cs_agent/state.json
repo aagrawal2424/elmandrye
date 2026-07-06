@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 229520023,
-  "last_run_at": "2026-07-06T21:48:57.136963+00:00",
+  "last_processed_ticket_id": 229527185,
+  "last_run_at": "2026-07-06T22:55:45.820750+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-06",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450374+00:00",
-      "ticket_id": 228128666,
-      "action": "skip_too_old",
-      "detail": "Order #85314"
-    },
     {
       "ts": "2026-06-30T20:30:12.450380+00:00",
       "ticket_id": 228139224,
@@ -1203,6 +1197,12 @@
       "ticket_id": 229520023,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Question"
+    },
+    {
+      "ts": "2026-07-06T22:55:45.820731+00:00",
+      "ticket_id": 229527185,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Re: ASAP Cancel before it ships"
     }
   ]
 }
