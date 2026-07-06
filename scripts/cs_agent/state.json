@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 229497450,
-  "last_run_at": "2026-07-06T18:01:32.621646+00:00",
+  "last_processed_ticket_id": 229511509,
+  "last_run_at": "2026-07-06T20:10:48.708204+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-06",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450317+00:00",
-      "ticket_id": 228048343,
-      "action": "skip_too_old",
-      "detail": "[Notice] Possible unresolved security risks in your Admin Console"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450324+00:00",
-      "ticket_id": 228049924,
-      "action": "skip_too_old",
-      "detail": "Holographic Foil"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450331+00:00",
-      "ticket_id": 228075561,
-      "action": "skip_too_old",
-      "detail": "Re: 20% Off: Your Chill Awaits! \ud83c\udf1f"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450339+00:00",
-      "ticket_id": 228094342,
-      "action": "skip_too_old",
-      "detail": "Shipping question"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450344+00:00",
-      "ticket_id": 228101555,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-06-30T20:30:12.450352+00:00",
       "ticket_id": 228103163,
@@ -1203,6 +1173,36 @@
       "ticket_id": 229497450,
       "action": "unknown_escalated_for_aj",
       "detail": "noticed a few things on your website"
+    },
+    {
+      "ts": "2026-07-06T20:10:41.406721+00:00",
+      "ticket_id": 229501452,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, hobiwaffles94 and more in your feed"
+    },
+    {
+      "ts": "2026-07-06T20:10:43.223699+00:00",
+      "ticket_id": 229501961,
+      "action": "unknown_escalated_for_aj",
+      "detail": "You're Invited"
+    },
+    {
+      "ts": "2026-07-06T20:10:44.969667+00:00",
+      "ticket_id": 229502438,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Cancel subscription"
+    },
+    {
+      "ts": "2026-07-06T20:10:46.917286+00:00",
+      "ticket_id": 229510840,
+      "action": "return_exchange_escalated_no_orders",
+      "detail": "Recent order"
+    },
+    {
+      "ts": "2026-07-06T20:10:48.708183+00:00",
+      "ticket_id": 229511509,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don\u2019t Miss Our Exclusive Product Deals! \u26a1"
     }
   ]
 }
