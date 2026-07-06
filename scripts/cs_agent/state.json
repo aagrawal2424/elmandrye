@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 229469872,
-  "last_run_at": "2026-07-06T15:47:14.199320+00:00",
+  "last_processed_ticket_id": 229497450,
+  "last_run_at": "2026-07-06T18:01:32.621646+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-06",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450275+00:00",
-      "ticket_id": 228034728,
-      "action": "skip_too_old",
-      "detail": "Relief in every bite \u2601\ufe0f"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450282+00:00",
-      "ticket_id": 228037663,
-      "action": "skip_too_old",
-      "detail": "Re: Order"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450290+00:00",
-      "ticket_id": 228037735,
-      "action": "skip_too_old",
-      "detail": "Order 85496"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450298+00:00",
-      "ticket_id": 228038922,
-      "action": "skip_too_old",
-      "detail": "Missing order"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450303+00:00",
-      "ticket_id": 228043469,
-      "action": "skip_spam",
-      "detail": "chewy and 2 others recently added to their stories"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450309+00:00",
-      "ticket_id": 228044056,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
     {
       "ts": "2026-06-30T20:30:12.450317+00:00",
       "ticket_id": 228048343,
@@ -1203,6 +1167,42 @@
       "ticket_id": 229469237,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: A quick question about your skincare products"
+    },
+    {
+      "ts": "2026-07-06T18:01:26.287394+00:00",
+      "ticket_id": 229481958,
+      "action": "unknown_escalated_for_aj",
+      "detail": "buyeverest.com needs verification of your Registered Email when you have a moment"
+    },
+    {
+      "ts": "2026-07-06T18:01:27.412742+00:00",
+      "ticket_id": 229483474,
+      "action": "unknown_escalated_for_aj",
+      "detail": "failed lead-gen"
+    },
+    {
+      "ts": "2026-07-06T18:01:28.802544+00:00",
+      "ticket_id": 229490732,
+      "action": "error_crash",
+      "detail": "Return last 2 orders"
+    },
+    {
+      "ts": "2026-07-06T18:01:30.024361+00:00",
+      "ticket_id": 229495832,
+      "action": "unknown_escalated_for_aj",
+      "detail": "logo boxes"
+    },
+    {
+      "ts": "2026-07-06T18:01:31.468401+00:00",
+      "ticket_id": 229496768,
+      "action": "unknown_escalated_for_aj",
+      "detail": "regarding elmandrye.com site visits"
+    },
+    {
+      "ts": "2026-07-06T18:01:32.621629+00:00",
+      "ticket_id": 229497450,
+      "action": "unknown_escalated_for_aj",
+      "detail": "noticed a few things on your website"
     }
   ]
 }
