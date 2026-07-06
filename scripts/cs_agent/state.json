@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 229343129,
-  "last_run_at": "2026-07-05T23:37:54.095718+00:00",
+  "last_processed_ticket_id": 229347565,
+  "last_run_at": "2026-07-06T01:23:35.943309+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-05",
+  "daily_refund_date": "2026-07-06",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450190+00:00",
-      "ticket_id": 228013999,
-      "action": "skip_spam",
-      "detail": "Automatic reply: It's been a whole year \u2728 Here's a gift from us to you!"
-    },
     {
       "ts": "2026-06-30T20:30:12.450201+00:00",
       "ticket_id": 228014836,
@@ -1203,6 +1197,12 @@
       "ticket_id": 229343129,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily News Update for 7/5/2026"
+    },
+    {
+      "ts": "2026-07-06T01:23:35.943290+00:00",
+      "ticket_id": 229347565,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
     }
   ]
 }
