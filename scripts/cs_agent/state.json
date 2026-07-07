@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 229663359,
-  "last_run_at": "2026-07-07T17:08:41.126748+00:00",
+  "last_processed_ticket_id": 229680400,
+  "last_run_at": "2026-07-07T19:14:53.546287+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-07",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450482+00:00",
-      "ticket_id": 228274620,
-      "action": "skip_spam",
-      "detail": "Payout for Jun 29, 2026 ($75.03 USD)"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450488+00:00",
-      "ticket_id": 228285004,
-      "action": "skip_too_old",
-      "detail": ""
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450495+00:00",
-      "ticket_id": 228306459,
-      "action": "skip_too_old",
-      "detail": "\u041e\u043f\u0442\u0438\u043c\u0438\u0437\u0430\u0446\u0438\u044f \u044d\u043d\u0435\u0440\u0433\u043e\u0437\u0430\u0442\u0440\u0430\u0442 \u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c | Eficien\u021b\u0103 energetic\u0103 pentru afacerea Dvs."
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450502+00:00",
-      "ticket_id": 228313375,
-      "action": "skip_too_old",
-      "detail": "lead data question"
-    },
     {
       "ts": "2026-06-30T20:30:12.450510+00:00",
       "ticket_id": 228315948,
@@ -1203,6 +1179,30 @@
       "ticket_id": 229663359,
       "action": "unknown_escalated_for_aj",
       "detail": ""
+    },
+    {
+      "ts": "2026-07-07T19:14:48.406814+00:00",
+      "ticket_id": 229668650,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elmandrye - Want to beat takecareof.com at their own game?"
+    },
+    {
+      "ts": "2026-07-07T19:14:51.015694+00:00",
+      "ticket_id": 229674773,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udea8 You Don't See Cannabis Results Like This Every Day \ud83d\udc40\u00a0"
+    },
+    {
+      "ts": "2026-07-07T19:14:53.546245+00:00",
+      "ticket_id": 229676088,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We didn't update AI Agent. We rebuilt it."
+    },
+    {
+      "ts": "2026-07-07T19:14:53.546283+00:00",
+      "ticket_id": 229680400,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
     }
   ]
 }
