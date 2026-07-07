@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 229680400,
-  "last_run_at": "2026-07-07T22:19:09.193216+00:00",
+  "last_processed_ticket_id": 229700619,
+  "last_run_at": "2026-07-07T23:26:55.525032+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-07",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450510+00:00",
-      "ticket_id": 228315948,
-      "action": "skip_too_old",
-      "detail": "Subscription"
-    },
     {
       "ts": "2026-06-30T20:30:12.450516+00:00",
       "ticket_id": 228318084,
@@ -1203,6 +1197,12 @@
       "ticket_id": 229680400,
       "action": "skip_spam",
       "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-07T23:26:55.525012+00:00",
+      "ticket_id": 229700619,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Google Analytics performance report is in for June 10th - July 7th"
     }
   ]
 }
