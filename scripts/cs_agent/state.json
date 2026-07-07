@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 229642245,
-  "last_run_at": "2026-07-07T14:51:07.952279+00:00",
+  "last_processed_ticket_id": 229663359,
+  "last_run_at": "2026-07-07T17:08:41.126748+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-07",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450459+00:00",
-      "ticket_id": 228228970,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, edwardsfamily4 and more in your feed"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450466+00:00",
-      "ticket_id": 228238927,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily News Update for 6/28/2026"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450472+00:00",
-      "ticket_id": 228255152,
-      "action": "skip_too_old",
-      "detail": "Re: Upcoming charge to your bank account"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450476+00:00",
-      "ticket_id": 228256211,
-      "action": "skip_spam",
-      "detail": "chewy and petco recently added to their stories"
-    },
     {
       "ts": "2026-06-30T20:30:12.450482+00:00",
       "ticket_id": 228274620,
@@ -1203,6 +1179,30 @@
       "ticket_id": 229642245,
       "action": "unknown_escalated_for_aj",
       "detail": "creatives idea"
+    },
+    {
+      "ts": "2026-07-07T17:08:35.548064+00:00",
+      "ticket_id": 229643926,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Last minute Today Show, People Magazine Elm &amp; Rye"
+    },
+    {
+      "ts": "2026-07-07T17:08:37.952180+00:00",
+      "ticket_id": 229658410,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your June Search performance for https://elmandrye.com/"
+    },
+    {
+      "ts": "2026-07-07T17:08:39.947040+00:00",
+      "ticket_id": 229658759,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter 7/7/2026"
+    },
+    {
+      "ts": "2026-07-07T17:08:41.126737+00:00",
+      "ticket_id": 229663359,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
     }
   ]
 }
