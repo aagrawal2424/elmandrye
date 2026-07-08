@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 229700619,
-  "last_run_at": "2026-07-07T23:26:55.525032+00:00",
+  "last_processed_ticket_id": 229704522,
+  "last_run_at": "2026-07-08T01:03:37.612844+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-07",
+  "daily_refund_date": "2026-07-08",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450516+00:00",
-      "ticket_id": 228318084,
-      "action": "skip_too_old",
-      "detail": "New Message on Microsoft Teams Meeting - support"
-    },
     {
       "ts": "2026-06-30T20:30:12.450523+00:00",
       "ticket_id": 228319926,
@@ -1203,6 +1197,12 @@
       "ticket_id": 229700619,
       "action": "unknown_escalated_for_aj",
       "detail": "Your Google Analytics performance report is in for June 10th - July 7th"
+    },
+    {
+      "ts": "2026-07-08T01:03:37.612823+00:00",
+      "ticket_id": 229704522,
+      "action": "error_crash",
+      "detail": "Re: Order #85653 confirmed"
     }
   ]
 }
