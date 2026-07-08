@@ -1,87 +1,9 @@
 {
-  "last_processed_ticket_id": 229704522,
-  "last_run_at": "2026-07-08T01:03:37.612844+00:00",
+  "last_processed_ticket_id": 229802256,
+  "last_run_at": "2026-07-08T14:28:57.728460+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-08",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450523+00:00",
-      "ticket_id": 228319926,
-      "action": "skip_too_old",
-      "detail": "[Legal Update] Changes to Google Terms of Service for Additional Services"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450530+00:00",
-      "ticket_id": 228334121,
-      "action": "skip_too_old",
-      "detail": "Re: Order #84645 confirmed"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450536+00:00",
-      "ticket_id": 228353046,
-      "action": "skip_too_old",
-      "detail": "SEWA UAE VENDORS REGISTRATION 2026/2027"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450541+00:00",
-      "ticket_id": 228349481,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450549+00:00",
-      "ticket_id": 228351314,
-      "action": "skip_too_old",
-      "detail": "Invoice 2658 from Nitro Logistics, LLC"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450556+00:00",
-      "ticket_id": 228352083,
-      "action": "skip_too_old",
-      "detail": "[Legal Update] Changes to Google Terms of Service for Additional Services"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450563+00:00",
-      "ticket_id": 228356946,
-      "action": "skip_too_old",
-      "detail": "Re: A quick question about your skincare products"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450567+00:00",
-      "ticket_id": 228359503,
-      "action": "skip_spam",
-      "detail": "lesleyannemarie and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450574+00:00",
-      "ticket_id": 228367232,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily News Update for 6/29/2026"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450580+00:00",
-      "ticket_id": 228369519,
-      "action": "skip_too_old",
-      "detail": "pupper.com vs vetriscience.com"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450589+00:00",
-      "ticket_id": 228374613,
-      "action": "skip_too_old",
-      "detail": "Re: Product question - Contact"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450597+00:00",
-      "ticket_id": 228376388,
-      "action": "skip_too_old",
-      "detail": "Increase Revenue from Your Affiliate Traffic"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450605+00:00",
-      "ticket_id": 228376875,
-      "action": "skip_too_old",
-      "detail": "Increase Revenue from Your Affiliate Traffic"
-    },
     {
       "ts": "2026-06-30T20:30:12.450611+00:00",
       "ticket_id": 228381989,
@@ -1203,6 +1125,84 @@
       "ticket_id": 229704522,
       "action": "error_crash",
       "detail": "Re: Order #85653 confirmed"
+    },
+    {
+      "ts": "2026-07-08T14:28:42.317435+00:00",
+      "ticket_id": 229710678,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-07-08T14:28:42.317456+00:00",
+      "ticket_id": 229710805,
+      "action": "skip_spam",
+      "detail": "taytayvs11 and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-08T14:28:43.940280+00:00",
+      "ticket_id": 229715274,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Just checking in"
+    },
+    {
+      "ts": "2026-07-08T14:28:45.937436+00:00",
+      "ticket_id": 229729075,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Payment Processing"
+    },
+    {
+      "ts": "2026-07-08T14:28:47.727062+00:00",
+      "ticket_id": 229750391,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
+    },
+    {
+      "ts": "2026-07-08T14:28:49.103992+00:00",
+      "ticket_id": 229761941,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Design your website ?"
+    },
+    {
+      "ts": "2026-07-08T14:28:50.806364+00:00",
+      "ticket_id": 229765099,
+      "action": "unknown_escalated_for_aj",
+      "detail": "quick note about elmandrye.com"
+    },
+    {
+      "ts": "2026-07-08T14:28:51.754647+00:00",
+      "ticket_id": 229789644,
+      "action": "error_crash",
+      "detail": "Re: A shipment from order #85348 has been delivered"
+    },
+    {
+      "ts": "2026-07-08T14:28:53.363896+00:00",
+      "ticket_id": 229793335,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE: Digital Diagnostic?"
+    },
+    {
+      "ts": "2026-07-08T14:28:54.029443+00:00",
+      "ticket_id": 229794321,
+      "action": "error_crash",
+      "detail": "Order #85323"
+    },
+    {
+      "ts": "2026-07-08T14:28:54.866584+00:00",
+      "ticket_id": 229796749,
+      "action": "unknown_escalated_for_aj",
+      "detail": "David Thompson Is Hosting A Party And You Are On The List!"
+    },
+    {
+      "ts": "2026-07-08T14:28:54.866611+00:00",
+      "ticket_id": 229799777,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-08T14:28:57.728442+00:00",
+      "ticket_id": 229802256,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Discover Premium Products at Great Prices!"
     }
   ]
 }
