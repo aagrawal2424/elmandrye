@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 229852623,
-  "last_run_at": "2026-07-08T19:40:49.786169+00:00",
+  "last_processed_ticket_id": 229867078,
+  "last_run_at": "2026-07-08T20:47:19.903964+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-08",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:21.925055+00:00",
-      "ticket_id": 228427864,
-      "action": "skip_spam",
-      "detail": "Payout for Jun 30, 2026 ($214.13 USD)"
-    },
-    {
-      "ts": "2026-06-30T20:30:21.925061+00:00",
-      "ticket_id": 228428322,
-      "action": "skip_spam",
-      "detail": "elmandrye, see mbpfannerstill, andsomepr and more in your feed"
-    },
-    {
-      "ts": "2026-06-30T20:30:21.925067+00:00",
-      "ticket_id": 228432791,
-      "action": "skip_spam",
-      "detail": "Sell $5K in June, get $200 back. Here's how."
-    },
-    {
-      "ts": "2026-06-30T20:30:23.162287+00:00",
-      "ticket_id": 228452177,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
     {
       "ts": "2026-06-30T20:30:23.162320+00:00",
       "ticket_id": 228453000,
@@ -1203,6 +1179,30 @@
       "ticket_id": 229852623,
       "action": "unknown_escalated_for_aj",
       "detail": "A Few Issues May Be Costing You Leads"
+    },
+    {
+      "ts": "2026-07-08T20:47:16.037415+00:00",
+      "ticket_id": 229861846,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Skio update: a look at the last few weeks"
+    },
+    {
+      "ts": "2026-07-08T20:47:17.536085+00:00",
+      "ticket_id": 229861962,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Skio update: a look at the last few weeks"
+    },
+    {
+      "ts": "2026-07-08T20:47:18.477883+00:00",
+      "ticket_id": 229866628,
+      "action": "unknown_escalated_for_aj",
+      "detail": "$20 Off FRE Pouch With Code TMH20!"
+    },
+    {
+      "ts": "2026-07-08T20:47:19.903941+00:00",
+      "ticket_id": 229867078,
+      "action": "unknown_escalated_for_aj",
+      "detail": "prepared a quick snapshot with simple fixes"
     }
   ]
 }
