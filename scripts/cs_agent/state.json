@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 229833504,
-  "last_run_at": "2026-07-08T17:54:49.629361+00:00",
+  "last_processed_ticket_id": 229852623,
+  "last_run_at": "2026-07-08T19:40:49.786169+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-08",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:19.436747+00:00",
-      "ticket_id": 228411749,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Discount"
-    },
-    {
-      "ts": "2026-06-30T20:30:21.925024+00:00",
-      "ticket_id": 228411779,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "New customer message on June 29, 2026 at 2:50 pm"
-    },
     {
       "ts": "2026-06-30T20:30:21.925055+00:00",
       "ticket_id": 228427864,
@@ -1203,6 +1191,18 @@
       "ticket_id": 229833504,
       "action": "unknown_escalated_for_aj",
       "detail": "Luke, BarkBox is winning more search demand"
+    },
+    {
+      "ts": "2026-07-08T19:40:48.478917+00:00",
+      "ticket_id": 229840484,
+      "action": "skip_spam",
+      "detail": "elmandrye, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-07-08T19:40:49.786149+00:00",
+      "ticket_id": 229852623,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A Few Issues May Be Costing You Leads"
     }
   ]
 }
