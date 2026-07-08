@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 229802256,
-  "last_run_at": "2026-07-08T14:28:57.728460+00:00",
+  "last_processed_ticket_id": 229821996,
+  "last_run_at": "2026-07-08T16:15:14.119321+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-08",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450611+00:00",
-      "ticket_id": 228381989,
-      "action": "skip_too_old",
-      "detail": "Few SEO Gaps are Limiting Your Visibility and Growth ...!!"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450618+00:00",
-      "ticket_id": 228382114,
-      "action": "skip_too_old",
-      "detail": "Re: Looking For New Brands To Feature + ABC San Diego"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450625+00:00",
-      "ticket_id": 228387286,
-      "action": "skip_too_old",
-      "detail": "Dr. Jockers, Silver Fern Brand is winning more search demand"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450632+00:00",
-      "ticket_id": 228387880,
-      "action": "skip_too_old",
-      "detail": "New customer message on June 29, 2026 at 11:08 am"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450639+00:00",
-      "ticket_id": 228388360,
-      "action": "skip_too_old",
-      "detail": "BREAKING: Virginia Legalizes Recreational Marijuana Sales Through Budget Deal, With Launch Set for 2027"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450645+00:00",
-      "ticket_id": 228389440,
-      "action": "skip_too_old",
-      "detail": "social media sucks"
-    },
     {
       "ts": "2026-06-30T20:30:12.450655+00:00",
       "ticket_id": 228392803,
@@ -1203,6 +1167,42 @@
       "ticket_id": 229802256,
       "action": "unknown_escalated_for_aj",
       "detail": "Discover Premium Products at Great Prices!"
+    },
+    {
+      "ts": "2026-07-08T16:15:04.342007+00:00",
+      "ticket_id": 229807676,
+      "action": "unknown_escalated_for_aj",
+      "detail": "High Quality Guest Posting Services"
+    },
+    {
+      "ts": "2026-07-08T16:15:06.565882+00:00",
+      "ticket_id": 229809094,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank you for your payment"
+    },
+    {
+      "ts": "2026-07-08T16:15:09.011990+00:00",
+      "ticket_id": 229809312,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Gorgias Inc receipt [#1551-9969]"
+    },
+    {
+      "ts": "2026-07-08T16:15:10.325898+00:00",
+      "ticket_id": 229811047,
+      "action": "unknown_escalated_for_aj",
+      "detail": "content idea for you"
+    },
+    {
+      "ts": "2026-07-08T16:15:11.572443+00:00",
+      "ticket_id": 229820329,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your best pet food packaging partner\ud83d\udcaa"
+    },
+    {
+      "ts": "2026-07-08T16:15:14.119285+00:00",
+      "ticket_id": 229821996,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7/8/2026"
     }
   ]
 }
