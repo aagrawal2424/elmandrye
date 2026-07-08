@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 229821996,
-  "last_run_at": "2026-07-08T16:15:14.119321+00:00",
+  "last_processed_ticket_id": 229833504,
+  "last_run_at": "2026-07-08T17:54:49.629361+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-08",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:12.450655+00:00",
-      "ticket_id": 228392803,
-      "action": "skip_too_old",
-      "detail": "Re: Order status - Contact"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450663+00:00",
-      "ticket_id": 228403263,
-      "action": "skip_too_old",
-      "detail": "Conversation with chattstef@gmail.com"
-    },
-    {
-      "ts": "2026-06-30T20:30:12.450670+00:00",
-      "ticket_id": 228403609,
-      "action": "skip_too_old",
-      "detail": "Could you take a look at this please?"
-    },
-    {
-      "ts": "2026-06-30T20:30:14.419484+00:00",
-      "ticket_id": 228404377,
-      "action": "unknown_escalated_for_aj",
-      "detail": "You vs Zesty Paws and Platinum Performance"
-    },
-    {
-      "ts": "2026-06-30T20:30:16.557776+00:00",
-      "ticket_id": 228404400,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Uncover the Best E-Liquids for You!"
-    },
-    {
-      "ts": "2026-06-30T20:30:17.978600+00:00",
-      "ticket_id": 228409974,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Store Buyers"
-    },
     {
       "ts": "2026-06-30T20:30:19.436747+00:00",
       "ticket_id": 228411749,
@@ -1203,6 +1167,42 @@
       "ticket_id": 229821996,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 7/8/2026"
+    },
+    {
+      "ts": "2026-07-08T17:54:47.086382+00:00",
+      "ticket_id": 229827480,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-08T17:54:47.086399+00:00",
+      "ticket_id": 229829986,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-08T17:54:47.086405+00:00",
+      "ticket_id": 229830485,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-08T17:54:47.086410+00:00",
+      "ticket_id": 229830495,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-08T17:54:48.575485+00:00",
+      "ticket_id": 229830712,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your website Losing Potential Traffic !!!"
+    },
+    {
+      "ts": "2026-07-08T17:54:49.629352+00:00",
+      "ticket_id": 229833504,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Luke, BarkBox is winning more search demand"
     }
   ]
 }
