@@ -1,129 +1,9 @@
 {
-  "last_processed_ticket_id": 229880218,
-  "last_run_at": "2026-07-09T01:03:23.783486+00:00",
+  "last_processed_ticket_id": 229990309,
+  "last_run_at": "2026-07-09T15:24:33.025829+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-09",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:29.918084+00:00",
-      "ticket_id": 228525758,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-06-30T20:30:31.953183+00:00",
-      "ticket_id": 228531556,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Geek Bar \u2014 Fullest Lineup Yet, Every Tier Covered"
-    },
-    {
-      "ts": "2026-06-30T20:30:33.155673+00:00",
-      "ticket_id": 228532981,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elmandrye"
-    },
-    {
-      "ts": "2026-06-30T20:30:34.562029+00:00",
-      "ticket_id": 228539456,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Label materials for supplement bottles"
-    },
-    {
-      "ts": "2026-06-30T20:30:36.690703+00:00",
-      "ticket_id": 228539918,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: 20% Off: Your Chill Awaits! \ud83c\udf1f"
-    },
-    {
-      "ts": "2026-06-30T20:30:38.641239+00:00",
-      "ticket_id": 228546826,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter (6/30/2026)"
-    },
-    {
-      "ts": "2026-06-30T20:30:40.401515+00:00",
-      "ticket_id": 228551059,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I did not cancel"
-    },
-    {
-      "ts": "2026-06-30T20:30:41.988196+00:00",
-      "ticket_id": 228551060,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I did not cancel"
-    },
-    {
-      "ts": "2026-06-30T20:30:43.320534+00:00",
-      "ticket_id": 228556842,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Made a purchase, but didn't receive confirmation or order #"
-    },
-    {
-      "ts": "2026-06-30T20:30:45.044513+00:00",
-      "ticket_id": 228562387,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The recipe for effortless support: AI on top of your connected store"
-    },
-    {
-      "ts": "2026-06-30T20:30:47.663776+00:00",
-      "ticket_id": 228568912,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
-    },
-    {
-      "ts": "2026-06-30T20:30:49.253923+00:00",
-      "ticket_id": 228574400,
-      "action": "unknown_escalated_for_aj",
-      "detail": "buyeverest.com needs verification of your Account Email to continue using your account"
-    },
-    {
-      "ts": "2026-06-30T22:01:56.104773+00:00",
-      "ticket_id": 228586643,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: A shipment from order #85525 is on the way"
-    },
-    {
-      "ts": "2026-06-30T22:01:57.734320+00:00",
-      "ticket_id": 228589787,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Fw: Subscription management reminder"
-    },
-    {
-      "ts": "2026-06-30T23:36:28.522702+00:00",
-      "ticket_id": 228593909,
-      "action": "skip_spam",
-      "detail": "elmandrye, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-07-01T14:49:12.385034+00:00",
-      "ticket_id": 228603983,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 1, 2026 ($117.71 USD)"
-    },
-    {
-      "ts": "2026-07-01T14:49:13.575414+00:00",
-      "ticket_id": 228604094,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elmandrye"
-    },
-    {
-      "ts": "2026-07-01T14:49:13.575449+00:00",
-      "ticket_id": 228613680,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 1, 2026 ($52.69 USD)"
-    },
-    {
-      "ts": "2026-07-01T14:49:13.575458+00:00",
-      "ticket_id": 228630224,
-      "action": "skip_spam",
-      "detail": "[ALERT] You've reached 100% of your monthly limit."
-    },
-    {
-      "ts": "2026-07-01T14:49:14.969070+00:00",
-      "ticket_id": 228675871,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
-    },
     {
       "ts": "2026-07-01T14:49:16.067224+00:00",
       "ticket_id": 228678908,
@@ -1203,6 +1083,126 @@
       "ticket_id": 229880218,
       "action": "order_cancel_escalated_for_aj",
       "detail": "cancel subscriptions"
+    },
+    {
+      "ts": "2026-07-09T15:23:40.538776+00:00",
+      "ticket_id": 229885261,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 10, 2026 (-$303.34 USD)"
+    },
+    {
+      "ts": "2026-07-09T15:23:40.538801+00:00",
+      "ticket_id": 229886376,
+      "action": "skip_spam",
+      "detail": "elmandrye, catch up on moments that you've missed"
+    },
+    {
+      "ts": "2026-07-09T15:23:43.796613+00:00",
+      "ticket_id": 229887207,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your competitors are showing up in AI results"
+    },
+    {
+      "ts": "2026-07-09T15:23:43.796647+00:00",
+      "ticket_id": 229887626,
+      "action": "skip_spam",
+      "detail": "This is how sellers go viral on TikTok \ud83d\udd25"
+    },
+    {
+      "ts": "2026-07-09T15:23:44.939156+00:00",
+      "ticket_id": 229888783,
+      "action": "error_crash",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-07-09T15:23:45.691512+00:00",
+      "ticket_id": 229889254,
+      "action": "error_crash",
+      "detail": "Re: Confirmation of shipping Order #84935"
+    },
+    {
+      "ts": "2026-07-09T15:23:46.712724+00:00",
+      "ticket_id": 229889791,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-07-09T15:23:48.033740+00:00",
+      "ticket_id": 229890436,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Welcome to Elm & Rye"
+    },
+    {
+      "ts": "2026-07-09T15:23:49.436142+00:00",
+      "ticket_id": 229891117,
+      "action": "refund_request_escalated_no_orders",
+      "detail": "A chargeback was opened for order #15169"
+    },
+    {
+      "ts": "2026-07-09T15:23:49.436176+00:00",
+      "ticket_id": 229913552,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Kevin Scott, has signed up for your program!"
+    },
+    {
+      "ts": "2026-07-09T15:23:50.762879+00:00",
+      "ticket_id": 229914359,
+      "action": "unknown_escalated_for_aj",
+      "detail": "re: Matcha powder from aogubio"
+    },
+    {
+      "ts": "2026-07-09T15:23:51.942264+00:00",
+      "ticket_id": 229916168,
+      "action": "error_crash",
+      "detail": "ORDER #85543"
+    },
+    {
+      "ts": "2026-07-09T15:23:53.024987+00:00",
+      "ticket_id": 229954382,
+      "action": "error_crash",
+      "detail": "Lazaroff order 84881"
+    },
+    {
+      "ts": "2026-07-09T15:23:54.671727+00:00",
+      "ticket_id": 229975802,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on July 9, 2026 at 6:56 am"
+    },
+    {
+      "ts": "2026-07-09T15:23:54.671761+00:00",
+      "ticket_id": 229977324,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-09T15:23:55.950628+00:00",
+      "ticket_id": 229978931,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order Being Charged But Never Delivered"
+    },
+    {
+      "ts": "2026-07-09T15:24:02.137503+00:00",
+      "ticket_id": 229980218,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order #83555 confirmed"
+    },
+    {
+      "ts": "2026-07-09T15:24:30.478388+00:00",
+      "ticket_id": 229979872,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-09T15:24:32.038243+00:00",
+      "ticket_id": 229987485,
+      "action": "unknown_escalated_for_aj",
+      "detail": "50K Puffs Never Looked This Good \ud83d\udc8e\u2728"
+    },
+    {
+      "ts": "2026-07-09T15:24:33.025792+00:00",
+      "ticket_id": 229990309,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Sequencing Pupper for a family office investment of $2m up to $35M"
     }
   ]
 }
