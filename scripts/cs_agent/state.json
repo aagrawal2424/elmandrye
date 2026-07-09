@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 230017090,
-  "last_run_at": "2026-07-09T19:10:05.463225+00:00",
+  "last_processed_ticket_id": 230030870,
+  "last_run_at": "2026-07-09T20:56:51.637083+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-09",
   "ticket_actions": [
-    {
-      "ts": "2026-07-01T14:49:22.227212+00:00",
-      "ticket_id": 228700176,
-      "action": "unknown_escalated_for_aj",
-      "detail": "MoCRA Compliance Support for Your Cosmetic Portfolio"
-    },
     {
       "ts": "2026-07-01T14:49:23.496297+00:00",
       "ticket_id": 228700922,
@@ -1203,6 +1197,12 @@
       "ticket_id": 230017090,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Re: Your cart is about to expire."
+    },
+    {
+      "ts": "2026-07-09T20:56:51.637057+00:00",
+      "ticket_id": 230030870,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Order inquiry"
     }
   ]
 }
