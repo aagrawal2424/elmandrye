@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 229876624,
-  "last_run_at": "2026-07-08T23:11:06.134655+00:00",
+  "last_processed_ticket_id": 229880218,
+  "last_run_at": "2026-07-09T01:03:23.783486+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-08",
+  "daily_refund_date": "2026-07-09",
   "ticket_actions": [
-    {
-      "ts": "2026-06-30T20:30:28.337137+00:00",
-      "ticket_id": 228503698,
-      "action": "error_crash",
-      "detail": "Re: Order #85427 confirmed"
-    },
-    {
-      "ts": "2026-06-30T20:30:29.918052+00:00",
-      "ticket_id": 228524936,
-      "action": "unknown_escalated_for_aj",
-      "detail": "VanChat \u2014 ChatGPT-powered chat for your store."
-    },
     {
       "ts": "2026-06-30T20:30:29.918084+00:00",
       "ticket_id": 228525758,
@@ -1203,6 +1191,18 @@
       "ticket_id": 229876624,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 7/8/2026 (Part 2)"
+    },
+    {
+      "ts": "2026-07-09T01:03:21.183320+00:00",
+      "ticket_id": 229879826,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-07-09T01:03:23.783465+00:00",
+      "ticket_id": 229880218,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "cancel subscriptions"
     }
   ]
 }
