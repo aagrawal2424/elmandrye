@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 229990309,
-  "last_run_at": "2026-07-09T15:24:33.025829+00:00",
+  "last_processed_ticket_id": 230001888,
+  "last_run_at": "2026-07-09T17:29:07.390984+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-09",
   "ticket_actions": [
-    {
-      "ts": "2026-07-01T14:49:16.067224+00:00",
-      "ticket_id": 228678908,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Shopify store is missing a 24/7 salesperson"
-    },
     {
       "ts": "2026-07-01T14:49:17.599295+00:00",
       "ticket_id": 228688881,
@@ -1203,6 +1197,12 @@
       "ticket_id": 229990309,
       "action": "unknown_escalated_for_aj",
       "detail": "Sequencing Pupper for a family office investment of $2m up to $35M"
+    },
+    {
+      "ts": "2026-07-09T17:29:07.390958+00:00",
+      "ticket_id": 230001888,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7/9/2026."
     }
   ]
 }
