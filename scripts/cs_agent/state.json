@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 230001888,
-  "last_run_at": "2026-07-09T17:29:07.390984+00:00",
+  "last_processed_ticket_id": 230017090,
+  "last_run_at": "2026-07-09T19:10:05.463225+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-09",
   "ticket_actions": [
-    {
-      "ts": "2026-07-01T14:49:17.599295+00:00",
-      "ticket_id": 228688881,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Monthly Review Roundup - June, 2026"
-    },
-    {
-      "ts": "2026-07-01T14:49:18.896774+00:00",
-      "ticket_id": 228689740,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Monthly Review Roundup - June, 2026"
-    },
-    {
-      "ts": "2026-07-01T14:49:19.965441+00:00",
-      "ticket_id": 228693095,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your digital products deserve better than manual delivery"
-    },
-    {
-      "ts": "2026-07-01T14:49:21.194431+00:00",
-      "ticket_id": 228698431,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/1/2026"
-    },
     {
       "ts": "2026-07-01T14:49:22.227212+00:00",
       "ticket_id": 228700176,
@@ -1203,6 +1179,30 @@
       "ticket_id": 230001888,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 7/9/2026."
+    },
+    {
+      "ts": "2026-07-09T19:10:01.617739+00:00",
+      "ticket_id": 230009938,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83c\udfaf There's More Than One Way to Reach Local Cannabis Customers \ud83d\udccd\u00a0"
+    },
+    {
+      "ts": "2026-07-09T19:10:02.781443+00:00",
+      "ticket_id": 230010038,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I Visible on Google but Missing from AI"
+    },
+    {
+      "ts": "2026-07-09T19:10:04.241919+00:00",
+      "ticket_id": 230014352,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The AI that survives BFCM is the one you can trust"
+    },
+    {
+      "ts": "2026-07-09T19:10:05.463203+00:00",
+      "ticket_id": 230017090,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Your cart is about to expire."
     }
   ]
 }
