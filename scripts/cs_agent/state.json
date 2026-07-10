@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 230156294,
-  "last_run_at": "2026-07-10T19:54:56.791256+00:00",
+  "last_processed_ticket_id": 230186390,
+  "last_run_at": "2026-07-10T21:10:39.395895+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-10",
   "ticket_actions": [
-    {
-      "ts": "2026-07-02T14:17:27.342799+00:00",
-      "ticket_id": 228812552,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Rates for content placement for healthwebmagazine.com"
-    },
-    {
-      "ts": "2026-07-02T14:17:28.609117+00:00",
-      "ticket_id": 228816833,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
-    },
-    {
-      "ts": "2026-07-02T14:17:29.433626+00:00",
-      "ticket_id": 228834683,
-      "action": "error_crash",
-      "detail": "Ordered on June 19th. Still no sea moss or update as to what is going on. It is now July 2nd. Do l need to contact my cr"
-    },
-    {
-      "ts": "2026-07-02T14:17:30.454241+00:00",
-      "ticket_id": 228859378,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Google Workspace: Your invoice is available for pupper.com"
-    },
-    {
-      "ts": "2026-07-02T14:17:30.454303+00:00",
-      "ticket_id": 228873278,
-      "action": "skip_spam",
-      "detail": "Gamerperks - the rewards programme 200M US Gamers actually use"
-    },
-    {
-      "ts": "2026-07-02T14:17:31.476269+00:00",
-      "ticket_id": 228876444,
-      "action": "unknown_escalated_for_aj",
-      "detail": "VanChat \u2014 ChatGPT-powered chat for your store."
-    },
     {
       "ts": "2026-07-02T14:17:31.476301+00:00",
       "ticket_id": 228877232,
@@ -1203,6 +1167,42 @@
       "ticket_id": 230156294,
       "action": "unknown_escalated_for_aj",
       "detail": "FREE Forever Email Marketing for Shopify"
+    },
+    {
+      "ts": "2026-07-10T21:10:34.491656+00:00",
+      "ticket_id": 230182250,
+      "action": "skip_spam",
+      "detail": "Automatic reply: Summer Sale Alert \u2600\ufe0f"
+    },
+    {
+      "ts": "2026-07-10T21:10:34.491681+00:00",
+      "ticket_id": 230182430,
+      "action": "skip_spam",
+      "detail": "Automatic reply: Summer Sale Alert \u2600\ufe0f"
+    },
+    {
+      "ts": "2026-07-10T21:10:34.491687+00:00",
+      "ticket_id": 230182451,
+      "action": "skip_spam",
+      "detail": "Automatic reply: Summer Sale Alert \u2600\ufe0f"
+    },
+    {
+      "ts": "2026-07-10T21:10:34.491692+00:00",
+      "ticket_id": 230182485,
+      "action": "skip_spam",
+      "detail": "Automatic reply: Summer Sale Alert \u2600\ufe0f"
+    },
+    {
+      "ts": "2026-07-10T21:10:37.135672+00:00",
+      "ticket_id": 230185568,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE: A Little Upgrade, On Us \ud83c\udf81"
+    },
+    {
+      "ts": "2026-07-10T21:10:39.395874+00:00",
+      "ticket_id": 230186390,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Cancellation of Subscription"
     }
   ]
 }
