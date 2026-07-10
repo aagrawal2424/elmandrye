@@ -454,6 +454,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "Sporoderm-broken reishi spores; concentrated triterpene fraction (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
+    },
+    {
+      "product_name": "Hesperidin",
+      "product_title": "Hesperidin",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9258290282708",
+      "handle": "hesperidin",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/916bef15-b79f-4e9d-9e49-24e56b0390b6/er-product-hesperidin.png",
+      "created_at": "2026-07-10",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'hesperidin' appears in 2 recent supplement-research papers (most recent example: \"Effects of monoglucosyl hesperidin on human lymphatic circulatory function: A randomized placebo-controlled, double-blind, crossover trial.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
