@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 230186390,
-  "last_run_at": "2026-07-10T21:10:39.395895+00:00",
+  "last_processed_ticket_id": 230190615,
+  "last_run_at": "2026-07-10T22:18:03.398700+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-10",
   "ticket_actions": [
-    {
-      "ts": "2026-07-02T14:17:31.476301+00:00",
-      "ticket_id": 228877232,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-02T14:17:33.015947+00:00",
-      "ticket_id": 228878105,
-      "action": "unknown_escalated_for_aj",
-      "detail": "PPWR 2026: Is Your Packaging Compliance Strategy Ready?"
-    },
-    {
-      "ts": "2026-07-02T16:17:44.308312+00:00",
-      "ticket_id": 228889480,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order placed on 6/14"
-    },
     {
       "ts": "2026-07-02T16:17:45.657733+00:00",
       "ticket_id": 228896604,
@@ -1203,6 +1185,24 @@
       "ticket_id": 230186390,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Cancellation of Subscription"
+    },
+    {
+      "ts": "2026-07-10T22:18:02.266183+00:00",
+      "ticket_id": 230189723,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: A Little Upgrade, On Us \ud83c\udf81"
+    },
+    {
+      "ts": "2026-07-10T22:18:03.398670+00:00",
+      "ticket_id": 230190071,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Let Other Shopify Stores Sell Your Products"
+    },
+    {
+      "ts": "2026-07-10T22:18:03.398696+00:00",
+      "ticket_id": 230190615,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
     }
   ]
 }
