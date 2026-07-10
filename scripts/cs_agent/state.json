@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 230190615,
-  "last_run_at": "2026-07-10T22:18:03.398700+00:00",
+  "last_processed_ticket_id": 230193858,
+  "last_run_at": "2026-07-10T23:25:58.585481+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-10",
   "ticket_actions": [
-    {
-      "ts": "2026-07-02T16:17:45.657733+00:00",
-      "ticket_id": 228896604,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Fr ee mockup for your next SKU"
-    },
-    {
-      "ts": "2026-07-02T18:07:48.675340+00:00",
-      "ticket_id": 228907743,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New updates to your AI bot controls."
-    },
     {
       "ts": "2026-07-02T18:07:49.649776+00:00",
       "ticket_id": 228910080,
@@ -1203,6 +1191,18 @@
       "ticket_id": 230190615,
       "action": "skip_spam",
       "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-07-10T23:25:58.585447+00:00",
+      "ticket_id": 230191998,
+      "action": "unknown_escalated_for_aj",
+      "detail": "U.S. Legal Cannabis Sales Near $2.5 Billion in June, Reach $14 Billion in First Half of 2026"
+    },
+    {
+      "ts": "2026-07-10T23:25:58.585478+00:00",
+      "ticket_id": 230193858,
+      "action": "skip_spam",
+      "detail": "elmandrye, see el_chicano_tezcatlipoca, nbamaze22 and more in your feed"
     }
   ]
 }
