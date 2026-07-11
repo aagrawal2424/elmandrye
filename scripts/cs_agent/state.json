@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 230193858,
-  "last_run_at": "2026-07-10T23:25:58.585481+00:00",
+  "last_processed_ticket_id": 230194669,
+  "last_run_at": "2026-07-11T00:59:49.349504+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-10",
+  "daily_refund_date": "2026-07-11",
   "ticket_actions": [
-    {
-      "ts": "2026-07-02T18:07:49.649776+00:00",
-      "ticket_id": 228910080,
-      "action": "unknown_escalated_for_aj",
-      "detail": "regarding elmandrye.com site visits"
-    },
     {
       "ts": "2026-07-02T19:51:30.406738+00:00",
       "ticket_id": 228918469,
@@ -1203,6 +1197,12 @@
       "ticket_id": 230193858,
       "action": "skip_spam",
       "detail": "elmandrye, see el_chicano_tezcatlipoca, nbamaze22 and more in your feed"
+    },
+    {
+      "ts": "2026-07-11T00:59:49.349481+00:00",
+      "ticket_id": 230194669,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A Little Upgrade, On Us \ud83c\udf81"
     }
   ]
 }
