@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 230194669,
-  "last_run_at": "2026-07-11T00:59:49.349504+00:00",
+  "last_processed_ticket_id": 230217473,
+  "last_run_at": "2026-07-11T13:40:11.483051+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-11",
   "ticket_actions": [
-    {
-      "ts": "2026-07-02T19:51:30.406738+00:00",
-      "ticket_id": 228918469,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Bringing your skincare sketches to life (15 days)"
-    },
-    {
-      "ts": "2026-07-02T19:51:31.264251+00:00",
-      "ticket_id": 228918759,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with rfennellrl@yahoo.com"
-    },
-    {
-      "ts": "2026-07-02T19:51:33.526836+00:00",
-      "ticket_id": 228928842,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
-    },
     {
       "ts": "2026-07-02T22:16:18.003504+00:00",
       "ticket_id": 228948716,
@@ -1203,6 +1185,24 @@
       "ticket_id": 230194669,
       "action": "unknown_escalated_for_aj",
       "detail": "A Little Upgrade, On Us \ud83c\udf81"
+    },
+    {
+      "ts": "2026-07-11T13:40:09.121392+00:00",
+      "ticket_id": 230204701,
+      "action": "skip_spam",
+      "detail": "Spots are filling fast \u2014 don't miss this"
+    },
+    {
+      "ts": "2026-07-11T13:40:09.121415+00:00",
+      "ticket_id": 230206573,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 11, 2026 ($130.74 USD)"
+    },
+    {
+      "ts": "2026-07-11T13:40:11.483030+00:00",
+      "ticket_id": 230217473,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
     }
   ]
 }
