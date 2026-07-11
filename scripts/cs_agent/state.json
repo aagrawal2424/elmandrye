@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 230258604,
-  "last_run_at": "2026-07-11T22:29:29.163133+00:00",
+  "last_processed_ticket_id": 230293323,
+  "last_run_at": "2026-07-11T23:32:45.845390+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-11",
   "ticket_actions": [
-    {
-      "ts": "2026-07-02T22:16:19.383403+00:00",
-      "ticket_id": 228948913,
-      "action": "unknown_escalated_for_aj",
-      "detail": "What if customers could talk to your store?"
-    },
     {
       "ts": "2026-07-02T23:33:10.536360+00:00",
       "ticket_id": 228953571,
@@ -1203,6 +1197,12 @@
       "ticket_id": 230258604,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-11T23:32:45.845371+00:00",
+      "ticket_id": 230293323,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "New customer message on July 11, 2026 at 3:42 pm"
     }
   ]
 }
