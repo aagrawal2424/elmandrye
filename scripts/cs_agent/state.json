@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 230354600,
-  "last_run_at": "2026-07-12T15:43:18.996318+00:00",
+  "last_processed_ticket_id": 230364973,
+  "last_run_at": "2026-07-12T16:38:48.642283+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-12",
   "ticket_actions": [
-    {
-      "ts": "2026-07-03T14:22:25.447801+00:00",
-      "ticket_id": 228990878,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Discover the latest pet toy project from LOFFEPET"
-    },
     {
       "ts": "2026-07-03T14:22:25.447832+00:00",
       "ticket_id": 229024645,
@@ -1203,6 +1197,12 @@
       "ticket_id": 230354600,
       "action": "skip_spam",
       "detail": "chewy and petsmart recently added to their stories"
+    },
+    {
+      "ts": "2026-07-12T16:38:48.642264+00:00",
+      "ticket_id": 230364973,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
     }
   ]
 }
