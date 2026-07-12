@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 230376884,
-  "last_run_at": "2026-07-12T18:40:33.421485+00:00",
+  "last_processed_ticket_id": 230382481,
+  "last_run_at": "2026-07-12T19:54:23.889702+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-12",
   "ticket_actions": [
-    {
-      "ts": "2026-07-03T14:22:28.881551+00:00",
-      "ticket_id": 229056713,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Czar Additives Are Here With a Deal"
-    },
     {
       "ts": "2026-07-03T14:22:28.881581+00:00",
       "ticket_id": 229057673,
@@ -1203,6 +1197,12 @@
       "ticket_id": 230376884,
       "action": "skip_spam",
       "detail": "saloniisonii and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-12T19:54:23.889683+00:00",
+      "ticket_id": 230382481,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.12.2026"
     }
   ]
 }
