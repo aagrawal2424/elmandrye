@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 230364973,
-  "last_run_at": "2026-07-12T17:43:00.304055+00:00",
+  "last_processed_ticket_id": 230376884,
+  "last_run_at": "2026-07-12T18:40:33.421485+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-12",
   "ticket_actions": [
-    {
-      "ts": "2026-07-03T14:22:25.447832+00:00",
-      "ticket_id": 229024645,
-      "action": "skip_spam",
-      "detail": "Improve your rankings with quality backlinks - Contact"
-    },
-    {
-      "ts": "2026-07-03T14:22:27.576795+00:00",
-      "ticket_id": 229036997,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1646-3918]"
-    },
     {
       "ts": "2026-07-03T14:22:28.881551+00:00",
       "ticket_id": 229056713,
@@ -1203,6 +1191,18 @@
       "ticket_id": 230364973,
       "action": "error_crash",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-12T18:40:33.421461+00:00",
+      "ticket_id": 230376035,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-07-12T18:40:33.421482+00:00",
+      "ticket_id": 230376884,
+      "action": "skip_spam",
+      "detail": "saloniisonii and 7 others recently added to their stories"
     }
   ]
 }
