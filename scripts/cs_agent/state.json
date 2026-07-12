@@ -1,8 +1,8 @@
 {
   "last_processed_ticket_id": 230293323,
-  "last_run_at": "2026-07-11T23:32:45.845390+00:00",
+  "last_run_at": "2026-07-12T01:10:52.836183+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-11",
+  "daily_refund_date": "2026-07-12",
   "ticket_actions": [
     {
       "ts": "2026-07-02T23:33:10.536360+00:00",
