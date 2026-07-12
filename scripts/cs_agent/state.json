@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 230303008,
-  "last_run_at": "2026-07-12T13:40:17.061163+00:00",
+  "last_processed_ticket_id": 230354600,
+  "last_run_at": "2026-07-12T14:43:19.949864+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-12",
   "ticket_actions": [
-    {
-      "ts": "2026-07-03T14:22:23.373792+00:00",
-      "ticket_id": 228970492,
-      "action": "skip_spam",
-      "detail": "your guest post is live - Contact"
-    },
-    {
-      "ts": "2026-07-03T14:22:24.393728+00:00",
-      "ticket_id": 228975306,
-      "action": "unknown_escalated_for_aj",
-      "detail": "High Converting RN | Content Creator Partnership"
-    },
     {
       "ts": "2026-07-03T14:22:25.447801+00:00",
       "ticket_id": 228990878,
@@ -1203,6 +1191,18 @@
       "ticket_id": 230303008,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Never received tracking for this order"
+    },
+    {
+      "ts": "2026-07-12T14:43:19.949839+00:00",
+      "ticket_id": 230352472,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-12T14:43:19.949861+00:00",
+      "ticket_id": 230354600,
+      "action": "skip_spam",
+      "detail": "chewy and petsmart recently added to their stories"
     }
   ]
 }
