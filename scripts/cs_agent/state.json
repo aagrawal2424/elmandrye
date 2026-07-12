@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 230293323,
-  "last_run_at": "2026-07-12T01:10:52.836183+00:00",
+  "last_processed_ticket_id": 230303008,
+  "last_run_at": "2026-07-12T13:40:17.061163+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-12",
   "ticket_actions": [
-    {
-      "ts": "2026-07-02T23:33:10.536360+00:00",
-      "ticket_id": 228953571,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/2/2026"
-    },
-    {
-      "ts": "2026-07-03T14:22:23.373757+00:00",
-      "ticket_id": 228964035,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Fruit Juice"
-    },
-    {
-      "ts": "2026-07-03T14:22:23.373785+00:00",
-      "ticket_id": 228964383,
-      "action": "skip_spam",
-      "detail": "From heygracey and others: 3 unread messages"
-    },
     {
       "ts": "2026-07-03T14:22:23.373792+00:00",
       "ticket_id": 228970492,
@@ -1203,6 +1185,24 @@
       "ticket_id": 230293323,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "New customer message on July 11, 2026 at 3:42 pm"
+    },
+    {
+      "ts": "2026-07-12T13:40:12.234923+00:00",
+      "ticket_id": 230299804,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Order #85691"
+    },
+    {
+      "ts": "2026-07-12T13:40:14.235553+00:00",
+      "ticket_id": 230301870,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
+    },
+    {
+      "ts": "2026-07-12T13:40:17.061140+00:00",
+      "ticket_id": 230303008,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Never received tracking for this order"
     }
   ]
 }
