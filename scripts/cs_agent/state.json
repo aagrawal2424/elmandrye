@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 230504296,
-  "last_run_at": "2026-07-13T14:48:41.881844+00:00",
+  "last_processed_ticket_id": 230526157,
+  "last_run_at": "2026-07-13T17:03:29.185659+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-13",
   "ticket_actions": [
-    {
-      "ts": "2026-07-03T23:45:52.809685+00:00",
-      "ticket_id": 229115275,
-      "action": "skip_spam",
-      "detail": "saloniisonii and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-03T23:45:54.322133+00:00",
-      "ticket_id": 229115624,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Automatic reply: Red, White & 50% Off \ud83c\uddfa\ud83c\uddf8"
-    },
     {
       "ts": "2026-07-03T23:45:55.669465+00:00",
       "ticket_id": 229115678,
@@ -1203,6 +1191,18 @@
       "ticket_id": 230504296,
       "action": "unknown_escalated_for_aj",
       "detail": "Wellness supplement content"
+    },
+    {
+      "ts": "2026-07-13T17:03:27.458150+00:00",
+      "ticket_id": 230523306,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Bret Worley's July Special Pricing"
+    },
+    {
+      "ts": "2026-07-13T17:03:29.185641+00:00",
+      "ticket_id": 230526157,
+      "action": "unknown_escalated_for_aj",
+      "detail": "PROJECT FUNDING/LOAN"
     }
   ]
 }
