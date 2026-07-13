@@ -1,105 +1,9 @@
 {
-  "last_processed_ticket_id": 230395360,
-  "last_run_at": "2026-07-13T00:02:42.779301+00:00",
+  "last_processed_ticket_id": 230504296,
+  "last_run_at": "2026-07-13T14:48:41.881844+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-13",
   "ticket_actions": [
-    {
-      "ts": "2026-07-03T16:05:42.354071+00:00",
-      "ticket_id": 229072055,
-      "action": "skip_spam",
-      "detail": "chewy and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-07-03T17:46:07.256769+00:00",
-      "ticket_id": 229079969,
-      "action": "error_crash",
-      "detail": "Did not receive order"
-    },
-    {
-      "ts": "2026-07-03T17:46:08.389295+00:00",
-      "ticket_id": 229084049,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-07-03T17:46:10.445425+00:00",
-      "ticket_id": 229085192,
-      "action": "unknown_escalated_for_aj",
-      "detail": "See photo on Google Maps"
-    },
-    {
-      "ts": "2026-07-03T20:17:33.187141+00:00",
-      "ticket_id": 229097702,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
-    {
-      "ts": "2026-07-03T20:17:35.849645+00:00",
-      "ticket_id": 229103535,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE: Red, White & $25 off \ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-      "ts": "2026-07-03T20:17:35.849672+00:00",
-      "ticket_id": 229103620,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Red, White & $25 off \ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-      "ts": "2026-07-03T20:17:35.849679+00:00",
-      "ticket_id": 229103644,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Red, White & 50% Off \ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-      "ts": "2026-07-03T20:17:35.849687+00:00",
-      "ticket_id": 229103659,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Red, White & $25 off \ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-      "ts": "2026-07-03T20:17:35.849693+00:00",
-      "ticket_id": 229103689,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Red, White & 50% Off \ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-      "ts": "2026-07-03T20:17:35.849698+00:00",
-      "ticket_id": 229103707,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Red, White & 50% Off \ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-      "ts": "2026-07-03T20:17:37.990909+00:00",
-      "ticket_id": 229104181,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83e\udde8 Quick One Before the Grill (and Everything Else) Gets Fired Up \ud83d\udd25"
-    },
-    {
-      "ts": "2026-07-03T21:36:11.872107+00:00",
-      "ticket_id": 229105895,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-07-03T21:36:13.614960+00:00",
-      "ticket_id": 229106150,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Retail Service Needs"
-    },
-    {
-      "ts": "2026-07-03T21:36:13.614991+00:00",
-      "ticket_id": 229108439,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Red, White & $25 off \ud83c\uddfa\ud83c\uddf8"
-    },
-    {
-      "ts": "2026-07-03T22:41:14.746830+00:00",
-      "ticket_id": 229112529,
-      "action": "unknown_escalated_for_aj",
-      "detail": "75%+ of your customers shop on mobile."
-    },
     {
       "ts": "2026-07-03T23:45:52.809685+00:00",
       "ticket_id": 229115275,
@@ -1203,6 +1107,102 @@
       "ticket_id": 230395360,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-13T14:48:19.548163+00:00",
+      "ticket_id": 230400372,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Trustmark 30 Sec. Customer Satisfaction Survey"
+    },
+    {
+      "ts": "2026-07-13T14:48:20.880535+00:00",
+      "ticket_id": 230400405,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank You for Submitting Your Ask ISO Case - ID# 00115826 - thread::HRLzXBg5BhaRPfwNNCCsIhQ::"
+    },
+    {
+      "ts": "2026-07-13T14:48:22.190076+00:00",
+      "ticket_id": 230400407,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Request received] - 05575669"
+    },
+    {
+      "ts": "2026-07-13T14:48:23.227744+00:00",
+      "ticket_id": 230400412,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your ticket has been created"
+    },
+    {
+      "ts": "2026-07-13T14:48:24.587701+00:00",
+      "ticket_id": 230401036,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Brightmine Ref No: 10533167"
+    },
+    {
+      "ts": "2026-07-13T14:48:25.977860+00:00",
+      "ticket_id": 230401277,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Request WO0000004351121: Status has been updated to Cancelled."
+    },
+    {
+      "ts": "2026-07-13T14:48:31.937892+00:00",
+      "ticket_id": 230401166,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[CALM#:9052814] Ticket 9052814 has been opened for you / Mae galwad rhif 9052814 wedi ei hagor ar eich cyfer"
+    },
+    {
+      "ts": "2026-07-13T14:48:33.004571+00:00",
+      "ticket_id": 230401151,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-07-13T14:48:34.158427+00:00",
+      "ticket_id": 230405461,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank You for Submitting Your Ask ISO Case - ID# 00115826 - thread::HRLzXBg5BhaRPfwNNCCsIhQ::"
+    },
+    {
+      "ts": "2026-07-13T14:48:34.158458+00:00",
+      "ticket_id": 230408858,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Chaz Sandifer, has signed up for your program!"
+    },
+    {
+      "ts": "2026-07-13T14:48:35.163370+00:00",
+      "ticket_id": 230416529,
+      "action": "unknown_escalated_for_aj",
+      "detail": "pupper.com: Get Ahead with Cutting-Edge SEO Tactics"
+    },
+    {
+      "ts": "2026-07-13T14:48:37.442143+00:00",
+      "ticket_id": 230447145,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Jetpack Monthly Report - https://buyeverest.com"
+    },
+    {
+      "ts": "2026-07-13T14:48:38.584571+00:00",
+      "ticket_id": 230485059,
+      "action": "unknown_escalated_for_aj",
+      "detail": "One idea for Pupper's after-hours sales - Turn your 2 AM browsers into paid Shopify orders \u2014 automatically."
+    },
+    {
+      "ts": "2026-07-13T14:48:40.934229+00:00",
+      "ticket_id": 230488344,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Paid Collaboration: Link Insertion or Backlink Inquiry"
+    },
+    {
+      "ts": "2026-07-13T14:48:40.934263+00:00",
+      "ticket_id": 230497113,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-13T14:48:41.881825+00:00",
+      "ticket_id": 230504296,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Wellness supplement content"
     }
   ]
 }
