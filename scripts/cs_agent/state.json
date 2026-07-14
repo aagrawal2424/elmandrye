@@ -1,69 +1,9 @@
 {
-  "last_processed_ticket_id": 230563744,
-  "last_run_at": "2026-07-14T00:11:21.247243+00:00",
+  "last_processed_ticket_id": 230659254,
+  "last_run_at": "2026-07-14T13:58:15.369249+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-14",
   "ticket_actions": [
-    {
-      "ts": "2026-07-04T13:47:17.252140+00:00",
-      "ticket_id": 229175533,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Shopify store is missing a 24/7 salesperson"
-    },
-    {
-      "ts": "2026-07-04T14:54:42.245116+00:00",
-      "ticket_id": 229187465,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-04T14:54:43.687740+00:00",
-      "ticket_id": 229187527,
-      "action": "unknown_escalated_for_aj",
-      "detail": "logo boxes"
-    },
-    {
-      "ts": "2026-07-04T14:54:43.687782+00:00",
-      "ticket_id": 229190039,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-07-04T17:18:27.900791+00:00",
-      "ticket_id": 229202654,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Ad concept for Pupper"
-    },
-    {
-      "ts": "2026-07-04T20:40:51.073421+00:00",
-      "ticket_id": 229217085,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83c\udf86 Hope Your Day's a Little Extra Lit \u2728"
-    },
-    {
-      "ts": "2026-07-04T21:42:06.829076+00:00",
-      "ticket_id": 229222464,
-      "action": "error_crash",
-      "detail": "Re: Order #85607 confirmed"
-    },
-    {
-      "ts": "2026-07-05T13:53:09.454281+00:00",
-      "ticket_id": 229236242,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Your cart is about to expire."
-    },
-    {
-      "ts": "2026-07-05T13:53:09.454319+00:00",
-      "ticket_id": 229240147,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 5, 2026 ($45.43 USD)"
-    },
-    {
-      "ts": "2026-07-05T15:13:15.836287+00:00",
-      "ticket_id": 229292822,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-07-05T20:03:21.877105+00:00",
       "ticket_id": 229322598,
@@ -1203,6 +1143,66 @@
       "ticket_id": 230563744,
       "action": "unknown_escalated_for_aj",
       "detail": "Press + Retail - quick idea (Oprah)"
+    },
+    {
+      "ts": "2026-07-14T13:58:06.348360+00:00",
+      "ticket_id": 230569412,
+      "action": "return_exchange_escalated_no_orders",
+      "detail": "Missing orders"
+    },
+    {
+      "ts": "2026-07-14T13:58:08.130333+00:00",
+      "ticket_id": 230569602,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invoice 2711 from Nitro Logistics, LLC"
+    },
+    {
+      "ts": "2026-07-14T13:58:08.130370+00:00",
+      "ticket_id": 230572754,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 14, 2026 ($70.46 USD)"
+    },
+    {
+      "ts": "2026-07-14T13:58:08.130379+00:00",
+      "ticket_id": 230575012,
+      "action": "skip_spam",
+      "detail": "This is how sellers go viral on TikTok \ud83d\udd25"
+    },
+    {
+      "ts": "2026-07-14T13:58:09.111636+00:00",
+      "ticket_id": 230575060,
+      "action": "error_crash",
+      "detail": "Order# 85575"
+    },
+    {
+      "ts": "2026-07-14T13:58:10.441366+00:00",
+      "ticket_id": 230599415,
+      "action": "unknown_escalated_for_aj",
+      "detail": "re:  5\u20138\u00d7 absorption | Custom liposomal line | 150 MOQ"
+    },
+    {
+      "ts": "2026-07-14T13:58:11.615195+00:00",
+      "ticket_id": 230602976,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elevate Your Packaging with Our Premium Custom Mylar Bags"
+    },
+    {
+      "ts": "2026-07-14T13:58:12.759233+00:00",
+      "ticket_id": 230644527,
+      "action": "unknown_escalated_for_aj",
+      "detail": "turn 1 into 10"
+    },
+    {
+      "ts": "2026-07-14T13:58:14.068642+00:00",
+      "ticket_id": 230653361,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.14.2026"
+    },
+    {
+      "ts": "2026-07-14T13:58:15.369228+00:00",
+      "ticket_id": 230659254,
+      "action": "unknown_escalated_for_aj",
+      "detail": "health creators Pupper"
     }
   ]
 }
