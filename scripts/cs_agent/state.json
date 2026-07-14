@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 230698814,
-  "last_run_at": "2026-07-14T17:58:31.610109+00:00",
+  "last_processed_ticket_id": 230706545,
+  "last_run_at": "2026-07-14T19:39:14.758015+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-14",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T15:47:05.425549+00:00",
-      "ticket_id": 229406146,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Hi"
-    },
-    {
-      "ts": "2026-07-06T15:47:07.243443+00:00",
-      "ticket_id": 229420611,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Increase Awin affiliate revenue"
-    },
     {
       "ts": "2026-07-06T15:47:09.771952+00:00",
       "ticket_id": 229429405,
@@ -1203,6 +1191,18 @@
       "ticket_id": 230698814,
       "action": "unknown_escalated_for_aj",
       "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
+    },
+    {
+      "ts": "2026-07-14T19:39:14.757969+00:00",
+      "ticket_id": 230703042,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udea8 Your Cannabis Marketing Deserves Better. We Beat Industry Benchmarks by 5X \ud83d\udca5\u00a0"
+    },
+    {
+      "ts": "2026-07-14T19:39:14.758011+00:00",
+      "ticket_id": 230706545,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
     }
   ]
 }
