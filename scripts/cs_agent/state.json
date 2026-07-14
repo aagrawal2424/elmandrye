@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 230659254,
-  "last_run_at": "2026-07-14T13:58:15.369249+00:00",
+  "last_processed_ticket_id": 230679656,
+  "last_run_at": "2026-07-14T15:37:49.884402+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-14",
   "ticket_actions": [
-    {
-      "ts": "2026-07-05T20:03:21.877105+00:00",
-      "ticket_id": 229322598,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Somehow I got 2 orders coming. Just send the order with the 1 bottle of morning. I only wanted that to see if the stomac"
-    },
-    {
-      "ts": "2026-07-05T20:03:22.839423+00:00",
-      "ticket_id": 229326316,
-      "action": "error_crash",
-      "detail": "Re: Order #85447 confirmed"
-    },
-    {
-      "ts": "2026-07-05T23:37:52.490192+00:00",
-      "ticket_id": 229341105,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-07-05T23:37:54.095698+00:00",
-      "ticket_id": 229343129,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily News Update for 7/5/2026"
-    },
     {
       "ts": "2026-07-06T01:23:35.943290+00:00",
       "ticket_id": 229347565,
@@ -1203,6 +1179,30 @@
       "ticket_id": 230659254,
       "action": "unknown_escalated_for_aj",
       "detail": "health creators Pupper"
+    },
+    {
+      "ts": "2026-07-14T15:37:48.029396+00:00",
+      "ticket_id": 230662571,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-14T15:37:48.029418+00:00",
+      "ticket_id": 230675935,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-14T15:37:49.884367+00:00",
+      "ticket_id": 230676385,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Question about your store"
+    },
+    {
+      "ts": "2026-07-14T15:37:49.884400+00:00",
+      "ticket_id": 230679656,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
