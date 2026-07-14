@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 230717497,
-  "last_run_at": "2026-07-14T20:43:44.460473+00:00",
+  "last_processed_ticket_id": 230720067,
+  "last_run_at": "2026-07-14T21:40:55.217280+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-14",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T15:47:12.079187+00:00",
-      "ticket_id": 229460313,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Invoice 2706 from Nitro Logistics, LLC"
-    },
     {
       "ts": "2026-07-06T15:47:12.079215+00:00",
       "ticket_id": 229469872,
@@ -1203,6 +1197,12 @@
       "ticket_id": 230717497,
       "action": "unknown_escalated_for_aj",
       "detail": "Conversation with Deborah Mrantz"
+    },
+    {
+      "ts": "2026-07-14T21:40:55.217252+00:00",
+      "ticket_id": 230720067,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Report an issue - Contact"
     }
   ]
 }
