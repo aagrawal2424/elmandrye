@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 230679656,
-  "last_run_at": "2026-07-14T15:37:49.884402+00:00",
+  "last_processed_ticket_id": 230681135,
+  "last_run_at": "2026-07-14T16:50:50.661306+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-14",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T01:23:35.943290+00:00",
-      "ticket_id": 229347565,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
-    },
-    {
-      "ts": "2026-07-06T15:47:04.008062+00:00",
-      "ticket_id": 229353560,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New web page error?"
-    },
     {
       "ts": "2026-07-06T15:47:04.008095+00:00",
       "ticket_id": 229354444,
@@ -1203,6 +1191,18 @@
       "ticket_id": 230679656,
       "action": "skip_spam",
       "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-07-14T16:50:49.131896+00:00",
+      "ticket_id": 230680403,
+      "action": "unknown_escalated_for_aj",
+      "detail": "PCR and Mono-material pet packaging \ud83c\udf3f"
+    },
+    {
+      "ts": "2026-07-14T16:50:50.661286+00:00",
+      "ticket_id": 230681135,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
     }
   ]
 }
