@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 230681135,
-  "last_run_at": "2026-07-14T16:50:50.661306+00:00",
+  "last_processed_ticket_id": 230698814,
+  "last_run_at": "2026-07-14T17:58:31.610109+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-14",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T15:47:04.008095+00:00",
-      "ticket_id": 229354444,
-      "action": "skip_spam",
-      "detail": "kellybbird and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-06T15:47:04.008104+00:00",
-      "ticket_id": 229355317,
-      "action": "skip_spam",
-      "detail": "chewy and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-07-06T15:47:04.008114+00:00",
-      "ticket_id": 229365533,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 6, 2026 ($71.88 USD)"
-    },
     {
       "ts": "2026-07-06T15:47:05.425549+00:00",
       "ticket_id": 229406146,
@@ -1203,6 +1185,24 @@
       "ticket_id": 230681135,
       "action": "unknown_escalated_for_aj",
       "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-07-14T17:58:26.619387+00:00",
+      "ticket_id": 230694537,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-14T17:58:29.141139+00:00",
+      "ticket_id": 230697167,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Order 85526"
+    },
+    {
+      "ts": "2026-07-14T17:58:31.610072+00:00",
+      "ticket_id": 230698814,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
     }
   ]
 }
