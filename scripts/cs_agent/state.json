@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 230720067,
-  "last_run_at": "2026-07-14T22:41:10.854087+00:00",
+  "last_processed_ticket_id": 230728314,
+  "last_run_at": "2026-07-14T23:36:05.438076+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-14",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T15:47:12.079215+00:00",
-      "ticket_id": 229469872,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-06T15:47:14.199300+00:00",
-      "ticket_id": 229469237,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: A quick question about your skincare products"
-    },
     {
       "ts": "2026-07-06T18:01:26.287394+00:00",
       "ticket_id": 229481958,
@@ -1203,6 +1191,18 @@
       "ticket_id": 230720067,
       "action": "unknown_escalated_for_aj",
       "detail": "Report an issue - Contact"
+    },
+    {
+      "ts": "2026-07-14T23:36:03.895899+00:00",
+      "ticket_id": 230728258,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.14.2026 (Part 2)"
+    },
+    {
+      "ts": "2026-07-14T23:36:05.438060+00:00",
+      "ticket_id": 230728314,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\ude80 Unlock Your Next Sales Channel. See How Crocs Did It."
     }
   ]
 }
