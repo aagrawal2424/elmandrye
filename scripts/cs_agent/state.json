@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 230706545,
-  "last_run_at": "2026-07-14T19:39:14.758015+00:00",
+  "last_processed_ticket_id": 230717497,
+  "last_run_at": "2026-07-14T20:43:44.460473+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-14",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T15:47:09.771952+00:00",
-      "ticket_id": 229429405,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Re: Your Everest renewal order from January 14, 2024 is complete"
-    },
     {
       "ts": "2026-07-06T15:47:12.079187+00:00",
       "ticket_id": 229460313,
@@ -1203,6 +1197,12 @@
       "ticket_id": 230706545,
       "action": "skip_spam",
       "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-14T20:43:44.460453+00:00",
+      "ticket_id": 230717497,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with Deborah Mrantz"
     }
   ]
 }
