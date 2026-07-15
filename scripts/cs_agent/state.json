@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 230889283,
-  "last_run_at": "2026-07-15T21:41:35.542825+00:00",
+  "last_processed_ticket_id": 230895148,
+  "last_run_at": "2026-07-15T22:42:26.081831+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-15",
   "ticket_actions": [
-    {
-      "ts": "2026-07-07T14:51:04.593505+00:00",
-      "ticket_id": 229634156,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-07T14:51:05.366388+00:00",
-      "ticket_id": 229637119,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-07-07T14:51:06.175751+00:00",
       "ticket_id": 229642088,
@@ -1203,6 +1191,18 @@
       "ticket_id": 230889283,
       "action": "error_crash",
       "detail": "Tracking my purchase"
+    },
+    {
+      "ts": "2026-07-15T22:42:26.081793+00:00",
+      "ticket_id": 230894689,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Catch the Hottest New Products Now!"
+    },
+    {
+      "ts": "2026-07-15T22:42:26.081828+00:00",
+      "ticket_id": 230895148,
+      "action": "skip_spam",
+      "detail": "elmandrye, see what's been happening on Instagram"
     }
   ]
 }
