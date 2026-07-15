@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 230728314,
-  "last_run_at": "2026-07-14T23:36:05.438076+00:00",
+  "last_processed_ticket_id": 230731129,
+  "last_run_at": "2026-07-15T00:59:47.815886+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-14",
+  "daily_refund_date": "2026-07-15",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T18:01:26.287394+00:00",
-      "ticket_id": 229481958,
-      "action": "unknown_escalated_for_aj",
-      "detail": "buyeverest.com needs verification of your Registered Email when you have a moment"
-    },
     {
       "ts": "2026-07-06T18:01:27.412742+00:00",
       "ticket_id": 229483474,
@@ -1203,6 +1197,12 @@
       "ticket_id": 230728314,
       "action": "unknown_escalated_for_aj",
       "detail": "\ud83d\ude80 Unlock Your Next Sales Channel. See How Crocs Did It."
+    },
+    {
+      "ts": "2026-07-15T00:59:47.815864+00:00",
+      "ticket_id": 230731129,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Bonjour Elmandrye"
     }
   ]
 }
