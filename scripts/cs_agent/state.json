@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 230856657,
-  "last_run_at": "2026-07-15T16:55:32.589810+00:00",
+  "last_processed_ticket_id": 230865144,
+  "last_run_at": "2026-07-15T18:12:54.865245+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-15",
   "ticket_actions": [
-    {
-      "ts": "2026-07-07T14:50:58.575051+00:00",
-      "ticket_id": 229536666,
-      "action": "skip_spam",
-      "detail": "Built-in discovery. Zero ad spend. Start now."
-    },
-    {
-      "ts": "2026-07-07T14:50:59.804643+00:00",
-      "ticket_id": 229536694,
-      "action": "error_crash",
-      "detail": "Re: Order #85032 confirmed"
-    },
-    {
-      "ts": "2026-07-07T14:51:01.480543+00:00",
-      "ticket_id": 229538291,
-      "action": "unknown_escalated_for_aj",
-      "detail": "President Trump Urges Senate Majority Leader John Thune to Hold Vote on SAFE Banking Act"
-    },
-    {
-      "ts": "2026-07-07T14:51:01.480575+00:00",
-      "ticket_id": 229541509,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 7, 2026 ($238.08 USD)"
-    },
     {
       "ts": "2026-07-07T14:51:01.480585+00:00",
       "ticket_id": 229546875,
@@ -1203,6 +1179,30 @@
       "ticket_id": 230856657,
       "action": "unknown_escalated_for_aj",
       "detail": "Website Need Improvements"
+    },
+    {
+      "ts": "2026-07-15T18:12:54.865213+00:00",
+      "ticket_id": 230863532,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-15T18:12:54.865231+00:00",
+      "ticket_id": 230864593,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-15T18:12:54.865237+00:00",
+      "ticket_id": 230864991,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-15T18:12:54.865242+00:00",
+      "ticket_id": 230865144,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
     }
   ]
 }
