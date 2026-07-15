@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 230865144,
-  "last_run_at": "2026-07-15T19:39:27.982234+00:00",
+  "last_processed_ticket_id": 230886779,
+  "last_run_at": "2026-07-15T20:42:53.283876+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-15",
   "ticket_actions": [
-    {
-      "ts": "2026-07-07T14:51:01.480585+00:00",
-      "ticket_id": 229546875,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 7, 2026 ($45.43 USD)"
-    },
-    {
-      "ts": "2026-07-07T14:51:02.348046+00:00",
-      "ticket_id": 229608506,
-      "action": "unknown_escalated_for_aj",
-      "detail": "chatgpt shows me your negative reviews"
-    },
-    {
-      "ts": "2026-07-07T14:51:03.684855+00:00",
-      "ticket_id": 229617428,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "New customer message on July 7, 2026 at 5:33 am"
-    },
     {
       "ts": "2026-07-07T14:51:04.593475+00:00",
       "ticket_id": 229618457,
@@ -1203,6 +1185,24 @@
       "ticket_id": 230865144,
       "action": "skip_spam",
       "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-15T20:42:50.506335+00:00",
+      "ticket_id": 230885372,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Subscription Cancelation"
+    },
+    {
+      "ts": "2026-07-15T20:42:52.186837+00:00",
+      "ticket_id": 230886710,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Opportunity to reach Amazon's 200M+ Prime members \u2013 US Marketplace "
+    },
+    {
+      "ts": "2026-07-15T20:42:53.283861+00:00",
+      "ticket_id": 230886779,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
     }
   ]
 }
