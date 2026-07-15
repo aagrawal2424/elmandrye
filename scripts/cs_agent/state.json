@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 230848061,
-  "last_run_at": "2026-07-15T15:38:38.491605+00:00",
+  "last_processed_ticket_id": 230856657,
+  "last_run_at": "2026-07-15T16:55:32.589810+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-15",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T21:48:57.136944+00:00",
-      "ticket_id": 229520023,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Question"
-    },
-    {
-      "ts": "2026-07-06T22:55:45.820731+00:00",
-      "ticket_id": 229527185,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Re: ASAP Cancel before it ships"
-    },
     {
       "ts": "2026-07-07T14:50:58.575051+00:00",
       "ticket_id": 229536666,
@@ -1203,6 +1191,18 @@
       "ticket_id": 230848061,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Shipping"
+    },
+    {
+      "ts": "2026-07-15T16:55:31.321219+00:00",
+      "ticket_id": 230851210,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Checking to see if order 67035 received"
+    },
+    {
+      "ts": "2026-07-15T16:55:32.589792+00:00",
+      "ticket_id": 230856657,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Website Need Improvements"
     }
   ]
 }
