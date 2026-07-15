@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 230823199,
-  "last_run_at": "2026-07-15T13:55:30.184346+00:00",
+  "last_processed_ticket_id": 230848061,
+  "last_run_at": "2026-07-15T15:38:38.491605+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-15",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T20:10:44.969667+00:00",
-      "ticket_id": 229502438,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Cancel subscription"
-    },
-    {
-      "ts": "2026-07-06T20:10:46.917286+00:00",
-      "ticket_id": 229510840,
-      "action": "return_exchange_escalated_no_orders",
-      "detail": "Recent order"
-    },
-    {
-      "ts": "2026-07-06T20:10:48.708183+00:00",
-      "ticket_id": 229511509,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don\u2019t Miss Our Exclusive Product Deals! \u26a1"
-    },
-    {
-      "ts": "2026-07-06T21:48:53.851823+00:00",
-      "ticket_id": 229516898,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/6/2026"
-    },
-    {
-      "ts": "2026-07-06T21:48:55.785339+00:00",
-      "ticket_id": 229517300,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Self-Service / Pupper x Shoplogin"
-    },
     {
       "ts": "2026-07-06T21:48:57.136944+00:00",
       "ticket_id": 229520023,
@@ -1203,6 +1173,36 @@
       "ticket_id": 230823199,
       "action": "unknown_escalated_for_aj",
       "detail": "One idea for elmandrye.com's after-hours sales - Turn your 2 AM browsers into paid Shopify orders \u2014 automatically."
+    },
+    {
+      "ts": "2026-07-15T15:38:35.460618+00:00",
+      "ticket_id": 230832615,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Grab Premium Products & Save Big!"
+    },
+    {
+      "ts": "2026-07-15T15:38:35.460656+00:00",
+      "ticket_id": 230833111,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-15T15:38:35.460665+00:00",
+      "ticket_id": 230838230,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-15T15:38:37.491975+00:00",
+      "ticket_id": 230838859,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.15.2026"
+    },
+    {
+      "ts": "2026-07-15T15:38:38.491583+00:00",
+      "ticket_id": 230848061,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Shipping"
     }
   ]
 }
