@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 230731129,
-  "last_run_at": "2026-07-15T00:59:47.815886+00:00",
+  "last_processed_ticket_id": 230823199,
+  "last_run_at": "2026-07-15T13:55:30.184346+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-15",
   "ticket_actions": [
-    {
-      "ts": "2026-07-06T18:01:27.412742+00:00",
-      "ticket_id": 229483474,
-      "action": "unknown_escalated_for_aj",
-      "detail": "failed lead-gen"
-    },
-    {
-      "ts": "2026-07-06T18:01:28.802544+00:00",
-      "ticket_id": 229490732,
-      "action": "error_crash",
-      "detail": "Return last 2 orders"
-    },
-    {
-      "ts": "2026-07-06T18:01:30.024361+00:00",
-      "ticket_id": 229495832,
-      "action": "unknown_escalated_for_aj",
-      "detail": "logo boxes"
-    },
-    {
-      "ts": "2026-07-06T18:01:31.468401+00:00",
-      "ticket_id": 229496768,
-      "action": "unknown_escalated_for_aj",
-      "detail": "regarding elmandrye.com site visits"
-    },
-    {
-      "ts": "2026-07-06T18:01:32.621629+00:00",
-      "ticket_id": 229497450,
-      "action": "unknown_escalated_for_aj",
-      "detail": "noticed a few things on your website"
-    },
-    {
-      "ts": "2026-07-06T20:10:41.406721+00:00",
-      "ticket_id": 229501452,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, hobiwaffles94 and more in your feed"
-    },
-    {
-      "ts": "2026-07-06T20:10:43.223699+00:00",
-      "ticket_id": 229501961,
-      "action": "unknown_escalated_for_aj",
-      "detail": "You're Invited"
-    },
     {
       "ts": "2026-07-06T20:10:44.969667+00:00",
       "ticket_id": 229502438,
@@ -1203,6 +1161,48 @@
       "ticket_id": 230731129,
       "action": "unknown_escalated_for_aj",
       "detail": "Bonjour Elmandrye"
+    },
+    {
+      "ts": "2026-07-15T13:55:23.949118+00:00",
+      "ticket_id": 230735921,
+      "action": "skip_spam",
+      "detail": "Delta 8 to Ohio?"
+    },
+    {
+      "ts": "2026-07-15T13:55:23.949140+00:00",
+      "ticket_id": 230739389,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, nadiaplott and more in your feed"
+    },
+    {
+      "ts": "2026-07-15T13:55:26.007966+00:00",
+      "ticket_id": 230740974,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Please CANCEL all my subscriptions immediately"
+    },
+    {
+      "ts": "2026-07-15T13:55:26.008001+00:00",
+      "ticket_id": 230742518,
+      "action": "skip_spam",
+      "detail": "your guest post is live - Contact"
+    },
+    {
+      "ts": "2026-07-15T13:55:27.031492+00:00",
+      "ticket_id": 230765001,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Premium positioning starts here \u2013 liposomal magnesium glycinate"
+    },
+    {
+      "ts": "2026-07-15T13:55:29.236383+00:00",
+      "ticket_id": 230816033,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-07-15T13:55:30.184319+00:00",
+      "ticket_id": 230823199,
+      "action": "unknown_escalated_for_aj",
+      "detail": "One idea for elmandrye.com's after-hours sales - Turn your 2 AM browsers into paid Shopify orders \u2014 automatically."
     }
   ]
 }
