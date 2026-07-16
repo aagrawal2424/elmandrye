@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 230895148,
-  "last_run_at": "2026-07-15T23:43:18.114496+00:00",
+  "last_processed_ticket_id": 230900424,
+  "last_run_at": "2026-07-16T01:10:44.201125+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-15",
+  "daily_refund_date": "2026-07-16",
   "ticket_actions": [
-    {
-      "ts": "2026-07-07T14:51:06.175751+00:00",
-      "ticket_id": 229642088,
-      "action": "unknown_escalated_for_aj",
-      "detail": "logo boxes"
-    },
     {
       "ts": "2026-07-07T14:51:07.952261+00:00",
       "ticket_id": 229642245,
@@ -1203,6 +1197,12 @@
       "ticket_id": 230895148,
       "action": "skip_spam",
       "detail": "elmandrye, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-07-16T01:10:44.201112+00:00",
+      "ticket_id": 230900424,
+      "action": "error_crash",
+      "detail": "Return Item Info"
     }
   ]
 }
