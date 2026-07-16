@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 231015297,
-  "last_run_at": "2026-07-16T15:46:39.001964+00:00",
+  "last_processed_ticket_id": 231020274,
+  "last_run_at": "2026-07-16T16:57:22.139540+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-16",
   "ticket_actions": [
-    {
-      "ts": "2026-07-07T23:26:55.525012+00:00",
-      "ticket_id": 229700619,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Google Analytics performance report is in for June 10th - July 7th"
-    },
-    {
-      "ts": "2026-07-08T01:03:37.612823+00:00",
-      "ticket_id": 229704522,
-      "action": "error_crash",
-      "detail": "Re: Order #85653 confirmed"
-    },
     {
       "ts": "2026-07-08T14:28:42.317435+00:00",
       "ticket_id": 229710678,
@@ -1203,6 +1191,18 @@
       "ticket_id": 231015297,
       "action": "skip_spam",
       "detail": "elmandrye, catch up on moments that you've missed"
+    },
+    {
+      "ts": "2026-07-16T16:57:19.776395+00:00",
+      "ticket_id": 231019839,
+      "action": "skip_no_email",
+      "detail": "Conversation with Customer #535807293"
+    },
+    {
+      "ts": "2026-07-16T16:57:22.139518+00:00",
+      "ticket_id": 231020274,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.16.2026"
     }
   ]
 }
