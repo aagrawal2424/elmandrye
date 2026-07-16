@@ -1,69 +1,9 @@
 {
-  "last_processed_ticket_id": 231020274,
-  "last_run_at": "2026-07-16T16:57:22.139540+00:00",
+  "last_processed_ticket_id": 231036696,
+  "last_run_at": "2026-07-16T18:13:52.302827+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-16",
   "ticket_actions": [
-    {
-      "ts": "2026-07-08T14:28:42.317435+00:00",
-      "ticket_id": 229710678,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-07-08T14:28:42.317456+00:00",
-      "ticket_id": 229710805,
-      "action": "skip_spam",
-      "detail": "taytayvs11 and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-08T14:28:43.940280+00:00",
-      "ticket_id": 229715274,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Just checking in"
-    },
-    {
-      "ts": "2026-07-08T14:28:45.937436+00:00",
-      "ticket_id": 229729075,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Payment Processing"
-    },
-    {
-      "ts": "2026-07-08T14:28:47.727062+00:00",
-      "ticket_id": 229750391,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
-    },
-    {
-      "ts": "2026-07-08T14:28:49.103992+00:00",
-      "ticket_id": 229761941,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Design your website ?"
-    },
-    {
-      "ts": "2026-07-08T14:28:50.806364+00:00",
-      "ticket_id": 229765099,
-      "action": "unknown_escalated_for_aj",
-      "detail": "quick note about elmandrye.com"
-    },
-    {
-      "ts": "2026-07-08T14:28:51.754647+00:00",
-      "ticket_id": 229789644,
-      "action": "error_crash",
-      "detail": "Re: A shipment from order #85348 has been delivered"
-    },
-    {
-      "ts": "2026-07-08T14:28:53.363896+00:00",
-      "ticket_id": 229793335,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE: Digital Diagnostic?"
-    },
-    {
-      "ts": "2026-07-08T14:28:54.029443+00:00",
-      "ticket_id": 229794321,
-      "action": "error_crash",
-      "detail": "Order #85323"
-    },
     {
       "ts": "2026-07-08T14:28:54.866584+00:00",
       "ticket_id": 229796749,
@@ -1203,6 +1143,66 @@
       "ticket_id": 231020274,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 7.16.2026"
+    },
+    {
+      "ts": "2026-07-16T18:13:33.657154+00:00",
+      "ticket_id": 231029443,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Action Advised] Manage access for new Gemini app avatar feature"
+    },
+    {
+      "ts": "2026-07-16T18:13:35.341026+00:00",
+      "ticket_id": 231029575,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Action Advised] Manage access for new Gemini app avatar feature"
+    },
+    {
+      "ts": "2026-07-16T18:13:36.946547+00:00",
+      "ticket_id": 231030030,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Action Advised] Manage access for new Gemini app avatar feature"
+    },
+    {
+      "ts": "2026-07-16T18:13:42.937852+00:00",
+      "ticket_id": 231030927,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with David Troiani"
+    },
+    {
+      "ts": "2026-07-16T18:13:44.066420+00:00",
+      "ticket_id": 231031169,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Missing Customers on Google?"
+    },
+    {
+      "ts": "2026-07-16T18:13:45.637568+00:00",
+      "ticket_id": 231032909,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Product Update] Google Pics to be added as a Google Workspace core service starting as soon as Aug 18, 2026"
+    },
+    {
+      "ts": "2026-07-16T18:13:47.090678+00:00",
+      "ticket_id": 231033170,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: product catalog idea"
+    },
+    {
+      "ts": "2026-07-16T18:13:48.645340+00:00",
+      "ticket_id": 231034890,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Product Update] Google Pics to be added as a Google Workspace core service starting as soon as Aug 18, 2026"
+    },
+    {
+      "ts": "2026-07-16T18:13:50.233874+00:00",
+      "ticket_id": 231035179,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Product Update] Google Pics to be added as a Google Workspace core service starting as soon as Aug 18, 2026"
+    },
+    {
+      "ts": "2026-07-16T18:13:52.302807+00:00",
+      "ticket_id": 231036696,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udd0d Cannabis Customers Are Searching. Can They Find You? \u2b50"
     }
   ]
 }
