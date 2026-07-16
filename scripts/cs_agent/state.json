@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231036696,
-  "last_run_at": "2026-07-16T18:13:52.302827+00:00",
+  "last_processed_ticket_id": 231047209,
+  "last_run_at": "2026-07-16T19:35:57.108293+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-16",
   "ticket_actions": [
-    {
-      "ts": "2026-07-08T14:28:54.866584+00:00",
-      "ticket_id": 229796749,
-      "action": "unknown_escalated_for_aj",
-      "detail": "David Thompson Is Hosting A Party And You Are On The List!"
-    },
     {
       "ts": "2026-07-08T14:28:54.866611+00:00",
       "ticket_id": 229799777,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231036696,
       "action": "unknown_escalated_for_aj",
       "detail": "\ud83d\udd0d Cannabis Customers Are Searching. Can They Find You? \u2b50"
+    },
+    {
+      "ts": "2026-07-16T19:35:57.108274+00:00",
+      "ticket_id": 231047209,
+      "action": "skip_spam",
+      "detail": "chewy and 2 others recently added to their stories"
     }
   ]
 }
