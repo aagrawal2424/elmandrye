@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 230900424,
-  "last_run_at": "2026-07-16T01:10:44.201125+00:00",
+  "last_processed_ticket_id": 231000754,
+  "last_run_at": "2026-07-16T14:07:22.131098+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-16",
   "ticket_actions": [
-    {
-      "ts": "2026-07-07T14:51:07.952261+00:00",
-      "ticket_id": 229642245,
-      "action": "unknown_escalated_for_aj",
-      "detail": "creatives idea"
-    },
-    {
-      "ts": "2026-07-07T17:08:35.548064+00:00",
-      "ticket_id": 229643926,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Last minute Today Show, People Magazine Elm &amp; Rye"
-    },
-    {
-      "ts": "2026-07-07T17:08:37.952180+00:00",
-      "ticket_id": 229658410,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your June Search performance for https://elmandrye.com/"
-    },
-    {
-      "ts": "2026-07-07T17:08:39.947040+00:00",
-      "ticket_id": 229658759,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter 7/7/2026"
-    },
-    {
-      "ts": "2026-07-07T17:08:41.126737+00:00",
-      "ticket_id": 229663359,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-07-07T19:14:48.406814+00:00",
-      "ticket_id": 229668650,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elmandrye - Want to beat takecareof.com at their own game?"
-    },
-    {
-      "ts": "2026-07-07T19:14:51.015694+00:00",
-      "ticket_id": 229674773,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udea8 You Don't See Cannabis Results Like This Every Day \ud83d\udc40\u00a0"
-    },
     {
       "ts": "2026-07-07T19:14:53.546245+00:00",
       "ticket_id": 229676088,
@@ -1203,6 +1161,48 @@
       "ticket_id": 230900424,
       "action": "error_crash",
       "detail": "Return Item Info"
+    },
+    {
+      "ts": "2026-07-16T14:07:15.036045+00:00",
+      "ticket_id": 230911838,
+      "action": "skip_spam",
+      "detail": "The sellers winning in 2026 moved early"
+    },
+    {
+      "ts": "2026-07-16T14:07:15.036067+00:00",
+      "ticket_id": 230914938,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 16, 2026 ($77.14 USD)"
+    },
+    {
+      "ts": "2026-07-16T14:07:18.046125+00:00",
+      "ticket_id": 230951294,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New, Innovative Felt Pet Products-daisy from CHINA"
+    },
+    {
+      "ts": "2026-07-16T14:07:18.046159+00:00",
+      "ticket_id": 230993528,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-16T14:07:20.210786+00:00",
+      "ticket_id": 230995042,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Data-Backed Disposable Top Picks \ud83d\udcca"
+    },
+    {
+      "ts": "2026-07-16T14:07:22.131052+00:00",
+      "ticket_id": 230998636,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Allulose & Ingredient Sourcing"
+    },
+    {
+      "ts": "2026-07-16T14:07:22.131090+00:00",
+      "ticket_id": 231000754,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
