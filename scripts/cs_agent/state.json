@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 231173430,
-  "last_run_at": "2026-07-17T13:51:12.571282+00:00",
+  "last_processed_ticket_id": 231187307,
+  "last_run_at": "2026-07-17T15:09:57.108916+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-17",
   "ticket_actions": [
-    {
-      "ts": "2026-07-08T17:54:47.086410+00:00",
-      "ticket_id": 229830495,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-08T17:54:48.575485+00:00",
-      "ticket_id": 229830712,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your website Losing Potential Traffic !!!"
-    },
-    {
-      "ts": "2026-07-08T17:54:49.629352+00:00",
-      "ticket_id": 229833504,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Luke, BarkBox is winning more search demand"
-    },
-    {
-      "ts": "2026-07-08T19:40:48.478917+00:00",
-      "ticket_id": 229840484,
-      "action": "skip_spam",
-      "detail": "elmandrye, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-07-08T19:40:49.786149+00:00",
-      "ticket_id": 229852623,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A Few Issues May Be Costing You Leads"
-    },
-    {
-      "ts": "2026-07-08T20:47:16.037415+00:00",
-      "ticket_id": 229861846,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Skio update: a look at the last few weeks"
-    },
     {
       "ts": "2026-07-08T20:47:17.536085+00:00",
       "ticket_id": 229861962,
@@ -1203,6 +1167,42 @@
       "ticket_id": 231173430,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Guaranteed TV segment + The Today Show"
+    },
+    {
+      "ts": "2026-07-17T15:09:52.302712+00:00",
+      "ticket_id": 231176134,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CZAR IS HERE WITH A DEAL"
+    },
+    {
+      "ts": "2026-07-17T15:09:52.302752+00:00",
+      "ticket_id": 231176429,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-17T15:09:53.549057+00:00",
+      "ticket_id": 231182021,
+      "action": "unknown_escalated_for_aj",
+      "detail": "How can Pupper realistically use investment proceeds?"
+    },
+    {
+      "ts": "2026-07-17T15:09:54.959487+00:00",
+      "ticket_id": 231183375,
+      "action": "unknown_escalated_for_aj",
+      "detail": "U.S. Distribution Inquiry"
+    },
+    {
+      "ts": "2026-07-17T15:09:54.959520+00:00",
+      "ticket_id": 231183922,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-07-17T15:09:57.108895+00:00",
+      "ticket_id": 231187307,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Premium supplement retention"
     }
   ]
 }
