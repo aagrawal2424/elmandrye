@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 231221258,
-  "last_run_at": "2026-07-17T20:53:57.019170+00:00",
+  "last_processed_ticket_id": 231227225,
+  "last_run_at": "2026-07-17T21:55:36.465428+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-17",
   "ticket_actions": [
-    {
-      "ts": "2026-07-09T15:23:40.538801+00:00",
-      "ticket_id": 229886376,
-      "action": "skip_spam",
-      "detail": "elmandrye, catch up on moments that you've missed"
-    },
-    {
-      "ts": "2026-07-09T15:23:43.796613+00:00",
-      "ticket_id": 229887207,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your competitors are showing up in AI results"
-    },
-    {
-      "ts": "2026-07-09T15:23:43.796647+00:00",
-      "ticket_id": 229887626,
-      "action": "skip_spam",
-      "detail": "This is how sellers go viral on TikTok \ud83d\udd25"
-    },
-    {
-      "ts": "2026-07-09T15:23:44.939156+00:00",
-      "ticket_id": 229888783,
-      "action": "error_crash",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-07-09T15:23:45.691512+00:00",
-      "ticket_id": 229889254,
-      "action": "error_crash",
-      "detail": "Re: Confirmation of shipping Order #84935"
-    },
     {
       "ts": "2026-07-09T15:23:46.712724+00:00",
       "ticket_id": 229889791,
@@ -1203,6 +1173,36 @@
       "ticket_id": 231221258,
       "action": "unknown_escalated_for_aj",
       "detail": "RE: \ud83c\udf08 Flavor-Packed Calm"
+    },
+    {
+      "ts": "2026-07-17T21:55:32.238869+00:00",
+      "ticket_id": 231225343,
+      "action": "skip_spam",
+      "detail": "Automatic reply: \ud83c\udf08 Flavor-Packed Calm"
+    },
+    {
+      "ts": "2026-07-17T21:55:32.238886+00:00",
+      "ticket_id": 231225478,
+      "action": "skip_spam",
+      "detail": "Automatic reply: Final Call: 60% Off All Orders \ud83d\udea8"
+    },
+    {
+      "ts": "2026-07-17T21:55:34.386356+00:00",
+      "ticket_id": 231225524,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your receipt from Sendlane #2450-2262"
+    },
+    {
+      "ts": "2026-07-17T21:55:35.557111+00:00",
+      "ticket_id": 231226353,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.17.2026"
+    },
+    {
+      "ts": "2026-07-17T21:55:36.465416+00:00",
+      "ticket_id": 231227225,
+      "action": "unknown_escalated_for_aj",
+      "detail": "421 orders a day, no ads"
     }
   ]
 }
