@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231078673,
-  "last_run_at": "2026-07-16T23:41:33.952353+00:00",
+  "last_processed_ticket_id": 231083043,
+  "last_run_at": "2026-07-17T01:14:11.509549+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-16",
+  "daily_refund_date": "2026-07-17",
   "ticket_actions": [
-    {
-      "ts": "2026-07-08T16:15:09.011990+00:00",
-      "ticket_id": 229809312,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Gorgias Inc receipt [#1551-9969]"
-    },
     {
       "ts": "2026-07-08T16:15:10.325898+00:00",
       "ticket_id": 229811047,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231078673,
       "action": "skip_spam",
       "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-17T01:14:11.509524+00:00",
+      "ticket_id": 231083043,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Report an issue - Contact"
     }
   ]
 }
