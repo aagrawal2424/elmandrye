@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 231083043,
-  "last_run_at": "2026-07-17T01:14:11.509549+00:00",
+  "last_processed_ticket_id": 231173430,
+  "last_run_at": "2026-07-17T13:51:12.571282+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-17",
   "ticket_actions": [
-    {
-      "ts": "2026-07-08T16:15:10.325898+00:00",
-      "ticket_id": 229811047,
-      "action": "unknown_escalated_for_aj",
-      "detail": "content idea for you"
-    },
-    {
-      "ts": "2026-07-08T16:15:11.572443+00:00",
-      "ticket_id": 229820329,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your best pet food packaging partner\ud83d\udcaa"
-    },
-    {
-      "ts": "2026-07-08T16:15:14.119285+00:00",
-      "ticket_id": 229821996,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/8/2026"
-    },
-    {
-      "ts": "2026-07-08T17:54:47.086382+00:00",
-      "ticket_id": 229827480,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-08T17:54:47.086399+00:00",
-      "ticket_id": 229829986,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-08T17:54:47.086405+00:00",
-      "ticket_id": 229830485,
-      "action": "skip_spam",
-      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-07-08T17:54:47.086410+00:00",
       "ticket_id": 229830495,
@@ -1203,6 +1167,42 @@
       "ticket_id": 231083043,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Report an issue - Contact"
+    },
+    {
+      "ts": "2026-07-17T13:51:05.160601+00:00",
+      "ticket_id": 231087538,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 17, 2026 ($102.07 USD)"
+    },
+    {
+      "ts": "2026-07-17T13:51:07.248089+00:00",
+      "ticket_id": 231090872,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Shopify Developers || Shopify store enhancement"
+    },
+    {
+      "ts": "2026-07-17T13:51:08.714439+00:00",
+      "ticket_id": 231093866,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Is Your Business Mobile-Ready?"
+    },
+    {
+      "ts": "2026-07-17T13:51:10.012237+00:00",
+      "ticket_id": 231093899,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Is Your Business Mobile-Ready?"
+    },
+    {
+      "ts": "2026-07-17T13:51:11.415271+00:00",
+      "ticket_id": 231155216,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Shopify Developers || Shopify store enhancement"
+    },
+    {
+      "ts": "2026-07-17T13:51:12.571259+00:00",
+      "ticket_id": 231173430,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Guaranteed TV segment + The Today Show"
     }
   ]
 }
