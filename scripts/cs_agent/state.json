@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 231212161,
-  "last_run_at": "2026-07-17T19:52:40.506070+00:00",
+  "last_processed_ticket_id": 231221258,
+  "last_run_at": "2026-07-17T20:53:57.019170+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-17",
   "ticket_actions": [
-    {
-      "ts": "2026-07-08T23:11:06.134637+00:00",
-      "ticket_id": 229876624,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/8/2026 (Part 2)"
-    },
-    {
-      "ts": "2026-07-09T01:03:21.183320+00:00",
-      "ticket_id": 229879826,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-07-09T01:03:23.783465+00:00",
-      "ticket_id": 229880218,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "cancel subscriptions"
-    },
-    {
-      "ts": "2026-07-09T15:23:40.538776+00:00",
-      "ticket_id": 229885261,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 10, 2026 (-$303.34 USD)"
-    },
     {
       "ts": "2026-07-09T15:23:40.538801+00:00",
       "ticket_id": 229886376,
@@ -1203,6 +1179,30 @@
       "ticket_id": 231212161,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Welcome to Elm & Rye"
+    },
+    {
+      "ts": "2026-07-17T20:53:53.579117+00:00",
+      "ticket_id": 231219544,
+      "action": "error_crash",
+      "detail": "Order"
+    },
+    {
+      "ts": "2026-07-17T20:53:53.579138+00:00",
+      "ticket_id": 231220282,
+      "action": "skip_spam",
+      "detail": "Automatic reply: \ud83c\udf08 Flavor-Packed Calm"
+    },
+    {
+      "ts": "2026-07-17T20:53:54.979040+00:00",
+      "ticket_id": 231220288,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Automatic reply: \ud83c\udf08 Flavor-Packed Calm"
+    },
+    {
+      "ts": "2026-07-17T20:53:57.019153+00:00",
+      "ticket_id": 231221258,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE: \ud83c\udf08 Flavor-Packed Calm"
     }
   ]
 }
