@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231227225,
-  "last_run_at": "2026-07-17T21:55:36.465428+00:00",
+  "last_processed_ticket_id": 231230719,
+  "last_run_at": "2026-07-17T22:55:15.215850+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-17",
   "ticket_actions": [
-    {
-      "ts": "2026-07-09T15:23:46.712724+00:00",
-      "ticket_id": 229889791,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
     {
       "ts": "2026-07-09T15:23:48.033740+00:00",
       "ticket_id": 229890436,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231227225,
       "action": "unknown_escalated_for_aj",
       "detail": "421 orders a day, no ads"
+    },
+    {
+      "ts": "2026-07-17T22:55:15.215815+00:00",
+      "ticket_id": 231230719,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
     }
   ]
 }
