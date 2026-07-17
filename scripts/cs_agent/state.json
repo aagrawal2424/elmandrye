@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 231230719,
-  "last_run_at": "2026-07-17T22:55:15.215850+00:00",
+  "last_processed_ticket_id": 231234431,
+  "last_run_at": "2026-07-17T23:56:59.534511+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-17",
   "ticket_actions": [
-    {
-      "ts": "2026-07-09T15:23:48.033740+00:00",
-      "ticket_id": 229890436,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Welcome to Elm & Rye"
-    },
-    {
-      "ts": "2026-07-09T15:23:49.436142+00:00",
-      "ticket_id": 229891117,
-      "action": "refund_request_escalated_no_orders",
-      "detail": "A chargeback was opened for order #15169"
-    },
-    {
-      "ts": "2026-07-09T15:23:49.436176+00:00",
-      "ticket_id": 229913552,
-      "action": "skip_spam",
-      "detail": "A new affiliate, Kevin Scott, has signed up for your program!"
-    },
-    {
-      "ts": "2026-07-09T15:23:50.762879+00:00",
-      "ticket_id": 229914359,
-      "action": "unknown_escalated_for_aj",
-      "detail": "re: Matcha powder from aogubio"
-    },
     {
       "ts": "2026-07-09T15:23:51.942264+00:00",
       "ticket_id": 229916168,
@@ -1203,6 +1179,30 @@
       "ticket_id": 231230719,
       "action": "skip_spam",
       "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-07-17T23:56:55.954697+00:00",
+      "ticket_id": 231233306,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83c\udf08 Flavor-Packed Calm"
+    },
+    {
+      "ts": "2026-07-17T23:56:55.954738+00:00",
+      "ticket_id": 231233367,
+      "action": "skip_spam",
+      "detail": "Automatic reply: \ud83c\udf08 Flavor-Packed Calm"
+    },
+    {
+      "ts": "2026-07-17T23:56:57.001552+00:00",
+      "ticket_id": 231234030,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Information"
+    },
+    {
+      "ts": "2026-07-17T23:56:59.534488+00:00",
+      "ticket_id": 231234431,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Product question - Contact"
     }
   ]
 }
