@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 231187307,
-  "last_run_at": "2026-07-17T15:09:57.108916+00:00",
+  "last_processed_ticket_id": 231198218,
+  "last_run_at": "2026-07-17T16:35:26.135797+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-17",
   "ticket_actions": [
-    {
-      "ts": "2026-07-08T20:47:17.536085+00:00",
-      "ticket_id": 229861962,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Skio update: a look at the last few weeks"
-    },
-    {
-      "ts": "2026-07-08T20:47:18.477883+00:00",
-      "ticket_id": 229866628,
-      "action": "unknown_escalated_for_aj",
-      "detail": "$20 Off FRE Pouch With Code TMH20!"
-    },
-    {
-      "ts": "2026-07-08T20:47:19.903941+00:00",
-      "ticket_id": 229867078,
-      "action": "unknown_escalated_for_aj",
-      "detail": "prepared a quick snapshot with simple fixes"
-    },
     {
       "ts": "2026-07-08T23:11:03.493071+00:00",
       "ticket_id": 229876426,
@@ -1203,6 +1185,24 @@
       "ticket_id": 231187307,
       "action": "unknown_escalated_for_aj",
       "detail": "Premium supplement retention"
+    },
+    {
+      "ts": "2026-07-17T16:35:22.891866+00:00",
+      "ticket_id": 231196663,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Supplements complimentary video"
+    },
+    {
+      "ts": "2026-07-17T16:35:24.464563+00:00",
+      "ticket_id": 231197879,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-07-17T16:35:26.135779+00:00",
+      "ticket_id": 231198218,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google x Elm & Rye Growth Partnership"
     }
   ]
 }
