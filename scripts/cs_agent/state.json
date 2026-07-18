@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231327742,
-  "last_run_at": "2026-07-18T21:34:44.355095+00:00",
+  "last_processed_ticket_id": 231336078,
+  "last_run_at": "2026-07-18T22:29:55.834618+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-18",
   "ticket_actions": [
-    {
-      "ts": "2026-07-09T15:24:32.038243+00:00",
-      "ticket_id": 229987485,
-      "action": "unknown_escalated_for_aj",
-      "detail": "50K Puffs Never Looked This Good \ud83d\udc8e\u2728"
-    },
     {
       "ts": "2026-07-09T15:24:33.025792+00:00",
       "ticket_id": 229990309,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231327742,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 7.18.2026"
+    },
+    {
+      "ts": "2026-07-18T22:29:55.834600+00:00",
+      "ticket_id": 231336078,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
