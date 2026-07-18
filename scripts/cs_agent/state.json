@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231272350,
-  "last_run_at": "2026-07-18T13:34:44.476792+00:00",
+  "last_processed_ticket_id": 231300356,
+  "last_run_at": "2026-07-18T14:37:38.317591+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-18",
   "ticket_actions": [
-    {
-      "ts": "2026-07-09T15:23:55.950628+00:00",
-      "ticket_id": 229978931,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order Being Charged But Never Delivered"
-    },
     {
       "ts": "2026-07-09T15:24:02.137503+00:00",
       "ticket_id": 229980218,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231272350,
       "action": "skip_spam",
       "detail": "A new affiliate, Sean Smith, has signed up for your program!"
+    },
+    {
+      "ts": "2026-07-18T14:37:38.317565+00:00",
+      "ticket_id": 231300356,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
