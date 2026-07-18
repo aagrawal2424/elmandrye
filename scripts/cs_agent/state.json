@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231300356,
-  "last_run_at": "2026-07-18T17:39:29.372498+00:00",
+  "last_processed_ticket_id": 231322331,
+  "last_run_at": "2026-07-18T18:37:42.442551+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-18",
   "ticket_actions": [
-    {
-      "ts": "2026-07-09T15:24:02.137503+00:00",
-      "ticket_id": 229980218,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Order #83555 confirmed"
-    },
     {
       "ts": "2026-07-09T15:24:30.478388+00:00",
       "ticket_id": 229979872,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231300356,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-18T18:37:42.442539+00:00",
+      "ticket_id": 231322331,
+      "action": "error_crash",
+      "detail": "Re: Order #85758 confirmed"
     }
   ]
 }
