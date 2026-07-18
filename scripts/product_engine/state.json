@@ -558,6 +558,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'scopolamine' appears in 2 recent supplement-research papers (most recent example: \"Cognitive improvement and hippocampal BDNF/GFAP alterations by Schinus molle essential oil in a rat model of scopolamine-induced amnesia.\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Sea Buckthorn Omega 7",
+      "product_title": "Sea buckthorn omega 7",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9271911809236",
+      "handle": "sea-buckthorn-omega-7",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/b7b8ac3f-7453-4055-9bad-c193a4fa1457/er-product-sea-buckthorn-omega-7.png",
+      "created_at": "2026-07-18",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "Palmitoleic acid; mucosal health + skin (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
     }
   ]
 }
