@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 231234431,
-  "last_run_at": "2026-07-17T23:56:59.534511+00:00",
+  "last_processed_ticket_id": 231272350,
+  "last_run_at": "2026-07-18T13:34:44.476792+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-17",
+  "daily_refund_date": "2026-07-18",
   "ticket_actions": [
-    {
-      "ts": "2026-07-09T15:23:51.942264+00:00",
-      "ticket_id": 229916168,
-      "action": "error_crash",
-      "detail": "ORDER #85543"
-    },
-    {
-      "ts": "2026-07-09T15:23:53.024987+00:00",
-      "ticket_id": 229954382,
-      "action": "error_crash",
-      "detail": "Lazaroff order 84881"
-    },
-    {
-      "ts": "2026-07-09T15:23:54.671727+00:00",
-      "ticket_id": 229975802,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New customer message on July 9, 2026 at 6:56 am"
-    },
-    {
-      "ts": "2026-07-09T15:23:54.671761+00:00",
-      "ticket_id": 229977324,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-07-09T15:23:55.950628+00:00",
       "ticket_id": 229978931,
@@ -1203,6 +1179,30 @@
       "ticket_id": 231234431,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Product question - Contact"
+    },
+    {
+      "ts": "2026-07-18T13:34:43.121400+00:00",
+      "ticket_id": 231243827,
+      "action": "skip_spam",
+      "detail": "A new affiliate, An Minh, has signed up for your program!"
+    },
+    {
+      "ts": "2026-07-18T13:34:43.121421+00:00",
+      "ticket_id": 231244692,
+      "action": "skip_spam",
+      "detail": "Your competitors launched in June. You still can."
+    },
+    {
+      "ts": "2026-07-18T13:34:44.476760+00:00",
+      "ticket_id": 231248284,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Biological Products,,"
+    },
+    {
+      "ts": "2026-07-18T13:34:44.476788+00:00",
+      "ticket_id": 231272350,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Sean Smith, has signed up for your program!"
     }
   ]
 }
