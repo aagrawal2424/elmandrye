@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 231340727,
-  "last_run_at": "2026-07-19T01:07:03.771284+00:00",
+  "last_processed_ticket_id": 231391064,
+  "last_run_at": "2026-07-19T13:37:22.381728+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-19",
   "ticket_actions": [
-    {
-      "ts": "2026-07-09T17:29:07.390958+00:00",
-      "ticket_id": 230001888,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/9/2026."
-    },
-    {
-      "ts": "2026-07-09T19:10:01.617739+00:00",
-      "ticket_id": 230009938,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83c\udfaf There's More Than One Way to Reach Local Cannabis Customers \ud83d\udccd\u00a0"
-    },
-    {
-      "ts": "2026-07-09T19:10:02.781443+00:00",
-      "ticket_id": 230010038,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I Visible on Google but Missing from AI"
-    },
-    {
-      "ts": "2026-07-09T19:10:04.241919+00:00",
-      "ticket_id": 230014352,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The AI that survives BFCM is the one you can trust"
-    },
-    {
-      "ts": "2026-07-09T19:10:05.463203+00:00",
-      "ticket_id": 230017090,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Your cart is about to expire."
-    },
-    {
-      "ts": "2026-07-09T20:56:51.637057+00:00",
-      "ticket_id": 230030870,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Order inquiry"
-    },
-    {
-      "ts": "2026-07-10T02:23:26.052182+00:00",
-      "ticket_id": 230044320,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udc49 CIA - charged in court for MK-Ultra, Public Mind Control Project"
-    },
-    {
-      "ts": "2026-07-10T14:41:26.099728+00:00",
-      "ticket_id": 230051105,
-      "action": "skip_spam",
-      "detail": "From heygracey and others: 3 unread messages"
-    },
     {
       "ts": "2026-07-10T14:41:26.099749+00:00",
       "ticket_id": 230051514,
@@ -1203,6 +1155,54 @@
       "ticket_id": 231340727,
       "action": "skip_spam",
       "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-19T13:37:14.089556+00:00",
+      "ticket_id": 231343434,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-19T13:37:16.089577+00:00",
+      "ticket_id": 231345497,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Action required: for your upcoming subscription renewal"
+    },
+    {
+      "ts": "2026-07-19T13:37:16.741534+00:00",
+      "ticket_id": 231345591,
+      "action": "error_crash",
+      "detail": "Request refund or discount - Contact"
+    },
+    {
+      "ts": "2026-07-19T13:37:16.741558+00:00",
+      "ticket_id": 231387419,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-19T13:37:18.765741+00:00",
+      "ticket_id": 231389405,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Of all the things I've done"
+    },
+    {
+      "ts": "2026-07-19T13:37:19.956867+00:00",
+      "ticket_id": 231389592,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Of all the things I've done #619689869"
+    },
+    {
+      "ts": "2026-07-19T13:37:21.145644+00:00",
+      "ticket_id": 231391064,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE READ [WPC:0066671]"
+    },
+    {
+      "ts": "2026-07-19T13:37:22.381708+00:00",
+      "ticket_id": 231390083,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Ticket Created: Of all the things I've done #619689869 - WO0000004517298"
     }
   ]
 }
