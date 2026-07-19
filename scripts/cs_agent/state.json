@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 231428356,
-  "last_run_at": "2026-07-19T22:04:20.905961+00:00",
+  "last_processed_ticket_id": 231433673,
+  "last_run_at": "2026-07-19T23:07:41.573352+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-19",
   "ticket_actions": [
-    {
-      "ts": "2026-07-10T14:41:36.439155+00:00",
-      "ticket_id": 230124747,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1022-3058]"
-    },
-    {
-      "ts": "2026-07-10T14:41:37.516062+00:00",
-      "ticket_id": 230124812,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-07-10T14:41:38.471156+00:00",
-      "ticket_id": 230124978,
-      "action": "error_crash",
-      "detail": "Other - Contact"
-    },
     {
       "ts": "2026-07-10T14:41:39.799675+00:00",
       "ticket_id": 230129979,
@@ -1203,6 +1185,24 @@
       "ticket_id": 231428356,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 7.19.26"
+    },
+    {
+      "ts": "2026-07-19T23:07:39.070745+00:00",
+      "ticket_id": 231432079,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-07-19T23:07:40.528692+00:00",
+      "ticket_id": 231432671,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-19T23:07:41.573332+00:00",
+      "ticket_id": 231433673,
+      "action": "error_crash",
+      "detail": "Request refund or discount - Contact"
     }
   ]
 }
