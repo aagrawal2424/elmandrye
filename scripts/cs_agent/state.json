@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231394976,
-  "last_run_at": "2026-07-19T15:40:01.035374+00:00",
+  "last_processed_ticket_id": 231403084,
+  "last_run_at": "2026-07-19T16:37:17.173273+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-19",
   "ticket_actions": [
-    {
-      "ts": "2026-07-10T14:41:30.072118+00:00",
-      "ticket_id": 230054534,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Welcome to Elm & Rye"
-    },
     {
       "ts": "2026-07-10T14:41:32.439611+00:00",
       "ticket_id": 230058949,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231394976,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-19T16:37:17.173257+00:00",
+      "ticket_id": 231403084,
+      "action": "error_crash",
+      "detail": "Order"
     }
   ]
 }
