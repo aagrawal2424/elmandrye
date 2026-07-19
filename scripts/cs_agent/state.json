@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 231403084,
-  "last_run_at": "2026-07-19T17:41:28.470309+00:00",
+  "last_processed_ticket_id": 231416416,
+  "last_run_at": "2026-07-19T18:40:56.715638+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-19",
   "ticket_actions": [
-    {
-      "ts": "2026-07-10T14:41:32.439611+00:00",
-      "ticket_id": 230058949,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: ORDER #85543"
-    },
-    {
-      "ts": "2026-07-10T14:41:32.439642+00:00",
-      "ticket_id": 230123020,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-07-10T14:41:33.382265+00:00",
       "ticket_id": 230124373,
@@ -1203,6 +1191,18 @@
       "ticket_id": 231403084,
       "action": "error_crash",
       "detail": "Order"
+    },
+    {
+      "ts": "2026-07-19T18:40:55.645438+00:00",
+      "ticket_id": 231414837,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Quick idea for elmandrye.com"
+    },
+    {
+      "ts": "2026-07-19T18:40:56.715623+00:00",
+      "ticket_id": 231416416,
+      "action": "error_crash",
+      "detail": "Order # 85637"
     }
   ]
 }
