@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 231588040,
-  "last_run_at": "2026-07-20T21:19:45.833602+00:00",
+  "last_processed_ticket_id": 231598859,
+  "last_run_at": "2026-07-20T22:28:41.944999+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-20",
   "ticket_actions": [
-    {
-      "ts": "2026-07-10T22:18:02.266183+00:00",
-      "ticket_id": 230189723,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: A Little Upgrade, On Us \ud83c\udf81"
-    },
-    {
-      "ts": "2026-07-10T22:18:03.398670+00:00",
-      "ticket_id": 230190071,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Let Other Shopify Stores Sell Your Products"
-    },
-    {
-      "ts": "2026-07-10T22:18:03.398696+00:00",
-      "ticket_id": 230190615,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
     {
       "ts": "2026-07-10T23:25:58.585447+00:00",
       "ticket_id": 230191998,
@@ -1203,6 +1185,24 @@
       "ticket_id": 231588040,
       "action": "unknown_escalated_for_aj",
       "detail": "Custom Clothing Order Inquiry"
+    },
+    {
+      "ts": "2026-07-20T22:28:39.348858+00:00",
+      "ticket_id": 231595728,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7/20/2026"
+    },
+    {
+      "ts": "2026-07-20T22:28:41.023832+00:00",
+      "ticket_id": 231598636,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Shop Now for Top Products and Save Big!"
+    },
+    {
+      "ts": "2026-07-20T22:28:41.944985+00:00",
+      "ticket_id": 231598859,
+      "action": "error_crash",
+      "detail": "Re: Order #85690 confirmed"
     }
   ]
 }
