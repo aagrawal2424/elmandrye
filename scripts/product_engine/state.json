@@ -584,6 +584,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "Honokiol's cousin from Magnolia bark; GABA-A modulator + anti-inflammatory; recent sleep + anxiety trials (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
+    },
+    {
+      "product_name": "Scopolamine",
+      "product_title": "Scopolamine cognitive support",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9272928501972",
+      "handle": "scopolamine-cognitive-support-10",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/bb6d4eed-c7c7-489e-83d1-bfa0c984feb4/er-product-scopolamine-cognitive-support.png",
+      "created_at": "2026-07-20",
+      "price_usd": 69.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'scopolamine' appears in 2 recent supplement-research papers (most recent example: \"Cognitive improvement and hippocampal BDNF/GFAP alterations by Schinus molle essential oil in a rat model of scopolamine-induced amnesia.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
