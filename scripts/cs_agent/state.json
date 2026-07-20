@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 231585902,
-  "last_run_at": "2026-07-20T20:01:45.278172+00:00",
+  "last_processed_ticket_id": 231588040,
+  "last_run_at": "2026-07-20T21:19:45.833602+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-20",
   "ticket_actions": [
-    {
-      "ts": "2026-07-10T21:10:37.135672+00:00",
-      "ticket_id": 230185568,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE: A Little Upgrade, On Us \ud83c\udf81"
-    },
-    {
-      "ts": "2026-07-10T21:10:39.395874+00:00",
-      "ticket_id": 230186390,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Cancellation of Subscription"
-    },
     {
       "ts": "2026-07-10T22:18:02.266183+00:00",
       "ticket_id": 230189723,
@@ -1203,6 +1191,18 @@
       "ticket_id": 231585902,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Subscription change"
+    },
+    {
+      "ts": "2026-07-20T21:19:44.440421+00:00",
+      "ticket_id": 231587632,
+      "action": "error_crash",
+      "detail": "Wrong product"
+    },
+    {
+      "ts": "2026-07-20T21:19:45.833581+00:00",
+      "ticket_id": 231588040,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Custom Clothing Order Inquiry"
     }
   ]
 }
