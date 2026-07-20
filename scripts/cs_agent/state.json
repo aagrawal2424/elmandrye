@@ -1,87 +1,9 @@
 {
-  "last_processed_ticket_id": 231433673,
-  "last_run_at": "2026-07-20T00:11:36.987853+00:00",
+  "last_processed_ticket_id": 231537143,
+  "last_run_at": "2026-07-20T14:21:01.260476+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-20",
   "ticket_actions": [
-    {
-      "ts": "2026-07-10T14:41:39.799675+00:00",
-      "ticket_id": 230129979,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Guaranteed TV segment + The Today Showment"
-    },
-    {
-      "ts": "2026-07-10T14:41:40.890490+00:00",
-      "ticket_id": 230129982,
-      "action": "unknown_escalated_for_aj",
-      "detail": "logo boxes"
-    },
-    {
-      "ts": "2026-07-10T14:41:42.903314+00:00",
-      "ticket_id": 230131310,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/10/2026"
-    },
-    {
-      "ts": "2026-07-10T14:41:43.792143+00:00",
-      "ticket_id": 230132446,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-07-10T14:41:45.694805+00:00",
-      "ticket_id": 230134320,
-      "action": "unknown_escalated_for_aj",
-      "detail": "FOGGER IS GETTING BETTER!"
-    },
-    {
-      "ts": "2026-07-10T14:41:46.604120+00:00",
-      "ticket_id": 230135733,
-      "action": "error_crash",
-      "detail": "Feedback - Contact"
-    },
-    {
-      "ts": "2026-07-10T14:41:46.604143+00:00",
-      "ticket_id": 230137564,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Summer Sale Alert \u2600\ufe0f"
-    },
-    {
-      "ts": "2026-07-10T14:41:46.604149+00:00",
-      "ticket_id": 230137836,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-10T14:42:00.886251+00:00",
-      "ticket_id": 230140649,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with Lawrence Kratwell"
-    },
-    {
-      "ts": "2026-07-10T14:42:02.119478+00:00",
-      "ticket_id": 230143259,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with jaydenguchiguy@gmail.com"
-    },
-    {
-      "ts": "2026-07-10T16:48:00.498697+00:00",
-      "ticket_id": 230149921,
-      "action": "error_crash",
-      "detail": ""
-    },
-    {
-      "ts": "2026-07-10T16:48:00.498724+00:00",
-      "ticket_id": 230151728,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-10T16:48:01.389404+00:00",
-      "ticket_id": 230153392,
-      "action": "unknown_escalated_for_aj",
-      "detail": "find missed revenue for Pupper"
-    },
     {
       "ts": "2026-07-10T16:48:03.051464+00:00",
       "ticket_id": 230154980,
@@ -1203,6 +1125,84 @@
       "ticket_id": 231433673,
       "action": "error_crash",
       "detail": "Request refund or discount - Contact"
+    },
+    {
+      "ts": "2026-07-20T14:20:44.754242+00:00",
+      "ticket_id": 231446592,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Contact Us CS-6822 Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE READ [WPC:0066671]"
+    },
+    {
+      "ts": "2026-07-20T14:20:46.979654+00:00",
+      "ticket_id": 231447308,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Issue placing order"
+    },
+    {
+      "ts": "2026-07-20T14:20:48.148232+00:00",
+      "ticket_id": 231458183,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-20T14:20:48.148253+00:00",
+      "ticket_id": 231464266,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 20, 2026 ($59.78 USD)"
+    },
+    {
+      "ts": "2026-07-20T14:20:49.798694+00:00",
+      "ticket_id": 231504328,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Cancellation"
+    },
+    {
+      "ts": "2026-07-20T14:20:50.559676+00:00",
+      "ticket_id": 231504979,
+      "action": "error_crash",
+      "detail": "Re: Order #85073 confirmed"
+    },
+    {
+      "ts": "2026-07-20T14:20:52.564524+00:00",
+      "ticket_id": 231506105,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Jeff Prater sent you an invitation."
+    },
+    {
+      "ts": "2026-07-20T14:20:54.891962+00:00",
+      "ticket_id": 231519937,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your NITRO LOGISTICS LLC receipt [#1701-9015]"
+    },
+    {
+      "ts": "2026-07-20T14:20:57.018448+00:00",
+      "ticket_id": 231531203,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invoice 2718 from Nitro Logistics, LLC"
+    },
+    {
+      "ts": "2026-07-20T14:20:57.018468+00:00",
+      "ticket_id": 231533844,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-20T14:20:58.749582+00:00",
+      "ticket_id": 231534596,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Jeff Prater sent you an invitation."
+    },
+    {
+      "ts": "2026-07-20T14:21:00.126707+00:00",
+      "ticket_id": 231535810,
+      "action": "unknown_escalated_for_aj",
+      "detail": "buyeverest.com requires verification of your Contact Email to continue using your account"
+    },
+    {
+      "ts": "2026-07-20T14:21:01.260464+00:00",
+      "ticket_id": 231537143,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I found something that may be costing Elmandrye's customers"
     }
   ]
 }
