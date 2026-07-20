@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 231571572,
-  "last_run_at": "2026-07-20T18:18:45.807431+00:00",
+  "last_processed_ticket_id": 231585902,
+  "last_run_at": "2026-07-20T20:01:45.278172+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-20",
   "ticket_actions": [
-    {
-      "ts": "2026-07-10T21:10:34.491681+00:00",
-      "ticket_id": 230182430,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Summer Sale Alert \u2600\ufe0f"
-    },
-    {
-      "ts": "2026-07-10T21:10:34.491687+00:00",
-      "ticket_id": 230182451,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Summer Sale Alert \u2600\ufe0f"
-    },
-    {
-      "ts": "2026-07-10T21:10:34.491692+00:00",
-      "ticket_id": 230182485,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Summer Sale Alert \u2600\ufe0f"
-    },
     {
       "ts": "2026-07-10T21:10:37.135672+00:00",
       "ticket_id": 230185568,
@@ -1203,6 +1185,24 @@
       "ticket_id": 231571572,
       "action": "error_crash",
       "detail": "Re: Order #85653 confirmed"
+    },
+    {
+      "ts": "2026-07-20T20:01:40.160299+00:00",
+      "ticket_id": 231580683,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Order placed on 6/14"
+    },
+    {
+      "ts": "2026-07-20T20:01:43.078327+00:00",
+      "ticket_id": 231582962,
+      "action": "unknown_escalated_for_aj",
+      "detail": "COVERED PARKING AVAILABLE AUGUST 1ST   \ud83d\ude01"
+    },
+    {
+      "ts": "2026-07-20T20:01:45.278132+00:00",
+      "ticket_id": 231585902,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Subscription change"
     }
   ]
 }
