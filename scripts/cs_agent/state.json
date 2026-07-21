@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 231719931,
-  "last_run_at": "2026-07-21T15:52:28.296179+00:00",
+  "last_processed_ticket_id": 231735509,
+  "last_run_at": "2026-07-21T17:17:03.291955+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-21",
   "ticket_actions": [
-    {
-      "ts": "2026-07-13T14:48:20.880535+00:00",
-      "ticket_id": 230400405,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thank You for Submitting Your Ask ISO Case - ID# 00115826 - thread::HRLzXBg5BhaRPfwNNCCsIhQ::"
-    },
-    {
-      "ts": "2026-07-13T14:48:22.190076+00:00",
-      "ticket_id": 230400407,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Request received] - 05575669"
-    },
-    {
-      "ts": "2026-07-13T14:48:23.227744+00:00",
-      "ticket_id": 230400412,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your ticket has been created"
-    },
     {
       "ts": "2026-07-13T14:48:24.587701+00:00",
       "ticket_id": 230401036,
@@ -1203,6 +1185,24 @@
       "ticket_id": 231719931,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: It looks like you left something behind..."
+    },
+    {
+      "ts": "2026-07-21T17:16:59.954010+00:00",
+      "ticket_id": 231729090,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Brazilian websites for publication posts with do-follow links."
+    },
+    {
+      "ts": "2026-07-21T17:17:01.981656+00:00",
+      "ticket_id": 231730360,
+      "action": "error_crash",
+      "detail": "Re: Order #85302 confirmed"
+    },
+    {
+      "ts": "2026-07-21T17:17:03.291932+00:00",
+      "ticket_id": 231735509,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Order placed on 6/14"
     }
   ]
 }
