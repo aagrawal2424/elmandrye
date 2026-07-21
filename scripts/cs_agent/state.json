@@ -1,93 +1,9 @@
 {
-  "last_processed_ticket_id": 231601223,
-  "last_run_at": "2026-07-21T01:04:48.909524+00:00",
+  "last_processed_ticket_id": 231708428,
+  "last_run_at": "2026-07-21T14:07:02.781530+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-21",
   "ticket_actions": [
-    {
-      "ts": "2026-07-11T13:40:09.121392+00:00",
-      "ticket_id": 230204701,
-      "action": "skip_spam",
-      "detail": "Spots are filling fast \u2014 don't miss this"
-    },
-    {
-      "ts": "2026-07-11T13:40:09.121415+00:00",
-      "ticket_id": 230206573,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 11, 2026 ($130.74 USD)"
-    },
-    {
-      "ts": "2026-07-11T13:40:11.483030+00:00",
-      "ticket_id": 230217473,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-07-11T14:39:43.588510+00:00",
-      "ticket_id": 230258604,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-11T23:32:45.845371+00:00",
-      "ticket_id": 230293323,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "New customer message on July 11, 2026 at 3:42 pm"
-    },
-    {
-      "ts": "2026-07-12T13:40:12.234923+00:00",
-      "ticket_id": 230299804,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Order #85691"
-    },
-    {
-      "ts": "2026-07-12T13:40:14.235553+00:00",
-      "ticket_id": 230301870,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
-    },
-    {
-      "ts": "2026-07-12T13:40:17.061140+00:00",
-      "ticket_id": 230303008,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Never received tracking for this order"
-    },
-    {
-      "ts": "2026-07-12T14:43:19.949839+00:00",
-      "ticket_id": 230352472,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-12T14:43:19.949861+00:00",
-      "ticket_id": 230354600,
-      "action": "skip_spam",
-      "detail": "chewy and petsmart recently added to their stories"
-    },
-    {
-      "ts": "2026-07-12T16:38:48.642264+00:00",
-      "ticket_id": 230364973,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-07-12T18:40:33.421461+00:00",
-      "ticket_id": 230376035,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-07-12T18:40:33.421482+00:00",
-      "ticket_id": 230376884,
-      "action": "skip_spam",
-      "detail": "saloniisonii and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-12T19:54:23.889683+00:00",
-      "ticket_id": 230382481,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.12.2026"
-    },
     {
       "ts": "2026-07-12T22:57:13.040338+00:00",
       "ticket_id": 230395360,
@@ -1203,6 +1119,90 @@
       "ticket_id": 231601223,
       "action": "unknown_escalated_for_aj",
       "detail": "Order #85725 - Expired product!"
+    },
+    {
+      "ts": "2026-07-21T14:06:51.751378+00:00",
+      "ticket_id": 231608191,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Your cart is about to expire."
+    },
+    {
+      "ts": "2026-07-21T14:06:51.751407+00:00",
+      "ticket_id": 231610831,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-21T14:06:51.751415+00:00",
+      "ticket_id": 231611758,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 21, 2026 ($99.95 USD)"
+    },
+    {
+      "ts": "2026-07-21T14:06:51.751421+00:00",
+      "ticket_id": 231612084,
+      "action": "skip_spam",
+      "detail": "Your first 60 days \u2014 we've got you \ud83c\udf3c"
+    },
+    {
+      "ts": "2026-07-21T14:06:52.883373+00:00",
+      "ticket_id": 231612525,
+      "action": "error_crash",
+      "detail": "Re: Order #85482 confirmed"
+    },
+    {
+      "ts": "2026-07-21T14:06:53.478510+00:00",
+      "ticket_id": 231612566,
+      "action": "error_crash",
+      "detail": "Re: Order #85086 confirmed"
+    },
+    {
+      "ts": "2026-07-21T14:06:54.633610+00:00",
+      "ticket_id": 231615196,
+      "action": "unknown_escalated_for_aj",
+      "detail": "SomVOL\u2122 Ashwagandha Extract in Oil Form|| 22 Elm Rye Inc."
+    },
+    {
+      "ts": "2026-07-21T14:06:55.727495+00:00",
+      "ticket_id": 231639838,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Hi"
+    },
+    {
+      "ts": "2026-07-21T14:06:56.864769+00:00",
+      "ticket_id": 231665657,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Come back and get 10% off."
+    },
+    {
+      "ts": "2026-07-21T14:06:59.148483+00:00",
+      "ticket_id": 231688793,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Cancellation"
+    },
+    {
+      "ts": "2026-07-21T14:07:00.134701+00:00",
+      "ticket_id": 231701134,
+      "action": "unknown_escalated_for_aj",
+      "detail": "your supplements"
+    },
+    {
+      "ts": "2026-07-21T14:07:01.630713+00:00",
+      "ticket_id": 231702014,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Still paying for Shopify email marketing?"
+    },
+    {
+      "ts": "2026-07-21T14:07:02.781500+00:00",
+      "ticket_id": 231705984,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udea7 Scheduled maintenance"
+    },
+    {
+      "ts": "2026-07-21T14:07:02.781526+00:00",
+      "ticket_id": 231708428,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
