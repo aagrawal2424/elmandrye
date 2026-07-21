@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231770076,
-  "last_run_at": "2026-07-21T22:32:48.004170+00:00",
+  "last_processed_ticket_id": 231772635,
+  "last_run_at": "2026-07-21T23:36:36.761073+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-21",
   "ticket_actions": [
-    {
-      "ts": "2026-07-13T14:48:37.442143+00:00",
-      "ticket_id": 230447145,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Jetpack Monthly Report - https://buyeverest.com"
-    },
     {
       "ts": "2026-07-13T14:48:38.584571+00:00",
       "ticket_id": 230485059,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231770076,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: You Deserve This: $15 Off Inside \ud83e\udd29"
+    },
+    {
+      "ts": "2026-07-21T23:36:36.761051+00:00",
+      "ticket_id": 231772635,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Wellness Magazine - Article Feature"
     }
   ]
 }
