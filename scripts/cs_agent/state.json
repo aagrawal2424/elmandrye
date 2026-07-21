@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 231767885,
-  "last_run_at": "2026-07-21T21:33:16.951014+00:00",
+  "last_processed_ticket_id": 231770076,
+  "last_run_at": "2026-07-21T22:32:48.004170+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-21",
   "ticket_actions": [
-    {
-      "ts": "2026-07-13T14:48:34.158458+00:00",
-      "ticket_id": 230408858,
-      "action": "skip_spam",
-      "detail": "A new affiliate, Chaz Sandifer, has signed up for your program!"
-    },
-    {
-      "ts": "2026-07-13T14:48:35.163370+00:00",
-      "ticket_id": 230416529,
-      "action": "unknown_escalated_for_aj",
-      "detail": "pupper.com: Get Ahead with Cutting-Edge SEO Tactics"
-    },
     {
       "ts": "2026-07-13T14:48:37.442143+00:00",
       "ticket_id": 230447145,
@@ -1203,6 +1191,18 @@
       "ticket_id": 231767885,
       "action": "error_crash",
       "detail": "Re: A shipment from order #84478 is on the way"
+    },
+    {
+      "ts": "2026-07-21T22:32:46.170861+00:00",
+      "ticket_id": 231768889,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.21.2026 (Part 2)"
+    },
+    {
+      "ts": "2026-07-21T22:32:48.004151+00:00",
+      "ticket_id": 231770076,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: You Deserve This: $15 Off Inside \ud83e\udd29"
     }
   ]
 }
