@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 231708428,
-  "last_run_at": "2026-07-21T14:07:02.781530+00:00",
+  "last_processed_ticket_id": 231719931,
+  "last_run_at": "2026-07-21T15:52:28.296179+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-21",
   "ticket_actions": [
-    {
-      "ts": "2026-07-12T22:57:13.040338+00:00",
-      "ticket_id": 230395360,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-07-13T14:48:19.548163+00:00",
-      "ticket_id": 230400372,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Trustmark 30 Sec. Customer Satisfaction Survey"
-    },
     {
       "ts": "2026-07-13T14:48:20.880535+00:00",
       "ticket_id": 230400405,
@@ -1203,6 +1191,18 @@
       "ticket_id": 231708428,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-21T15:52:25.326932+00:00",
+      "ticket_id": 231709574,
+      "action": "skip_spam",
+      "detail": "elmandrye, see shawndtc, nbamaze22 and more in your feed"
+    },
+    {
+      "ts": "2026-07-21T15:52:28.296157+00:00",
+      "ticket_id": 231719931,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: It looks like you left something behind..."
     }
   ]
 }
