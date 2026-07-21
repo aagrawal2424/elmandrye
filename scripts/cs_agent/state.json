@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 231735509,
-  "last_run_at": "2026-07-21T17:17:03.291955+00:00",
+  "last_processed_ticket_id": 231748573,
+  "last_run_at": "2026-07-21T18:45:19.621313+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-21",
   "ticket_actions": [
-    {
-      "ts": "2026-07-13T14:48:24.587701+00:00",
-      "ticket_id": 230401036,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Brightmine Ref No: 10533167"
-    },
-    {
-      "ts": "2026-07-13T14:48:25.977860+00:00",
-      "ticket_id": 230401277,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Request WO0000004351121: Status has been updated to Cancelled."
-    },
-    {
-      "ts": "2026-07-13T14:48:31.937892+00:00",
-      "ticket_id": 230401166,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[CALM#:9052814] Ticket 9052814 has been opened for you / Mae galwad rhif 9052814 wedi ei hagor ar eich cyfer"
-    },
-    {
-      "ts": "2026-07-13T14:48:33.004571+00:00",
-      "ticket_id": 230401151,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
     {
       "ts": "2026-07-13T14:48:34.158427+00:00",
       "ticket_id": 230405461,
@@ -1203,6 +1179,30 @@
       "ticket_id": 231735509,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Re: Order placed on 6/14"
+    },
+    {
+      "ts": "2026-07-21T18:45:14.732564+00:00",
+      "ticket_id": 231740512,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I know this is unexpected, but I had to reach out"
+    },
+    {
+      "ts": "2026-07-21T18:45:15.980866+00:00",
+      "ticket_id": 231741309,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Ship to New Jersey?"
+    },
+    {
+      "ts": "2026-07-21T18:45:17.793005+00:00",
+      "ticket_id": 231745566,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.21.2026"
+    },
+    {
+      "ts": "2026-07-21T18:45:19.621294+00:00",
+      "ticket_id": 231748573,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udde3\ufe0f Your Cannabis Customers Are Ready. Is Your SMS Strategy? \ud83d\udcf2"
     }
   ]
 }
