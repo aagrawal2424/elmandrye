@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 231913773,
-  "last_run_at": "2026-07-22T19:56:46.923582+00:00",
+  "last_processed_ticket_id": 231926521,
+  "last_run_at": "2026-07-22T21:17:13.693319+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-22",
   "ticket_actions": [
-    {
-      "ts": "2026-07-14T15:37:49.884367+00:00",
-      "ticket_id": 230676385,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Question about your store"
-    },
-    {
-      "ts": "2026-07-14T15:37:49.884400+00:00",
-      "ticket_id": 230679656,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
     {
       "ts": "2026-07-14T16:50:49.131896+00:00",
       "ticket_id": 230680403,
@@ -1203,6 +1191,18 @@
       "ticket_id": 231913773,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Re: Order 85337"
+    },
+    {
+      "ts": "2026-07-22T21:17:11.872260+00:00",
+      "ticket_id": 231924231,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Action Advised] Secure Google Cloud Identity users with required 2SV"
+    },
+    {
+      "ts": "2026-07-22T21:17:13.693309+00:00",
+      "ticket_id": 231926521,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udc3eCustom Pouches: Fully recyclable, Small MOQ"
     }
   ]
 }
