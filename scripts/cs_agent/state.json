@@ -1,75 +1,9 @@
 {
-  "last_processed_ticket_id": 231772635,
-  "last_run_at": "2026-07-22T01:06:15.368666+00:00",
+  "last_processed_ticket_id": 231875625,
+  "last_run_at": "2026-07-22T14:09:56.117651+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-22",
   "ticket_actions": [
-    {
-      "ts": "2026-07-13T14:48:38.584571+00:00",
-      "ticket_id": 230485059,
-      "action": "unknown_escalated_for_aj",
-      "detail": "One idea for Pupper's after-hours sales - Turn your 2 AM browsers into paid Shopify orders \u2014 automatically."
-    },
-    {
-      "ts": "2026-07-13T14:48:40.934229+00:00",
-      "ticket_id": 230488344,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Paid Collaboration: Link Insertion or Backlink Inquiry"
-    },
-    {
-      "ts": "2026-07-13T14:48:40.934263+00:00",
-      "ticket_id": 230497113,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-13T14:48:41.881825+00:00",
-      "ticket_id": 230504296,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Wellness supplement content"
-    },
-    {
-      "ts": "2026-07-13T17:03:27.458150+00:00",
-      "ticket_id": 230523306,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Bret Worley's July Special Pricing"
-    },
-    {
-      "ts": "2026-07-13T17:03:29.185641+00:00",
-      "ticket_id": 230526157,
-      "action": "unknown_escalated_for_aj",
-      "detail": "PROJECT FUNDING/LOAN"
-    },
-    {
-      "ts": "2026-07-13T18:48:59.952249+00:00",
-      "ticket_id": 230534520,
-      "action": "unknown_escalated_for_aj",
-      "detail": "One thing the traffic surfaced on Elm & Rye Fulfillment powered by Warehance"
-    },
-    {
-      "ts": "2026-07-13T20:06:30.214078+00:00",
-      "ticket_id": 230541856,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.13.2026"
-    },
-    {
-      "ts": "2026-07-13T20:06:31.628924+00:00",
-      "ticket_id": 230549517,
-      "action": "error_crash",
-      "detail": "Order update"
-    },
-    {
-      "ts": "2026-07-13T22:13:14.248925+00:00",
-      "ticket_id": 230558543,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Discover Premium Products at Great Prices!"
-    },
-    {
-      "ts": "2026-07-13T23:15:35.624632+00:00",
-      "ticket_id": 230563744,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Press + Retail - quick idea (Oprah)"
-    },
     {
       "ts": "2026-07-14T13:58:06.348360+00:00",
       "ticket_id": 230569412,
@@ -1203,6 +1137,72 @@
       "ticket_id": 231772635,
       "action": "unknown_escalated_for_aj",
       "detail": "Wellness Magazine - Article Feature"
+    },
+    {
+      "ts": "2026-07-22T14:09:44.585403+00:00",
+      "ticket_id": 231781094,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Order #85800"
+    },
+    {
+      "ts": "2026-07-22T14:09:45.813877+00:00",
+      "ticket_id": 231814463,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Custom Clothing Order Inquiry"
+    },
+    {
+      "ts": "2026-07-22T14:09:47.510371+00:00",
+      "ticket_id": 231827255,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Action Required: Create a passkey today and protect your Google Ads account"
+    },
+    {
+      "ts": "2026-07-22T14:09:48.876249+00:00",
+      "ticket_id": 231844508,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Order Request To Philippines"
+    },
+    {
+      "ts": "2026-07-22T14:09:48.876280+00:00",
+      "ticket_id": 231847645,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-22T14:09:50.296500+00:00",
+      "ticket_id": 231851117,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Order #85726-Urgent"
+    },
+    {
+      "ts": "2026-07-22T14:09:51.738856+00:00",
+      "ticket_id": 231853193,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Custom Clothing Order Inquiry"
+    },
+    {
+      "ts": "2026-07-22T14:09:53.848350+00:00",
+      "ticket_id": 231861487,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Shop Now for Top Products and Save Big!"
+    },
+    {
+      "ts": "2026-07-22T14:09:54.956403+00:00",
+      "ticket_id": 231866302,
+      "action": "unknown_escalated_for_aj",
+      "detail": "logo packaging"
+    },
+    {
+      "ts": "2026-07-22T14:09:56.117619+00:00",
+      "ticket_id": 231868685,
+      "action": "unknown_escalated_for_aj",
+      "detail": "One idea for Pupper's after-hours sales - Turn your 2 AM browsers into paid Shopify orders \u2014 automatically."
+    },
+    {
+      "ts": "2026-07-22T14:09:56.117647+00:00",
+      "ticket_id": 231875625,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
