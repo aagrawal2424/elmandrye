@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 231890431,
-  "last_run_at": "2026-07-22T15:52:45.045557+00:00",
+  "last_processed_ticket_id": 231905187,
+  "last_run_at": "2026-07-22T17:17:51.146748+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-22",
   "ticket_actions": [
-    {
-      "ts": "2026-07-14T13:58:08.130379+00:00",
-      "ticket_id": 230575012,
-      "action": "skip_spam",
-      "detail": "This is how sellers go viral on TikTok \ud83d\udd25"
-    },
-    {
-      "ts": "2026-07-14T13:58:09.111636+00:00",
-      "ticket_id": 230575060,
-      "action": "error_crash",
-      "detail": "Order# 85575"
-    },
-    {
-      "ts": "2026-07-14T13:58:10.441366+00:00",
-      "ticket_id": 230599415,
-      "action": "unknown_escalated_for_aj",
-      "detail": "re:  5\u20138\u00d7 absorption | Custom liposomal line | 150 MOQ"
-    },
-    {
-      "ts": "2026-07-14T13:58:11.615195+00:00",
-      "ticket_id": 230602976,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elevate Your Packaging with Our Premium Custom Mylar Bags"
-    },
-    {
-      "ts": "2026-07-14T13:58:12.759233+00:00",
-      "ticket_id": 230644527,
-      "action": "unknown_escalated_for_aj",
-      "detail": "turn 1 into 10"
-    },
-    {
-      "ts": "2026-07-14T13:58:14.068642+00:00",
-      "ticket_id": 230653361,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.14.2026"
-    },
-    {
-      "ts": "2026-07-14T13:58:15.369228+00:00",
-      "ticket_id": 230659254,
-      "action": "unknown_escalated_for_aj",
-      "detail": "health creators Pupper"
-    },
-    {
-      "ts": "2026-07-14T15:37:48.029396+00:00",
-      "ticket_id": 230662571,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-07-14T15:37:48.029418+00:00",
       "ticket_id": 230675935,
@@ -1203,6 +1155,54 @@
       "ticket_id": 231890431,
       "action": "unknown_escalated_for_aj",
       "detail": "Quick One"
+    },
+    {
+      "ts": "2026-07-22T17:17:45.934199+00:00",
+      "ticket_id": 231896984,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Saw Your Meta Ads\u2026"
+    },
+    {
+      "ts": "2026-07-22T17:17:47.274324+00:00",
+      "ticket_id": 231897654,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pupper - Want to beat vetriscience.com at their own game?"
+    },
+    {
+      "ts": "2026-07-22T17:17:49.678696+00:00",
+      "ticket_id": 231902174,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.22.2026"
+    },
+    {
+      "ts": "2026-07-22T17:17:49.678744+00:00",
+      "ticket_id": 231902338,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-22T17:17:49.678753+00:00",
+      "ticket_id": 231904304,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-22T17:17:49.678761+00:00",
+      "ticket_id": 231904734,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-22T17:17:51.146679+00:00",
+      "ticket_id": 231904949,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I noticed a few opportunities on your website"
+    },
+    {
+      "ts": "2026-07-22T17:17:51.146742+00:00",
+      "ticket_id": 231905187,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
     }
   ]
 }
