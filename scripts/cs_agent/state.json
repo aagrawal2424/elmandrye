@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231905187,
-  "last_run_at": "2026-07-22T17:17:51.146748+00:00",
+  "last_processed_ticket_id": 231913773,
+  "last_run_at": "2026-07-22T18:37:24.353006+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-22",
   "ticket_actions": [
-    {
-      "ts": "2026-07-14T15:37:48.029418+00:00",
-      "ticket_id": 230675935,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-07-14T15:37:49.884367+00:00",
       "ticket_id": 230676385,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231905187,
       "action": "skip_spam",
       "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-22T18:37:24.352986+00:00",
+      "ticket_id": 231913773,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order 85337"
     }
   ]
 }
