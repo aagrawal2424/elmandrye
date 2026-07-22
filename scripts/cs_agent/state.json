@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 231875625,
-  "last_run_at": "2026-07-22T14:09:56.117651+00:00",
+  "last_processed_ticket_id": 231890431,
+  "last_run_at": "2026-07-22T15:52:45.045557+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-22",
   "ticket_actions": [
-    {
-      "ts": "2026-07-14T13:58:06.348360+00:00",
-      "ticket_id": 230569412,
-      "action": "return_exchange_escalated_no_orders",
-      "detail": "Missing orders"
-    },
-    {
-      "ts": "2026-07-14T13:58:08.130333+00:00",
-      "ticket_id": 230569602,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Invoice 2711 from Nitro Logistics, LLC"
-    },
-    {
-      "ts": "2026-07-14T13:58:08.130370+00:00",
-      "ticket_id": 230572754,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 14, 2026 ($70.46 USD)"
-    },
     {
       "ts": "2026-07-14T13:58:08.130379+00:00",
       "ticket_id": 230575012,
@@ -1203,6 +1185,24 @@
       "ticket_id": 231875625,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-22T15:52:41.333567+00:00",
+      "ticket_id": 231888178,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Would love to walk you through Gaia our new AI coaching agent"
+    },
+    {
+      "ts": "2026-07-22T15:52:43.654982+00:00",
+      "ticket_id": 231889196,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-07-22T15:52:45.045538+00:00",
+      "ticket_id": 231890431,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Quick One"
     }
   ]
 }
