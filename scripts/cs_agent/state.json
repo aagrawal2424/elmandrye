@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232072758,
-  "last_run_at": "2026-07-23T17:44:10.737410+00:00",
+  "last_processed_ticket_id": 232081690,
+  "last_run_at": "2026-07-23T18:52:36.015255+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-23",
   "ticket_actions": [
-    {
-      "ts": "2026-07-15T15:38:37.491975+00:00",
-      "ticket_id": 230838859,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.15.2026"
-    },
-    {
-      "ts": "2026-07-15T15:38:38.491583+00:00",
-      "ticket_id": 230848061,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Shipping"
-    },
     {
       "ts": "2026-07-15T16:55:31.321219+00:00",
       "ticket_id": 230851210,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232072758,
       "action": "error_crash",
       "detail": "Re: Order #85302 confirmed"
+    },
+    {
+      "ts": "2026-07-23T18:52:33.291596+00:00",
+      "ticket_id": 232079978,
+      "action": "skip_spam",
+      "detail": "elmandrye, catch up on moments that you've missed"
+    },
+    {
+      "ts": "2026-07-23T18:52:36.015232+00:00",
+      "ticket_id": 232081690,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udcf2 $158 Back for Every $1 Spent on Cannabis SMS \ud83d\ude31"
     }
   ]
 }
