@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 232053337,
-  "last_run_at": "2026-07-23T16:05:58.497843+00:00",
+  "last_processed_ticket_id": 232072758,
+  "last_run_at": "2026-07-23T17:44:10.737410+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-23",
   "ticket_actions": [
-    {
-      "ts": "2026-07-15T13:55:29.236383+00:00",
-      "ticket_id": 230816033,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-07-15T13:55:30.184319+00:00",
-      "ticket_id": 230823199,
-      "action": "unknown_escalated_for_aj",
-      "detail": "One idea for elmandrye.com's after-hours sales - Turn your 2 AM browsers into paid Shopify orders \u2014 automatically."
-    },
-    {
-      "ts": "2026-07-15T15:38:35.460618+00:00",
-      "ticket_id": 230832615,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Grab Premium Products & Save Big!"
-    },
-    {
-      "ts": "2026-07-15T15:38:35.460656+00:00",
-      "ticket_id": 230833111,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-15T15:38:35.460665+00:00",
-      "ticket_id": 230838230,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-07-15T15:38:37.491975+00:00",
       "ticket_id": 230838859,
@@ -1203,6 +1173,36 @@
       "ticket_id": 232053337,
       "action": "unknown_escalated_for_aj",
       "detail": "Your AI Agent is fast. Is it always right?"
+    },
+    {
+      "ts": "2026-07-23T17:44:04.614403+00:00",
+      "ticket_id": 232061691,
+      "action": "error_crash",
+      "detail": "Re: Order #85795 confirmed"
+    },
+    {
+      "ts": "2026-07-23T17:44:06.100258+00:00",
+      "ticket_id": 232067836,
+      "action": "unknown_escalated_for_aj",
+      "detail": "SPECIAL INVITATION FROM JANIS SHAFFER"
+    },
+    {
+      "ts": "2026-07-23T17:44:08.334635+00:00",
+      "ticket_id": 232070083,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7.23.2026"
+    },
+    {
+      "ts": "2026-07-23T17:44:09.754802+00:00",
+      "ticket_id": 232072351,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A better bundle setup for elmandrye.com"
+    },
+    {
+      "ts": "2026-07-23T17:44:10.737391+00:00",
+      "ticket_id": 232072758,
+      "action": "error_crash",
+      "detail": "Re: Order #85302 confirmed"
     }
   ]
 }
