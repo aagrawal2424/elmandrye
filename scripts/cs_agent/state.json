@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 232039588,
-  "last_run_at": "2026-07-23T14:19:07.047250+00:00",
+  "last_processed_ticket_id": 232053337,
+  "last_run_at": "2026-07-23T16:05:58.497843+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-23",
   "ticket_actions": [
-    {
-      "ts": "2026-07-15T13:55:26.007966+00:00",
-      "ticket_id": 230740974,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Please CANCEL all my subscriptions immediately"
-    },
-    {
-      "ts": "2026-07-15T13:55:26.008001+00:00",
-      "ticket_id": 230742518,
-      "action": "skip_spam",
-      "detail": "your guest post is live - Contact"
-    },
-    {
-      "ts": "2026-07-15T13:55:27.031492+00:00",
-      "ticket_id": 230765001,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Premium positioning starts here \u2013 liposomal magnesium glycinate"
-    },
     {
       "ts": "2026-07-15T13:55:29.236383+00:00",
       "ticket_id": 230816033,
@@ -1203,6 +1185,24 @@
       "ticket_id": 232039588,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-23T16:05:55.798980+00:00",
+      "ticket_id": 232047243,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-23T16:05:56.634881+00:00",
+      "ticket_id": 232053095,
+      "action": "unknown_escalated_for_aj",
+      "detail": "logo packaging"
+    },
+    {
+      "ts": "2026-07-23T16:05:58.497819+00:00",
+      "ticket_id": 232053337,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your AI Agent is fast. Is it always right?"
     }
   ]
 }
