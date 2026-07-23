@@ -1,75 +1,9 @@
 {
-  "last_processed_ticket_id": 231940143,
-  "last_run_at": "2026-07-23T01:09:38.037688+00:00",
+  "last_processed_ticket_id": 232039588,
+  "last_run_at": "2026-07-23T14:19:07.047250+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-23",
   "ticket_actions": [
-    {
-      "ts": "2026-07-14T17:58:29.141139+00:00",
-      "ticket_id": 230697167,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Order 85526"
-    },
-    {
-      "ts": "2026-07-14T17:58:31.610072+00:00",
-      "ticket_id": 230698814,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don't Miss the Football Season Rush! Start Advertising on TikTok with Web Traffic"
-    },
-    {
-      "ts": "2026-07-14T19:39:14.757969+00:00",
-      "ticket_id": 230703042,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udea8 Your Cannabis Marketing Deserves Better. We Beat Industry Benchmarks by 5X \ud83d\udca5\u00a0"
-    },
-    {
-      "ts": "2026-07-14T19:39:14.758011+00:00",
-      "ticket_id": 230706545,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-14T20:43:44.460453+00:00",
-      "ticket_id": 230717497,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with Deborah Mrantz"
-    },
-    {
-      "ts": "2026-07-14T21:40:55.217252+00:00",
-      "ticket_id": 230720067,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Report an issue - Contact"
-    },
-    {
-      "ts": "2026-07-14T23:36:03.895899+00:00",
-      "ticket_id": 230728258,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.14.2026 (Part 2)"
-    },
-    {
-      "ts": "2026-07-14T23:36:05.438060+00:00",
-      "ticket_id": 230728314,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\ude80 Unlock Your Next Sales Channel. See How Crocs Did It."
-    },
-    {
-      "ts": "2026-07-15T00:59:47.815864+00:00",
-      "ticket_id": 230731129,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Bonjour Elmandrye"
-    },
-    {
-      "ts": "2026-07-15T13:55:23.949118+00:00",
-      "ticket_id": 230735921,
-      "action": "skip_spam",
-      "detail": "Delta 8 to Ohio?"
-    },
-    {
-      "ts": "2026-07-15T13:55:23.949140+00:00",
-      "ticket_id": 230739389,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, nadiaplott and more in your feed"
-    },
     {
       "ts": "2026-07-15T13:55:26.007966+00:00",
       "ticket_id": 230740974,
@@ -1203,6 +1137,72 @@
       "ticket_id": 231940143,
       "action": "unknown_escalated_for_aj",
       "detail": "Still using the default bulk pricing setup?"
+    },
+    {
+      "ts": "2026-07-23T14:18:56.580576+00:00",
+      "ticket_id": 231943578,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 23, 2026 ($28.94 USD)"
+    },
+    {
+      "ts": "2026-07-23T14:18:56.580599+00:00",
+      "ticket_id": 231943820,
+      "action": "skip_spam",
+      "detail": "Built-in discovery. Zero ad spend. Start now."
+    },
+    {
+      "ts": "2026-07-23T14:18:59.072316+00:00",
+      "ticket_id": 231944849,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Order 67047"
+    },
+    {
+      "ts": "2026-07-23T14:18:59.072350+00:00",
+      "ticket_id": 231946191,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-23T14:19:00.938392+00:00",
+      "ticket_id": 231947047,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Subscription 62920"
+    },
+    {
+      "ts": "2026-07-23T14:19:02.582678+00:00",
+      "ticket_id": 231947134,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Subscription"
+    },
+    {
+      "ts": "2026-07-23T14:19:03.776247+00:00",
+      "ticket_id": 231953946,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Request refund or discount - Contact"
+    },
+    {
+      "ts": "2026-07-23T14:19:03.776285+00:00",
+      "ticket_id": 231969548,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-23T14:19:05.846793+00:00",
+      "ticket_id": 232006319,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We didn't update your AI Agent. We rebuilt it."
+    },
+    {
+      "ts": "2026-07-23T14:19:07.047218+00:00",
+      "ticket_id": 232039177,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The product exists. The shopper just couldn't find it."
+    },
+    {
+      "ts": "2026-07-23T14:19:07.047247+00:00",
+      "ticket_id": 232039588,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
