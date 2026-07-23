@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 231935515,
-  "last_run_at": "2026-07-22T23:34:03.750836+00:00",
+  "last_processed_ticket_id": 231940143,
+  "last_run_at": "2026-07-23T01:09:38.037688+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-22",
+  "daily_refund_date": "2026-07-23",
   "ticket_actions": [
-    {
-      "ts": "2026-07-14T17:58:26.619387+00:00",
-      "ticket_id": 230694537,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-07-14T17:58:29.141139+00:00",
       "ticket_id": 230697167,
@@ -1203,6 +1197,12 @@
       "ticket_id": 231935515,
       "action": "error_crash",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-23T01:09:38.037670+00:00",
+      "ticket_id": 231940143,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Still using the default bulk pricing setup?"
     }
   ]
 }
