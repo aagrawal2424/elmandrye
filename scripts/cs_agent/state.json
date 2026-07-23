@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 232081690,
-  "last_run_at": "2026-07-23T18:52:36.015255+00:00",
+  "last_processed_ticket_id": 232096778,
+  "last_run_at": "2026-07-23T20:11:07.432852+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-23",
   "ticket_actions": [
-    {
-      "ts": "2026-07-15T16:55:31.321219+00:00",
-      "ticket_id": 230851210,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Checking to see if order 67035 received"
-    },
-    {
-      "ts": "2026-07-15T16:55:32.589792+00:00",
-      "ticket_id": 230856657,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Website Need Improvements"
-    },
-    {
-      "ts": "2026-07-15T18:12:54.865213+00:00",
-      "ticket_id": 230863532,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-15T18:12:54.865231+00:00",
-      "ticket_id": 230864593,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-15T18:12:54.865237+00:00",
-      "ticket_id": 230864991,
-      "action": "skip_spam",
-      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-07-15T18:12:54.865242+00:00",
       "ticket_id": 230865144,
@@ -1203,6 +1173,36 @@
       "ticket_id": 232081690,
       "action": "unknown_escalated_for_aj",
       "detail": "\ud83d\udcf2 $158 Back for Every $1 Spent on Cannabis SMS \ud83d\ude31"
+    },
+    {
+      "ts": "2026-07-23T20:10:59.973871+00:00",
+      "ticket_id": 232085759,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-07-23T20:11:02.197863+00:00",
+      "ticket_id": 232087583,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Self-Service / Elm & Rye x Shoplogin"
+    },
+    {
+      "ts": "2026-07-23T20:11:04.027488+00:00",
+      "ticket_id": 232087699,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udc40 What if Creators Drove 80% of Your Sales?"
+    },
+    {
+      "ts": "2026-07-23T20:11:05.821598+00:00",
+      "ticket_id": 232091125,
+      "action": "error_crash",
+      "detail": "Shipment"
+    },
+    {
+      "ts": "2026-07-23T20:11:07.432833+00:00",
+      "ticket_id": 232096778,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
     }
   ]
 }
