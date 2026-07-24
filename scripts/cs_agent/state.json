@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 232251819,
-  "last_run_at": "2026-07-24T20:07:29.397604+00:00",
+  "last_processed_ticket_id": 232264360,
+  "last_run_at": "2026-07-24T21:20:03.785176+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-24",
   "ticket_actions": [
-    {
-      "ts": "2026-07-16T19:35:57.108274+00:00",
-      "ticket_id": 231047209,
-      "action": "skip_spam",
-      "detail": "chewy and 2 others recently added to their stories"
-    },
     {
       "ts": "2026-07-16T20:34:37.675358+00:00",
       "ticket_id": 231059336,
@@ -1203,6 +1197,12 @@
       "ticket_id": 232251819,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Asif from GPTZero: Your New BFF (Best Link Friend)!"
+    },
+    {
+      "ts": "2026-07-24T21:20:03.785158+00:00",
+      "ticket_id": 232264360,
+      "action": "skip_spam",
+      "detail": "Automatic reply: A free treat for your pup\u2019s smile \ud83e\uddb4"
     }
   ]
 }
