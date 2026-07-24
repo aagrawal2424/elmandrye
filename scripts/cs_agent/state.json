@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 232116766,
-  "last_run_at": "2026-07-23T23:34:09.445266+00:00",
+  "last_processed_ticket_id": 232122202,
+  "last_run_at": "2026-07-24T01:05:33.801325+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-23",
+  "daily_refund_date": "2026-07-24",
   "ticket_actions": [
-    {
-      "ts": "2026-07-15T20:42:50.506335+00:00",
-      "ticket_id": 230885372,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Subscription Cancelation"
-    },
     {
       "ts": "2026-07-15T20:42:52.186837+00:00",
       "ticket_id": 230886710,
@@ -1203,6 +1197,12 @@
       "ticket_id": 232116766,
       "action": "skip_spam",
       "detail": "puppersupplements, see silverainb, simba_leon_meow and more in your feed"
+    },
+    {
+      "ts": "2026-07-24T01:05:33.801299+00:00",
+      "ticket_id": 232122202,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order #85819 confirmed"
     }
   ]
 }
