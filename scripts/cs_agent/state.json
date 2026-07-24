@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 232235615,
-  "last_run_at": "2026-07-24T17:11:33.401790+00:00",
+  "last_processed_ticket_id": 232251819,
+  "last_run_at": "2026-07-24T18:48:13.513008+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-24",
   "ticket_actions": [
-    {
-      "ts": "2026-07-16T18:13:48.645340+00:00",
-      "ticket_id": 231034890,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Product Update] Google Pics to be added as a Google Workspace core service starting as soon as Aug 18, 2026"
-    },
-    {
-      "ts": "2026-07-16T18:13:50.233874+00:00",
-      "ticket_id": 231035179,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Product Update] Google Pics to be added as a Google Workspace core service starting as soon as Aug 18, 2026"
-    },
-    {
-      "ts": "2026-07-16T18:13:52.302807+00:00",
-      "ticket_id": 231036696,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udd0d Cannabis Customers Are Searching. Can They Find You? \u2b50"
-    },
     {
       "ts": "2026-07-16T19:35:57.108274+00:00",
       "ticket_id": 231047209,
@@ -1203,6 +1185,24 @@
       "ticket_id": 232235045,
       "action": "unknown_escalated_for_aj",
       "detail": "I noticed a few opportunities on your website"
+    },
+    {
+      "ts": "2026-07-24T18:48:12.301020+00:00",
+      "ticket_id": 232249691,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thanks for getting in touch with Wine Auctioneer"
+    },
+    {
+      "ts": "2026-07-24T18:48:12.301055+00:00",
+      "ticket_id": 232251421,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-07-24T18:48:13.512986+00:00",
+      "ticket_id": 232251819,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Asif from GPTZero: Your New BFF (Best Link Friend)!"
     }
   ]
 }
