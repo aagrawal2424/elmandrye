@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 232212748,
-  "last_run_at": "2026-07-24T13:57:21.030399+00:00",
+  "last_processed_ticket_id": 232227627,
+  "last_run_at": "2026-07-24T15:36:35.815284+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-24",
   "ticket_actions": [
-    {
-      "ts": "2026-07-16T14:07:22.131052+00:00",
-      "ticket_id": 230998636,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Allulose & Ingredient Sourcing"
-    },
-    {
-      "ts": "2026-07-16T14:07:22.131090+00:00",
-      "ticket_id": 231000754,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-16T15:46:39.001931+00:00",
-      "ticket_id": 231007693,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Upgrade: Smarter Regulatory Intelligence Awaits"
-    },
-    {
-      "ts": "2026-07-16T15:46:39.001960+00:00",
-      "ticket_id": 231015297,
-      "action": "skip_spam",
-      "detail": "elmandrye, catch up on moments that you've missed"
-    },
-    {
-      "ts": "2026-07-16T16:57:19.776395+00:00",
-      "ticket_id": 231019839,
-      "action": "skip_no_email",
-      "detail": "Conversation with Customer #535807293"
-    },
     {
       "ts": "2026-07-16T16:57:22.139518+00:00",
       "ticket_id": 231020274,
@@ -1203,6 +1173,36 @@
       "ticket_id": 232212748,
       "action": "unknown_escalated_for_aj",
       "detail": "Press Opportunities for Elm & Rye!"
+    },
+    {
+      "ts": "2026-07-24T15:36:27.506788+00:00",
+      "ticket_id": 232213941,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-24T15:36:29.291730+00:00",
+      "ticket_id": 232220038,
+      "action": "unknown_escalated_for_aj",
+      "detail": "commission"
+    },
+    {
+      "ts": "2026-07-24T15:36:31.607983+00:00",
+      "ticket_id": 232222274,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Who handles packaging EPR at ?"
+    },
+    {
+      "ts": "2026-07-24T15:36:33.558086+00:00",
+      "ticket_id": 232223665,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Try Butta\u2019s Chipz Today!"
+    },
+    {
+      "ts": "2026-07-24T15:36:35.815265+00:00",
+      "ticket_id": 232227627,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Wellness Magazine - Article"
     }
   ]
 }
