@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 232264360,
-  "last_run_at": "2026-07-24T21:20:03.785176+00:00",
+  "last_processed_ticket_id": 232271345,
+  "last_run_at": "2026-07-24T22:32:36.108589+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-24",
   "ticket_actions": [
-    {
-      "ts": "2026-07-16T20:34:37.675358+00:00",
-      "ticket_id": 231059336,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elm & Rye supplement AI visibility"
-    },
-    {
-      "ts": "2026-07-16T20:34:39.397136+00:00",
-      "ticket_id": 231067433,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.16.2026 (Part 2)"
-    },
-    {
-      "ts": "2026-07-16T22:42:12.635505+00:00",
-      "ticket_id": 231076256,
-      "action": "unknown_escalated_for_aj",
-      "detail": "NEW: DEA Judge Sets August 17 Deadline for Final Briefs Following Conclusion of Federal Marijuana Rescheduling Hearing"
-    },
-    {
-      "ts": "2026-07-16T23:41:33.952332+00:00",
-      "ticket_id": 231078673,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-17T01:14:11.509524+00:00",
-      "ticket_id": 231083043,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Report an issue - Contact"
-    },
     {
       "ts": "2026-07-17T13:51:05.160601+00:00",
       "ticket_id": 231087538,
@@ -1203,6 +1173,36 @@
       "ticket_id": 232264360,
       "action": "skip_spam",
       "detail": "Automatic reply: A free treat for your pup\u2019s smile \ud83e\uddb4"
+    },
+    {
+      "ts": "2026-07-24T22:32:31.397118+00:00",
+      "ticket_id": 232267749,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with Antonio Zamudio"
+    },
+    {
+      "ts": "2026-07-24T22:32:31.955355+00:00",
+      "ticket_id": 232267852,
+      "action": "error_crash",
+      "detail": "Subscription cancel"
+    },
+    {
+      "ts": "2026-07-24T22:32:33.208651+00:00",
+      "ticket_id": 232268395,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CurcXR Sustained Release Turmeric Extract for Joint Wellness || 22 Elm Rye Inc."
+    },
+    {
+      "ts": "2026-07-24T22:32:34.996687+00:00",
+      "ticket_id": 232271141,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Hot Days, Chill Deals: 20% Off Inside \ud83d\uddfb"
+    },
+    {
+      "ts": "2026-07-24T22:32:36.108568+00:00",
+      "ticket_id": 232271345,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Order #85726"
     }
   ]
 }
