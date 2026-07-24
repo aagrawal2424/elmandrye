@@ -1,75 +1,9 @@
 {
-  "last_processed_ticket_id": 232122202,
-  "last_run_at": "2026-07-24T01:05:33.801325+00:00",
+  "last_processed_ticket_id": 232212748,
+  "last_run_at": "2026-07-24T13:57:21.030399+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-24",
   "ticket_actions": [
-    {
-      "ts": "2026-07-15T20:42:52.186837+00:00",
-      "ticket_id": 230886710,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Opportunity to reach Amazon's 200M+ Prime members \u2013 US Marketplace "
-    },
-    {
-      "ts": "2026-07-15T20:42:53.283861+00:00",
-      "ticket_id": 230886779,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-07-15T21:41:35.542808+00:00",
-      "ticket_id": 230889283,
-      "action": "error_crash",
-      "detail": "Tracking my purchase"
-    },
-    {
-      "ts": "2026-07-15T22:42:26.081793+00:00",
-      "ticket_id": 230894689,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Catch the Hottest New Products Now!"
-    },
-    {
-      "ts": "2026-07-15T22:42:26.081828+00:00",
-      "ticket_id": 230895148,
-      "action": "skip_spam",
-      "detail": "elmandrye, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-07-16T01:10:44.201112+00:00",
-      "ticket_id": 230900424,
-      "action": "error_crash",
-      "detail": "Return Item Info"
-    },
-    {
-      "ts": "2026-07-16T14:07:15.036045+00:00",
-      "ticket_id": 230911838,
-      "action": "skip_spam",
-      "detail": "The sellers winning in 2026 moved early"
-    },
-    {
-      "ts": "2026-07-16T14:07:15.036067+00:00",
-      "ticket_id": 230914938,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 16, 2026 ($77.14 USD)"
-    },
-    {
-      "ts": "2026-07-16T14:07:18.046125+00:00",
-      "ticket_id": 230951294,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New, Innovative Felt Pet Products-daisy from CHINA"
-    },
-    {
-      "ts": "2026-07-16T14:07:18.046159+00:00",
-      "ticket_id": 230993528,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-07-16T14:07:20.210786+00:00",
-      "ticket_id": 230995042,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Data-Backed Disposable Top Picks \ud83d\udcca"
-    },
     {
       "ts": "2026-07-16T14:07:22.131052+00:00",
       "ticket_id": 230998636,
@@ -1203,6 +1137,72 @@
       "ticket_id": 232122202,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Re: Order #85819 confirmed"
+    },
+    {
+      "ts": "2026-07-24T13:57:09.338752+00:00",
+      "ticket_id": 232122815,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Sponsors of The Marijuana Herald!"
+    },
+    {
+      "ts": "2026-07-24T13:57:09.338787+00:00",
+      "ticket_id": 232124751,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 24, 2026 ($46.09 USD)"
+    },
+    {
+      "ts": "2026-07-24T13:57:11.071553+00:00",
+      "ticket_id": 232128271,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Cancel order"
+    },
+    {
+      "ts": "2026-07-24T13:57:11.071586+00:00",
+      "ticket_id": 232131580,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-24T13:57:12.042339+00:00",
+      "ticket_id": 232150337,
+      "action": "error_crash",
+      "detail": "Re: Order #80276"
+    },
+    {
+      "ts": "2026-07-24T13:57:13.110848+00:00",
+      "ticket_id": 232156609,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-07-24T13:57:14.084178+00:00",
+      "ticket_id": 232179334,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Let's talk about your issues : pupper.com"
+    },
+    {
+      "ts": "2026-07-24T13:57:15.488154+00:00",
+      "ticket_id": 232190369,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Subscription 62920"
+    },
+    {
+      "ts": "2026-07-24T13:57:17.328262+00:00",
+      "ticket_id": 232194689,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Meramist inquiry"
+    },
+    {
+      "ts": "2026-07-24T13:57:19.315247+00:00",
+      "ticket_id": 232211424,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Order #85819 confirmed"
+    },
+    {
+      "ts": "2026-07-24T13:57:21.030382+00:00",
+      "ticket_id": 232212748,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Press Opportunities for Elm & Rye!"
     }
   ]
 }
