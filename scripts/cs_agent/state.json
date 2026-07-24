@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 232227627,
-  "last_run_at": "2026-07-24T15:36:35.815284+00:00",
+  "last_processed_ticket_id": 232235615,
+  "last_run_at": "2026-07-24T17:11:33.401790+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-24",
   "ticket_actions": [
-    {
-      "ts": "2026-07-16T16:57:22.139518+00:00",
-      "ticket_id": 231020274,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.16.2026"
-    },
-    {
-      "ts": "2026-07-16T18:13:33.657154+00:00",
-      "ticket_id": 231029443,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Action Advised] Manage access for new Gemini app avatar feature"
-    },
-    {
-      "ts": "2026-07-16T18:13:35.341026+00:00",
-      "ticket_id": 231029575,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Action Advised] Manage access for new Gemini app avatar feature"
-    },
-    {
-      "ts": "2026-07-16T18:13:36.946547+00:00",
-      "ticket_id": 231030030,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Action Advised] Manage access for new Gemini app avatar feature"
-    },
-    {
-      "ts": "2026-07-16T18:13:42.937852+00:00",
-      "ticket_id": 231030927,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with David Troiani"
-    },
-    {
-      "ts": "2026-07-16T18:13:44.066420+00:00",
-      "ticket_id": 231031169,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Missing Customers on Google?"
-    },
-    {
-      "ts": "2026-07-16T18:13:45.637568+00:00",
-      "ticket_id": 231032909,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Product Update] Google Pics to be added as a Google Workspace core service starting as soon as Aug 18, 2026"
-    },
-    {
-      "ts": "2026-07-16T18:13:47.090678+00:00",
-      "ticket_id": 231033170,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: product catalog idea"
-    },
     {
       "ts": "2026-07-16T18:13:48.645340+00:00",
       "ticket_id": 231034890,
@@ -1203,6 +1155,54 @@
       "ticket_id": 232227627,
       "action": "unknown_escalated_for_aj",
       "detail": "Wellness Magazine - Article"
+    },
+    {
+      "ts": "2026-07-24T17:11:15.204365+00:00",
+      "ticket_id": 232230436,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: 421 orders a day, no ads"
+    },
+    {
+      "ts": "2026-07-24T17:11:16.821233+00:00",
+      "ticket_id": 232232095,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-375755 Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE READ [WPC:0066671]"
+    },
+    {
+      "ts": "2026-07-24T17:11:18.422224+00:00",
+      "ticket_id": 232233126,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Vertex Support Case 00230902 has been opened"
+    },
+    {
+      "ts": "2026-07-24T17:11:21.163051+00:00",
+      "ticket_id": 232232681,
+      "action": "unknown_escalated_for_aj",
+      "detail": "BitCreative LP Customer Self Service Portal Invitation"
+    },
+    {
+      "ts": "2026-07-24T17:11:22.638925+00:00",
+      "ticket_id": 232233205,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-388732 Re: CSM-375755 Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE READ [WPC:0066671]"
+    },
+    {
+      "ts": "2026-07-24T17:11:24.906357+00:00",
+      "ticket_id": 232233405,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Request WO0000004663841: Status has been updated to Cancelled."
+    },
+    {
+      "ts": "2026-07-24T17:11:31.457583+00:00",
+      "ticket_id": 232235615,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thanks for getting in touch with Wine Auctioneer"
+    },
+    {
+      "ts": "2026-07-24T17:11:33.401771+00:00",
+      "ticket_id": 232235045,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I noticed a few opportunities on your website"
     }
   ]
 }
