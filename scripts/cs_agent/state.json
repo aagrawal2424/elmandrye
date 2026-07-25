@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 232272340,
-  "last_run_at": "2026-07-24T23:38:39.602077+00:00",
+  "last_processed_ticket_id": 232275393,
+  "last_run_at": "2026-07-25T01:10:52.317119+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-24",
+  "daily_refund_date": "2026-07-25",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T13:51:08.714439+00:00",
-      "ticket_id": 231093866,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Is Your Business Mobile-Ready?"
-    },
     {
       "ts": "2026-07-17T13:51:10.012237+00:00",
       "ticket_id": 231093899,
@@ -1203,6 +1197,12 @@
       "ticket_id": 232272340,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 7/24/2026"
+    },
+    {
+      "ts": "2026-07-25T01:10:52.317100+00:00",
+      "ticket_id": 232275393,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Most Shopify stores lose buyers right before checkout"
     }
   ]
 }
