@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232355444,
-  "last_run_at": "2026-07-25T21:30:04.287262+00:00",
+  "last_processed_ticket_id": 232374070,
+  "last_run_at": "2026-07-25T22:31:27.064840+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-25",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T18:43:37.859342+00:00",
-      "ticket_id": 231212161,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Welcome to Elm & Rye"
-    },
-    {
-      "ts": "2026-07-17T20:53:53.579117+00:00",
-      "ticket_id": 231219544,
-      "action": "error_crash",
-      "detail": "Order"
-    },
     {
       "ts": "2026-07-17T20:53:53.579138+00:00",
       "ticket_id": 231220282,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232355444,
       "action": "unknown_escalated_for_aj",
       "detail": "Hi , Keep Bottles and Boxes Consistent Across Your Range"
+    },
+    {
+      "ts": "2026-07-25T22:31:27.064803+00:00",
+      "ticket_id": 232372905,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Ticket Created: [AUTO-REPLY] CSM-388732 Re: CSM-375755 Re: Of all the things I've done - New Ticket Logged: Out of Hours"
+    },
+    {
+      "ts": "2026-07-25T22:31:27.064836+00:00",
+      "ticket_id": 232374070,
+      "action": "skip_spam",
+      "detail": "elmandrye, see what's been happening on Instagram"
     }
   ]
 }
