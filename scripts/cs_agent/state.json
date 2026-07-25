@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232282770,
-  "last_run_at": "2026-07-25T13:47:48.727492+00:00",
+  "last_processed_ticket_id": 232341233,
+  "last_run_at": "2026-07-25T14:52:15.096977+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-25",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T13:51:12.571259+00:00",
-      "ticket_id": 231173430,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Guaranteed TV segment + The Today Show"
-    },
-    {
-      "ts": "2026-07-17T15:09:52.302712+00:00",
-      "ticket_id": 231176134,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CZAR IS HERE WITH A DEAL"
-    },
     {
       "ts": "2026-07-17T15:09:52.302752+00:00",
       "ticket_id": 231176429,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232282770,
       "action": "skip_spam",
       "detail": "Sell $5K in June, get $200 back. Here's how."
+    },
+    {
+      "ts": "2026-07-25T14:52:15.096933+00:00",
+      "ticket_id": 232339376,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-25T14:52:15.096974+00:00",
+      "ticket_id": 232341233,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
     }
   ]
 }
