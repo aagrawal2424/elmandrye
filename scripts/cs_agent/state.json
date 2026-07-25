@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232341233,
-  "last_run_at": "2026-07-25T14:52:15.096977+00:00",
+  "last_processed_ticket_id": 232348852,
+  "last_run_at": "2026-07-25T16:02:27.254070+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-25",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T15:09:52.302752+00:00",
-      "ticket_id": 231176429,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-17T15:09:53.549057+00:00",
-      "ticket_id": 231182021,
-      "action": "unknown_escalated_for_aj",
-      "detail": "How can Pupper realistically use investment proceeds?"
-    },
     {
       "ts": "2026-07-17T15:09:54.959487+00:00",
       "ticket_id": 231183375,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232341233,
       "action": "skip_spam",
       "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-25T16:02:27.254031+00:00",
+      "ticket_id": 232343732,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Confirmation of shipping Order #84935"
+    },
+    {
+      "ts": "2026-07-25T16:02:27.254068+00:00",
+      "ticket_id": 232348852,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
     }
   ]
 }
