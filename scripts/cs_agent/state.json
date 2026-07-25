@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 232354556,
-  "last_run_at": "2026-07-25T17:11:53.727784+00:00",
+  "last_processed_ticket_id": 232355444,
+  "last_run_at": "2026-07-25T18:10:09.821780+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-25",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T18:43:35.752992+00:00",
-      "ticket_id": 231208975,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elman Drye on Amazon"
-    },
     {
       "ts": "2026-07-17T18:43:37.859342+00:00",
       "ticket_id": 231212161,
@@ -1203,6 +1197,12 @@
       "ticket_id": 232354556,
       "action": "unknown_escalated_for_aj",
       "detail": "Set your password for Touchcast Support"
+    },
+    {
+      "ts": "2026-07-25T18:10:09.821765+00:00",
+      "ticket_id": 232355444,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Hi , Keep Bottles and Boxes Consistent Across Your Range"
     }
   ]
 }
