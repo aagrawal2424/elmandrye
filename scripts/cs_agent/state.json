@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 232348852,
-  "last_run_at": "2026-07-25T16:02:27.254070+00:00",
+  "last_processed_ticket_id": 232354556,
+  "last_run_at": "2026-07-25T17:11:53.727784+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-25",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T15:09:54.959487+00:00",
-      "ticket_id": 231183375,
-      "action": "unknown_escalated_for_aj",
-      "detail": "U.S. Distribution Inquiry"
-    },
-    {
-      "ts": "2026-07-17T15:09:54.959520+00:00",
-      "ticket_id": 231183922,
-      "action": "skip_spam",
-      "detail": "From heygracey and others: 3 unread messages"
-    },
-    {
-      "ts": "2026-07-17T15:09:57.108895+00:00",
-      "ticket_id": 231187307,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Premium supplement retention"
-    },
-    {
-      "ts": "2026-07-17T16:35:22.891866+00:00",
-      "ticket_id": 231196663,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Supplements complimentary video"
-    },
-    {
-      "ts": "2026-07-17T16:35:24.464563+00:00",
-      "ticket_id": 231197879,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-07-17T16:35:26.135779+00:00",
-      "ticket_id": 231198218,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Google x Elm & Rye Growth Partnership"
-    },
     {
       "ts": "2026-07-17T18:43:35.752992+00:00",
       "ticket_id": 231208975,
@@ -1203,6 +1167,42 @@
       "ticket_id": 232348852,
       "action": "skip_spam",
       "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-25T17:11:44.418556+00:00",
+      "ticket_id": 232352605,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We received your request"
+    },
+    {
+      "ts": "2026-07-25T17:11:46.938452+00:00",
+      "ticket_id": 232352617,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Maternity Leave"
+    },
+    {
+      "ts": "2026-07-25T17:11:49.040966+00:00",
+      "ticket_id": 232352615,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Contact Us CS-7049 CSM-388732 Re: CSM-375755 Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE RE"
+    },
+    {
+      "ts": "2026-07-25T17:11:50.171244+00:00",
+      "ticket_id": 232352704,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thanks for getting in touch with Wine Auctioneer"
+    },
+    {
+      "ts": "2026-07-25T17:11:51.725937+00:00",
+      "ticket_id": 232352752,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CVS-82161 We received your request"
+    },
+    {
+      "ts": "2026-07-25T17:11:53.727774+00:00",
+      "ticket_id": 232354556,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Set your password for Touchcast Support"
     }
   ]
 }
