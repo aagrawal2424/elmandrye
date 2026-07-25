@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232275393,
-  "last_run_at": "2026-07-25T01:10:52.317119+00:00",
+  "last_processed_ticket_id": 232282770,
+  "last_run_at": "2026-07-25T13:47:48.727492+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-25",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T13:51:10.012237+00:00",
-      "ticket_id": 231093899,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Is Your Business Mobile-Ready?"
-    },
-    {
-      "ts": "2026-07-17T13:51:11.415271+00:00",
-      "ticket_id": 231155216,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Shopify Developers || Shopify store enhancement"
-    },
     {
       "ts": "2026-07-17T13:51:12.571259+00:00",
       "ticket_id": 231173430,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232275393,
       "action": "unknown_escalated_for_aj",
       "detail": "Most Shopify stores lose buyers right before checkout"
+    },
+    {
+      "ts": "2026-07-25T13:47:48.727458+00:00",
+      "ticket_id": 232281680,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Order number 15065"
+    },
+    {
+      "ts": "2026-07-25T13:47:48.727490+00:00",
+      "ticket_id": 232282770,
+      "action": "skip_spam",
+      "detail": "Sell $5K in June, get $200 back. Here's how."
     }
   ]
 }
