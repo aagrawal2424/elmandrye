@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 232469647,
-  "last_run_at": "2026-07-26T17:11:24.968202+00:00",
+  "last_processed_ticket_id": 232483879,
+  "last_run_at": "2026-07-26T18:13:40.166831+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-26",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T21:55:34.386356+00:00",
-      "ticket_id": 231225524,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your receipt from Sendlane #2450-2262"
-    },
-    {
-      "ts": "2026-07-17T21:55:35.557111+00:00",
-      "ticket_id": 231226353,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.17.2026"
-    },
-    {
-      "ts": "2026-07-17T21:55:36.465416+00:00",
-      "ticket_id": 231227225,
-      "action": "unknown_escalated_for_aj",
-      "detail": "421 orders a day, no ads"
-    },
     {
       "ts": "2026-07-17T22:55:15.215815+00:00",
       "ticket_id": 231230719,
@@ -1203,6 +1185,24 @@
       "ticket_id": 232469647,
       "action": "skip_spam",
       "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-07-26T18:13:38.218689+00:00",
+      "ticket_id": 232483144,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Maternity Leave"
+    },
+    {
+      "ts": "2026-07-26T18:13:39.269744+00:00",
+      "ticket_id": 232483300,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Maternity Leave #621332117"
+    },
+    {
+      "ts": "2026-07-26T18:13:40.166814+00:00",
+      "ticket_id": 232483879,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank you for your inquiry [Xometry Support] Maternity Leave #621332117 | Ticket:  05623392"
     }
   ]
 }
