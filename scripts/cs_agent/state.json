@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232378716,
-  "last_run_at": "2026-07-26T13:41:24.197478+00:00",
+  "last_processed_ticket_id": 232462683,
+  "last_run_at": "2026-07-26T14:52:03.156073+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-26",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T20:53:54.979040+00:00",
-      "ticket_id": 231220288,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Automatic reply: \ud83c\udf08 Flavor-Packed Calm"
-    },
-    {
-      "ts": "2026-07-17T20:53:57.019153+00:00",
-      "ticket_id": 231221258,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE: \ud83c\udf08 Flavor-Packed Calm"
-    },
     {
       "ts": "2026-07-17T21:55:32.238869+00:00",
       "ticket_id": 231225343,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232378716,
       "action": "order_cancel_escalated_for_aj",
       "detail": "#85842"
+    },
+    {
+      "ts": "2026-07-26T14:52:03.156043+00:00",
+      "ticket_id": 232462081,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Are variants driving confusion?"
+    },
+    {
+      "ts": "2026-07-26T14:52:03.156070+00:00",
+      "ticket_id": 232462683,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
