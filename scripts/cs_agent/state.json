@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 232483879,
-  "last_run_at": "2026-07-26T22:41:58.768802+00:00",
+  "last_processed_ticket_id": 232506360,
+  "last_run_at": "2026-07-26T23:44:35.179553+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-26",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T22:55:15.215815+00:00",
-      "ticket_id": 231230719,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
     {
       "ts": "2026-07-17T23:56:55.954697+00:00",
       "ticket_id": 231233306,
@@ -1203,6 +1197,12 @@
       "ticket_id": 232483879,
       "action": "unknown_escalated_for_aj",
       "detail": "Thank you for your inquiry [Xometry Support] Maternity Leave #621332117 | Ticket:  05623392"
+    },
+    {
+      "ts": "2026-07-26T23:44:35.179534+00:00",
+      "ticket_id": 232506360,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Subscription 62920"
     }
   ]
 }
