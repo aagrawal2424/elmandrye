@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232462683,
-  "last_run_at": "2026-07-26T14:52:03.156073+00:00",
+  "last_processed_ticket_id": 232469647,
+  "last_run_at": "2026-07-26T15:59:16.724843+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-26",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T21:55:32.238869+00:00",
-      "ticket_id": 231225343,
-      "action": "skip_spam",
-      "detail": "Automatic reply: \ud83c\udf08 Flavor-Packed Calm"
-    },
-    {
-      "ts": "2026-07-17T21:55:32.238886+00:00",
-      "ticket_id": 231225478,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Final Call: 60% Off All Orders \ud83d\udea8"
-    },
     {
       "ts": "2026-07-17T21:55:34.386356+00:00",
       "ticket_id": 231225524,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232462683,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-26T15:59:16.724811+00:00",
+      "ticket_id": 232469304,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Exploring Simple Wellness Habits"
+    },
+    {
+      "ts": "2026-07-26T15:59:16.724840+00:00",
+      "ticket_id": 232469647,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
