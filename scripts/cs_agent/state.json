@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 232374070,
-  "last_run_at": "2026-07-25T23:37:52.681232+00:00",
+  "last_processed_ticket_id": 232378716,
+  "last_run_at": "2026-07-26T01:15:00.502405+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-25",
+  "daily_refund_date": "2026-07-26",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T20:53:53.579138+00:00",
-      "ticket_id": 231220282,
-      "action": "skip_spam",
-      "detail": "Automatic reply: \ud83c\udf08 Flavor-Packed Calm"
-    },
     {
       "ts": "2026-07-17T20:53:54.979040+00:00",
       "ticket_id": 231220288,
@@ -1203,6 +1197,12 @@
       "ticket_id": 232374070,
       "action": "skip_spam",
       "detail": "elmandrye, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-07-26T01:15:00.502379+00:00",
+      "ticket_id": 232378716,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "#85842"
     }
   ]
 }
