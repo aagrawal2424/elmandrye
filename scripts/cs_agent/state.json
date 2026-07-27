@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 232506360,
-  "last_run_at": "2026-07-26T23:44:35.179553+00:00",
+  "last_processed_ticket_id": 232512198,
+  "last_run_at": "2026-07-27T01:22:22.239870+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-26",
+  "daily_refund_date": "2026-07-27",
   "ticket_actions": [
-    {
-      "ts": "2026-07-17T23:56:55.954697+00:00",
-      "ticket_id": 231233306,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83c\udf08 Flavor-Packed Calm"
-    },
-    {
-      "ts": "2026-07-17T23:56:55.954738+00:00",
-      "ticket_id": 231233367,
-      "action": "skip_spam",
-      "detail": "Automatic reply: \ud83c\udf08 Flavor-Packed Calm"
-    },
-    {
-      "ts": "2026-07-17T23:56:57.001552+00:00",
-      "ticket_id": 231234030,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Information"
-    },
-    {
-      "ts": "2026-07-17T23:56:59.534488+00:00",
-      "ticket_id": 231234431,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Product question - Contact"
-    },
     {
       "ts": "2026-07-18T13:34:43.121400+00:00",
       "ticket_id": 231243827,
@@ -1203,6 +1179,30 @@
       "ticket_id": 232506360,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Subscription 62920"
+    },
+    {
+      "ts": "2026-07-27T01:22:18.040241+00:00",
+      "ticket_id": 232508696,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Ticket Created: Maternity Leave #621332117 - WO0000004717396"
+    },
+    {
+      "ts": "2026-07-27T01:22:19.280273+00:00",
+      "ticket_id": 232508780,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thanks for getting in touch with Wine Auctioneer"
+    },
+    {
+      "ts": "2026-07-27T01:22:20.760680+00:00",
+      "ticket_id": 232512039,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your temporary pass code is 578167"
+    },
+    {
+      "ts": "2026-07-27T01:22:22.239850+00:00",
+      "ticket_id": 232512198,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Security alert"
     }
   ]
 }
