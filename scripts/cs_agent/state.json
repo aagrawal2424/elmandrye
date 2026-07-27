@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232667340,
-  "last_run_at": "2026-07-27T21:21:26.355632+00:00",
+  "last_processed_ticket_id": 232670298,
+  "last_run_at": "2026-07-27T22:32:50.486089+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-27",
   "ticket_actions": [
-    {
-      "ts": "2026-07-19T23:07:39.070745+00:00",
-      "ticket_id": 231432079,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-07-19T23:07:40.528692+00:00",
-      "ticket_id": 231432671,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-07-19T23:07:41.573332+00:00",
       "ticket_id": 231433673,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232667340,
       "action": "unknown_escalated_for_aj",
       "detail": "Grab Your Favorites and Save Today!"
+    },
+    {
+      "ts": "2026-07-27T22:32:50.486048+00:00",
+      "ticket_id": 232670236,
+      "action": "error_crash",
+      "detail": "Elm & Rye Order Purchase - Never Received"
+    },
+    {
+      "ts": "2026-07-27T22:32:50.486085+00:00",
+      "ticket_id": 232670298,
+      "action": "skip_no_email",
+      "detail": "Conversation with Customer #538673745"
     }
   ]
 }
