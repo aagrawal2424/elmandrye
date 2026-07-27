@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 232639595,
-  "last_run_at": "2026-07-27T16:52:16.861988+00:00",
+  "last_processed_ticket_id": 232650620,
+  "last_run_at": "2026-07-27T18:22:12.644761+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-27",
   "ticket_actions": [
-    {
-      "ts": "2026-07-19T13:37:19.956867+00:00",
-      "ticket_id": 231389592,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Of all the things I've done #619689869"
-    },
-    {
-      "ts": "2026-07-19T13:37:21.145644+00:00",
-      "ticket_id": 231391064,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE READ [WPC:0066671]"
-    },
-    {
-      "ts": "2026-07-19T13:37:22.381708+00:00",
-      "ticket_id": 231390083,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Ticket Created: Of all the things I've done #619689869 - WO0000004517298"
-    },
-    {
-      "ts": "2026-07-19T14:41:03.874492+00:00",
-      "ticket_id": 231394287,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Brand Acquisition Asia"
-    },
-    {
-      "ts": "2026-07-19T14:41:03.874525+00:00",
-      "ticket_id": 231394976,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-19T16:37:17.173257+00:00",
-      "ticket_id": 231403084,
-      "action": "error_crash",
-      "detail": "Order"
-    },
     {
       "ts": "2026-07-19T18:40:55.645438+00:00",
       "ticket_id": 231414837,
@@ -1203,6 +1167,42 @@
       "ticket_id": 232639595,
       "action": "unknown_escalated_for_aj",
       "detail": "CBD & Cannabis Guest Posting Services"
+    },
+    {
+      "ts": "2026-07-27T18:22:07.168026+00:00",
+      "ticket_id": 232641065,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-396240 Maternity Leave #621332117"
+    },
+    {
+      "ts": "2026-07-27T18:22:08.770263+00:00",
+      "ticket_id": 232641055,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-394668 Acknowledgement: We have received your email"
+    },
+    {
+      "ts": "2026-07-27T18:22:09.775159+00:00",
+      "ticket_id": 232641122,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-27T18:22:11.324367+00:00",
+      "ticket_id": 232641601,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Ticket Created: CSM-394668 Acknowledgement: We have received your email - WO0000004743367"
+    },
+    {
+      "ts": "2026-07-27T18:22:12.644723+00:00",
+      "ticket_id": 232647146,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pat Filipowski"
+    },
+    {
+      "ts": "2026-07-27T18:22:12.644757+00:00",
+      "ticket_id": 232650620,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Michael Wieloch, has signed up for your program!"
     }
   ]
 }
