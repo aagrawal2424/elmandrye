@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 232617027,
-  "last_run_at": "2026-07-27T14:49:57.226385+00:00",
+  "last_processed_ticket_id": 232639595,
+  "last_run_at": "2026-07-27T16:52:16.861988+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-27",
   "ticket_actions": [
-    {
-      "ts": "2026-07-19T01:07:03.771264+00:00",
-      "ticket_id": 231340727,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-07-19T13:37:14.089556+00:00",
-      "ticket_id": 231343434,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-19T13:37:16.089577+00:00",
-      "ticket_id": 231345497,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Action required: for your upcoming subscription renewal"
-    },
-    {
-      "ts": "2026-07-19T13:37:16.741534+00:00",
-      "ticket_id": 231345591,
-      "action": "error_crash",
-      "detail": "Request refund or discount - Contact"
-    },
-    {
-      "ts": "2026-07-19T13:37:16.741558+00:00",
-      "ticket_id": 231387419,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-07-19T13:37:18.765741+00:00",
-      "ticket_id": 231389405,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Of all the things I've done"
-    },
     {
       "ts": "2026-07-19T13:37:19.956867+00:00",
       "ticket_id": 231389592,
@@ -1203,6 +1167,42 @@
       "ticket_id": 232617027,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: A quick question about your skincare products"
+    },
+    {
+      "ts": "2026-07-27T16:52:07.690837+00:00",
+      "ticket_id": 232625110,
+      "action": "skip_spam",
+      "detail": "saloniisonii and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-27T16:52:10.694855+00:00",
+      "ticket_id": 232625249,
+      "action": "error_crash",
+      "detail": "Delivery"
+    },
+    {
+      "ts": "2026-07-27T16:52:11.730907+00:00",
+      "ticket_id": 232625310,
+      "action": "error_crash",
+      "detail": "Re: Order #85737 confirmed"
+    },
+    {
+      "ts": "2026-07-27T16:52:13.358880+00:00",
+      "ticket_id": 232634680,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I noticed a few Gaps on your website"
+    },
+    {
+      "ts": "2026-07-27T16:52:15.582632+00:00",
+      "ticket_id": 232636811,
+      "action": "unknown_escalated_for_aj",
+      "detail": "creatives idea"
+    },
+    {
+      "ts": "2026-07-27T16:52:16.861967+00:00",
+      "ticket_id": 232639595,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CBD & Cannabis Guest Posting Services"
     }
   ]
 }
