@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 232798977,
-  "last_run_at": "2026-07-28T16:18:23.820587+00:00",
+  "last_processed_ticket_id": 232815806,
+  "last_run_at": "2026-07-28T17:49:06.355907+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-28",
   "ticket_actions": [
-    {
-      "ts": "2026-07-20T20:01:45.278132+00:00",
-      "ticket_id": 231585902,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Subscription change"
-    },
-    {
-      "ts": "2026-07-20T21:19:44.440421+00:00",
-      "ticket_id": 231587632,
-      "action": "error_crash",
-      "detail": "Wrong product"
-    },
-    {
-      "ts": "2026-07-20T21:19:45.833581+00:00",
-      "ticket_id": 231588040,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Custom Clothing Order Inquiry"
-    },
-    {
-      "ts": "2026-07-20T22:28:39.348858+00:00",
-      "ticket_id": 231595728,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/20/2026"
-    },
     {
       "ts": "2026-07-20T22:28:41.023832+00:00",
       "ticket_id": 231598636,
@@ -1203,6 +1179,30 @@
       "ticket_id": 232798977,
       "action": "unknown_escalated_for_aj",
       "detail": "Guest posting opportunities for your industry"
+    },
+    {
+      "ts": "2026-07-28T17:49:02.421978+00:00",
+      "ticket_id": 232807993,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: A shipment from order #85798 has been delivered"
+    },
+    {
+      "ts": "2026-07-28T17:49:03.658611+00:00",
+      "ticket_id": 232809517,
+      "action": "unknown_escalated_for_aj",
+      "detail": "ROAS for your wellness supplements"
+    },
+    {
+      "ts": "2026-07-28T17:49:04.643756+00:00",
+      "ticket_id": 232813813,
+      "action": "unknown_escalated_for_aj",
+      "detail": "q3 growth plans for  El Mandrye"
+    },
+    {
+      "ts": "2026-07-28T17:49:06.355881+00:00",
+      "ticket_id": 232815806,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with David Fierstien"
     }
   ]
 }
