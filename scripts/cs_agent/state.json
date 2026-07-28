@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 232831616,
-  "last_run_at": "2026-07-28T22:41:49.059940+00:00",
+  "last_processed_ticket_id": 232847011,
+  "last_run_at": "2026-07-28T23:43:02.477584+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-28",
   "ticket_actions": [
-    {
-      "ts": "2026-07-20T23:34:09.265572+00:00",
-      "ticket_id": 231601223,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Order #85725 - Expired product!"
-    },
     {
       "ts": "2026-07-21T14:06:51.751378+00:00",
       "ticket_id": 231608191,
@@ -1203,6 +1197,12 @@
       "ticket_id": 232831616,
       "action": "unknown_escalated_for_aj",
       "detail": "Your temporary pass code is 606836"
+    },
+    {
+      "ts": "2026-07-28T23:43:02.477563+00:00",
+      "ticket_id": 232847011,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Retail Stores"
     }
   ]
 }
