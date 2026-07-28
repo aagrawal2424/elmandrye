@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 232822574,
-  "last_run_at": "2026-07-28T19:03:55.552943+00:00",
+  "last_processed_ticket_id": 232831616,
+  "last_run_at": "2026-07-28T20:22:49.755308+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-28",
   "ticket_actions": [
-    {
-      "ts": "2026-07-20T23:34:07.343371+00:00",
-      "ticket_id": 231600450,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Order placed on 6/14"
-    },
     {
       "ts": "2026-07-20T23:34:09.265572+00:00",
       "ticket_id": 231601223,
@@ -1203,6 +1197,12 @@
       "ticket_id": 232822574,
       "action": "unknown_escalated_for_aj",
       "detail": "q3 projections for  Pupper"
+    },
+    {
+      "ts": "2026-07-28T20:22:49.755287+00:00",
+      "ticket_id": 232831616,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your temporary pass code is 606836"
     }
   ]
 }
