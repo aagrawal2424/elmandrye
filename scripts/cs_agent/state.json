@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 232670298,
-  "last_run_at": "2026-07-27T23:41:09.279671+00:00",
+  "last_processed_ticket_id": 232679276,
+  "last_run_at": "2026-07-28T01:06:39.089496+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-27",
+  "daily_refund_date": "2026-07-28",
   "ticket_actions": [
-    {
-      "ts": "2026-07-19T23:07:41.573332+00:00",
-      "ticket_id": 231433673,
-      "action": "error_crash",
-      "detail": "Request refund or discount - Contact"
-    },
-    {
-      "ts": "2026-07-20T14:20:44.754242+00:00",
-      "ticket_id": 231446592,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Contact Us CS-6822 Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE READ [WPC:0066671]"
-    },
-    {
-      "ts": "2026-07-20T14:20:46.979654+00:00",
-      "ticket_id": 231447308,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Issue placing order"
-    },
     {
       "ts": "2026-07-20T14:20:48.148232+00:00",
       "ticket_id": 231458183,
@@ -1203,6 +1185,24 @@
       "ticket_id": 232670298,
       "action": "skip_no_email",
       "detail": "Conversation with Customer #538673745"
+    },
+    {
+      "ts": "2026-07-28T01:06:36.921511+00:00",
+      "ticket_id": 232678634,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your temporary pass code is 051423"
+    },
+    {
+      "ts": "2026-07-28T01:06:38.083496+00:00",
+      "ticket_id": 232678780,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New reasons prevent pages from being indexed on site https://pupper.com/"
+    },
+    {
+      "ts": "2026-07-28T01:06:39.089483+00:00",
+      "ticket_id": 232679276,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Some of your pending conversions are set to automatically approve"
     }
   ]
 }
