@@ -1,87 +1,9 @@
 {
-  "last_processed_ticket_id": 232679276,
-  "last_run_at": "2026-07-28T01:06:39.089496+00:00",
+  "last_processed_ticket_id": 232781668,
+  "last_run_at": "2026-07-28T14:23:42.241542+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-28",
   "ticket_actions": [
-    {
-      "ts": "2026-07-20T14:20:48.148232+00:00",
-      "ticket_id": 231458183,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-07-20T14:20:48.148253+00:00",
-      "ticket_id": 231464266,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 20, 2026 ($59.78 USD)"
-    },
-    {
-      "ts": "2026-07-20T14:20:49.798694+00:00",
-      "ticket_id": 231504328,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Cancellation"
-    },
-    {
-      "ts": "2026-07-20T14:20:50.559676+00:00",
-      "ticket_id": 231504979,
-      "action": "error_crash",
-      "detail": "Re: Order #85073 confirmed"
-    },
-    {
-      "ts": "2026-07-20T14:20:52.564524+00:00",
-      "ticket_id": 231506105,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Jeff Prater sent you an invitation."
-    },
-    {
-      "ts": "2026-07-20T14:20:54.891962+00:00",
-      "ticket_id": 231519937,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1701-9015]"
-    },
-    {
-      "ts": "2026-07-20T14:20:57.018448+00:00",
-      "ticket_id": 231531203,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Invoice 2718 from Nitro Logistics, LLC"
-    },
-    {
-      "ts": "2026-07-20T14:20:57.018468+00:00",
-      "ticket_id": 231533844,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-20T14:20:58.749582+00:00",
-      "ticket_id": 231534596,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Jeff Prater sent you an invitation."
-    },
-    {
-      "ts": "2026-07-20T14:21:00.126707+00:00",
-      "ticket_id": 231535810,
-      "action": "unknown_escalated_for_aj",
-      "detail": "buyeverest.com requires verification of your Contact Email to continue using your account"
-    },
-    {
-      "ts": "2026-07-20T14:21:01.260464+00:00",
-      "ticket_id": 231537143,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I found something that may be costing Elmandrye's customers"
-    },
-    {
-      "ts": "2026-07-20T16:07:40.387700+00:00",
-      "ticket_id": 231542108,
-      "action": "unknown_escalated_for_aj",
-      "detail": "supplements expert"
-    },
-    {
-      "ts": "2026-07-20T18:18:44.761569+00:00",
-      "ticket_id": 231560405,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "cancel sub"
-    },
     {
       "ts": "2026-07-20T18:18:45.807410+00:00",
       "ticket_id": 231571572,
@@ -1203,6 +1125,84 @@
       "ticket_id": 232679276,
       "action": "unknown_escalated_for_aj",
       "detail": "Some of your pending conversions are set to automatically approve"
+    },
+    {
+      "ts": "2026-07-28T14:23:28.028084+00:00",
+      "ticket_id": 232684810,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Weekly Cannabinoid Pricing - Bucanna Labs"
+    },
+    {
+      "ts": "2026-07-28T14:23:28.028119+00:00",
+      "ticket_id": 232686840,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 28, 2026 ($157.33 USD)"
+    },
+    {
+      "ts": "2026-07-28T14:23:28.028127+00:00",
+      "ticket_id": 232687391,
+      "action": "skip_spam",
+      "detail": "This is how sellers go viral on TikTok \ud83d\udd25"
+    },
+    {
+      "ts": "2026-07-28T14:23:30.161841+00:00",
+      "ticket_id": 232688453,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Urgent Cancellation and Refund"
+    },
+    {
+      "ts": "2026-07-28T14:23:31.260048+00:00",
+      "ticket_id": 232747137,
+      "action": "unknown_escalated_for_aj",
+      "detail": "From Pat"
+    },
+    {
+      "ts": "2026-07-28T14:23:33.471764+00:00",
+      "ticket_id": 232761578,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your NITRO LOGISTICS LLC receipt [#1484-6274]"
+    },
+    {
+      "ts": "2026-07-28T14:23:34.731692+00:00",
+      "ticket_id": 232762894,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Do you email your customers to purchase regularly? I created a win-back flow for you based on value- ..."
+    },
+    {
+      "ts": "2026-07-28T14:23:36.409703+00:00",
+      "ticket_id": 232765793,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Order n\u00b085725, "
+    },
+    {
+      "ts": "2026-07-28T14:23:37.721289+00:00",
+      "ticket_id": 232772934,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[For Shopify Store] A happy little idea for elmandrye.com\u2019s Shopify store - Make every shopper feel welcomed, helped, an"
+    },
+    {
+      "ts": "2026-07-28T14:23:39.253362+00:00",
+      "ticket_id": 232778880,
+      "action": "unknown_escalated_for_aj",
+      "detail": "54 dog food SERPs, dissected"
+    },
+    {
+      "ts": "2026-07-28T14:23:40.767083+00:00",
+      "ticket_id": 232779305,
+      "action": "unknown_escalated_for_aj",
+      "detail": "300k for ya"
+    },
+    {
+      "ts": "2026-07-28T14:23:42.241503+00:00",
+      "ticket_id": 232781230,
+      "action": "unknown_escalated_for_aj",
+      "detail": "7 DOOH Creative Principles That Drive Action"
+    },
+    {
+      "ts": "2026-07-28T14:23:42.241538+00:00",
+      "ticket_id": 232781668,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
