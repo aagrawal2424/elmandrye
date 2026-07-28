@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 232815806,
-  "last_run_at": "2026-07-28T17:49:06.355907+00:00",
+  "last_processed_ticket_id": 232822574,
+  "last_run_at": "2026-07-28T19:03:55.552943+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-28",
   "ticket_actions": [
-    {
-      "ts": "2026-07-20T22:28:41.023832+00:00",
-      "ticket_id": 231598636,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Shop Now for Top Products and Save Big!"
-    },
-    {
-      "ts": "2026-07-20T22:28:41.944985+00:00",
-      "ticket_id": 231598859,
-      "action": "error_crash",
-      "detail": "Re: Order #85690 confirmed"
-    },
-    {
-      "ts": "2026-07-20T23:34:05.397400+00:00",
-      "ticket_id": 231599437,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
     {
       "ts": "2026-07-20T23:34:07.343371+00:00",
       "ticket_id": 231600450,
@@ -1203,6 +1185,24 @@
       "ticket_id": 232815806,
       "action": "unknown_escalated_for_aj",
       "detail": "Conversation with David Fierstien"
+    },
+    {
+      "ts": "2026-07-28T19:03:52.243560+00:00",
+      "ticket_id": 232819770,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udd0e Is Your Cannabis Website Ready to Attract More Customers? \ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1"
+    },
+    {
+      "ts": "2026-07-28T19:03:54.477804+00:00",
+      "ticket_id": 232821532,
+      "action": "unknown_escalated_for_aj",
+      "detail": "buyeverest.com requests confirmation of your Account Email for security purposes"
+    },
+    {
+      "ts": "2026-07-28T19:03:55.552924+00:00",
+      "ticket_id": 232822574,
+      "action": "unknown_escalated_for_aj",
+      "detail": "q3 projections for  Pupper"
     }
   ]
 }
