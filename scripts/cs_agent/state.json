@@ -1,93 +1,9 @@
 {
-  "last_processed_ticket_id": 232852037,
-  "last_run_at": "2026-07-29T01:11:19.035702+00:00",
+  "last_processed_ticket_id": 232946916,
+  "last_run_at": "2026-07-29T14:23:04.569074+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-29",
   "ticket_actions": [
-    {
-      "ts": "2026-07-21T14:06:51.751407+00:00",
-      "ticket_id": 231610831,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-21T14:06:51.751415+00:00",
-      "ticket_id": 231611758,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 21, 2026 ($99.95 USD)"
-    },
-    {
-      "ts": "2026-07-21T14:06:51.751421+00:00",
-      "ticket_id": 231612084,
-      "action": "skip_spam",
-      "detail": "Your first 60 days \u2014 we've got you \ud83c\udf3c"
-    },
-    {
-      "ts": "2026-07-21T14:06:52.883373+00:00",
-      "ticket_id": 231612525,
-      "action": "error_crash",
-      "detail": "Re: Order #85482 confirmed"
-    },
-    {
-      "ts": "2026-07-21T14:06:53.478510+00:00",
-      "ticket_id": 231612566,
-      "action": "error_crash",
-      "detail": "Re: Order #85086 confirmed"
-    },
-    {
-      "ts": "2026-07-21T14:06:54.633610+00:00",
-      "ticket_id": 231615196,
-      "action": "unknown_escalated_for_aj",
-      "detail": "SomVOL\u2122 Ashwagandha Extract in Oil Form|| 22 Elm Rye Inc."
-    },
-    {
-      "ts": "2026-07-21T14:06:55.727495+00:00",
-      "ticket_id": 231639838,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Hi"
-    },
-    {
-      "ts": "2026-07-21T14:06:56.864769+00:00",
-      "ticket_id": 231665657,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Come back and get 10% off."
-    },
-    {
-      "ts": "2026-07-21T14:06:59.148483+00:00",
-      "ticket_id": 231688793,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Cancellation"
-    },
-    {
-      "ts": "2026-07-21T14:07:00.134701+00:00",
-      "ticket_id": 231701134,
-      "action": "unknown_escalated_for_aj",
-      "detail": "your supplements"
-    },
-    {
-      "ts": "2026-07-21T14:07:01.630713+00:00",
-      "ticket_id": 231702014,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Still paying for Shopify email marketing?"
-    },
-    {
-      "ts": "2026-07-21T14:07:02.781500+00:00",
-      "ticket_id": 231705984,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udea7 Scheduled maintenance"
-    },
-    {
-      "ts": "2026-07-21T14:07:02.781526+00:00",
-      "ticket_id": 231708428,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-21T15:52:25.326932+00:00",
-      "ticket_id": 231709574,
-      "action": "skip_spam",
-      "detail": "elmandrye, see shawndtc, nbamaze22 and more in your feed"
-    },
     {
       "ts": "2026-07-21T15:52:28.296157+00:00",
       "ticket_id": 231719931,
@@ -1203,6 +1119,90 @@
       "ticket_id": 232852037,
       "action": "order_cancel_escalated_for_aj",
       "detail": ""
+    },
+    {
+      "ts": "2026-07-29T14:22:51.306725+00:00",
+      "ticket_id": 232852710,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Set your password for Help Center"
+    },
+    {
+      "ts": "2026-07-29T14:22:51.306759+00:00",
+      "ticket_id": 232855546,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 29, 2026 ($28.94 USD)"
+    },
+    {
+      "ts": "2026-07-29T14:22:52.181666+00:00",
+      "ticket_id": 232857185,
+      "action": "error_crash",
+      "detail": "Re: Missing  Order #85102"
+    },
+    {
+      "ts": "2026-07-29T14:22:52.825470+00:00",
+      "ticket_id": 232857255,
+      "action": "error_crash",
+      "detail": "Order #85102"
+    },
+    {
+      "ts": "2026-07-29T14:22:54.382392+00:00",
+      "ticket_id": 232857324,
+      "action": "return_exchange_escalated_no_orders",
+      "detail": "Re: Missing Order #85102"
+    },
+    {
+      "ts": "2026-07-29T14:22:55.528960+00:00",
+      "ticket_id": 232893193,
+      "action": "unknown_escalated_for_aj",
+      "detail": "SomVOL\u2122 Ashwagandha Extract in Oil Form|| 22 Elm Rye Inc."
+    },
+    {
+      "ts": "2026-07-29T14:22:57.417411+00:00",
+      "ticket_id": 232899832,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-07-29T14:22:58.296946+00:00",
+      "ticket_id": 232921940,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: There\u2019s a friction point on Pupper"
+    },
+    {
+      "ts": "2026-07-29T14:23:00.389223+00:00",
+      "ticket_id": 232927949,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Cancel Subscription"
+    },
+    {
+      "ts": "2026-07-29T14:23:01.912273+00:00",
+      "ticket_id": 232941187,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Deals on Fogger and Four Seasons Juice!"
+    },
+    {
+      "ts": "2026-07-29T14:23:01.912309+00:00",
+      "ticket_id": 232943506,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-29T14:23:02.663300+00:00",
+      "ticket_id": 232943646,
+      "action": "error_crash",
+      "detail": "Re: A shipment from order #85798 has been delivered"
+    },
+    {
+      "ts": "2026-07-29T14:23:04.569038+00:00",
+      "ticket_id": 232946195,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Bundle confusion is costing you revenue"
+    },
+    {
+      "ts": "2026-07-29T14:23:04.569069+00:00",
+      "ticket_id": 232946916,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
