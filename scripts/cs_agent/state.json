@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232977324,
-  "last_run_at": "2026-07-29T17:24:29.017988+00:00",
+  "last_processed_ticket_id": 232985214,
+  "last_run_at": "2026-07-29T18:32:02.330062+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-29",
   "ticket_actions": [
-    {
-      "ts": "2026-07-22T14:09:48.876280+00:00",
-      "ticket_id": 231847645,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-07-22T14:09:50.296500+00:00",
-      "ticket_id": 231851117,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Order #85726-Urgent"
-    },
     {
       "ts": "2026-07-22T14:09:51.738856+00:00",
       "ticket_id": 231853193,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232977324,
       "action": "skip_spam",
       "detail": "Your Klaviyo Inc subscription will renew soon"
+    },
+    {
+      "ts": "2026-07-29T18:32:00.791696+00:00",
+      "ticket_id": 232980176,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank you for your inquiry [Xometry Support] Thanks for getting in touch with Wine Auctioneer | Ticket:  05635683"
+    },
+    {
+      "ts": "2026-07-29T18:32:02.330043+00:00",
+      "ticket_id": 232985214,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Subscription 62920"
     }
   ]
 }
