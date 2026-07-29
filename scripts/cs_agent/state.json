@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 232989954,
-  "last_run_at": "2026-07-29T19:56:13.194129+00:00",
+  "last_processed_ticket_id": 233009523,
+  "last_run_at": "2026-07-29T21:05:27.535651+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-29",
   "ticket_actions": [
-    {
-      "ts": "2026-07-22T14:09:54.956403+00:00",
-      "ticket_id": 231866302,
-      "action": "unknown_escalated_for_aj",
-      "detail": "logo packaging"
-    },
     {
       "ts": "2026-07-22T14:09:56.117619+00:00",
       "ticket_id": 231868685,
@@ -1203,6 +1197,12 @@
       "ticket_id": 232989954,
       "action": "skip_spam",
       "detail": "jdufek5 and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-07-29T21:05:27.535629+00:00",
+      "ticket_id": 233009523,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Wellness Magazine - Dedicated Article"
     }
   ]
 }
