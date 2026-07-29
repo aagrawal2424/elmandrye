@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 232946916,
-  "last_run_at": "2026-07-29T14:23:04.569074+00:00",
+  "last_processed_ticket_id": 232963045,
+  "last_run_at": "2026-07-29T16:00:04.445287+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-29",
   "ticket_actions": [
-    {
-      "ts": "2026-07-21T15:52:28.296157+00:00",
-      "ticket_id": 231719931,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: It looks like you left something behind..."
-    },
-    {
-      "ts": "2026-07-21T17:16:59.954010+00:00",
-      "ticket_id": 231729090,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Brazilian websites for publication posts with do-follow links."
-    },
-    {
-      "ts": "2026-07-21T17:17:01.981656+00:00",
-      "ticket_id": 231730360,
-      "action": "error_crash",
-      "detail": "Re: Order #85302 confirmed"
-    },
     {
       "ts": "2026-07-21T17:17:03.291932+00:00",
       "ticket_id": 231735509,
@@ -1203,6 +1185,24 @@
       "ticket_id": 232946916,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-29T16:00:02.360789+00:00",
+      "ticket_id": 232960604,
+      "action": "unknown_escalated_for_aj",
+      "detail": "logo packaging"
+    },
+    {
+      "ts": "2026-07-29T16:00:04.445252+00:00",
+      "ticket_id": 232962536,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order Status"
+    },
+    {
+      "ts": "2026-07-29T16:00:04.445283+00:00",
+      "ticket_id": 232963045,
+      "action": "skip_spam",
+      "detail": "elmandrye, see el_chicano_tezcatlipoca, jacoblee.reserve and more in your feed"
     }
   ]
 }
