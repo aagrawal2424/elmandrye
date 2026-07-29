@@ -1,87 +1,9 @@
 {
-  "last_processed_ticket_id": 232963045,
-  "last_run_at": "2026-07-29T16:00:04.445287+00:00",
+  "last_processed_ticket_id": 232977324,
+  "last_run_at": "2026-07-29T17:24:29.017988+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-29",
   "ticket_actions": [
-    {
-      "ts": "2026-07-21T17:17:03.291932+00:00",
-      "ticket_id": 231735509,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Order placed on 6/14"
-    },
-    {
-      "ts": "2026-07-21T18:45:14.732564+00:00",
-      "ticket_id": 231740512,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I know this is unexpected, but I had to reach out"
-    },
-    {
-      "ts": "2026-07-21T18:45:15.980866+00:00",
-      "ticket_id": 231741309,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Ship to New Jersey?"
-    },
-    {
-      "ts": "2026-07-21T18:45:17.793005+00:00",
-      "ticket_id": 231745566,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.21.2026"
-    },
-    {
-      "ts": "2026-07-21T18:45:19.621294+00:00",
-      "ticket_id": 231748573,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udde3\ufe0f Your Cannabis Customers Are Ready. Is Your SMS Strategy? \ud83d\udcf2"
-    },
-    {
-      "ts": "2026-07-21T21:33:16.950996+00:00",
-      "ticket_id": 231767885,
-      "action": "error_crash",
-      "detail": "Re: A shipment from order #84478 is on the way"
-    },
-    {
-      "ts": "2026-07-21T22:32:46.170861+00:00",
-      "ticket_id": 231768889,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.21.2026 (Part 2)"
-    },
-    {
-      "ts": "2026-07-21T22:32:48.004151+00:00",
-      "ticket_id": 231770076,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: You Deserve This: $15 Off Inside \ud83e\udd29"
-    },
-    {
-      "ts": "2026-07-21T23:36:36.761051+00:00",
-      "ticket_id": 231772635,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Wellness Magazine - Article Feature"
-    },
-    {
-      "ts": "2026-07-22T14:09:44.585403+00:00",
-      "ticket_id": 231781094,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Order #85800"
-    },
-    {
-      "ts": "2026-07-22T14:09:45.813877+00:00",
-      "ticket_id": 231814463,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Custom Clothing Order Inquiry"
-    },
-    {
-      "ts": "2026-07-22T14:09:47.510371+00:00",
-      "ticket_id": 231827255,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Action Required: Create a passkey today and protect your Google Ads account"
-    },
-    {
-      "ts": "2026-07-22T14:09:48.876249+00:00",
-      "ticket_id": 231844508,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Order Request To Philippines"
-    },
     {
       "ts": "2026-07-22T14:09:48.876280+00:00",
       "ticket_id": 231847645,
@@ -1203,6 +1125,84 @@
       "ticket_id": 232963045,
       "action": "skip_spam",
       "detail": "elmandrye, see el_chicano_tezcatlipoca, jacoblee.reserve and more in your feed"
+    },
+    {
+      "ts": "2026-07-29T17:24:18.662963+00:00",
+      "ticket_id": 232969582,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-394505 Maternity Leave"
+    },
+    {
+      "ts": "2026-07-29T17:24:20.191864+00:00",
+      "ticket_id": 232969659,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank you for your inquiry [Xometry Support] CSM-394505 Maternity Leave | Ticket:  05635180"
+    },
+    {
+      "ts": "2026-07-29T17:24:21.840912+00:00",
+      "ticket_id": 232969734,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We received your request"
+    },
+    {
+      "ts": "2026-07-29T17:24:23.157928+00:00",
+      "ticket_id": 232969762,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-394505 Maternity Leave"
+    },
+    {
+      "ts": "2026-07-29T17:24:24.919150+00:00",
+      "ticket_id": 232969804,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We received your request"
+    },
+    {
+      "ts": "2026-07-29T17:24:26.100317+00:00",
+      "ticket_id": 232971926,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thanks for getting in touch with Wine Auctioneer"
+    },
+    {
+      "ts": "2026-07-29T17:24:27.564011+00:00",
+      "ticket_id": 232970195,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We received your request #622072632"
+    },
+    {
+      "ts": "2026-07-29T17:24:27.564044+00:00",
+      "ticket_id": 232971946,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-29T17:24:27.564053+00:00",
+      "ticket_id": 232972135,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-29T17:24:27.564059+00:00",
+      "ticket_id": 232972286,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-29T17:24:29.017952+00:00",
+      "ticket_id": 232973103,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Request WO0000004797380: Status has been updated to Cancelled."
+    },
+    {
+      "ts": "2026-07-29T17:24:29.017977+00:00",
+      "ticket_id": 232973805,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-07-29T17:24:29.017984+00:00",
+      "ticket_id": 232977324,
+      "action": "skip_spam",
+      "detail": "Your Klaviyo Inc subscription will renew soon"
     }
   ]
 }
