@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 232985214,
-  "last_run_at": "2026-07-29T18:32:02.330062+00:00",
+  "last_processed_ticket_id": 232989954,
+  "last_run_at": "2026-07-29T19:56:13.194129+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-29",
   "ticket_actions": [
-    {
-      "ts": "2026-07-22T14:09:51.738856+00:00",
-      "ticket_id": 231853193,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Custom Clothing Order Inquiry"
-    },
-    {
-      "ts": "2026-07-22T14:09:53.848350+00:00",
-      "ticket_id": 231861487,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Shop Now for Top Products and Save Big!"
-    },
     {
       "ts": "2026-07-22T14:09:54.956403+00:00",
       "ticket_id": 231866302,
@@ -1203,6 +1191,18 @@
       "ticket_id": 232985214,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Subscription 62920"
+    },
+    {
+      "ts": "2026-07-29T19:56:13.194094+00:00",
+      "ticket_id": 232988944,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-397507 Re: [Virgin Mobile UAE][TicketID:HLP-1309579] Can we help you further? Set your password for Touchcast Suppor"
+    },
+    {
+      "ts": "2026-07-29T19:56:13.194125+00:00",
+      "ticket_id": 232989954,
+      "action": "skip_spam",
+      "detail": "jdufek5 and 7 others recently added to their stories"
     }
   ]
 }
