@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233172877,
-  "last_run_at": "2026-07-30T21:43:02.478701+00:00",
+  "last_processed_ticket_id": 233177822,
+  "last_run_at": "2026-07-30T22:48:18.258401+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-30",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T14:19:03.776285+00:00",
-      "ticket_id": 231969548,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-07-23T14:19:05.846793+00:00",
       "ticket_id": 232006319,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233172877,
       "action": "unknown_escalated_for_aj",
       "detail": "Straight from our pet packaging factory floor \ud83c\udfed"
+    },
+    {
+      "ts": "2026-07-30T22:48:18.258383+00:00",
+      "ticket_id": 233177822,
+      "action": "error_crash",
+      "detail": ""
     }
   ]
 }
