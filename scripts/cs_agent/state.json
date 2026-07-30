@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 233153095,
-  "last_run_at": "2026-07-30T17:44:35.731549+00:00",
+  "last_processed_ticket_id": 233161901,
+  "last_run_at": "2026-07-30T19:03:21.733996+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-30",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T01:09:38.037670+00:00",
-      "ticket_id": 231940143,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Still using the default bulk pricing setup?"
-    },
-    {
-      "ts": "2026-07-23T14:18:56.580576+00:00",
-      "ticket_id": 231943578,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 23, 2026 ($28.94 USD)"
-    },
-    {
-      "ts": "2026-07-23T14:18:56.580599+00:00",
-      "ticket_id": 231943820,
-      "action": "skip_spam",
-      "detail": "Built-in discovery. Zero ad spend. Start now."
-    },
-    {
-      "ts": "2026-07-23T14:18:59.072316+00:00",
-      "ticket_id": 231944849,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Order 67047"
-    },
-    {
-      "ts": "2026-07-23T14:18:59.072350+00:00",
-      "ticket_id": 231946191,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
     {
       "ts": "2026-07-23T14:19:00.938392+00:00",
       "ticket_id": 231947047,
@@ -1203,6 +1173,36 @@
       "ticket_id": 233153095,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: New customer message on July 30, 2026 at 3:17 am"
+    },
+    {
+      "ts": "2026-07-30T19:03:17.931824+00:00",
+      "ticket_id": 233154844,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83e\udd47 The First Impression That Wins Cannabis Customers \ud83c\udf3f"
+    },
+    {
+      "ts": "2026-07-30T19:03:19.554674+00:00",
+      "ticket_id": 233157314,
+      "action": "unknown_escalated_for_aj",
+      "detail": "DreamHost Shared Hosting: Upcoming OS Upgrade For Server iad1-shared-d12-03"
+    },
+    {
+      "ts": "2026-07-30T19:03:20.699728+00:00",
+      "ticket_id": 233157573,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elmandrye"
+    },
+    {
+      "ts": "2026-07-30T19:03:20.699760+00:00",
+      "ticket_id": 233160529,
+      "action": "skip_spam",
+      "detail": "elmandrye, catch up on moments that you've missed"
+    },
+    {
+      "ts": "2026-07-30T19:03:21.733965+00:00",
+      "ticket_id": 233161901,
+      "action": "error_crash",
+      "detail": "Re: A shipment from order #85737 is on the way"
     }
   ]
 }
