@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233121731,
-  "last_run_at": "2026-07-30T14:18:43.932583+00:00",
+  "last_processed_ticket_id": 233125531,
+  "last_run_at": "2026-07-30T16:02:46.532521+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-30",
   "ticket_actions": [
-    {
-      "ts": "2026-07-22T21:17:13.693309+00:00",
-      "ticket_id": 231926521,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udc3eCustom Pouches: Fully recyclable, Small MOQ"
-    },
     {
       "ts": "2026-07-22T22:29:23.526108+00:00",
       "ticket_id": 231931255,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233121731,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-30T16:02:46.532497+00:00",
+      "ticket_id": 233125531,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Digest chews"
     }
   ]
 }
