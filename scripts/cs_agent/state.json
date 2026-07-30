@@ -1,93 +1,9 @@
 {
-  "last_processed_ticket_id": 233023151,
-  "last_run_at": "2026-07-30T00:15:21.397345+00:00",
+  "last_processed_ticket_id": 233121731,
+  "last_run_at": "2026-07-30T14:18:43.932583+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-30",
   "ticket_actions": [
-    {
-      "ts": "2026-07-22T14:09:56.117647+00:00",
-      "ticket_id": 231875625,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-22T15:52:41.333567+00:00",
-      "ticket_id": 231888178,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Would love to walk you through Gaia our new AI coaching agent"
-    },
-    {
-      "ts": "2026-07-22T15:52:43.654982+00:00",
-      "ticket_id": 231889196,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-07-22T15:52:45.045538+00:00",
-      "ticket_id": 231890431,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Quick One"
-    },
-    {
-      "ts": "2026-07-22T17:17:45.934199+00:00",
-      "ticket_id": 231896984,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Saw Your Meta Ads\u2026"
-    },
-    {
-      "ts": "2026-07-22T17:17:47.274324+00:00",
-      "ticket_id": 231897654,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Pupper - Want to beat vetriscience.com at their own game?"
-    },
-    {
-      "ts": "2026-07-22T17:17:49.678696+00:00",
-      "ticket_id": 231902174,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.22.2026"
-    },
-    {
-      "ts": "2026-07-22T17:17:49.678744+00:00",
-      "ticket_id": 231902338,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-22T17:17:49.678753+00:00",
-      "ticket_id": 231904304,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-22T17:17:49.678761+00:00",
-      "ticket_id": 231904734,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-22T17:17:51.146679+00:00",
-      "ticket_id": 231904949,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I noticed a few opportunities on your website"
-    },
-    {
-      "ts": "2026-07-22T17:17:51.146742+00:00",
-      "ticket_id": 231905187,
-      "action": "skip_spam",
-      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-22T18:37:24.352986+00:00",
-      "ticket_id": 231913773,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Order 85337"
-    },
-    {
-      "ts": "2026-07-22T21:17:11.872260+00:00",
-      "ticket_id": 231924231,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Action Advised] Secure Google Cloud Identity users with required 2SV"
-    },
     {
       "ts": "2026-07-22T21:17:13.693309+00:00",
       "ticket_id": 231926521,
@@ -1203,6 +1119,90 @@
       "ticket_id": 233023151,
       "action": "unknown_escalated_for_aj",
       "detail": "Bone detection X ray machine "
+    },
+    {
+      "ts": "2026-07-30T14:18:29.892377+00:00",
+      "ticket_id": 233024196,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Cancellation"
+    },
+    {
+      "ts": "2026-07-30T14:18:31.213691+00:00",
+      "ticket_id": 233024870,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Request refund or discount - Contact"
+    },
+    {
+      "ts": "2026-07-30T14:18:31.213723+00:00",
+      "ticket_id": 233027083,
+      "action": "skip_spam",
+      "detail": "New seller? June is the best time to start \ud83d\udcb0"
+    },
+    {
+      "ts": "2026-07-30T14:18:31.213732+00:00",
+      "ticket_id": 233028811,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 30, 2026 ($160.07 USD)"
+    },
+    {
+      "ts": "2026-07-30T14:18:32.362047+00:00",
+      "ticket_id": 233031198,
+      "action": "unknown_escalated_for_aj",
+      "detail": "SEO Services //"
+    },
+    {
+      "ts": "2026-07-30T14:18:32.362082+00:00",
+      "ticket_id": 233037748,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 30, 2026 ($49.21 USD)"
+    },
+    {
+      "ts": "2026-07-30T14:18:33.641571+00:00",
+      "ticket_id": 233050257,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Quick question about AI Agent"
+    },
+    {
+      "ts": "2026-07-30T14:18:35.712749+00:00",
+      "ticket_id": 233068336,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Order #80276"
+    },
+    {
+      "ts": "2026-07-30T14:18:37.860698+00:00",
+      "ticket_id": 233083398,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on July 30, 2026 at 3:17 am"
+    },
+    {
+      "ts": "2026-07-30T14:18:39.748168+00:00",
+      "ticket_id": 233099667,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-07-30T14:18:42.038505+00:00",
+      "ticket_id": 233104080,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "RE: Order #85884 confirmed"
+    },
+    {
+      "ts": "2026-07-30T14:18:43.932540+00:00",
+      "ticket_id": 233104215,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Elm & Rye ORDER #85884"
+    },
+    {
+      "ts": "2026-07-30T14:18:43.932572+00:00",
+      "ticket_id": 233105351,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-30T14:18:43.932580+00:00",
+      "ticket_id": 233121731,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
