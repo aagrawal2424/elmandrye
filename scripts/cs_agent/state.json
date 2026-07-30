@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233168335,
-  "last_run_at": "2026-07-30T20:23:16.696514+00:00",
+  "last_processed_ticket_id": 233172877,
+  "last_run_at": "2026-07-30T21:43:02.478701+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-30",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T14:19:03.776247+00:00",
-      "ticket_id": 231953946,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Request refund or discount - Contact"
-    },
     {
       "ts": "2026-07-23T14:19:03.776285+00:00",
       "ticket_id": 231969548,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233168335,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 7/30/2026"
+    },
+    {
+      "ts": "2026-07-30T21:43:02.478680+00:00",
+      "ticket_id": 233172877,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Straight from our pet packaging factory floor \ud83c\udfed"
     }
   ]
 }
