@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 233161901,
-  "last_run_at": "2026-07-30T19:03:21.733996+00:00",
+  "last_processed_ticket_id": 233168335,
+  "last_run_at": "2026-07-30T20:23:16.696514+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-30",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T14:19:00.938392+00:00",
-      "ticket_id": 231947047,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Subscription 62920"
-    },
-    {
-      "ts": "2026-07-23T14:19:02.582678+00:00",
-      "ticket_id": 231947134,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Subscription"
-    },
     {
       "ts": "2026-07-23T14:19:03.776247+00:00",
       "ticket_id": 231953946,
@@ -1203,6 +1191,18 @@
       "ticket_id": 233161901,
       "action": "error_crash",
       "detail": "Re: A shipment from order #85737 is on the way"
+    },
+    {
+      "ts": "2026-07-30T20:23:14.809775+00:00",
+      "ticket_id": 233162632,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elm & Rye fulfillment from a central pod (quote inside)"
+    },
+    {
+      "ts": "2026-07-30T20:23:16.696494+00:00",
+      "ticket_id": 233168335,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 7/30/2026"
     }
   ]
 }
