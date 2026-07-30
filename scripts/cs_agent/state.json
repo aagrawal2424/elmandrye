@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233177822,
-  "last_run_at": "2026-07-30T22:48:18.258401+00:00",
+  "last_processed_ticket_id": 233181957,
+  "last_run_at": "2026-07-30T23:50:11.877905+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-30",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T14:19:05.846793+00:00",
-      "ticket_id": 232006319,
-      "action": "unknown_escalated_for_aj",
-      "detail": "We didn't update your AI Agent. We rebuilt it."
-    },
     {
       "ts": "2026-07-23T14:19:07.047218+00:00",
       "ticket_id": 232039177,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233177822,
       "action": "error_crash",
       "detail": ""
+    },
+    {
+      "ts": "2026-07-30T23:50:11.877889+00:00",
+      "ticket_id": 233181957,
+      "action": "skip_spam",
+      "detail": "Your Amazon Seller Central Account - Quick Check-In - Elm and Rye"
     }
   ]
 }
