@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 233125531,
-  "last_run_at": "2026-07-30T16:02:46.532521+00:00",
+  "last_processed_ticket_id": 233153095,
+  "last_run_at": "2026-07-30T17:44:35.731549+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-30",
   "ticket_actions": [
-    {
-      "ts": "2026-07-22T22:29:23.526108+00:00",
-      "ticket_id": 231931255,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Sendlane Account and Privy"
-    },
-    {
-      "ts": "2026-07-22T23:34:03.750819+00:00",
-      "ticket_id": 231935515,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-07-23T01:09:38.037670+00:00",
       "ticket_id": 231940143,
@@ -1203,6 +1191,18 @@
       "ticket_id": 233125531,
       "action": "unknown_escalated_for_aj",
       "detail": "Digest chews"
+    },
+    {
+      "ts": "2026-07-30T17:44:33.846048+00:00",
+      "ticket_id": 233149828,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Business Opportunity."
+    },
+    {
+      "ts": "2026-07-30T17:44:35.731530+00:00",
+      "ticket_id": 233153095,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: New customer message on July 30, 2026 at 3:17 am"
     }
   ]
 }
