@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233009523,
-  "last_run_at": "2026-07-29T23:16:06.902955+00:00",
+  "last_processed_ticket_id": 233023151,
+  "last_run_at": "2026-07-30T00:15:21.397345+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-29",
+  "daily_refund_date": "2026-07-30",
   "ticket_actions": [
-    {
-      "ts": "2026-07-22T14:09:56.117619+00:00",
-      "ticket_id": 231868685,
-      "action": "unknown_escalated_for_aj",
-      "detail": "One idea for Pupper's after-hours sales - Turn your 2 AM browsers into paid Shopify orders \u2014 automatically."
-    },
     {
       "ts": "2026-07-22T14:09:56.117647+00:00",
       "ticket_id": 231875625,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233009523,
       "action": "unknown_escalated_for_aj",
       "detail": "Wellness Magazine - Dedicated Article"
+    },
+    {
+      "ts": "2026-07-30T00:15:21.397323+00:00",
+      "ticket_id": 233023151,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Bone detection X ray machine "
     }
   ]
 }
