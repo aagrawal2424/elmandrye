@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 233313252,
-  "last_run_at": "2026-07-31T19:45:44.091625+00:00",
+  "last_processed_ticket_id": 233325848,
+  "last_run_at": "2026-07-31T20:47:43.687714+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-31",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T23:34:09.445247+00:00",
-      "ticket_id": 232116766,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, simba_leon_meow and more in your feed"
-    },
-    {
-      "ts": "2026-07-24T01:05:33.801299+00:00",
-      "ticket_id": 232122202,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Order #85819 confirmed"
-    },
-    {
-      "ts": "2026-07-24T13:57:09.338752+00:00",
-      "ticket_id": 232122815,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Sponsors of The Marijuana Herald!"
-    },
     {
       "ts": "2026-07-24T13:57:09.338787+00:00",
       "ticket_id": 232124751,
@@ -1203,6 +1185,24 @@
       "ticket_id": 233313252,
       "action": "unknown_escalated_for_aj",
       "detail": "elmandrye site visits"
+    },
+    {
+      "ts": "2026-07-31T20:47:41.430360+00:00",
+      "ticket_id": 233325651,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-394504 We received your request"
+    },
+    {
+      "ts": "2026-07-31T20:47:42.521694+00:00",
+      "ticket_id": 233325741,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-394504 We received your request #622707499"
+    },
+    {
+      "ts": "2026-07-31T20:47:43.687696+00:00",
+      "ticket_id": 233325848,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[AUTO-REPLY] CSM-394504 We received your request"
     }
   ]
 }
