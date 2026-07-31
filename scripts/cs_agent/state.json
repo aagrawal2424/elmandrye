@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 233295586,
-  "last_run_at": "2026-07-31T16:15:44.969023+00:00",
+  "last_processed_ticket_id": 233310274,
+  "last_run_at": "2026-07-31T17:57:12.560114+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-31",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T20:10:59.973871+00:00",
-      "ticket_id": 232085759,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-07-23T20:11:02.197863+00:00",
-      "ticket_id": 232087583,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Self-Service / Elm & Rye x Shoplogin"
-    },
-    {
-      "ts": "2026-07-23T20:11:04.027488+00:00",
-      "ticket_id": 232087699,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udc40 What if Creators Drove 80% of Your Sales?"
-    },
     {
       "ts": "2026-07-23T20:11:05.821598+00:00",
       "ticket_id": 232091125,
@@ -1203,6 +1185,24 @@
       "ticket_id": 233295586,
       "action": "skip_spam",
       "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-07-31T17:57:10.814787+00:00",
+      "ticket_id": 233300115,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE: 400 Orders a day, nothing paid..."
+    },
+    {
+      "ts": "2026-07-31T17:57:11.676640+00:00",
+      "ticket_id": 233306460,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Stop confirming Zelle and Venmo payments by hand"
+    },
+    {
+      "ts": "2026-07-31T17:57:12.560094+00:00",
+      "ticket_id": 233310274,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product Question"
     }
   ]
 }
