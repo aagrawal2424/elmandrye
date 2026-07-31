@@ -701,6 +701,19 @@
       "price_usd": 84.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'glutathione' appears in 2 recent supplement-research papers (most recent example: \"Preconditioning with 10-hydroxy-2-decenoic acid improves blastocyst quality during in vitro culture and enhances intracellular glutathione following vitrificati\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Scopolamine",
+      "product_title": "Scopolamine cognitive support",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9288606974164",
+      "handle": "scopolamine-cognitive-support-16",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/d23e2341-d565-48a3-962e-56be04a86639/er-product-scopolamine-cognitive-support.png",
+      "created_at": "2026-07-31",
+      "price_usd": 79.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'scopolamine' appears in 2 recent supplement-research papers (most recent example: \"Cognitive improvement and hippocampal BDNF/GFAP alterations by Schinus molle essential oil in a rat model of scopolamine-induced amnesia.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
