@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233325848,
-  "last_run_at": "2026-07-31T20:47:43.687714+00:00",
+  "last_processed_ticket_id": 233328716,
+  "last_run_at": "2026-07-31T21:52:54.979583+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-31",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T13:57:09.338787+00:00",
-      "ticket_id": 232124751,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 24, 2026 ($46.09 USD)"
-    },
     {
       "ts": "2026-07-24T13:57:11.071553+00:00",
       "ticket_id": 232128271,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233325848,
       "action": "unknown_escalated_for_aj",
       "detail": "[AUTO-REPLY] CSM-394504 We received your request"
+    },
+    {
+      "ts": "2026-07-31T21:52:54.979560+00:00",
+      "ticket_id": 233328716,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elevating Pupper Together"
     }
   ]
 }
