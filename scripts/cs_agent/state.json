@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 233328716,
-  "last_run_at": "2026-07-31T21:52:54.979583+00:00",
+  "last_processed_ticket_id": 233334569,
+  "last_run_at": "2026-07-31T22:59:16.369390+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-31",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T13:57:11.071553+00:00",
-      "ticket_id": 232128271,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Cancel order"
-    },
-    {
-      "ts": "2026-07-24T13:57:11.071586+00:00",
-      "ticket_id": 232131580,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-07-24T13:57:12.042339+00:00",
       "ticket_id": 232150337,
@@ -1203,6 +1191,18 @@
       "ticket_id": 233328716,
       "action": "unknown_escalated_for_aj",
       "detail": "Elevating Pupper Together"
+    },
+    {
+      "ts": "2026-07-31T22:59:16.369363+00:00",
+      "ticket_id": 233331884,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-07-31T22:59:16.369387+00:00",
+      "ticket_id": 233334569,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
     }
   ]
 }
