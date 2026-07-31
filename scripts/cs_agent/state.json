@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233181957,
-  "last_run_at": "2026-07-30T23:50:11.877905+00:00",
+  "last_processed_ticket_id": 233184976,
+  "last_run_at": "2026-07-31T02:03:21.780560+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-07-30",
+  "daily_refund_date": "2026-07-31",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T14:19:07.047218+00:00",
-      "ticket_id": 232039177,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The product exists. The shopper just couldn't find it."
-    },
     {
       "ts": "2026-07-23T14:19:07.047247+00:00",
       "ticket_id": 232039588,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233181957,
       "action": "skip_spam",
       "detail": "Your Amazon Seller Central Account - Quick Check-In - Elm and Rye"
+    },
+    {
+      "ts": "2026-07-31T02:03:21.780545+00:00",
+      "ticket_id": 233184976,
+      "action": "error_crash",
+      "detail": "Re: Order #85010"
     }
   ]
 }
