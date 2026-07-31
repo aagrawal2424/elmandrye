@@ -1,63 +1,9 @@
 {
-  "last_processed_ticket_id": 233184976,
-  "last_run_at": "2026-07-31T02:03:21.780560+00:00",
+  "last_processed_ticket_id": 233280323,
+  "last_run_at": "2026-07-31T14:22:03.771860+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-31",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T14:19:07.047247+00:00",
-      "ticket_id": 232039588,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-23T16:05:55.798980+00:00",
-      "ticket_id": 232047243,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-07-23T16:05:56.634881+00:00",
-      "ticket_id": 232053095,
-      "action": "unknown_escalated_for_aj",
-      "detail": "logo packaging"
-    },
-    {
-      "ts": "2026-07-23T16:05:58.497819+00:00",
-      "ticket_id": 232053337,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your AI Agent is fast. Is it always right?"
-    },
-    {
-      "ts": "2026-07-23T17:44:04.614403+00:00",
-      "ticket_id": 232061691,
-      "action": "error_crash",
-      "detail": "Re: Order #85795 confirmed"
-    },
-    {
-      "ts": "2026-07-23T17:44:06.100258+00:00",
-      "ticket_id": 232067836,
-      "action": "unknown_escalated_for_aj",
-      "detail": "SPECIAL INVITATION FROM JANIS SHAFFER"
-    },
-    {
-      "ts": "2026-07-23T17:44:08.334635+00:00",
-      "ticket_id": 232070083,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7.23.2026"
-    },
-    {
-      "ts": "2026-07-23T17:44:09.754802+00:00",
-      "ticket_id": 232072351,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A better bundle setup for elmandrye.com"
-    },
-    {
-      "ts": "2026-07-23T17:44:10.737391+00:00",
-      "ticket_id": 232072758,
-      "action": "error_crash",
-      "detail": "Re: Order #85302 confirmed"
-    },
     {
       "ts": "2026-07-23T18:52:33.291596+00:00",
       "ticket_id": 232079978,
@@ -1203,6 +1149,60 @@
       "ticket_id": 233184976,
       "action": "error_crash",
       "detail": "Re: Order #85010"
+    },
+    {
+      "ts": "2026-07-31T14:21:56.760681+00:00",
+      "ticket_id": 233190029,
+      "action": "skip_spam",
+      "detail": "Payout for Jul 31, 2026 ($29.43 USD)"
+    },
+    {
+      "ts": "2026-07-31T14:21:57.971995+00:00",
+      "ticket_id": 233192301,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Skip order"
+    },
+    {
+      "ts": "2026-07-31T14:21:57.972034+00:00",
+      "ticket_id": 233195086,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-07-31T14:21:59.601092+00:00",
+      "ticket_id": 233197001,
+      "action": "error_crash",
+      "detail": "Re: Act Fast: 25% Off Starts Now \ud83d\udea8"
+    },
+    {
+      "ts": "2026-07-31T14:21:59.601121+00:00",
+      "ticket_id": 233244377,
+      "action": "skip_spam",
+      "detail": "nootropicstoday and 2 others started following you"
+    },
+    {
+      "ts": "2026-07-31T14:22:00.750324+00:00",
+      "ticket_id": 233268521,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Get Featured on SheFinds, Scary Mommy and AKA Mom for Back to School"
+    },
+    {
+      "ts": "2026-07-31T14:22:02.470382+00:00",
+      "ticket_id": 233272409,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your NITRO LOGISTICS LLC receipt [#1086-2802]"
+    },
+    {
+      "ts": "2026-07-31T14:22:03.771815+00:00",
+      "ticket_id": 233275249,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Check Out These Fogger Vape Deals!"
+    },
+    {
+      "ts": "2026-07-31T14:22:03.771856+00:00",
+      "ticket_id": 233280323,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
