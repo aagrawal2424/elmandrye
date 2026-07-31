@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 233280323,
-  "last_run_at": "2026-07-31T14:22:03.771860+00:00",
+  "last_processed_ticket_id": 233295586,
+  "last_run_at": "2026-07-31T16:15:44.969023+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-31",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T18:52:33.291596+00:00",
-      "ticket_id": 232079978,
-      "action": "skip_spam",
-      "detail": "elmandrye, catch up on moments that you've missed"
-    },
-    {
-      "ts": "2026-07-23T18:52:36.015232+00:00",
-      "ticket_id": 232081690,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udcf2 $158 Back for Every $1 Spent on Cannabis SMS \ud83d\ude31"
-    },
     {
       "ts": "2026-07-23T20:10:59.973871+00:00",
       "ticket_id": 232085759,
@@ -1203,6 +1191,18 @@
       "ticket_id": 233280323,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-07-31T16:15:44.968962+00:00",
+      "ticket_id": 233285464,
+      "action": "unknown_escalated_for_aj",
+      "detail": "1 in 10 out"
+    },
+    {
+      "ts": "2026-07-31T16:15:44.969018+00:00",
+      "ticket_id": 233295586,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
