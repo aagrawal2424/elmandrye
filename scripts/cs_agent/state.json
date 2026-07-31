@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 233310274,
-  "last_run_at": "2026-07-31T17:57:12.560114+00:00",
+  "last_processed_ticket_id": 233313252,
+  "last_run_at": "2026-07-31T19:45:44.091625+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-07-31",
   "ticket_actions": [
-    {
-      "ts": "2026-07-23T20:11:05.821598+00:00",
-      "ticket_id": 232091125,
-      "action": "error_crash",
-      "detail": "Shipment"
-    },
-    {
-      "ts": "2026-07-23T20:11:07.432833+00:00",
-      "ticket_id": 232096778,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
     {
       "ts": "2026-07-23T23:34:09.445247+00:00",
       "ticket_id": 232116766,
@@ -1203,6 +1191,18 @@
       "ticket_id": 233310274,
       "action": "unknown_escalated_for_aj",
       "detail": "Product Question"
+    },
+    {
+      "ts": "2026-07-31T19:45:42.856321+00:00",
+      "ticket_id": 233312268,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Press Opportunities for Elm & Rye!"
+    },
+    {
+      "ts": "2026-07-31T19:45:44.091608+00:00",
+      "ticket_id": 233313252,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye site visits"
     }
   ]
 }
