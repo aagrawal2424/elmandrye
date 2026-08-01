@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233430574,
-  "last_run_at": "2026-08-01T22:09:34.612169+00:00",
+  "last_processed_ticket_id": 233436666,
+  "last_run_at": "2026-08-01T23:12:29.830322+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-01",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T21:20:03.785158+00:00",
-      "ticket_id": 232264360,
-      "action": "skip_spam",
-      "detail": "Automatic reply: A free treat for your pup\u2019s smile \ud83e\uddb4"
-    },
     {
       "ts": "2026-07-24T22:32:31.397118+00:00",
       "ticket_id": 232267749,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233430574,
       "action": "unknown_escalated_for_aj",
       "detail": "A new report is ready"
+    },
+    {
+      "ts": "2026-08-01T23:12:29.830303+00:00",
+      "ticket_id": 233436666,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Stop subscribing"
     }
   ]
 }
