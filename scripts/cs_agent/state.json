@@ -1,81 +1,9 @@
 {
-  "last_processed_ticket_id": 233334569,
-  "last_run_at": "2026-08-01T00:08:58.972733+00:00",
+  "last_processed_ticket_id": 233396484,
+  "last_run_at": "2026-08-01T13:41:05.751436+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-01",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T13:57:12.042339+00:00",
-      "ticket_id": 232150337,
-      "action": "error_crash",
-      "detail": "Re: Order #80276"
-    },
-    {
-      "ts": "2026-07-24T13:57:13.110848+00:00",
-      "ticket_id": 232156609,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-07-24T13:57:14.084178+00:00",
-      "ticket_id": 232179334,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Let's talk about your issues : pupper.com"
-    },
-    {
-      "ts": "2026-07-24T13:57:15.488154+00:00",
-      "ticket_id": 232190369,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Subscription 62920"
-    },
-    {
-      "ts": "2026-07-24T13:57:17.328262+00:00",
-      "ticket_id": 232194689,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Meramist inquiry"
-    },
-    {
-      "ts": "2026-07-24T13:57:19.315247+00:00",
-      "ticket_id": 232211424,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Order #85819 confirmed"
-    },
-    {
-      "ts": "2026-07-24T13:57:21.030382+00:00",
-      "ticket_id": 232212748,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Press Opportunities for Elm & Rye!"
-    },
-    {
-      "ts": "2026-07-24T15:36:27.506788+00:00",
-      "ticket_id": 232213941,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-24T15:36:29.291730+00:00",
-      "ticket_id": 232220038,
-      "action": "unknown_escalated_for_aj",
-      "detail": "commission"
-    },
-    {
-      "ts": "2026-07-24T15:36:31.607983+00:00",
-      "ticket_id": 232222274,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Who handles packaging EPR at ?"
-    },
-    {
-      "ts": "2026-07-24T15:36:33.558086+00:00",
-      "ticket_id": 232223665,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Try Butta\u2019s Chipz Today!"
-    },
-    {
-      "ts": "2026-07-24T15:36:35.815265+00:00",
-      "ticket_id": 232227627,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Wellness Magazine - Article"
-    },
     {
       "ts": "2026-07-24T17:11:15.204365+00:00",
       "ticket_id": 232230436,
@@ -1203,6 +1131,78 @@
       "ticket_id": 233334569,
       "action": "skip_spam",
       "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-08-01T13:40:54.765912+00:00",
+      "ticket_id": 233338408,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Murtual Business Opportunity."
+    },
+    {
+      "ts": "2026-08-01T13:40:56.581756+00:00",
+      "ticket_id": 233339784,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Does Elm & Rye need any R&D Assistance?"
+    },
+    {
+      "ts": "2026-08-01T13:40:56.581783+00:00",
+      "ticket_id": 233342016,
+      "action": "skip_spam",
+      "detail": "taytayvs11 and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-01T13:40:57.651894+00:00",
+      "ticket_id": 233342715,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Security Update"
+    },
+    {
+      "ts": "2026-08-01T13:40:57.651924+00:00",
+      "ticket_id": 233343306,
+      "action": "skip_spam",
+      "detail": "170M buyers. Your store. Let's go."
+    },
+    {
+      "ts": "2026-08-01T13:40:57.651933+00:00",
+      "ticket_id": 233364333,
+      "action": "skip_spam",
+      "detail": "[ALERT] You've reached 100% of your monthly limit."
+    },
+    {
+      "ts": "2026-08-01T13:40:59.143033+00:00",
+      "ticket_id": 233367899,
+      "action": "refund_request_escalated_no_orders",
+      "detail": "A chargeback response for order #15169 was submitted"
+    },
+    {
+      "ts": "2026-08-01T13:41:00.382266+00:00",
+      "ticket_id": 233386902,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order 67042"
+    },
+    {
+      "ts": "2026-08-01T13:41:01.431216+00:00",
+      "ticket_id": 233391529,
+      "action": "unknown_escalated_for_aj",
+      "detail": "You're close to your impression limit - ToastiBar - Sales Popup"
+    },
+    {
+      "ts": "2026-08-01T13:41:02.784252+00:00",
+      "ticket_id": 233394607,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Monthly Review Roundup - July, 2026"
+    },
+    {
+      "ts": "2026-08-01T13:41:04.008357+00:00",
+      "ticket_id": 233395445,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Monthly Review Roundup - July, 2026"
+    },
+    {
+      "ts": "2026-08-01T13:41:05.751419+00:00",
+      "ticket_id": 233396484,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye"
     }
   ]
 }
