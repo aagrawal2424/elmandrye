@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 233404337,
-  "last_run_at": "2026-08-01T14:47:09.473208+00:00",
+  "last_processed_ticket_id": 233409568,
+  "last_run_at": "2026-08-01T15:46:56.883075+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-01",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T17:11:22.638925+00:00",
-      "ticket_id": 232233205,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CSM-388732 Re: CSM-375755 Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE READ [WPC:0066671]"
-    },
-    {
-      "ts": "2026-07-24T17:11:24.906357+00:00",
-      "ticket_id": 232233405,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Request WO0000004663841: Status has been updated to Cancelled."
-    },
-    {
-      "ts": "2026-07-24T17:11:31.457583+00:00",
-      "ticket_id": 232235615,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thanks for getting in touch with Wine Auctioneer"
-    },
     {
       "ts": "2026-07-24T17:11:33.401771+00:00",
       "ticket_id": 232235045,
@@ -1203,6 +1185,24 @@
       "ticket_id": 233404337,
       "action": "unknown_escalated_for_aj",
       "detail": "Blog collaboration opportunity \u2013 what do you think?"
+    },
+    {
+      "ts": "2026-08-01T15:46:54.523558+00:00",
+      "ticket_id": 233406683,
+      "action": "unknown_escalated_for_aj",
+      "detail": "You've reached your impression limit - ToastiBar - Sales Popup"
+    },
+    {
+      "ts": "2026-08-01T15:46:55.771284+00:00",
+      "ticket_id": 233408031,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Quick question about : pupper.com"
+    },
+    {
+      "ts": "2026-08-01T15:46:56.883057+00:00",
+      "ticket_id": 233409568,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Greetings to you,"
     }
   ]
 }
