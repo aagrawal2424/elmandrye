@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 233396484,
-  "last_run_at": "2026-08-01T13:41:05.751436+00:00",
+  "last_processed_ticket_id": 233404337,
+  "last_run_at": "2026-08-01T14:47:09.473208+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-01",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T17:11:15.204365+00:00",
-      "ticket_id": 232230436,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: 421 orders a day, no ads"
-    },
-    {
-      "ts": "2026-07-24T17:11:16.821233+00:00",
-      "ticket_id": 232232095,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CSM-375755 Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE READ [WPC:0066671]"
-    },
-    {
-      "ts": "2026-07-24T17:11:18.422224+00:00",
-      "ticket_id": 232233126,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Vertex Support Case 00230902 has been opened"
-    },
-    {
-      "ts": "2026-07-24T17:11:21.163051+00:00",
-      "ticket_id": 232232681,
-      "action": "unknown_escalated_for_aj",
-      "detail": "BitCreative LP Customer Self Service Portal Invitation"
-    },
     {
       "ts": "2026-07-24T17:11:22.638925+00:00",
       "ticket_id": 232233205,
@@ -1203,6 +1179,30 @@
       "ticket_id": 233396484,
       "action": "unknown_escalated_for_aj",
       "detail": "elmandrye"
+    },
+    {
+      "ts": "2026-08-01T14:47:06.948586+00:00",
+      "ticket_id": 233399599,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
+    },
+    {
+      "ts": "2026-08-01T14:47:08.270661+00:00",
+      "ticket_id": 233400454,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-08-01T14:47:08.270720+00:00",
+      "ticket_id": 233400760,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-01T14:47:09.473187+00:00",
+      "ticket_id": 233404337,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Blog collaboration opportunity \u2013 what do you think?"
     }
   ]
 }
