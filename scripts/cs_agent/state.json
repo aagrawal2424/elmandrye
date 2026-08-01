@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 233426521,
-  "last_run_at": "2026-08-01T20:00:13.055242+00:00",
+  "last_processed_ticket_id": 233430574,
+  "last_run_at": "2026-08-01T21:06:14.456044+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-01",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T18:48:12.301055+00:00",
-      "ticket_id": 232251421,
-      "action": "skip_spam",
-      "detail": "From heygracey and others: 3 unread messages"
-    },
-    {
-      "ts": "2026-07-24T18:48:13.512986+00:00",
-      "ticket_id": 232251819,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Asif from GPTZero: Your New BFF (Best Link Friend)!"
-    },
     {
       "ts": "2026-07-24T21:20:03.785158+00:00",
       "ticket_id": 232264360,
@@ -1203,6 +1191,18 @@
       "ticket_id": 233426521,
       "action": "unknown_escalated_for_aj",
       "detail": "Google Workspace: Your invoice is available for pupper.com"
+    },
+    {
+      "ts": "2026-08-01T21:06:12.197213+00:00",
+      "ticket_id": 233430329,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your receipt from Refersion, Inc. #2900-1447"
+    },
+    {
+      "ts": "2026-08-01T21:06:14.456027+00:00",
+      "ticket_id": 233430574,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A new report is ready"
     }
   ]
 }
