@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233409568,
-  "last_run_at": "2026-08-01T17:45:05.540170+00:00",
+  "last_processed_ticket_id": 233421853,
+  "last_run_at": "2026-08-01T18:44:30.896549+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-01",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T17:11:33.401771+00:00",
-      "ticket_id": 232235045,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I noticed a few opportunities on your website"
-    },
     {
       "ts": "2026-07-24T18:48:12.301020+00:00",
       "ticket_id": 232249691,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233409568,
       "action": "unknown_escalated_for_aj",
       "detail": "Greetings to you,"
+    },
+    {
+      "ts": "2026-08-01T18:44:30.896529+00:00",
+      "ticket_id": 233421853,
+      "action": "skip_spam",
+      "detail": "Your receipt from Klaviyo Inc #2015-6456-1351"
     }
   ]
 }
