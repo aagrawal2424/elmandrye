@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233508146,
-  "last_run_at": "2026-08-02T17:01:03.228383+00:00",
+  "last_processed_ticket_id": 233516150,
+  "last_run_at": "2026-08-02T18:08:32.277301+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-02",
   "ticket_actions": [
-    {
-      "ts": "2026-07-25T14:52:15.096933+00:00",
-      "ticket_id": 232339376,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-07-25T14:52:15.096974+00:00",
       "ticket_id": 232341233,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233508146,
       "action": "unknown_escalated_for_aj",
       "detail": "Commercial Kitchen Ventilation Systems-2 Outlook Market : Key Trends & Forecasts \u5e02\u573a\u5c55\u671b    2026-08-03"
+    },
+    {
+      "ts": "2026-08-02T18:08:32.277280+00:00",
+      "ticket_id": 233516150,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Stop automatic subscription"
     }
   ]
 }
