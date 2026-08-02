@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 233436666,
-  "last_run_at": "2026-08-02T00:14:37.318764+00:00",
+  "last_processed_ticket_id": 233493390,
+  "last_run_at": "2026-08-02T13:41:00.636615+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-02",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T22:32:31.397118+00:00",
-      "ticket_id": 232267749,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with Antonio Zamudio"
-    },
-    {
-      "ts": "2026-07-24T22:32:31.955355+00:00",
-      "ticket_id": 232267852,
-      "action": "error_crash",
-      "detail": "Subscription cancel"
-    },
-    {
-      "ts": "2026-07-24T22:32:33.208651+00:00",
-      "ticket_id": 232268395,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CurcXR Sustained Release Turmeric Extract for Joint Wellness || 22 Elm Rye Inc."
-    },
-    {
-      "ts": "2026-07-24T22:32:34.996687+00:00",
-      "ticket_id": 232271141,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Hot Days, Chill Deals: 20% Off Inside \ud83d\uddfb"
-    },
-    {
-      "ts": "2026-07-24T22:32:36.108568+00:00",
-      "ticket_id": 232271345,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Order #85726"
-    },
     {
       "ts": "2026-07-24T23:38:37.558034+00:00",
       "ticket_id": 232271832,
@@ -1203,6 +1173,36 @@
       "ticket_id": 233436666,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Stop subscribing"
+    },
+    {
+      "ts": "2026-08-02T13:40:56.001494+00:00",
+      "ticket_id": 233442056,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Orders #85332 and #85674"
+    },
+    {
+      "ts": "2026-08-02T13:40:57.243320+00:00",
+      "ticket_id": 233442076,
+      "action": "error_crash",
+      "detail": "Orders #85332 and #85674"
+    },
+    {
+      "ts": "2026-08-02T13:40:57.243342+00:00",
+      "ticket_id": 233442880,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, nadiaplott and more in your feed"
+    },
+    {
+      "ts": "2026-08-02T13:40:58.959570+00:00",
+      "ticket_id": 233444334,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for elmandrye.com"
+    },
+    {
+      "ts": "2026-08-02T13:41:00.636598+00:00",
+      "ticket_id": 233493390,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
     }
   ]
 }
