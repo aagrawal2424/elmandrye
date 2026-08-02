@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233506528,
-  "last_run_at": "2026-08-02T15:53:40.949231+00:00",
+  "last_processed_ticket_id": 233508146,
+  "last_run_at": "2026-08-02T17:01:03.228383+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-02",
   "ticket_actions": [
-    {
-      "ts": "2026-07-25T13:47:48.727490+00:00",
-      "ticket_id": 232282770,
-      "action": "skip_spam",
-      "detail": "Sell $5K in June, get $200 back. Here's how."
-    },
     {
       "ts": "2026-07-25T14:52:15.096933+00:00",
       "ticket_id": 232339376,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233506528,
       "action": "skip_spam",
       "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-02T17:01:03.228364+00:00",
+      "ticket_id": 233508146,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Commercial Kitchen Ventilation Systems-2 Outlook Market : Key Trends & Forecasts \u5e02\u573a\u5c55\u671b    2026-08-03"
     }
   ]
 }
