@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233516150,
-  "last_run_at": "2026-08-02T18:08:32.277301+00:00",
+  "last_processed_ticket_id": 233523184,
+  "last_run_at": "2026-08-02T19:34:37.483609+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-02",
   "ticket_actions": [
-    {
-      "ts": "2026-07-25T14:52:15.096974+00:00",
-      "ticket_id": 232341233,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
     {
       "ts": "2026-07-25T16:02:27.254031+00:00",
       "ticket_id": 232343732,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233516150,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Stop automatic subscription"
+    },
+    {
+      "ts": "2026-08-02T19:34:37.483588+00:00",
+      "ticket_id": 233523184,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Pending Orders"
     }
   ]
 }
