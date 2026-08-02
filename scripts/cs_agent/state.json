@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 233497181,
-  "last_run_at": "2026-08-02T14:49:44.284240+00:00",
+  "last_processed_ticket_id": 233506528,
+  "last_run_at": "2026-08-02T15:53:40.949231+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-02",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T23:38:39.602056+00:00",
-      "ticket_id": 232272340,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/24/2026"
-    },
-    {
-      "ts": "2026-07-25T01:10:52.317100+00:00",
-      "ticket_id": 232275393,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Most Shopify stores lose buyers right before checkout"
-    },
-    {
-      "ts": "2026-07-25T13:47:48.727458+00:00",
-      "ticket_id": 232281680,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Order number 15065"
-    },
     {
       "ts": "2026-07-25T13:47:48.727490+00:00",
       "ticket_id": 232282770,
@@ -1203,6 +1185,24 @@
       "ticket_id": 233497181,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-02T15:53:40.949184+00:00",
+      "ticket_id": 233501717,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 8/2/2026"
+    },
+    {
+      "ts": "2026-08-02T15:53:40.949220+00:00",
+      "ticket_id": 233502013,
+      "action": "skip_spam",
+      "detail": "elmandrye, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-08-02T15:53:40.949228+00:00",
+      "ticket_id": 233506528,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
     }
   ]
 }
