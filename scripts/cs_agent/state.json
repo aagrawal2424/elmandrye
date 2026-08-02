@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233523184,
-  "last_run_at": "2026-08-02T20:32:46.593292+00:00",
+  "last_processed_ticket_id": 233529132,
+  "last_run_at": "2026-08-02T21:31:55.354634+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-02",
   "ticket_actions": [
-    {
-      "ts": "2026-07-25T16:02:27.254031+00:00",
-      "ticket_id": 232343732,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Confirmation of shipping Order #84935"
-    },
     {
       "ts": "2026-07-25T16:02:27.254068+00:00",
       "ticket_id": 232348852,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233523184,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Re: Pending Orders"
+    },
+    {
+      "ts": "2026-08-02T21:31:55.354611+00:00",
+      "ticket_id": 233529132,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elmandrye data erasure request - from Susan Locke - request: RKKAEYN7"
     }
   ]
 }
