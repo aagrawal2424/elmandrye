@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233493390,
-  "last_run_at": "2026-08-02T13:41:00.636615+00:00",
+  "last_processed_ticket_id": 233497181,
+  "last_run_at": "2026-08-02T14:49:44.284240+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-02",
   "ticket_actions": [
-    {
-      "ts": "2026-07-24T23:38:37.558034+00:00",
-      "ticket_id": 232271832,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
     {
       "ts": "2026-07-24T23:38:39.602056+00:00",
       "ticket_id": 232272340,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233493390,
       "action": "unknown_escalated_for_aj",
       "detail": "Google Workspace: Your invoice is available for buyeverest.com"
+    },
+    {
+      "ts": "2026-08-02T14:49:44.284217+00:00",
+      "ticket_id": 233497181,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
