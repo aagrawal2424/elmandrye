@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 233687543,
-  "last_run_at": "2026-08-03T20:35:48.347811+00:00",
+  "last_processed_ticket_id": 233696662,
+  "last_run_at": "2026-08-03T21:47:01.603147+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-03",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T01:22:19.280273+00:00",
-      "ticket_id": 232508780,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thanks for getting in touch with Wine Auctioneer"
-    },
-    {
-      "ts": "2026-07-27T01:22:20.760680+00:00",
-      "ticket_id": 232512039,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your temporary pass code is 578167"
-    },
     {
       "ts": "2026-07-27T01:22:22.239850+00:00",
       "ticket_id": 232512198,
@@ -1203,6 +1191,18 @@
       "ticket_id": 233687543,
       "action": "unknown_escalated_for_aj",
       "detail": "Multiple Brands For You To Check Out"
+    },
+    {
+      "ts": "2026-08-03T21:47:00.693745+00:00",
+      "ticket_id": 233696636,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Need to delay an upcoming order. ..."
+    },
+    {
+      "ts": "2026-08-03T21:47:01.603124+00:00",
+      "ticket_id": 233696662,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Order status - Contact"
     }
   ]
 }
