@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 233645900,
-  "last_run_at": "2026-08-03T14:53:03.744057+00:00",
+  "last_processed_ticket_id": 233661701,
+  "last_run_at": "2026-08-03T17:08:16.800255+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-03",
   "ticket_actions": [
-    {
-      "ts": "2026-07-26T15:59:16.724840+00:00",
-      "ticket_id": 232469647,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-07-26T18:13:38.218689+00:00",
-      "ticket_id": 232483144,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Maternity Leave"
-    },
-    {
-      "ts": "2026-07-26T18:13:39.269744+00:00",
-      "ticket_id": 232483300,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Maternity Leave #621332117"
-    },
-    {
-      "ts": "2026-07-26T18:13:40.166814+00:00",
-      "ticket_id": 232483879,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thank you for your inquiry [Xometry Support] Maternity Leave #621332117 | Ticket:  05623392"
-    },
     {
       "ts": "2026-07-26T23:44:35.179534+00:00",
       "ticket_id": 232506360,
@@ -1203,6 +1179,30 @@
       "ticket_id": 233645900,
       "action": "unknown_escalated_for_aj",
       "detail": "A quick question about your skincare products"
+    },
+    {
+      "ts": "2026-08-03T17:08:07.527320+00:00",
+      "ticket_id": 233651329,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invoice 2733 from Nitro Logistics, LLC"
+    },
+    {
+      "ts": "2026-08-03T17:08:09.775577+00:00",
+      "ticket_id": 233657794,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with Andrew Robertson"
+    },
+    {
+      "ts": "2026-08-03T17:08:11.053808+00:00",
+      "ticket_id": 233660183,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Inquiry About Elm & Rye Affiliate Program"
+    },
+    {
+      "ts": "2026-08-03T17:08:16.800237+00:00",
+      "ticket_id": 233661701,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
     }
   ]
 }
