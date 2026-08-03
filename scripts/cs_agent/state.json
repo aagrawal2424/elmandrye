@@ -1,75 +1,9 @@
 {
-  "last_processed_ticket_id": 233540706,
-  "last_run_at": "2026-08-03T01:15:41.521944+00:00",
+  "last_processed_ticket_id": 233645900,
+  "last_run_at": "2026-08-03T14:53:03.744057+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-03",
   "ticket_actions": [
-    {
-      "ts": "2026-07-25T17:11:49.040966+00:00",
-      "ticket_id": 232352615,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Contact Us CS-7049 CSM-388732 Re: CSM-375755 Re: Of all the things I've done - New Ticket Logged: Out of Hours PLEASE RE"
-    },
-    {
-      "ts": "2026-07-25T17:11:50.171244+00:00",
-      "ticket_id": 232352704,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thanks for getting in touch with Wine Auctioneer"
-    },
-    {
-      "ts": "2026-07-25T17:11:51.725937+00:00",
-      "ticket_id": 232352752,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CVS-82161 We received your request"
-    },
-    {
-      "ts": "2026-07-25T17:11:53.727774+00:00",
-      "ticket_id": 232354556,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Set your password for Touchcast Support"
-    },
-    {
-      "ts": "2026-07-25T18:10:09.821765+00:00",
-      "ticket_id": 232355444,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Hi , Keep Bottles and Boxes Consistent Across Your Range"
-    },
-    {
-      "ts": "2026-07-25T22:31:27.064803+00:00",
-      "ticket_id": 232372905,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Ticket Created: [AUTO-REPLY] CSM-388732 Re: CSM-375755 Re: Of all the things I've done - New Ticket Logged: Out of Hours"
-    },
-    {
-      "ts": "2026-07-25T22:31:27.064836+00:00",
-      "ticket_id": 232374070,
-      "action": "skip_spam",
-      "detail": "elmandrye, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-07-26T01:15:00.502379+00:00",
-      "ticket_id": 232378716,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "#85842"
-    },
-    {
-      "ts": "2026-07-26T14:52:03.156043+00:00",
-      "ticket_id": 232462081,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Are variants driving confusion?"
-    },
-    {
-      "ts": "2026-07-26T14:52:03.156070+00:00",
-      "ticket_id": 232462683,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-26T15:59:16.724811+00:00",
-      "ticket_id": 232469304,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Exploring Simple Wellness Habits"
-    },
     {
       "ts": "2026-07-26T15:59:16.724840+00:00",
       "ticket_id": 232469647,
@@ -1203,6 +1137,72 @@
       "ticket_id": 233540706,
       "action": "error_crash",
       "detail": "Re: Order #85607 confirmed"
+    },
+    {
+      "ts": "2026-08-03T14:52:45.229792+00:00",
+      "ticket_id": 233544621,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-03T14:52:46.767309+00:00",
+      "ticket_id": 233576573,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Branded hardware options"
+    },
+    {
+      "ts": "2026-08-03T14:52:49.063353+00:00",
+      "ticket_id": 233592423,
+      "action": "unknown_escalated_for_aj",
+      "detail": "commission-based Klaviyo for Pupper"
+    },
+    {
+      "ts": "2026-08-03T14:52:49.063384+00:00",
+      "ticket_id": 233599912,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-03T14:52:50.362608+00:00",
+      "ticket_id": 233617198,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Premium wellness formulations results basis"
+    },
+    {
+      "ts": "2026-08-03T14:52:51.626970+00:00",
+      "ticket_id": 233617260,
+      "action": "unknown_escalated_for_aj",
+      "detail": "we only win when you do"
+    },
+    {
+      "ts": "2026-08-03T14:52:52.787875+00:00",
+      "ticket_id": 233626887,
+      "action": "unknown_escalated_for_aj",
+      "detail": "WEBSITE ENQUIRY FOR healthwebmagazine.com"
+    },
+    {
+      "ts": "2026-08-03T14:52:54.294263+00:00",
+      "ticket_id": 233635713,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-03T14:53:02.489474+00:00",
+      "ticket_id": 233636611,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on August 3, 2026 at 6:54 am"
+    },
+    {
+      "ts": "2026-08-03T14:53:02.489500+00:00",
+      "ticket_id": 233638529,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-03T14:53:03.744042+00:00",
+      "ticket_id": 233645900,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A quick question about your skincare products"
     }
   ]
 }
