@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 233529132,
-  "last_run_at": "2026-08-02T23:38:34.949284+00:00",
+  "last_processed_ticket_id": 233540706,
+  "last_run_at": "2026-08-03T01:15:41.521944+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-02",
+  "daily_refund_date": "2026-08-03",
   "ticket_actions": [
-    {
-      "ts": "2026-07-25T16:02:27.254068+00:00",
-      "ticket_id": 232348852,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-07-25T17:11:44.418556+00:00",
-      "ticket_id": 232352605,
-      "action": "unknown_escalated_for_aj",
-      "detail": "We received your request"
-    },
-    {
-      "ts": "2026-07-25T17:11:46.938452+00:00",
-      "ticket_id": 232352617,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Maternity Leave"
-    },
     {
       "ts": "2026-07-25T17:11:49.040966+00:00",
       "ticket_id": 232352615,
@@ -1203,6 +1185,24 @@
       "ticket_id": 233529132,
       "action": "unknown_escalated_for_aj",
       "detail": "Elmandrye data erasure request - from Susan Locke - request: RKKAEYN7"
+    },
+    {
+      "ts": "2026-08-03T01:15:38.498919+00:00",
+      "ticket_id": 233538879,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We're making some changes to our PayPal legal agreements"
+    },
+    {
+      "ts": "2026-08-03T01:15:40.953709+00:00",
+      "ticket_id": 233539991,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Order #85928 confirmed"
+    },
+    {
+      "ts": "2026-08-03T01:15:41.521930+00:00",
+      "ticket_id": 233540706,
+      "action": "error_crash",
+      "detail": "Re: Order #85607 confirmed"
     }
   ]
 }
