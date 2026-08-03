@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233661701,
-  "last_run_at": "2026-08-03T17:08:16.800255+00:00",
+  "last_processed_ticket_id": 233679654,
+  "last_run_at": "2026-08-03T18:57:26.510224+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-03",
   "ticket_actions": [
-    {
-      "ts": "2026-07-26T23:44:35.179534+00:00",
-      "ticket_id": 232506360,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Subscription 62920"
-    },
     {
       "ts": "2026-07-27T01:22:18.040241+00:00",
       "ticket_id": 232508696,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233661701,
       "action": "unknown_escalated_for_aj",
       "detail": ""
+    },
+    {
+      "ts": "2026-08-03T18:57:26.510205+00:00",
+      "ticket_id": 233679654,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
