@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233679654,
-  "last_run_at": "2026-08-03T18:57:26.510224+00:00",
+  "last_processed_ticket_id": 233687543,
+  "last_run_at": "2026-08-03T20:35:48.347811+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-03",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T01:22:18.040241+00:00",
-      "ticket_id": 232508696,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Ticket Created: Maternity Leave #621332117 - WO0000004717396"
-    },
     {
       "ts": "2026-07-27T01:22:19.280273+00:00",
       "ticket_id": 232508780,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233679654,
       "action": "skip_spam",
       "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-08-03T20:35:48.347788+00:00",
+      "ticket_id": 233687543,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Multiple Brands For You To Check Out"
     }
   ]
 }
