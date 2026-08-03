@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233702212,
-  "last_run_at": "2026-08-03T22:44:56.967154+00:00",
+  "last_processed_ticket_id": 233706014,
+  "last_run_at": "2026-08-03T23:54:16.903216+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-03",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T14:49:21.245239+00:00",
-      "ticket_id": 232513829,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Pupper , I made a video for you about your website"
-    },
     {
       "ts": "2026-07-27T14:49:21.245276+00:00",
       "ticket_id": 232516098,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233702212,
       "action": "return_exchange_escalated_no_orders",
       "detail": "New customer message on August 3, 2026 at 2:59 pm"
+    },
+    {
+      "ts": "2026-08-03T23:54:16.903197+00:00",
+      "ticket_id": 233706014,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order # 67012"
     }
   ]
 }
