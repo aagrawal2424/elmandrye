@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233825482,
-  "last_run_at": "2026-08-04T14:29:19.784143+00:00",
+  "last_processed_ticket_id": 233829061,
+  "last_run_at": "2026-08-04T16:28:07.495675+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-04",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T16:52:15.582632+00:00",
-      "ticket_id": 232636811,
-      "action": "unknown_escalated_for_aj",
-      "detail": "creatives idea"
-    },
     {
       "ts": "2026-07-27T16:52:16.861967+00:00",
       "ticket_id": 232639595,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233825482,
       "action": "unknown_escalated_for_aj",
       "detail": "Supplement OEM for Elm & Rye \u2014 GMP-Certified, Low MOQ"
+    },
+    {
+      "ts": "2026-08-04T16:28:07.495652+00:00",
+      "ticket_id": 233829061,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Have you seen this too?"
     }
   ]
 }
