@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 233829061,
-  "last_run_at": "2026-08-04T16:28:07.495675+00:00",
+  "last_processed_ticket_id": 233860253,
+  "last_run_at": "2026-08-04T18:13:27.908700+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-04",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T16:52:16.861967+00:00",
-      "ticket_id": 232639595,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CBD & Cannabis Guest Posting Services"
-    },
-    {
-      "ts": "2026-07-27T18:22:07.168026+00:00",
-      "ticket_id": 232641065,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CSM-396240 Maternity Leave #621332117"
-    },
-    {
-      "ts": "2026-07-27T18:22:08.770263+00:00",
-      "ticket_id": 232641055,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CSM-394668 Acknowledgement: We have received your email"
-    },
-    {
-      "ts": "2026-07-27T18:22:09.775159+00:00",
-      "ticket_id": 232641122,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-07-27T18:22:11.324367+00:00",
       "ticket_id": 232641601,
@@ -1203,6 +1179,30 @@
       "ticket_id": 233829061,
       "action": "unknown_escalated_for_aj",
       "detail": "Have you seen this too?"
+    },
+    {
+      "ts": "2026-08-04T18:13:24.603510+00:00",
+      "ticket_id": 233848738,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your July Search performance for https://elmandrye.com/"
+    },
+    {
+      "ts": "2026-08-04T18:13:26.375794+00:00",
+      "ticket_id": 233849280,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 8.4.2026"
+    },
+    {
+      "ts": "2026-08-04T18:13:26.375829+00:00",
+      "ticket_id": 233860010,
+      "action": "skip_spam",
+      "detail": "\ud83d\udce3 Your Cannabis Promotions Could Reach More Customers \ud83c\udf3f"
+    },
+    {
+      "ts": "2026-08-04T18:13:27.908681+00:00",
+      "ticket_id": 233860253,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE:..."
     }
   ]
 }
