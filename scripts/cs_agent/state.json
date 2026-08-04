@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233873491,
-  "last_run_at": "2026-08-04T20:02:05.157982+00:00",
+  "last_processed_ticket_id": 233879639,
+  "last_run_at": "2026-08-04T21:23:07.167841+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-04",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T20:03:28.331317+00:00",
-      "ticket_id": 232657895,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Emails Sent to Wrong Person"
-    },
     {
       "ts": "2026-07-27T20:03:30.039640+00:00",
       "ticket_id": 232659845,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233873491,
       "action": "unknown_escalated_for_aj",
       "detail": "Elm & Rye supplement AI visibility"
+    },
+    {
+      "ts": "2026-08-04T21:23:07.167822+00:00",
+      "ticket_id": 233879639,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Hello..."
     }
   ]
 }
