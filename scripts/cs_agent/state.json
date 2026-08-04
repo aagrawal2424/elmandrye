@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 233860253,
-  "last_run_at": "2026-08-04T18:13:27.908700+00:00",
+  "last_processed_ticket_id": 233873491,
+  "last_run_at": "2026-08-04T20:02:05.157982+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-04",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T18:22:11.324367+00:00",
-      "ticket_id": 232641601,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Ticket Created: CSM-394668 Acknowledgement: We have received your email - WO0000004743367"
-    },
-    {
-      "ts": "2026-07-27T18:22:12.644723+00:00",
-      "ticket_id": 232647146,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Pat Filipowski"
-    },
-    {
-      "ts": "2026-07-27T18:22:12.644757+00:00",
-      "ticket_id": 232650620,
-      "action": "skip_spam",
-      "detail": "A new affiliate, Michael Wieloch, has signed up for your program!"
-    },
     {
       "ts": "2026-07-27T20:03:28.331317+00:00",
       "ticket_id": 232657895,
@@ -1203,6 +1185,24 @@
       "ticket_id": 233860253,
       "action": "unknown_escalated_for_aj",
       "detail": "RE:..."
+    },
+    {
+      "ts": "2026-08-04T20:02:02.782768+00:00",
+      "ticket_id": 233871674,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Re: New customer message on July 7, 2026 at 5:33 am"
+    },
+    {
+      "ts": "2026-08-04T20:02:03.958510+00:00",
+      "ticket_id": 233871259,
+      "action": "unknown_escalated_for_aj",
+      "detail": "In case you missed it: here's what's new at Gorgias with a quick video walkthrough"
+    },
+    {
+      "ts": "2026-08-04T20:02:05.157961+00:00",
+      "ticket_id": 233873491,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elm & Rye supplement AI visibility"
     }
   ]
 }
