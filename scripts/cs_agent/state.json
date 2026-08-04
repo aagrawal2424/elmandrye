@@ -1,69 +1,9 @@
 {
-  "last_processed_ticket_id": 233712430,
-  "last_run_at": "2026-08-04T02:49:28.047040+00:00",
+  "last_processed_ticket_id": 233825482,
+  "last_run_at": "2026-08-04T14:29:19.784143+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-04",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T14:49:22.679308+00:00",
-      "ticket_id": 232584344,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Can we help you further? Set your password for Touchcast Support - WO0000004690325"
-    },
-    {
-      "ts": "2026-07-27T14:49:51.865337+00:00",
-      "ticket_id": 232584681,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[AUTO-REPLY] Can we help you further? Set your password for Touchcast Support - WO0000004690325"
-    },
-    {
-      "ts": "2026-07-27T14:49:53.534079+00:00",
-      "ticket_id": 232584775,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CVS-82196 Can we help you further? Set your password for Touchcast Support - WO0000004690325"
-    },
-    {
-      "ts": "2026-07-27T14:49:55.682881+00:00",
-      "ticket_id": 232605791,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Wellness Magazine - Everest - Dedicated Editorial"
-    },
-    {
-      "ts": "2026-07-27T14:49:55.682917+00:00",
-      "ticket_id": 232609839,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-27T14:49:57.226364+00:00",
-      "ticket_id": 232617027,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: A quick question about your skincare products"
-    },
-    {
-      "ts": "2026-07-27T16:52:07.690837+00:00",
-      "ticket_id": 232625110,
-      "action": "skip_spam",
-      "detail": "saloniisonii and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-07-27T16:52:10.694855+00:00",
-      "ticket_id": 232625249,
-      "action": "error_crash",
-      "detail": "Delivery"
-    },
-    {
-      "ts": "2026-07-27T16:52:11.730907+00:00",
-      "ticket_id": 232625310,
-      "action": "error_crash",
-      "detail": "Re: Order #85737 confirmed"
-    },
-    {
-      "ts": "2026-07-27T16:52:13.358880+00:00",
-      "ticket_id": 232634680,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I noticed a few Gaps on your website"
-    },
     {
       "ts": "2026-07-27T16:52:15.582632+00:00",
       "ticket_id": 232636811,
@@ -1203,6 +1143,66 @@
       "ticket_id": 233712430,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Fwd: Order #15217 confirmed"
+    },
+    {
+      "ts": "2026-08-04T14:29:06.648578+00:00",
+      "ticket_id": 233723567,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 4, 2026 ($142.68 USD)"
+    },
+    {
+      "ts": "2026-08-04T14:29:06.648599+00:00",
+      "ticket_id": 233728543,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 4, 2026 ($45.43 USD)"
+    },
+    {
+      "ts": "2026-08-04T14:29:08.883883+00:00",
+      "ticket_id": 233728589,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-04T14:29:09.978366+00:00",
+      "ticket_id": 233728620,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-04T14:29:13.136421+00:00",
+      "ticket_id": 233752999,
+      "action": "unknown_escalated_for_aj",
+      "detail": "It's Agents Week."
+    },
+    {
+      "ts": "2026-08-04T14:29:15.444063+00:00",
+      "ticket_id": 233753254,
+      "action": "unknown_escalated_for_aj",
+      "detail": "UAE Projects 2026/2027"
+    },
+    {
+      "ts": "2026-08-04T14:29:17.639900+00:00",
+      "ticket_id": 233808459,
+      "action": "error_crash",
+      "detail": "Re: Order status - Contact"
+    },
+    {
+      "ts": "2026-08-04T14:29:17.639934+00:00",
+      "ticket_id": 233816087,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-04T14:29:17.639942+00:00",
+      "ticket_id": 233821111,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-04T14:29:19.784125+00:00",
+      "ticket_id": 233825482,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Supplement OEM for Elm & Rye \u2014 GMP-Certified, Low MOQ"
     }
   ]
 }
