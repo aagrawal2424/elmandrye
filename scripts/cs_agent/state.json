@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 233879639,
-  "last_run_at": "2026-08-04T21:23:07.167841+00:00",
+  "last_processed_ticket_id": 233886300,
+  "last_run_at": "2026-08-04T22:35:32.462850+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-04",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T20:03:30.039640+00:00",
-      "ticket_id": 232659845,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Invoice 2725 from Nitro Logistics, LLC"
-    },
     {
       "ts": "2026-07-27T21:21:26.355608+00:00",
       "ticket_id": 232667340,
@@ -1203,6 +1197,12 @@
       "ticket_id": 233879639,
       "action": "unknown_escalated_for_aj",
       "detail": "Hello..."
+    },
+    {
+      "ts": "2026-08-04T22:35:32.462827+00:00",
+      "ticket_id": 233886300,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Google Analytics performance report is in for July 8th - August 4th"
     }
   ]
 }
