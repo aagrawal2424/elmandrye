@@ -1,117 +1,9 @@
 {
-  "last_processed_ticket_id": 233886300,
-  "last_run_at": "2026-08-05T01:07:16.268443+00:00",
+  "last_processed_ticket_id": 234002453,
+  "last_run_at": "2026-08-05T14:22:58.996913+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-05",
   "ticket_actions": [
-    {
-      "ts": "2026-07-27T21:21:26.355608+00:00",
-      "ticket_id": 232667340,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Grab Your Favorites and Save Today!"
-    },
-    {
-      "ts": "2026-07-27T22:32:50.486048+00:00",
-      "ticket_id": 232670236,
-      "action": "error_crash",
-      "detail": "Elm & Rye Order Purchase - Never Received"
-    },
-    {
-      "ts": "2026-07-27T22:32:50.486085+00:00",
-      "ticket_id": 232670298,
-      "action": "skip_no_email",
-      "detail": "Conversation with Customer #538673745"
-    },
-    {
-      "ts": "2026-07-28T01:06:36.921511+00:00",
-      "ticket_id": 232678634,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your temporary pass code is 051423"
-    },
-    {
-      "ts": "2026-07-28T01:06:38.083496+00:00",
-      "ticket_id": 232678780,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New reasons prevent pages from being indexed on site https://pupper.com/"
-    },
-    {
-      "ts": "2026-07-28T01:06:39.089483+00:00",
-      "ticket_id": 232679276,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Some of your pending conversions are set to automatically approve"
-    },
-    {
-      "ts": "2026-07-28T14:23:28.028084+00:00",
-      "ticket_id": 232684810,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Weekly Cannabinoid Pricing - Bucanna Labs"
-    },
-    {
-      "ts": "2026-07-28T14:23:28.028119+00:00",
-      "ticket_id": 232686840,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 28, 2026 ($157.33 USD)"
-    },
-    {
-      "ts": "2026-07-28T14:23:28.028127+00:00",
-      "ticket_id": 232687391,
-      "action": "skip_spam",
-      "detail": "This is how sellers go viral on TikTok \ud83d\udd25"
-    },
-    {
-      "ts": "2026-07-28T14:23:30.161841+00:00",
-      "ticket_id": 232688453,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Urgent Cancellation and Refund"
-    },
-    {
-      "ts": "2026-07-28T14:23:31.260048+00:00",
-      "ticket_id": 232747137,
-      "action": "unknown_escalated_for_aj",
-      "detail": "From Pat"
-    },
-    {
-      "ts": "2026-07-28T14:23:33.471764+00:00",
-      "ticket_id": 232761578,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1484-6274]"
-    },
-    {
-      "ts": "2026-07-28T14:23:34.731692+00:00",
-      "ticket_id": 232762894,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Do you email your customers to purchase regularly? I created a win-back flow for you based on value- ..."
-    },
-    {
-      "ts": "2026-07-28T14:23:36.409703+00:00",
-      "ticket_id": 232765793,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Order n\u00b085725, "
-    },
-    {
-      "ts": "2026-07-28T14:23:37.721289+00:00",
-      "ticket_id": 232772934,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[For Shopify Store] A happy little idea for elmandrye.com\u2019s Shopify store - Make every shopper feel welcomed, helped, an"
-    },
-    {
-      "ts": "2026-07-28T14:23:39.253362+00:00",
-      "ticket_id": 232778880,
-      "action": "unknown_escalated_for_aj",
-      "detail": "54 dog food SERPs, dissected"
-    },
-    {
-      "ts": "2026-07-28T14:23:40.767083+00:00",
-      "ticket_id": 232779305,
-      "action": "unknown_escalated_for_aj",
-      "detail": "300k for ya"
-    },
-    {
-      "ts": "2026-07-28T14:23:42.241503+00:00",
-      "ticket_id": 232781230,
-      "action": "unknown_escalated_for_aj",
-      "detail": "7 DOOH Creative Principles That Drive Action"
-    },
     {
       "ts": "2026-07-28T14:23:42.241538+00:00",
       "ticket_id": 232781668,
@@ -1203,6 +1095,114 @@
       "ticket_id": 233886300,
       "action": "unknown_escalated_for_aj",
       "detail": "Your Google Analytics performance report is in for July 8th - August 4th"
+    },
+    {
+      "ts": "2026-08-05T14:22:30.509028+00:00",
+      "ticket_id": 233900475,
+      "action": "skip_spam",
+      "detail": "sendtoneetu and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-05T14:22:37.712107+00:00",
+      "ticket_id": 233908080,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Libido women capsules"
+    },
+    {
+      "ts": "2026-08-05T14:22:39.329222+00:00",
+      "ticket_id": 233912774,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Iconic comfort, reimagined for you"
+    },
+    {
+      "ts": "2026-08-05T14:22:41.075848+00:00",
+      "ticket_id": 233913371,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Iconic comfort, reimagined for you"
+    },
+    {
+      "ts": "2026-08-05T14:22:42.654841+00:00",
+      "ticket_id": 233925921,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Your 10% off is about to expire!"
+    },
+    {
+      "ts": "2026-08-05T14:22:42.654878+00:00",
+      "ticket_id": 233932896,
+      "action": "skip_spam",
+      "detail": "Airmiles for Gamers - partnership opportunity for Pupper"
+    },
+    {
+      "ts": "2026-08-05T14:22:43.786273+00:00",
+      "ticket_id": 233967874,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: There\u2019s a friction point on Elm & Rye"
+    },
+    {
+      "ts": "2026-08-05T14:22:45.813978+00:00",
+      "ticket_id": 233971814,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye.com + Recharge"
+    },
+    {
+      "ts": "2026-08-05T14:22:47.408281+00:00",
+      "ticket_id": 233977622,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pupper + Recharge"
+    },
+    {
+      "ts": "2026-08-05T14:22:48.417154+00:00",
+      "ticket_id": 233983586,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I have an idea for your libido supplement"
+    },
+    {
+      "ts": "2026-08-05T14:22:49.909395+00:00",
+      "ticket_id": 233989029,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Find the Best Brands Tailored for You!"
+    },
+    {
+      "ts": "2026-08-05T14:22:51.302804+00:00",
+      "ticket_id": 233989274,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on August 5, 2026 at 6:16 am"
+    },
+    {
+      "ts": "2026-08-05T14:22:52.611705+00:00",
+      "ticket_id": 233989589,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on August 5, 2026 at 6:18 am"
+    },
+    {
+      "ts": "2026-08-05T14:22:53.753489+00:00",
+      "ticket_id": 233997840,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Let Other Shopify Stores Sell Your Products"
+    },
+    {
+      "ts": "2026-08-05T14:22:54.775378+00:00",
+      "ticket_id": 233998918,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Let Other Shopify Stores Sell Your Products"
+    },
+    {
+      "ts": "2026-08-05T14:22:54.775411+00:00",
+      "ticket_id": 233999300,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-05T14:22:56.899521+00:00",
+      "ticket_id": 233999412,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Product question - Contact"
+    },
+    {
+      "ts": "2026-08-05T14:22:58.996896+00:00",
+      "ticket_id": 234002453,
+      "action": "error_crash",
+      "detail": "Order #85854"
     }
   ]
 }
