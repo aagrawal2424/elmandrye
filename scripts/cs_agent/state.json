@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234030232,
-  "last_run_at": "2026-08-05T17:56:45.940774+00:00",
+  "last_processed_ticket_id": 234046619,
+  "last_run_at": "2026-08-05T19:47:29.430980+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-05",
   "ticket_actions": [
-    {
-      "ts": "2026-07-28T19:03:55.552924+00:00",
-      "ticket_id": 232822574,
-      "action": "unknown_escalated_for_aj",
-      "detail": "q3 projections for  Pupper"
-    },
     {
       "ts": "2026-07-28T20:22:49.755287+00:00",
       "ticket_id": 232831616,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234030232,
       "action": "skip_spam",
       "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-05T19:47:29.430961+00:00",
+      "ticket_id": 234046619,
+      "action": "error_crash",
+      "detail": "Order status Fwd: [Elm & Rye] Payment for #85697 has been received"
     }
   ]
 }
