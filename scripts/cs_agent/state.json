@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 234021211,
-  "last_run_at": "2026-08-05T16:14:42.302383+00:00",
+  "last_processed_ticket_id": 234030232,
+  "last_run_at": "2026-08-05T17:56:45.940774+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-05",
   "ticket_actions": [
-    {
-      "ts": "2026-07-28T17:49:02.421978+00:00",
-      "ticket_id": 232807993,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: A shipment from order #85798 has been delivered"
-    },
-    {
-      "ts": "2026-07-28T17:49:03.658611+00:00",
-      "ticket_id": 232809517,
-      "action": "unknown_escalated_for_aj",
-      "detail": "ROAS for your wellness supplements"
-    },
-    {
-      "ts": "2026-07-28T17:49:04.643756+00:00",
-      "ticket_id": 232813813,
-      "action": "unknown_escalated_for_aj",
-      "detail": "q3 growth plans for  El Mandrye"
-    },
-    {
-      "ts": "2026-07-28T17:49:06.355881+00:00",
-      "ticket_id": 232815806,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with David Fierstien"
-    },
-    {
-      "ts": "2026-07-28T19:03:52.243560+00:00",
-      "ticket_id": 232819770,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udd0e Is Your Cannabis Website Ready to Attract More Customers? \ud83e\uddd1\u200d\ud83e\udd1d\u200d\ud83e\uddd1"
-    },
-    {
-      "ts": "2026-07-28T19:03:54.477804+00:00",
-      "ticket_id": 232821532,
-      "action": "unknown_escalated_for_aj",
-      "detail": "buyeverest.com requests confirmation of your Account Email for security purposes"
-    },
     {
       "ts": "2026-07-28T19:03:55.552924+00:00",
       "ticket_id": 232822574,
@@ -1203,6 +1167,42 @@
       "ticket_id": 234021211,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Subscription Adjustment Request"
+    },
+    {
+      "ts": "2026-08-05T17:56:44.133385+00:00",
+      "ticket_id": 234023597,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Noticed a few Website issues"
+    },
+    {
+      "ts": "2026-08-05T17:56:44.133416+00:00",
+      "ticket_id": 234028331,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-05T17:56:45.940727+00:00",
+      "ticket_id": 234028916,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "New customer message on August 5, 2026 at 10:02 am"
+    },
+    {
+      "ts": "2026-08-05T17:56:45.940757+00:00",
+      "ticket_id": 234030022,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-05T17:56:45.940765+00:00",
+      "ticket_id": 234030088,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-05T17:56:45.940771+00:00",
+      "ticket_id": 234030232,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
     }
   ]
 }
