@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234051616,
-  "last_run_at": "2026-08-05T22:05:52.806118+00:00",
+  "last_processed_ticket_id": 234062844,
+  "last_run_at": "2026-08-05T23:16:53.270797+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-05",
   "ticket_actions": [
-    {
-      "ts": "2026-07-28T23:43:02.477563+00:00",
-      "ticket_id": 232847011,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Retail Stores"
-    },
     {
       "ts": "2026-07-29T01:11:19.035681+00:00",
       "ticket_id": 232852037,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234051616,
       "action": "skip_spam",
       "detail": "Black Friday. Cyber Monday. You're ready."
+    },
+    {
+      "ts": "2026-08-05T23:16:53.270778+00:00",
+      "ticket_id": 234062844,
+      "action": "skip_spam",
+      "detail": "chewy and petco recently added to their stories"
     }
   ]
 }
