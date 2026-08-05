@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 234002453,
-  "last_run_at": "2026-08-05T14:22:58.996913+00:00",
+  "last_processed_ticket_id": 234021211,
+  "last_run_at": "2026-08-05T16:14:42.302383+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-05",
   "ticket_actions": [
-    {
-      "ts": "2026-07-28T14:23:42.241538+00:00",
-      "ticket_id": 232781668,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-28T16:18:19.653828+00:00",
-      "ticket_id": 232793067,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Simple Solution for Your Global Packaging Needs.\ud83d\udce6"
-    },
-    {
-      "ts": "2026-07-28T16:18:22.058526+00:00",
-      "ticket_id": 232798038,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Report an issue - Contact"
-    },
-    {
-      "ts": "2026-07-28T16:18:23.820567+00:00",
-      "ticket_id": 232798977,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Guest posting opportunities for your industry"
-    },
     {
       "ts": "2026-07-28T17:49:02.421978+00:00",
       "ticket_id": 232807993,
@@ -1203,6 +1179,30 @@
       "ticket_id": 234002453,
       "action": "error_crash",
       "detail": "Order #85854"
+    },
+    {
+      "ts": "2026-08-05T16:14:36.998118+00:00",
+      "ticket_id": 234006616,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: A quick question about your skincare products"
+    },
+    {
+      "ts": "2026-08-05T16:14:39.010801+00:00",
+      "ticket_id": 234009451,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Skipped order but still charged"
+    },
+    {
+      "ts": "2026-08-05T16:14:39.947849+00:00",
+      "ticket_id": 234020311,
+      "action": "error_crash",
+      "detail": "Fwd: Order #85454 confirmed"
+    },
+    {
+      "ts": "2026-08-05T16:14:42.302363+00:00",
+      "ticket_id": 234021211,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Subscription Adjustment Request"
     }
   ]
 }
