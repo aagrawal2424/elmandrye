@@ -1,111 +1,9 @@
 {
-  "last_processed_ticket_id": 234062844,
-  "last_run_at": "2026-08-06T00:13:51.329977+00:00",
+  "last_processed_ticket_id": 234168314,
+  "last_run_at": "2026-08-06T14:25:51.794579+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-06",
   "ticket_actions": [
-    {
-      "ts": "2026-07-29T01:11:19.035681+00:00",
-      "ticket_id": 232852037,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-07-29T14:22:51.306725+00:00",
-      "ticket_id": 232852710,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Set your password for Help Center"
-    },
-    {
-      "ts": "2026-07-29T14:22:51.306759+00:00",
-      "ticket_id": 232855546,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 29, 2026 ($28.94 USD)"
-    },
-    {
-      "ts": "2026-07-29T14:22:52.181666+00:00",
-      "ticket_id": 232857185,
-      "action": "error_crash",
-      "detail": "Re: Missing  Order #85102"
-    },
-    {
-      "ts": "2026-07-29T14:22:52.825470+00:00",
-      "ticket_id": 232857255,
-      "action": "error_crash",
-      "detail": "Order #85102"
-    },
-    {
-      "ts": "2026-07-29T14:22:54.382392+00:00",
-      "ticket_id": 232857324,
-      "action": "return_exchange_escalated_no_orders",
-      "detail": "Re: Missing Order #85102"
-    },
-    {
-      "ts": "2026-07-29T14:22:55.528960+00:00",
-      "ticket_id": 232893193,
-      "action": "unknown_escalated_for_aj",
-      "detail": "SomVOL\u2122 Ashwagandha Extract in Oil Form|| 22 Elm Rye Inc."
-    },
-    {
-      "ts": "2026-07-29T14:22:57.417411+00:00",
-      "ticket_id": 232899832,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-07-29T14:22:58.296946+00:00",
-      "ticket_id": 232921940,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: There\u2019s a friction point on Pupper"
-    },
-    {
-      "ts": "2026-07-29T14:23:00.389223+00:00",
-      "ticket_id": 232927949,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Cancel Subscription"
-    },
-    {
-      "ts": "2026-07-29T14:23:01.912273+00:00",
-      "ticket_id": 232941187,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Deals on Fogger and Four Seasons Juice!"
-    },
-    {
-      "ts": "2026-07-29T14:23:01.912309+00:00",
-      "ticket_id": 232943506,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-07-29T14:23:02.663300+00:00",
-      "ticket_id": 232943646,
-      "action": "error_crash",
-      "detail": "Re: A shipment from order #85798 has been delivered"
-    },
-    {
-      "ts": "2026-07-29T14:23:04.569038+00:00",
-      "ticket_id": 232946195,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Bundle confusion is costing you revenue"
-    },
-    {
-      "ts": "2026-07-29T14:23:04.569069+00:00",
-      "ticket_id": 232946916,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-29T16:00:02.360789+00:00",
-      "ticket_id": 232960604,
-      "action": "unknown_escalated_for_aj",
-      "detail": "logo packaging"
-    },
-    {
-      "ts": "2026-07-29T16:00:04.445252+00:00",
-      "ticket_id": 232962536,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order Status"
-    },
     {
       "ts": "2026-07-29T16:00:04.445283+00:00",
       "ticket_id": 232963045,
@@ -1203,6 +1101,108 @@
       "ticket_id": 234062844,
       "action": "skip_spam",
       "detail": "chewy and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-08-06T14:25:38.621821+00:00",
+      "ticket_id": 234067049,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Not receiving order"
+    },
+    {
+      "ts": "2026-08-06T14:25:38.621860+00:00",
+      "ticket_id": 234071729,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 7, 2026 (-$84.61 USD)"
+    },
+    {
+      "ts": "2026-08-06T14:25:41.050173+00:00",
+      "ticket_id": 234072723,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Subscription Adjustment Request"
+    },
+    {
+      "ts": "2026-08-06T14:25:42.119305+00:00",
+      "ticket_id": 234074217,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Premium Cosmetic Packaging Solutions for PUPPER AND FRIENDS LIMITED LIABILITY PARTNERSHIP"
+    },
+    {
+      "ts": "2026-08-06T14:25:42.119330+00:00",
+      "ticket_id": 234081139,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 6, 2026 ($45.43 USD)"
+    },
+    {
+      "ts": "2026-08-06T14:25:43.333973+00:00",
+      "ticket_id": 234093081,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CIBE 2026 Middle East Buyer Program | From Guangzhou & Shanghai to WBB Saudi Arabia"
+    },
+    {
+      "ts": "2026-08-06T14:25:45.343688+00:00",
+      "ticket_id": 234112080,
+      "action": "unknown_escalated_for_aj",
+      "detail": "You're invited to Cloudflare Connect 2026"
+    },
+    {
+      "ts": "2026-08-06T14:25:45.343726+00:00",
+      "ticket_id": 234122459,
+      "action": "skip_spam",
+      "detail": "A new affiliate, PHAM THUY LINH, has signed up for your program!"
+    },
+    {
+      "ts": "2026-08-06T14:25:47.344144+00:00",
+      "ticket_id": 234129522,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Reach new customers with up to $4500 in Google Ads credit"
+    },
+    {
+      "ts": "2026-08-06T14:25:48.193945+00:00",
+      "ticket_id": 234135709,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-08-06T14:25:48.990505+00:00",
+      "ticket_id": 234136070,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Company"
+    },
+    {
+      "ts": "2026-08-06T14:25:49.946969+00:00",
+      "ticket_id": 234139664,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Like To Know About elmandrye. com."
+    },
+    {
+      "ts": "2026-08-06T14:25:50.841568+00:00",
+      "ticket_id": 234159133,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Grow with Meaningful Industry Connections"
+    },
+    {
+      "ts": "2026-08-06T14:25:50.841595+00:00",
+      "ticket_id": 234160061,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-06T14:25:50.841602+00:00",
+      "ticket_id": 234164993,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-06T14:25:51.794542+00:00",
+      "ticket_id": 234165034,
+      "action": "unknown_escalated_for_aj",
+      "detail": "logo boxes"
+    },
+    {
+      "ts": "2026-08-06T14:25:51.794575+00:00",
+      "ticket_id": 234168314,
+      "action": "skip_spam",
+      "detail": "tiktok and ig"
     }
   ]
 }
