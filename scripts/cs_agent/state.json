@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234405738,
-  "last_run_at": "2026-08-07T20:18:04.164041+00:00",
+  "last_processed_ticket_id": 234407927,
+  "last_run_at": "2026-08-07T21:04:45.035664+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-07",
   "ticket_actions": [
-    {
-      "ts": "2026-07-30T19:03:20.699728+00:00",
-      "ticket_id": 233157573,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elmandrye"
-    },
     {
       "ts": "2026-07-30T19:03:20.699760+00:00",
       "ticket_id": 233160529,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234405738,
       "action": "error_crash",
       "detail": ""
+    },
+    {
+      "ts": "2026-08-07T21:04:45.035645+00:00",
+      "ticket_id": 234407927,
+      "action": "unknown_escalated_for_aj",
+      "detail": "You paid for the click. Then what?"
     }
   ]
 }
