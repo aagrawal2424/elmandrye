@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 234379907,
-  "last_run_at": "2026-08-07T16:27:29.668043+00:00",
+  "last_processed_ticket_id": 234385231,
+  "last_run_at": "2026-08-07T17:26:56.696938+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-07",
   "ticket_actions": [
-    {
-      "ts": "2026-07-30T14:18:33.641571+00:00",
-      "ticket_id": 233050257,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Quick question about AI Agent"
-    },
-    {
-      "ts": "2026-07-30T14:18:35.712749+00:00",
-      "ticket_id": 233068336,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Order #80276"
-    },
-    {
-      "ts": "2026-07-30T14:18:37.860698+00:00",
-      "ticket_id": 233083398,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New customer message on July 30, 2026 at 3:17 am"
-    },
-    {
-      "ts": "2026-07-30T14:18:39.748168+00:00",
-      "ticket_id": 233099667,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-07-30T14:18:42.038505+00:00",
-      "ticket_id": 233104080,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "RE: Order #85884 confirmed"
-    },
     {
       "ts": "2026-07-30T14:18:43.932540+00:00",
       "ticket_id": 233104215,
@@ -1203,6 +1173,36 @@
       "ticket_id": 234379907,
       "action": "error_crash",
       "detail": "Return order"
+    },
+    {
+      "ts": "2026-08-07T17:26:52.592980+00:00",
+      "ticket_id": 234383116,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CVS-82215 Emails Sent to Wrong Person"
+    },
+    {
+      "ts": "2026-08-07T17:26:53.873215+00:00",
+      "ticket_id": 234383193,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank you for your inquiry [Xometry Support] CVS-82215 Emails Sent to Wrong Person | Ticket:  05666160"
+    },
+    {
+      "ts": "2026-08-07T17:26:54.829623+00:00",
+      "ticket_id": 234383271,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your new HappyOrNot invoicing conversation has been opened"
+    },
+    {
+      "ts": "2026-08-07T17:26:55.681292+00:00",
+      "ticket_id": 234383371,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thanks for getting in touch with Wine Auctioneer"
+    },
+    {
+      "ts": "2026-08-07T17:26:56.696920+00:00",
+      "ticket_id": 234385231,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Request WO0000005043760: Status has been updated to Cancelled."
     }
   ]
 }
