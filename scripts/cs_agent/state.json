@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234395683,
-  "last_run_at": "2026-08-07T18:25:06.577287+00:00",
+  "last_processed_ticket_id": 234398942,
+  "last_run_at": "2026-08-07T19:31:36.562297+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-07",
   "ticket_actions": [
-    {
-      "ts": "2026-07-30T17:44:33.846048+00:00",
-      "ticket_id": 233149828,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Business Opportunity."
-    },
-    {
-      "ts": "2026-07-30T17:44:35.731530+00:00",
-      "ticket_id": 233153095,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: New customer message on July 30, 2026 at 3:17 am"
-    },
     {
       "ts": "2026-07-30T19:03:17.931824+00:00",
       "ticket_id": 233154844,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234395683,
       "action": "skip_spam",
       "detail": "kellybbird and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-07T19:31:34.510412+00:00",
+      "ticket_id": 234398847,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-406893 Request WO0000004797380: Status has been updated to Cancelled."
+    },
+    {
+      "ts": "2026-08-07T19:31:36.562278+00:00",
+      "ticket_id": 234398942,
+      "action": "unknown_escalated_for_aj",
+      "detail": "CSM-406893 Request WO0000004797380: Status has been updated to Cancelled. #624181539"
     }
   ]
 }
