@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 234385231,
-  "last_run_at": "2026-08-07T17:26:56.696938+00:00",
+  "last_processed_ticket_id": 234395683,
+  "last_run_at": "2026-08-07T18:25:06.577287+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-07",
   "ticket_actions": [
-    {
-      "ts": "2026-07-30T14:18:43.932540+00:00",
-      "ticket_id": 233104215,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Elm & Rye ORDER #85884"
-    },
-    {
-      "ts": "2026-07-30T14:18:43.932572+00:00",
-      "ticket_id": 233105351,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-07-30T14:18:43.932580+00:00",
-      "ticket_id": 233121731,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-07-30T16:02:46.532497+00:00",
-      "ticket_id": 233125531,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Digest chews"
-    },
     {
       "ts": "2026-07-30T17:44:33.846048+00:00",
       "ticket_id": 233149828,
@@ -1203,6 +1179,30 @@
       "ticket_id": 234385231,
       "action": "unknown_escalated_for_aj",
       "detail": "Request WO0000005043760: Status has been updated to Cancelled."
+    },
+    {
+      "ts": "2026-08-07T18:25:02.411713+00:00",
+      "ticket_id": 234388782,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I noticed few Bugs on your website"
+    },
+    {
+      "ts": "2026-08-07T18:25:04.908754+00:00",
+      "ticket_id": 234390200,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: A shipment from order #85965 is on the way"
+    },
+    {
+      "ts": "2026-08-07T18:25:06.577251+00:00",
+      "ticket_id": 234390259,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Cancel Order"
+    },
+    {
+      "ts": "2026-08-07T18:25:06.577284+00:00",
+      "ticket_id": 234395683,
+      "action": "skip_spam",
+      "detail": "kellybbird and 7 others recently added to their stories"
     }
   ]
 }
