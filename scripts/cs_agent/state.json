@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234372480,
-  "last_run_at": "2026-08-07T15:28:01.017867+00:00",
+  "last_processed_ticket_id": 234379907,
+  "last_run_at": "2026-08-07T16:27:29.668043+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-07",
   "ticket_actions": [
-    {
-      "ts": "2026-07-30T14:18:32.362047+00:00",
-      "ticket_id": 233031198,
-      "action": "unknown_escalated_for_aj",
-      "detail": "SEO Services //"
-    },
-    {
-      "ts": "2026-07-30T14:18:32.362082+00:00",
-      "ticket_id": 233037748,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 30, 2026 ($49.21 USD)"
-    },
     {
       "ts": "2026-07-30T14:18:33.641571+00:00",
       "ticket_id": 233050257,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234372480,
       "action": "unknown_escalated_for_aj",
       "detail": "Closing this out!"
+    },
+    {
+      "ts": "2026-08-07T16:27:28.145516+00:00",
+      "ticket_id": 234375216,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-08-07T16:27:29.668027+00:00",
+      "ticket_id": 234379907,
+      "action": "error_crash",
+      "detail": "Return order"
     }
   ]
 }
