@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234398942,
-  "last_run_at": "2026-08-07T19:31:36.562297+00:00",
+  "last_processed_ticket_id": 234405738,
+  "last_run_at": "2026-08-07T20:18:04.164041+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-07",
   "ticket_actions": [
-    {
-      "ts": "2026-07-30T19:03:17.931824+00:00",
-      "ticket_id": 233154844,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83e\udd47 The First Impression That Wins Cannabis Customers \ud83c\udf3f"
-    },
-    {
-      "ts": "2026-07-30T19:03:19.554674+00:00",
-      "ticket_id": 233157314,
-      "action": "unknown_escalated_for_aj",
-      "detail": "DreamHost Shared Hosting: Upcoming OS Upgrade For Server iad1-shared-d12-03"
-    },
     {
       "ts": "2026-07-30T19:03:20.699728+00:00",
       "ticket_id": 233157573,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234398942,
       "action": "unknown_escalated_for_aj",
       "detail": "CSM-406893 Request WO0000004797380: Status has been updated to Cancelled. #624181539"
+    },
+    {
+      "ts": "2026-08-07T20:18:02.974014+00:00",
+      "ticket_id": 234403832,
+      "action": "skip_spam",
+      "detail": "Other sellers already started"
+    },
+    {
+      "ts": "2026-08-07T20:18:04.164026+00:00",
+      "ticket_id": 234405738,
+      "action": "error_crash",
+      "detail": ""
     }
   ]
 }
