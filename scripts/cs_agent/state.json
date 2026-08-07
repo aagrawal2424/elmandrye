@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234407927,
-  "last_run_at": "2026-08-07T21:52:54.621855+00:00",
+  "last_processed_ticket_id": 234414454,
+  "last_run_at": "2026-08-07T22:34:21.432638+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-07",
   "ticket_actions": [
-    {
-      "ts": "2026-07-30T19:03:20.699760+00:00",
-      "ticket_id": 233160529,
-      "action": "skip_spam",
-      "detail": "elmandrye, catch up on moments that you've missed"
-    },
     {
       "ts": "2026-07-30T19:03:21.733965+00:00",
       "ticket_id": 233161901,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234407927,
       "action": "unknown_escalated_for_aj",
       "detail": "You paid for the click. Then what?"
+    },
+    {
+      "ts": "2026-08-07T22:34:21.432617+00:00",
+      "ticket_id": 234414454,
+      "action": "unknown_escalated_for_aj",
+      "detail": "unsubscribe"
     }
   ]
 }
