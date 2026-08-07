@@ -1,87 +1,9 @@
 {
-  "last_processed_ticket_id": 234168314,
-  "last_run_at": "2026-08-06T14:25:51.794579+00:00",
+  "last_processed_ticket_id": 234266234,
+  "last_run_at": "2026-08-07T00:15:49.161906+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-06",
+  "daily_refund_date": "2026-08-07",
   "ticket_actions": [
-    {
-      "ts": "2026-07-29T16:00:04.445283+00:00",
-      "ticket_id": 232963045,
-      "action": "skip_spam",
-      "detail": "elmandrye, see el_chicano_tezcatlipoca, jacoblee.reserve and more in your feed"
-    },
-    {
-      "ts": "2026-07-29T17:24:18.662963+00:00",
-      "ticket_id": 232969582,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CSM-394505 Maternity Leave"
-    },
-    {
-      "ts": "2026-07-29T17:24:20.191864+00:00",
-      "ticket_id": 232969659,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thank you for your inquiry [Xometry Support] CSM-394505 Maternity Leave | Ticket:  05635180"
-    },
-    {
-      "ts": "2026-07-29T17:24:21.840912+00:00",
-      "ticket_id": 232969734,
-      "action": "unknown_escalated_for_aj",
-      "detail": "We received your request"
-    },
-    {
-      "ts": "2026-07-29T17:24:23.157928+00:00",
-      "ticket_id": 232969762,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CSM-394505 Maternity Leave"
-    },
-    {
-      "ts": "2026-07-29T17:24:24.919150+00:00",
-      "ticket_id": 232969804,
-      "action": "unknown_escalated_for_aj",
-      "detail": "We received your request"
-    },
-    {
-      "ts": "2026-07-29T17:24:26.100317+00:00",
-      "ticket_id": 232971926,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thanks for getting in touch with Wine Auctioneer"
-    },
-    {
-      "ts": "2026-07-29T17:24:27.564011+00:00",
-      "ticket_id": 232970195,
-      "action": "unknown_escalated_for_aj",
-      "detail": "We received your request #622072632"
-    },
-    {
-      "ts": "2026-07-29T17:24:27.564044+00:00",
-      "ticket_id": 232971946,
-      "action": "skip_spam",
-      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-29T17:24:27.564053+00:00",
-      "ticket_id": 232972135,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-29T17:24:27.564059+00:00",
-      "ticket_id": 232972286,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-07-29T17:24:29.017952+00:00",
-      "ticket_id": 232973103,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Request WO0000004797380: Status has been updated to Cancelled."
-    },
-    {
-      "ts": "2026-07-29T17:24:29.017977+00:00",
-      "ticket_id": 232973805,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-07-29T17:24:29.017984+00:00",
       "ticket_id": 232977324,
@@ -1203,6 +1125,84 @@
       "ticket_id": 234168314,
       "action": "skip_spam",
       "detail": "tiktok and ig"
+    },
+    {
+      "ts": "2026-08-07T00:15:36.207981+00:00",
+      "ticket_id": 234173762,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pterostilbene - high-purity, direct from manufacturer"
+    },
+    {
+      "ts": "2026-08-07T00:15:37.252556+00:00",
+      "ticket_id": 234188971,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I noticed few Gaps on your website"
+    },
+    {
+      "ts": "2026-08-07T00:15:38.446255+00:00",
+      "ticket_id": 234189159,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Real landed cost vs what your supplier quotes"
+    },
+    {
+      "ts": "2026-08-07T00:15:39.717168+00:00",
+      "ticket_id": 234194130,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Skio update: the July roundup"
+    },
+    {
+      "ts": "2026-08-07T00:15:41.510273+00:00",
+      "ticket_id": 234194149,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Skio update: the July roundup"
+    },
+    {
+      "ts": "2026-08-07T00:15:43.539380+00:00",
+      "ticket_id": 234221805,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\u2753 Why Cannabis Brands Can\u2019t Rely on One Marketing Channel \ud83d\udcca"
+    },
+    {
+      "ts": "2026-08-07T00:15:43.539414+00:00",
+      "ticket_id": 234241982,
+      "action": "skip_spam",
+      "detail": "elmandrye, catch up on moments that you've missed"
+    },
+    {
+      "ts": "2026-08-07T00:15:44.826758+00:00",
+      "ticket_id": 234247198,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your DreamHost server upgrade (iad1-shared-d12-03) is complete"
+    },
+    {
+      "ts": "2026-08-07T00:15:45.899373+00:00",
+      "ticket_id": 234253756,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Webinar Invite: Become a Better Affiliate Manager"
+    },
+    {
+      "ts": "2026-08-07T00:15:47.525539+00:00",
+      "ticket_id": 234259026,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Create your first ChatGPT ad in minutes"
+    },
+    {
+      "ts": "2026-08-07T00:15:47.525574+00:00",
+      "ticket_id": 234262722,
+      "action": "skip_spam",
+      "detail": "elmandrye, see el_chicano_tezcatlipoca, wellnexsolutions and more in your feed"
+    },
+    {
+      "ts": "2026-08-07T00:15:47.525582+00:00",
+      "ticket_id": 234264739,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-08-07T00:15:49.161886+00:00",
+      "ticket_id": 234266234,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Create your first ChatGPT ad in minutes"
     }
   ]
 }
