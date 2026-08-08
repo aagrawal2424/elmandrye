@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234495901,
-  "last_run_at": "2026-08-08T17:54:33.931087+00:00",
+  "last_processed_ticket_id": 234497777,
+  "last_run_at": "2026-08-08T18:42:39.063833+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-08",
   "ticket_actions": [
-    {
-      "ts": "2026-07-31T17:57:10.814787+00:00",
-      "ticket_id": 233300115,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE: 400 Orders a day, nothing paid..."
-    },
     {
       "ts": "2026-07-31T17:57:11.676640+00:00",
       "ticket_id": 233306460,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234495901,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: I Noticed few Gaps on your website"
+    },
+    {
+      "ts": "2026-08-08T18:42:39.063817+00:00",
+      "ticket_id": 234497777,
+      "action": "error_crash",
+      "detail": "Order# 85852"
     }
   ]
 }
