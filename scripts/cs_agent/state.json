@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234493814,
-  "last_run_at": "2026-08-08T17:20:08.743563+00:00",
+  "last_processed_ticket_id": 234495901,
+  "last_run_at": "2026-08-08T17:54:33.931087+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-08",
   "ticket_actions": [
-    {
-      "ts": "2026-07-31T16:15:44.969018+00:00",
-      "ticket_id": 233295586,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
     {
       "ts": "2026-07-31T17:57:10.814787+00:00",
       "ticket_id": 233300115,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234493814,
       "action": "error_crash",
       "detail": "Order #85796"
+    },
+    {
+      "ts": "2026-08-08T17:54:33.931067+00:00",
+      "ticket_id": 234495901,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: I Noticed few Gaps on your website"
     }
   ]
 }
