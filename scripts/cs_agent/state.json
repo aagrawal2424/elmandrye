@@ -1,63 +1,9 @@
 {
-  "last_processed_ticket_id": 234419353,
-  "last_run_at": "2026-08-08T01:19:35.381072+00:00",
+  "last_processed_ticket_id": 234469687,
+  "last_run_at": "2026-08-08T12:59:56.317877+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-08",
   "ticket_actions": [
-    {
-      "ts": "2026-07-30T20:23:14.809775+00:00",
-      "ticket_id": 233162632,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elm & Rye fulfillment from a central pod (quote inside)"
-    },
-    {
-      "ts": "2026-07-30T20:23:16.696494+00:00",
-      "ticket_id": 233168335,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 7/30/2026"
-    },
-    {
-      "ts": "2026-07-30T21:43:02.478680+00:00",
-      "ticket_id": 233172877,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Straight from our pet packaging factory floor \ud83c\udfed"
-    },
-    {
-      "ts": "2026-07-30T22:48:18.258383+00:00",
-      "ticket_id": 233177822,
-      "action": "error_crash",
-      "detail": ""
-    },
-    {
-      "ts": "2026-07-30T23:50:11.877889+00:00",
-      "ticket_id": 233181957,
-      "action": "skip_spam",
-      "detail": "Your Amazon Seller Central Account - Quick Check-In - Elm and Rye"
-    },
-    {
-      "ts": "2026-07-31T02:03:21.780545+00:00",
-      "ticket_id": 233184976,
-      "action": "error_crash",
-      "detail": "Re: Order #85010"
-    },
-    {
-      "ts": "2026-07-31T14:21:56.760681+00:00",
-      "ticket_id": 233190029,
-      "action": "skip_spam",
-      "detail": "Payout for Jul 31, 2026 ($29.43 USD)"
-    },
-    {
-      "ts": "2026-07-31T14:21:57.971995+00:00",
-      "ticket_id": 233192301,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Skip order"
-    },
-    {
-      "ts": "2026-07-31T14:21:57.972034+00:00",
-      "ticket_id": 233195086,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-07-31T14:21:59.601092+00:00",
       "ticket_id": 233197001,
@@ -1203,6 +1149,60 @@
       "ticket_id": 234419353,
       "action": "skip_spam",
       "detail": "Automatic reply:  BOGO Fuel Starts NOW \ud83d\udce3"
+    },
+    {
+      "ts": "2026-08-08T12:59:51.279452+00:00",
+      "ticket_id": 234422840,
+      "action": "skip_spam",
+      "detail": "Learn How a Latina Founder Built a Sellout LIVE Business \ud83d\ude80"
+    },
+    {
+      "ts": "2026-08-08T12:59:51.279474+00:00",
+      "ticket_id": 234423802,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-08-08T12:59:51.279480+00:00",
+      "ticket_id": 234424655,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-08-08T12:59:53.564410+00:00",
+      "ticket_id": 234428729,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Come back and get 10% off."
+    },
+    {
+      "ts": "2026-08-08T12:59:54.416233+00:00",
+      "ticket_id": 234429748,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-08-08T12:59:54.416262+00:00",
+      "ticket_id": 234431838,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-08T12:59:55.426535+00:00",
+      "ticket_id": 234457248,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your store is open to 246 countries. Is that on purpose?"
+    },
+    {
+      "ts": "2026-08-08T12:59:56.317844+00:00",
+      "ticket_id": 234467796,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Account uodate - Contact"
+    },
+    {
+      "ts": "2026-08-08T12:59:56.317873+00:00",
+      "ticket_id": 234469687,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Maggie Irwin, has signed up for your program!"
     }
   ]
 }
