@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234414454,
-  "last_run_at": "2026-08-07T23:51:53.616164+00:00",
+  "last_processed_ticket_id": 234419353,
+  "last_run_at": "2026-08-08T01:19:35.381072+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-07",
+  "daily_refund_date": "2026-08-08",
   "ticket_actions": [
-    {
-      "ts": "2026-07-30T19:03:21.733965+00:00",
-      "ticket_id": 233161901,
-      "action": "error_crash",
-      "detail": "Re: A shipment from order #85737 is on the way"
-    },
     {
       "ts": "2026-07-30T20:23:14.809775+00:00",
       "ticket_id": 233162632,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234414454,
       "action": "unknown_escalated_for_aj",
       "detail": "unsubscribe"
+    },
+    {
+      "ts": "2026-08-08T01:19:35.381051+00:00",
+      "ticket_id": 234419353,
+      "action": "skip_spam",
+      "detail": "Automatic reply:  BOGO Fuel Starts NOW \ud83d\udce3"
     }
   ]
 }
