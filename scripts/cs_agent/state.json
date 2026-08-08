@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234483383,
-  "last_run_at": "2026-08-08T15:39:48.279760+00:00",
+  "last_processed_ticket_id": 234487515,
+  "last_run_at": "2026-08-08T16:04:22.396454+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-08",
   "ticket_actions": [
-    {
-      "ts": "2026-07-31T14:22:03.771856+00:00",
-      "ticket_id": 233280323,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-07-31T16:15:44.968962+00:00",
       "ticket_id": 233285464,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234483383,
       "action": "unknown_escalated_for_aj",
       "detail": "Your Gorgias Inc receipt [#1041-0625]"
+    },
+    {
+      "ts": "2026-08-08T16:04:22.396435+00:00",
+      "ticket_id": 234487515,
+      "action": "unknown_escalated_for_aj",
+      "detail": "U.S. Distribution Inquiry"
     }
   ]
 }
