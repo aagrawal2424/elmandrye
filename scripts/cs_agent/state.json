@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234487515,
-  "last_run_at": "2026-08-08T16:49:20.673686+00:00",
+  "last_processed_ticket_id": 234493814,
+  "last_run_at": "2026-08-08T17:20:08.743563+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-08",
   "ticket_actions": [
-    {
-      "ts": "2026-07-31T16:15:44.968962+00:00",
-      "ticket_id": 233285464,
-      "action": "unknown_escalated_for_aj",
-      "detail": "1 in 10 out"
-    },
     {
       "ts": "2026-07-31T16:15:44.969018+00:00",
       "ticket_id": 233295586,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234487515,
       "action": "unknown_escalated_for_aj",
       "detail": "U.S. Distribution Inquiry"
+    },
+    {
+      "ts": "2026-08-08T17:20:08.743547+00:00",
+      "ticket_id": 234493814,
+      "action": "error_crash",
+      "detail": "Order #85796"
     }
   ]
 }
