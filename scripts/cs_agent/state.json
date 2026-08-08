@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234473580,
-  "last_run_at": "2026-08-08T13:52:47.843637+00:00",
+  "last_processed_ticket_id": 234480235,
+  "last_run_at": "2026-08-08T14:30:57.187041+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-08",
   "ticket_actions": [
-    {
-      "ts": "2026-07-31T14:21:59.601121+00:00",
-      "ticket_id": 233244377,
-      "action": "skip_spam",
-      "detail": "nootropicstoday and 2 others started following you"
-    },
-    {
-      "ts": "2026-07-31T14:22:00.750324+00:00",
-      "ticket_id": 233268521,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Get Featured on SheFinds, Scary Mommy and AKA Mom for Back to School"
-    },
     {
       "ts": "2026-07-31T14:22:02.470382+00:00",
       "ticket_id": 233272409,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234473580,
       "action": "unknown_escalated_for_aj",
       "detail": "Find Your Best Options Today!"
+    },
+    {
+      "ts": "2026-08-08T14:30:55.638465+00:00",
+      "ticket_id": 234478624,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-08T14:30:57.187024+00:00",
+      "ticket_id": 234480235,
+      "action": "error_crash",
+      "detail": "Order 85851"
     }
   ]
 }
