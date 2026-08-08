@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234480235,
-  "last_run_at": "2026-08-08T14:30:57.187041+00:00",
+  "last_processed_ticket_id": 234483383,
+  "last_run_at": "2026-08-08T15:00:55.741722+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-08",
   "ticket_actions": [
-    {
-      "ts": "2026-07-31T14:22:02.470382+00:00",
-      "ticket_id": 233272409,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1086-2802]"
-    },
-    {
-      "ts": "2026-07-31T14:22:03.771815+00:00",
-      "ticket_id": 233275249,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Check Out These Fogger Vape Deals!"
-    },
     {
       "ts": "2026-07-31T14:22:03.771856+00:00",
       "ticket_id": 233280323,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234480235,
       "action": "error_crash",
       "detail": "Order 85851"
+    },
+    {
+      "ts": "2026-08-08T15:00:52.339860+00:00",
+      "ticket_id": 234483277,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank you for your payment"
+    },
+    {
+      "ts": "2026-08-08T15:00:55.741702+00:00",
+      "ticket_id": 234483383,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Gorgias Inc receipt [#1041-0625]"
     }
   ]
 }
