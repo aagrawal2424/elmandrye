@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234589018,
-  "last_run_at": "2026-08-09T21:40:36.309140+00:00",
+  "last_processed_ticket_id": 234612613,
+  "last_run_at": "2026-08-09T22:10:57.323974+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-09",
   "ticket_actions": [
-    {
-      "ts": "2026-07-31T22:59:16.369387+00:00",
-      "ticket_id": 233334569,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
-    {
-      "ts": "2026-08-01T13:40:54.765912+00:00",
-      "ticket_id": 233338408,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Murtual Business Opportunity."
-    },
     {
       "ts": "2026-08-01T13:40:56.581756+00:00",
       "ticket_id": 233339784,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234589018,
       "action": "unknown_escalated_for_aj",
       "detail": "Aug. 2026 Ingredient Update"
+    },
+    {
+      "ts": "2026-08-09T22:10:55.648230+00:00",
+      "ticket_id": 234612556,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: It's been a whole year \u2728 Here's a gift from us to you!"
+    },
+    {
+      "ts": "2026-08-09T22:10:57.323958+00:00",
+      "ticket_id": 234612613,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Thank you for your purchase! \ud83d\ude4f\ud83c\udffc"
     }
   ]
 }
