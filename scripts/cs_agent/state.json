@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234571755,
-  "last_run_at": "2026-08-09T13:55:37.257968+00:00",
+  "last_processed_ticket_id": 234575529,
+  "last_run_at": "2026-08-09T14:41:15.295596+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-09",
   "ticket_actions": [
-    {
-      "ts": "2026-07-31T20:47:41.430360+00:00",
-      "ticket_id": 233325651,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CSM-394504 We received your request"
-    },
-    {
-      "ts": "2026-07-31T20:47:42.521694+00:00",
-      "ticket_id": 233325741,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CSM-394504 We received your request #622707499"
-    },
     {
       "ts": "2026-07-31T20:47:43.687696+00:00",
       "ticket_id": 233325848,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234571755,
       "action": "error_crash",
       "detail": "Order #85767"
+    },
+    {
+      "ts": "2026-08-09T14:41:13.453634+00:00",
+      "ticket_id": 234575019,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-09T14:41:15.295583+00:00",
+      "ticket_id": 234575529,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Manufacturing Transparency Inquiry \u2014 Mushroom Comp - Contact"
     }
   ]
 }
