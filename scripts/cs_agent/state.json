@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234587320,
-  "last_run_at": "2026-08-09T16:30:10.941821+00:00",
+  "last_processed_ticket_id": 234589018,
+  "last_run_at": "2026-08-09T17:06:48.892077+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-09",
   "ticket_actions": [
-    {
-      "ts": "2026-07-31T22:59:16.369363+00:00",
-      "ticket_id": 233331884,
-      "action": "skip_spam",
-      "detail": "From heygracey and others: 3 unread messages"
-    },
     {
       "ts": "2026-07-31T22:59:16.369387+00:00",
       "ticket_id": 233334569,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234587320,
       "action": "unknown_escalated_for_aj",
       "detail": "Last chance: $100 off Connect 2026"
+    },
+    {
+      "ts": "2026-08-09T17:06:48.892057+00:00",
+      "ticket_id": 234589018,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Aug. 2026 Ingredient Update"
     }
   ]
 }
