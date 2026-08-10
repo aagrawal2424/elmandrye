@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234764876,
-  "last_run_at": "2026-08-10T17:30:12.183571+00:00",
+  "last_processed_ticket_id": 234792217,
+  "last_run_at": "2026-08-10T18:28:24.217868+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-10",
   "ticket_actions": [
-    {
-      "ts": "2026-08-01T15:46:54.523558+00:00",
-      "ticket_id": 233406683,
-      "action": "unknown_escalated_for_aj",
-      "detail": "You've reached your impression limit - ToastiBar - Sales Popup"
-    },
-    {
-      "ts": "2026-08-01T15:46:55.771284+00:00",
-      "ticket_id": 233408031,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Quick question about : pupper.com"
-    },
     {
       "ts": "2026-08-01T15:46:56.883057+00:00",
       "ticket_id": 233409568,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234764876,
       "action": "unknown_escalated_for_aj",
       "detail": "Is Your Shopify Store Helping Your Business Grow as Fast as It Could?"
+    },
+    {
+      "ts": "2026-08-10T18:28:22.809212+00:00",
+      "ticket_id": 234781581,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Question before I order"
+    },
+    {
+      "ts": "2026-08-10T18:28:24.217851+00:00",
+      "ticket_id": 234792217,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with susanhbro@yahoo.com"
     }
   ]
 }
