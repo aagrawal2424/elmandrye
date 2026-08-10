@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234746963,
-  "last_run_at": "2026-08-10T16:29:19.696468+00:00",
+  "last_processed_ticket_id": 234764876,
+  "last_run_at": "2026-08-10T17:30:12.183571+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-10",
   "ticket_actions": [
-    {
-      "ts": "2026-08-01T14:47:08.270720+00:00",
-      "ticket_id": 233400760,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-01T14:47:09.473187+00:00",
-      "ticket_id": 233404337,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Blog collaboration opportunity \u2013 what do you think?"
-    },
     {
       "ts": "2026-08-01T15:46:54.523558+00:00",
       "ticket_id": 233406683,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234746963,
       "action": "unknown_escalated_for_aj",
       "detail": "Everest\u2019s customer experience"
+    },
+    {
+      "ts": "2026-08-10T17:30:10.183640+00:00",
+      "ticket_id": 234758275,
+      "action": "unknown_escalated_for_aj",
+      "detail": "logo boxes"
+    },
+    {
+      "ts": "2026-08-10T17:30:12.183548+00:00",
+      "ticket_id": 234764876,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Is Your Shopify Store Helping Your Business Grow as Fast as It Could?"
     }
   ]
 }
