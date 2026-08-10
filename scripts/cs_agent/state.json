@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234701591,
-  "last_run_at": "2026-08-10T13:21:15.230516+00:00",
+  "last_processed_ticket_id": 234719432,
+  "last_run_at": "2026-08-10T14:34:45.628575+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-10",
   "ticket_actions": [
-    {
-      "ts": "2026-08-01T13:41:00.382266+00:00",
-      "ticket_id": 233386902,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order 67042"
-    },
-    {
-      "ts": "2026-08-01T13:41:01.431216+00:00",
-      "ticket_id": 233391529,
-      "action": "unknown_escalated_for_aj",
-      "detail": "You're close to your impression limit - ToastiBar - Sales Popup"
-    },
     {
       "ts": "2026-08-01T13:41:02.784252+00:00",
       "ticket_id": 233394607,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234701591,
       "action": "subscription_cancel_escalated_no_orders",
       "detail": "Re: Did you see something you liked?"
+    },
+    {
+      "ts": "2026-08-10T14:34:42.628431+00:00",
+      "ticket_id": 234717097,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-10T14:34:45.628552+00:00",
+      "ticket_id": 234719432,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Retail Services Grocery & Club Channel"
     }
   ]
 }
