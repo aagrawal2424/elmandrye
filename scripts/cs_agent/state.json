@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 234732609,
-  "last_run_at": "2026-08-10T15:35:16.055061+00:00",
+  "last_processed_ticket_id": 234746963,
+  "last_run_at": "2026-08-10T16:29:19.696468+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-10",
   "ticket_actions": [
-    {
-      "ts": "2026-08-01T13:41:05.751419+00:00",
-      "ticket_id": 233396484,
-      "action": "unknown_escalated_for_aj",
-      "detail": "elmandrye"
-    },
-    {
-      "ts": "2026-08-01T14:47:06.948586+00:00",
-      "ticket_id": 233399599,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
-    },
-    {
-      "ts": "2026-08-01T14:47:08.270661+00:00",
-      "ticket_id": 233400454,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
     {
       "ts": "2026-08-01T14:47:08.270720+00:00",
       "ticket_id": 233400760,
@@ -1203,6 +1185,24 @@
       "ticket_id": 234732609,
       "action": "unknown_escalated_for_aj",
       "detail": "Is Your Shopify Store Helping Your Business Grow as Fast as It Could?"
+    },
+    {
+      "ts": "2026-08-10T16:29:16.553854+00:00",
+      "ticket_id": 234735968,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invoice 2786 from Nitro Logistics, LLC"
+    },
+    {
+      "ts": "2026-08-10T16:29:17.673587+00:00",
+      "ticket_id": 234744446,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Investing in Pupper"
+    },
+    {
+      "ts": "2026-08-10T16:29:19.696453+00:00",
+      "ticket_id": 234746963,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Everest\u2019s customer experience"
     }
   ]
 }
