@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234883388,
-  "last_run_at": "2026-08-10T21:59:16.927951+00:00",
+  "last_processed_ticket_id": 234891413,
+  "last_run_at": "2026-08-10T22:50:45.930135+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-10",
   "ticket_actions": [
-    {
-      "ts": "2026-08-01T23:12:29.830303+00:00",
-      "ticket_id": 233436666,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Stop subscribing"
-    },
     {
       "ts": "2026-08-02T13:40:56.001494+00:00",
       "ticket_id": 233442056,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234883388,
       "action": "unknown_escalated_for_aj",
       "detail": "Increase Affiliate Program ROI"
+    },
+    {
+      "ts": "2026-08-10T22:50:45.930115+00:00",
+      "ticket_id": 234891413,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
