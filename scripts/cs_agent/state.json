@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 234719432,
-  "last_run_at": "2026-08-10T14:34:45.628575+00:00",
+  "last_processed_ticket_id": 234732609,
+  "last_run_at": "2026-08-10T15:35:16.055061+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-10",
   "ticket_actions": [
-    {
-      "ts": "2026-08-01T13:41:02.784252+00:00",
-      "ticket_id": 233394607,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Monthly Review Roundup - July, 2026"
-    },
-    {
-      "ts": "2026-08-01T13:41:04.008357+00:00",
-      "ticket_id": 233395445,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Monthly Review Roundup - July, 2026"
-    },
     {
       "ts": "2026-08-01T13:41:05.751419+00:00",
       "ticket_id": 233396484,
@@ -1203,6 +1191,18 @@
       "ticket_id": 234719432,
       "action": "unknown_escalated_for_aj",
       "detail": "Retail Services Grocery & Club Channel"
+    },
+    {
+      "ts": "2026-08-10T15:35:14.562800+00:00",
+      "ticket_id": 234729514,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Increase Affiliate Program ROI"
+    },
+    {
+      "ts": "2026-08-10T15:35:16.055038+00:00",
+      "ticket_id": 234732609,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Is Your Shopify Store Helping Your Business Grow as Fast as It Could?"
     }
   ]
 }
