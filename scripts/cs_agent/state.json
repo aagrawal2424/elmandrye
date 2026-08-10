@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 234612613,
-  "last_run_at": "2026-08-10T00:01:11.306974+00:00",
+  "last_processed_ticket_id": 234701591,
+  "last_run_at": "2026-08-10T13:21:15.230516+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-10",
   "ticket_actions": [
-    {
-      "ts": "2026-08-01T13:40:56.581756+00:00",
-      "ticket_id": 233339784,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Does Elm & Rye need any R&D Assistance?"
-    },
-    {
-      "ts": "2026-08-01T13:40:56.581783+00:00",
-      "ticket_id": 233342016,
-      "action": "skip_spam",
-      "detail": "taytayvs11 and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-08-01T13:40:57.651894+00:00",
-      "ticket_id": 233342715,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Security Update"
-    },
-    {
-      "ts": "2026-08-01T13:40:57.651924+00:00",
-      "ticket_id": 233343306,
-      "action": "skip_spam",
-      "detail": "170M buyers. Your store. Let's go."
-    },
-    {
-      "ts": "2026-08-01T13:40:57.651933+00:00",
-      "ticket_id": 233364333,
-      "action": "skip_spam",
-      "detail": "[ALERT] You've reached 100% of your monthly limit."
-    },
-    {
-      "ts": "2026-08-01T13:40:59.143033+00:00",
-      "ticket_id": 233367899,
-      "action": "refund_request_escalated_no_orders",
-      "detail": "A chargeback response for order #15169 was submitted"
-    },
     {
       "ts": "2026-08-01T13:41:00.382266+00:00",
       "ticket_id": 233386902,
@@ -1203,6 +1167,42 @@
       "ticket_id": 234612613,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Re: Thank you for your purchase! \ud83d\ude4f\ud83c\udffc"
+    },
+    {
+      "ts": "2026-08-10T13:21:07.635617+00:00",
+      "ticket_id": 234618980,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "STOP!"
+    },
+    {
+      "ts": "2026-08-10T13:21:09.942246+00:00",
+      "ticket_id": 234628174,
+      "action": "refund_escalated_for_aj",
+      "detail": "Missed order"
+    },
+    {
+      "ts": "2026-08-10T13:21:09.942279+00:00",
+      "ticket_id": 234631233,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 10, 2026 ($100.84 USD)"
+    },
+    {
+      "ts": "2026-08-10T13:21:11.150954+00:00",
+      "ticket_id": 234644446,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Category coverage"
+    },
+    {
+      "ts": "2026-08-10T13:21:13.098535+00:00",
+      "ticket_id": 234684392,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udea2\u4e2d\u7f8e\u4e94\u91d1\u4e13\u7ebfDDP\u7269\u6d41\uff5c\u4e00\u7ad9\u5f0f\u5408\u89c4\u7701\u5fc3\u3001\u964d\u672c\u589e\u6548\u89e3\u51b3\u65b9\u6848"
+    },
+    {
+      "ts": "2026-08-10T13:21:15.230495+00:00",
+      "ticket_id": 234701591,
+      "action": "subscription_cancel_escalated_no_orders",
+      "detail": "Re: Did you see something you liked?"
     }
   ]
 }
