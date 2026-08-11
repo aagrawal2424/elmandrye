@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 234891413,
-  "last_run_at": "2026-08-11T00:02:53.840120+00:00",
+  "last_processed_ticket_id": 234906584,
+  "last_run_at": "2026-08-11T13:18:04.837621+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-11",
   "ticket_actions": [
-    {
-      "ts": "2026-08-02T13:40:56.001494+00:00",
-      "ticket_id": 233442056,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Orders #85332 and #85674"
-    },
-    {
-      "ts": "2026-08-02T13:40:57.243320+00:00",
-      "ticket_id": 233442076,
-      "action": "error_crash",
-      "detail": "Orders #85332 and #85674"
-    },
-    {
-      "ts": "2026-08-02T13:40:57.243342+00:00",
-      "ticket_id": 233442880,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, nadiaplott and more in your feed"
-    },
-    {
-      "ts": "2026-08-02T13:40:58.959570+00:00",
-      "ticket_id": 233444334,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Google Workspace: Your invoice is available for elmandrye.com"
-    },
     {
       "ts": "2026-08-02T13:41:00.636598+00:00",
       "ticket_id": 233493390,
@@ -1203,6 +1179,30 @@
       "ticket_id": 234891413,
       "action": "skip_spam",
       "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-08-11T13:18:04.837565+00:00",
+      "ticket_id": 234897948,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-08-11T13:18:04.837603+00:00",
+      "ticket_id": 234904235,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 11, 2026 ($122.22 USD)"
+    },
+    {
+      "ts": "2026-08-11T13:18:04.837612+00:00",
+      "ticket_id": 234905414,
+      "action": "skip_spam",
+      "detail": "jerryquist and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-11T13:18:04.837618+00:00",
+      "ticket_id": 234906584,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
     }
   ]
 }
