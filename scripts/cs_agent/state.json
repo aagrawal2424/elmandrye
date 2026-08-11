@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 234906584,
-  "last_run_at": "2026-08-11T13:18:04.837621+00:00",
+  "last_processed_ticket_id": 234997796,
+  "last_run_at": "2026-08-11T14:33:24.871439+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-11",
   "ticket_actions": [
-    {
-      "ts": "2026-08-02T13:41:00.636598+00:00",
-      "ticket_id": 233493390,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
-    },
-    {
-      "ts": "2026-08-02T14:49:44.284217+00:00",
-      "ticket_id": 233497181,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-02T15:53:40.949184+00:00",
-      "ticket_id": 233501717,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 8/2/2026"
-    },
     {
       "ts": "2026-08-02T15:53:40.949220+00:00",
       "ticket_id": 233502013,
@@ -1203,6 +1185,24 @@
       "ticket_id": 234906584,
       "action": "skip_spam",
       "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-11T14:33:23.651865+00:00",
+      "ticket_id": 234996701,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE: Sister told me about"
+    },
+    {
+      "ts": "2026-08-11T14:33:24.871407+00:00",
+      "ticket_id": 234997569,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-08-11T14:33:24.871435+00:00",
+      "ticket_id": 234997796,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
