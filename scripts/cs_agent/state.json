@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 234997796,
-  "last_run_at": "2026-08-11T14:33:24.871439+00:00",
+  "last_processed_ticket_id": 235018550,
+  "last_run_at": "2026-08-11T15:33:34.670095+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-11",
   "ticket_actions": [
-    {
-      "ts": "2026-08-02T15:53:40.949220+00:00",
-      "ticket_id": 233502013,
-      "action": "skip_spam",
-      "detail": "elmandrye, see what's been happening on Instagram"
-    },
     {
       "ts": "2026-08-02T15:53:40.949228+00:00",
       "ticket_id": 233506528,
@@ -1203,6 +1197,12 @@
       "ticket_id": 234997796,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-11T15:33:34.670076+00:00",
+      "ticket_id": 235018550,
+      "action": "unknown_escalated_for_aj",
+      "detail": "70% of your shoppers are on mobile."
     }
   ]
 }
