@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 235201487,
-  "last_run_at": "2026-08-12T17:37:49.757910+00:00",
+  "last_processed_ticket_id": 235206945,
+  "last_run_at": "2026-08-12T18:36:14.802092+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-12",
   "ticket_actions": [
-    {
-      "ts": "2026-08-03T20:35:48.347788+00:00",
-      "ticket_id": 233687543,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Multiple Brands For You To Check Out"
-    },
-    {
-      "ts": "2026-08-03T21:47:00.693745+00:00",
-      "ticket_id": 233696636,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Need to delay an upcoming order. ..."
-    },
     {
       "ts": "2026-08-03T21:47:01.603124+00:00",
       "ticket_id": 233696662,
@@ -1203,6 +1191,18 @@
       "ticket_id": 235201487,
       "action": "skip_spam",
       "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-12T18:36:13.276858+00:00",
+      "ticket_id": 235206774,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-08-12T18:36:14.802072+00:00",
+      "ticket_id": 235206945,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Retail-ready packaging for your next launch"
     }
   ]
 }
