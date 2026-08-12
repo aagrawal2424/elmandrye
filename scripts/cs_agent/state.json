@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 235059111,
-  "last_run_at": "2026-08-11T23:57:37.133395+00:00",
+  "last_processed_ticket_id": 235126629,
+  "last_run_at": "2026-08-12T13:21:53.015956+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-11",
+  "daily_refund_date": "2026-08-12",
   "ticket_actions": [
-    {
-      "ts": "2026-08-03T01:15:38.498919+00:00",
-      "ticket_id": 233538879,
-      "action": "unknown_escalated_for_aj",
-      "detail": "We're making some changes to our PayPal legal agreements"
-    },
-    {
-      "ts": "2026-08-03T01:15:40.953709+00:00",
-      "ticket_id": 233539991,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Order #85928 confirmed"
-    },
-    {
-      "ts": "2026-08-03T01:15:41.521930+00:00",
-      "ticket_id": 233540706,
-      "action": "error_crash",
-      "detail": "Re: Order #85607 confirmed"
-    },
-    {
-      "ts": "2026-08-03T14:52:45.229792+00:00",
-      "ticket_id": 233544621,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
     {
       "ts": "2026-08-03T14:52:46.767309+00:00",
       "ticket_id": 233576573,
@@ -1203,6 +1179,30 @@
       "ticket_id": 235059111,
       "action": "skip_spam",
       "detail": "See what snoopdogg and 30 others you follow shared"
+    },
+    {
+      "ts": "2026-08-12T13:21:50.460061+00:00",
+      "ticket_id": 235079567,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-12T13:21:51.796989+00:00",
+      "ticket_id": 235080845,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-08-12T13:21:51.797012+00:00",
+      "ticket_id": 235083546,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 13, 2026 (-$59.98 USD)"
+    },
+    {
+      "ts": "2026-08-12T13:21:53.015940+00:00",
+      "ticket_id": 235126629,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
     }
   ]
 }
