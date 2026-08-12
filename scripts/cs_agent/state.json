@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 235126629,
-  "last_run_at": "2026-08-12T13:21:53.015956+00:00",
+  "last_processed_ticket_id": 235179528,
+  "last_run_at": "2026-08-12T14:34:34.928669+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-12",
   "ticket_actions": [
-    {
-      "ts": "2026-08-03T14:52:46.767309+00:00",
-      "ticket_id": 233576573,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Branded hardware options"
-    },
-    {
-      "ts": "2026-08-03T14:52:49.063353+00:00",
-      "ticket_id": 233592423,
-      "action": "unknown_escalated_for_aj",
-      "detail": "commission-based Klaviyo for Pupper"
-    },
-    {
-      "ts": "2026-08-03T14:52:49.063384+00:00",
-      "ticket_id": 233599912,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-03T14:52:50.362608+00:00",
-      "ticket_id": 233617198,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Premium wellness formulations results basis"
-    },
     {
       "ts": "2026-08-03T14:52:51.626970+00:00",
       "ticket_id": 233617260,
@@ -1203,6 +1179,30 @@
       "ticket_id": 235126629,
       "action": "unknown_escalated_for_aj",
       "detail": ""
+    },
+    {
+      "ts": "2026-08-12T14:34:30.739309+00:00",
+      "ticket_id": 235170499,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don't launch your next ad yet"
+    },
+    {
+      "ts": "2026-08-12T14:34:30.739339+00:00",
+      "ticket_id": 235174153,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-12T14:34:33.287913+00:00",
+      "ticket_id": 235177274,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Explore the Best Brands Tailored for You!"
+    },
+    {
+      "ts": "2026-08-12T14:34:34.928649+00:00",
+      "ticket_id": 235179528,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Increase Affiliate Program ROI"
     }
   ]
 }
