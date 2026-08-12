@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 235194871,
-  "last_run_at": "2026-08-12T16:33:53.421672+00:00",
+  "last_processed_ticket_id": 235201487,
+  "last_run_at": "2026-08-12T17:37:49.757910+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-12",
   "ticket_actions": [
-    {
-      "ts": "2026-08-03T17:08:09.775577+00:00",
-      "ticket_id": 233657794,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with Andrew Robertson"
-    },
-    {
-      "ts": "2026-08-03T17:08:11.053808+00:00",
-      "ticket_id": 233660183,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Inquiry About Elm & Rye Affiliate Program"
-    },
-    {
-      "ts": "2026-08-03T17:08:16.800237+00:00",
-      "ticket_id": 233661701,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-03T18:57:26.510205+00:00",
-      "ticket_id": 233679654,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
     {
       "ts": "2026-08-03T20:35:48.347788+00:00",
       "ticket_id": 233687543,
@@ -1203,6 +1179,30 @@
       "ticket_id": 235194871,
       "action": "unknown_escalated_for_aj",
       "detail": "dirty secret behind ROAS"
+    },
+    {
+      "ts": "2026-08-12T17:37:49.757854+00:00",
+      "ticket_id": 235200121,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-12T17:37:49.757878+00:00",
+      "ticket_id": 235200894,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-12T17:37:49.757885+00:00",
+      "ticket_id": 235201260,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-12T17:37:49.757907+00:00",
+      "ticket_id": 235201487,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
     }
   ]
 }
