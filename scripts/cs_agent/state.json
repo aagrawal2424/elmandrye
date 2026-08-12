@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235223480,
-  "last_run_at": "2026-08-12T21:23:14.286497+00:00",
+  "last_processed_ticket_id": 235228263,
+  "last_run_at": "2026-08-12T22:09:53.952521+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-12",
   "ticket_actions": [
-    {
-      "ts": "2026-08-04T14:29:09.978366+00:00",
-      "ticket_id": 233728620,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-08-04T14:29:13.136421+00:00",
       "ticket_id": 233752999,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235223480,
       "action": "unknown_escalated_for_aj",
       "detail": "Factory pricing for your pet pouches \ud83d\udce6"
+    },
+    {
+      "ts": "2026-08-12T22:09:53.952504+00:00",
+      "ticket_id": 235228263,
+      "action": "unknown_escalated_for_aj",
+      "detail": "WordPress 7.1 is coming!"
     }
   ]
 }
