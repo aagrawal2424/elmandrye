@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 235184726,
-  "last_run_at": "2026-08-12T15:35:23.565010+00:00",
+  "last_processed_ticket_id": 235194871,
+  "last_run_at": "2026-08-12T16:33:53.421672+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-12",
   "ticket_actions": [
-    {
-      "ts": "2026-08-03T14:53:02.489500+00:00",
-      "ticket_id": 233638529,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-03T14:53:03.744042+00:00",
-      "ticket_id": 233645900,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A quick question about your skincare products"
-    },
-    {
-      "ts": "2026-08-03T17:08:07.527320+00:00",
-      "ticket_id": 233651329,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Invoice 2733 from Nitro Logistics, LLC"
-    },
     {
       "ts": "2026-08-03T17:08:09.775577+00:00",
       "ticket_id": 233657794,
@@ -1203,6 +1185,24 @@
       "ticket_id": 235184726,
       "action": "unknown_escalated_for_aj",
       "detail": "logo boxes"
+    },
+    {
+      "ts": "2026-08-12T16:33:51.373481+00:00",
+      "ticket_id": 235190211,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Shield Your RV, Boat, Vehicle and all Toys This Summer"
+    },
+    {
+      "ts": "2026-08-12T16:33:52.332076+00:00",
+      "ticket_id": 235190417,
+      "action": "error_crash",
+      "detail": "ORDER STATUS"
+    },
+    {
+      "ts": "2026-08-12T16:33:53.421653+00:00",
+      "ticket_id": 235194871,
+      "action": "unknown_escalated_for_aj",
+      "detail": "dirty secret behind ROAS"
     }
   ]
 }
