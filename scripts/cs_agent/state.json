@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 235179528,
-  "last_run_at": "2026-08-12T14:34:34.928669+00:00",
+  "last_processed_ticket_id": 235184726,
+  "last_run_at": "2026-08-12T15:35:23.565010+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-12",
   "ticket_actions": [
-    {
-      "ts": "2026-08-03T14:52:51.626970+00:00",
-      "ticket_id": 233617260,
-      "action": "unknown_escalated_for_aj",
-      "detail": "we only win when you do"
-    },
-    {
-      "ts": "2026-08-03T14:52:52.787875+00:00",
-      "ticket_id": 233626887,
-      "action": "unknown_escalated_for_aj",
-      "detail": "WEBSITE ENQUIRY FOR healthwebmagazine.com"
-    },
-    {
-      "ts": "2026-08-03T14:52:54.294263+00:00",
-      "ticket_id": 233635713,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-03T14:53:02.489474+00:00",
-      "ticket_id": 233636611,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New customer message on August 3, 2026 at 6:54 am"
-    },
     {
       "ts": "2026-08-03T14:53:02.489500+00:00",
       "ticket_id": 233638529,
@@ -1203,6 +1179,30 @@
       "ticket_id": 235179528,
       "action": "unknown_escalated_for_aj",
       "detail": "Increase Affiliate Program ROI"
+    },
+    {
+      "ts": "2026-08-12T15:35:19.488294+00:00",
+      "ticket_id": 235180443,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-12T15:35:20.672584+00:00",
+      "ticket_id": 235180469,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Webinar Tomorrow: Increase Affiliate Program ROI"
+    },
+    {
+      "ts": "2026-08-12T15:35:22.552861+00:00",
+      "ticket_id": 235181404,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: A quick question about your skincare products"
+    },
+    {
+      "ts": "2026-08-12T15:35:23.564989+00:00",
+      "ticket_id": 235184726,
+      "action": "unknown_escalated_for_aj",
+      "detail": "logo boxes"
     }
   ]
 }
