@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 235220557,
-  "last_run_at": "2026-08-12T20:26:48.344645+00:00",
+  "last_processed_ticket_id": 235223480,
+  "last_run_at": "2026-08-12T21:23:14.286497+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-12",
   "ticket_actions": [
-    {
-      "ts": "2026-08-04T14:29:06.648578+00:00",
-      "ticket_id": 233723567,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 4, 2026 ($142.68 USD)"
-    },
-    {
-      "ts": "2026-08-04T14:29:06.648599+00:00",
-      "ticket_id": 233728543,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 4, 2026 ($45.43 USD)"
-    },
-    {
-      "ts": "2026-08-04T14:29:08.883883+00:00",
-      "ticket_id": 233728589,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-08-04T14:29:09.978366+00:00",
       "ticket_id": 233728620,
@@ -1203,6 +1185,24 @@
       "ticket_id": 235220557,
       "action": "skip_no_email",
       "detail": "Conversation with Customer #543079033"
+    },
+    {
+      "ts": "2026-08-12T21:23:11.917009+00:00",
+      "ticket_id": 235222308,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order #85789 confirmed"
+    },
+    {
+      "ts": "2026-08-12T21:23:13.103942+00:00",
+      "ticket_id": 235222791,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Question, please..."
+    },
+    {
+      "ts": "2026-08-12T21:23:14.286458+00:00",
+      "ticket_id": 235223480,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Factory pricing for your pet pouches \ud83d\udce6"
     }
   ]
 }
