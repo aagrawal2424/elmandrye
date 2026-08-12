@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235216173,
-  "last_run_at": "2026-08-12T19:46:30.008010+00:00",
+  "last_processed_ticket_id": 235220557,
+  "last_run_at": "2026-08-12T20:26:48.344645+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-12",
   "ticket_actions": [
-    {
-      "ts": "2026-08-04T02:49:28.047021+00:00",
-      "ticket_id": 233712430,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Fwd: Order #15217 confirmed"
-    },
     {
       "ts": "2026-08-04T14:29:06.648578+00:00",
       "ticket_id": 233723567,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235216173,
       "action": "skip_spam",
       "detail": "It's time. TikTok Shop. This week."
+    },
+    {
+      "ts": "2026-08-12T20:26:48.344631+00:00",
+      "ticket_id": 235220557,
+      "action": "skip_no_email",
+      "detail": "Conversation with Customer #543079033"
     }
   ]
 }
