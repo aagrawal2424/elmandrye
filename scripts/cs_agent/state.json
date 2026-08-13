@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 235380707,
-  "last_run_at": "2026-08-13T21:22:13.970751+00:00",
+  "last_processed_ticket_id": 235389216,
+  "last_run_at": "2026-08-13T22:09:41.855824+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-13",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T14:22:49.909395+00:00",
-      "ticket_id": 233989029,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Find the Best Brands Tailored for You!"
-    },
-    {
-      "ts": "2026-08-05T14:22:51.302804+00:00",
-      "ticket_id": 233989274,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New customer message on August 5, 2026 at 6:16 am"
-    },
-    {
-      "ts": "2026-08-05T14:22:52.611705+00:00",
-      "ticket_id": 233989589,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New customer message on August 5, 2026 at 6:18 am"
-    },
     {
       "ts": "2026-08-05T14:22:53.753489+00:00",
       "ticket_id": 233997840,
@@ -1203,6 +1185,24 @@
       "ticket_id": 235380707,
       "action": "unknown_escalated_for_aj",
       "detail": "Join our webinar: ChatGPT Ads, a new channel for marketers"
+    },
+    {
+      "ts": "2026-08-13T22:09:41.855776+00:00",
+      "ticket_id": 235386631,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "85971 order #"
+    },
+    {
+      "ts": "2026-08-13T22:09:41.855812+00:00",
+      "ticket_id": 235386831,
+      "action": "skip_spam",
+      "detail": "How does a handmade jewelry brand hit $100K GMV in One Single TikTok LIVE?"
+    },
+    {
+      "ts": "2026-08-13T22:09:41.855821+00:00",
+      "ticket_id": 235389216,
+      "action": "skip_spam",
+      "detail": "See what anton.monolite and 7 others shared"
     }
   ]
 }
