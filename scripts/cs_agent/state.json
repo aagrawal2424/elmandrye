@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 235241130,
-  "last_run_at": "2026-08-13T02:19:20.685319+00:00",
+  "last_processed_ticket_id": 235307914,
+  "last_run_at": "2026-08-13T13:24:03.795893+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-13",
   "ticket_actions": [
-    {
-      "ts": "2026-08-04T14:29:17.639900+00:00",
-      "ticket_id": 233808459,
-      "action": "error_crash",
-      "detail": "Re: Order status - Contact"
-    },
-    {
-      "ts": "2026-08-04T14:29:17.639934+00:00",
-      "ticket_id": 233816087,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-04T14:29:17.639942+00:00",
-      "ticket_id": 233821111,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-04T14:29:19.784125+00:00",
-      "ticket_id": 233825482,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Supplement OEM for Elm & Rye \u2014 GMP-Certified, Low MOQ"
-    },
-    {
-      "ts": "2026-08-04T16:28:07.495652+00:00",
-      "ticket_id": 233829061,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Have you seen this too?"
-    },
-    {
-      "ts": "2026-08-04T18:13:24.603510+00:00",
-      "ticket_id": 233848738,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your July Search performance for https://elmandrye.com/"
-    },
-    {
-      "ts": "2026-08-04T18:13:26.375794+00:00",
-      "ticket_id": 233849280,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 8.4.2026"
-    },
-    {
-      "ts": "2026-08-04T18:13:26.375829+00:00",
-      "ticket_id": 233860010,
-      "action": "skip_spam",
-      "detail": "\ud83d\udce3 Your Cannabis Promotions Could Reach More Customers \ud83c\udf3f"
-    },
     {
       "ts": "2026-08-04T18:13:27.908681+00:00",
       "ticket_id": 233860253,
@@ -1203,6 +1155,54 @@
       "ticket_id": 235241130,
       "action": "skip_spam",
       "detail": "A new affiliate, Hoang Duc Hien Hoang Duc, has signed up for your program!"
+    },
+    {
+      "ts": "2026-08-13T13:23:56.951618+00:00",
+      "ticket_id": 235241646,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Unable to Make Purchase"
+    },
+    {
+      "ts": "2026-08-13T13:23:56.951644+00:00",
+      "ticket_id": 235242528,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
+    },
+    {
+      "ts": "2026-08-13T13:23:59.124924+00:00",
+      "ticket_id": 235244915,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Discover Natural Ingredients for ELM B6"
+    },
+    {
+      "ts": "2026-08-13T13:24:00.834753+00:00",
+      "ticket_id": 235259884,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Mrantz, Deborah  Order 86018"
+    },
+    {
+      "ts": "2026-08-13T13:24:00.834771+00:00",
+      "ticket_id": 235262293,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-13T13:24:02.746158+00:00",
+      "ticket_id": 235282022,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Jetpack Monthly Report - https://buyeverest.com"
+    },
+    {
+      "ts": "2026-08-13T13:24:02.746178+00:00",
+      "ticket_id": 235303377,
+      "action": "skip_spam",
+      "detail": "Action needed by 28th August: Install the Awin Shopify app to keep your affiliate tracking active"
+    },
+    {
+      "ts": "2026-08-13T13:24:03.795884+00:00",
+      "ticket_id": 235307914,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[For Shopify Store] A visitor spent 3 seconds on your listing page \u2014 then scrolled away."
     }
   ]
 }
