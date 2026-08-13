@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235368947,
-  "last_run_at": "2026-08-13T18:39:47.447039+00:00",
+  "last_processed_ticket_id": 235374930,
+  "last_run_at": "2026-08-13T19:45:36.932765+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-13",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T14:22:45.813978+00:00",
-      "ticket_id": 233971814,
-      "action": "unknown_escalated_for_aj",
-      "detail": "elmandrye.com + Recharge"
-    },
     {
       "ts": "2026-08-05T14:22:47.408281+00:00",
       "ticket_id": 233977622,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235368947,
       "action": "unknown_escalated_for_aj",
       "detail": "Website Need Improvements !!!"
+    },
+    {
+      "ts": "2026-08-13T19:45:36.932742+00:00",
+      "ticket_id": 235374930,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Next Gen Branded Ingredients for Product Innovation \u2013 MAKAMS Industries"
     }
   ]
 }
