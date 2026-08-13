@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 235374930,
-  "last_run_at": "2026-08-13T19:45:36.932765+00:00",
+  "last_processed_ticket_id": 235380707,
+  "last_run_at": "2026-08-13T20:24:22.333530+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-13",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T14:22:47.408281+00:00",
-      "ticket_id": 233977622,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Pupper + Recharge"
-    },
-    {
-      "ts": "2026-08-05T14:22:48.417154+00:00",
-      "ticket_id": 233983586,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I have an idea for your libido supplement"
-    },
     {
       "ts": "2026-08-05T14:22:49.909395+00:00",
       "ticket_id": 233989029,
@@ -1203,6 +1191,18 @@
       "ticket_id": 235374930,
       "action": "unknown_escalated_for_aj",
       "detail": "Next Gen Branded Ingredients for Product Innovation \u2013 MAKAMS Industries"
+    },
+    {
+      "ts": "2026-08-13T20:24:20.648831+00:00",
+      "ticket_id": 235380628,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Join our webinar: ChatGPT Ads, a new channel for marketers"
+    },
+    {
+      "ts": "2026-08-13T20:24:22.333508+00:00",
+      "ticket_id": 235380707,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Join our webinar: ChatGPT Ads, a new channel for marketers"
     }
   ]
 }
