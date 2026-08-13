@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 235358036,
-  "last_run_at": "2026-08-13T17:40:43.703208+00:00",
+  "last_processed_ticket_id": 235368947,
+  "last_run_at": "2026-08-13T18:39:47.447039+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-13",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T14:22:39.329222+00:00",
-      "ticket_id": 233912774,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Iconic comfort, reimagined for you"
-    },
-    {
-      "ts": "2026-08-05T14:22:41.075848+00:00",
-      "ticket_id": 233913371,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Iconic comfort, reimagined for you"
-    },
-    {
-      "ts": "2026-08-05T14:22:42.654841+00:00",
-      "ticket_id": 233925921,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Your 10% off is about to expire!"
-    },
-    {
-      "ts": "2026-08-05T14:22:42.654878+00:00",
-      "ticket_id": 233932896,
-      "action": "skip_spam",
-      "detail": "Airmiles for Gamers - partnership opportunity for Pupper"
-    },
-    {
-      "ts": "2026-08-05T14:22:43.786273+00:00",
-      "ticket_id": 233967874,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: There\u2019s a friction point on Elm & Rye"
-    },
     {
       "ts": "2026-08-05T14:22:45.813978+00:00",
       "ticket_id": 233971814,
@@ -1203,6 +1173,36 @@
       "ticket_id": 235358036,
       "action": "error_crash",
       "detail": "Order number 85768"
+    },
+    {
+      "ts": "2026-08-13T18:39:39.686540+00:00",
+      "ticket_id": 235365801,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Why Merchants Are Migrating To FastCommerce"
+    },
+    {
+      "ts": "2026-08-13T18:39:43.021669+00:00",
+      "ticket_id": 235365989,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\u2728 More Revenue Without More Customers? \ud83d\udd13"
+    },
+    {
+      "ts": "2026-08-13T18:39:45.023864+00:00",
+      "ticket_id": 235368073,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Order Not Shipped"
+    },
+    {
+      "ts": "2026-08-13T18:39:46.184473+00:00",
+      "ticket_id": 235368493,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-13T18:39:47.447020+00:00",
+      "ticket_id": 235368947,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Website Need Improvements !!!"
     }
   ]
 }
