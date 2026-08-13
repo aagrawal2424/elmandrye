@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 235307914,
-  "last_run_at": "2026-08-13T13:24:03.795893+00:00",
+  "last_processed_ticket_id": 235337205,
+  "last_run_at": "2026-08-13T15:38:38.697336+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-13",
   "ticket_actions": [
-    {
-      "ts": "2026-08-04T18:13:27.908681+00:00",
-      "ticket_id": 233860253,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE:..."
-    },
-    {
-      "ts": "2026-08-04T20:02:02.782768+00:00",
-      "ticket_id": 233871674,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Re: New customer message on July 7, 2026 at 5:33 am"
-    },
-    {
-      "ts": "2026-08-04T20:02:03.958510+00:00",
-      "ticket_id": 233871259,
-      "action": "unknown_escalated_for_aj",
-      "detail": "In case you missed it: here's what's new at Gorgias with a quick video walkthrough"
-    },
-    {
-      "ts": "2026-08-04T20:02:05.157961+00:00",
-      "ticket_id": 233873491,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elm & Rye supplement AI visibility"
-    },
-    {
-      "ts": "2026-08-04T21:23:07.167822+00:00",
-      "ticket_id": 233879639,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Hello..."
-    },
     {
       "ts": "2026-08-04T22:35:32.462827+00:00",
       "ticket_id": 233886300,
@@ -1203,6 +1173,36 @@
       "ticket_id": 235307914,
       "action": "unknown_escalated_for_aj",
       "detail": "[For Shopify Store] A visitor spent 3 seconds on your listing page \u2014 then scrolled away."
+    },
+    {
+      "ts": "2026-08-13T15:38:29.645161+00:00",
+      "ticket_id": 235321520,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I am providing a guest posting you are interested please let me know"
+    },
+    {
+      "ts": "2026-08-13T15:38:29.645193+00:00",
+      "ticket_id": 235328558,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-13T15:38:36.943825+00:00",
+      "ticket_id": 235332659,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Scaling concept for libido supplement"
+    },
+    {
+      "ts": "2026-08-13T15:38:38.697300+00:00",
+      "ticket_id": 235336360,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Order"
+    },
+    {
+      "ts": "2026-08-13T15:38:38.697332+00:00",
+      "ticket_id": 235337205,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
     }
   ]
 }
