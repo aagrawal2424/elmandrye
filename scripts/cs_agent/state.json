@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 235355597,
-  "last_run_at": "2026-08-13T16:35:34.138589+00:00",
+  "last_processed_ticket_id": 235358036,
+  "last_run_at": "2026-08-13T17:40:43.703208+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-13",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T14:22:30.509028+00:00",
-      "ticket_id": 233900475,
-      "action": "skip_spam",
-      "detail": "sendtoneetu and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-08-05T14:22:37.712107+00:00",
-      "ticket_id": 233908080,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Libido women capsules"
-    },
     {
       "ts": "2026-08-05T14:22:39.329222+00:00",
       "ticket_id": 233912774,
@@ -1203,6 +1191,18 @@
       "ticket_id": 235355597,
       "action": "unknown_escalated_for_aj",
       "detail": "the upsell app tax nobody talks about"
+    },
+    {
+      "ts": "2026-08-13T17:40:42.639455+00:00",
+      "ticket_id": 235357159,
+      "action": "error_crash",
+      "detail": "Request refund or discount - Contact"
+    },
+    {
+      "ts": "2026-08-13T17:40:43.703193+00:00",
+      "ticket_id": 235358036,
+      "action": "error_crash",
+      "detail": "Order number 85768"
     }
   ]
 }
