@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 235389216,
-  "last_run_at": "2026-08-13T22:09:41.855824+00:00",
+  "last_processed_ticket_id": 235391040,
+  "last_run_at": "2026-08-13T23:03:47.576444+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-13",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T14:22:53.753489+00:00",
-      "ticket_id": 233997840,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Let Other Shopify Stores Sell Your Products"
-    },
-    {
-      "ts": "2026-08-05T14:22:54.775378+00:00",
-      "ticket_id": 233998918,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Let Other Shopify Stores Sell Your Products"
-    },
-    {
-      "ts": "2026-08-05T14:22:54.775411+00:00",
-      "ticket_id": 233999300,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-05T14:22:56.899521+00:00",
-      "ticket_id": 233999412,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Product question - Contact"
-    },
-    {
-      "ts": "2026-08-05T14:22:58.996896+00:00",
-      "ticket_id": 234002453,
-      "action": "error_crash",
-      "detail": "Order #85854"
-    },
     {
       "ts": "2026-08-05T16:14:36.998118+00:00",
       "ticket_id": 234006616,
@@ -1203,6 +1173,36 @@
       "ticket_id": 235389216,
       "action": "skip_spam",
       "detail": "See what anton.monolite and 7 others shared"
+    },
+    {
+      "ts": "2026-08-13T23:03:43.545814+00:00",
+      "ticket_id": 235390143,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Order #85971 confirmed"
+    },
+    {
+      "ts": "2026-08-13T23:03:44.366425+00:00",
+      "ticket_id": 235390377,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Where is my order"
+    },
+    {
+      "ts": "2026-08-13T23:03:45.421747+00:00",
+      "ticket_id": 235390828,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Authorize.Net Verification PIN"
+    },
+    {
+      "ts": "2026-08-13T23:03:46.491228+00:00",
+      "ticket_id": 235390983,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Security alert"
+    },
+    {
+      "ts": "2026-08-13T23:03:47.576425+00:00",
+      "ticket_id": 235391040,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Payment Gateway Account Password Update"
     }
   ]
 }
