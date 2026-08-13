@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235231158,
-  "last_run_at": "2026-08-12T23:54:31.063858+00:00",
+  "last_processed_ticket_id": 235241130,
+  "last_run_at": "2026-08-13T02:19:20.685319+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-12",
+  "daily_refund_date": "2026-08-13",
   "ticket_actions": [
-    {
-      "ts": "2026-08-04T14:29:15.444063+00:00",
-      "ticket_id": 233753254,
-      "action": "unknown_escalated_for_aj",
-      "detail": "UAE Projects 2026/2027"
-    },
     {
       "ts": "2026-08-04T14:29:17.639900+00:00",
       "ticket_id": 233808459,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235231158,
       "action": "skip_spam",
       "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-08-13T02:19:20.685299+00:00",
+      "ticket_id": 235241130,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Hoang Duc Hien Hoang Duc, has signed up for your program!"
     }
   ]
 }
