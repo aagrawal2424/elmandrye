@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235494357,
-  "last_run_at": "2026-08-14T17:29:59.118682+00:00",
+  "last_processed_ticket_id": 235513676,
+  "last_run_at": "2026-08-14T18:28:16.657985+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-14",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T17:56:45.940757+00:00",
-      "ticket_id": 234030022,
-      "action": "skip_spam",
-      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-08-05T17:56:45.940765+00:00",
       "ticket_id": 234030088,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235494357,
       "action": "unknown_escalated_for_aj",
       "detail": "5 Guest Post Sites for Just $150 \u2013 Limited Offer"
+    },
+    {
+      "ts": "2026-08-14T18:28:16.657968+00:00",
+      "ticket_id": 235513676,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
     }
   ]
 }
