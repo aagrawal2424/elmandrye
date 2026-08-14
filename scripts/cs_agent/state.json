@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235513676,
-  "last_run_at": "2026-08-14T19:32:05.097164+00:00",
+  "last_processed_ticket_id": 235524107,
+  "last_run_at": "2026-08-14T20:06:46.418408+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-14",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T17:56:45.940765+00:00",
-      "ticket_id": 234030088,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-08-05T17:56:45.940771+00:00",
       "ticket_id": 234030232,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235513676,
       "action": "error_crash",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-14T20:06:46.418389+00:00",
+      "ticket_id": 235524107,
+      "action": "skip_spam",
+      "detail": "Sell to millions with zero ad spend"
     }
   ]
 }
