@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235524107,
-  "last_run_at": "2026-08-14T20:06:46.418408+00:00",
+  "last_processed_ticket_id": 235524831,
+  "last_run_at": "2026-08-14T20:44:17.472040+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-14",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T17:56:45.940771+00:00",
-      "ticket_id": 234030232,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-08-05T19:47:29.430961+00:00",
       "ticket_id": 234046619,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235524107,
       "action": "skip_spam",
       "detail": "Sell to millions with zero ad spend"
+    },
+    {
+      "ts": "2026-08-14T20:44:17.472022+00:00",
+      "ticket_id": 235524831,
+      "action": "skip_spam",
+      "detail": "Automatic reply: Last Call: BOGO Fuel \ud83d\udea8"
     }
   ]
 }
