@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 235399963,
-  "last_run_at": "2026-08-14T02:21:21.855646+00:00",
+  "last_processed_ticket_id": 235468199,
+  "last_run_at": "2026-08-14T13:19:14.083690+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-14",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T16:14:39.010801+00:00",
-      "ticket_id": 234009451,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Skipped order but still charged"
-    },
-    {
-      "ts": "2026-08-05T16:14:39.947849+00:00",
-      "ticket_id": 234020311,
-      "action": "error_crash",
-      "detail": "Fwd: Order #85454 confirmed"
-    },
-    {
-      "ts": "2026-08-05T16:14:42.302363+00:00",
-      "ticket_id": 234021211,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Subscription Adjustment Request"
-    },
-    {
-      "ts": "2026-08-05T17:56:44.133385+00:00",
-      "ticket_id": 234023597,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Noticed a few Website issues"
-    },
     {
       "ts": "2026-08-05T17:56:44.133416+00:00",
       "ticket_id": 234028331,
@@ -1203,6 +1179,30 @@
       "ticket_id": 235399963,
       "action": "skip_spam",
       "detail": "Payout for Aug 14, 2026 ($78.06 USD)"
+    },
+    {
+      "ts": "2026-08-14T13:18:38.992969+00:00",
+      "ticket_id": 235402014,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-08-14T13:19:07.714224+00:00",
+      "ticket_id": 235403372,
+      "action": "unknown_escalated_for_aj",
+      "detail": "cow mat"
+    },
+    {
+      "ts": "2026-08-14T13:19:07.714252+00:00",
+      "ticket_id": 235404589,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Roberto Brinegar, has signed up for your program!"
+    },
+    {
+      "ts": "2026-08-14T13:19:14.083670+00:00",
+      "ticket_id": 235468199,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your NITRO LOGISTICS LLC receipt [#1224-6486]"
     }
   ]
 }
