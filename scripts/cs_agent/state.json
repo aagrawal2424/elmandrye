@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235595622,
-  "last_run_at": "2026-08-15T13:50:10.217563+00:00",
+  "last_processed_ticket_id": 235597317,
+  "last_run_at": "2026-08-15T14:14:10.829170+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-15",
   "ticket_actions": [
-    {
-      "ts": "2026-08-06T14:25:42.119330+00:00",
-      "ticket_id": 234081139,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 6, 2026 ($45.43 USD)"
-    },
     {
       "ts": "2026-08-06T14:25:43.333973+00:00",
       "ticket_id": 234093081,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235595622,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Items"
+    },
+    {
+      "ts": "2026-08-15T14:14:10.829151+00:00",
+      "ticket_id": 235597317,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
