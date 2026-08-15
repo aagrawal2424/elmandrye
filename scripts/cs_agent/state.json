@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 235524831,
-  "last_run_at": "2026-08-15T01:23:02.152326+00:00",
+  "last_processed_ticket_id": 235556543,
+  "last_run_at": "2026-08-15T12:48:39.947562+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-15",
   "ticket_actions": [
-    {
-      "ts": "2026-08-05T19:47:29.430961+00:00",
-      "ticket_id": 234046619,
-      "action": "error_crash",
-      "detail": "Order status Fwd: [Elm & Rye] Payment for #85697 has been received"
-    },
-    {
-      "ts": "2026-08-05T20:49:45.394808+00:00",
-      "ticket_id": 234051616,
-      "action": "skip_spam",
-      "detail": "Black Friday. Cyber Monday. You're ready."
-    },
-    {
-      "ts": "2026-08-05T23:16:53.270778+00:00",
-      "ticket_id": 234062844,
-      "action": "skip_spam",
-      "detail": "chewy and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-08-06T14:25:38.621821+00:00",
-      "ticket_id": 234067049,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Not receiving order"
-    },
-    {
-      "ts": "2026-08-06T14:25:38.621860+00:00",
-      "ticket_id": 234071729,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 7, 2026 (-$84.61 USD)"
-    },
-    {
-      "ts": "2026-08-06T14:25:41.050173+00:00",
-      "ticket_id": 234072723,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Subscription Adjustment Request"
-    },
     {
       "ts": "2026-08-06T14:25:42.119305+00:00",
       "ticket_id": 234074217,
@@ -1203,6 +1167,42 @@
       "ticket_id": 235524831,
       "action": "skip_spam",
       "detail": "Automatic reply: Last Call: BOGO Fuel \ud83d\udea8"
+    },
+    {
+      "ts": "2026-08-15T12:48:35.733617+00:00",
+      "ticket_id": 235543840,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-08-15T12:48:35.733639+00:00",
+      "ticket_id": 235543937,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-08-15T12:48:35.733645+00:00",
+      "ticket_id": 235549583,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-15T12:48:35.733650+00:00",
+      "ticket_id": 235549667,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 15, 2026 ($77.14 USD)"
+    },
+    {
+      "ts": "2026-08-15T12:48:38.527425+00:00",
+      "ticket_id": 235550317,
+      "action": "unknown_escalated_for_aj",
+      "detail": "An invitation from Dr. Drayton Patterson"
+    },
+    {
+      "ts": "2026-08-15T12:48:39.947548+00:00",
+      "ticket_id": 235556543,
+      "action": "error_crash",
+      "detail": "My order"
     }
   ]
 }
