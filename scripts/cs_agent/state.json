@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235613521,
-  "last_run_at": "2026-08-15T17:37:46.715566+00:00",
+  "last_processed_ticket_id": 235615471,
+  "last_run_at": "2026-08-15T17:57:01.975476+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-15",
   "ticket_actions": [
-    {
-      "ts": "2026-08-06T14:25:48.193945+00:00",
-      "ticket_id": 234135709,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
     {
       "ts": "2026-08-06T14:25:48.990505+00:00",
       "ticket_id": 234136070,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235613521,
       "action": "unknown_escalated_for_aj",
       "detail": "New customer message on August 15, 2026 at 10:13 am"
+    },
+    {
+      "ts": "2026-08-15T17:57:01.975459+00:00",
+      "ticket_id": 235615471,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Spotted an Issues on your site !!"
     }
   ]
 }
