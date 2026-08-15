@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235556543,
-  "last_run_at": "2026-08-15T13:21:06.364781+00:00",
+  "last_processed_ticket_id": 235595622,
+  "last_run_at": "2026-08-15T13:50:10.217563+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-15",
   "ticket_actions": [
-    {
-      "ts": "2026-08-06T14:25:42.119305+00:00",
-      "ticket_id": 234074217,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Premium Cosmetic Packaging Solutions for PUPPER AND FRIENDS LIMITED LIABILITY PARTNERSHIP"
-    },
     {
       "ts": "2026-08-06T14:25:42.119330+00:00",
       "ticket_id": 234081139,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235556543,
       "action": "error_crash",
       "detail": "My order"
+    },
+    {
+      "ts": "2026-08-15T13:50:10.217544+00:00",
+      "ticket_id": 235595622,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Items"
     }
   ]
 }
