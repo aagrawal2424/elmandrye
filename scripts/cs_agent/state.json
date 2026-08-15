@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235601546,
-  "last_run_at": "2026-08-15T15:52:28.116699+00:00",
+  "last_processed_ticket_id": 235606590,
+  "last_run_at": "2026-08-15T16:21:37.891164+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-15",
   "ticket_actions": [
-    {
-      "ts": "2026-08-06T14:25:45.343688+00:00",
-      "ticket_id": 234112080,
-      "action": "unknown_escalated_for_aj",
-      "detail": "You're invited to Cloudflare Connect 2026"
-    },
     {
       "ts": "2026-08-06T14:25:45.343726+00:00",
       "ticket_id": 234122459,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235601546,
       "action": "unknown_escalated_for_aj",
       "detail": "Quick question"
+    },
+    {
+      "ts": "2026-08-15T16:21:37.891143+00:00",
+      "ticket_id": 235606590,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
     }
   ]
 }
