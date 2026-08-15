@@ -883,6 +883,19 @@
       "price_usd": 84.99,
       "reddit_url": "",
       "why_interesting": "Hyperion / Andrew Huberman attention; rare adaptogen (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
+    },
+    {
+      "product_name": "Scopolamine",
+      "product_title": "Scopolamine cognitive support",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9306891518164",
+      "handle": "scopolamine-cognitive-support-19",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/54ed52d7-6b26-45f9-9f05-0a4f9b6383f7/er-product-scopolamine-cognitive-support.png",
+      "created_at": "2026-08-15",
+      "price_usd": 79.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'scopolamine' appears in 2 recent supplement-research papers (most recent example: \"Cognitive improvement and hippocampal BDNF/GFAP alterations by Schinus molle essential oil in a rat model of scopolamine-induced amnesia.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
