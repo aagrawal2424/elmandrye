@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 235606590,
-  "last_run_at": "2026-08-15T17:10:55.444161+00:00",
+  "last_processed_ticket_id": 235613521,
+  "last_run_at": "2026-08-15T17:37:46.715566+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-15",
   "ticket_actions": [
-    {
-      "ts": "2026-08-06T14:25:45.343726+00:00",
-      "ticket_id": 234122459,
-      "action": "skip_spam",
-      "detail": "A new affiliate, PHAM THUY LINH, has signed up for your program!"
-    },
-    {
-      "ts": "2026-08-06T14:25:47.344144+00:00",
-      "ticket_id": 234129522,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Reach new customers with up to $4500 in Google Ads credit"
-    },
     {
       "ts": "2026-08-06T14:25:48.193945+00:00",
       "ticket_id": 234135709,
@@ -1203,6 +1191,18 @@
       "ticket_id": 235606590,
       "action": "skip_spam",
       "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-15T17:37:44.800484+00:00",
+      "ticket_id": 235613518,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on August 15, 2026 at 10:13 am"
+    },
+    {
+      "ts": "2026-08-15T17:37:46.715549+00:00",
+      "ticket_id": 235613521,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on August 15, 2026 at 10:13 am"
     }
   ]
 }
