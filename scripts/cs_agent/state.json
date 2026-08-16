@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 235688863,
-  "last_run_at": "2026-08-16T16:58:03.968360+00:00",
+  "last_processed_ticket_id": 235705446,
+  "last_run_at": "2026-08-16T17:28:19.201203+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-16",
   "ticket_actions": [
-    {
-      "ts": "2026-08-06T14:25:51.794575+00:00",
-      "ticket_id": 234168314,
-      "action": "skip_spam",
-      "detail": "tiktok and ig"
-    },
-    {
-      "ts": "2026-08-07T00:15:36.207981+00:00",
-      "ticket_id": 234173762,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Pterostilbene - high-purity, direct from manufacturer"
-    },
     {
       "ts": "2026-08-07T00:15:37.252556+00:00",
       "ticket_id": 234188971,
@@ -1203,6 +1191,18 @@
       "ticket_id": 235688863,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-16T17:28:17.361704+00:00",
+      "ticket_id": 235704767,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Product question - Contact"
+    },
+    {
+      "ts": "2026-08-16T17:28:19.201186+00:00",
+      "ticket_id": 235705446,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: I noticed few Error on your website"
     }
   ]
 }
