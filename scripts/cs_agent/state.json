@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235645433,
-  "last_run_at": "2026-08-16T13:53:29.195672+00:00",
+  "last_processed_ticket_id": 235688863,
+  "last_run_at": "2026-08-16T14:23:26.937365+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-16",
   "ticket_actions": [
-    {
-      "ts": "2026-08-06T14:25:51.794542+00:00",
-      "ticket_id": 234165034,
-      "action": "unknown_escalated_for_aj",
-      "detail": "logo boxes"
-    },
     {
       "ts": "2026-08-06T14:25:51.794575+00:00",
       "ticket_id": 234168314,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235645433,
       "action": "skip_spam",
       "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-16T14:23:26.937344+00:00",
+      "ticket_id": 235688863,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
