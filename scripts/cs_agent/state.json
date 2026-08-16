@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 235628847,
-  "last_run_at": "2026-08-16T01:00:17.961104+00:00",
+  "last_processed_ticket_id": 235645433,
+  "last_run_at": "2026-08-16T12:49:53.320682+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-16",
   "ticket_actions": [
-    {
-      "ts": "2026-08-06T14:25:50.841568+00:00",
-      "ticket_id": 234159133,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Grow with Meaningful Industry Connections"
-    },
-    {
-      "ts": "2026-08-06T14:25:50.841595+00:00",
-      "ticket_id": 234160061,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-06T14:25:50.841602+00:00",
-      "ticket_id": 234164993,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-08-06T14:25:51.794542+00:00",
       "ticket_id": 234165034,
@@ -1203,6 +1185,24 @@
       "ticket_id": 235628847,
       "action": "unknown_escalated_for_aj",
       "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-08-16T12:49:50.967591+00:00",
+      "ticket_id": 235639379,
+      "action": "unknown_escalated_for_aj",
+      "detail": "pupper"
+    },
+    {
+      "ts": "2026-08-16T12:49:53.320658+00:00",
+      "ticket_id": 235642164,
+      "action": "error_crash",
+      "detail": "Re: My order"
+    },
+    {
+      "ts": "2026-08-16T12:49:53.320678+00:00",
+      "ticket_id": 235645433,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
     }
   ]
 }
