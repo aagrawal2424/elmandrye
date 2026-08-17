@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 235705446,
-  "last_run_at": "2026-08-16T23:57:32.354260+00:00",
+  "last_processed_ticket_id": 235777260,
+  "last_run_at": "2026-08-17T12:54:32.779550+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-16",
+  "daily_refund_date": "2026-08-17",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T00:15:37.252556+00:00",
-      "ticket_id": 234188971,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I noticed few Gaps on your website"
-    },
-    {
-      "ts": "2026-08-07T00:15:38.446255+00:00",
-      "ticket_id": 234189159,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Real landed cost vs what your supplier quotes"
-    },
-    {
-      "ts": "2026-08-07T00:15:39.717168+00:00",
-      "ticket_id": 234194130,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Skio update: the July roundup"
-    },
-    {
-      "ts": "2026-08-07T00:15:41.510273+00:00",
-      "ticket_id": 234194149,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Skio update: the July roundup"
-    },
-    {
-      "ts": "2026-08-07T00:15:43.539380+00:00",
-      "ticket_id": 234221805,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\u2753 Why Cannabis Brands Can\u2019t Rely on One Marketing Channel \ud83d\udcca"
-    },
-    {
-      "ts": "2026-08-07T00:15:43.539414+00:00",
-      "ticket_id": 234241982,
-      "action": "skip_spam",
-      "detail": "elmandrye, catch up on moments that you've missed"
-    },
     {
       "ts": "2026-08-07T00:15:44.826758+00:00",
       "ticket_id": 234247198,
@@ -1203,6 +1167,42 @@
       "ticket_id": 235705446,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: I noticed few Error on your website"
+    },
+    {
+      "ts": "2026-08-17T12:54:25.660685+00:00",
+      "ticket_id": 235735197,
+      "action": "unknown_escalated_for_aj",
+      "detail": "gummy actives pricing"
+    },
+    {
+      "ts": "2026-08-17T12:54:25.660714+00:00",
+      "ticket_id": 235742821,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 17, 2026 ($28.45 USD)"
+    },
+    {
+      "ts": "2026-08-17T12:54:28.105124+00:00",
+      "ticket_id": 235755908,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Curious what elmandrye.com is worth...?"
+    },
+    {
+      "ts": "2026-08-17T12:54:29.429247+00:00",
+      "ticket_id": 235756219,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Filling a catalog gap"
+    },
+    {
+      "ts": "2026-08-17T12:54:31.704707+00:00",
+      "ticket_id": 235776024,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New reasons prevent pages from being indexed on site https://elmandrye.com/"
+    },
+    {
+      "ts": "2026-08-17T12:54:32.779535+00:00",
+      "ticket_id": 235777260,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
     }
   ]
 }
