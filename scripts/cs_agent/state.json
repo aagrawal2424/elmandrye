@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 235858055,
-  "last_run_at": "2026-08-17T17:45:59.874722+00:00",
+  "last_processed_ticket_id": 235863456,
+  "last_run_at": "2026-08-17T18:16:07.418659+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-17",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T13:16:27.840861+00:00",
-      "ticket_id": 234343201,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-08-07T14:28:01.060652+00:00",
-      "ticket_id": 234358527,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Is Elm & Rye a fit for an upcoming TV segment?"
-    },
-    {
-      "ts": "2026-08-07T14:28:01.060683+00:00",
-      "ticket_id": 234360165,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-08-07T14:28:02.949765+00:00",
       "ticket_id": 234362590,
@@ -1201,6 +1183,24 @@
     {
       "ts": "2026-08-17T17:45:59.874701+00:00",
       "ticket_id": 235858055,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Action Required] Review Google Meet automatic note-taking controls before Sep 21, 2026"
+    },
+    {
+      "ts": "2026-08-17T18:16:04.285971+00:00",
+      "ticket_id": 235861425,
+      "action": "unknown_escalated_for_aj",
+      "detail": "pupper.com vs vetriscience.com"
+    },
+    {
+      "ts": "2026-08-17T18:16:06.173361+00:00",
+      "ticket_id": 235863369,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Curcumin for Your Upcoming Projects \u2013 CurcXR |22 Elm Rye Inc."
+    },
+    {
+      "ts": "2026-08-17T18:16:07.418640+00:00",
+      "ticket_id": 235863456,
       "action": "unknown_escalated_for_aj",
       "detail": "[Action Required] Review Google Meet automatic note-taking controls before Sep 21, 2026"
     }
