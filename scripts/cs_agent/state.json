@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 235831639,
-  "last_run_at": "2026-08-17T14:47:02.299594+00:00",
+  "last_processed_ticket_id": 235838032,
+  "last_run_at": "2026-08-17T15:12:09.306981+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-17",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T00:15:47.525574+00:00",
-      "ticket_id": 234262722,
-      "action": "skip_spam",
-      "detail": "elmandrye, see el_chicano_tezcatlipoca, wellnexsolutions and more in your feed"
-    },
-    {
-      "ts": "2026-08-07T00:15:47.525582+00:00",
-      "ticket_id": 234264739,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-08-07T00:15:49.161886+00:00",
-      "ticket_id": 234266234,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Create your first ChatGPT ad in minutes"
-    },
     {
       "ts": "2026-08-07T13:16:16.383464+00:00",
       "ticket_id": 234269090,
@@ -1201,6 +1183,24 @@
     {
       "ts": "2026-08-17T14:47:02.299575+00:00",
       "ticket_id": 235831639,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-08-17T15:12:06.377797+00:00",
+      "ticket_id": 235835151,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Foldable Elevated Dog Cot | amfori BSCI Audited Factory"
+    },
+    {
+      "ts": "2026-08-17T15:12:07.983293+00:00",
+      "ticket_id": 235837349,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Fish oil OEM: One contract for fish oil \u2014 from oil to bottle"
+    },
+    {
+      "ts": "2026-08-17T15:12:09.306940+00:00",
+      "ticket_id": 235838032,
       "action": "unknown_escalated_for_aj",
       "detail": ""
     }
