@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 235863456,
-  "last_run_at": "2026-08-17T18:16:07.418659+00:00",
+  "last_processed_ticket_id": 235867750,
+  "last_run_at": "2026-08-17T19:03:02.437483+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-17",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T14:28:02.949765+00:00",
-      "ticket_id": 234362590,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Pterostilbene & \u03b2-NMN \u2014 high purity, direct manufacturer"
-    },
-    {
-      "ts": "2026-08-07T15:27:57.776980+00:00",
-      "ticket_id": 234364720,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Webinar Invite: Become a Better Affiliate Manager"
-    },
     {
       "ts": "2026-08-07T15:27:59.680288+00:00",
       "ticket_id": 234366844,
@@ -1203,6 +1191,18 @@
       "ticket_id": 235863456,
       "action": "unknown_escalated_for_aj",
       "detail": "[Action Required] Review Google Meet automatic note-taking controls before Sep 21, 2026"
+    },
+    {
+      "ts": "2026-08-17T19:03:02.437450+00:00",
+      "ticket_id": 235866555,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Could you please review this for me?"
+    },
+    {
+      "ts": "2026-08-17T19:03:02.437479+00:00",
+      "ticket_id": 235867750,
+      "action": "skip_spam",
+      "detail": "aliciablasing7 and 7 others recently added to their stories"
     }
   ]
 }
