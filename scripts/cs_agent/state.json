@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235874808,
-  "last_run_at": "2026-08-17T21:01:47.301208+00:00",
+  "last_processed_ticket_id": 235880663,
+  "last_run_at": "2026-08-17T21:35:44.328961+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-17",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T15:28:01.017844+00:00",
-      "ticket_id": 234372480,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Closing this out!"
-    },
     {
       "ts": "2026-08-07T16:27:28.145516+00:00",
       "ticket_id": 234375216,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235874808,
       "action": "skip_spam",
       "detail": "How to turn one TikTok video into a sales funnel"
+    },
+    {
+      "ts": "2026-08-17T21:35:44.328938+00:00",
+      "ticket_id": 235880663,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your receipt from Sendlane #2066-8200"
     }
   ]
 }
