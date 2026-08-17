@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235867750,
-  "last_run_at": "2026-08-17T19:58:20.950931+00:00",
+  "last_processed_ticket_id": 235874808,
+  "last_run_at": "2026-08-17T20:36:26.699523+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-17",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T15:27:59.680288+00:00",
-      "ticket_id": 234366844,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Check Out the Hottest Brands Available!"
-    },
     {
       "ts": "2026-08-07T15:28:01.017844+00:00",
       "ticket_id": 234372480,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235867750,
       "action": "skip_spam",
       "detail": "aliciablasing7 and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-17T20:36:26.699500+00:00",
+      "ticket_id": 235874808,
+      "action": "skip_spam",
+      "detail": "How to turn one TikTok video into a sales funnel"
     }
   ]
 }
