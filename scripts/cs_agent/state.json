@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 235880663,
-  "last_run_at": "2026-08-17T22:33:23.506065+00:00",
+  "last_processed_ticket_id": 235888465,
+  "last_run_at": "2026-08-17T22:56:59.248375+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-17",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T16:27:28.145516+00:00",
-      "ticket_id": 234375216,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-07T16:27:29.668027+00:00",
-      "ticket_id": 234379907,
-      "action": "error_crash",
-      "detail": "Return order"
-    },
     {
       "ts": "2026-08-07T17:26:52.592980+00:00",
       "ticket_id": 234383116,
@@ -1203,6 +1191,18 @@
       "ticket_id": 235880663,
       "action": "unknown_escalated_for_aj",
       "detail": "Your receipt from Sendlane #2066-8200"
+    },
+    {
+      "ts": "2026-08-17T22:56:57.150470+00:00",
+      "ticket_id": 235888161,
+      "action": "skip_spam",
+      "detail": "See el_chicano_tezcatlipoca, mbpfannerstill and more in your feed"
+    },
+    {
+      "ts": "2026-08-17T22:56:59.248353+00:00",
+      "ticket_id": 235888465,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Inquiry for Potential Business Collaboration"
     }
   ]
 }
