@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235826420,
-  "last_run_at": "2026-08-17T14:11:43.180482+00:00",
+  "last_processed_ticket_id": 235831639,
+  "last_run_at": "2026-08-17T14:47:02.299594+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-17",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T00:15:47.525539+00:00",
-      "ticket_id": 234259026,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Create your first ChatGPT ad in minutes"
-    },
     {
       "ts": "2026-08-07T00:15:47.525574+00:00",
       "ticket_id": 234262722,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235826420,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-17T14:47:02.299575+00:00",
+      "ticket_id": 235831639,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
     }
   ]
 }
