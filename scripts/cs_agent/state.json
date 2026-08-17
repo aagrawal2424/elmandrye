@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 235777260,
-  "last_run_at": "2026-08-17T13:41:12.108260+00:00",
+  "last_processed_ticket_id": 235826420,
+  "last_run_at": "2026-08-17T14:11:43.180482+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-17",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T00:15:44.826758+00:00",
-      "ticket_id": 234247198,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your DreamHost server upgrade (iad1-shared-d12-03) is complete"
-    },
-    {
-      "ts": "2026-08-07T00:15:45.899373+00:00",
-      "ticket_id": 234253756,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Webinar Invite: Become a Better Affiliate Manager"
-    },
     {
       "ts": "2026-08-07T00:15:47.525539+00:00",
       "ticket_id": 234259026,
@@ -1203,6 +1191,18 @@
       "ticket_id": 235777260,
       "action": "error_crash",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-17T14:11:43.180449+00:00",
+      "ticket_id": 235826044,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Wanted to check something first"
+    },
+    {
+      "ts": "2026-08-17T14:11:43.180479+00:00",
+      "ticket_id": 235826420,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
