@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235974434,
-  "last_run_at": "2026-08-18T13:48:17.511109+00:00",
+  "last_processed_ticket_id": 235996620,
+  "last_run_at": "2026-08-18T14:19:52.919760+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-18",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T17:26:56.696920+00:00",
-      "ticket_id": 234385231,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Request WO0000005043760: Status has been updated to Cancelled."
-    },
     {
       "ts": "2026-08-07T18:25:02.411713+00:00",
       "ticket_id": 234388782,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235974434,
       "action": "error_crash",
       "detail": "I have never received my order"
+    },
+    {
+      "ts": "2026-08-18T14:19:52.919741+00:00",
+      "ticket_id": 235996620,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
