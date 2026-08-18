@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 235894003,
-  "last_run_at": "2026-08-18T01:13:01.989059+00:00",
+  "last_processed_ticket_id": 235974434,
+  "last_run_at": "2026-08-18T12:56:10.308783+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-18",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T17:26:53.873215+00:00",
-      "ticket_id": 234383193,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thank you for your inquiry [Xometry Support] CVS-82215 Emails Sent to Wrong Person | Ticket:  05666160"
-    },
-    {
-      "ts": "2026-08-07T17:26:54.829623+00:00",
-      "ticket_id": 234383271,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your new HappyOrNot invoicing conversation has been opened"
-    },
-    {
-      "ts": "2026-08-07T17:26:55.681292+00:00",
-      "ticket_id": 234383371,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thanks for getting in touch with Wine Auctioneer"
-    },
     {
       "ts": "2026-08-07T17:26:56.696920+00:00",
       "ticket_id": 234385231,
@@ -1203,6 +1185,24 @@
       "ticket_id": 235894003,
       "action": "unknown_escalated_for_aj",
       "detail": "Discover Your Perfect Brand Match!"
+    },
+    {
+      "ts": "2026-08-18T12:56:06.597122+00:00",
+      "ticket_id": 235899000,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 18, 2026 ($105.59 USD)"
+    },
+    {
+      "ts": "2026-08-18T12:56:08.385849+00:00",
+      "ticket_id": 235972512,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Fix your elmandrye.com issues"
+    },
+    {
+      "ts": "2026-08-18T12:56:10.308767+00:00",
+      "ticket_id": 235974434,
+      "action": "error_crash",
+      "detail": "I have never received my order"
     }
   ]
 }
