@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236037874,
-  "last_run_at": "2026-08-18T19:56:03.138687+00:00",
+  "last_processed_ticket_id": 236046908,
+  "last_run_at": "2026-08-18T20:32:16.335814+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-18",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T19:31:34.510412+00:00",
-      "ticket_id": 234398847,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CSM-406893 Request WO0000004797380: Status has been updated to Cancelled."
-    },
     {
       "ts": "2026-08-07T19:31:36.562278+00:00",
       "ticket_id": 234398942,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236037874,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Address change"
+    },
+    {
+      "ts": "2026-08-18T20:32:16.335790+00:00",
+      "ticket_id": 236046908,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\u2b06\ufe0f Plot twist: SEO can get you high(er rankings) \ud83c\udf31\u00a0\u00a0"
     }
   ]
 }
