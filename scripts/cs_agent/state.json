@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236033335,
-  "last_run_at": "2026-08-18T18:16:37.398592+00:00",
+  "last_processed_ticket_id": 236037874,
+  "last_run_at": "2026-08-18T19:02:31.795354+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-18",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T18:25:06.577251+00:00",
-      "ticket_id": 234390259,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Cancel Order"
-    },
-    {
-      "ts": "2026-08-07T18:25:06.577284+00:00",
-      "ticket_id": 234395683,
-      "action": "skip_spam",
-      "detail": "kellybbird and 7 others recently added to their stories"
-    },
     {
       "ts": "2026-08-07T19:31:34.510412+00:00",
       "ticket_id": 234398847,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236033335,
       "action": "unknown_escalated_for_aj",
       "detail": "Pip - one thing"
+    },
+    {
+      "ts": "2026-08-18T19:02:28.437108+00:00",
+      "ticket_id": 236036879,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Ship to Bakersfield"
+    },
+    {
+      "ts": "2026-08-18T19:02:31.795334+00:00",
+      "ticket_id": 236037874,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Address change"
     }
   ]
 }
