@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 235888465,
-  "last_run_at": "2026-08-17T23:53:08.037798+00:00",
+  "last_processed_ticket_id": 235894003,
+  "last_run_at": "2026-08-18T01:13:01.989059+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-17",
+  "daily_refund_date": "2026-08-18",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T17:26:52.592980+00:00",
-      "ticket_id": 234383116,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CVS-82215 Emails Sent to Wrong Person"
-    },
     {
       "ts": "2026-08-07T17:26:53.873215+00:00",
       "ticket_id": 234383193,
@@ -1203,6 +1197,12 @@
       "ticket_id": 235888465,
       "action": "unknown_escalated_for_aj",
       "detail": "Inquiry for Potential Business Collaboration"
+    },
+    {
+      "ts": "2026-08-18T01:13:01.989040+00:00",
+      "ticket_id": 235894003,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Discover Your Perfect Brand Match!"
     }
   ]
 }
