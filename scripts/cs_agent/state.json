@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 236157640,
-  "last_run_at": "2026-08-19T14:25:24.410980+00:00",
+  "last_processed_ticket_id": 236166586,
+  "last_run_at": "2026-08-19T15:02:58.492092+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-19",
   "ticket_actions": [
-    {
-      "ts": "2026-08-08T12:59:51.279474+00:00",
-      "ticket_id": 234423802,
-      "action": "skip_spam",
-      "detail": "From heygracey and others: 3 unread messages"
-    },
-    {
-      "ts": "2026-08-08T12:59:51.279480+00:00",
-      "ticket_id": 234424655,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
-    {
-      "ts": "2026-08-08T12:59:53.564410+00:00",
-      "ticket_id": 234428729,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Come back and get 10% off."
-    },
     {
       "ts": "2026-08-08T12:59:54.416233+00:00",
       "ticket_id": 234429748,
@@ -1203,6 +1185,24 @@
       "ticket_id": 236157640,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-19T15:02:55.392900+00:00",
+      "ticket_id": 236162855,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Discover DV Brands & Gold Bar Quality!"
+    },
+    {
+      "ts": "2026-08-19T15:02:57.023979+00:00",
+      "ticket_id": 236163046,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Turn more shoppers into customers with AI"
+    },
+    {
+      "ts": "2026-08-19T15:02:58.492071+00:00",
+      "ticket_id": 236166586,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Checking on my order"
     }
   ]
 }
