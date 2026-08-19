@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236132908,
-  "last_run_at": "2026-08-19T12:57:09.672112+00:00",
+  "last_processed_ticket_id": 236150095,
+  "last_run_at": "2026-08-19T13:50:29.009151+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-19",
   "ticket_actions": [
-    {
-      "ts": "2026-08-07T22:34:21.432617+00:00",
-      "ticket_id": 234414454,
-      "action": "unknown_escalated_for_aj",
-      "detail": "unsubscribe"
-    },
-    {
-      "ts": "2026-08-08T01:19:35.381051+00:00",
-      "ticket_id": 234419353,
-      "action": "skip_spam",
-      "detail": "Automatic reply:  BOGO Fuel Starts NOW \ud83d\udce3"
-    },
     {
       "ts": "2026-08-08T12:59:51.279452+00:00",
       "ticket_id": 234422840,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236132908,
       "action": "skip_spam",
       "detail": "A new affiliate, Thanh Phung, has signed up for your program!"
+    },
+    {
+      "ts": "2026-08-19T13:50:28.083969+00:00",
+      "ticket_id": 236145303,
+      "action": "error_crash",
+      "detail": "Re: Did not receive order"
+    },
+    {
+      "ts": "2026-08-19T13:50:29.009132+00:00",
+      "ticket_id": 236150095,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Dog supplements in Animal Hospital of Wichita Falls?"
     }
   ]
 }
