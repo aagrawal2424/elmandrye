@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 236182660,
-  "last_run_at": "2026-08-19T16:49:41.008507+00:00",
+  "last_processed_ticket_id": 236186441,
+  "last_run_at": "2026-08-19T17:18:30.210188+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-19",
   "ticket_actions": [
-    {
-      "ts": "2026-08-08T12:59:56.317844+00:00",
-      "ticket_id": 234467796,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Account uodate - Contact"
-    },
-    {
-      "ts": "2026-08-08T12:59:56.317873+00:00",
-      "ticket_id": 234469687,
-      "action": "skip_spam",
-      "detail": "A new affiliate, Maggie Irwin, has signed up for your program!"
-    },
-    {
-      "ts": "2026-08-08T13:52:47.843619+00:00",
-      "ticket_id": 234473580,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Find Your Best Options Today!"
-    },
-    {
-      "ts": "2026-08-08T14:30:55.638465+00:00",
-      "ticket_id": 234478624,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-08T14:30:57.187024+00:00",
-      "ticket_id": 234480235,
-      "action": "error_crash",
-      "detail": "Order 85851"
-    },
-    {
-      "ts": "2026-08-08T15:00:52.339860+00:00",
-      "ticket_id": 234483277,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thank you for your payment"
-    },
     {
       "ts": "2026-08-08T15:00:55.741702+00:00",
       "ticket_id": 234483383,
@@ -1203,6 +1167,42 @@
       "ticket_id": 236182660,
       "action": "unknown_escalated_for_aj",
       "detail": "Beyond another discount code"
+    },
+    {
+      "ts": "2026-08-19T17:18:26.202821+00:00",
+      "ticket_id": 236183720,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-19T17:18:28.785623+00:00",
+      "ticket_id": 236185737,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Glamnetic doubled automation rate. Their CSAT didn\u2019t suffer."
+    },
+    {
+      "ts": "2026-08-19T17:18:28.785653+00:00",
+      "ticket_id": 236185195,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-19T17:18:28.785663+00:00",
+      "ticket_id": 236185296,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-19T17:18:28.785669+00:00",
+      "ticket_id": 236185337,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-19T17:18:30.210171+00:00",
+      "ticket_id": 236186441,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Packaging Services"
     }
   ]
 }
