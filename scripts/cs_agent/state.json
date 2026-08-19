@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236186441,
-  "last_run_at": "2026-08-19T17:46:01.157227+00:00",
+  "last_processed_ticket_id": 236191624,
+  "last_run_at": "2026-08-19T18:12:41.662387+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-19",
   "ticket_actions": [
-    {
-      "ts": "2026-08-08T15:00:55.741702+00:00",
-      "ticket_id": 234483383,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Gorgias Inc receipt [#1041-0625]"
-    },
     {
       "ts": "2026-08-08T16:04:22.396435+00:00",
       "ticket_id": 234487515,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236186441,
       "action": "unknown_escalated_for_aj",
       "detail": "Packaging Services"
+    },
+    {
+      "ts": "2026-08-19T18:12:41.662364+00:00",
+      "ticket_id": 236191624,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Noticed a Few Website Issues"
     }
   ]
 }
