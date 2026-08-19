@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236166586,
-  "last_run_at": "2026-08-19T15:02:58.492092+00:00",
+  "last_processed_ticket_id": 236167857,
+  "last_run_at": "2026-08-19T15:42:42.417172+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-19",
   "ticket_actions": [
-    {
-      "ts": "2026-08-08T12:59:54.416233+00:00",
-      "ticket_id": 234429748,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
     {
       "ts": "2026-08-08T12:59:54.416262+00:00",
       "ticket_id": 234431838,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236166586,
       "action": "unknown_escalated_for_aj",
       "detail": "Checking on my order"
+    },
+    {
+      "ts": "2026-08-19T15:42:42.417153+00:00",
+      "ticket_id": 236167857,
+      "action": "unknown_escalated_for_aj",
+      "detail": "quick question about your shipping protection revenue"
     }
   ]
 }
