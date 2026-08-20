@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236381786,
-  "last_run_at": "2026-08-20T22:48:45.995421+00:00",
+  "last_processed_ticket_id": 236383985,
+  "last_run_at": "2026-08-20T23:14:18.094061+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-20",
   "ticket_actions": [
-    {
-      "ts": "2026-08-10T17:30:10.183640+00:00",
-      "ticket_id": 234758275,
-      "action": "unknown_escalated_for_aj",
-      "detail": "logo boxes"
-    },
-    {
-      "ts": "2026-08-10T17:30:12.183548+00:00",
-      "ticket_id": 234764876,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Is Your Shopify Store Helping Your Business Grow as Fast as It Could?"
-    },
     {
       "ts": "2026-08-10T18:28:22.809212+00:00",
       "ticket_id": 234781581,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236381786,
       "action": "unknown_escalated_for_aj",
       "detail": "Most Shopify stores lose buyers right before checkout"
+    },
+    {
+      "ts": "2026-08-20T23:14:18.094037+00:00",
+      "ticket_id": 236383403,
+      "action": "skip_spam",
+      "detail": "See what anton.monolite and 7 others shared"
+    },
+    {
+      "ts": "2026-08-20T23:14:18.094058+00:00",
+      "ticket_id": 236383985,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
     }
   ]
 }
