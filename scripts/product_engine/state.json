@@ -935,6 +935,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'scopolamine' appears in 2 recent supplement-research papers (most recent example: \"Cognitive improvement and hippocampal BDNF/GFAP alterations by Schinus molle essential oil in a rat model of scopolamine-induced amnesia.\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Wogonin Skullcap",
+      "product_title": "Wogonin skullcap",
+      "category": "supplements",
+      "niche_score": 9,
+      "shopify_product_id": "gid://shopify/Product/9316639178964",
+      "handle": "wogonin-skullcap",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/37de4dac-2709-4af6-ae72-c3f7082819d1/er-product-wogonin-skullcap.png",
+      "created_at": "2026-08-20",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "Specific flavone from skullcap; emerging neuroprotective research (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
     }
   ]
 }
