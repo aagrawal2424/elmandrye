@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236380886,
-  "last_run_at": "2026-08-20T22:14:13.723790+00:00",
+  "last_processed_ticket_id": 236381786,
+  "last_run_at": "2026-08-20T22:48:45.995421+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-20",
   "ticket_actions": [
-    {
-      "ts": "2026-08-10T16:29:19.696453+00:00",
-      "ticket_id": 234746963,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Everest\u2019s customer experience"
-    },
     {
       "ts": "2026-08-10T17:30:10.183640+00:00",
       "ticket_id": 234758275,
@@ -1201,6 +1195,12 @@
     {
       "ts": "2026-08-20T22:14:13.723767+00:00",
       "ticket_id": 236380886,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Most Shopify stores lose buyers right before checkout"
+    },
+    {
+      "ts": "2026-08-20T22:48:45.995401+00:00",
+      "ticket_id": 236381786,
       "action": "unknown_escalated_for_aj",
       "detail": "Most Shopify stores lose buyers right before checkout"
     }
