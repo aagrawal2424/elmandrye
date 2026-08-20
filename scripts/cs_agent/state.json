@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236363050,
-  "last_run_at": "2026-08-20T21:48:34.930546+00:00",
+  "last_processed_ticket_id": 236380886,
+  "last_run_at": "2026-08-20T22:14:13.723790+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-20",
   "ticket_actions": [
-    {
-      "ts": "2026-08-10T16:29:17.673587+00:00",
-      "ticket_id": 234744446,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Investing in Pupper"
-    },
     {
       "ts": "2026-08-10T16:29:19.696453+00:00",
       "ticket_id": 234746963,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236363050,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Website Upgrade? - buyeverest.com"
+    },
+    {
+      "ts": "2026-08-20T22:14:13.723767+00:00",
+      "ticket_id": 236380886,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Most Shopify stores lose buyers right before checkout"
     }
   ]
 }
