@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236351637,
-  "last_run_at": "2026-08-20T19:05:35.346785+00:00",
+  "last_processed_ticket_id": 236363050,
+  "last_run_at": "2026-08-20T19:43:33.406565+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-20",
   "ticket_actions": [
-    {
-      "ts": "2026-08-10T16:29:16.553854+00:00",
-      "ticket_id": 234735968,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Invoice 2786 from Nitro Logistics, LLC"
-    },
     {
       "ts": "2026-08-10T16:29:17.673587+00:00",
       "ticket_id": 234744446,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236351637,
       "action": "unknown_escalated_for_aj",
       "detail": "supplements, Elmandrye.com piece"
+    },
+    {
+      "ts": "2026-08-20T19:43:33.406549+00:00",
+      "ticket_id": 236363050,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Website Upgrade? - buyeverest.com"
     }
   ]
 }
