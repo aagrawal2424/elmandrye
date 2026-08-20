@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 236343329,
-  "last_run_at": "2026-08-20T17:42:32.994012+00:00",
+  "last_processed_ticket_id": 236351637,
+  "last_run_at": "2026-08-20T18:14:51.690438+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-20",
   "ticket_actions": [
-    {
-      "ts": "2026-08-10T14:34:45.628552+00:00",
-      "ticket_id": 234719432,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Retail Services Grocery & Club Channel"
-    },
-    {
-      "ts": "2026-08-10T15:35:14.562800+00:00",
-      "ticket_id": 234729514,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Increase Affiliate Program ROI"
-    },
-    {
-      "ts": "2026-08-10T15:35:16.055038+00:00",
-      "ticket_id": 234732609,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Is Your Shopify Store Helping Your Business Grow as Fast as It Could?"
-    },
     {
       "ts": "2026-08-10T16:29:16.553854+00:00",
       "ticket_id": 234735968,
@@ -1203,6 +1185,24 @@
       "ticket_id": 236343329,
       "action": "unknown_escalated_for_aj",
       "detail": "Need help with Wix?"
+    },
+    {
+      "ts": "2026-08-20T18:14:42.842090+00:00",
+      "ticket_id": 236350932,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Stop Subscription - Contact"
+    },
+    {
+      "ts": "2026-08-20T18:14:49.735065+00:00",
+      "ticket_id": 236351393,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udd0e Your Cannabis Customers Are Asking. AI Is Answering. \ud83e\udd16\u00a0"
+    },
+    {
+      "ts": "2026-08-20T18:14:51.690406+00:00",
+      "ticket_id": 236351637,
+      "action": "unknown_escalated_for_aj",
+      "detail": "supplements, Elmandrye.com piece"
     }
   ]
 }
