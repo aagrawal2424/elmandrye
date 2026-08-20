@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236332289,
-  "last_run_at": "2026-08-20T15:52:52.632787+00:00",
+  "last_processed_ticket_id": 236334670,
+  "last_run_at": "2026-08-20T16:33:36.652350+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-20",
   "ticket_actions": [
-    {
-      "ts": "2026-08-10T13:21:15.230495+00:00",
-      "ticket_id": 234701591,
-      "action": "subscription_cancel_escalated_no_orders",
-      "detail": "Re: Did you see something you liked?"
-    },
     {
       "ts": "2026-08-10T14:34:42.628431+00:00",
       "ticket_id": 234717097,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236332289,
       "action": "unknown_escalated_for_aj",
       "detail": "Salmon DNA is having its moment in skincare. Your brand could be first."
+    },
+    {
+      "ts": "2026-08-20T16:33:36.652328+00:00",
+      "ticket_id": 236334670,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Meet Your New Shopify AI Email Agent"
     }
   ]
 }
