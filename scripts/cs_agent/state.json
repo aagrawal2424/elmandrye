@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 236324724,
-  "last_run_at": "2026-08-20T15:16:07.534030+00:00",
+  "last_processed_ticket_id": 236332289,
+  "last_run_at": "2026-08-20T15:52:52.632787+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-20",
   "ticket_actions": [
-    {
-      "ts": "2026-08-10T13:21:09.942279+00:00",
-      "ticket_id": 234631233,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 10, 2026 ($100.84 USD)"
-    },
-    {
-      "ts": "2026-08-10T13:21:11.150954+00:00",
-      "ticket_id": 234644446,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Category coverage"
-    },
-    {
-      "ts": "2026-08-10T13:21:13.098535+00:00",
-      "ticket_id": 234684392,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udea2\u4e2d\u7f8e\u4e94\u91d1\u4e13\u7ebfDDP\u7269\u6d41\uff5c\u4e00\u7ad9\u5f0f\u5408\u89c4\u7701\u5fc3\u3001\u964d\u672c\u589e\u6548\u89e3\u51b3\u65b9\u6848"
-    },
     {
       "ts": "2026-08-10T13:21:15.230495+00:00",
       "ticket_id": 234701591,
@@ -1203,6 +1185,24 @@
       "ticket_id": 236324724,
       "action": "unknown_escalated_for_aj",
       "detail": "Ready to reach new customers again?"
+    },
+    {
+      "ts": "2026-08-20T15:52:50.265221+00:00",
+      "ticket_id": 236327591,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-08-20T15:52:51.273900+00:00",
+      "ticket_id": 236331365,
+      "action": "unknown_escalated_for_aj",
+      "detail": "packaging samples"
+    },
+    {
+      "ts": "2026-08-20T15:52:52.632767+00:00",
+      "ticket_id": 236332289,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Salmon DNA is having its moment in skincare. Your brand could be first."
     }
   ]
 }
