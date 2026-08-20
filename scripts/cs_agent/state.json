@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236334670,
-  "last_run_at": "2026-08-20T16:33:36.652350+00:00",
+  "last_processed_ticket_id": 236343329,
+  "last_run_at": "2026-08-20T17:04:26.410703+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-20",
   "ticket_actions": [
-    {
-      "ts": "2026-08-10T14:34:42.628431+00:00",
-      "ticket_id": 234717097,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-08-10T14:34:45.628552+00:00",
       "ticket_id": 234719432,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236334670,
       "action": "unknown_escalated_for_aj",
       "detail": "Meet Your New Shopify AI Email Agent"
+    },
+    {
+      "ts": "2026-08-20T17:04:26.410683+00:00",
+      "ticket_id": 236343329,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Need help with Wix?"
     }
   ]
 }
