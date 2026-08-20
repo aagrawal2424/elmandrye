@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 236221943,
-  "last_run_at": "2026-08-20T01:23:37.570188+00:00",
+  "last_processed_ticket_id": 236280602,
+  "last_run_at": "2026-08-20T12:59:40.415681+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-20",
   "ticket_actions": [
-    {
-      "ts": "2026-08-09T13:02:52.199878+00:00",
-      "ticket_id": 234522645,
-      "action": "skip_spam",
-      "detail": "saloniisonii and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-08-09T13:02:54.739709+00:00",
-      "ticket_id": 234533653,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Call for Manuscripts \u2013 The American Journal of Kidney Diseases"
-    },
-    {
-      "ts": "2026-08-09T13:02:56.845278+00:00",
-      "ticket_id": 234563627,
-      "action": "unknown_escalated_for_aj",
-      "detail": "pupper"
-    },
-    {
-      "ts": "2026-08-09T13:55:37.257952+00:00",
-      "ticket_id": 234571755,
-      "action": "error_crash",
-      "detail": "Order #85767"
-    },
-    {
-      "ts": "2026-08-09T14:41:13.453634+00:00",
-      "ticket_id": 234575019,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-09T14:41:15.295583+00:00",
-      "ticket_id": 234575529,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Manufacturing Transparency Inquiry \u2014 Mushroom Comp - Contact"
-    },
-    {
-      "ts": "2026-08-09T16:30:08.995071+00:00",
-      "ticket_id": 234584371,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Report an issue - Contact"
-    },
-    {
-      "ts": "2026-08-09T16:30:10.941797+00:00",
-      "ticket_id": 234587320,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Last chance: $100 off Connect 2026"
-    },
     {
       "ts": "2026-08-09T17:06:48.892057+00:00",
       "ticket_id": 234589018,
@@ -1203,6 +1155,54 @@
       "ticket_id": 236221943,
       "action": "unknown_escalated_for_aj",
       "detail": "Email Notification: support@buyeverest.com"
+    },
+    {
+      "ts": "2026-08-20T12:59:31.333979+00:00",
+      "ticket_id": 236225291,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 20, 2026 ($75.03 USD)"
+    },
+    {
+      "ts": "2026-08-20T12:59:32.576976+00:00",
+      "ticket_id": 236227302,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pupper"
+    },
+    {
+      "ts": "2026-08-20T12:59:34.893306+00:00",
+      "ticket_id": 236229090,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Get a second phone number with Google Voice"
+    },
+    {
+      "ts": "2026-08-20T12:59:37.799904+00:00",
+      "ticket_id": 236239027,
+      "action": "error_crash",
+      "detail": "Report an issue - Contact"
+    },
+    {
+      "ts": "2026-08-20T12:59:38.682227+00:00",
+      "ticket_id": 236249097,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Himalayan Shilajit Resin Supply from Nepal"
+    },
+    {
+      "ts": "2026-08-20T12:59:38.682257+00:00",
+      "ticket_id": 236249984,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-20T12:59:40.415632+00:00",
+      "ticket_id": 236269496,
+      "action": "unknown_escalated_for_aj",
+      "detail": "commission-based Klaviyo for Elm & Rye"
+    },
+    {
+      "ts": "2026-08-20T12:59:40.415676+00:00",
+      "ticket_id": 236280602,
+      "action": "skip_spam",
+      "detail": "Action needed by 28th August: Install the Awin Shopify app to keep your affiliate tracking active"
     }
   ]
 }
