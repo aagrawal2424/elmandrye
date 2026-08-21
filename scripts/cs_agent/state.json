@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236510579,
-  "last_run_at": "2026-08-21T17:36:16.240376+00:00",
+  "last_processed_ticket_id": 236514752,
+  "last_run_at": "2026-08-21T18:02:17.873616+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T13:21:51.796989+00:00",
-      "ticket_id": 235080845,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
     {
       "ts": "2026-08-12T13:21:51.797012+00:00",
       "ticket_id": 235083546,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236510579,
       "action": "unknown_escalated_for_aj",
       "detail": "last one from me"
+    },
+    {
+      "ts": "2026-08-21T18:02:17.873588+00:00",
+      "ticket_id": 236514752,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Cancel subscription  - Contact"
     }
   ]
 }
