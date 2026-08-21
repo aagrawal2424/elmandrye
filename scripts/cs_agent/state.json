@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 236383985,
-  "last_run_at": "2026-08-21T00:25:01.591292+00:00",
+  "last_processed_ticket_id": 236468159,
+  "last_run_at": "2026-08-21T12:58:07.367453+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-10T18:28:22.809212+00:00",
-      "ticket_id": 234781581,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Question before I order"
-    },
-    {
-      "ts": "2026-08-10T18:28:24.217851+00:00",
-      "ticket_id": 234792217,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with susanhbro@yahoo.com"
-    },
-    {
-      "ts": "2026-08-10T19:35:14.037543+00:00",
-      "ticket_id": 234864692,
-      "action": "skip_spam",
-      "detail": "Built-in discovery beats paid ads"
-    },
-    {
-      "ts": "2026-08-10T20:20:46.985883+00:00",
-      "ticket_id": 234879968,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Uncover Your Favorite Brands Here!"
-    },
-    {
-      "ts": "2026-08-10T20:20:49.388041+00:00",
-      "ticket_id": 234880465,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Order #85767"
-    },
-    {
-      "ts": "2026-08-10T20:20:50.517212+00:00",
-      "ticket_id": 234881712,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-10T21:09:42.005254+00:00",
-      "ticket_id": 234883388,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Increase Affiliate Program ROI"
-    },
     {
       "ts": "2026-08-10T22:50:45.930115+00:00",
       "ticket_id": 234891413,
@@ -1203,6 +1161,48 @@
       "ticket_id": 236383985,
       "action": "skip_spam",
       "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
+    },
+    {
+      "ts": "2026-08-21T12:58:03.447594+00:00",
+      "ticket_id": 236388734,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-08-21T12:58:03.447627+00:00",
+      "ticket_id": 236394550,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-21T12:58:04.519124+00:00",
+      "ticket_id": 236394809,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-08-21T12:58:04.519153+00:00",
+      "ticket_id": 236406645,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 21, 2026 ($69.56 USD)"
+    },
+    {
+      "ts": "2026-08-21T12:58:05.493131+00:00",
+      "ticket_id": 236415003,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Naked Nutrition Collab"
+    },
+    {
+      "ts": "2026-08-21T12:58:06.502283+00:00",
+      "ticket_id": 236417409,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: An idea to improve shopper conversion"
+    },
+    {
+      "ts": "2026-08-21T12:58:07.367431+00:00",
+      "ticket_id": 236468159,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Guest Posting Collaboration"
     }
   ]
 }
