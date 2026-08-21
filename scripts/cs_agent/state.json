@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236495502,
-  "last_run_at": "2026-08-21T15:47:04.709064+00:00",
+  "last_processed_ticket_id": 236502644,
+  "last_run_at": "2026-08-21T16:15:41.150768+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-11T18:32:03.279218+00:00",
-      "ticket_id": 235052047,
-      "action": "error_crash",
-      "detail": "Re: Order #85227 updated"
-    },
     {
       "ts": "2026-08-11T19:41:09.966078+00:00",
       "ticket_id": 235059111,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236495502,
       "action": "unknown_escalated_for_aj",
       "detail": "Bovine & Marine Collagen | Quality-Controlled Supply for Elm & Rye"
+    },
+    {
+      "ts": "2026-08-21T16:15:41.150751+00:00",
+      "ticket_id": 236502644,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Domestic credit card processing for Elm & Rye"
     }
   ]
 }
