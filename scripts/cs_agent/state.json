@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236502644,
-  "last_run_at": "2026-08-21T16:15:41.150768+00:00",
+  "last_processed_ticket_id": 236506893,
+  "last_run_at": "2026-08-21T16:56:14.272975+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-11T19:41:09.966078+00:00",
-      "ticket_id": 235059111,
-      "action": "skip_spam",
-      "detail": "See what snoopdogg and 30 others you follow shared"
-    },
     {
       "ts": "2026-08-12T13:21:50.460061+00:00",
       "ticket_id": 235079567,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236502644,
       "action": "unknown_escalated_for_aj",
       "detail": "Domestic credit card processing for Elm & Rye"
+    },
+    {
+      "ts": "2026-08-21T16:56:14.272959+00:00",
+      "ticket_id": 236506893,
+      "action": "error_crash",
+      "detail": "Conversation with Thamica McCook"
     }
   ]
 }
