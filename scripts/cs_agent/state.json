@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236526066,
-  "last_run_at": "2026-08-21T20:09:49.771764+00:00",
+  "last_processed_ticket_id": 236530027,
+  "last_run_at": "2026-08-21T20:42:13.848967+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T14:34:30.739309+00:00",
-      "ticket_id": 235170499,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don't launch your next ad yet"
-    },
     {
       "ts": "2026-08-12T14:34:30.739339+00:00",
       "ticket_id": 235174153,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236526066,
       "action": "skip_spam",
       "detail": "Reach 170 million shoppers on TikTok"
+    },
+    {
+      "ts": "2026-08-21T20:42:13.848950+00:00",
+      "ticket_id": 236530027,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Fwd:Action Required:(2026\u201327)August Classified Employee_Grant+ROI Proposal(CEG)+Program Requirements"
     }
   ]
 }
