@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236491021,
-  "last_run_at": "2026-08-21T15:06:27.694079+00:00",
+  "last_processed_ticket_id": 236495502,
+  "last_run_at": "2026-08-21T15:47:04.709064+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-11T16:30:48.022984+00:00",
-      "ticket_id": 235025483,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Avoid US/Canada Customs Trouble & Extra Fees | China DDP Service"
-    },
-    {
-      "ts": "2026-08-11T17:34:11.696414+00:00",
-      "ticket_id": 235042136,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udcec Your Cannabis Audience Is Closer to Buying Than You Think \ud83d\udc40"
-    },
     {
       "ts": "2026-08-11T18:32:03.279218+00:00",
       "ticket_id": 235052047,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236491021,
       "action": "unknown_escalated_for_aj",
       "detail": "Order"
+    },
+    {
+      "ts": "2026-08-21T15:47:03.253839+00:00",
+      "ticket_id": 236494744,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order update"
+    },
+    {
+      "ts": "2026-08-21T15:47:04.709043+00:00",
+      "ticket_id": 236495502,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Bovine & Marine Collagen | Quality-Controlled Supply for Elm & Rye"
     }
   ]
 }
