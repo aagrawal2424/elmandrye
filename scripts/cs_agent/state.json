@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236506893,
-  "last_run_at": "2026-08-21T16:56:14.272975+00:00",
+  "last_processed_ticket_id": 236510579,
+  "last_run_at": "2026-08-21T17:36:16.240376+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T13:21:50.460061+00:00",
-      "ticket_id": 235079567,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-08-12T13:21:51.796989+00:00",
       "ticket_id": 235080845,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236506893,
       "action": "error_crash",
       "detail": "Conversation with Thamica McCook"
+    },
+    {
+      "ts": "2026-08-21T17:36:16.240359+00:00",
+      "ticket_id": 236510579,
+      "action": "unknown_escalated_for_aj",
+      "detail": "last one from me"
     }
   ]
 }
