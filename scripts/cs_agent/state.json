@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236530027,
-  "last_run_at": "2026-08-21T20:42:13.848967+00:00",
+  "last_processed_ticket_id": 236531052,
+  "last_run_at": "2026-08-21T21:03:11.388853+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T14:34:30.739339+00:00",
-      "ticket_id": 235174153,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-08-12T14:34:33.287913+00:00",
       "ticket_id": 235177274,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236530027,
       "action": "unknown_escalated_for_aj",
       "detail": "Fwd:Action Required:(2026\u201327)August Classified Employee_Grant+ROI Proposal(CEG)+Program Requirements"
+    },
+    {
+      "ts": "2026-08-21T21:03:11.388830+00:00",
+      "ticket_id": 236531052,
+      "action": "unknown_escalated_for_aj",
+      "detail": "3 UGC creator AIs for elmandrye.com"
     }
   ]
 }
