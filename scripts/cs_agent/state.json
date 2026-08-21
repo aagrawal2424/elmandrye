@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 236482282,
-  "last_run_at": "2026-08-21T13:51:54.542926+00:00",
+  "last_processed_ticket_id": 236488847,
+  "last_run_at": "2026-08-21T14:31:15.210461+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-11T13:18:04.837612+00:00",
-      "ticket_id": 234905414,
-      "action": "skip_spam",
-      "detail": "jerryquist and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-08-11T13:18:04.837618+00:00",
-      "ticket_id": 234906584,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-11T14:33:23.651865+00:00",
-      "ticket_id": 234996701,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE: Sister told me about"
-    },
-    {
-      "ts": "2026-08-11T14:33:24.871407+00:00",
-      "ticket_id": 234997569,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-11T14:33:24.871435+00:00",
-      "ticket_id": 234997796,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-11T15:33:34.670076+00:00",
-      "ticket_id": 235018550,
-      "action": "unknown_escalated_for_aj",
-      "detail": "70% of your shoppers are on mobile."
-    },
     {
       "ts": "2026-08-11T16:30:46.208344+00:00",
       "ticket_id": 235021142,
@@ -1203,6 +1167,42 @@
       "ticket_id": 236482282,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Address change"
+    },
+    {
+      "ts": "2026-08-21T14:31:08.024698+00:00",
+      "ticket_id": 236484478,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-21T14:31:10.100431+00:00",
+      "ticket_id": 236484571,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We miss you Elm & Rye - ToastiBar - Sales Popup"
+    },
+    {
+      "ts": "2026-08-21T14:31:11.555577+00:00",
+      "ticket_id": 236484730,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Volume Discount Bundles app is now uninstalled"
+    },
+    {
+      "ts": "2026-08-21T14:31:12.595778+00:00",
+      "ticket_id": 236485080,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Gorgias: Login instructions"
+    },
+    {
+      "ts": "2026-08-21T14:31:13.738032+00:00",
+      "ticket_id": 236486461,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Exclusive In-Person Meeting w/ the TODAY Show! Can we bring your products?"
+    },
+    {
+      "ts": "2026-08-21T14:31:15.210438+00:00",
+      "ticket_id": 236488847,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Butta's Chipz Now in Stock! Don't Miss Out!"
     }
   ]
 }
