@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236518909,
-  "last_run_at": "2026-08-21T19:48:00.730098+00:00",
+  "last_processed_ticket_id": 236526066,
+  "last_run_at": "2026-08-21T20:09:49.771764+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-21",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T13:21:53.015940+00:00",
-      "ticket_id": 235126629,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
     {
       "ts": "2026-08-12T14:34:30.739309+00:00",
       "ticket_id": 235170499,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236518909,
       "action": "unknown_escalated_for_aj",
       "detail": "2 days left to switch to the new chat design"
+    },
+    {
+      "ts": "2026-08-21T20:09:49.771741+00:00",
+      "ticket_id": 236526066,
+      "action": "skip_spam",
+      "detail": "Reach 170 million shoppers on TikTok"
     }
   ]
 }
