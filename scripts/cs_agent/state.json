@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236596745,
-  "last_run_at": "2026-08-22T14:20:39.176740+00:00",
+  "last_processed_ticket_id": 236598365,
+  "last_run_at": "2026-08-22T14:45:16.167501+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-22",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T16:33:51.373481+00:00",
-      "ticket_id": 235190211,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Shield Your RV, Boat, Vehicle and all Toys This Summer"
-    },
     {
       "ts": "2026-08-12T16:33:52.332076+00:00",
       "ticket_id": 235190417,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236596745,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-22T14:45:16.167465+00:00",
+      "ticket_id": 236598365,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
     }
   ]
 }
