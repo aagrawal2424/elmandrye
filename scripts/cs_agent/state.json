@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236538963,
-  "last_run_at": "2026-08-21T23:55:16.466071+00:00",
+  "last_processed_ticket_id": 236573974,
+  "last_run_at": "2026-08-22T12:49:38.637893+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-21",
+  "daily_refund_date": "2026-08-22",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T15:35:20.672584+00:00",
-      "ticket_id": 235180469,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Webinar Tomorrow: Increase Affiliate Program ROI"
-    },
-    {
-      "ts": "2026-08-12T15:35:22.552861+00:00",
-      "ticket_id": 235181404,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: A quick question about your skincare products"
-    },
     {
       "ts": "2026-08-12T15:35:23.564989+00:00",
       "ticket_id": 235184726,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236538963,
       "action": "skip_spam",
       "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-22T12:49:37.383664+00:00",
+      "ticket_id": 236541113,
+      "action": "error_crash",
+      "detail": "Re: Order #86052 confirmed"
+    },
+    {
+      "ts": "2026-08-22T12:49:38.637873+00:00",
+      "ticket_id": 236573974,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Order #86086 confirmed"
     }
   ]
 }
