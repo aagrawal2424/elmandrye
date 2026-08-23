@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236691308,
-  "last_run_at": "2026-08-23T16:46:37.313762+00:00",
+  "last_processed_ticket_id": 236703816,
+  "last_run_at": "2026-08-23T17:09:13.050840+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-23",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T18:36:14.802072+00:00",
-      "ticket_id": 235206945,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Retail-ready packaging for your next launch"
-    },
-    {
-      "ts": "2026-08-12T19:46:28.072540+00:00",
-      "ticket_id": 235211610,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product Question"
-    },
     {
       "ts": "2026-08-12T19:46:30.007973+00:00",
       "ticket_id": 235211720,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236691308,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Welcome to Elm & Rye"
+    },
+    {
+      "ts": "2026-08-23T17:09:10.818337+00:00",
+      "ticket_id": 236703001,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-23T17:09:13.050818+00:00",
+      "ticket_id": 236703816,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New reasons prevent pages from being indexed on site https://pupper.com/"
     }
   ]
 }
