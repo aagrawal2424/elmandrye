@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236705489,
-  "last_run_at": "2026-08-23T18:35:35.913483+00:00",
+  "last_processed_ticket_id": 236712013,
+  "last_run_at": "2026-08-23T19:01:56.047350+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-23",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T20:26:48.344631+00:00",
-      "ticket_id": 235220557,
-      "action": "skip_no_email",
-      "detail": "Conversation with Customer #543079033"
-    },
     {
       "ts": "2026-08-12T21:23:11.917009+00:00",
       "ticket_id": 235222308,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236705489,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Question"
+    },
+    {
+      "ts": "2026-08-23T19:01:56.047333+00:00",
+      "ticket_id": 236712013,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
     }
   ]
 }
