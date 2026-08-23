@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236613615,
-  "last_run_at": "2026-08-23T01:04:43.745362+00:00",
+  "last_processed_ticket_id": 236640612,
+  "last_run_at": "2026-08-23T12:50:47.163199+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-23",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T17:37:49.757878+00:00",
-      "ticket_id": 235200894,
-      "action": "skip_spam",
-      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-08-12T17:37:49.757885+00:00",
       "ticket_id": 235201260,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236613615,
       "action": "unknown_escalated_for_aj",
       "detail": "few SEO opportunities on your website."
+    },
+    {
+      "ts": "2026-08-23T12:50:47.163182+00:00",
+      "ticket_id": 236640612,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see what's been happening on Instagram"
     }
   ]
 }
