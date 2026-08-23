@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236719208,
-  "last_run_at": "2026-08-23T22:23:21.990033+00:00",
+  "last_processed_ticket_id": 236727214,
+  "last_run_at": "2026-08-23T22:48:17.633387+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-23",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T21:23:14.286458+00:00",
-      "ticket_id": 235223480,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Factory pricing for your pet pouches \ud83d\udce6"
-    },
     {
       "ts": "2026-08-12T22:09:53.952504+00:00",
       "ticket_id": 235228263,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236719208,
       "action": "unknown_escalated_for_aj",
       "detail": "New customer message on August 23, 2026 at 1:24 pm"
+    },
+    {
+      "ts": "2026-08-23T22:48:17.633367+00:00",
+      "ticket_id": 236727214,
+      "action": "skip_spam",
+      "detail": "kellybbird and 7 others recently added to their stories"
     }
   ]
 }
