@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236703816,
-  "last_run_at": "2026-08-23T17:09:13.050840+00:00",
+  "last_processed_ticket_id": 236705489,
+  "last_run_at": "2026-08-23T17:35:00.153673+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-23",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T19:46:30.007973+00:00",
-      "ticket_id": 235211720,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-08-12T19:46:30.008006+00:00",
-      "ticket_id": 235216173,
-      "action": "skip_spam",
-      "detail": "It's time. TikTok Shop. This week."
-    },
     {
       "ts": "2026-08-12T20:26:48.344631+00:00",
       "ticket_id": 235220557,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236703816,
       "action": "unknown_escalated_for_aj",
       "detail": "New reasons prevent pages from being indexed on site https://pupper.com/"
+    },
+    {
+      "ts": "2026-08-23T17:34:58.453520+00:00",
+      "ticket_id": 236704326,
+      "action": "error_crash",
+      "detail": "Re: Order #86037 confirmed"
+    },
+    {
+      "ts": "2026-08-23T17:35:00.153648+00:00",
+      "ticket_id": 236705489,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Question"
     }
   ]
 }
