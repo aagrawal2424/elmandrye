@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236690900,
-  "last_run_at": "2026-08-23T14:30:00.028895+00:00",
+  "last_processed_ticket_id": 236691308,
+  "last_run_at": "2026-08-23T14:54:49.278035+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-23",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T18:36:13.276858+00:00",
-      "ticket_id": 235206774,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
     {
       "ts": "2026-08-12T18:36:14.802072+00:00",
       "ticket_id": 235206945,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236690900,
       "action": "unknown_escalated_for_aj",
       "detail": "HulkApps - Store Data Redact Request for Volume & Tiered Discounts App."
+    },
+    {
+      "ts": "2026-08-23T14:54:49.278014+00:00",
+      "ticket_id": 236691308,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Welcome to Elm & Rye"
     }
   ]
 }
