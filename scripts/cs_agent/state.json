@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236712013,
-  "last_run_at": "2026-08-23T20:15:45.712886+00:00",
+  "last_processed_ticket_id": 236719208,
+  "last_run_at": "2026-08-23T20:43:17.427308+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-23",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T21:23:11.917009+00:00",
-      "ticket_id": 235222308,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Order #85789 confirmed"
-    },
-    {
-      "ts": "2026-08-12T21:23:13.103942+00:00",
-      "ticket_id": 235222791,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Question, please..."
-    },
     {
       "ts": "2026-08-12T21:23:14.286458+00:00",
       "ticket_id": 235223480,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236712013,
       "action": "skip_spam",
       "detail": "From heygracey and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-08-23T20:43:15.563606+00:00",
+      "ticket_id": 236719207,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on August 23, 2026 at 1:24 pm"
+    },
+    {
+      "ts": "2026-08-23T20:43:17.427287+00:00",
+      "ticket_id": 236719208,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on August 23, 2026 at 1:24 pm"
     }
   ]
 }
