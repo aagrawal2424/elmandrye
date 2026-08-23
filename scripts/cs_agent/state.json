@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236640612,
-  "last_run_at": "2026-08-23T13:55:37.734365+00:00",
+  "last_processed_ticket_id": 236690900,
+  "last_run_at": "2026-08-23T14:30:00.028895+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-23",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T17:37:49.757885+00:00",
-      "ticket_id": 235201260,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-08-12T17:37:49.757907+00:00",
-      "ticket_id": 235201487,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-08-12T18:36:13.276858+00:00",
       "ticket_id": 235206774,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236640612,
       "action": "skip_spam",
       "detail": "puppersupplements, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-08-23T14:29:57.370633+00:00",
+      "ticket_id": 236689279,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-23T14:30:00.028874+00:00",
+      "ticket_id": 236690900,
+      "action": "unknown_escalated_for_aj",
+      "detail": "HulkApps - Store Data Redact Request for Volume & Tiered Discounts App."
     }
   ]
 }
