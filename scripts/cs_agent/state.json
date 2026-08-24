@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236878249,
-  "last_run_at": "2026-08-24T21:47:56.460736+00:00",
+  "last_processed_ticket_id": 236885622,
+  "last_run_at": "2026-08-24T22:11:23.981371+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T18:39:46.184473+00:00",
-      "ticket_id": 235368493,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-08-13T18:39:47.447020+00:00",
       "ticket_id": 235368947,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236878249,
       "action": "unknown_escalated_for_aj",
       "detail": "Security alert"
+    },
+    {
+      "ts": "2026-08-24T22:11:23.981361+00:00",
+      "ticket_id": 236885622,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Missing"
     }
   ]
 }
