@@ -1,63 +1,9 @@
 {
-  "last_processed_ticket_id": 236727214,
-  "last_run_at": "2026-08-23T23:55:21.766004+00:00",
+  "last_processed_ticket_id": 236804810,
+  "last_run_at": "2026-08-24T13:01:02.716592+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-23",
+  "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-12T22:09:53.952504+00:00",
-      "ticket_id": 235228263,
-      "action": "unknown_escalated_for_aj",
-      "detail": "WordPress 7.1 is coming!"
-    },
-    {
-      "ts": "2026-08-12T23:02:48.968646+00:00",
-      "ticket_id": 235231158,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-08-13T02:19:20.685299+00:00",
-      "ticket_id": 235241130,
-      "action": "skip_spam",
-      "detail": "A new affiliate, Hoang Duc Hien Hoang Duc, has signed up for your program!"
-    },
-    {
-      "ts": "2026-08-13T13:23:56.951618+00:00",
-      "ticket_id": 235241646,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Unable to Make Purchase"
-    },
-    {
-      "ts": "2026-08-13T13:23:56.951644+00:00",
-      "ticket_id": 235242528,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
-    },
-    {
-      "ts": "2026-08-13T13:23:59.124924+00:00",
-      "ticket_id": 235244915,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Discover Natural Ingredients for ELM B6"
-    },
-    {
-      "ts": "2026-08-13T13:24:00.834753+00:00",
-      "ticket_id": 235259884,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Mrantz, Deborah  Order 86018"
-    },
-    {
-      "ts": "2026-08-13T13:24:00.834771+00:00",
-      "ticket_id": 235262293,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-13T13:24:02.746158+00:00",
-      "ticket_id": 235282022,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Jetpack Monthly Report - https://buyeverest.com"
-    },
     {
       "ts": "2026-08-13T13:24:02.746178+00:00",
       "ticket_id": 235303377,
@@ -1203,6 +1149,60 @@
       "ticket_id": 236727214,
       "action": "skip_spam",
       "detail": "kellybbird and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-24T13:00:57.508562+00:00",
+      "ticket_id": 236730960,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Pls cancel my order"
+    },
+    {
+      "ts": "2026-08-24T13:00:58.826646+00:00",
+      "ticket_id": 236733288,
+      "action": "unknown_escalated_for_aj",
+      "detail": "new puppy sep 6 - new owner sample program?"
+    },
+    {
+      "ts": "2026-08-24T13:01:00.555967+00:00",
+      "ticket_id": 236734940,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Subject: Turnkey ODM: ISO 13485 hygiene line, DTC proven (Trial kit ready)"
+    },
+    {
+      "ts": "2026-08-24T13:01:00.555995+00:00",
+      "ticket_id": 236736248,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-08-24T13:01:00.556004+00:00",
+      "ticket_id": 236754503,
+      "action": "skip_spam",
+      "detail": "Payout for Aug 24, 2026 ($28.94 USD)"
+    },
+    {
+      "ts": "2026-08-24T13:01:00.556010+00:00",
+      "ticket_id": 236756152,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-24T13:01:01.658208+00:00",
+      "ticket_id": 236756987,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Customer experience"
+    },
+    {
+      "ts": "2026-08-24T13:01:01.658244+00:00",
+      "ticket_id": 236759797,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Thao Nguyen Ngoc, has signed up for your program!"
+    },
+    {
+      "ts": "2026-08-24T13:01:02.716574+00:00",
+      "ticket_id": 236804810,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elm & Rye and a rev share model?"
     }
   ]
 }
