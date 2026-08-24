@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236870795,
-  "last_run_at": "2026-08-24T20:01:34.030786+00:00",
+  "last_processed_ticket_id": 236878249,
+  "last_run_at": "2026-08-24T20:44:04.873920+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T18:39:43.021669+00:00",
-      "ticket_id": 235365989,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\u2728 More Revenue Without More Customers? \ud83d\udd13"
-    },
-    {
-      "ts": "2026-08-13T18:39:45.023864+00:00",
-      "ticket_id": 235368073,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Order Not Shipped"
-    },
     {
       "ts": "2026-08-13T18:39:46.184473+00:00",
       "ticket_id": 235368493,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236870795,
       "action": "skip_spam",
       "detail": "You've got $23,630 waiting"
+    },
+    {
+      "ts": "2026-08-24T20:44:02.758426+00:00",
+      "ticket_id": 236875680,
+      "action": "skip_spam",
+      "detail": "Re: Bucanna Labs - Your Delta-8 Gummies"
+    },
+    {
+      "ts": "2026-08-24T20:44:04.873900+00:00",
+      "ticket_id": 236878249,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Security alert"
     }
   ]
 }
