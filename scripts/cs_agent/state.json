@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 236840203,
-  "last_run_at": "2026-08-24T16:15:46.030769+00:00",
+  "last_processed_ticket_id": 236851708,
+  "last_run_at": "2026-08-24T16:59:53.391072+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T15:38:36.943825+00:00",
-      "ticket_id": 235332659,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Scaling concept for libido supplement"
-    },
-    {
-      "ts": "2026-08-13T15:38:38.697300+00:00",
-      "ticket_id": 235336360,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Order"
-    },
-    {
-      "ts": "2026-08-13T15:38:38.697332+00:00",
-      "ticket_id": 235337205,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
     {
       "ts": "2026-08-13T16:35:34.138572+00:00",
       "ticket_id": 235355597,
@@ -1203,6 +1185,24 @@
       "ticket_id": 236840203,
       "action": "unknown_escalated_for_aj",
       "detail": "Exclusive Offers You Can't Miss Inside! \ud83c\udf89"
+    },
+    {
+      "ts": "2026-08-24T16:59:50.288633+00:00",
+      "ticket_id": 236847535,
+      "action": "unknown_escalated_for_aj",
+      "detail": "buyeverest.com needs you to confirm your email address on file to maintain access to your account"
+    },
+    {
+      "ts": "2026-08-24T16:59:51.589066+00:00",
+      "ticket_id": 236851480,
+      "action": "unknown_escalated_for_aj",
+      "detail": "who's actually handling the claim when it goes wrong"
+    },
+    {
+      "ts": "2026-08-24T16:59:53.391053+00:00",
+      "ticket_id": 236851708,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
     }
   ]
 }
