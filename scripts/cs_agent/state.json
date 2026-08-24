@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236888131,
-  "last_run_at": "2026-08-24T23:38:47.443551+00:00",
+  "last_processed_ticket_id": 236890611,
+  "last_run_at": "2026-08-24T23:58:38.232116+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T20:24:20.648831+00:00",
-      "ticket_id": 235380628,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Join our webinar: ChatGPT Ads, a new channel for marketers"
-    },
     {
       "ts": "2026-08-13T20:24:22.333508+00:00",
       "ticket_id": 235380707,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236888131,
       "action": "unknown_escalated_for_aj",
       "detail": "Is Your SLOW WooCommerce slowing down buyers?"
+    },
+    {
+      "ts": "2026-08-24T23:58:38.232096+00:00",
+      "ticket_id": 236890611,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Enhance Your Business with us"
     }
   ]
 }
