@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236831013,
-  "last_run_at": "2026-08-24T14:52:31.851412+00:00",
+  "last_processed_ticket_id": 236840203,
+  "last_run_at": "2026-08-24T15:37:00.162881+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T15:38:29.645193+00:00",
-      "ticket_id": 235328558,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-08-13T15:38:36.943825+00:00",
       "ticket_id": 235332659,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236831013,
       "action": "unknown_escalated_for_aj",
       "detail": "Invoice 2796 from Nitro Logistics, LLC"
+    },
+    {
+      "ts": "2026-08-24T15:37:00.162856+00:00",
+      "ticket_id": 236840203,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Exclusive Offers You Can't Miss Inside! \ud83c\udf89"
     }
   ]
 }
