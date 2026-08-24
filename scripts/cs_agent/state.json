@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236885622,
-  "last_run_at": "2026-08-24T22:46:19.617889+00:00",
+  "last_processed_ticket_id": 236888131,
+  "last_run_at": "2026-08-24T23:10:33.025878+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T18:39:47.447020+00:00",
-      "ticket_id": 235368947,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Website Need Improvements !!!"
-    },
-    {
-      "ts": "2026-08-13T19:45:36.932742+00:00",
-      "ticket_id": 235374930,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Next Gen Branded Ingredients for Product Innovation \u2013 MAKAMS Industries"
-    },
     {
       "ts": "2026-08-13T20:24:20.648831+00:00",
       "ticket_id": 235380628,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236885622,
       "action": "unknown_escalated_for_aj",
       "detail": "Missing"
+    },
+    {
+      "ts": "2026-08-24T23:10:30.887397+00:00",
+      "ticket_id": 236887729,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE: few SEO opportunities on your website."
+    },
+    {
+      "ts": "2026-08-24T23:10:33.025856+00:00",
+      "ticket_id": 236888131,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Is Your SLOW WooCommerce slowing down buyers?"
     }
   ]
 }
