@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236863762,
-  "last_run_at": "2026-08-24T18:57:12.119624+00:00",
+  "last_processed_ticket_id": 236870795,
+  "last_run_at": "2026-08-24T19:36:29.983708+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T17:40:43.703193+00:00",
-      "ticket_id": 235358036,
-      "action": "error_crash",
-      "detail": "Order number 85768"
-    },
-    {
-      "ts": "2026-08-13T18:39:39.686540+00:00",
-      "ticket_id": 235365801,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Why Merchants Are Migrating To FastCommerce"
-    },
     {
       "ts": "2026-08-13T18:39:43.021669+00:00",
       "ticket_id": 235365989,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236863762,
       "action": "unknown_escalated_for_aj",
       "detail": "Direct investment in Pupper"
+    },
+    {
+      "ts": "2026-08-24T19:36:29.983664+00:00",
+      "ticket_id": 236869565,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with Reynold Thompson"
+    },
+    {
+      "ts": "2026-08-24T19:36:29.983704+00:00",
+      "ticket_id": 236870795,
+      "action": "skip_spam",
+      "detail": "You've got $23,630 waiting"
     }
   ]
 }
