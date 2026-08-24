@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236851708,
-  "last_run_at": "2026-08-24T16:59:53.391072+00:00",
+  "last_processed_ticket_id": 236854851,
+  "last_run_at": "2026-08-24T17:39:25.270163+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T16:35:34.138572+00:00",
-      "ticket_id": 235355597,
-      "action": "unknown_escalated_for_aj",
-      "detail": "the upsell app tax nobody talks about"
-    },
     {
       "ts": "2026-08-13T17:40:42.639455+00:00",
       "ticket_id": 235357159,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236851708,
       "action": "unknown_escalated_for_aj",
       "detail": ""
+    },
+    {
+      "ts": "2026-08-24T17:39:25.270145+00:00",
+      "ticket_id": 236854851,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
     }
   ]
 }
