@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236814017,
-  "last_run_at": "2026-08-24T13:57:59.079440+00:00",
+  "last_processed_ticket_id": 236831013,
+  "last_run_at": "2026-08-24T14:52:31.851412+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T13:24:03.795884+00:00",
-      "ticket_id": 235307914,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[For Shopify Store] A visitor spent 3 seconds on your listing page \u2014 then scrolled away."
-    },
-    {
-      "ts": "2026-08-13T15:38:29.645161+00:00",
-      "ticket_id": 235321520,
-      "action": "unknown_escalated_for_aj",
-      "detail": "I am providing a guest posting you are interested please let me know"
-    },
     {
       "ts": "2026-08-13T15:38:29.645193+00:00",
       "ticket_id": 235328558,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236814017,
       "action": "unknown_escalated_for_aj",
       "detail": "United Snow & Ice Removal"
+    },
+    {
+      "ts": "2026-08-24T14:52:29.015525+00:00",
+      "ticket_id": 236825034,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-24T14:52:31.851392+00:00",
+      "ticket_id": 236831013,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invoice 2796 from Nitro Logistics, LLC"
     }
   ]
 }
