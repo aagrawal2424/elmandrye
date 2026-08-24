@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236804810,
-  "last_run_at": "2026-08-24T13:01:02.716592+00:00",
+  "last_processed_ticket_id": 236814017,
+  "last_run_at": "2026-08-24T13:57:59.079440+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-24",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T13:24:02.746178+00:00",
-      "ticket_id": 235303377,
-      "action": "skip_spam",
-      "detail": "Action needed by 28th August: Install the Awin Shopify app to keep your affiliate tracking active"
-    },
     {
       "ts": "2026-08-13T13:24:03.795884+00:00",
       "ticket_id": 235307914,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236804810,
       "action": "unknown_escalated_for_aj",
       "detail": "Elm & Rye and a rev share model?"
+    },
+    {
+      "ts": "2026-08-24T13:57:59.079415+00:00",
+      "ticket_id": 236814017,
+      "action": "unknown_escalated_for_aj",
+      "detail": "United Snow & Ice Removal"
     }
   ]
 }
