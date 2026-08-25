@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 237008449,
-  "last_run_at": "2026-08-25T16:19:15.114031+00:00",
+  "last_processed_ticket_id": 237011470,
+  "last_run_at": "2026-08-25T17:02:47.876034+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-25",
   "ticket_actions": [
-    {
-      "ts": "2026-08-14T20:44:17.472022+00:00",
-      "ticket_id": 235524831,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Last Call: BOGO Fuel \ud83d\udea8"
-    },
     {
       "ts": "2026-08-15T12:48:35.733617+00:00",
       "ticket_id": 235543840,
@@ -1203,6 +1197,12 @@
       "ticket_id": 237008449,
       "action": "unknown_escalated_for_aj",
       "detail": "Thank you for contacting us - Additional Information Required \u00a700486725"
+    },
+    {
+      "ts": "2026-08-25T17:02:47.876016+00:00",
+      "ticket_id": 237011470,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We\u2019ve received your email - IET Member Support"
     }
   ]
 }
