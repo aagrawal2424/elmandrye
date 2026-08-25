@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 236985210,
-  "last_run_at": "2026-08-25T13:55:53.178465+00:00",
+  "last_processed_ticket_id": 236991463,
+  "last_run_at": "2026-08-25T14:53:06.024468+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-25",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T23:03:47.576425+00:00",
-      "ticket_id": 235391040,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Payment Gateway Account Password Update"
-    },
-    {
-      "ts": "2026-08-14T02:21:21.855626+00:00",
-      "ticket_id": 235399963,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 14, 2026 ($78.06 USD)"
-    },
-    {
-      "ts": "2026-08-14T13:18:38.992969+00:00",
-      "ticket_id": 235402014,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see what's been happening on Instagram"
-    },
     {
       "ts": "2026-08-14T13:19:07.714224+00:00",
       "ticket_id": 235403372,
@@ -1203,6 +1185,24 @@
       "ticket_id": 236985210,
       "action": "order_cancel_escalated_no_orders",
       "detail": "Question about my order"
+    },
+    {
+      "ts": "2026-08-25T14:53:04.654704+00:00",
+      "ticket_id": 236987520,
+      "action": "unknown_escalated_for_aj",
+      "detail": "4 Ways to Make Location-Based Campaigns More Effective"
+    },
+    {
+      "ts": "2026-08-25T14:53:04.654743+00:00",
+      "ticket_id": 236987630,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-25T14:53:06.024447+00:00",
+      "ticket_id": 236991463,
+      "action": "unknown_escalated_for_aj",
+      "detail": "they don't get paid"
     }
   ]
 }
