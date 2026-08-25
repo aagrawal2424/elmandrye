@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 237026711,
-  "last_run_at": "2026-08-25T20:47:02.439220+00:00",
+  "last_processed_ticket_id": 237043086,
+  "last_run_at": "2026-08-25T21:13:30.591697+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-25",
   "ticket_actions": [
-    {
-      "ts": "2026-08-15T12:48:35.733645+00:00",
-      "ticket_id": 235549583,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-08-15T12:48:35.733650+00:00",
       "ticket_id": 235549667,
@@ -1203,6 +1197,12 @@
       "ticket_id": 237026711,
       "action": "unknown_escalated_for_aj",
       "detail": "Fall Package: The Zoe Report, SheFinds and AKA Mom"
+    },
+    {
+      "ts": "2026-08-25T21:13:30.591677+00:00",
+      "ticket_id": 237043086,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
     }
   ]
 }
