@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 237043086,
-  "last_run_at": "2026-08-25T22:10:53.593591+00:00",
+  "last_processed_ticket_id": 237049620,
+  "last_run_at": "2026-08-25T22:47:19.217720+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-25",
   "ticket_actions": [
-    {
-      "ts": "2026-08-15T12:48:35.733650+00:00",
-      "ticket_id": 235549667,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 15, 2026 ($77.14 USD)"
-    },
-    {
-      "ts": "2026-08-15T12:48:38.527425+00:00",
-      "ticket_id": 235550317,
-      "action": "unknown_escalated_for_aj",
-      "detail": "An invitation from Dr. Drayton Patterson"
-    },
     {
       "ts": "2026-08-15T12:48:39.947548+00:00",
       "ticket_id": 235556543,
@@ -1203,6 +1191,18 @@
       "ticket_id": 237043086,
       "action": "unknown_escalated_for_aj",
       "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-08-25T22:47:17.802754+00:00",
+      "ticket_id": 237048714,
+      "action": "error_crash",
+      "detail": "0rder86021"
+    },
+    {
+      "ts": "2026-08-25T22:47:19.217699+00:00",
+      "ticket_id": 237049620,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Request refund or discount - Contact"
     }
   ]
 }
