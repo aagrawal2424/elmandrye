@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 237011470,
-  "last_run_at": "2026-08-25T17:02:47.876034+00:00",
+  "last_processed_ticket_id": 237020653,
+  "last_run_at": "2026-08-25T17:41:50.865168+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-25",
   "ticket_actions": [
-    {
-      "ts": "2026-08-15T12:48:35.733617+00:00",
-      "ticket_id": 235543840,
-      "action": "skip_spam",
-      "detail": "From heygracey and others: 3 unread messages"
-    },
     {
       "ts": "2026-08-15T12:48:35.733639+00:00",
       "ticket_id": 235543937,
@@ -1203,6 +1197,12 @@
       "ticket_id": 237011470,
       "action": "unknown_escalated_for_aj",
       "detail": "We\u2019ve received your email - IET Member Support"
+    },
+    {
+      "ts": "2026-08-25T17:41:50.865149+00:00",
+      "ticket_id": 237020653,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udea8 9,444% ROAS. In an Industry That \u201cCan\u2019t\u201d Advertise. \ud83d\udeab"
     }
   ]
 }
