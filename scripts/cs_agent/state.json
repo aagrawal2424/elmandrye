@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 237020653,
-  "last_run_at": "2026-08-25T18:15:23.637866+00:00",
+  "last_processed_ticket_id": 237026711,
+  "last_run_at": "2026-08-25T19:03:41.109722+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-25",
   "ticket_actions": [
-    {
-      "ts": "2026-08-15T12:48:35.733639+00:00",
-      "ticket_id": 235543937,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
     {
       "ts": "2026-08-15T12:48:35.733645+00:00",
       "ticket_id": 235549583,
@@ -1203,6 +1197,12 @@
       "ticket_id": 237020653,
       "action": "unknown_escalated_for_aj",
       "detail": "\ud83d\udea8 9,444% ROAS. In an Industry That \u201cCan\u2019t\u201d Advertise. \ud83d\udeab"
+    },
+    {
+      "ts": "2026-08-25T19:03:41.109699+00:00",
+      "ticket_id": 237026711,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Fall Package: The Zoe Report, SheFinds and AKA Mom"
     }
   ]
 }
