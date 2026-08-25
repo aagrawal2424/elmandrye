@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 236958331,
-  "last_run_at": "2026-08-25T12:57:09.693432+00:00",
+  "last_processed_ticket_id": 236985210,
+  "last_run_at": "2026-08-25T13:55:53.178465+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-25",
   "ticket_actions": [
-    {
-      "ts": "2026-08-13T23:03:45.421747+00:00",
-      "ticket_id": 235390828,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Authorize.Net Verification PIN"
-    },
-    {
-      "ts": "2026-08-13T23:03:46.491228+00:00",
-      "ticket_id": 235390983,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Security alert"
-    },
     {
       "ts": "2026-08-13T23:03:47.576425+00:00",
       "ticket_id": 235391040,
@@ -1203,6 +1191,18 @@
       "ticket_id": 236958331,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-25T13:55:51.721812+00:00",
+      "ticket_id": 236984239,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-08-25T13:55:53.178444+00:00",
+      "ticket_id": 236985210,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Question about my order"
     }
   ]
 }
