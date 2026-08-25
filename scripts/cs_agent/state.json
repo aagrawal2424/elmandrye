@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 236991463,
-  "last_run_at": "2026-08-25T14:53:06.024468+00:00",
+  "last_processed_ticket_id": 237003313,
+  "last_run_at": "2026-08-25T15:41:28.316216+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-25",
   "ticket_actions": [
-    {
-      "ts": "2026-08-14T13:19:07.714224+00:00",
-      "ticket_id": 235403372,
-      "action": "unknown_escalated_for_aj",
-      "detail": "cow mat"
-    },
     {
       "ts": "2026-08-14T13:19:07.714252+00:00",
       "ticket_id": 235404589,
@@ -1203,6 +1197,12 @@
       "ticket_id": 236991463,
       "action": "unknown_escalated_for_aj",
       "detail": "they don't get paid"
+    },
+    {
+      "ts": "2026-08-25T15:41:28.316193+00:00",
+      "ticket_id": 237003313,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\"How Shopify Store recovered $47K in 90 days\""
     }
   ]
 }
