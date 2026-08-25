@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 237049620,
-  "last_run_at": "2026-08-25T22:47:19.217720+00:00",
+  "last_processed_ticket_id": 237050420,
+  "last_run_at": "2026-08-25T23:12:50.579154+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-25",
   "ticket_actions": [
-    {
-      "ts": "2026-08-15T12:48:39.947548+00:00",
-      "ticket_id": 235556543,
-      "action": "error_crash",
-      "detail": "My order"
-    },
     {
       "ts": "2026-08-15T13:50:10.217544+00:00",
       "ticket_id": 235595622,
@@ -1203,6 +1197,12 @@
       "ticket_id": 237049620,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Request refund or discount - Contact"
+    },
+    {
+      "ts": "2026-08-25T23:12:50.579138+00:00",
+      "ticket_id": 237050420,
+      "action": "skip_spam",
+      "detail": "aliciablasing7 and 7 others recently added to their stories"
     }
   ]
 }
