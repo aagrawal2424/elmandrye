@@ -1013,6 +1013,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'polysaccharide' appears in 3 recent supplement-research papers (most recent example: \"A Shenling Baizhu San polysaccharide fraction (SLP-2)-based synbiotic alleviates lactose-induced gut dysfunction via a microbiota-metabolite-barrier axis.\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Pectin",
+      "product_title": "Pectin capsules",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9323305468116",
+      "handle": "pectin-capsules",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/11773228-3a6d-4e4e-8684-f9bd64edd6c9/er-product-pectin-capsules.png",
+      "created_at": "2026-08-26",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'pectin' appears in 2 recent supplement-research papers (most recent example: \"Watermelon rind pectin structure influences digestibility and impacts on gut microbiota: a comparative in vitro study.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
