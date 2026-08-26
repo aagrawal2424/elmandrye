@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 237191663,
-  "last_run_at": "2026-08-26T20:15:22.264757+00:00",
+  "last_processed_ticket_id": 237210268,
+  "last_run_at": "2026-08-26T23:45:48.435126+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-26",
   "ticket_actions": [
-    {
-      "ts": "2026-08-17T15:12:07.983293+00:00",
-      "ticket_id": 235837349,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Fish oil OEM: One contract for fish oil \u2014 from oil to bottle"
-    },
-    {
-      "ts": "2026-08-17T15:12:09.306940+00:00",
-      "ticket_id": 235838032,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-17T15:43:13.693595+00:00",
-      "ticket_id": 235840447,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The move from \"Disposable\" to \"Recyclable\" \ud83d\udd04"
-    },
     {
       "ts": "2026-08-17T17:45:55.086619+00:00",
       "ticket_id": 235856709,
@@ -1203,6 +1185,24 @@
       "ticket_id": 237191663,
       "action": "unknown_escalated_for_aj",
       "detail": "Security alert"
+    },
+    {
+      "ts": "2026-08-26T23:45:44.272201+00:00",
+      "ticket_id": 237203235,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Webinar Invite: Increase Affiliate Conversion Rates Overnight"
+    },
+    {
+      "ts": "2026-08-26T23:45:48.435088+00:00",
+      "ticket_id": 237209414,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: It looks like you left something behind..."
+    },
+    {
+      "ts": "2026-08-26T23:45:48.435122+00:00",
+      "ticket_id": 237210268,
+      "action": "skip_spam",
+      "detail": "See what snoopdogg and 26 others you follow shared"
     }
   ]
 }
