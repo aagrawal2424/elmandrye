@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 237166904,
-  "last_run_at": "2026-08-26T16:24:16.152337+00:00",
+  "last_processed_ticket_id": 237188060,
+  "last_run_at": "2026-08-26T18:17:36.814510+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-26",
   "ticket_actions": [
-    {
-      "ts": "2026-08-17T12:54:28.105124+00:00",
-      "ticket_id": 235755908,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Curious what elmandrye.com is worth...?"
-    },
-    {
-      "ts": "2026-08-17T12:54:29.429247+00:00",
-      "ticket_id": 235756219,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Filling a catalog gap"
-    },
-    {
-      "ts": "2026-08-17T12:54:31.704707+00:00",
-      "ticket_id": 235776024,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New reasons prevent pages from being indexed on site https://elmandrye.com/"
-    },
-    {
-      "ts": "2026-08-17T12:54:32.779535+00:00",
-      "ticket_id": 235777260,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-17T14:11:43.180449+00:00",
-      "ticket_id": 235826044,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Wanted to check something first"
-    },
-    {
-      "ts": "2026-08-17T14:11:43.180479+00:00",
-      "ticket_id": 235826420,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-08-17T14:47:02.299575+00:00",
       "ticket_id": 235831639,
@@ -1203,6 +1167,42 @@
       "ticket_id": 237166904,
       "action": "unknown_escalated_for_aj",
       "detail": "Get Ready for Breakfast-Inspired Vaping!"
+    },
+    {
+      "ts": "2026-08-26T18:17:35.770508+00:00",
+      "ticket_id": 237177439,
+      "action": "unknown_escalated_for_aj",
+      "detail": "designs"
+    },
+    {
+      "ts": "2026-08-26T18:17:35.770538+00:00",
+      "ticket_id": 237178309,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-26T18:17:35.770546+00:00",
+      "ticket_id": 237179222,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-26T18:17:35.770553+00:00",
+      "ticket_id": 237179374,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-26T18:17:35.770560+00:00",
+      "ticket_id": 237180117,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-08-26T18:17:36.814493+00:00",
+      "ticket_id": 237188060,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[breagr 264173021] WordPress Upgraded Successfully on buyeverest.com!"
     }
   ]
 }
