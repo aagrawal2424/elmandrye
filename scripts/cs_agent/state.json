@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 237149543,
-  "last_run_at": "2026-08-26T14:00:58.950398+00:00",
+  "last_processed_ticket_id": 237158689,
+  "last_run_at": "2026-08-26T14:56:58.768674+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-26",
   "ticket_actions": [
-    {
-      "ts": "2026-08-16T17:28:17.361704+00:00",
-      "ticket_id": 235704767,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Product question - Contact"
-    },
-    {
-      "ts": "2026-08-16T17:28:19.201186+00:00",
-      "ticket_id": 235705446,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: I noticed few Error on your website"
-    },
-    {
-      "ts": "2026-08-17T12:54:25.660685+00:00",
-      "ticket_id": 235735197,
-      "action": "unknown_escalated_for_aj",
-      "detail": "gummy actives pricing"
-    },
     {
       "ts": "2026-08-17T12:54:25.660714+00:00",
       "ticket_id": 235742821,
@@ -1203,6 +1185,24 @@
       "ticket_id": 237149543,
       "action": "error_crash",
       "detail": "Fwd: Lazaroff order# 84881"
+    },
+    {
+      "ts": "2026-08-26T14:56:54.372698+00:00",
+      "ticket_id": 237151057,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-26T14:56:56.890270+00:00",
+      "ticket_id": 237158671,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[9/17 in nyc] you're invited to chargex"
+    },
+    {
+      "ts": "2026-08-26T14:56:58.768652+00:00",
+      "ticket_id": 237158689,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[9/17 in nyc] you're invited to chargex"
     }
   ]
 }
