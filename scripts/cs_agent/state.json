@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 237188060,
-  "last_run_at": "2026-08-26T18:17:36.814510+00:00",
+  "last_processed_ticket_id": 237191663,
+  "last_run_at": "2026-08-26T20:15:22.264757+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-26",
   "ticket_actions": [
-    {
-      "ts": "2026-08-17T14:47:02.299575+00:00",
-      "ticket_id": 235831639,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-17T15:12:06.377797+00:00",
-      "ticket_id": 235835151,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Foldable Elevated Dog Cot | amfori BSCI Audited Factory"
-    },
     {
       "ts": "2026-08-17T15:12:07.983293+00:00",
       "ticket_id": 235837349,
@@ -1203,6 +1191,18 @@
       "ticket_id": 237188060,
       "action": "unknown_escalated_for_aj",
       "detail": "[breagr 264173021] WordPress Upgraded Successfully on buyeverest.com!"
+    },
+    {
+      "ts": "2026-08-26T20:15:20.299046+00:00",
+      "ticket_id": 237189961,
+      "action": "skip_spam",
+      "detail": "chewy and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-08-26T20:15:22.264740+00:00",
+      "ticket_id": 237191663,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Security alert"
     }
   ]
 }
