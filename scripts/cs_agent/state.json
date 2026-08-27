@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 237210268,
-  "last_run_at": "2026-08-26T23:45:48.435126+00:00",
+  "last_processed_ticket_id": 237225755,
+  "last_run_at": "2026-08-27T05:08:38.565612+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-26",
+  "daily_refund_date": "2026-08-27",
   "ticket_actions": [
-    {
-      "ts": "2026-08-17T17:45:55.086619+00:00",
-      "ticket_id": 235856709,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-08-17T17:45:58.111094+00:00",
-      "ticket_id": 235857413,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Action Required] Review Google Meet automatic note-taking controls before Sep 21, 2026"
-    },
-    {
-      "ts": "2026-08-17T17:45:59.874701+00:00",
-      "ticket_id": 235858055,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Action Required] Review Google Meet automatic note-taking controls before Sep 21, 2026"
-    },
-    {
-      "ts": "2026-08-17T18:16:04.285971+00:00",
-      "ticket_id": 235861425,
-      "action": "unknown_escalated_for_aj",
-      "detail": "pupper.com vs vetriscience.com"
-    },
-    {
-      "ts": "2026-08-17T18:16:06.173361+00:00",
-      "ticket_id": 235863369,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Curcumin for Your Upcoming Projects \u2013 CurcXR |22 Elm Rye Inc."
-    },
     {
       "ts": "2026-08-17T18:16:07.418640+00:00",
       "ticket_id": 235863456,
@@ -1203,6 +1173,36 @@
       "ticket_id": 237210268,
       "action": "skip_spam",
       "detail": "See what snoopdogg and 26 others you follow shared"
+    },
+    {
+      "ts": "2026-08-27T05:08:34.725575+00:00",
+      "ticket_id": 237216147,
+      "action": "unknown_escalated_for_aj",
+      "detail": "YOU'RE INVITED BY PFIANNA CLINE"
+    },
+    {
+      "ts": "2026-08-27T05:08:36.504962+00:00",
+      "ticket_id": 237219167,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-08-27T05:08:37.521450+00:00",
+      "ticket_id": 237219356,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Hey"
+    },
+    {
+      "ts": "2026-08-27T05:08:37.521481+00:00",
+      "ticket_id": 237223792,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-27T05:08:38.565590+00:00",
+      "ticket_id": 237225755,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Minimum input, maximum gain"
     }
   ]
 }
