@@ -1,171 +1,9 @@
 {
-  "last_processed_ticket_id": 237225755,
-  "last_run_at": "2026-08-27T05:08:38.565612+00:00",
+  "last_processed_ticket_id": 237380014,
+  "last_run_at": "2026-08-27T22:06:44.523966+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-27",
   "ticket_actions": [
-    {
-      "ts": "2026-08-17T18:16:07.418640+00:00",
-      "ticket_id": 235863456,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Action Required] Review Google Meet automatic note-taking controls before Sep 21, 2026"
-    },
-    {
-      "ts": "2026-08-17T19:03:02.437450+00:00",
-      "ticket_id": 235866555,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Could you please review this for me?"
-    },
-    {
-      "ts": "2026-08-17T19:03:02.437479+00:00",
-      "ticket_id": 235867750,
-      "action": "skip_spam",
-      "detail": "aliciablasing7 and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-08-17T20:36:26.699500+00:00",
-      "ticket_id": 235874808,
-      "action": "skip_spam",
-      "detail": "How to turn one TikTok video into a sales funnel"
-    },
-    {
-      "ts": "2026-08-17T21:35:44.328938+00:00",
-      "ticket_id": 235880663,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your receipt from Sendlane #2066-8200"
-    },
-    {
-      "ts": "2026-08-17T22:56:57.150470+00:00",
-      "ticket_id": 235888161,
-      "action": "skip_spam",
-      "detail": "See el_chicano_tezcatlipoca, mbpfannerstill and more in your feed"
-    },
-    {
-      "ts": "2026-08-17T22:56:59.248353+00:00",
-      "ticket_id": 235888465,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Inquiry for Potential Business Collaboration"
-    },
-    {
-      "ts": "2026-08-18T01:13:01.989040+00:00",
-      "ticket_id": 235894003,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Discover Your Perfect Brand Match!"
-    },
-    {
-      "ts": "2026-08-18T12:56:06.597122+00:00",
-      "ticket_id": 235899000,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 18, 2026 ($105.59 USD)"
-    },
-    {
-      "ts": "2026-08-18T12:56:08.385849+00:00",
-      "ticket_id": 235972512,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Fix your elmandrye.com issues"
-    },
-    {
-      "ts": "2026-08-18T12:56:10.308767+00:00",
-      "ticket_id": 235974434,
-      "action": "error_crash",
-      "detail": "I have never received my order"
-    },
-    {
-      "ts": "2026-08-18T14:19:52.919741+00:00",
-      "ticket_id": 235996620,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-18T17:14:10.546127+00:00",
-      "ticket_id": 236026609,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-18T18:16:37.398574+00:00",
-      "ticket_id": 236033335,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Pip - one thing"
-    },
-    {
-      "ts": "2026-08-18T19:02:28.437108+00:00",
-      "ticket_id": 236036879,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Ship to Bakersfield"
-    },
-    {
-      "ts": "2026-08-18T19:02:31.795334+00:00",
-      "ticket_id": 236037874,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Address change"
-    },
-    {
-      "ts": "2026-08-18T20:32:16.335790+00:00",
-      "ticket_id": 236046908,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\u2b06\ufe0f Plot twist: SEO can get you high(er rankings) \ud83c\udf31\u00a0\u00a0"
-    },
-    {
-      "ts": "2026-08-19T12:57:06.778757+00:00",
-      "ticket_id": 236069025,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-19T12:57:08.350739+00:00",
-      "ticket_id": 236069049,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Partnership idea \u2014 Elm & Rye x GymHub"
-    },
-    {
-      "ts": "2026-08-19T12:57:09.672078+00:00",
-      "ticket_id": 236069483,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-19T12:57:09.672108+00:00",
-      "ticket_id": 236132908,
-      "action": "skip_spam",
-      "detail": "A new affiliate, Thanh Phung, has signed up for your program!"
-    },
-    {
-      "ts": "2026-08-19T13:50:28.083969+00:00",
-      "ticket_id": 236145303,
-      "action": "error_crash",
-      "detail": "Re: Did not receive order"
-    },
-    {
-      "ts": "2026-08-19T13:50:29.009132+00:00",
-      "ticket_id": 236150095,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Dog supplements in Animal Hospital of Wichita Falls?"
-    },
-    {
-      "ts": "2026-08-19T14:25:24.410961+00:00",
-      "ticket_id": 236157640,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-19T15:02:55.392900+00:00",
-      "ticket_id": 236162855,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Discover DV Brands & Gold Bar Quality!"
-    },
-    {
-      "ts": "2026-08-19T15:02:57.023979+00:00",
-      "ticket_id": 236163046,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Turn more shoppers into customers with AI"
-    },
-    {
-      "ts": "2026-08-19T15:02:58.492071+00:00",
-      "ticket_id": 236166586,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Checking on my order"
-    },
     {
       "ts": "2026-08-19T15:42:42.417153+00:00",
       "ticket_id": 236167857,
@@ -1203,6 +1041,168 @@
       "ticket_id": 237225755,
       "action": "unknown_escalated_for_aj",
       "detail": "Minimum input, maximum gain"
+    },
+    {
+      "ts": "2026-08-27T22:06:04.743700+00:00",
+      "ticket_id": 237229345,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Partnership idea \u2014 Elm & Rye x GymHub"
+    },
+    {
+      "ts": "2026-08-27T22:06:05.978268+00:00",
+      "ticket_id": 237229509,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Are you ready ?"
+    },
+    {
+      "ts": "2026-08-27T22:06:08.027134+00:00",
+      "ticket_id": 237240933,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Updated Product List: New Clinical & Caco-2 Bioavailability Data for Liposomal Ingredients"
+    },
+    {
+      "ts": "2026-08-27T22:06:10.680613+00:00",
+      "ticket_id": 237245878,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Looking for a Shopify Partner for your store?"
+    },
+    {
+      "ts": "2026-08-27T22:06:12.048359+00:00",
+      "ticket_id": 237279783,
+      "action": "unknown_escalated_for_aj",
+      "detail": "High-Quality Travel Guest Post Available for Publication."
+    },
+    {
+      "ts": "2026-08-27T22:06:12.048382+00:00",
+      "ticket_id": 237283814,
+      "action": "skip_spam",
+      "detail": "Your new seller rewards are waiting"
+    },
+    {
+      "ts": "2026-08-27T22:06:13.608862+00:00",
+      "ticket_id": 237290822,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Vitamin K2 MK-7 for bone health formulas"
+    },
+    {
+      "ts": "2026-08-27T22:06:14.993700+00:00",
+      "ticket_id": 237305626,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Webinar Invite: Increase Affiliate Conversion Rates Overnight"
+    },
+    {
+      "ts": "2026-08-27T22:06:16.886780+00:00",
+      "ticket_id": 237311600,
+      "action": "error_crash",
+      "detail": "Re: Order status - Contact"
+    },
+    {
+      "ts": "2026-08-27T22:06:19.426273+00:00",
+      "ticket_id": 237312114,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order status - Contact"
+    },
+    {
+      "ts": "2026-08-27T22:06:21.434350+00:00",
+      "ticket_id": 237320440,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Joey Pouches 45-Can Display \ud83d\udcc8"
+    },
+    {
+      "ts": "2026-08-27T22:06:21.434383+00:00",
+      "ticket_id": 237324025,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-27T22:06:22.594073+00:00",
+      "ticket_id": 237326171,
+      "action": "unknown_escalated_for_aj",
+      "detail": "samples"
+    },
+    {
+      "ts": "2026-08-27T22:06:24.179608+00:00",
+      "ticket_id": 237337299,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 8.27.2026"
+    },
+    {
+      "ts": "2026-08-27T22:06:25.765333+00:00",
+      "ticket_id": 237337652,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Custom Printed Protein & Supplement Pouches | Small MOQ \ud83d\udcaa"
+    },
+    {
+      "ts": "2026-08-27T22:06:27.380832+00:00",
+      "ticket_id": 237338703,
+      "action": "unknown_escalated_for_aj",
+      "detail": "What retailers should know about agentic commerce"
+    },
+    {
+      "ts": "2026-08-27T22:06:29.753808+00:00",
+      "ticket_id": 237341834,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invite SPAM Alert"
+    },
+    {
+      "ts": "2026-08-27T22:06:31.238208+00:00",
+      "ticket_id": 237344251,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The hair growth ingredient that outperformed Minoxidil. Your brand could own it."
+    },
+    {
+      "ts": "2026-08-27T22:06:32.943901+00:00",
+      "ticket_id": 237355351,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order # 15239"
+    },
+    {
+      "ts": "2026-08-27T22:06:34.004506+00:00",
+      "ticket_id": 237359207,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-27T22:06:35.127138+00:00",
+      "ticket_id": 237363369,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Potential growth opportunities.."
+    },
+    {
+      "ts": "2026-08-27T22:06:36.617027+00:00",
+      "ticket_id": 237364711,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Let our AI build (and write) your Shopify flows"
+    },
+    {
+      "ts": "2026-08-27T22:06:38.719120+00:00",
+      "ticket_id": 237366974,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udc40 Are Your Cannabis Ads Reaching the Right Customers? \ud83c\udfaf"
+    },
+    {
+      "ts": "2026-08-27T22:06:40.170411+00:00",
+      "ticket_id": 237376476,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Mandrill-Mailchimp Payment Method Rejected"
+    },
+    {
+      "ts": "2026-08-27T22:06:41.904784+00:00",
+      "ticket_id": 237376539,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Mandrill-Mailchimp Payment Method Rejected"
+    },
+    {
+      "ts": "2026-08-27T22:06:43.059842+00:00",
+      "ticket_id": 237376732,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye"
+    },
+    {
+      "ts": "2026-08-27T22:06:44.523955+00:00",
+      "ticket_id": 237380014,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Cancel canceling order"
     }
   ]
 }
