@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 237380014,
-  "last_run_at": "2026-08-27T22:06:44.523966+00:00",
+  "last_processed_ticket_id": 237402276,
+  "last_run_at": "2026-08-28T06:06:07.028004+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-27",
+  "daily_refund_date": "2026-08-28",
   "ticket_actions": [
-    {
-      "ts": "2026-08-19T15:42:42.417153+00:00",
-      "ticket_id": 236167857,
-      "action": "unknown_escalated_for_aj",
-      "detail": "quick question about your shipping protection revenue"
-    },
-    {
-      "ts": "2026-08-19T16:12:15.055624+00:00",
-      "ticket_id": 236174328,
-      "action": "skip_spam",
-      "detail": "See what snoopdogg and 25 others you follow shared"
-    },
-    {
-      "ts": "2026-08-19T16:49:41.008487+00:00",
-      "ticket_id": 236182660,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Beyond another discount code"
-    },
-    {
-      "ts": "2026-08-19T17:18:26.202821+00:00",
-      "ticket_id": 236183720,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-08-19T17:18:28.785623+00:00",
-      "ticket_id": 236185737,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Glamnetic doubled automation rate. Their CSAT didn\u2019t suffer."
-    },
     {
       "ts": "2026-08-19T17:18:28.785653+00:00",
       "ticket_id": 236185195,
@@ -1203,6 +1173,36 @@
       "ticket_id": 237380014,
       "action": "unknown_escalated_for_aj",
       "detail": "Cancel canceling order"
+    },
+    {
+      "ts": "2026-08-28T06:06:02.876813+00:00",
+      "ticket_id": 237392180,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Why WooCommerce performance breaks"
+    },
+    {
+      "ts": "2026-08-28T06:06:04.377099+00:00",
+      "ticket_id": 237394079,
+      "action": "unknown_escalated_for_aj",
+      "detail": "(no subject)"
+    },
+    {
+      "ts": "2026-08-28T06:06:05.637989+00:00",
+      "ticket_id": 237395330,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Some of your pending conversions are set to automatically approve"
+    },
+    {
+      "ts": "2026-08-28T06:06:07.027971+00:00",
+      "ticket_id": 237398580,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Hola Pupper"
+    },
+    {
+      "ts": "2026-08-28T06:06:07.028000+00:00",
+      "ticket_id": 237402276,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
     }
   ]
 }
