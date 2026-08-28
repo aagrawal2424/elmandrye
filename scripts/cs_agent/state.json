@@ -1,189 +1,9 @@
 {
-  "last_processed_ticket_id": 237402276,
-  "last_run_at": "2026-08-28T06:06:07.028004+00:00",
+  "last_processed_ticket_id": 237543198,
+  "last_run_at": "2026-08-28T22:05:02.470596+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-28",
   "ticket_actions": [
-    {
-      "ts": "2026-08-19T17:18:28.785653+00:00",
-      "ticket_id": 236185195,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-08-19T17:18:28.785663+00:00",
-      "ticket_id": 236185296,
-      "action": "skip_spam",
-      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-08-19T17:18:28.785669+00:00",
-      "ticket_id": 236185337,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-08-19T17:18:30.210171+00:00",
-      "ticket_id": 236186441,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Packaging Services"
-    },
-    {
-      "ts": "2026-08-19T18:12:41.662364+00:00",
-      "ticket_id": 236191624,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Noticed a Few Website Issues"
-    },
-    {
-      "ts": "2026-08-19T19:32:04.595714+00:00",
-      "ticket_id": 236198390,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-08-19T19:32:04.595735+00:00",
-      "ticket_id": 236201823,
-      "action": "skip_spam",
-      "detail": "proudpapa77 and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-08-19T20:35:03.902151+00:00",
-      "ticket_id": 236207166,
-      "action": "skip_spam",
-      "detail": "New seller rewards close soon"
-    },
-    {
-      "ts": "2026-08-20T01:23:37.570165+00:00",
-      "ticket_id": 236221943,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Email Notification: support@buyeverest.com"
-    },
-    {
-      "ts": "2026-08-20T12:59:31.333979+00:00",
-      "ticket_id": 236225291,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 20, 2026 ($75.03 USD)"
-    },
-    {
-      "ts": "2026-08-20T12:59:32.576976+00:00",
-      "ticket_id": 236227302,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Pupper"
-    },
-    {
-      "ts": "2026-08-20T12:59:34.893306+00:00",
-      "ticket_id": 236229090,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Get a second phone number with Google Voice"
-    },
-    {
-      "ts": "2026-08-20T12:59:37.799904+00:00",
-      "ticket_id": 236239027,
-      "action": "error_crash",
-      "detail": "Report an issue - Contact"
-    },
-    {
-      "ts": "2026-08-20T12:59:38.682227+00:00",
-      "ticket_id": 236249097,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Himalayan Shilajit Resin Supply from Nepal"
-    },
-    {
-      "ts": "2026-08-20T12:59:38.682257+00:00",
-      "ticket_id": 236249984,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-20T12:59:40.415632+00:00",
-      "ticket_id": 236269496,
-      "action": "unknown_escalated_for_aj",
-      "detail": "commission-based Klaviyo for Elm & Rye"
-    },
-    {
-      "ts": "2026-08-20T12:59:40.415676+00:00",
-      "ticket_id": 236280602,
-      "action": "skip_spam",
-      "detail": "Action needed by 28th August: Install the Awin Shopify app to keep your affiliate tracking active"
-    },
-    {
-      "ts": "2026-08-20T14:37:48.205565+00:00",
-      "ticket_id": 236312703,
-      "action": "skip_spam",
-      "detail": "Bucanna Labs - Your Delta-8 Gummies"
-    },
-    {
-      "ts": "2026-08-20T14:37:48.205594+00:00",
-      "ticket_id": 236313733,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-20T14:37:50.397585+00:00",
-      "ticket_id": 236314934,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Smarter Compliance for Faster Product Launches"
-    },
-    {
-      "ts": "2026-08-20T14:37:51.338973+00:00",
-      "ticket_id": 236314910,
-      "action": "error_crash",
-      "detail": "Order Never Arrived"
-    },
-    {
-      "ts": "2026-08-20T15:16:07.534010+00:00",
-      "ticket_id": 236324724,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Ready to reach new customers again?"
-    },
-    {
-      "ts": "2026-08-20T15:52:50.265221+00:00",
-      "ticket_id": 236327591,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-20T15:52:51.273900+00:00",
-      "ticket_id": 236331365,
-      "action": "unknown_escalated_for_aj",
-      "detail": "packaging samples"
-    },
-    {
-      "ts": "2026-08-20T15:52:52.632767+00:00",
-      "ticket_id": 236332289,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Salmon DNA is having its moment in skincare. Your brand could be first."
-    },
-    {
-      "ts": "2026-08-20T16:33:36.652328+00:00",
-      "ticket_id": 236334670,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Meet Your New Shopify AI Email Agent"
-    },
-    {
-      "ts": "2026-08-20T17:04:26.410683+00:00",
-      "ticket_id": 236343329,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Need help with Wix?"
-    },
-    {
-      "ts": "2026-08-20T18:14:42.842090+00:00",
-      "ticket_id": 236350932,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Stop Subscription - Contact"
-    },
-    {
-      "ts": "2026-08-20T18:14:49.735065+00:00",
-      "ticket_id": 236351393,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udd0e Your Cannabis Customers Are Asking. AI Is Answering. \ud83e\udd16\u00a0"
-    },
-    {
-      "ts": "2026-08-20T18:14:51.690406+00:00",
-      "ticket_id": 236351637,
-      "action": "unknown_escalated_for_aj",
-      "detail": "supplements, Elmandrye.com piece"
-    },
     {
       "ts": "2026-08-20T19:43:33.406549+00:00",
       "ticket_id": 236363050,
@@ -1203,6 +1023,186 @@
       "ticket_id": 237402276,
       "action": "skip_spam",
       "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-28T22:04:23.615013+00:00",
+      "ticket_id": 237429495,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Take your WooCommerce store to the next level"
+    },
+    {
+      "ts": "2026-08-28T22:04:26.773601+00:00",
+      "ticket_id": 237480492,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your NITRO LOGISTICS LLC receipt [#1382-3317]"
+    },
+    {
+      "ts": "2026-08-28T22:04:26.773631+00:00",
+      "ticket_id": 237480530,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-28T22:04:29.737525+00:00",
+      "ticket_id": 237481929,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Download card for more details and to RSVP to a BBQ Weekend with Friends and Family"
+    },
+    {
+      "ts": "2026-08-28T22:04:31.835498+00:00",
+      "ticket_id": 237483990,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Re: Order n\u00b085971, please take a moment to review your latest purchase"
+    },
+    {
+      "ts": "2026-08-28T22:04:32.915996+00:00",
+      "ticket_id": 237487020,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-08-28T22:04:32.916018+00:00",
+      "ticket_id": 237490160,
+      "action": "skip_spam",
+      "detail": "Re: Bucanna Labs - Your Delta-8 Gummies"
+    },
+    {
+      "ts": "2026-08-28T22:04:32.916035+00:00",
+      "ticket_id": 237490857,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-28T22:04:34.839416+00:00",
+      "ticket_id": 237493673,
+      "action": "unknown_escalated_for_aj",
+      "detail": "quick idea for Elm & Rye's ads"
+    },
+    {
+      "ts": "2026-08-28T22:04:36.624854+00:00",
+      "ticket_id": 237497816,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on August 28, 2026 at 7:43 am"
+    },
+    {
+      "ts": "2026-08-28T22:04:36.624879+00:00",
+      "ticket_id": 237497868,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
+    },
+    {
+      "ts": "2026-08-28T22:04:38.918995+00:00",
+      "ticket_id": 237500053,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Distribution Opportunity For Pupper Skin Care"
+    },
+    {
+      "ts": "2026-08-28T22:04:38.919023+00:00",
+      "ticket_id": 237505775,
+      "action": "skip_spam",
+      "detail": "See what anton.monolite and 7 others shared"
+    },
+    {
+      "ts": "2026-08-28T22:04:40.878675+00:00",
+      "ticket_id": 237506350,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don't Miss Out on Special Offers!"
+    },
+    {
+      "ts": "2026-08-28T22:04:42.241231+00:00",
+      "ticket_id": 237510650,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Shilajit"
+    },
+    {
+      "ts": "2026-08-28T22:04:43.748906+00:00",
+      "ticket_id": 237511262,
+      "action": "return_exchange_escalated_no_orders",
+      "detail": "Report an issue - Contact"
+    },
+    {
+      "ts": "2026-08-28T22:04:46.455582+00:00",
+      "ticket_id": 237516621,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We asked CX leaders their biggest BFCM fear. Here's what they said."
+    },
+    {
+      "ts": "2026-08-28T22:04:48.436407+00:00",
+      "ticket_id": 237517867,
+      "action": "unknown_escalated_for_aj",
+      "detail": "ITSD-47361 Reflect Health IT Service Desk"
+    },
+    {
+      "ts": "2026-08-28T22:04:50.044450+00:00",
+      "ticket_id": 237517912,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Email Acknowledgement"
+    },
+    {
+      "ts": "2026-08-28T22:04:51.700331+00:00",
+      "ticket_id": 237518014,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A u t o RE: Automatic Reply ITSD-47361 Reflect Health IT Service Desk"
+    },
+    {
+      "ts": "2026-08-28T22:04:53.352834+00:00",
+      "ticket_id": 237518105,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Email Acknowledgement"
+    },
+    {
+      "ts": "2026-08-28T22:04:54.640756+00:00",
+      "ticket_id": 237519618,
+      "action": "unknown_escalated_for_aj",
+      "detail": "last note on this, then i'll leave it alone"
+    },
+    {
+      "ts": "2026-08-28T22:04:57.514539+00:00",
+      "ticket_id": 237526313,
+      "action": "unknown_escalated_for_aj",
+      "detail": "REQUEST FOR CATALOG"
+    },
+    {
+      "ts": "2026-08-28T22:04:57.514567+00:00",
+      "ticket_id": 237529282,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-08-28T22:04:58.743979+00:00",
+      "ticket_id": 237529726,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A Quick Look."
+    },
+    {
+      "ts": "2026-08-28T22:05:00.539368+00:00",
+      "ticket_id": 237531239,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Increase Affiliate Conversion Rates"
+    },
+    {
+      "ts": "2026-08-28T22:05:02.470549+00:00",
+      "ticket_id": 237536636,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 8.28.2026"
+    },
+    {
+      "ts": "2026-08-28T22:05:02.470579+00:00",
+      "ticket_id": 237539709,
+      "action": "skip_spam",
+      "detail": "Your first sale could unlock a reward"
+    },
+    {
+      "ts": "2026-08-28T22:05:02.470587+00:00",
+      "ticket_id": 237543076,
+      "action": "skip_spam",
+      "detail": "Automatic reply: \ud83e\uddb4 Fetch 60% Off Everything!"
+    },
+    {
+      "ts": "2026-08-28T22:05:02.470592+00:00",
+      "ticket_id": 237543198,
+      "action": "skip_spam",
+      "detail": "Automatic reply: \ud83e\uddb4 Fetch 60% Off Everything!"
     }
   ]
 }
