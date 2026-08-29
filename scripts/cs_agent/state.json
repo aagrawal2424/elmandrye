@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 237552837,
-  "last_run_at": "2026-08-29T03:42:06.906689+00:00",
+  "last_processed_ticket_id": 237628282,
+  "last_run_at": "2026-08-29T16:33:30.633039+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-29",
   "ticket_actions": [
-    {
-      "ts": "2026-08-20T22:14:13.723767+00:00",
-      "ticket_id": 236380886,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Most Shopify stores lose buyers right before checkout"
-    },
-    {
-      "ts": "2026-08-20T22:48:45.995401+00:00",
-      "ticket_id": 236381786,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Most Shopify stores lose buyers right before checkout"
-    },
-    {
-      "ts": "2026-08-20T23:14:18.094037+00:00",
-      "ticket_id": 236383403,
-      "action": "skip_spam",
-      "detail": "See what anton.monolite and 7 others shared"
-    },
-    {
-      "ts": "2026-08-20T23:14:18.094058+00:00",
-      "ticket_id": 236383985,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
-    },
-    {
-      "ts": "2026-08-21T12:58:03.447594+00:00",
-      "ticket_id": 236388734,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-08-21T12:58:03.447627+00:00",
-      "ticket_id": 236394550,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-08-21T12:58:04.519124+00:00",
       "ticket_id": 236394809,
@@ -1203,6 +1167,42 @@
       "ticket_id": 237552837,
       "action": "skip_spam",
       "detail": "Automatic reply: [External] \ud83e\uddb4 Fetch 60% Off Everything!"
+    },
+    {
+      "ts": "2026-08-29T16:33:25.154071+00:00",
+      "ticket_id": 237600802,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re"
+    },
+    {
+      "ts": "2026-08-29T16:33:25.154120+00:00",
+      "ticket_id": 237605561,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-29T16:33:27.128570+00:00",
+      "ticket_id": 237608021,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Increase Affiliate Conversion Rates"
+    },
+    {
+      "ts": "2026-08-29T16:33:27.128606+00:00",
+      "ticket_id": 237617371,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-29T16:33:28.341790+00:00",
+      "ticket_id": 237619488,
+      "action": "unknown_escalated_for_aj",
+      "detail": "supplements creators"
+    },
+    {
+      "ts": "2026-08-29T16:33:30.633019+00:00",
+      "ticket_id": 237628282,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[On-demand event] Fraud prevention shouldn\u2019t start at checkout"
     }
   ]
 }
