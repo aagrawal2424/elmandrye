@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 237543198,
-  "last_run_at": "2026-08-28T22:05:02.470596+00:00",
+  "last_processed_ticket_id": 237552837,
+  "last_run_at": "2026-08-29T03:42:06.906689+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-28",
+  "daily_refund_date": "2026-08-29",
   "ticket_actions": [
-    {
-      "ts": "2026-08-20T19:43:33.406549+00:00",
-      "ticket_id": 236363050,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Website Upgrade? - buyeverest.com"
-    },
     {
       "ts": "2026-08-20T22:14:13.723767+00:00",
       "ticket_id": 236380886,
@@ -1203,6 +1197,12 @@
       "ticket_id": 237543198,
       "action": "skip_spam",
       "detail": "Automatic reply: \ud83e\uddb4 Fetch 60% Off Everything!"
+    },
+    {
+      "ts": "2026-08-29T03:42:06.906671+00:00",
+      "ticket_id": 237552837,
+      "action": "skip_spam",
+      "detail": "Automatic reply: [External] \ud83e\uddb4 Fetch 60% Off Everything!"
     }
   ]
 }
