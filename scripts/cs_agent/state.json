@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 237628282,
-  "last_run_at": "2026-08-29T16:33:30.633039+00:00",
+  "last_processed_ticket_id": 237641742,
+  "last_run_at": "2026-08-29T19:30:09.784301+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-29",
   "ticket_actions": [
-    {
-      "ts": "2026-08-21T12:58:04.519124+00:00",
-      "ticket_id": 236394809,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-21T12:58:04.519153+00:00",
-      "ticket_id": 236406645,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 21, 2026 ($69.56 USD)"
-    },
-    {
-      "ts": "2026-08-21T12:58:05.493131+00:00",
-      "ticket_id": 236415003,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Naked Nutrition Collab"
-    },
-    {
-      "ts": "2026-08-21T12:58:06.502283+00:00",
-      "ticket_id": 236417409,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: An idea to improve shopper conversion"
-    },
-    {
-      "ts": "2026-08-21T12:58:07.367431+00:00",
-      "ticket_id": 236468159,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Guest Posting Collaboration"
-    },
-    {
-      "ts": "2026-08-21T13:51:50.169706+00:00",
-      "ticket_id": 236474882,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1788-2049]"
-    },
-    {
-      "ts": "2026-08-21T13:51:51.722158+00:00",
-      "ticket_id": 236481454,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Second Follow\u2011up for Cow Stall Rubber Mats"
-    },
     {
       "ts": "2026-08-21T13:51:54.542880+00:00",
       "ticket_id": 236482282,
@@ -1203,6 +1161,48 @@
       "ticket_id": 237628282,
       "action": "unknown_escalated_for_aj",
       "detail": "[On-demand event] Fraud prevention shouldn\u2019t start at checkout"
+    },
+    {
+      "ts": "2026-08-29T19:29:57.263458+00:00",
+      "ticket_id": 237632015,
+      "action": "error_crash",
+      "detail": "Order #85926"
+    },
+    {
+      "ts": "2026-08-29T19:29:57.263482+00:00",
+      "ticket_id": 237633924,
+      "action": "skip_spam",
+      "detail": "Your Klaviyo Inc subscription will renew soon"
+    },
+    {
+      "ts": "2026-08-29T19:29:58.316261+00:00",
+      "ticket_id": 237637745,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Few SEO improvements while reviewing your website."
+    },
+    {
+      "ts": "2026-08-29T19:29:58.316291+00:00",
+      "ticket_id": 237639580,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-08-29T19:29:59.326279+00:00",
+      "ticket_id": 237641234,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order #85926"
+    },
+    {
+      "ts": "2026-08-29T19:30:04.709367+00:00",
+      "ticket_id": 237641698,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Please share your feedback - 3 minutes"
+    },
+    {
+      "ts": "2026-08-29T19:30:09.784277+00:00",
+      "ticket_id": 237641742,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Partnership Invitation: Canada\u2019s National Inaugural Luxury Industry Leadership Initiative"
     }
   ]
 }
