@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 237641742,
-  "last_run_at": "2026-08-29T19:30:09.784301+00:00",
+  "last_processed_ticket_id": 237650308,
+  "last_run_at": "2026-08-29T21:55:21.911606+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-29",
   "ticket_actions": [
-    {
-      "ts": "2026-08-21T13:51:54.542880+00:00",
-      "ticket_id": 236482282,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Address change"
-    },
-    {
-      "ts": "2026-08-21T14:31:08.024698+00:00",
-      "ticket_id": 236484478,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-21T14:31:10.100431+00:00",
-      "ticket_id": 236484571,
-      "action": "unknown_escalated_for_aj",
-      "detail": "We miss you Elm & Rye - ToastiBar - Sales Popup"
-    },
     {
       "ts": "2026-08-21T14:31:11.555577+00:00",
       "ticket_id": 236484730,
@@ -1203,6 +1185,24 @@
       "ticket_id": 237641742,
       "action": "unknown_escalated_for_aj",
       "detail": "Partnership Invitation: Canada\u2019s National Inaugural Luxury Industry Leadership Initiative"
+    },
+    {
+      "ts": "2026-08-29T21:55:19.021879+00:00",
+      "ticket_id": 237646607,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Is this Pupper"
+    },
+    {
+      "ts": "2026-08-29T21:55:19.942090+00:00",
+      "ticket_id": 237648465,
+      "action": "unknown_escalated_for_aj",
+      "detail": "where a visible source can point for Pure High Quality Supplements by Elm Rye"
+    },
+    {
+      "ts": "2026-08-29T21:55:21.911586+00:00",
+      "ticket_id": 237650308,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Fw: Subscription management reminder"
     }
   ]
 }
