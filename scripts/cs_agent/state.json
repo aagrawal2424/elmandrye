@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 237650308,
-  "last_run_at": "2026-08-30T00:00:57.187874+00:00",
+  "last_processed_ticket_id": 237718586,
+  "last_run_at": "2026-08-30T16:28:14.920583+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-30",
   "ticket_actions": [
-    {
-      "ts": "2026-08-21T14:31:11.555577+00:00",
-      "ticket_id": 236484730,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Volume Discount Bundles app is now uninstalled"
-    },
-    {
-      "ts": "2026-08-21T14:31:12.595778+00:00",
-      "ticket_id": 236485080,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Gorgias: Login instructions"
-    },
-    {
-      "ts": "2026-08-21T14:31:13.738032+00:00",
-      "ticket_id": 236486461,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Exclusive In-Person Meeting w/ the TODAY Show! Can we bring your products?"
-    },
-    {
-      "ts": "2026-08-21T14:31:15.210438+00:00",
-      "ticket_id": 236488847,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Butta's Chipz Now in Stock! Don't Miss Out!"
-    },
-    {
-      "ts": "2026-08-21T15:06:27.694059+00:00",
-      "ticket_id": 236491021,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Order"
-    },
-    {
-      "ts": "2026-08-21T15:47:03.253839+00:00",
-      "ticket_id": 236494744,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order update"
-    },
-    {
-      "ts": "2026-08-21T15:47:04.709043+00:00",
-      "ticket_id": 236495502,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Bovine & Marine Collagen | Quality-Controlled Supply for Elm & Rye"
-    },
-    {
-      "ts": "2026-08-21T16:15:41.150751+00:00",
-      "ticket_id": 236502644,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Domestic credit card processing for Elm & Rye"
-    },
     {
       "ts": "2026-08-21T16:56:14.272959+00:00",
       "ticket_id": 236506893,
@@ -1203,6 +1155,54 @@
       "ticket_id": 237650308,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Fw: Subscription management reminder"
+    },
+    {
+      "ts": "2026-08-30T16:28:10.170640+00:00",
+      "ticket_id": 237657335,
+      "action": "unknown_escalated_for_aj",
+      "detail": "HelloElmandrye,"
+    },
+    {
+      "ts": "2026-08-30T16:28:11.662311+00:00",
+      "ticket_id": 237661635,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Request refund or discount - Contact"
+    },
+    {
+      "ts": "2026-08-30T16:28:13.166011+00:00",
+      "ticket_id": 237662309,
+      "action": "error_crash",
+      "detail": "Re: Order #85697 confirmed"
+    },
+    {
+      "ts": "2026-08-30T16:28:13.166040+00:00",
+      "ticket_id": 237693077,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-08-30T16:28:13.166047+00:00",
+      "ticket_id": 237710682,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-08-30T16:28:14.920470+00:00",
+      "ticket_id": 237712130,
+      "action": "unknown_escalated_for_aj",
+      "detail": "re: Elm & Rye"
+    },
+    {
+      "ts": "2026-08-30T16:28:14.920529+00:00",
+      "ticket_id": 237716367,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-08-30T16:28:14.920579+00:00",
+      "ticket_id": 237718586,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see what's been happening on Instagram"
     }
   ]
 }
