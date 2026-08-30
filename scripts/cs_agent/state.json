@@ -1,69 +1,9 @@
 {
-  "last_processed_ticket_id": 237718586,
-  "last_run_at": "2026-08-30T16:28:14.920583+00:00",
+  "last_processed_ticket_id": 237786095,
+  "last_run_at": "2026-08-30T19:24:18.102963+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-30",
   "ticket_actions": [
-    {
-      "ts": "2026-08-21T16:56:14.272959+00:00",
-      "ticket_id": 236506893,
-      "action": "error_crash",
-      "detail": "Conversation with Thamica McCook"
-    },
-    {
-      "ts": "2026-08-21T17:36:16.240359+00:00",
-      "ticket_id": 236510579,
-      "action": "unknown_escalated_for_aj",
-      "detail": "last one from me"
-    },
-    {
-      "ts": "2026-08-21T18:02:17.873588+00:00",
-      "ticket_id": 236514752,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Cancel subscription  - Contact"
-    },
-    {
-      "ts": "2026-08-21T18:51:51.465882+00:00",
-      "ticket_id": 236518909,
-      "action": "unknown_escalated_for_aj",
-      "detail": "2 days left to switch to the new chat design"
-    },
-    {
-      "ts": "2026-08-21T20:09:49.771741+00:00",
-      "ticket_id": 236526066,
-      "action": "skip_spam",
-      "detail": "Reach 170 million shoppers on TikTok"
-    },
-    {
-      "ts": "2026-08-21T20:42:13.848950+00:00",
-      "ticket_id": 236530027,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Fwd:Action Required:(2026\u201327)August Classified Employee_Grant+ROI Proposal(CEG)+Program Requirements"
-    },
-    {
-      "ts": "2026-08-21T21:03:11.388830+00:00",
-      "ticket_id": 236531052,
-      "action": "unknown_escalated_for_aj",
-      "detail": "3 UGC creator AIs for elmandrye.com"
-    },
-    {
-      "ts": "2026-08-21T22:33:59.159445+00:00",
-      "ticket_id": 236535793,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-08-21T22:33:59.159466+00:00",
-      "ticket_id": 236536622,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-08-21T23:31:55.294580+00:00",
-      "ticket_id": 236538963,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-08-22T12:49:37.383664+00:00",
       "ticket_id": 236541113,
@@ -1203,6 +1143,66 @@
       "ticket_id": 237718586,
       "action": "skip_spam",
       "detail": "puppersupplements, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-08-30T19:24:02.404196+00:00",
+      "ticket_id": 237724209,
+      "action": "unknown_escalated_for_aj",
+      "detail": "#219758 Your Ticket is Closed"
+    },
+    {
+      "ts": "2026-08-30T19:24:04.161987+00:00",
+      "ticket_id": 237724252,
+      "action": "unknown_escalated_for_aj",
+      "detail": "#219760 Your Ticket is Closed"
+    },
+    {
+      "ts": "2026-08-30T19:24:05.763281+00:00",
+      "ticket_id": 237724286,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank you for contacting us - Additional Information Required \u00a700487917"
+    },
+    {
+      "ts": "2026-08-30T19:24:07.505221+00:00",
+      "ticket_id": 237724284,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A u t o RE: Automatic Reply #219758 Your Ticket is Closed"
+    },
+    {
+      "ts": "2026-08-30T19:24:08.972558+00:00",
+      "ticket_id": 237746922,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A u t o RE: Automatic Reply Request received: 14095605 / ref:!00DU00Lfqj.!500Jv013yxsg:ref"
+    },
+    {
+      "ts": "2026-08-30T19:24:10.660512+00:00",
+      "ticket_id": 237727204,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We\u2019ve received your email - IET Member Support"
+    },
+    {
+      "ts": "2026-08-30T19:24:12.835837+00:00",
+      "ticket_id": 237728613,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Where is my order?"
+    },
+    {
+      "ts": "2026-08-30T19:24:15.182232+00:00",
+      "ticket_id": 237756003,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Where is my order?"
+    },
+    {
+      "ts": "2026-08-30T19:24:16.621655+00:00",
+      "ticket_id": 237770996,
+      "action": "error_crash",
+      "detail": "Order still not shipped"
+    },
+    {
+      "ts": "2026-08-30T19:24:18.102944+00:00",
+      "ticket_id": 237786095,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Helping  Support simplify imports"
     }
   ]
 }
