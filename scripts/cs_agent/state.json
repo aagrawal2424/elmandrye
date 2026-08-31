@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 237929994,
-  "last_run_at": "2026-08-31T19:01:35.849640+00:00",
+  "last_processed_ticket_id": 237951882,
+  "last_run_at": "2026-08-31T23:10:46.288175+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-08-31",
   "ticket_actions": [
-    {
-      "ts": "2026-08-24T13:00:58.826646+00:00",
-      "ticket_id": 236733288,
-      "action": "unknown_escalated_for_aj",
-      "detail": "new puppy sep 6 - new owner sample program?"
-    },
-    {
-      "ts": "2026-08-24T13:01:00.555967+00:00",
-      "ticket_id": 236734940,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Subject: Turnkey ODM: ISO 13485 hygiene line, DTC proven (Trial kit ready)"
-    },
-    {
-      "ts": "2026-08-24T13:01:00.555995+00:00",
-      "ticket_id": 236736248,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-08-24T13:01:00.556004+00:00",
-      "ticket_id": 236754503,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 24, 2026 ($28.94 USD)"
-    },
-    {
-      "ts": "2026-08-24T13:01:00.556010+00:00",
-      "ticket_id": 236756152,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-08-24T13:01:01.658208+00:00",
       "ticket_id": 236756987,
@@ -1203,6 +1173,36 @@
       "ticket_id": 237929994,
       "action": "skip_spam",
       "detail": "chewy and petsmart recently added to their stories"
+    },
+    {
+      "ts": "2026-08-31T23:10:40.727853+00:00",
+      "ticket_id": 237938037,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-08-31T23:10:40.727910+00:00",
+      "ticket_id": 237941355,
+      "action": "skip_spam",
+      "detail": "Your free ad credits are still waiting"
+    },
+    {
+      "ts": "2026-08-31T23:10:42.749693+00:00",
+      "ticket_id": 237943260,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Report an issue - Contact"
+    },
+    {
+      "ts": "2026-08-31T23:10:44.296149+00:00",
+      "ticket_id": 237951867,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-08-31T23:10:46.288154+00:00",
+      "ticket_id": 237951882,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Where in the US does Elm & Rye manufacture?"
     }
   ]
 }
