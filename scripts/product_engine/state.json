@@ -1078,6 +1078,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "'glycine supplement for sleep' search volume up 400% in 6mo (monthly volume 400, keyword difficulty 1). Ahrefs trending signal \u2014 real demand, not yet productized at Elm & Rye."
+    },
+    {
+      "product_name": "Moderate",
+      "product_title": "Blackcurrant extract",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9327843115220",
+      "handle": "blackcurrant-extract",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/f69a618b-d6aa-4c2e-a024-08d4ea9f400d/er-product-blackcurrant-extract.png",
+      "created_at": "2026-08-31",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'moderate' appears in 4 recent supplement-research papers (most recent example: \"Acute Effects of Anthocyanin-Rich Blackcurrant Extract on Individual Cardiovascular and Metabolic Responses During Supine Rest and Moderate-Intensity Walking in\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
