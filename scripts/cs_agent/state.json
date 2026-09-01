@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 238080109,
-  "last_run_at": "2026-09-01T16:24:27.821142+00:00",
+  "last_processed_ticket_id": 238108913,
+  "last_run_at": "2026-09-01T19:29:17.312182+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-01",
   "ticket_actions": [
-    {
-      "ts": "2026-08-25T12:57:08.062904+00:00",
-      "ticket_id": 236928321,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Issue placing order"
-    },
-    {
-      "ts": "2026-08-25T12:57:08.062932+00:00",
-      "ticket_id": 236934173,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-25T12:57:09.693412+00:00",
-      "ticket_id": 236958331,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-25T13:55:51.721812+00:00",
-      "ticket_id": 236984239,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-08-25T13:55:53.178444+00:00",
-      "ticket_id": 236985210,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Question about my order"
-    },
-    {
-      "ts": "2026-08-25T14:53:04.654704+00:00",
-      "ticket_id": 236987520,
-      "action": "unknown_escalated_for_aj",
-      "detail": "4 Ways to Make Location-Based Campaigns More Effective"
-    },
     {
       "ts": "2026-08-25T14:53:04.654743+00:00",
       "ticket_id": 236987630,
@@ -1203,6 +1167,42 @@
       "ticket_id": 238080109,
       "action": "unknown_escalated_for_aj",
       "detail": "Do you take prepaid cards?"
+    },
+    {
+      "ts": "2026-09-01T19:29:10.730122+00:00",
+      "ticket_id": 238086257,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Shopify 2026 email plan\u2014built automatically"
+    },
+    {
+      "ts": "2026-09-01T19:29:12.518619+00:00",
+      "ticket_id": 238089227,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for pupper.com"
+    },
+    {
+      "ts": "2026-09-01T19:29:13.680531+00:00",
+      "ticket_id": 238100065,
+      "action": "unknown_escalated_for_aj",
+      "detail": "full spectrum"
+    },
+    {
+      "ts": "2026-09-01T19:29:13.680550+00:00",
+      "ticket_id": 238102233,
+      "action": "skip_spam",
+      "detail": "Your receipt from Klaviyo Inc #2008-2679-4665"
+    },
+    {
+      "ts": "2026-09-01T19:29:15.753642+00:00",
+      "ticket_id": 238103292,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\u23f0 Q4 Isn\u2019t Here Yet, But Your Campaigns Should Be. \ud83d\udd25"
+    },
+    {
+      "ts": "2026-09-01T19:29:17.312171+00:00",
+      "ticket_id": 238108913,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye"
     }
   ]
 }
