@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 238123166,
-  "last_run_at": "2026-09-01T21:58:11.885518+00:00",
+  "last_processed_ticket_id": 238127644,
+  "last_run_at": "2026-09-01T23:59:40.901520+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-01",
   "ticket_actions": [
-    {
-      "ts": "2026-08-25T16:19:08.186762+00:00",
-      "ticket_id": 237008202,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Tell us about your email experience with Marriott on\u00a02026-08-24 22:47:10"
-    },
-    {
-      "ts": "2026-08-25T16:19:10.033080+00:00",
-      "ticket_id": 237008264,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Email Acknowledgement"
-    },
-    {
-      "ts": "2026-08-25T16:19:11.802512+00:00",
-      "ticket_id": 237008328,
-      "action": "unknown_escalated_for_aj",
-      "detail": "simon.birney@ng-it.co.uk is protected by whytelist.me"
-    },
     {
       "ts": "2026-08-25T16:19:13.678127+00:00",
       "ticket_id": 237008433,
@@ -1203,6 +1185,24 @@
       "ticket_id": 238123166,
       "action": "error_crash",
       "detail": "Re: Order #86147 confirmed"
+    },
+    {
+      "ts": "2026-09-01T23:59:35.952727+00:00",
+      "ticket_id": 238124986,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Delta Galil asked Gaia to clean up 400+ guidances. Here's how."
+    },
+    {
+      "ts": "2026-09-01T23:59:37.957594+00:00",
+      "ticket_id": 238125905,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
+    },
+    {
+      "ts": "2026-09-01T23:59:40.901501+00:00",
+      "ticket_id": 238127644,
+      "action": "unknown_escalated_for_aj",
+      "detail": "What faster WooCommerce actually changes for buyers"
     }
   ]
 }
