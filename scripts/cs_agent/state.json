@@ -1,129 +1,9 @@
 {
-  "last_processed_ticket_id": 237955825,
-  "last_run_at": "2026-09-01T01:50:34.230529+00:00",
+  "last_processed_ticket_id": 238080109,
+  "last_run_at": "2026-09-01T16:24:27.821142+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-01",
   "ticket_actions": [
-    {
-      "ts": "2026-08-24T13:57:59.079415+00:00",
-      "ticket_id": 236814017,
-      "action": "unknown_escalated_for_aj",
-      "detail": "United Snow & Ice Removal"
-    },
-    {
-      "ts": "2026-08-24T14:52:29.015525+00:00",
-      "ticket_id": 236825034,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-24T14:52:31.851392+00:00",
-      "ticket_id": 236831013,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Invoice 2796 from Nitro Logistics, LLC"
-    },
-    {
-      "ts": "2026-08-24T15:37:00.162856+00:00",
-      "ticket_id": 236840203,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Exclusive Offers You Can't Miss Inside! \ud83c\udf89"
-    },
-    {
-      "ts": "2026-08-24T16:59:50.288633+00:00",
-      "ticket_id": 236847535,
-      "action": "unknown_escalated_for_aj",
-      "detail": "buyeverest.com needs you to confirm your email address on file to maintain access to your account"
-    },
-    {
-      "ts": "2026-08-24T16:59:51.589066+00:00",
-      "ticket_id": 236851480,
-      "action": "unknown_escalated_for_aj",
-      "detail": "who's actually handling the claim when it goes wrong"
-    },
-    {
-      "ts": "2026-08-24T16:59:53.391053+00:00",
-      "ticket_id": 236851708,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-24T17:39:25.270145+00:00",
-      "ticket_id": 236854851,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-24T18:57:12.119603+00:00",
-      "ticket_id": 236863762,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Direct investment in Pupper"
-    },
-    {
-      "ts": "2026-08-24T19:36:29.983664+00:00",
-      "ticket_id": 236869565,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with Reynold Thompson"
-    },
-    {
-      "ts": "2026-08-24T19:36:29.983704+00:00",
-      "ticket_id": 236870795,
-      "action": "skip_spam",
-      "detail": "You've got $23,630 waiting"
-    },
-    {
-      "ts": "2026-08-24T20:44:02.758426+00:00",
-      "ticket_id": 236875680,
-      "action": "skip_spam",
-      "detail": "Re: Bucanna Labs - Your Delta-8 Gummies"
-    },
-    {
-      "ts": "2026-08-24T20:44:04.873900+00:00",
-      "ticket_id": 236878249,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Security alert"
-    },
-    {
-      "ts": "2026-08-24T22:11:23.981361+00:00",
-      "ticket_id": 236885622,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Missing"
-    },
-    {
-      "ts": "2026-08-24T23:10:30.887397+00:00",
-      "ticket_id": 236887729,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE: few SEO opportunities on your website."
-    },
-    {
-      "ts": "2026-08-24T23:10:33.025856+00:00",
-      "ticket_id": 236888131,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Is Your SLOW WooCommerce slowing down buyers?"
-    },
-    {
-      "ts": "2026-08-24T23:58:38.232096+00:00",
-      "ticket_id": 236890611,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Enhance Your Business with us"
-    },
-    {
-      "ts": "2026-08-25T12:57:02.254250+00:00",
-      "ticket_id": 236898334,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 25, 2026 ($160.57 USD)"
-    },
-    {
-      "ts": "2026-08-25T12:57:04.468112+00:00",
-      "ticket_id": 236908959,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Brand Collaboration & Mutual Article Listing"
-    },
-    {
-      "ts": "2026-08-25T12:57:05.839358+00:00",
-      "ticket_id": 236920940,
-      "action": "unknown_escalated_for_aj",
-      "detail": "About your errors elmandrye.com!"
-    },
     {
       "ts": "2026-08-25T12:57:08.062904+00:00",
       "ticket_id": 236928321,
@@ -1203,6 +1083,126 @@
       "ticket_id": 237955825,
       "action": "unknown_escalated_for_aj",
       "detail": "Refund Policy Financing and Promo Codes"
+    },
+    {
+      "ts": "2026-09-01T16:24:04.211918+00:00",
+      "ticket_id": 237964997,
+      "action": "skip_spam",
+      "detail": "Payout for Sep 1, 2026 ($246.78 USD)"
+    },
+    {
+      "ts": "2026-09-01T16:24:06.185249+00:00",
+      "ticket_id": 237982252,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Olive leaf extract "
+    },
+    {
+      "ts": "2026-09-01T16:24:06.185279+00:00",
+      "ticket_id": 237989897,
+      "action": "skip_spam",
+      "detail": "[ALERT] You've reached 100% of your monthly limit."
+    },
+    {
+      "ts": "2026-09-01T16:24:08.242036+00:00",
+      "ticket_id": 237999351,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\u3010\u90f5\u653f\u901a\u51fd\u5ba3\u50b3\u3011\u5982\u4f55\u9078\u64c7\u5408\u9069\u7684\u90f5\u653f\u901a\u51fd\u4ee3\u8fa6\u670d\u52d9? \ud83e\udd14"
+    },
+    {
+      "ts": "2026-09-01T16:24:09.622806+00:00",
+      "ticket_id": 238034609,
+      "action": "unknown_escalated_for_aj",
+      "detail": "libido supplement video"
+    },
+    {
+      "ts": "2026-09-01T16:24:09.622853+00:00",
+      "ticket_id": 238041577,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-09-01T16:24:11.183403+00:00",
+      "ticket_id": 238041674,
+      "action": "unknown_escalated_for_aj",
+      "detail": "PPC Brand Bidding + Direct Linking Approval"
+    },
+    {
+      "ts": "2026-09-01T16:24:12.289641+00:00",
+      "ticket_id": 238044548,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Webinar Tomorrow: Increase Affiliate Conversion Rates"
+    },
+    {
+      "ts": "2026-09-01T16:24:14.101776+00:00",
+      "ticket_id": 238045166,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Increase Affiliate Conversion Rates"
+    },
+    {
+      "ts": "2026-09-01T16:24:16.331183+00:00",
+      "ticket_id": 238045558,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Monthly Review Roundup - August, 2026"
+    },
+    {
+      "ts": "2026-09-01T16:24:18.189458+00:00",
+      "ticket_id": 238047040,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Monthly Review Roundup - August, 2026"
+    },
+    {
+      "ts": "2026-09-01T16:24:19.491745+00:00",
+      "ticket_id": 238048660,
+      "action": "unknown_escalated_for_aj",
+      "detail": "closing this out"
+    },
+    {
+      "ts": "2026-09-01T16:24:21.707709+00:00",
+      "ticket_id": 238048843,
+      "action": "unknown_escalated_for_aj",
+      "detail": "One team for your digital priorities"
+    },
+    {
+      "ts": "2026-09-01T16:24:21.707725+00:00",
+      "ticket_id": 238057021,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-09-01T16:24:23.305772+00:00",
+      "ticket_id": 238059595,
+      "action": "unknown_escalated_for_aj",
+      "detail": "L & T India Projects - Vendor & Supplier Registration"
+    },
+    {
+      "ts": "2026-09-01T16:24:23.305791+00:00",
+      "ticket_id": 238062626,
+      "action": "skip_spam",
+      "detail": "tiktok and ig"
+    },
+    {
+      "ts": "2026-09-01T16:24:24.414847+00:00",
+      "ticket_id": 238069192,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Quick q, Pupper"
+    },
+    {
+      "ts": "2026-09-01T16:24:24.414862+00:00",
+      "ticket_id": 238070666,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-09-01T16:24:26.676068+00:00",
+      "ticket_id": 238075279,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 9.1.2026"
+    },
+    {
+      "ts": "2026-09-01T16:24:27.821127+00:00",
+      "ticket_id": 238080109,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Do you take prepaid cards?"
     }
   ]
 }
