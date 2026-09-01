@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 237951882,
-  "last_run_at": "2026-08-31T23:10:46.288175+00:00",
+  "last_processed_ticket_id": 237955825,
+  "last_run_at": "2026-09-01T01:50:34.230529+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-08-31",
+  "daily_refund_date": "2026-09-01",
   "ticket_actions": [
-    {
-      "ts": "2026-08-24T13:01:01.658208+00:00",
-      "ticket_id": 236756987,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Customer experience"
-    },
-    {
-      "ts": "2026-08-24T13:01:01.658244+00:00",
-      "ticket_id": 236759797,
-      "action": "skip_spam",
-      "detail": "A new affiliate, Thao Nguyen Ngoc, has signed up for your program!"
-    },
-    {
-      "ts": "2026-08-24T13:01:02.716574+00:00",
-      "ticket_id": 236804810,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elm & Rye and a rev share model?"
-    },
     {
       "ts": "2026-08-24T13:57:59.079415+00:00",
       "ticket_id": 236814017,
@@ -1203,6 +1185,24 @@
       "ticket_id": 237951882,
       "action": "unknown_escalated_for_aj",
       "detail": "Where in the US does Elm & Rye manufacture?"
+    },
+    {
+      "ts": "2026-09-01T01:50:31.402995+00:00",
+      "ticket_id": 237953220,
+      "action": "unknown_escalated_for_aj",
+      "detail": "1-letter reply"
+    },
+    {
+      "ts": "2026-09-01T01:50:32.904105+00:00",
+      "ticket_id": 237953731,
+      "action": "error_crash",
+      "detail": "Order #86091"
+    },
+    {
+      "ts": "2026-09-01T01:50:34.230513+00:00",
+      "ticket_id": 237955825,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Refund Policy Financing and Promo Codes"
     }
   ]
 }
