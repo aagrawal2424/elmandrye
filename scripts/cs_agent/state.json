@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 238108913,
-  "last_run_at": "2026-09-01T19:29:17.312182+00:00",
+  "last_processed_ticket_id": 238123166,
+  "last_run_at": "2026-09-01T21:58:11.885518+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-01",
   "ticket_actions": [
-    {
-      "ts": "2026-08-25T14:53:04.654743+00:00",
-      "ticket_id": 236987630,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-25T14:53:06.024447+00:00",
-      "ticket_id": 236991463,
-      "action": "unknown_escalated_for_aj",
-      "detail": "they don't get paid"
-    },
-    {
-      "ts": "2026-08-25T15:41:28.316193+00:00",
-      "ticket_id": 237003313,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\"How Shopify Store recovered $47K in 90 days\""
-    },
-    {
-      "ts": "2026-08-25T16:19:05.896850+00:00",
-      "ticket_id": 237007376,
-      "action": "skip_spam",
-      "detail": "See el_chicano_tezcatlipoca, wellnexsolutions and more in your feed"
-    },
     {
       "ts": "2026-08-25T16:19:08.186762+00:00",
       "ticket_id": 237008202,
@@ -1203,6 +1179,30 @@
       "ticket_id": 238108913,
       "action": "unknown_escalated_for_aj",
       "detail": "elmandrye"
+    },
+    {
+      "ts": "2026-09-01T21:58:06.417691+00:00",
+      "ticket_id": 238117624,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A new report is ready"
+    },
+    {
+      "ts": "2026-09-01T21:58:07.787461+00:00",
+      "ticket_id": 238121364,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Shopify store, now with 3 AI agents"
+    },
+    {
+      "ts": "2026-09-01T21:58:10.665044+00:00",
+      "ticket_id": 238122259,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Google Analytics performance report is in for August 5th - September 1st"
+    },
+    {
+      "ts": "2026-09-01T21:58:11.885500+00:00",
+      "ticket_id": 238123166,
+      "action": "error_crash",
+      "detail": "Re: Order #86147 confirmed"
     }
   ]
 }
