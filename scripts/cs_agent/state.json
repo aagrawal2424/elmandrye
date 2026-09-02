@@ -1,69 +1,9 @@
 {
-  "last_processed_ticket_id": 238127644,
-  "last_run_at": "2026-09-01T23:59:40.901520+00:00",
+  "last_processed_ticket_id": 238245207,
+  "last_run_at": "2026-09-02T16:22:14.643648+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-09-01",
+  "daily_refund_date": "2026-09-02",
   "ticket_actions": [
-    {
-      "ts": "2026-08-25T16:19:13.678127+00:00",
-      "ticket_id": 237008433,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE: Tell us about your email experience with Marriott on\u00a02026-08-24 22:47:10"
-    },
-    {
-      "ts": "2026-08-25T16:19:15.114013+00:00",
-      "ticket_id": 237008449,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thank you for contacting us - Additional Information Required \u00a700486725"
-    },
-    {
-      "ts": "2026-08-25T17:02:47.876016+00:00",
-      "ticket_id": 237011470,
-      "action": "unknown_escalated_for_aj",
-      "detail": "We\u2019ve received your email - IET Member Support"
-    },
-    {
-      "ts": "2026-08-25T17:41:50.865149+00:00",
-      "ticket_id": 237020653,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udea8 9,444% ROAS. In an Industry That \u201cCan\u2019t\u201d Advertise. \ud83d\udeab"
-    },
-    {
-      "ts": "2026-08-25T19:03:41.109699+00:00",
-      "ticket_id": 237026711,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Fall Package: The Zoe Report, SheFinds and AKA Mom"
-    },
-    {
-      "ts": "2026-08-25T21:13:30.591677+00:00",
-      "ticket_id": 237043086,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-08-25T22:47:17.802754+00:00",
-      "ticket_id": 237048714,
-      "action": "error_crash",
-      "detail": "0rder86021"
-    },
-    {
-      "ts": "2026-08-25T22:47:19.217699+00:00",
-      "ticket_id": 237049620,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Request refund or discount - Contact"
-    },
-    {
-      "ts": "2026-08-25T23:12:50.579138+00:00",
-      "ticket_id": 237050420,
-      "action": "skip_spam",
-      "detail": "aliciablasing7 and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-08-26T13:03:00.482938+00:00",
-      "ticket_id": 237058287,
-      "action": "skip_spam",
-      "detail": "Payout for Aug 26, 2026 ($77.22 USD)"
-    },
     {
       "ts": "2026-08-26T13:03:02.960805+00:00",
       "ticket_id": 237064263,
@@ -1203,6 +1143,66 @@
       "ticket_id": 238127644,
       "action": "unknown_escalated_for_aj",
       "detail": "What faster WooCommerce actually changes for buyers"
+    },
+    {
+      "ts": "2026-09-02T16:22:03.024960+00:00",
+      "ticket_id": 238134058,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Everest in AI results"
+    },
+    {
+      "ts": "2026-09-02T16:22:03.024993+00:00",
+      "ticket_id": 238136283,
+      "action": "skip_spam",
+      "detail": "Payout for Sep 2, 2026 ($27.77 USD)"
+    },
+    {
+      "ts": "2026-09-02T16:22:04.825572+00:00",
+      "ticket_id": 238144822,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for elmandrye.com"
+    },
+    {
+      "ts": "2026-09-02T16:22:06.226465+00:00",
+      "ticket_id": 238152543,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Start a UGC goal for Elmandrye"
+    },
+    {
+      "ts": "2026-09-02T16:22:06.226500+00:00",
+      "ticket_id": 238164800,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-09-02T16:22:07.741270+00:00",
+      "ticket_id": 238180094,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-09-02T16:22:10.513462+00:00",
+      "ticket_id": 238213436,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Change of Address"
+    },
+    {
+      "ts": "2026-09-02T16:22:10.513506+00:00",
+      "ticket_id": 238227820,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-09-02T16:22:11.699564+00:00",
+      "ticket_id": 238236523,
+      "action": "unknown_escalated_for_aj",
+      "detail": "support's Store Doesn\u2019t Need a Redesign This Does"
+    },
+    {
+      "ts": "2026-09-02T16:22:14.643625+00:00",
+      "ticket_id": 238245207,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Grow your business with Google Ads"
     }
   ]
 }
