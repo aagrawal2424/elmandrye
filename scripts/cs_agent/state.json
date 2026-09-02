@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 238245207,
-  "last_run_at": "2026-09-02T16:22:14.643648+00:00",
+  "last_processed_ticket_id": 238269099,
+  "last_run_at": "2026-09-02T19:26:30.722813+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-02",
   "ticket_actions": [
-    {
-      "ts": "2026-08-26T13:03:02.960805+00:00",
-      "ticket_id": 237064263,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Your cart is about to expire."
-    },
-    {
-      "ts": "2026-08-26T13:03:02.960844+00:00",
-      "ticket_id": 237064338,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-26T13:03:05.808685+00:00",
-      "ticket_id": 237073217,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A SPECIAL INVITATION FOR YOU!!!"
-    },
-    {
-      "ts": "2026-08-26T13:03:07.679777+00:00",
-      "ticket_id": 237088110,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Build for the agentic Internet - the Connect 2026 lineup and agenda are live"
-    },
-    {
-      "ts": "2026-08-26T13:03:08.674657+00:00",
-      "ticket_id": 237130351,
-      "action": "error_crash",
-      "detail": "Re: 0rder86021"
-    },
-    {
-      "ts": "2026-08-26T13:03:10.609665+00:00",
-      "ticket_id": 237131520,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-26T13:03:11.487269+00:00",
-      "ticket_id": 237132233,
-      "action": "error_crash",
-      "detail": "86033"
-    },
     {
       "ts": "2026-08-26T13:03:24.302894+00:00",
       "ticket_id": 237135390,
@@ -1203,6 +1161,48 @@
       "ticket_id": 238245207,
       "action": "unknown_escalated_for_aj",
       "detail": "Grow your business with Google Ads"
+    },
+    {
+      "ts": "2026-09-02T19:26:25.177531+00:00",
+      "ticket_id": 238256597,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-09-02T19:26:25.177552+00:00",
+      "ticket_id": 238258212,
+      "action": "skip_spam",
+      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-09-02T19:26:25.177556+00:00",
+      "ticket_id": 238258545,
+      "action": "skip_spam",
+      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-09-02T19:26:27.451112+00:00",
+      "ticket_id": 238259046,
+      "action": "unknown_escalated_for_aj",
+      "detail": "buyeverest.com please confirm the email linked to your account to keep your account information up to date"
+    },
+    {
+      "ts": "2026-09-02T19:26:28.906398+00:00",
+      "ticket_id": 238262781,
+      "action": "unknown_escalated_for_aj",
+      "detail": "question for  El Mandrye"
+    },
+    {
+      "ts": "2026-09-02T19:26:28.906431+00:00",
+      "ticket_id": 238266514,
+      "action": "skip_spam",
+      "detail": "See el_chicano_tezcatlipoca, wellnexsolutions and more in your feed"
+    },
+    {
+      "ts": "2026-09-02T19:26:30.722789+00:00",
+      "ticket_id": 238269099,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "Order #86181"
     }
   ]
 }
