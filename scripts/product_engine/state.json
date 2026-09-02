@@ -1104,6 +1104,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'moderate' appears in 4 recent supplement-research papers (most recent example: \"Acute Effects of Anthocyanin-Rich Blackcurrant Extract on Individual Cardiovascular and Metabolic Responses During Supine Rest and Moderate-Intensity Walking in\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Beta Caryophyllene",
+      "product_title": "Beta caryophyllene",
+      "category": "supplements",
+      "niche_score": 9,
+      "shopify_product_id": "gid://shopify/Product/9329713184980",
+      "handle": "beta-caryophyllene",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/bc5ec490-9228-4ef3-be44-3d8796e58889/er-product-beta-caryophyllene.png",
+      "created_at": "2026-09-02",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "Dietary CB2 agonist; copaiba / black pepper oil source (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
     }
   ]
 }
