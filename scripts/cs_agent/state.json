@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 238282731,
-  "last_run_at": "2026-09-02T21:56:23.316083+00:00",
+  "last_processed_ticket_id": 238290727,
+  "last_run_at": "2026-09-03T00:01:07.317584+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-09-02",
+  "daily_refund_date": "2026-09-03",
   "ticket_actions": [
-    {
-      "ts": "2026-08-26T14:00:57.657261+00:00",
-      "ticket_id": 237145295,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-08-26T14:00:58.950379+00:00",
       "ticket_id": 237149543,
@@ -1203,6 +1197,12 @@
       "ticket_id": 238282731,
       "action": "error_crash",
       "detail": "#85815"
+    },
+    {
+      "ts": "2026-09-03T00:01:07.317556+00:00",
+      "ticket_id": 238290727,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
