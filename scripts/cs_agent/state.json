@@ -1,99 +1,9 @@
 {
-  "last_processed_ticket_id": 238290727,
-  "last_run_at": "2026-09-03T00:01:07.317584+00:00",
+  "last_processed_ticket_id": 238410153,
+  "last_run_at": "2026-09-03T16:12:49.975222+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-03",
   "ticket_actions": [
-    {
-      "ts": "2026-08-26T14:00:58.950379+00:00",
-      "ticket_id": 237149543,
-      "action": "error_crash",
-      "detail": "Fwd: Lazaroff order# 84881"
-    },
-    {
-      "ts": "2026-08-26T14:56:54.372698+00:00",
-      "ticket_id": 237151057,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-26T14:56:56.890270+00:00",
-      "ticket_id": 237158671,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[9/17 in nyc] you're invited to chargex"
-    },
-    {
-      "ts": "2026-08-26T14:56:58.768652+00:00",
-      "ticket_id": 237158689,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[9/17 in nyc] you're invited to chargex"
-    },
-    {
-      "ts": "2026-08-26T16:24:16.152316+00:00",
-      "ticket_id": 237166904,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Get Ready for Breakfast-Inspired Vaping!"
-    },
-    {
-      "ts": "2026-08-26T18:17:35.770508+00:00",
-      "ticket_id": 237177439,
-      "action": "unknown_escalated_for_aj",
-      "detail": "designs"
-    },
-    {
-      "ts": "2026-08-26T18:17:35.770538+00:00",
-      "ticket_id": 237178309,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-08-26T18:17:35.770546+00:00",
-      "ticket_id": 237179222,
-      "action": "skip_spam",
-      "detail": "$2.94 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-08-26T18:17:35.770553+00:00",
-      "ticket_id": 237179374,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-08-26T18:17:35.770560+00:00",
-      "ticket_id": 237180117,
-      "action": "skip_spam",
-      "detail": "$0.98 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-08-26T18:17:36.814493+00:00",
-      "ticket_id": 237188060,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[breagr 264173021] WordPress Upgraded Successfully on buyeverest.com!"
-    },
-    {
-      "ts": "2026-08-26T20:15:20.299046+00:00",
-      "ticket_id": 237189961,
-      "action": "skip_spam",
-      "detail": "chewy and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-08-26T20:15:22.264740+00:00",
-      "ticket_id": 237191663,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Security alert"
-    },
-    {
-      "ts": "2026-08-26T23:45:44.272201+00:00",
-      "ticket_id": 237203235,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Webinar Invite: Increase Affiliate Conversion Rates Overnight"
-    },
-    {
-      "ts": "2026-08-26T23:45:48.435088+00:00",
-      "ticket_id": 237209414,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: It looks like you left something behind..."
-    },
     {
       "ts": "2026-08-26T23:45:48.435122+00:00",
       "ticket_id": 237210268,
@@ -1203,6 +1113,96 @@
       "ticket_id": 238290727,
       "action": "skip_spam",
       "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-09-03T16:12:31.613995+00:00",
+      "ticket_id": 238298295,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Address change order 86246"
+    },
+    {
+      "ts": "2026-09-03T16:12:33.013288+00:00",
+      "ticket_id": 238300335,
+      "action": "error_crash",
+      "detail": "Order number 86115"
+    },
+    {
+      "ts": "2026-09-03T16:12:34.986111+00:00",
+      "ticket_id": 238301103,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Get Your Customer\u00b4s Gold Bar Favorites Now!"
+    },
+    {
+      "ts": "2026-09-03T16:12:34.986145+00:00",
+      "ticket_id": 238301921,
+      "action": "skip_spam",
+      "detail": "Payout for Sep 3, 2026 ($96.59 USD)"
+    },
+    {
+      "ts": "2026-09-03T16:12:34.986152+00:00",
+      "ticket_id": 238308014,
+      "action": "skip_spam",
+      "detail": "Payout for Sep 3, 2026 ($45.43 USD)"
+    },
+    {
+      "ts": "2026-09-03T16:12:36.954010+00:00",
+      "ticket_id": 238315658,
+      "action": "unknown_escalated_for_aj",
+      "detail": "See my previous UGC message?"
+    },
+    {
+      "ts": "2026-09-03T16:12:36.954038+00:00",
+      "ticket_id": 238368056,
+      "action": "skip_spam",
+      "detail": "Action needed: Install the Awin Shopify app to keep your affiliate tracking active"
+    },
+    {
+      "ts": "2026-09-03T16:12:39.668539+00:00",
+      "ticket_id": 238377032,
+      "action": "unknown_escalated_for_aj",
+      "detail": "No More Tariff Surprises: We Manage All Duties with DDP Shipping"
+    },
+    {
+      "ts": "2026-09-03T16:12:39.668572+00:00",
+      "ticket_id": 238391450,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-09-03T16:12:40.886499+00:00",
+      "ticket_id": 238392586,
+      "action": "unknown_escalated_for_aj",
+      "detail": "your wellness brand and something you haven't heard yet"
+    },
+    {
+      "ts": "2026-09-03T16:12:43.476341+00:00",
+      "ticket_id": 238395215,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Skio update: the August roundup"
+    },
+    {
+      "ts": "2026-09-03T16:12:45.354399+00:00",
+      "ticket_id": 238395281,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Skio update: the August roundup"
+    },
+    {
+      "ts": "2026-09-03T16:12:47.163511+00:00",
+      "ticket_id": 238395915,
+      "action": "unknown_escalated_for_aj",
+      "detail": "closing the loop on Elm & Rye"
+    },
+    {
+      "ts": "2026-09-03T16:12:48.376189+00:00",
+      "ticket_id": 238400736,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-09-03T16:12:49.975201+00:00",
+      "ticket_id": 238410153,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Exosomes are the next big thing in skincare. Here's the formula ready to go."
     }
   ]
 }
