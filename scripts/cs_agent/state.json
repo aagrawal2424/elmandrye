@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 238410153,
-  "last_run_at": "2026-09-03T16:12:49.975222+00:00",
+  "last_processed_ticket_id": 238434869,
+  "last_run_at": "2026-09-03T19:19:04.250921+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-03",
   "ticket_actions": [
-    {
-      "ts": "2026-08-26T23:45:48.435122+00:00",
-      "ticket_id": 237210268,
-      "action": "skip_spam",
-      "detail": "See what snoopdogg and 26 others you follow shared"
-    },
-    {
-      "ts": "2026-08-27T05:08:34.725575+00:00",
-      "ticket_id": 237216147,
-      "action": "unknown_escalated_for_aj",
-      "detail": "YOU'RE INVITED BY PFIANNA CLINE"
-    },
-    {
-      "ts": "2026-08-27T05:08:36.504962+00:00",
-      "ticket_id": 237219167,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-08-27T05:08:37.521450+00:00",
-      "ticket_id": 237219356,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Hey"
-    },
-    {
-      "ts": "2026-08-27T05:08:37.521481+00:00",
-      "ticket_id": 237223792,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-27T05:08:38.565590+00:00",
-      "ticket_id": 237225755,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Minimum input, maximum gain"
-    },
-    {
-      "ts": "2026-08-27T22:06:04.743700+00:00",
-      "ticket_id": 237229345,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Partnership idea \u2014 Elm & Rye x GymHub"
-    },
     {
       "ts": "2026-08-27T22:06:05.978268+00:00",
       "ticket_id": 237229509,
@@ -1203,6 +1161,48 @@
       "ticket_id": 238410153,
       "action": "unknown_escalated_for_aj",
       "detail": "Exosomes are the next big thing in skincare. Here's the formula ready to go."
+    },
+    {
+      "ts": "2026-09-03T19:18:53.443981+00:00",
+      "ticket_id": 238414024,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Get your business ready for agentic commerce"
+    },
+    {
+      "ts": "2026-09-03T19:18:54.856298+00:00",
+      "ticket_id": 238414230,
+      "action": "unknown_escalated_for_aj",
+      "detail": "perfect fit"
+    },
+    {
+      "ts": "2026-09-03T19:18:56.778273+00:00",
+      "ticket_id": 238416537,
+      "action": "error_crash",
+      "detail": "Shipment of product"
+    },
+    {
+      "ts": "2026-09-03T19:18:59.100517+00:00",
+      "ticket_id": 238419406,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A New Approach to Creatine Testing - Cambium Analytica"
+    },
+    {
+      "ts": "2026-09-03T19:18:59.100552+00:00",
+      "ticket_id": 238428494,
+      "action": "skip_spam",
+      "detail": "aliciablasing7 and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-09-03T19:19:01.451233+00:00",
+      "ticket_id": 238431190,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udc40 Your Q4 Results Are Being Decided Right Now \ud83d\udd25"
+    },
+    {
+      "ts": "2026-09-03T19:19:04.250894+00:00",
+      "ticket_id": 238434869,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order status - Contact"
     }
   ]
 }
