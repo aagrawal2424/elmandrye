@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 238434869,
-  "last_run_at": "2026-09-03T19:19:04.250921+00:00",
+  "last_processed_ticket_id": 238445584,
+  "last_run_at": "2026-09-03T21:46:14.619661+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-03",
   "ticket_actions": [
-    {
-      "ts": "2026-08-27T22:06:05.978268+00:00",
-      "ticket_id": 237229509,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Are you ready ?"
-    },
-    {
-      "ts": "2026-08-27T22:06:08.027134+00:00",
-      "ticket_id": 237240933,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Updated Product List: New Clinical & Caco-2 Bioavailability Data for Liposomal Ingredients"
-    },
-    {
-      "ts": "2026-08-27T22:06:10.680613+00:00",
-      "ticket_id": 237245878,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Looking for a Shopify Partner for your store?"
-    },
     {
       "ts": "2026-08-27T22:06:12.048359+00:00",
       "ticket_id": 237279783,
@@ -1203,6 +1185,24 @@
       "ticket_id": 238434869,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-09-03T21:46:11.873701+00:00",
+      "ticket_id": 238443411,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Second KABP Menopause Clinical Published\u00a0"
+    },
+    {
+      "ts": "2026-09-03T21:46:13.056168+00:00",
+      "ticket_id": 238444460,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A new report is ready"
+    },
+    {
+      "ts": "2026-09-03T21:46:14.619639+00:00",
+      "ticket_id": 238445584,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order #85641 confirmed"
     }
   ]
 }
