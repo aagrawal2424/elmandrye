@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 238574894,
-  "last_run_at": "2026-09-04T16:07:26.323303+00:00",
+  "last_processed_ticket_id": 238595499,
+  "last_run_at": "2026-09-04T18:58:59.150675+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-04",
   "ticket_actions": [
-    {
-      "ts": "2026-08-27T22:06:32.943901+00:00",
-      "ticket_id": 237355351,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order # 15239"
-    },
-    {
-      "ts": "2026-08-27T22:06:34.004506+00:00",
-      "ticket_id": 237359207,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-27T22:06:35.127138+00:00",
-      "ticket_id": 237363369,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Potential growth opportunities.."
-    },
-    {
-      "ts": "2026-08-27T22:06:36.617027+00:00",
-      "ticket_id": 237364711,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Let our AI build (and write) your Shopify flows"
-    },
     {
       "ts": "2026-08-27T22:06:38.719120+00:00",
       "ticket_id": 237366974,
@@ -1203,6 +1179,30 @@
       "ticket_id": 238574894,
       "action": "skip_spam",
       "detail": "See what finneganmaureen and 5 others shared"
+    },
+    {
+      "ts": "2026-09-04T18:58:55.945577+00:00",
+      "ticket_id": 238580954,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-09-04T18:58:57.529543+00:00",
+      "ticket_id": 238594317,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A recent update that may affect your imports"
+    },
+    {
+      "ts": "2026-09-04T18:58:59.150634+00:00",
+      "ticket_id": 238594430,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye site visits"
+    },
+    {
+      "ts": "2026-09-04T18:58:59.150671+00:00",
+      "ticket_id": 238595499,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
     }
   ]
 }
