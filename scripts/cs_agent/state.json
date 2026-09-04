@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 238445584,
-  "last_run_at": "2026-09-03T23:34:54.883923+00:00",
+  "last_processed_ticket_id": 238458281,
+  "last_run_at": "2026-09-04T01:21:00.031120+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-09-03",
+  "daily_refund_date": "2026-09-04",
   "ticket_actions": [
-    {
-      "ts": "2026-08-27T22:06:12.048359+00:00",
-      "ticket_id": 237279783,
-      "action": "unknown_escalated_for_aj",
-      "detail": "High-Quality Travel Guest Post Available for Publication."
-    },
     {
       "ts": "2026-08-27T22:06:12.048382+00:00",
       "ticket_id": 237283814,
@@ -1203,6 +1197,12 @@
       "ticket_id": 238445584,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Re: Order #85641 confirmed"
+    },
+    {
+      "ts": "2026-09-04T01:21:00.031103+00:00",
+      "ticket_id": 238458281,
+      "action": "skip_spam",
+      "detail": "A new affiliate, zach long, has signed up for your program!"
     }
   ]
 }
