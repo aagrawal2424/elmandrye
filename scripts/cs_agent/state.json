@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 238603646,
-  "last_run_at": "2026-09-04T21:22:49.898370+00:00",
+  "last_processed_ticket_id": 238613496,
+  "last_run_at": "2026-09-04T23:10:03.629265+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-04",
   "ticket_actions": [
-    {
-      "ts": "2026-08-27T22:06:41.904784+00:00",
-      "ticket_id": 237376539,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Mandrill-Mailchimp Payment Method Rejected"
-    },
-    {
-      "ts": "2026-08-27T22:06:43.059842+00:00",
-      "ticket_id": 237376732,
-      "action": "unknown_escalated_for_aj",
-      "detail": "elmandrye"
-    },
     {
       "ts": "2026-08-27T22:06:44.523955+00:00",
       "ticket_id": 237380014,
@@ -1203,6 +1191,18 @@
       "ticket_id": 238603646,
       "action": "skip_spam",
       "detail": "Let TikTok creators sell for you"
+    },
+    {
+      "ts": "2026-09-04T23:10:03.629213+00:00",
+      "ticket_id": 238613241,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Buy 6 Get 1 FREE!"
+    },
+    {
+      "ts": "2026-09-04T23:10:03.629261+00:00",
+      "ticket_id": 238613496,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
