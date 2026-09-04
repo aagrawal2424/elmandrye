@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 238595499,
-  "last_run_at": "2026-09-04T18:58:59.150675+00:00",
+  "last_processed_ticket_id": 238603646,
+  "last_run_at": "2026-09-04T21:22:49.898370+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-04",
   "ticket_actions": [
-    {
-      "ts": "2026-08-27T22:06:38.719120+00:00",
-      "ticket_id": 237366974,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udc40 Are Your Cannabis Ads Reaching the Right Customers? \ud83c\udfaf"
-    },
-    {
-      "ts": "2026-08-27T22:06:40.170411+00:00",
-      "ticket_id": 237376476,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Mandrill-Mailchimp Payment Method Rejected"
-    },
     {
       "ts": "2026-08-27T22:06:41.904784+00:00",
       "ticket_id": 237376539,
@@ -1203,6 +1191,18 @@
       "ticket_id": 238595499,
       "action": "skip_spam",
       "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
+    },
+    {
+      "ts": "2026-09-04T21:22:49.898336+00:00",
+      "ticket_id": 238601713,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: It looks like you left something behind..."
+    },
+    {
+      "ts": "2026-09-04T21:22:49.898367+00:00",
+      "ticket_id": 238603646,
+      "action": "skip_spam",
+      "detail": "Let TikTok creators sell for you"
     }
   ]
 }
