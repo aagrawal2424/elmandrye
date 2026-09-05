@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 238702038,
-  "last_run_at": "2026-09-05T19:07:15.152609+00:00",
+  "last_processed_ticket_id": 238703964,
+  "last_run_at": "2026-09-05T21:13:51.528015+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-05",
   "ticket_actions": [
-    {
-      "ts": "2026-08-28T22:04:31.835498+00:00",
-      "ticket_id": 237483990,
-      "action": "order_cancel_escalated_no_orders",
-      "detail": "Re: Order n\u00b085971, please take a moment to review your latest purchase"
-    },
     {
       "ts": "2026-08-28T22:04:32.915996+00:00",
       "ticket_id": 237487020,
@@ -1203,6 +1197,12 @@
       "ticket_id": 238702038,
       "action": "unknown_escalated_for_aj",
       "detail": "A new report is ready"
+    },
+    {
+      "ts": "2026-09-05T21:13:51.527998+00:00",
+      "ticket_id": 238703964,
+      "action": "skip_spam",
+      "detail": "kellybbird and 7 others recently added to their stories"
     }
   ]
 }
