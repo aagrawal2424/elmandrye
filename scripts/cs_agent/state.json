@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 238617932,
-  "last_run_at": "2026-09-05T00:59:15.230578+00:00",
+  "last_processed_ticket_id": 238678279,
+  "last_run_at": "2026-09-05T14:56:42.217756+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-05",
   "ticket_actions": [
-    {
-      "ts": "2026-08-28T06:06:02.876813+00:00",
-      "ticket_id": 237392180,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Why WooCommerce performance breaks"
-    },
-    {
-      "ts": "2026-08-28T06:06:04.377099+00:00",
-      "ticket_id": 237394079,
-      "action": "unknown_escalated_for_aj",
-      "detail": "(no subject)"
-    },
-    {
-      "ts": "2026-08-28T06:06:05.637989+00:00",
-      "ticket_id": 237395330,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Some of your pending conversions are set to automatically approve"
-    },
-    {
-      "ts": "2026-08-28T06:06:07.027971+00:00",
-      "ticket_id": 237398580,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Hola Pupper"
-    },
-    {
-      "ts": "2026-08-28T06:06:07.028000+00:00",
-      "ticket_id": 237402276,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
     {
       "ts": "2026-08-28T22:04:23.615013+00:00",
       "ticket_id": 237429495,
@@ -1203,6 +1173,36 @@
       "ticket_id": 238617932,
       "action": "unknown_escalated_for_aj",
       "detail": "Elm & Rye and Everest"
+    },
+    {
+      "ts": "2026-09-05T14:56:39.055592+00:00",
+      "ticket_id": 238619190,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Report an issue - Contact"
+    },
+    {
+      "ts": "2026-09-05T14:56:40.727636+00:00",
+      "ticket_id": 238620372,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-09-05T14:56:40.727662+00:00",
+      "ticket_id": 238626659,
+      "action": "skip_spam",
+      "detail": "Payout for Sep 5, 2026 ($45.43 USD)"
+    },
+    {
+      "ts": "2026-09-05T14:56:42.217728+00:00",
+      "ticket_id": 238655271,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Serious Issue was found while visiting your website"
+    },
+    {
+      "ts": "2026-09-05T14:56:42.217753+00:00",
+      "ticket_id": 238678279,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
