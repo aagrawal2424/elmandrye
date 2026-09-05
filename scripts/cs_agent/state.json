@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 238685695,
-  "last_run_at": "2026-09-05T17:15:05.223801+00:00",
+  "last_processed_ticket_id": 238702038,
+  "last_run_at": "2026-09-05T19:07:15.152609+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-05",
   "ticket_actions": [
-    {
-      "ts": "2026-08-28T22:04:26.773601+00:00",
-      "ticket_id": 237480492,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1382-3317]"
-    },
-    {
-      "ts": "2026-08-28T22:04:26.773631+00:00",
-      "ticket_id": 237480530,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-28T22:04:29.737525+00:00",
-      "ticket_id": 237481929,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Download card for more details and to RSVP to a BBQ Weekend with Friends and Family"
-    },
     {
       "ts": "2026-08-28T22:04:31.835498+00:00",
       "ticket_id": 237483990,
@@ -1203,6 +1185,24 @@
       "ticket_id": 238685695,
       "action": "unknown_escalated_for_aj",
       "detail": "Reaching Out About a Recent Purchase"
+    },
+    {
+      "ts": "2026-09-05T19:07:09.838135+00:00",
+      "ticket_id": 238700609,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Distribution Opportunity For Everest"
+    },
+    {
+      "ts": "2026-09-05T19:07:12.859160+00:00",
+      "ticket_id": 238701838,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your receipt from Refersion, Inc. #2517-3122"
+    },
+    {
+      "ts": "2026-09-05T19:07:15.152593+00:00",
+      "ticket_id": 238702038,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A new report is ready"
     }
   ]
 }
