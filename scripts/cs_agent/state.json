@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 238703964,
-  "last_run_at": "2026-09-05T21:13:51.528015+00:00",
+  "last_processed_ticket_id": 238715641,
+  "last_run_at": "2026-09-05T22:58:40.331197+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-05",
   "ticket_actions": [
-    {
-      "ts": "2026-08-28T22:04:32.915996+00:00",
-      "ticket_id": 237487020,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-08-28T22:04:32.916018+00:00",
-      "ticket_id": 237490160,
-      "action": "skip_spam",
-      "detail": "Re: Bucanna Labs - Your Delta-8 Gummies"
-    },
-    {
-      "ts": "2026-08-28T22:04:32.916035+00:00",
-      "ticket_id": 237490857,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-28T22:04:34.839416+00:00",
-      "ticket_id": 237493673,
-      "action": "unknown_escalated_for_aj",
-      "detail": "quick idea for Elm & Rye's ads"
-    },
     {
       "ts": "2026-08-28T22:04:36.624854+00:00",
       "ticket_id": 237497816,
@@ -1203,6 +1179,30 @@
       "ticket_id": 238703964,
       "action": "skip_spam",
       "detail": "kellybbird and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-09-05T22:58:38.441502+00:00",
+      "ticket_id": 238711729,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order status - Contact"
+    },
+    {
+      "ts": "2026-09-05T22:58:39.536257+00:00",
+      "ticket_id": 238713411,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-09-05T22:58:39.536282+00:00",
+      "ticket_id": 238714039,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-09-05T22:58:40.331177+00:00",
+      "ticket_id": 238715641,
+      "action": "unknown_escalated_for_aj",
+      "detail": "You are currently losing sales"
     }
   ]
 }
