@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 238678279,
-  "last_run_at": "2026-09-05T14:56:42.217756+00:00",
+  "last_processed_ticket_id": 238685695,
+  "last_run_at": "2026-09-05T17:15:05.223801+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-05",
   "ticket_actions": [
-    {
-      "ts": "2026-08-28T22:04:23.615013+00:00",
-      "ticket_id": 237429495,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Take your WooCommerce store to the next level"
-    },
     {
       "ts": "2026-08-28T22:04:26.773601+00:00",
       "ticket_id": 237480492,
@@ -1203,6 +1197,12 @@
       "ticket_id": 238678279,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-09-05T17:15:05.223781+00:00",
+      "ticket_id": 238685695,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Reaching Out About a Recent Purchase"
     }
   ]
 }
