@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 238796721,
-  "last_run_at": "2026-09-06T19:30:46.268891+00:00",
+  "last_processed_ticket_id": 238828347,
+  "last_run_at": "2026-09-06T21:39:58.499085+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-06",
   "ticket_actions": [
-    {
-      "ts": "2026-08-28T22:04:50.044450+00:00",
-      "ticket_id": 237517912,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Email Acknowledgement"
-    },
     {
       "ts": "2026-08-28T22:04:51.700331+00:00",
       "ticket_id": 237518014,
@@ -1203,6 +1197,12 @@
       "ticket_id": 238796721,
       "action": "error_crash",
       "detail": "Order never received"
+    },
+    {
+      "ts": "2026-09-06T21:39:58.499065+00:00",
+      "ticket_id": 238828347,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I\u2019d Like This Looked Into"
     }
   ]
 }
