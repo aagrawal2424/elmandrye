@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 238828347,
-  "last_run_at": "2026-09-06T23:12:11.618832+00:00",
+  "last_processed_ticket_id": 238836494,
+  "last_run_at": "2026-09-07T01:04:16.295539+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-09-06",
+  "daily_refund_date": "2026-09-07",
   "ticket_actions": [
-    {
-      "ts": "2026-08-28T22:04:51.700331+00:00",
-      "ticket_id": 237518014,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A u t o RE: Automatic Reply ITSD-47361 Reflect Health IT Service Desk"
-    },
     {
       "ts": "2026-08-28T22:04:53.352834+00:00",
       "ticket_id": 237518105,
@@ -1203,6 +1197,12 @@
       "ticket_id": 238828347,
       "action": "unknown_escalated_for_aj",
       "detail": "I\u2019d Like This Looked Into"
+    },
+    {
+      "ts": "2026-09-07T01:04:16.295515+00:00",
+      "ticket_id": 238836494,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
     }
   ]
 }
