@@ -1,87 +1,9 @@
 {
-  "last_processed_ticket_id": 238836494,
-  "last_run_at": "2026-09-07T01:04:16.295539+00:00",
+  "last_processed_ticket_id": 238951308,
+  "last_run_at": "2026-09-07T17:37:48.208227+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-07",
   "ticket_actions": [
-    {
-      "ts": "2026-08-28T22:04:53.352834+00:00",
-      "ticket_id": 237518105,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Email Acknowledgement"
-    },
-    {
-      "ts": "2026-08-28T22:04:54.640756+00:00",
-      "ticket_id": 237519618,
-      "action": "unknown_escalated_for_aj",
-      "detail": "last note on this, then i'll leave it alone"
-    },
-    {
-      "ts": "2026-08-28T22:04:57.514539+00:00",
-      "ticket_id": 237526313,
-      "action": "unknown_escalated_for_aj",
-      "detail": "REQUEST FOR CATALOG"
-    },
-    {
-      "ts": "2026-08-28T22:04:57.514567+00:00",
-      "ticket_id": 237529282,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-08-28T22:04:58.743979+00:00",
-      "ticket_id": 237529726,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A Quick Look."
-    },
-    {
-      "ts": "2026-08-28T22:05:00.539368+00:00",
-      "ticket_id": 237531239,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Increase Affiliate Conversion Rates"
-    },
-    {
-      "ts": "2026-08-28T22:05:02.470549+00:00",
-      "ticket_id": 237536636,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 8.28.2026"
-    },
-    {
-      "ts": "2026-08-28T22:05:02.470579+00:00",
-      "ticket_id": 237539709,
-      "action": "skip_spam",
-      "detail": "Your first sale could unlock a reward"
-    },
-    {
-      "ts": "2026-08-28T22:05:02.470587+00:00",
-      "ticket_id": 237543076,
-      "action": "skip_spam",
-      "detail": "Automatic reply: \ud83e\uddb4 Fetch 60% Off Everything!"
-    },
-    {
-      "ts": "2026-08-28T22:05:02.470592+00:00",
-      "ticket_id": 237543198,
-      "action": "skip_spam",
-      "detail": "Automatic reply: \ud83e\uddb4 Fetch 60% Off Everything!"
-    },
-    {
-      "ts": "2026-08-29T03:42:06.906671+00:00",
-      "ticket_id": 237552837,
-      "action": "skip_spam",
-      "detail": "Automatic reply: [External] \ud83e\uddb4 Fetch 60% Off Everything!"
-    },
-    {
-      "ts": "2026-08-29T16:33:25.154071+00:00",
-      "ticket_id": 237600802,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re"
-    },
-    {
-      "ts": "2026-08-29T16:33:25.154120+00:00",
-      "ticket_id": 237605561,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-08-29T16:33:27.128570+00:00",
       "ticket_id": 237608021,
@@ -1203,6 +1125,84 @@
       "ticket_id": 238836494,
       "action": "skip_spam",
       "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-09-07T17:37:34.632571+00:00",
+      "ticket_id": 238841393,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Question on Glucosamine Sulfate"
+    },
+    {
+      "ts": "2026-09-07T17:37:35.854998+00:00",
+      "ticket_id": 238841414,
+      "action": "unknown_escalated_for_aj",
+      "detail": "hip and joint soft chew"
+    },
+    {
+      "ts": "2026-09-07T17:37:35.855027+00:00",
+      "ticket_id": 238842427,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-09-07T17:37:35.855036+00:00",
+      "ticket_id": 238842968,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-09-07T17:37:37.178193+00:00",
+      "ticket_id": 238847505,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Could AI improve Elmandrye. Com\u2019s website?"
+    },
+    {
+      "ts": "2026-09-07T17:37:38.597804+00:00",
+      "ticket_id": 238922891,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Found a good fit for your site"
+    },
+    {
+      "ts": "2026-09-07T17:37:39.763774+00:00",
+      "ticket_id": 238923674,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-09-07T17:37:42.146482+00:00",
+      "ticket_id": 238923868,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Special Offers inside! Fogger Included!"
+    },
+    {
+      "ts": "2026-09-07T17:37:43.660614+00:00",
+      "ticket_id": 238930762,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Order #86229"
+    },
+    {
+      "ts": "2026-09-07T17:37:43.660642+00:00",
+      "ticket_id": 238935037,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-09-07T17:37:45.840301+00:00",
+      "ticket_id": 238941224,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: It looks like you left something behind..."
+    },
+    {
+      "ts": "2026-09-07T17:37:46.992911+00:00",
+      "ticket_id": 238943147,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with sobolewski3@comcast.net"
+    },
+    {
+      "ts": "2026-09-07T17:37:48.208211+00:00",
+      "ticket_id": 238951308,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye.com, a payments question"
     }
   ]
 }
