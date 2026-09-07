@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 238951308,
-  "last_run_at": "2026-09-07T17:37:48.208227+00:00",
+  "last_processed_ticket_id": 238987400,
+  "last_run_at": "2026-09-07T20:46:42.459698+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-07",
   "ticket_actions": [
-    {
-      "ts": "2026-08-29T16:33:27.128570+00:00",
-      "ticket_id": 237608021,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Increase Affiliate Conversion Rates"
-    },
-    {
-      "ts": "2026-08-29T16:33:27.128606+00:00",
-      "ticket_id": 237617371,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-29T16:33:28.341790+00:00",
-      "ticket_id": 237619488,
-      "action": "unknown_escalated_for_aj",
-      "detail": "supplements creators"
-    },
     {
       "ts": "2026-08-29T16:33:30.633019+00:00",
       "ticket_id": 237628282,
@@ -1203,6 +1185,24 @@
       "ticket_id": 238951308,
       "action": "unknown_escalated_for_aj",
       "detail": "elmandrye.com, a payments question"
+    },
+    {
+      "ts": "2026-09-07T20:46:39.712045+00:00",
+      "ticket_id": 238982701,
+      "action": "error_crash",
+      "detail": "Order #86230"
+    },
+    {
+      "ts": "2026-09-07T20:46:41.182916+00:00",
+      "ticket_id": 238983273,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udc4a\ud83d\udc41\ufe0f\ud83d\udc49 YOU NEED TO KNOW HER STORY!"
+    },
+    {
+      "ts": "2026-09-07T20:46:42.459678+00:00",
+      "ticket_id": 238987400,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
     }
   ]
 }
