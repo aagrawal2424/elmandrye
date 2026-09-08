@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 239116425,
-  "last_run_at": "2026-09-08T16:25:32.050141+00:00",
+  "last_processed_ticket_id": 239147189,
+  "last_run_at": "2026-09-08T19:31:22.639718+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-08",
   "ticket_actions": [
-    {
-      "ts": "2026-08-30T19:24:05.763281+00:00",
-      "ticket_id": 237724286,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thank you for contacting us - Additional Information Required \u00a700487917"
-    },
-    {
-      "ts": "2026-08-30T19:24:07.505221+00:00",
-      "ticket_id": 237724284,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A u t o RE: Automatic Reply #219758 Your Ticket is Closed"
-    },
-    {
-      "ts": "2026-08-30T19:24:08.972558+00:00",
-      "ticket_id": 237746922,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A u t o RE: Automatic Reply Request received: 14095605 / ref:!00DU00Lfqj.!500Jv013yxsg:ref"
-    },
-    {
-      "ts": "2026-08-30T19:24:10.660512+00:00",
-      "ticket_id": 237727204,
-      "action": "unknown_escalated_for_aj",
-      "detail": "We\u2019ve received your email - IET Member Support"
-    },
     {
       "ts": "2026-08-30T19:24:12.835837+00:00",
       "ticket_id": 237728613,
@@ -1203,6 +1179,30 @@
       "ticket_id": 239116425,
       "action": "unknown_escalated_for_aj",
       "detail": "Everest, your card processor"
+    },
+    {
+      "ts": "2026-09-08T19:31:16.464419+00:00",
+      "ticket_id": 239129290,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Order #86175 confirmed"
+    },
+    {
+      "ts": "2026-09-08T19:31:18.878567+00:00",
+      "ticket_id": 239129876,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your August Search performance for https://elmandrye.com/"
+    },
+    {
+      "ts": "2026-09-08T19:31:20.077831+00:00",
+      "ticket_id": 239144365,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pupper's plan"
+    },
+    {
+      "ts": "2026-09-08T19:31:22.639695+00:00",
+      "ticket_id": 239147189,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83e\udd16 Your Next Cannabis Customer Could Be Asking AI \ud83e\udded"
     }
   ]
 }
