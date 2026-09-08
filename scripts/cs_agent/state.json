@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 238998601,
-  "last_run_at": "2026-09-07T23:02:39.317280+00:00",
+  "last_processed_ticket_id": 239001810,
+  "last_run_at": "2026-09-08T01:09:04.962389+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-09-07",
+  "daily_refund_date": "2026-09-08",
   "ticket_actions": [
-    {
-      "ts": "2026-08-29T19:29:57.263482+00:00",
-      "ticket_id": 237633924,
-      "action": "skip_spam",
-      "detail": "Your Klaviyo Inc subscription will renew soon"
-    },
-    {
-      "ts": "2026-08-29T19:29:58.316261+00:00",
-      "ticket_id": 237637745,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Few SEO improvements while reviewing your website."
-    },
     {
       "ts": "2026-08-29T19:29:58.316291+00:00",
       "ticket_id": 237639580,
@@ -1203,6 +1191,18 @@
       "ticket_id": 238998601,
       "action": "unknown_escalated_for_aj",
       "detail": "Still interested in your WooCommerce performance?"
+    },
+    {
+      "ts": "2026-09-08T01:09:03.880047+00:00",
+      "ticket_id": 239001704,
+      "action": "error_crash",
+      "detail": "Looking for update on order"
+    },
+    {
+      "ts": "2026-09-08T01:09:04.962368+00:00",
+      "ticket_id": 239001810,
+      "action": "unknown_escalated_for_aj",
+      "detail": "re: Did you get my last message\ud83c\udf1d"
     }
   ]
 }
