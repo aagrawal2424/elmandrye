@@ -1,111 +1,9 @@
 {
-  "last_processed_ticket_id": 239001810,
-  "last_run_at": "2026-09-08T01:09:04.962389+00:00",
+  "last_processed_ticket_id": 239116425,
+  "last_run_at": "2026-09-08T16:25:32.050141+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-09-08",
   "ticket_actions": [
-    {
-      "ts": "2026-08-29T19:29:58.316291+00:00",
-      "ticket_id": 237639580,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
-    {
-      "ts": "2026-08-29T19:29:59.326279+00:00",
-      "ticket_id": 237641234,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order #85926"
-    },
-    {
-      "ts": "2026-08-29T19:30:04.709367+00:00",
-      "ticket_id": 237641698,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Please share your feedback - 3 minutes"
-    },
-    {
-      "ts": "2026-08-29T19:30:09.784277+00:00",
-      "ticket_id": 237641742,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Partnership Invitation: Canada\u2019s National Inaugural Luxury Industry Leadership Initiative"
-    },
-    {
-      "ts": "2026-08-29T21:55:19.021879+00:00",
-      "ticket_id": 237646607,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Is this Pupper"
-    },
-    {
-      "ts": "2026-08-29T21:55:19.942090+00:00",
-      "ticket_id": 237648465,
-      "action": "unknown_escalated_for_aj",
-      "detail": "where a visible source can point for Pure High Quality Supplements by Elm Rye"
-    },
-    {
-      "ts": "2026-08-29T21:55:21.911586+00:00",
-      "ticket_id": 237650308,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Fw: Subscription management reminder"
-    },
-    {
-      "ts": "2026-08-30T16:28:10.170640+00:00",
-      "ticket_id": 237657335,
-      "action": "unknown_escalated_for_aj",
-      "detail": "HelloElmandrye,"
-    },
-    {
-      "ts": "2026-08-30T16:28:11.662311+00:00",
-      "ticket_id": 237661635,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Request refund or discount - Contact"
-    },
-    {
-      "ts": "2026-08-30T16:28:13.166011+00:00",
-      "ticket_id": 237662309,
-      "action": "error_crash",
-      "detail": "Re: Order #85697 confirmed"
-    },
-    {
-      "ts": "2026-08-30T16:28:13.166040+00:00",
-      "ticket_id": 237693077,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-08-30T16:28:13.166047+00:00",
-      "ticket_id": 237710682,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-08-30T16:28:14.920470+00:00",
-      "ticket_id": 237712130,
-      "action": "unknown_escalated_for_aj",
-      "detail": "re: Elm & Rye"
-    },
-    {
-      "ts": "2026-08-30T16:28:14.920529+00:00",
-      "ticket_id": 237716367,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-08-30T16:28:14.920579+00:00",
-      "ticket_id": 237718586,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-08-30T19:24:02.404196+00:00",
-      "ticket_id": 237724209,
-      "action": "unknown_escalated_for_aj",
-      "detail": "#219758 Your Ticket is Closed"
-    },
-    {
-      "ts": "2026-08-30T19:24:04.161987+00:00",
-      "ticket_id": 237724252,
-      "action": "unknown_escalated_for_aj",
-      "detail": "#219760 Your Ticket is Closed"
-    },
     {
       "ts": "2026-08-30T19:24:05.763281+00:00",
       "ticket_id": 237724286,
@@ -1203,6 +1101,108 @@
       "ticket_id": 239001810,
       "action": "unknown_escalated_for_aj",
       "detail": "re: Did you get my last message\ud83c\udf1d"
+    },
+    {
+      "ts": "2026-09-08T16:25:10.006760+00:00",
+      "ticket_id": 239010086,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Beverages Sourcing Need."
+    },
+    {
+      "ts": "2026-09-08T16:25:12.314711+00:00",
+      "ticket_id": 239010496,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Flmodafinil (CRL-40,940) -Nootropics API 99%"
+    },
+    {
+      "ts": "2026-09-08T16:25:12.314740+00:00",
+      "ticket_id": 239017527,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-09-08T16:25:13.219675+00:00",
+      "ticket_id": 239030894,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Simple add-on products"
+    },
+    {
+      "ts": "2026-09-08T16:25:15.807406+00:00",
+      "ticket_id": 239067876,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Welcome to Elm & Rye"
+    },
+    {
+      "ts": "2026-09-08T16:25:17.202312+00:00",
+      "ticket_id": 239078261,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order never received"
+    },
+    {
+      "ts": "2026-09-08T16:25:17.202343+00:00",
+      "ticket_id": 239099206,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-09-08T16:25:18.309816+00:00",
+      "ticket_id": 239099915,
+      "action": "error_crash",
+      "detail": "Re: Order #86224 confirmed"
+    },
+    {
+      "ts": "2026-09-08T16:25:20.463605+00:00",
+      "ticket_id": 239099921,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Niche-Focused Link Building Opportunities"
+    },
+    {
+      "ts": "2026-09-08T16:25:21.559734+00:00",
+      "ticket_id": 239103679,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Would You Be Open to a Content Collaboration?"
+    },
+    {
+      "ts": "2026-09-08T16:25:23.360859+00:00",
+      "ticket_id": 239105877,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invoice 2849 from Nitro Logistics, LLC"
+    },
+    {
+      "ts": "2026-09-08T16:25:27.702376+00:00",
+      "ticket_id": 239106295,
+      "action": "error_crash",
+      "detail": "My order"
+    },
+    {
+      "ts": "2026-09-08T16:25:28.511773+00:00",
+      "ticket_id": 239108667,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-09-08T16:25:29.593401+00:00",
+      "ticket_id": 239108793,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Thank you for your payment"
+    },
+    {
+      "ts": "2026-09-08T16:25:31.300003+00:00",
+      "ticket_id": 239109116,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Gorgias Inc receipt [#1807-0800]"
+    },
+    {
+      "ts": "2026-09-08T16:25:31.300039+00:00",
+      "ticket_id": 239114058,
+      "action": "skip_spam",
+      "detail": "Action required: inactive Klaviyo API key"
+    },
+    {
+      "ts": "2026-09-08T16:25:32.050125+00:00",
+      "ticket_id": 239116425,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Everest, your card processor"
     }
   ]
 }
