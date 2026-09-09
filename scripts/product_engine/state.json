@@ -1195,6 +1195,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "Tangerine polymethoxyflavone; metabolic + neuroprotective (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
+    },
+    {
+      "product_name": "Trans-Pterostilbene",
+      "product_title": "Trans-pterostilbene",
+      "category": "supplements",
+      "niche_score": 9,
+      "shopify_product_id": "gid://shopify/Product/9338823082196",
+      "handle": "trans-pterostilbene",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/4b5880f5-9a2a-402c-b4aa-66d7f8aaceac/er-product-trans-pterostilbene.png",
+      "created_at": "2026-09-09",
+      "price_usd": 84.99,
+      "reddit_url": "",
+      "why_interesting": "Specifically the trans-isomer form; differentiator vs commodity pterostilbene (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
     }
   ]
 }
