@@ -1234,6 +1234,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'moderate' appears in 4 recent supplement-research papers (most recent example: \"Acute Effects of Anthocyanin-Rich Blackcurrant Extract on Individual Cardiovascular and Metabolic Responses During Supine Rest and Moderate-Intensity Walking in\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Skullcap Baicalin",
+      "product_title": "Skullcap baicalin",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9342369562836",
+      "handle": "skullcap-baicalin",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/2e9b0c25-951f-4684-a189-cd3d58ba26af/er-product-skullcap-baicalin.png",
+      "created_at": "2026-09-12",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "Scutellaria baicalensis baicalin; calming + anti-inflammatory (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
     }
   ]
 }
