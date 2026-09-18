@@ -1299,6 +1299,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'ginsenoside' appears in 2 recent supplement-research papers (most recent example: \"Ginsenoside Rg1 enhances stem cell abundance in aging human skeletal muscle after resistance exercise.\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Benfotiamine",
+      "product_title": "Benfotiamine",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/9354128720084",
+      "handle": "benfotiamine",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/ad93e56a-faf7-41ac-becc-a59172acba48/er-product-benfotiamine.png",
+      "created_at": "2026-09-18",
+      "price_usd": 74.99,
+      "reddit_url": "",
+      "why_interesting": "Lipid-soluble B1; AGE inhibition; diabetic neuropathy data (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
     }
   ]
 }
