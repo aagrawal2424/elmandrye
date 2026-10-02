@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 242681966,
-  "last_run_at": "2026-10-02T17:43:56.330327+00:00",
+  "last_processed_ticket_id": 242711682,
+  "last_run_at": "2026-10-02T21:27:02.576765+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-02",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.587618+00:00",
-      "ticket_id": 241295824,
-      "action": "skip_spam",
-      "detail": "Payout for Sep 25, 2026 (-$44.44 USD)"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587625+00:00",
-      "ticket_id": 241296521,
-      "action": "skip_too_old",
-      "detail": "Hello"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587633+00:00",
-      "ticket_id": 241301677,
-      "action": "skip_too_old",
-      "detail": "[Notice] Possible unresolved security risks in your Admin Console"
-    },
     {
       "ts": "2026-10-01T22:47:25.587682+00:00",
       "ticket_id": 241311096,
@@ -1203,6 +1185,24 @@
       "ticket_id": 242681966,
       "action": "unknown_escalated_for_aj",
       "detail": "Google Workspace: Your invoice is available for elmandrye.com"
+    },
+    {
+      "ts": "2026-10-02T21:26:58.666910+00:00",
+      "ticket_id": 242689240,
+      "action": "unknown_escalated_for_aj",
+      "detail": "You\u2019re in: new Helpdesk Analytics is coming October 6"
+    },
+    {
+      "ts": "2026-10-02T21:27:00.817268+00:00",
+      "ticket_id": 242701437,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-10-02T21:27:02.576745+00:00",
+      "ticket_id": 242711682,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: A shipment from order #86541 is on the way"
     }
   ]
 }
