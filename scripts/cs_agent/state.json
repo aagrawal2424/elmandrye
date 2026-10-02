@@ -1,117 +1,9 @@
 {
-  "last_processed_ticket_id": 242563311,
-  "last_run_at": "2026-10-02T01:50:16.027166+00:00",
+  "last_processed_ticket_id": 242681966,
+  "last_run_at": "2026-10-02T17:43:56.330327+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-02",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.587510+00:00",
-      "ticket_id": 241188198,
-      "action": "skip_too_old",
-      "detail": ""
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587516+00:00",
-      "ticket_id": 241201171,
-      "action": "skip_too_old",
-      "detail": "Health gummies for Elm & Rye?"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587522+00:00",
-      "ticket_id": 241214527,
-      "action": "skip_too_old",
-      "detail": "Grab Your Favorite Disposables Today! \ud83c\udf89"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587528+00:00",
-      "ticket_id": 241217917,
-      "action": "skip_too_old",
-      "detail": "Agricultural Crop Insurance Market Supply and Demand Report"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587534+00:00",
-      "ticket_id": 241219807,
-      "action": "skip_too_old",
-      "detail": "Paid Collaboration: Link Insertion or Backlink Inquiry"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587538+00:00",
-      "ticket_id": 241224981,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587544+00:00",
-      "ticket_id": 241229598,
-      "action": "skip_too_old",
-      "detail": "U.S. Distribution Inquiry"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587550+00:00",
-      "ticket_id": 241231657,
-      "action": "skip_too_old",
-      "detail": "Noticed something on Elm & Rye's cart"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587556+00:00",
-      "ticket_id": 241237220,
-      "action": "skip_too_old",
-      "detail": "Still checking multiple portals for every regulatory change?"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587561+00:00",
-      "ticket_id": 241243429,
-      "action": "skip_too_old",
-      "detail": "question"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587570+00:00",
-      "ticket_id": 241244549,
-      "action": "skip_too_old",
-      "detail": "New customer"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587575+00:00",
-      "ticket_id": 241252382,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587581+00:00",
-      "ticket_id": 241254915,
-      "action": "skip_too_old",
-      "detail": "Fin outperforms every AI Agent for customer service"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587588+00:00",
-      "ticket_id": 241255640,
-      "action": "skip_too_old",
-      "detail": "Re: Order status - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587595+00:00",
-      "ticket_id": 241264120,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily Newsletter for 9.23.2026"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587600+00:00",
-      "ticket_id": 241279550,
-      "action": "skip_spam",
-      "detail": "How did Portland Leather Goods generate $100K+ in GMV during its first week of in-house TikTok Shop LIVE?"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587607+00:00",
-      "ticket_id": 241286875,
-      "action": "skip_too_old",
-      "detail": "Re: Last call for 15% off...!"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587613+00:00",
-      "ticket_id": 241288896,
-      "action": "skip_too_old",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-10-01T22:47:25.587618+00:00",
       "ticket_id": 241295824,
@@ -1203,6 +1095,114 @@
       "ticket_id": 242563311,
       "action": "unknown_escalated_for_aj",
       "detail": ""
+    },
+    {
+      "ts": "2026-10-02T17:43:30.104851+00:00",
+      "ticket_id": 242610710,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-02T17:43:32.073962+00:00",
+      "ticket_id": 242625555,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
+    },
+    {
+      "ts": "2026-10-02T17:43:33.883111+00:00",
+      "ticket_id": 242630121,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on October 2, 2026 at 4:46 am"
+    },
+    {
+      "ts": "2026-10-02T17:43:35.111624+00:00",
+      "ticket_id": 242634990,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Disabled veteran \u2014 product assistance program inquiry"
+    },
+    {
+      "ts": "2026-10-02T17:43:36.471007+00:00",
+      "ticket_id": 242642573,
+      "action": "unknown_escalated_for_aj",
+      "detail": "boxes"
+    },
+    {
+      "ts": "2026-10-02T17:43:38.647787+00:00",
+      "ticket_id": 242643496,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your NITRO LOGISTICS LLC receipt [#1398-3778]"
+    },
+    {
+      "ts": "2026-10-02T17:43:39.792956+00:00",
+      "ticket_id": 242646767,
+      "action": "unknown_escalated_for_aj",
+      "detail": "did RuffRuff Order Limits not work out?"
+    },
+    {
+      "ts": "2026-10-02T17:43:41.216531+00:00",
+      "ticket_id": 242648527,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Time to get Elm & Rye into holiday gift guides!"
+    },
+    {
+      "ts": "2026-10-02T17:43:41.216554+00:00",
+      "ticket_id": 242651771,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-02T17:43:42.762118+00:00",
+      "ticket_id": 242654558,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.2.2026 (Sponsored by Trulieve)"
+    },
+    {
+      "ts": "2026-10-02T17:43:44.455270+00:00",
+      "ticket_id": 242654883,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Gummy Manufacturing"
+    },
+    {
+      "ts": "2026-10-02T17:43:46.746239+00:00",
+      "ticket_id": 242662520,
+      "action": "unknown_escalated_for_aj",
+      "detail": "how is Gorgias working for the team?"
+    },
+    {
+      "ts": "2026-10-02T17:43:48.310466+00:00",
+      "ticket_id": 242663529,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for pupper.com"
+    },
+    {
+      "ts": "2026-10-02T17:43:49.609295+00:00",
+      "ticket_id": 242666015,
+      "action": "unknown_escalated_for_aj",
+      "detail": "closing the loop on cart & upsell"
+    },
+    {
+      "ts": "2026-10-02T17:43:51.075343+00:00",
+      "ticket_id": 242667436,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE: Do you need recruiter?"
+    },
+    {
+      "ts": "2026-10-02T17:43:52.581201+00:00",
+      "ticket_id": 242669166,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order #86541 confirmed"
+    },
+    {
+      "ts": "2026-10-02T17:43:54.688832+00:00",
+      "ticket_id": 242677922,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Dog Bed"
+    },
+    {
+      "ts": "2026-10-02T17:43:56.330308+00:00",
+      "ticket_id": 242681966,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for elmandrye.com"
     }
   ]
 }
