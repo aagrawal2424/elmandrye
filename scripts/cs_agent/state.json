@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 242556326,
-  "last_run_at": "2026-10-01T22:48:09.934199+00:00",
+  "last_processed_ticket_id": 242563311,
+  "last_run_at": "2026-10-02T01:50:16.027166+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-01",
+  "daily_refund_date": "2026-10-02",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.587505+00:00",
-      "ticket_id": 241162474,
-      "action": "skip_too_old",
-      "detail": "Manufacturing Partnership \u2014 Elm & Rye \u00d7 Zvitahealth (GMP Men's Health & Multivitamin OEM)"
-    },
     {
       "ts": "2026-10-01T22:47:25.587510+00:00",
       "ticket_id": 241188198,
@@ -1203,6 +1197,12 @@
       "ticket_id": 242556326,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Subscription CANCELLATION"
+    },
+    {
+      "ts": "2026-10-02T01:50:16.027151+00:00",
+      "ticket_id": 242563311,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
     }
   ]
 }
