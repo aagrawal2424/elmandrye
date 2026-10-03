@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 242719909,
-  "last_run_at": "2026-10-03T00:40:59.397318+00:00",
+  "last_processed_ticket_id": 242776347,
+  "last_run_at": "2026-10-03T16:02:39.719342+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-03",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.587710+00:00",
-      "ticket_id": 241373251,
-      "action": "skip_too_old",
-      "detail": "Fixed monthly partnership - Miss Lexa x Elm & Rye"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587716+00:00",
-      "ticket_id": 241375724,
-      "action": "skip_too_old",
-      "detail": "quick one"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587721+00:00",
-      "ticket_id": 241375855,
-      "action": "skip_too_old",
-      "detail": "quick intro"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587727+00:00",
-      "ticket_id": 241376169,
-      "action": "skip_too_old",
-      "detail": "Family-office demand for Pupper"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587733+00:00",
-      "ticket_id": 241382004,
-      "action": "skip_too_old",
-      "detail": "question"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587738+00:00",
-      "ticket_id": 241384255,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587743+00:00",
-      "ticket_id": 241392957,
-      "action": "skip_too_old",
-      "detail": "Pupper + Recharge"
-    },
     {
       "ts": "2026-10-01T22:47:25.587751+00:00",
       "ticket_id": 241393330,
@@ -1203,6 +1161,48 @@
       "ticket_id": 242719909,
       "action": "unknown_escalated_for_aj",
       "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-10-03T16:02:31.691335+00:00",
+      "ticket_id": 242725860,
+      "action": "skip_spam",
+      "detail": "See what beserker12 and 8 others shared"
+    },
+    {
+      "ts": "2026-10-03T16:02:31.691358+00:00",
+      "ticket_id": 242729726,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 3, 2026 ($45.43 USD)"
+    },
+    {
+      "ts": "2026-10-03T16:02:33.912330+00:00",
+      "ticket_id": 242751941,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Order"
+    },
+    {
+      "ts": "2026-10-03T16:02:35.600453+00:00",
+      "ticket_id": 242760610,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Orders"
+    },
+    {
+      "ts": "2026-10-03T16:02:37.317025+00:00",
+      "ticket_id": 242761326,
+      "action": "unknown_escalated_for_aj",
+      "detail": "I can help your website rank higher on Google - Contact"
+    },
+    {
+      "ts": "2026-10-03T16:02:39.719305+00:00",
+      "ticket_id": 242774062,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Waiting for order to ship"
+    },
+    {
+      "ts": "2026-10-03T16:02:39.719334+00:00",
+      "ticket_id": 242776347,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
