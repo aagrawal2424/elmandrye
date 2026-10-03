@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 242776347,
-  "last_run_at": "2026-10-03T16:02:39.719342+00:00",
+  "last_processed_ticket_id": 242799280,
+  "last_run_at": "2026-10-03T19:11:06.730272+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-03",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.587751+00:00",
-      "ticket_id": 241393330,
-      "action": "skip_too_old",
-      "detail": "Re: Other - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587757+00:00",
-      "ticket_id": 241395519,
-      "action": "skip_too_old",
-      "detail": "Grow pupper.com  with FREE email marketing"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587762+00:00",
-      "ticket_id": 241400027,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily Newsletter for 9/24/2026"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587768+00:00",
-      "ticket_id": 241403046,
-      "action": "skip_too_old",
-      "detail": "Copper peptide is the ingredient skincare and hair care share. Here's a two-product line built around it."
-    },
     {
       "ts": "2026-10-01T22:47:25.587774+00:00",
       "ticket_id": 241421763,
@@ -1203,6 +1179,30 @@
       "ticket_id": 242776347,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-03T19:11:05.013872+00:00",
+      "ticket_id": 242789215,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Order #86547 confirmed"
+    },
+    {
+      "ts": "2026-10-03T19:11:06.730223+00:00",
+      "ticket_id": 242789440,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Custom gummies for your Build A Bundle?"
+    },
+    {
+      "ts": "2026-10-03T19:11:06.730257+00:00",
+      "ticket_id": 242798526,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-03T19:11:06.730268+00:00",
+      "ticket_id": 242799280,
+      "action": "skip_spam",
+      "detail": "chewy and 2 others recently added to their stories"
     }
   ]
 }
