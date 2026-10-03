@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 242711682,
-  "last_run_at": "2026-10-02T21:27:02.576765+00:00",
+  "last_processed_ticket_id": 242719909,
+  "last_run_at": "2026-10-03T00:40:59.397318+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-02",
+  "daily_refund_date": "2026-10-03",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.587682+00:00",
-      "ticket_id": 241311096,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587695+00:00",
-      "ticket_id": 241359148,
-      "action": "skip_too_old",
-      "detail": "Meet UnicornShell at SupplySide Global 2026 | Booth 715 in Las Vegas"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587703+00:00",
-      "ticket_id": 241365769,
-      "action": "skip_too_old",
-      "detail": "Recent Response"
-    },
     {
       "ts": "2026-10-01T22:47:25.587710+00:00",
       "ticket_id": 241373251,
@@ -1203,6 +1185,24 @@
       "ticket_id": 242711682,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Re: A shipment from order #86541 is on the way"
+    },
+    {
+      "ts": "2026-10-03T00:40:55.246713+00:00",
+      "ticket_id": 242714131,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-03T00:40:56.995639+00:00",
+      "ticket_id": 242715004,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Payment settings changed"
+    },
+    {
+      "ts": "2026-10-03T00:40:59.397295+00:00",
+      "ticket_id": 242719909,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
     }
   ]
 }
