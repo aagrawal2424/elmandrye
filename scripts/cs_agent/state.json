@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 242799280,
-  "last_run_at": "2026-10-03T22:09:32.362085+00:00",
+  "last_processed_ticket_id": 242811344,
+  "last_run_at": "2026-10-04T00:39:47.333397+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-03",
+  "daily_refund_date": "2026-10-04",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.587774+00:00",
-      "ticket_id": 241421763,
-      "action": "skip_too_old",
-      "detail": "\ud83d\udd0e $1.2M Has Cannabis Brands Seeing Display Ads Differently \ud83d\udcad"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587780+00:00",
-      "ticket_id": 241425155,
-      "action": "skip_too_old",
-      "detail": "Order #86062"
-    },
     {
       "ts": "2026-10-01T22:47:25.587787+00:00",
       "ticket_id": 241440436,
@@ -1203,6 +1191,18 @@
       "ticket_id": 242799280,
       "action": "skip_spam",
       "detail": "chewy and 2 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-04T00:39:45.640658+00:00",
+      "ticket_id": 242811263,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your receipt from Refersion, Inc. #2903-0143"
+    },
+    {
+      "ts": "2026-10-04T00:39:47.333377+00:00",
+      "ticket_id": 242811344,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A new report is ready"
     }
   ]
 }
