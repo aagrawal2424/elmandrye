@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 243176954,
-  "last_run_at": "2026-10-06T18:11:13.758806+00:00",
+  "last_processed_ticket_id": 243191288,
+  "last_run_at": "2026-10-06T22:40:19.046074+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-06",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588045+00:00",
-      "ticket_id": 241802551,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588052+00:00",
-      "ticket_id": 241811731,
-      "action": "skip_too_old",
-      "detail": "Other - Contact"
-    },
     {
       "ts": "2026-10-01T22:47:25.588059+00:00",
       "ticket_id": 241814823,
@@ -1203,6 +1191,18 @@
       "ticket_id": 243176954,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 10.6.2026"
+    },
+    {
+      "ts": "2026-10-06T22:40:18.139651+00:00",
+      "ticket_id": 243183461,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udd0e $4.2M in Revenue Started With $2K per Location \ud83d\udcb8"
+    },
+    {
+      "ts": "2026-10-06T22:40:19.046058+00:00",
+      "ticket_id": 243191288,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
     }
   ]
 }
