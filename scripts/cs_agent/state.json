@@ -1,99 +1,9 @@
 {
-  "last_processed_ticket_id": 243053978,
-  "last_run_at": "2026-10-06T01:24:05.578541+00:00",
+  "last_processed_ticket_id": 243176954,
+  "last_run_at": "2026-10-06T18:11:13.758806+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-06",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.587952+00:00",
-      "ticket_id": 241686549,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587960+00:00",
-      "ticket_id": 241688354,
-      "action": "skip_too_old",
-      "detail": "Order #86229"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587967+00:00",
-      "ticket_id": 241693510,
-      "action": "skip_too_old",
-      "detail": "Subscribed"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587972+00:00",
-      "ticket_id": 241702532,
-      "action": "skip_too_old",
-      "detail": "question"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587979+00:00",
-      "ticket_id": 241702765,
-      "action": "skip_too_old",
-      "detail": "Re: Order #86176 confirmed"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587986+00:00",
-      "ticket_id": 241705571,
-      "action": "skip_too_old",
-      "detail": "[Notice] Possible unresolved security risks in your Admin Console"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587991+00:00",
-      "ticket_id": 241706383,
-      "action": "skip_too_old",
-      "detail": "Google banned your ads. Not your rankings"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587998+00:00",
-      "ticket_id": 241721579,
-      "action": "skip_too_old",
-      "detail": "Refund for order #86412"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588004+00:00",
-      "ticket_id": 241721631,
-      "action": "skip_too_old",
-      "detail": "Request refund or discount - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588009+00:00",
-      "ticket_id": 241729296,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588016+00:00",
-      "ticket_id": 241730693,
-      "action": "skip_too_old",
-      "detail": ""
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588023+00:00",
-      "ticket_id": 241758729,
-      "action": "skip_too_old",
-      "detail": "Re: Product question - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588028+00:00",
-      "ticket_id": 241787526,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588034+00:00",
-      "ticket_id": 241795737,
-      "action": "skip_too_old",
-      "detail": "brandworthy"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588040+00:00",
-      "ticket_id": 241799290,
-      "action": "skip_too_old",
-      "detail": "Quick observation you will find useful"
-    },
     {
       "ts": "2026-10-01T22:47:25.588045+00:00",
       "ticket_id": 241802551,
@@ -1203,6 +1113,96 @@
       "ticket_id": 243053978,
       "action": "unknown_escalated_for_aj",
       "detail": "Orders"
+    },
+    {
+      "ts": "2026-10-06T18:10:59.723190+00:00",
+      "ticket_id": 243056691,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Order"
+    },
+    {
+      "ts": "2026-10-06T18:11:01.203192+00:00",
+      "ticket_id": 243058549,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Payment settings changed"
+    },
+    {
+      "ts": "2026-10-06T18:11:01.203232+00:00",
+      "ticket_id": 243060301,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 6, 2026 ($45.81 USD)"
+    },
+    {
+      "ts": "2026-10-06T18:11:01.203238+00:00",
+      "ticket_id": 243060896,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-10-06T18:11:02.559714+00:00",
+      "ticket_id": 243108092,
+      "action": "error_crash",
+      "detail": "Order #86505"
+    },
+    {
+      "ts": "2026-10-06T18:11:03.616896+00:00",
+      "ticket_id": 243108665,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-06T18:11:03.616924+00:00",
+      "ticket_id": 243113778,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-06T18:11:06.003817+00:00",
+      "ticket_id": 243138159,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your September Search performance for https://elmandrye.com/"
+    },
+    {
+      "ts": "2026-10-06T18:11:07.579844+00:00",
+      "ticket_id": 243138115,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your September Search performance for https://pupper.com/"
+    },
+    {
+      "ts": "2026-10-06T18:11:07.579878+00:00",
+      "ticket_id": 243144360,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-06T18:11:09.228984+00:00",
+      "ticket_id": 243147139,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your supplements, your AI visibility"
+    },
+    {
+      "ts": "2026-10-06T18:11:09.229006+00:00",
+      "ticket_id": 243157867,
+      "action": "skip_spam",
+      "detail": "Action required: inactive Klaviyo API key"
+    },
+    {
+      "ts": "2026-10-06T18:11:09.229013+00:00",
+      "ticket_id": 243160197,
+      "action": "skip_spam",
+      "detail": "petco and petsmart recently added to their stories"
+    },
+    {
+      "ts": "2026-10-06T18:11:12.070648+00:00",
+      "ticket_id": 243176613,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A potential opportunity to improve your colostrum supply"
+    },
+    {
+      "ts": "2026-10-06T18:11:13.758794+00:00",
+      "ticket_id": 243176954,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.6.2026"
     }
   ]
 }
