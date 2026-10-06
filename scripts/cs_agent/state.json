@@ -1,135 +1,9 @@
 {
-  "last_processed_ticket_id": 242872940,
-  "last_run_at": "2026-10-05T01:16:25.617564+00:00",
+  "last_processed_ticket_id": 243053978,
+  "last_run_at": "2026-10-06T01:24:05.578541+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-05",
+  "daily_refund_date": "2026-10-06",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.587827+00:00",
-      "ticket_id": 241536610,
-      "action": "skip_too_old",
-      "detail": "Grab Your Favorite Disposables Today! \ud83c\udf89"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587833+00:00",
-      "ticket_id": 241544514,
-      "action": "skip_too_old",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1679-3503]"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587839+00:00",
-      "ticket_id": 241569083,
-      "action": "skip_too_old",
-      "detail": "Potential offer to purchase Pupper"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587843+00:00",
-      "ticket_id": 241570442,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587850+00:00",
-      "ticket_id": 241584413,
-      "action": "skip_too_old",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587856+00:00",
-      "ticket_id": 241590329,
-      "action": "skip_too_old",
-      "detail": "passing along a name"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587862+00:00",
-      "ticket_id": 241591982,
-      "action": "skip_too_old",
-      "detail": "\"Proposal Alert: Michael Santos \u2013 Dashboard Access\""
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587868+00:00",
-      "ticket_id": 241602325,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily Newsletter for 9.25.2026"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587874+00:00",
-      "ticket_id": 241602452,
-      "action": "skip_too_old",
-      "detail": "A customer has provided negative feedback on your services."
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587879+00:00",
-      "ticket_id": 241607724,
-      "action": "skip_too_old",
-      "detail": "One thing holding back your D2C growth"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587886+00:00",
-      "ticket_id": 241609032,
-      "action": "skip_too_old",
-      "detail": "buyeverest"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587890+00:00",
-      "ticket_id": 241610353,
-      "action": "skip_spam",
-      "detail": "How does a beauty and haircare brand generate $1M+ in LIVE GMV through consistent daily TikTok Shop LIVE sessions?"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587896+00:00",
-      "ticket_id": 241613415,
-      "action": "skip_too_old",
-      "detail": "Get paid by referring Google Workspace"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587905+00:00",
-      "ticket_id": 241618232,
-      "action": "skip_too_old",
-      "detail": "Report an issue - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587910+00:00",
-      "ticket_id": 241620296,
-      "action": "skip_spam",
-      "detail": "Automatic reply: Cozy Up with 50% Off \ud83c\udf42\ud83d\udc15"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587917+00:00",
-      "ticket_id": 241621385,
-      "action": "skip_too_old",
-      "detail": "Re: Your Taste of Calm Awaits! \ud83c\udf43"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587921+00:00",
-      "ticket_id": 241632022,
-      "action": "skip_spam",
-      "detail": "See what anton.monolite and 4 others shared"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587928+00:00",
-      "ticket_id": 241654316,
-      "action": "skip_too_old",
-      "detail": "Building the Next-Gen Pet Industry \u2014 Meet PetBridge"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587934+00:00",
-      "ticket_id": 241671634,
-      "action": "skip_too_old",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587941+00:00",
-      "ticket_id": 241672426,
-      "action": "skip_too_old",
-      "detail": "expired"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.587947+00:00",
-      "ticket_id": 241678215,
-      "action": "skip_too_old",
-      "detail": "The buyers are heading to Mumbai"
-    },
     {
       "ts": "2026-10-01T22:47:25.587952+00:00",
       "ticket_id": 241686549,
@@ -1203,6 +1077,132 @@
       "ticket_id": 242872940,
       "action": "unknown_escalated_for_aj",
       "detail": "Chewable softgels for ELM & RYE\u2019s new formulas?"
+    },
+    {
+      "ts": "2026-10-06T01:23:44.947284+00:00",
+      "ticket_id": 242905742,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-06T01:23:47.402137+00:00",
+      "ticket_id": 242909434,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Report an issue - Contact"
+    },
+    {
+      "ts": "2026-10-06T01:23:47.402172+00:00",
+      "ticket_id": 242912849,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 5, 2026 ($45.43 USD)"
+    },
+    {
+      "ts": "2026-10-06T01:23:48.324390+00:00",
+      "ticket_id": 242920900,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Ingredient supplier introduction"
+    },
+    {
+      "ts": "2026-10-06T01:23:49.448012+00:00",
+      "ticket_id": 242934264,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Accelerate Your Brand's European Expansion with TikTok Shop \ud83d\ude80"
+    },
+    {
+      "ts": "2026-10-06T01:23:49.448048+00:00",
+      "ticket_id": 242956834,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 5, 2026 ($142.68 USD)"
+    },
+    {
+      "ts": "2026-10-06T01:23:49.448057+00:00",
+      "ticket_id": 242991449,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-06T01:23:51.515056+00:00",
+      "ticket_id": 242992001,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elmandrye data erasure request - from Kathleen Hurley - request: QUSFXLKR"
+    },
+    {
+      "ts": "2026-10-06T01:23:53.209550+00:00",
+      "ticket_id": 242999829,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-10-06T01:23:53.209577+00:00",
+      "ticket_id": 243009952,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-10-06T01:23:55.253135+00:00",
+      "ticket_id": 243011446,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Recharge MCP: your metrics, in any AI tool"
+    },
+    {
+      "ts": "2026-10-06T01:23:56.611361+00:00",
+      "ticket_id": 243015508,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Subscription #67510"
+    },
+    {
+      "ts": "2026-10-06T01:23:57.961074+00:00",
+      "ticket_id": 243019862,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Last chance: Join leaders from Salesforce, Anthropic and Clay at Pioneer"
+    },
+    {
+      "ts": "2026-10-06T01:23:59.266354+00:00",
+      "ticket_id": 243023909,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.5.2026"
+    },
+    {
+      "ts": "2026-10-06T01:24:00.553170+00:00",
+      "ticket_id": 243041104,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order # 67522"
+    },
+    {
+      "ts": "2026-10-06T01:24:02.760765+00:00",
+      "ticket_id": 243042039,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-10-06T01:24:03.591464+00:00",
+      "ticket_id": 243046102,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-06T01:24:04.750198+00:00",
+      "ticket_id": 243050100,
+      "action": "unknown_escalated_for_aj",
+      "detail": "That's a wrap on our 16th Birthday Week!"
+    },
+    {
+      "ts": "2026-10-06T01:24:04.750232+00:00",
+      "ticket_id": 243050396,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
+    },
+    {
+      "ts": "2026-10-06T01:24:04.750239+00:00",
+      "ticket_id": 243050619,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-06T01:24:05.578522+00:00",
+      "ticket_id": 243053978,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Orders"
     }
   ]
 }
