@@ -1,69 +1,9 @@
 {
-  "last_processed_ticket_id": 243209942,
-  "last_run_at": "2026-10-07T01:49:44.355965+00:00",
+  "last_processed_ticket_id": 243362421,
+  "last_run_at": "2026-10-07T18:44:36.749911+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-07",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588065+00:00",
-      "ticket_id": 241832814,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Weekend Newsletter for 9.26/9.27 (2026)"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588070+00:00",
-      "ticket_id": 241837555,
-      "action": "skip_too_old",
-      "detail": "Sugar-free vitamin C gummies for Elm & Rye?"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588076+00:00",
-      "ticket_id": 241837947,
-      "action": "skip_too_old",
-      "detail": "Hi \ud83d\udc4b "
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588081+00:00",
-      "ticket_id": 241839566,
-      "action": "skip_spam",
-      "detail": "See what snoopdogg and 9 others you follow shared"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588086+00:00",
-      "ticket_id": 241845441,
-      "action": "skip_too_old",
-      "detail": "Re: Order #85427 confirmed"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588091+00:00",
-      "ticket_id": 241850140,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588096+00:00",
-      "ticket_id": 241856585,
-      "action": "skip_spam",
-      "detail": "Payout for Sep 28, 2026 ($49.21 USD)"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588102+00:00",
-      "ticket_id": 241988830,
-      "action": "skip_too_old",
-      "detail": "UGC ideas for Elm & Rye"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588108+00:00",
-      "ticket_id": 241908090,
-      "action": "skip_too_old",
-      "detail": "quick intro"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588115+00:00",
-      "ticket_id": 241911383,
-      "action": "skip_too_old",
-      "detail": "Live Publisher Inventory \u2014 Guest Posts & PR Placements"
-    },
     {
       "ts": "2026-10-01T22:47:25.588122+00:00",
       "ticket_id": 241912745,
@@ -1203,6 +1143,66 @@
       "ticket_id": 243209942,
       "action": "unknown_escalated_for_aj",
       "detail": "Millions of views, flat sales"
+    },
+    {
+      "ts": "2026-10-07T18:44:26.580575+00:00",
+      "ticket_id": 243235311,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New reasons prevent pages from being indexed on site https://elmandrye.com/"
+    },
+    {
+      "ts": "2026-10-07T18:44:28.787440+00:00",
+      "ticket_id": 243298438,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Slam Juice: Don't Miss Out!"
+    },
+    {
+      "ts": "2026-10-07T18:44:28.787476+00:00",
+      "ticket_id": 243316046,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-07T18:44:28.787484+00:00",
+      "ticket_id": 243318371,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-07T18:44:31.366396+00:00",
+      "ticket_id": 243326666,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Election 2026: Where Candidates in All 435 U.S. House Races Stand on Marijuana Law Reform"
+    },
+    {
+      "ts": "2026-10-07T18:44:31.366430+00:00",
+      "ticket_id": 243347448,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-10-07T18:44:32.672744+00:00",
+      "ticket_id": 243351187,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Q4 press idea for Pupper"
+    },
+    {
+      "ts": "2026-10-07T18:44:35.581502+00:00",
+      "ticket_id": 243353004,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.7.2026, Sponsored by Trulieve"
+    },
+    {
+      "ts": "2026-10-07T18:44:36.749878+00:00",
+      "ticket_id": 243362109,
+      "action": "unknown_escalated_for_aj",
+      "detail": "displays sorted?"
+    },
+    {
+      "ts": "2026-10-07T18:44:36.749907+00:00",
+      "ticket_id": 243362421,
+      "action": "skip_spam",
+      "detail": "See ever.wildapothecary, mbpfannerstill and more in your feed"
     }
   ]
 }
