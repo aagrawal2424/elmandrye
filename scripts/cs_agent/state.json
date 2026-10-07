@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 243191288,
-  "last_run_at": "2026-10-06T22:40:19.046074+00:00",
+  "last_processed_ticket_id": 243209942,
+  "last_run_at": "2026-10-07T01:49:44.355965+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-06",
+  "daily_refund_date": "2026-10-07",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588059+00:00",
-      "ticket_id": 241814823,
-      "action": "skip_too_old",
-      "detail": "RE: Order #86229 has been canceled"
-    },
     {
       "ts": "2026-10-01T22:47:25.588065+00:00",
       "ticket_id": 241832814,
@@ -1203,6 +1197,12 @@
       "ticket_id": 243191288,
       "action": "error_crash",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-07T01:49:44.355943+00:00",
+      "ticket_id": 243209942,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Millions of views, flat sales"
     }
   ]
 }
