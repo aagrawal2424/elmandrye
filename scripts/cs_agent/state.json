@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 243362421,
-  "last_run_at": "2026-10-07T18:44:36.749911+00:00",
+  "last_processed_ticket_id": 243376745,
+  "last_run_at": "2026-10-07T23:20:24.151678+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-07",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588122+00:00",
-      "ticket_id": 241912745,
-      "action": "skip_too_old",
-      "detail": "Cancel subscription"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588129+00:00",
-      "ticket_id": 241921900,
-      "action": "skip_too_old",
-      "detail": "Order #86492 / Libido capsules"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588135+00:00",
-      "ticket_id": 241928441,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily Newsletter for 9.28.2026"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588139+00:00",
-      "ticket_id": 241941811,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588144+00:00",
-      "ticket_id": 241957146,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
     {
       "ts": "2026-10-01T22:47:25.588150+00:00",
       "ticket_id": 241957572,
@@ -1203,6 +1173,36 @@
       "ticket_id": 243362421,
       "action": "skip_spam",
       "detail": "See ever.wildapothecary, mbpfannerstill and more in your feed"
+    },
+    {
+      "ts": "2026-10-07T23:20:16.703396+00:00",
+      "ticket_id": 243364005,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Instant box sourcing"
+    },
+    {
+      "ts": "2026-10-07T23:20:17.932602+00:00",
+      "ticket_id": 243370584,
+      "action": "unknown_escalated_for_aj",
+      "detail": "College student looking to try Elm & Rye"
+    },
+    {
+      "ts": "2026-10-07T23:20:19.865094+00:00",
+      "ticket_id": 243371861,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New: Turn spreadsheets into mini-apps in Google Sheets"
+    },
+    {
+      "ts": "2026-10-07T23:20:21.686241+00:00",
+      "ticket_id": 243375645,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Go beyond cells: Build custom mini\u2011apps in Sheets"
+    },
+    {
+      "ts": "2026-10-07T23:20:24.151664+00:00",
+      "ticket_id": 243376745,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: A New Approach to Creatine Testing - Cambium Analytica"
     }
   ]
 }
