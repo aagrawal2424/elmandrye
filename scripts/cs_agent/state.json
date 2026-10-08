@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 243376745,
-  "last_run_at": "2026-10-07T23:20:24.151678+00:00",
+  "last_processed_ticket_id": 243392569,
+  "last_run_at": "2026-10-08T02:47:42.872197+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-07",
+  "daily_refund_date": "2026-10-08",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588150+00:00",
-      "ticket_id": 241957572,
-      "action": "skip_too_old",
-      "detail": ""
-    },
     {
       "ts": "2026-10-01T22:47:25.588159+00:00",
       "ticket_id": 241959318,
@@ -1203,6 +1197,12 @@
       "ticket_id": 243376745,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: A New Approach to Creatine Testing - Cambium Analytica"
+    },
+    {
+      "ts": "2026-10-08T02:47:42.872182+00:00",
+      "ticket_id": 243392569,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 8, 2026 ($122.22 USD)"
     }
   ]
 }
