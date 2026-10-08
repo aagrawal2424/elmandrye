@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 243520369,
-  "last_run_at": "2026-10-08T18:43:22.269470+00:00",
+  "last_processed_ticket_id": 243541480,
+  "last_run_at": "2026-10-08T23:34:23.221502+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-08",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588306+00:00",
-      "ticket_id": 242092285,
-      "action": "skip_too_old",
-      "detail": "Your Shopify store, now with 4 AI agents"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588310+00:00",
-      "ticket_id": 242108431,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588316+00:00",
-      "ticket_id": 242110190,
-      "action": "skip_too_old",
-      "detail": "Fwd: Order #86461 confirmed"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588323+00:00",
-      "ticket_id": 242120088,
-      "action": "skip_too_old",
-      "detail": "Re: Order status - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588329+00:00",
-      "ticket_id": 242154704,
-      "action": "skip_too_old",
-      "detail": "Sea Moss order"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588335+00:00",
-      "ticket_id": 242155104,
-      "action": "skip_too_old",
-      "detail": "Q4 Placement Opportunities with CouponDuos"
-    },
     {
       "ts": "2026-10-01T22:47:25.588341+00:00",
       "ticket_id": 242156138,
@@ -1203,6 +1167,42 @@
       "ticket_id": 243520369,
       "action": "unknown_escalated_for_aj",
       "detail": "boxes"
+    },
+    {
+      "ts": "2026-10-08T23:34:15.836300+00:00",
+      "ticket_id": 243523066,
+      "action": "skip_spam",
+      "detail": "See what snoopdogg and 9 others you follow shared"
+    },
+    {
+      "ts": "2026-10-08T23:34:18.453135+00:00",
+      "ticket_id": 243523237,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.8.2026"
+    },
+    {
+      "ts": "2026-10-08T23:34:19.701880+00:00",
+      "ticket_id": 243524031,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Smarter packaging pricing"
+    },
+    {
+      "ts": "2026-10-08T23:34:21.739382+00:00",
+      "ticket_id": 243529053,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-10-08T23:34:23.221472+00:00",
+      "ticket_id": 243533393,
+      "action": "unknown_escalated_for_aj",
+      "detail": "No Tricks, Just Treats: This Week\u2019s NO BS Cannabinoid Pricing"
+    },
+    {
+      "ts": "2026-10-08T23:34:23.221500+00:00",
+      "ticket_id": 243541480,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
