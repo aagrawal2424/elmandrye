@@ -1546,6 +1546,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "Standardized eurycomanone fraction; T-boosting mechanism backed by RCTs (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
+    },
+    {
+      "product_name": "Alcohol",
+      "product_title": "Liver support complex",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/15413832351956",
+      "handle": "liver-support-complex-5",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/7a3c8755-9c4f-46c2-9517-21cc56bd1c25/er-product-liver-support-complex.png",
+      "created_at": "2026-10-09",
+      "price_usd": 79.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'alcohol' appears in 2 recent supplement-research papers (most recent example: \"Multimodal Nutraceutical and Psychological Intervention for GGT Reduction in Individuals with Alcohol Use Disorder.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
