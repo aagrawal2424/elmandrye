@@ -1,69 +1,9 @@
 {
-  "last_processed_ticket_id": 243658978,
-  "last_run_at": "2026-10-09T18:13:52.480224+00:00",
+  "last_processed_ticket_id": 243690571,
+  "last_run_at": "2026-10-09T22:44:11.377404+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-09",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588446+00:00",
-      "ticket_id": 242255137,
-      "action": "skip_too_old",
-      "detail": ""
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588452+00:00",
-      "ticket_id": 242255313,
-      "action": "skip_too_old",
-      "detail": "Hot selling Ginkgo extract"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588456+00:00",
-      "ticket_id": 242258108,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588461+00:00",
-      "ticket_id": 242271636,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588466+00:00",
-      "ticket_id": 242312205,
-      "action": "skip_too_old",
-      "detail": "S-E-O Offers...."
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588472+00:00",
-      "ticket_id": 242326385,
-      "action": "skip_too_old",
-      "detail": "What could Elmandrye be known for?"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588480+00:00",
-      "ticket_id": 242327767,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily Newsletter for 9.30.2026 (Sponsored by Trulieve)"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588486+00:00",
-      "ticket_id": 242346521,
-      "action": "skip_too_old",
-      "detail": "What does leading with intention mean in customer experience?"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588492+00:00",
-      "ticket_id": 242346590,
-      "action": "skip_too_old",
-      "detail": "Exclusive Cyclone Pods Deals Inside!"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588498+00:00",
-      "ticket_id": 242346692,
-      "action": "skip_too_old",
-      "detail": "Subscription #67510"
-    },
     {
       "ts": "2026-10-01T22:47:25.588503+00:00",
       "ticket_id": 242347019,
@@ -1203,6 +1143,66 @@
       "ticket_id": 243658978,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Google ADS, Facebook ADS, and Instagram ADS"
+    },
+    {
+      "ts": "2026-10-09T22:43:57.021372+00:00",
+      "ticket_id": 243671044,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-09T22:43:59.289192+00:00",
+      "ticket_id": 243678014,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Is your best video a rental?"
+    },
+    {
+      "ts": "2026-10-09T22:44:01.103854+00:00",
+      "ticket_id": 243678223,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-10-09T22:44:03.802630+00:00",
+      "ticket_id": 243682457,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.9.2026"
+    },
+    {
+      "ts": "2026-10-09T22:44:06.821818+00:00",
+      "ticket_id": 243686469,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Your Fall Ritual Starts Here \u2728"
+    },
+    {
+      "ts": "2026-10-09T22:44:06.821858+00:00",
+      "ticket_id": 243688016,
+      "action": "skip_spam",
+      "detail": "Automatic reply: \ud83d\udea8 60% Off Starts Now!"
+    },
+    {
+      "ts": "2026-10-09T22:44:06.821868+00:00",
+      "ticket_id": 243688037,
+      "action": "skip_spam",
+      "detail": "Automatic reply: \ud83d\udea8 60% Off Starts Now!"
+    },
+    {
+      "ts": "2026-10-09T22:44:08.429788+00:00",
+      "ticket_id": 243688941,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Let Other Shopify Stores Sell Your Products"
+    },
+    {
+      "ts": "2026-10-09T22:44:09.870256+00:00",
+      "ticket_id": 243689533,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Let Other Shopify Stores Sell Your Products"
+    },
+    {
+      "ts": "2026-10-09T22:44:11.377387+00:00",
+      "ticket_id": 243690571,
+      "action": "error_crash",
+      "detail": "Re: Order #86471 confirmed"
     }
   ]
 }
