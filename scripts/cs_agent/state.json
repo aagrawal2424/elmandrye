@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 243541480,
-  "last_run_at": "2026-10-08T23:34:23.221502+00:00",
+  "last_processed_ticket_id": 243546240,
+  "last_run_at": "2026-10-09T03:04:01.073941+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-08",
+  "daily_refund_date": "2026-10-09",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588341+00:00",
-      "ticket_id": 242156138,
-      "action": "skip_too_old",
-      "detail": "The Marijuana Herald Daily Newsletter for 9.29.2026"
-    },
     {
       "ts": "2026-10-01T22:47:25.588348+00:00",
       "ticket_id": 242156335,
@@ -1203,6 +1197,12 @@
       "ticket_id": 243541480,
       "action": "skip_spam",
       "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-10-09T03:04:01.073918+00:00",
+      "ticket_id": 243546240,
+      "action": "unknown_escalated_for_aj",
+      "detail": "GMV is not what you keep"
     }
   ]
 }
