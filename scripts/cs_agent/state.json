@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 243695991,
-  "last_run_at": "2026-10-10T01:56:22.669900+00:00",
+  "last_processed_ticket_id": 243764277,
+  "last_run_at": "2026-10-10T17:12:27.063076+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-10",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588509+00:00",
-      "ticket_id": 242347632,
-      "action": "skip_too_old",
-      "detail": "Explore Hottest Gold Bar Deals!"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588515+00:00",
-      "ticket_id": 242348367,
-      "action": "skip_too_old",
-      "detail": "one thing"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588521+00:00",
-      "ticket_id": 242359930,
-      "action": "skip_too_old",
-      "detail": "the reoder math on chews"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588525+00:00",
-      "ticket_id": 242377236,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588529+00:00",
-      "ticket_id": 242384745,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-01T22:47:25.588537+00:00",
-      "ticket_id": 242386912,
-      "action": "skip_too_old",
-      "detail": "Elman Drye \u2013 Building Reach Across Health & Wellness"
-    },
     {
       "ts": "2026-10-01T22:47:25.588543+00:00",
       "ticket_id": 242388637,
@@ -1203,6 +1167,42 @@
       "ticket_id": 243695991,
       "action": "unknown_escalated_for_aj",
       "detail": "Elm & Rye Check In"
+    },
+    {
+      "ts": "2026-10-10T17:12:24.572288+00:00",
+      "ticket_id": 243701626,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Bulk powder- Spermidine trihydrochloride CAS#334-50-9"
+    },
+    {
+      "ts": "2026-10-10T17:12:25.946215+00:00",
+      "ticket_id": 243738255,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-10-10T17:12:25.946247+00:00",
+      "ticket_id": 243751923,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-10T17:12:25.946257+00:00",
+      "ticket_id": 243760345,
+      "action": "skip_spam",
+      "detail": "See what beserker12 and 8 others shared"
+    },
+    {
+      "ts": "2026-10-10T17:12:25.946265+00:00",
+      "ticket_id": 243763995,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Clickless LLC, has signed up for your program!"
+    },
+    {
+      "ts": "2026-10-10T17:12:27.063061+00:00",
+      "ticket_id": 243764277,
+      "action": "error_crash",
+      "detail": "Order #86519"
     }
   ]
 }
