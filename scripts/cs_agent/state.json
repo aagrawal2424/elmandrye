@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 243774431,
-  "last_run_at": "2026-10-10T20:34:41.873224+00:00",
+  "last_processed_ticket_id": 243785944,
+  "last_run_at": "2026-10-10T23:48:54.330200+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-10",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:25.588549+00:00",
-      "ticket_id": 242391281,
-      "action": "skip_too_old",
-      "detail": "Elmandrye data erasure request - from Jennifer Plouffe - request: GN6XCWSD"
-    },
     {
       "ts": "2026-10-01T22:47:25.588556+00:00",
       "ticket_id": 242399944,
@@ -1203,6 +1197,12 @@
       "ticket_id": 243774431,
       "action": "skip_spam",
       "detail": "taytayvs11 and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-10T23:48:54.330190+00:00",
+      "ticket_id": 243785944,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
     }
   ]
 }
