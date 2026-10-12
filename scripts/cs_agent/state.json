@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 243886919,
-  "last_run_at": "2026-10-11T21:03:24.997184+00:00",
+  "last_processed_ticket_id": 243906920,
+  "last_run_at": "2026-10-12T00:29:44.557846+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-11",
+  "daily_refund_date": "2026-10-12",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:32.416738+00:00",
-      "ticket_id": 242478917,
-      "action": "error_crash",
-      "detail": "Re: Order status - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:33.638372+00:00",
-      "ticket_id": 242485865,
-      "action": "unknown_escalated_for_aj",
-      "detail": "quick thought"
-    },
     {
       "ts": "2026-10-01T22:47:36.164496+00:00",
       "ticket_id": 242490541,
@@ -1203,6 +1191,18 @@
       "ticket_id": 243886919,
       "action": "unknown_escalated_for_aj",
       "detail": "Quick content idea for Elm & Rye"
+    },
+    {
+      "ts": "2026-10-12T00:29:43.221074+00:00",
+      "ticket_id": 243905462,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Crocs built a show in four weeks"
+    },
+    {
+      "ts": "2026-10-12T00:29:44.557828+00:00",
+      "ticket_id": 243906920,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Test the material before you commit"
     }
   ]
 }
