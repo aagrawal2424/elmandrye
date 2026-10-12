@@ -1,99 +1,9 @@
 {
-  "last_processed_ticket_id": 243906920,
-  "last_run_at": "2026-10-12T00:29:44.557846+00:00",
+  "last_processed_ticket_id": 244052833,
+  "last_run_at": "2026-10-12T21:09:01.328048+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-12",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:36.164496+00:00",
-      "ticket_id": 242490541,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Monthly Review Roundup - September, 2026"
-    },
-    {
-      "ts": "2026-10-01T22:47:37.771232+00:00",
-      "ticket_id": 242492187,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Monthly Review Roundup - September, 2026"
-    },
-    {
-      "ts": "2026-10-01T22:47:40.433689+00:00",
-      "ticket_id": 242496465,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:42.362007+00:00",
-      "ticket_id": 242500030,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Q4 playbook has changed"
-    },
-    {
-      "ts": "2026-10-01T22:47:42.362040+00:00",
-      "ticket_id": 242500910,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-01T22:47:44.397267+00:00",
-      "ticket_id": 242502819,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.1.2026 (Sponsored by Trulieve)"
-    },
-    {
-      "ts": "2026-10-01T22:47:45.629361+00:00",
-      "ticket_id": 242505908,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:47.919065+00:00",
-      "ticket_id": 242513667,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Order #86440 confirmed"
-    },
-    {
-      "ts": "2026-10-01T22:47:49.779300+00:00",
-      "ticket_id": 242513767,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Order #85821 confirmed"
-    },
-    {
-      "ts": "2026-10-01T22:47:51.413139+00:00",
-      "ticket_id": 242519948,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Kojic acid is one of the most searched brightening ingredients right now. Here's a pad format ready to launch."
-    },
-    {
-      "ts": "2026-10-01T22:47:52.401280+00:00",
-      "ticket_id": 242519995,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-01T22:47:53.665026+00:00",
-      "ticket_id": 242522988,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Question from a college student with a new puppy"
-    },
-    {
-      "ts": "2026-10-01T22:47:55.062091+00:00",
-      "ticket_id": 242525515,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Content for October"
-    },
-    {
-      "ts": "2026-10-01T22:47:56.966198+00:00",
-      "ticket_id": 242533110,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: how do I suspend monthly shipments? ..."
-    },
-    {
-      "ts": "2026-10-01T22:47:58.570532+00:00",
-      "ticket_id": 242534990,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
-    },
     {
       "ts": "2026-10-01T22:47:58.570562+00:00",
       "ticket_id": 242535608,
@@ -1203,6 +1113,96 @@
       "ticket_id": 243906920,
       "action": "unknown_escalated_for_aj",
       "detail": "Test the material before you commit"
+    },
+    {
+      "ts": "2026-10-12T21:08:45.878467+00:00",
+      "ticket_id": 243907817,
+      "action": "error_crash",
+      "detail": "Re: Order #86638 confirmed"
+    },
+    {
+      "ts": "2026-10-12T21:08:45.878491+00:00",
+      "ticket_id": 243910599,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Tristan Martin, has signed up for your program!"
+    },
+    {
+      "ts": "2026-10-12T21:08:48.083522+00:00",
+      "ticket_id": 243914458,
+      "action": "error_crash",
+      "detail": "Shipping Inquiry"
+    },
+    {
+      "ts": "2026-10-12T21:08:49.994738+00:00",
+      "ticket_id": 243915328,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Crocs built a show in four weeks"
+    },
+    {
+      "ts": "2026-10-12T21:08:49.994772+00:00",
+      "ticket_id": 243918347,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 12, 2026 ($81.34 USD)"
+    },
+    {
+      "ts": "2026-10-12T21:08:49.994781+00:00",
+      "ticket_id": 243925491,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-12T21:08:51.285113+00:00",
+      "ticket_id": 243984501,
+      "action": "unknown_escalated_for_aj",
+      "detail": "is someone doing this manually"
+    },
+    {
+      "ts": "2026-10-12T21:08:53.081901+00:00",
+      "ticket_id": 243986304,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.12.2026"
+    },
+    {
+      "ts": "2026-10-12T21:08:54.230813+00:00",
+      "ticket_id": 243990872,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Feedback - Contact"
+    },
+    {
+      "ts": "2026-10-12T21:08:54.230840+00:00",
+      "ticket_id": 243998020,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-12T21:08:56.589297+00:00",
+      "ticket_id": 244007005,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invoice 2916 from Nitro Logistics, LLC"
+    },
+    {
+      "ts": "2026-10-12T21:08:57.677981+00:00",
+      "ticket_id": 244009745,
+      "action": "unknown_escalated_for_aj",
+      "detail": "An invitation from Sheila Samton"
+    },
+    {
+      "ts": "2026-10-12T21:08:59.807240+00:00",
+      "ticket_id": 244034220,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don\u2019t Miss Out on Slam Juice Deals!"
+    },
+    {
+      "ts": "2026-10-12T21:08:59.807273+00:00",
+      "ticket_id": 244036996,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-10-12T21:09:01.328028+00:00",
+      "ticket_id": 244052833,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Best Buy is coming for creators"
     }
   ]
 }
