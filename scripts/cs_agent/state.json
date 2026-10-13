@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 244052833,
-  "last_run_at": "2026-10-12T21:09:01.328048+00:00",
+  "last_processed_ticket_id": 244067173,
+  "last_run_at": "2026-10-13T02:34:39.675284+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-12",
+  "daily_refund_date": "2026-10-13",
   "ticket_actions": [
-    {
-      "ts": "2026-10-01T22:47:58.570562+00:00",
-      "ticket_id": 242535608,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-10-01T22:48:01.362361+00:00",
-      "ticket_id": 242535783,
-      "action": "unknown_escalated_for_aj",
-      "detail": "One week to go: Learn how leaders are transforming CX"
-    },
-    {
-      "ts": "2026-10-01T22:48:03.726902+00:00",
-      "ticket_id": 242536429,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udd0e 441% ROAS Showed Up in the First 30 Days \ud83d\udcc8"
-    },
-    {
-      "ts": "2026-10-01T22:48:03.726936+00:00",
-      "ticket_id": 242538153,
-      "action": "skip_spam",
-      "detail": "Your receipt from Klaviyo Inc #2292-7682-5632"
-    },
-    {
-      "ts": "2026-10-01T22:48:03.726945+00:00",
-      "ticket_id": 242540673,
-      "action": "skip_spam",
-      "detail": "lesleyannemarie and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-01T22:48:04.934607+00:00",
-      "ticket_id": 242544543,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your supplements, your AI visibility"
-    },
-    {
-      "ts": "2026-10-01T22:48:06.682529+00:00",
-      "ticket_id": 242549272,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Other - Contact"
-    },
     {
       "ts": "2026-10-01T22:48:08.120613+00:00",
       "ticket_id": 242550763,
@@ -1201,6 +1159,48 @@
     {
       "ts": "2026-10-12T21:09:01.328028+00:00",
       "ticket_id": 244052833,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Best Buy is coming for creators"
+    },
+    {
+      "ts": "2026-10-13T02:34:34.666253+00:00",
+      "ticket_id": 244053339,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Shipments"
+    },
+    {
+      "ts": "2026-10-13T02:34:35.756901+00:00",
+      "ticket_id": 244053421,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-13T02:34:36.623334+00:00",
+      "ticket_id": 244053828,
+      "action": "error_crash",
+      "detail": "Order number 86546"
+    },
+    {
+      "ts": "2026-10-13T02:34:36.623361+00:00",
+      "ticket_id": 244058054,
+      "action": "skip_spam",
+      "detail": "saloniisonii and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-13T02:34:37.471358+00:00",
+      "ticket_id": 244060556,
+      "action": "error_crash",
+      "detail": "Re: Order status - Contact"
+    },
+    {
+      "ts": "2026-10-13T02:34:38.522892+00:00",
+      "ticket_id": 244065020,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Best Buy is coming for creators"
+    },
+    {
+      "ts": "2026-10-13T02:34:39.675260+00:00",
+      "ticket_id": 244067173,
       "action": "unknown_escalated_for_aj",
       "detail": "Best Buy is coming for creators"
     }
