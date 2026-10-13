@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 244192311,
-  "last_run_at": "2026-10-13T19:08:00.559792+00:00",
+  "last_processed_ticket_id": 244212477,
+  "last_run_at": "2026-10-13T23:16:17.379861+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-13",
   "ticket_actions": [
-    {
-      "ts": "2026-10-02T17:43:56.330308+00:00",
-      "ticket_id": 242681966,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Google Workspace: Your invoice is available for elmandrye.com"
-    },
-    {
-      "ts": "2026-10-02T21:26:58.666910+00:00",
-      "ticket_id": 242689240,
-      "action": "unknown_escalated_for_aj",
-      "detail": "You\u2019re in: new Helpdesk Analytics is coming October 6"
-    },
-    {
-      "ts": "2026-10-02T21:27:00.817268+00:00",
-      "ticket_id": 242701437,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-10-02T21:27:02.576745+00:00",
-      "ticket_id": 242711682,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: A shipment from order #86541 is on the way"
-    },
     {
       "ts": "2026-10-03T00:40:55.246713+00:00",
       "ticket_id": 242714131,
@@ -1203,6 +1179,30 @@
       "ticket_id": 244192311,
       "action": "unknown_escalated_for_aj",
       "detail": "Introducing Fin 4"
+    },
+    {
+      "ts": "2026-10-13T23:16:12.003370+00:00",
+      "ticket_id": 244198674,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10/13/2026, Sponsored by Trulieve"
+    },
+    {
+      "ts": "2026-10-13T23:16:14.177658+00:00",
+      "ticket_id": 244200204,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The 4% who came back"
+    },
+    {
+      "ts": "2026-10-13T23:16:15.927849+00:00",
+      "ticket_id": 244200248,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The 4% who came back"
+    },
+    {
+      "ts": "2026-10-13T23:16:17.379839+00:00",
+      "ticket_id": 244212477,
+      "action": "unknown_escalated_for_aj",
+      "detail": "NEW: DEA Says GAO Report Has \"No Bearing\" on Marijuana Rescheduling, Does Not Justify Further Delays"
     }
   ]
 }
