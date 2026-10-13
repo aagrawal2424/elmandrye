@@ -1598,6 +1598,19 @@
       "price_usd": 74.99,
       "reddit_url": "",
       "why_interesting": "Mitochondrial B12 isomer; rare standalone product (From Elm & Rye curated reserve \u2014 peer-reviewed mechanism, no existing SKU.)"
+    },
+    {
+      "product_name": "Alcohol",
+      "product_title": "Liver support complex",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/15419576352980",
+      "handle": "liver-support-complex-8",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/96db0837-3cfa-4731-96e0-d7c2eacd26a5/er-product-liver-support-complex.png",
+      "created_at": "2026-10-13",
+      "price_usd": 79.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'alcohol' appears in 2 recent supplement-research papers (most recent example: \"Multimodal Nutraceutical and Psychological Intervention for GGT Reduction in Individuals with Alcohol Use Disorder.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
