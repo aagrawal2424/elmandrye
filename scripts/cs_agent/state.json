@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 244344433,
-  "last_run_at": "2026-10-14T20:33:23.111901+00:00",
+  "last_processed_ticket_id": 244370797,
+  "last_run_at": "2026-10-14T23:25:33.507076+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-14",
   "ticket_actions": [
-    {
-      "ts": "2026-10-06T01:23:49.448057+00:00",
-      "ticket_id": 242991449,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-06T01:23:51.515056+00:00",
-      "ticket_id": 242992001,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elmandrye data erasure request - from Kathleen Hurley - request: QUSFXLKR"
-    },
-    {
-      "ts": "2026-10-06T01:23:53.209550+00:00",
-      "ticket_id": 242999829,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-10-06T01:23:53.209577+00:00",
-      "ticket_id": 243009952,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
     {
       "ts": "2026-10-06T01:23:55.253135+00:00",
       "ticket_id": 243011446,
@@ -1203,6 +1179,30 @@
       "ticket_id": 244344433,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Re: Order #86621 confirmed"
+    },
+    {
+      "ts": "2026-10-14T23:25:31.878242+00:00",
+      "ticket_id": 244362921,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Creator Event, Nov 14th. Stocked for the Season on Long Island's North Fork"
+    },
+    {
+      "ts": "2026-10-14T23:25:31.878274+00:00",
+      "ticket_id": 244368402,
+      "action": "skip_spam",
+      "detail": "See ever.wildapothecary, mbpfannerstill and more in your feed"
+    },
+    {
+      "ts": "2026-10-14T23:25:31.878282+00:00",
+      "ticket_id": 244369450,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
+    },
+    {
+      "ts": "2026-10-14T23:25:33.507057+00:00",
+      "ticket_id": 244370797,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Bankful Payment Gateway"
     }
   ]
 }
