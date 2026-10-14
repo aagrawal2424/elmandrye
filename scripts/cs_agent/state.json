@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 244334695,
-  "last_run_at": "2026-10-14T16:56:33.453328+00:00",
+  "last_processed_ticket_id": 244344433,
+  "last_run_at": "2026-10-14T20:33:23.111901+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-14",
   "ticket_actions": [
-    {
-      "ts": "2026-10-06T01:23:47.402137+00:00",
-      "ticket_id": 242909434,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Report an issue - Contact"
-    },
-    {
-      "ts": "2026-10-06T01:23:47.402172+00:00",
-      "ticket_id": 242912849,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 5, 2026 ($45.43 USD)"
-    },
-    {
-      "ts": "2026-10-06T01:23:48.324390+00:00",
-      "ticket_id": 242920900,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Ingredient supplier introduction"
-    },
-    {
-      "ts": "2026-10-06T01:23:49.448012+00:00",
-      "ticket_id": 242934264,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Accelerate Your Brand's European Expansion with TikTok Shop \ud83d\ude80"
-    },
-    {
-      "ts": "2026-10-06T01:23:49.448048+00:00",
-      "ticket_id": 242956834,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 5, 2026 ($142.68 USD)"
-    },
     {
       "ts": "2026-10-06T01:23:49.448057+00:00",
       "ticket_id": 242991449,
@@ -1203,6 +1173,36 @@
       "ticket_id": 244334695,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 10.14.2026"
+    },
+    {
+      "ts": "2026-10-14T20:33:14.437090+00:00",
+      "ticket_id": 244336088,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-10-14T20:33:17.482916+00:00",
+      "ticket_id": 244338419,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Product Update] Google Tasks included in Google Workspace Intelligence admin controls starting Nov 14, 2026"
+    },
+    {
+      "ts": "2026-10-14T20:33:19.293497+00:00",
+      "ticket_id": 244338677,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Seed 50, promote five"
+    },
+    {
+      "ts": "2026-10-14T20:33:21.029221+00:00",
+      "ticket_id": 244338861,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Seed 50, promote five"
+    },
+    {
+      "ts": "2026-10-14T20:33:23.111877+00:00",
+      "ticket_id": 244344433,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order #86621 confirmed"
     }
   ]
 }
