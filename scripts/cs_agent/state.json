@@ -1,81 +1,9 @@
 {
-  "last_processed_ticket_id": 244370797,
-  "last_run_at": "2026-10-15T01:43:21.560130+00:00",
+  "last_processed_ticket_id": 244519593,
+  "last_run_at": "2026-10-15T16:43:12.564752+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-15",
   "ticket_actions": [
-    {
-      "ts": "2026-10-06T01:23:55.253135+00:00",
-      "ticket_id": 243011446,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Recharge MCP: your metrics, in any AI tool"
-    },
-    {
-      "ts": "2026-10-06T01:23:56.611361+00:00",
-      "ticket_id": 243015508,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Subscription #67510"
-    },
-    {
-      "ts": "2026-10-06T01:23:57.961074+00:00",
-      "ticket_id": 243019862,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Last chance: Join leaders from Salesforce, Anthropic and Clay at Pioneer"
-    },
-    {
-      "ts": "2026-10-06T01:23:59.266354+00:00",
-      "ticket_id": 243023909,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.5.2026"
-    },
-    {
-      "ts": "2026-10-06T01:24:00.553170+00:00",
-      "ticket_id": 243041104,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order # 67522"
-    },
-    {
-      "ts": "2026-10-06T01:24:02.760765+00:00",
-      "ticket_id": 243042039,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-10-06T01:24:03.591464+00:00",
-      "ticket_id": 243046102,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-06T01:24:04.750198+00:00",
-      "ticket_id": 243050100,
-      "action": "unknown_escalated_for_aj",
-      "detail": "That's a wrap on our 16th Birthday Week!"
-    },
-    {
-      "ts": "2026-10-06T01:24:04.750232+00:00",
-      "ticket_id": 243050396,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
-    },
-    {
-      "ts": "2026-10-06T01:24:04.750239+00:00",
-      "ticket_id": 243050619,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-06T01:24:05.578522+00:00",
-      "ticket_id": 243053978,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Orders"
-    },
-    {
-      "ts": "2026-10-06T18:10:59.723190+00:00",
-      "ticket_id": 243056691,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Order"
-    },
     {
       "ts": "2026-10-06T18:11:01.203192+00:00",
       "ticket_id": 243058549,
@@ -1203,6 +1131,78 @@
       "ticket_id": 244370797,
       "action": "unknown_escalated_for_aj",
       "detail": "Bankful Payment Gateway"
+    },
+    {
+      "ts": "2026-10-15T16:43:01.549537+00:00",
+      "ticket_id": 244378488,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: full spectrum gummies"
+    },
+    {
+      "ts": "2026-10-15T16:43:01.549570+00:00",
+      "ticket_id": 244378409,
+      "action": "skip_spam",
+      "detail": "proudpapa77 and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-15T16:43:01.549579+00:00",
+      "ticket_id": 244379334,
+      "action": "skip_spam",
+      "detail": "chewy and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-10-15T16:43:01.549586+00:00",
+      "ticket_id": 244411085,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-15T16:43:02.903044+00:00",
+      "ticket_id": 244455160,
+      "action": "unknown_escalated_for_aj",
+      "detail": "creator content in the stack"
+    },
+    {
+      "ts": "2026-10-15T16:43:04.242674+00:00",
+      "ticket_id": 244461932,
+      "action": "unknown_escalated_for_aj",
+      "detail": "creator content in the stack"
+    },
+    {
+      "ts": "2026-10-15T16:43:04.242711+00:00",
+      "ticket_id": 244471985,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-15T16:43:05.499325+00:00",
+      "ticket_id": 244509202,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udee1\ufe0fAre your pet food bags PPWR-compliant?"
+    },
+    {
+      "ts": "2026-10-15T16:43:07.361558+00:00",
+      "ticket_id": 244514181,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Find Your Calm & Save 15% \u2728"
+    },
+    {
+      "ts": "2026-10-15T16:43:09.186020+00:00",
+      "ticket_id": 244515998,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Dark spots are a universal skin concern. A serum safe for sensitive skin is not."
+    },
+    {
+      "ts": "2026-10-15T16:43:10.895726+00:00",
+      "ticket_id": 244519163,
+      "action": "unknown_escalated_for_aj",
+      "detail": "928 creators, 1,600 videos"
+    },
+    {
+      "ts": "2026-10-15T16:43:12.564728+00:00",
+      "ticket_id": 244519593,
+      "action": "unknown_escalated_for_aj",
+      "detail": "928 creators, 1,600 videos"
     }
   ]
 }
