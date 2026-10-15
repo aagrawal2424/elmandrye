@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 244519593,
-  "last_run_at": "2026-10-15T16:43:12.564752+00:00",
+  "last_processed_ticket_id": 244538413,
+  "last_run_at": "2026-10-15T20:04:05.643954+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-15",
   "ticket_actions": [
-    {
-      "ts": "2026-10-06T18:11:01.203192+00:00",
-      "ticket_id": 243058549,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Payment settings changed"
-    },
-    {
-      "ts": "2026-10-06T18:11:01.203232+00:00",
-      "ticket_id": 243060301,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 6, 2026 ($45.81 USD)"
-    },
-    {
-      "ts": "2026-10-06T18:11:01.203238+00:00",
-      "ticket_id": 243060896,
-      "action": "skip_spam",
-      "detail": "From heygracey and others: 3 unread messages"
-    },
-    {
-      "ts": "2026-10-06T18:11:02.559714+00:00",
-      "ticket_id": 243108092,
-      "action": "error_crash",
-      "detail": "Order #86505"
-    },
-    {
-      "ts": "2026-10-06T18:11:03.616896+00:00",
-      "ticket_id": 243108665,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-06T18:11:03.616924+00:00",
-      "ticket_id": 243113778,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-06T18:11:06.003817+00:00",
-      "ticket_id": 243138159,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your September Search performance for https://elmandrye.com/"
-    },
-    {
-      "ts": "2026-10-06T18:11:07.579844+00:00",
-      "ticket_id": 243138115,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your September Search performance for https://pupper.com/"
-    },
     {
       "ts": "2026-10-06T18:11:07.579878+00:00",
       "ticket_id": 243144360,
@@ -1203,6 +1155,54 @@
       "ticket_id": 244519593,
       "action": "unknown_escalated_for_aj",
       "detail": "928 creators, 1,600 videos"
+    },
+    {
+      "ts": "2026-10-15T20:03:51.077287+00:00",
+      "ticket_id": 244525839,
+      "action": "unknown_escalated_for_aj",
+      "detail": "88% came from affiliates"
+    },
+    {
+      "ts": "2026-10-15T20:03:52.743663+00:00",
+      "ticket_id": 244526000,
+      "action": "unknown_escalated_for_aj",
+      "detail": "88% came from affiliates"
+    },
+    {
+      "ts": "2026-10-15T20:03:55.084559+00:00",
+      "ticket_id": 244526066,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.15.2026"
+    },
+    {
+      "ts": "2026-10-15T20:03:57.325827+00:00",
+      "ticket_id": 244530822,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udcec $290K Proves Email Deserves a Spot in Your Strategy \ud83d\udecd\ufe0f"
+    },
+    {
+      "ts": "2026-10-15T20:03:59.471188+00:00",
+      "ticket_id": 244531709,
+      "action": "unknown_escalated_for_aj",
+      "detail": "your next production run"
+    },
+    {
+      "ts": "2026-10-15T20:04:01.736384+00:00",
+      "ticket_id": 244533262,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Our new lab in Traverse City is open"
+    },
+    {
+      "ts": "2026-10-15T20:04:03.858671+00:00",
+      "ticket_id": 244537061,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Please CANCEL all my subscriptions immediately"
+    },
+    {
+      "ts": "2026-10-15T20:04:05.643932+00:00",
+      "ticket_id": 244538413,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Please CANCEL all my subscriptions immediately"
     }
   ]
 }
