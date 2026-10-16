@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 244677559,
-  "last_run_at": "2026-10-16T19:39:08.635763+00:00",
+  "last_processed_ticket_id": 244695143,
+  "last_run_at": "2026-10-16T22:12:27.830128+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-16",
   "ticket_actions": [
-    {
-      "ts": "2026-10-07T18:44:28.787476+00:00",
-      "ticket_id": 243316046,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-07T18:44:28.787484+00:00",
-      "ticket_id": 243318371,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-07T18:44:31.366396+00:00",
-      "ticket_id": 243326666,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Election 2026: Where Candidates in All 435 U.S. House Races Stand on Marijuana Law Reform"
-    },
     {
       "ts": "2026-10-07T18:44:31.366430+00:00",
       "ticket_id": 243347448,
@@ -1203,6 +1185,24 @@
       "ticket_id": 244677559,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 10.16.2026"
+    },
+    {
+      "ts": "2026-10-16T22:12:25.640023+00:00",
+      "ticket_id": 244689003,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Google traffic"
+    },
+    {
+      "ts": "2026-10-16T22:12:27.830094+00:00",
+      "ticket_id": 244692428,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Subject: Action needed: Sendlane is shutting down in January 2027"
+    },
+    {
+      "ts": "2026-10-16T22:12:27.830124+00:00",
+      "ticket_id": 244695143,
+      "action": "skip_spam",
+      "detail": "Automatic reply: \ud83d\udea8 60% Off. Last Day. GO!"
     }
   ]
 }
