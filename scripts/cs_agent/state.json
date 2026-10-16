@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 244538413,
-  "last_run_at": "2026-10-15T23:02:07.084938+00:00",
+  "last_processed_ticket_id": 244555568,
+  "last_run_at": "2026-10-16T01:15:18.973148+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-15",
+  "daily_refund_date": "2026-10-16",
   "ticket_actions": [
-    {
-      "ts": "2026-10-06T18:11:07.579878+00:00",
-      "ticket_id": 243144360,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-10-06T18:11:09.228984+00:00",
       "ticket_id": 243147139,
@@ -1203,6 +1197,12 @@
       "ticket_id": 244538413,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Re: Please CANCEL all my subscriptions immediately"
+    },
+    {
+      "ts": "2026-10-16T01:15:18.973134+00:00",
+      "ticket_id": 244555568,
+      "action": "unknown_escalated_for_aj",
+      "detail": "For Everest - may I send 50 vape cartridges for testing?"
     }
   ]
 }
