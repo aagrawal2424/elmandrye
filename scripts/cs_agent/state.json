@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 244555568,
-  "last_run_at": "2026-10-16T01:15:18.973148+00:00",
+  "last_processed_ticket_id": 244649436,
+  "last_run_at": "2026-10-16T16:25:31.719628+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-16",
   "ticket_actions": [
-    {
-      "ts": "2026-10-06T18:11:09.228984+00:00",
-      "ticket_id": 243147139,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your supplements, your AI visibility"
-    },
-    {
-      "ts": "2026-10-06T18:11:09.229006+00:00",
-      "ticket_id": 243157867,
-      "action": "skip_spam",
-      "detail": "Action required: inactive Klaviyo API key"
-    },
-    {
-      "ts": "2026-10-06T18:11:09.229013+00:00",
-      "ticket_id": 243160197,
-      "action": "skip_spam",
-      "detail": "petco and petsmart recently added to their stories"
-    },
-    {
-      "ts": "2026-10-06T18:11:12.070648+00:00",
-      "ticket_id": 243176613,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A potential opportunity to improve your colostrum supply"
-    },
-    {
-      "ts": "2026-10-06T18:11:13.758794+00:00",
-      "ticket_id": 243176954,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.6.2026"
-    },
-    {
-      "ts": "2026-10-06T22:40:18.139651+00:00",
-      "ticket_id": 243183461,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udd0e $4.2M in Revenue Started With $2K per Location \ud83d\udcb8"
-    },
-    {
-      "ts": "2026-10-06T22:40:19.046058+00:00",
-      "ticket_id": 243191288,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-07T01:49:44.355943+00:00",
-      "ticket_id": 243209942,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Millions of views, flat sales"
-    },
     {
       "ts": "2026-10-07T18:44:26.580575+00:00",
       "ticket_id": 243235311,
@@ -1203,6 +1155,54 @@
       "ticket_id": 244555568,
       "action": "unknown_escalated_for_aj",
       "detail": "For Everest - may I send 50 vape cartridges for testing?"
+    },
+    {
+      "ts": "2026-10-16T16:25:21.682987+00:00",
+      "ticket_id": 244562217,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 16, 2026 ($28.94 USD)"
+    },
+    {
+      "ts": "2026-10-16T16:25:23.261542+00:00",
+      "ticket_id": 244566004,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Greetings"
+    },
+    {
+      "ts": "2026-10-16T16:25:24.482935+00:00",
+      "ticket_id": 244567778,
+      "action": "unknown_escalated_for_aj",
+      "detail": "elmandrye.com is missing alt text on key images"
+    },
+    {
+      "ts": "2026-10-16T16:25:25.644641+00:00",
+      "ticket_id": 244595416,
+      "action": "unknown_escalated_for_aj",
+      "detail": "paying you $375 for quality traffic"
+    },
+    {
+      "ts": "2026-10-16T16:25:28.311443+00:00",
+      "ticket_id": 244634279,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your NITRO LOGISTICS LLC receipt [#1185-0985]"
+    },
+    {
+      "ts": "2026-10-16T16:25:30.159861+00:00",
+      "ticket_id": 244637612,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Unlock Gold Bar BOGO Savings!"
+    },
+    {
+      "ts": "2026-10-16T16:25:30.159902+00:00",
+      "ticket_id": 244646888,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-16T16:25:31.719607+00:00",
+      "ticket_id": 244649436,
+      "action": "unknown_escalated_for_aj",
+      "detail": "HURRY! One spot left for TODAY meeting + WGN Chicago this holiday season!"
     }
   ]
 }
