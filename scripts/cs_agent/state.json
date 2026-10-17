@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 244758112,
-  "last_run_at": "2026-10-17T15:19:51.027166+00:00",
+  "last_processed_ticket_id": 244767090,
+  "last_run_at": "2026-10-17T17:53:06.763068+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-17",
   "ticket_actions": [
-    {
-      "ts": "2026-10-08T02:47:42.872182+00:00",
-      "ticket_id": 243392569,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 8, 2026 ($122.22 USD)"
-    },
-    {
-      "ts": "2026-10-08T18:42:46.937480+00:00",
-      "ticket_id": 243393463,
-      "action": "skip_spam",
-      "detail": "proudpapa77 and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-08T18:42:46.937502+00:00",
-      "ticket_id": 243394476,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see what's been happening on Instagram"
-    },
     {
       "ts": "2026-10-08T18:42:49.515886+00:00",
       "ticket_id": 243398870,
@@ -1203,6 +1185,24 @@
       "ticket_id": 244758112,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-17T17:53:04.938778+00:00",
+      "ticket_id": 244764957,
+      "action": "skip_spam",
+      "detail": "chewy and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-10-17T17:53:04.938798+00:00",
+      "ticket_id": 244766247,
+      "action": "skip_spam",
+      "detail": "andrewjbookwalter and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-17T17:53:06.763052+00:00",
+      "ticket_id": 244767090,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Product shipment and receipt"
     }
   ]
 }
