@@ -1,63 +1,9 @@
 {
-  "last_processed_ticket_id": 244703222,
-  "last_run_at": "2026-10-17T00:33:30.166479+00:00",
+  "last_processed_ticket_id": 244758112,
+  "last_run_at": "2026-10-17T15:19:51.027166+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-17",
   "ticket_actions": [
-    {
-      "ts": "2026-10-07T18:44:32.672744+00:00",
-      "ticket_id": 243351187,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Q4 press idea for Pupper"
-    },
-    {
-      "ts": "2026-10-07T18:44:35.581502+00:00",
-      "ticket_id": 243353004,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.7.2026, Sponsored by Trulieve"
-    },
-    {
-      "ts": "2026-10-07T18:44:36.749878+00:00",
-      "ticket_id": 243362109,
-      "action": "unknown_escalated_for_aj",
-      "detail": "displays sorted?"
-    },
-    {
-      "ts": "2026-10-07T18:44:36.749907+00:00",
-      "ticket_id": 243362421,
-      "action": "skip_spam",
-      "detail": "See ever.wildapothecary, mbpfannerstill and more in your feed"
-    },
-    {
-      "ts": "2026-10-07T23:20:16.703396+00:00",
-      "ticket_id": 243364005,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Instant box sourcing"
-    },
-    {
-      "ts": "2026-10-07T23:20:17.932602+00:00",
-      "ticket_id": 243370584,
-      "action": "unknown_escalated_for_aj",
-      "detail": "College student looking to try Elm & Rye"
-    },
-    {
-      "ts": "2026-10-07T23:20:19.865094+00:00",
-      "ticket_id": 243371861,
-      "action": "unknown_escalated_for_aj",
-      "detail": "New: Turn spreadsheets into mini-apps in Google Sheets"
-    },
-    {
-      "ts": "2026-10-07T23:20:21.686241+00:00",
-      "ticket_id": 243375645,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Go beyond cells: Build custom mini\u2011apps in Sheets"
-    },
-    {
-      "ts": "2026-10-07T23:20:24.151664+00:00",
-      "ticket_id": 243376745,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: A New Approach to Creatine Testing - Cambium Analytica"
-    },
     {
       "ts": "2026-10-08T02:47:42.872182+00:00",
       "ticket_id": 243392569,
@@ -1203,6 +1149,60 @@
       "ticket_id": 244703222,
       "action": "error_crash",
       "detail": "Orders"
+    },
+    {
+      "ts": "2026-10-17T15:19:41.490960+00:00",
+      "ticket_id": 244707701,
+      "action": "skip_spam",
+      "detail": "See what snoopdogg and 9 others you follow shared"
+    },
+    {
+      "ts": "2026-10-17T15:19:43.358101+00:00",
+      "ticket_id": 244708271,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Small creators move product too"
+    },
+    {
+      "ts": "2026-10-17T15:19:45.465385+00:00",
+      "ticket_id": 244709572,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Small creators move product too"
+    },
+    {
+      "ts": "2026-10-17T15:19:46.733659+00:00",
+      "ticket_id": 244711748,
+      "action": "unknown_escalated_for_aj",
+      "detail": "345 hours, zero brand-shot frames"
+    },
+    {
+      "ts": "2026-10-17T15:19:48.124193+00:00",
+      "ticket_id": 244711773,
+      "action": "unknown_escalated_for_aj",
+      "detail": "345 hours, zero brand-shot frames"
+    },
+    {
+      "ts": "2026-10-17T15:19:49.196663+00:00",
+      "ticket_id": 244732923,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elm & Rye \u2014 adding the next supplement"
+    },
+    {
+      "ts": "2026-10-17T15:19:50.101486+00:00",
+      "ticket_id": 244755388,
+      "action": "unknown_escalated_for_aj",
+      "detail": "custom boxes"
+    },
+    {
+      "ts": "2026-10-17T15:19:51.027109+00:00",
+      "ticket_id": 244757492,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Affordable UGC for Pupper"
+    },
+    {
+      "ts": "2026-10-17T15:19:51.027137+00:00",
+      "ticket_id": 244758112,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
