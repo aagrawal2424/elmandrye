@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 244695143,
-  "last_run_at": "2026-10-16T22:12:27.830128+00:00",
+  "last_processed_ticket_id": 244703222,
+  "last_run_at": "2026-10-17T00:33:30.166479+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-16",
+  "daily_refund_date": "2026-10-17",
   "ticket_actions": [
-    {
-      "ts": "2026-10-07T18:44:31.366430+00:00",
-      "ticket_id": 243347448,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
     {
       "ts": "2026-10-07T18:44:32.672744+00:00",
       "ticket_id": 243351187,
@@ -1203,6 +1197,12 @@
       "ticket_id": 244695143,
       "action": "skip_spam",
       "detail": "Automatic reply: \ud83d\udea8 60% Off. Last Day. GO!"
+    },
+    {
+      "ts": "2026-10-17T00:33:30.166463+00:00",
+      "ticket_id": 244703222,
+      "action": "error_crash",
+      "detail": "Orders"
     }
   ]
 }
