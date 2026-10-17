@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 244767090,
-  "last_run_at": "2026-10-17T20:13:00.607080+00:00",
+  "last_processed_ticket_id": 244788357,
+  "last_run_at": "2026-10-17T22:25:22.769268+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-17",
   "ticket_actions": [
-    {
-      "ts": "2026-10-08T18:42:49.515886+00:00",
-      "ticket_id": 243398870,
-      "action": "unknown_escalated_for_aj",
-      "detail": "ROAS looks great. The bank disagrees."
-    },
-    {
-      "ts": "2026-10-08T18:42:51.445445+00:00",
-      "ticket_id": 243408315,
-      "action": "unknown_escalated_for_aj",
-      "detail": "High Quality 510 Carts"
-    },
     {
       "ts": "2026-10-08T18:42:51.445477+00:00",
       "ticket_id": 243408992,
@@ -1203,6 +1191,18 @@
       "ticket_id": 244767090,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Product shipment and receipt"
+    },
+    {
+      "ts": "2026-10-17T22:25:19.131289+00:00",
+      "ticket_id": 244786107,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-10-17T22:25:22.769246+00:00",
+      "ticket_id": 244788357,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your receipt from Sendlane #2621-8588"
     }
   ]
 }
