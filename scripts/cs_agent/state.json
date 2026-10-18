@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 244847984,
-  "last_run_at": "2026-10-18T15:41:28.416129+00:00",
+  "last_processed_ticket_id": 244865212,
+  "last_run_at": "2026-10-18T18:17:13.374043+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-18",
   "ticket_actions": [
-    {
-      "ts": "2026-10-08T18:43:01.594923+00:00",
-      "ticket_id": 243474370,
-      "action": "unknown_escalated_for_aj",
-      "detail": "My order"
-    },
-    {
-      "ts": "2026-10-08T18:43:02.884147+00:00",
-      "ticket_id": 243480180,
-      "action": "unknown_escalated_for_aj",
-      "detail": ""
-    },
-    {
-      "ts": "2026-10-08T18:43:02.884184+00:00",
-      "ticket_id": 243482146,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-08T18:43:05.149249+00:00",
-      "ticket_id": 243489077,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Introducing Skio MCP + more"
-    },
-    {
-      "ts": "2026-10-08T18:43:07.405555+00:00",
-      "ticket_id": 243489028,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Introducing Skio MCP + more"
-    },
     {
       "ts": "2026-10-08T18:43:09.293040+00:00",
       "ticket_id": 243490220,
@@ -1203,6 +1173,36 @@
       "ticket_id": 244847984,
       "action": "skip_spam",
       "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-18T18:17:04.156547+00:00",
+      "ticket_id": 244859457,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-18T18:17:06.802425+00:00",
+      "ticket_id": 244860663,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your FAQ page holds your best hook"
+    },
+    {
+      "ts": "2026-10-18T18:17:08.929464+00:00",
+      "ticket_id": 244864194,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your FAQ page holds your best hook"
+    },
+    {
+      "ts": "2026-10-18T18:17:11.300537+00:00",
+      "ticket_id": 244864902,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Colostrum \u00d7"
+    },
+    {
+      "ts": "2026-10-18T18:17:13.374022+00:00",
+      "ticket_id": 244865212,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Follower minimums are costing you"
     }
   ]
 }
