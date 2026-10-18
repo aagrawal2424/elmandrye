@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 244865212,
-  "last_run_at": "2026-10-18T18:17:13.374043+00:00",
+  "last_processed_ticket_id": 244871654,
+  "last_run_at": "2026-10-18T20:54:22.306061+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-18",
   "ticket_actions": [
-    {
-      "ts": "2026-10-08T18:43:09.293040+00:00",
-      "ticket_id": 243490220,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Bulk export your product photos for every marketplace listing"
-    },
     {
       "ts": "2026-10-08T18:43:10.773130+00:00",
       "ticket_id": 243491149,
@@ -1201,6 +1195,12 @@
     {
       "ts": "2026-10-18T18:17:13.374022+00:00",
       "ticket_id": 244865212,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Follower minimums are costing you"
+    },
+    {
+      "ts": "2026-10-18T20:54:22.306038+00:00",
+      "ticket_id": 244871654,
       "action": "unknown_escalated_for_aj",
       "detail": "Follower minimums are costing you"
     }
