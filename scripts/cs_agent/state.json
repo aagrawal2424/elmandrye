@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 244792980,
-  "last_run_at": "2026-10-18T00:11:52.173281+00:00",
+  "last_processed_ticket_id": 244847984,
+  "last_run_at": "2026-10-18T15:41:28.416129+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-18",
   "ticket_actions": [
-    {
-      "ts": "2026-10-08T18:42:56.754631+00:00",
-      "ticket_id": 243430042,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-10-08T18:42:57.912943+00:00",
-      "ticket_id": 243442119,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Advertorials for Elm & Rye"
-    },
-    {
-      "ts": "2026-10-08T18:42:59.602419+00:00",
-      "ticket_id": 243448208,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
     {
       "ts": "2026-10-08T18:43:01.594923+00:00",
       "ticket_id": 243474370,
@@ -1203,6 +1185,24 @@
       "ticket_id": 244792980,
       "action": "unknown_escalated_for_aj",
       "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-10-18T15:41:26.465320+00:00",
+      "ticket_id": 244803140,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-18T15:41:28.416092+00:00",
+      "ticket_id": 244840629,
+      "action": "unknown_escalated_for_aj",
+      "detail": "RE:  Sample Request"
+    },
+    {
+      "ts": "2026-10-18T15:41:28.416126+00:00",
+      "ticket_id": 244847984,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
