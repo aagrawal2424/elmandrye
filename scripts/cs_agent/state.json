@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 244871654,
-  "last_run_at": "2026-10-18T20:54:22.306061+00:00",
+  "last_processed_ticket_id": 244889266,
+  "last_run_at": "2026-10-18T22:52:44.059683+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-18",
   "ticket_actions": [
-    {
-      "ts": "2026-10-08T18:43:10.773130+00:00",
-      "ticket_id": 243491149,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Thank you for your payment"
-    },
-    {
-      "ts": "2026-10-08T18:43:12.980542+00:00",
-      "ticket_id": 243491395,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Gorgias Inc receipt [#1640-6250]"
-    },
-    {
-      "ts": "2026-10-08T18:43:14.160455+00:00",
-      "ticket_id": 243497037,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Have a question for you"
-    },
     {
       "ts": "2026-10-08T18:43:15.501667+00:00",
       "ticket_id": 243502942,
@@ -1203,6 +1185,24 @@
       "ticket_id": 244871654,
       "action": "unknown_escalated_for_aj",
       "detail": "Follower minimums are costing you"
+    },
+    {
+      "ts": "2026-10-18T22:52:40.793101+00:00",
+      "ticket_id": 244884367,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Weekend Newsletter for 10/17-10/18 (2026)"
+    },
+    {
+      "ts": "2026-10-18T22:52:41.975582+00:00",
+      "ticket_id": 244886983,
+      "action": "unknown_escalated_for_aj",
+      "detail": "WHATSAPP NUMBER - www.pupper.com ?"
+    },
+    {
+      "ts": "2026-10-18T22:52:44.059664+00:00",
+      "ticket_id": 244889266,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Order"
     }
   ]
 }
