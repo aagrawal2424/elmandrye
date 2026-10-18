@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 244788357,
-  "last_run_at": "2026-10-17T22:25:22.769268+00:00",
+  "last_processed_ticket_id": 244792980,
+  "last_run_at": "2026-10-18T00:11:52.173281+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-17",
+  "daily_refund_date": "2026-10-18",
   "ticket_actions": [
-    {
-      "ts": "2026-10-08T18:42:51.445477+00:00",
-      "ticket_id": 243408992,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-08T18:42:53.035504+00:00",
-      "ticket_id": 243427461,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Attn : Purchasing Manager=supplement products"
-    },
-    {
-      "ts": "2026-10-08T18:42:55.383769+00:00",
-      "ticket_id": 243429994,
-      "action": "unknown_escalated_for_aj",
-      "detail": "B2B Shilajit, Ayurvedic & Wellness Products Supply"
-    },
     {
       "ts": "2026-10-08T18:42:56.754631+00:00",
       "ticket_id": 243430042,
@@ -1203,6 +1185,24 @@
       "ticket_id": 244788357,
       "action": "unknown_escalated_for_aj",
       "detail": "Your receipt from Sendlane #2621-8588"
+    },
+    {
+      "ts": "2026-10-18T00:11:51.185784+00:00",
+      "ticket_id": 244791839,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Your cart is about to expire."
+    },
+    {
+      "ts": "2026-10-18T00:11:51.185815+00:00",
+      "ticket_id": 244792386,
+      "action": "skip_spam",
+      "detail": "See what beserker12 and 8 others shared"
+    },
+    {
+      "ts": "2026-10-18T00:11:52.173263+00:00",
+      "ticket_id": 244792980,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
     }
   ]
 }
