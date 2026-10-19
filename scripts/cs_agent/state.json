@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 245063559,
-  "last_run_at": "2026-10-19T18:36:25.337729+00:00",
+  "last_processed_ticket_id": 245121802,
+  "last_run_at": "2026-10-19T22:37:54.985757+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-19",
   "ticket_actions": [
-    {
-      "ts": "2026-10-09T18:13:48.282668+00:00",
-      "ticket_id": 243646469,
-      "action": "unknown_escalated_for_aj",
-      "detail": "7-day delivery for your next small gummy order?"
-    },
-    {
-      "ts": "2026-10-09T18:13:49.274986+00:00",
-      "ticket_id": 243648397,
-      "action": "error_crash",
-      "detail": "Re: Order #86573 confirmed"
-    },
-    {
-      "ts": "2026-10-09T18:13:51.043085+00:00",
-      "ticket_id": 243656627,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Is your best video a rental?"
-    },
-    {
-      "ts": "2026-10-09T18:13:52.480207+00:00",
-      "ticket_id": 243658978,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Google ADS, Facebook ADS, and Instagram ADS"
-    },
-    {
-      "ts": "2026-10-09T22:43:57.021372+00:00",
-      "ticket_id": 243671044,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-09T22:43:59.289192+00:00",
-      "ticket_id": 243678014,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Is your best video a rental?"
-    },
     {
       "ts": "2026-10-09T22:44:01.103854+00:00",
       "ticket_id": 243678223,
@@ -1203,6 +1167,42 @@
       "ticket_id": 245063559,
       "action": "unknown_escalated_for_aj",
       "detail": "Re: Report an issue - Contact"
+    },
+    {
+      "ts": "2026-10-19T22:37:49.569051+00:00",
+      "ticket_id": 245076717,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-19T22:37:49.569070+00:00",
+      "ticket_id": 245094800,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-10-19T22:37:51.236114+00:00",
+      "ticket_id": 245119100,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Legal Notice] Updates to Google Workspace Service Specific Terms and Agentic AI guidelines"
+    },
+    {
+      "ts": "2026-10-19T22:37:52.786718+00:00",
+      "ticket_id": 245119254,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.19.2026"
+    },
+    {
+      "ts": "2026-10-19T22:37:53.837631+00:00",
+      "ticket_id": 245119467,
+      "action": "unknown_escalated_for_aj",
+      "detail": "3d Couples Reconnection Retreat: Gift Bag Donation Opportunity"
+    },
+    {
+      "ts": "2026-10-19T22:37:54.985739+00:00",
+      "ticket_id": 245121802,
+      "action": "unknown_escalated_for_aj",
+      "detail": "345 hours, zero brand-shot frames"
     }
   ]
 }
