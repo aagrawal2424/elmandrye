@@ -1,141 +1,9 @@
 {
-  "last_processed_ticket_id": 244894072,
-  "last_run_at": "2026-10-19T00:49:33.550204+00:00",
+  "last_processed_ticket_id": 245063559,
+  "last_run_at": "2026-10-19T18:36:25.337729+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-19",
   "ticket_actions": [
-    {
-      "ts": "2026-10-08T18:43:18.974810+00:00",
-      "ticket_id": 243509703,
-      "action": "unknown_escalated_for_aj",
-      "detail": "hidden contacts"
-    },
-    {
-      "ts": "2026-10-08T18:43:21.158569+00:00",
-      "ticket_id": 243520123,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\uddfa\ufe0f Your Cannabis Ads Can Go Where Your Customers Go \ud83d\udcf1"
-    },
-    {
-      "ts": "2026-10-08T18:43:22.269451+00:00",
-      "ticket_id": 243520369,
-      "action": "unknown_escalated_for_aj",
-      "detail": "boxes"
-    },
-    {
-      "ts": "2026-10-08T23:34:15.836300+00:00",
-      "ticket_id": 243523066,
-      "action": "skip_spam",
-      "detail": "See what snoopdogg and 9 others you follow shared"
-    },
-    {
-      "ts": "2026-10-08T23:34:18.453135+00:00",
-      "ticket_id": 243523237,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.8.2026"
-    },
-    {
-      "ts": "2026-10-08T23:34:19.701880+00:00",
-      "ticket_id": 243524031,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Smarter packaging pricing"
-    },
-    {
-      "ts": "2026-10-08T23:34:21.739382+00:00",
-      "ticket_id": 243529053,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-10-08T23:34:23.221472+00:00",
-      "ticket_id": 243533393,
-      "action": "unknown_escalated_for_aj",
-      "detail": "No Tricks, Just Treats: This Week\u2019s NO BS Cannabinoid Pricing"
-    },
-    {
-      "ts": "2026-10-08T23:34:23.221500+00:00",
-      "ticket_id": 243541480,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-10-09T03:04:01.073918+00:00",
-      "ticket_id": 243546240,
-      "action": "unknown_escalated_for_aj",
-      "detail": "GMV is not what you keep"
-    },
-    {
-      "ts": "2026-10-09T18:13:25.650229+00:00",
-      "ticket_id": 243554152,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 9, 2026 ($77.22 USD)"
-    },
-    {
-      "ts": "2026-10-09T18:13:27.126064+00:00",
-      "ticket_id": 243555310,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Anti-dandruff actives & surfactant raw materials \u2014 question for Guangzhou Jiufeng Fine Chemistry Co., LTD."
-    },
-    {
-      "ts": "2026-10-09T18:13:27.126111+00:00",
-      "ticket_id": 243556363,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-09T18:13:29.009161+00:00",
-      "ticket_id": 243617893,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1412-7918]"
-    },
-    {
-      "ts": "2026-10-09T18:13:30.133476+00:00",
-      "ticket_id": 243621288,
-      "action": "error_crash",
-      "detail": "Re: Order n\u00b086399, please take a moment to review your latest purchase"
-    },
-    {
-      "ts": "2026-10-09T18:13:31.663215+00:00",
-      "ticket_id": 243623403,
-      "action": "error_crash",
-      "detail": "Re: Order status - Contact"
-    },
-    {
-      "ts": "2026-10-09T18:13:33.099624+00:00",
-      "ticket_id": 243629764,
-      "action": "unknown_escalated_for_aj",
-      "detail": "CYCLONE PODS: BUY 5 BOXES GET 1 FREE"
-    },
-    {
-      "ts": "2026-10-09T18:13:38.441534+00:00",
-      "ticket_id": 243630808,
-      "action": "unknown_escalated_for_aj",
-      "detail": "invitation from Michael Brown"
-    },
-    {
-      "ts": "2026-10-09T18:13:43.943473+00:00",
-      "ticket_id": 243631123,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Action Required: Complete Your Form W-9"
-    },
-    {
-      "ts": "2026-10-09T18:13:43.943501+00:00",
-      "ticket_id": 243634524,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-09T18:13:44.831338+00:00",
-      "ticket_id": 243635150,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-09T18:13:45.886629+00:00",
-      "ticket_id": 243636363,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Time to get Elm & Rye into holiday gift guides!"
-    },
     {
       "ts": "2026-10-09T18:13:48.282668+00:00",
       "ticket_id": 243646469,
@@ -1203,6 +1071,138 @@
       "ticket_id": 244894072,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Order 86700"
+    },
+    {
+      "ts": "2026-10-19T18:35:53.693839+00:00",
+      "ticket_id": 244898151,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Sea moss"
+    },
+    {
+      "ts": "2026-10-19T18:35:55.287472+00:00",
+      "ticket_id": 244900121,
+      "action": "unknown_escalated_for_aj",
+      "detail": "APIs, Custom peptides, Cosmetic peptides, Nootropic and supplement powders"
+    },
+    {
+      "ts": "2026-10-19T18:35:56.546263+00:00",
+      "ticket_id": 244901865,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: 3 lines on Elm & Rye product pages worth a look"
+    },
+    {
+      "ts": "2026-10-19T18:35:56.546295+00:00",
+      "ticket_id": 244902682,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-19T18:35:57.641911+00:00",
+      "ticket_id": 244903398,
+      "action": "error_crash",
+      "detail": "Order not delivered"
+    },
+    {
+      "ts": "2026-10-19T18:35:57.641939+00:00",
+      "ticket_id": 244915090,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 19, 2026 ($120.54 USD)"
+    },
+    {
+      "ts": "2026-10-19T18:35:58.867820+00:00",
+      "ticket_id": 244918626,
+      "action": "unknown_escalated_for_aj",
+      "detail": "This that that one item was also free but it still charged me?? I don\u2019t want to do that deal if it\u2019s not a real deal"
+    },
+    {
+      "ts": "2026-10-19T18:36:01.535527+00:00",
+      "ticket_id": 244944845,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Re: Order #86704 confirmed"
+    },
+    {
+      "ts": "2026-10-19T18:36:03.172482+00:00",
+      "ticket_id": 245020410,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A quick note about moving goods"
+    },
+    {
+      "ts": "2026-10-19T18:36:05.466342+00:00",
+      "ticket_id": 244960540,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "September 22nd order"
+    },
+    {
+      "ts": "2026-10-19T18:36:07.302751+00:00",
+      "ticket_id": 244981577,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Unlock New Opportunities"
+    },
+    {
+      "ts": "2026-10-19T18:36:09.411280+00:00",
+      "ticket_id": 244977717,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Get Your Must-Have Products Today! \ud83c\udf89"
+    },
+    {
+      "ts": "2026-10-19T18:36:10.693421+00:00",
+      "ticket_id": 244980841,
+      "action": "error_crash",
+      "detail": "Order"
+    },
+    {
+      "ts": "2026-10-19T18:36:12.079409+00:00",
+      "ticket_id": 244987509,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Supporting Your Sports Nutrition Brand With Efficient Product Solutions"
+    },
+    {
+      "ts": "2026-10-19T18:36:12.079441+00:00",
+      "ticket_id": 244987531,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-19T18:36:13.595496+00:00",
+      "ticket_id": 244993447,
+      "action": "unknown_escalated_for_aj",
+      "detail": "App idea - support@pupper.com"
+    },
+    {
+      "ts": "2026-10-19T18:36:15.929377+00:00",
+      "ticket_id": 244995809,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invoice 2921 from Nitro Logistics, LLC"
+    },
+    {
+      "ts": "2026-10-19T18:36:17.624925+00:00",
+      "ticket_id": 244997780,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Have Not Received Multiple Subscription Orders -3 Months of Charges"
+    },
+    {
+      "ts": "2026-10-19T18:36:19.183895+00:00",
+      "ticket_id": 245012474,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Helping Shopify brands turn more visitors into customers"
+    },
+    {
+      "ts": "2026-10-19T18:36:20.454184+00:00",
+      "ticket_id": 245013124,
+      "action": "unknown_escalated_for_aj",
+      "detail": "custom boxes"
+    },
+    {
+      "ts": "2026-10-19T18:36:22.622676+00:00",
+      "ticket_id": 245015276,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your videos open with the pitch"
+    },
+    {
+      "ts": "2026-10-19T18:36:25.337705+00:00",
+      "ticket_id": 245063559,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Report an issue - Contact"
     }
   ]
 }
