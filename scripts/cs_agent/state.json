@@ -1,81 +1,9 @@
 {
-  "last_processed_ticket_id": 245130598,
-  "last_run_at": "2026-10-20T01:16:50.244083+00:00",
+  "last_processed_ticket_id": 245244057,
+  "last_run_at": "2026-10-20T16:40:29.251668+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-20",
   "ticket_actions": [
-    {
-      "ts": "2026-10-09T22:44:06.821858+00:00",
-      "ticket_id": 243688016,
-      "action": "skip_spam",
-      "detail": "Automatic reply: \ud83d\udea8 60% Off Starts Now!"
-    },
-    {
-      "ts": "2026-10-09T22:44:06.821868+00:00",
-      "ticket_id": 243688037,
-      "action": "skip_spam",
-      "detail": "Automatic reply: \ud83d\udea8 60% Off Starts Now!"
-    },
-    {
-      "ts": "2026-10-09T22:44:08.429788+00:00",
-      "ticket_id": 243688941,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Let Other Shopify Stores Sell Your Products"
-    },
-    {
-      "ts": "2026-10-09T22:44:09.870256+00:00",
-      "ticket_id": 243689533,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Let Other Shopify Stores Sell Your Products"
-    },
-    {
-      "ts": "2026-10-09T22:44:11.377387+00:00",
-      "ticket_id": 243690571,
-      "action": "error_crash",
-      "detail": "Re: Order #86471 confirmed"
-    },
-    {
-      "ts": "2026-10-10T01:56:22.669880+00:00",
-      "ticket_id": 243695991,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elm & Rye Check In"
-    },
-    {
-      "ts": "2026-10-10T17:12:24.572288+00:00",
-      "ticket_id": 243701626,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Bulk powder- Spermidine trihydrochloride CAS#334-50-9"
-    },
-    {
-      "ts": "2026-10-10T17:12:25.946215+00:00",
-      "ticket_id": 243738255,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Other - Contact"
-    },
-    {
-      "ts": "2026-10-10T17:12:25.946247+00:00",
-      "ticket_id": 243751923,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-10T17:12:25.946257+00:00",
-      "ticket_id": 243760345,
-      "action": "skip_spam",
-      "detail": "See what beserker12 and 8 others shared"
-    },
-    {
-      "ts": "2026-10-10T17:12:25.946265+00:00",
-      "ticket_id": 243763995,
-      "action": "skip_spam",
-      "detail": "A new affiliate, Clickless LLC, has signed up for your program!"
-    },
-    {
-      "ts": "2026-10-10T17:12:27.063061+00:00",
-      "ticket_id": 243764277,
-      "action": "error_crash",
-      "detail": "Order #86519"
-    },
     {
       "ts": "2026-10-10T20:34:41.873208+00:00",
       "ticket_id": 243774431,
@@ -1203,6 +1131,78 @@
       "ticket_id": 245130598,
       "action": "error_crash",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-20T16:40:12.591894+00:00",
+      "ticket_id": 245135273,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 20, 2026 ($46.09 USD)"
+    },
+    {
+      "ts": "2026-10-20T16:40:15.385932+00:00",
+      "ticket_id": 245138845,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your videos open with the pitch"
+    },
+    {
+      "ts": "2026-10-20T16:40:15.385971+00:00",
+      "ticket_id": 245157336,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-20T16:40:17.031680+00:00",
+      "ticket_id": 245194019,
+      "action": "unknown_escalated_for_aj",
+      "detail": "345 hours, zero brand-shot frames"
+    },
+    {
+      "ts": "2026-10-20T16:40:18.473334+00:00",
+      "ticket_id": 245212927,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "CANCELLATION NEEDED"
+    },
+    {
+      "ts": "2026-10-20T16:40:19.710969+00:00",
+      "ticket_id": 245220211,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Just a quick question"
+    },
+    {
+      "ts": "2026-10-20T16:40:22.010594+00:00",
+      "ticket_id": 245223741,
+      "action": "unknown_escalated_for_aj",
+      "detail": "You don't need finished artwork to get started with us"
+    },
+    {
+      "ts": "2026-10-20T16:40:22.010636+00:00",
+      "ticket_id": 245224129,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-20T16:40:23.949502+00:00",
+      "ticket_id": 245231979,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Follow-up"
+    },
+    {
+      "ts": "2026-10-20T16:40:26.418253+00:00",
+      "ticket_id": 245233596,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A product testing laboratory built for modern workflows."
+    },
+    {
+      "ts": "2026-10-20T16:40:28.094799+00:00",
+      "ticket_id": 245240057,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.20.2026, Sponsored by Trulieve"
+    },
+    {
+      "ts": "2026-10-20T16:40:29.251649+00:00",
+      "ticket_id": 245244057,
+      "action": "unknown_escalated_for_aj",
+      "detail": "custom boxes"
     }
   ]
 }
