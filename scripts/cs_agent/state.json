@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 245264431,
-  "last_run_at": "2026-10-20T20:08:56.224836+00:00",
+  "last_processed_ticket_id": 245279668,
+  "last_run_at": "2026-10-20T23:10:58.576576+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-20",
   "ticket_actions": [
-    {
-      "ts": "2026-10-11T17:35:15.723944+00:00",
-      "ticket_id": 243865811,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-11T17:35:17.201872+00:00",
-      "ticket_id": 243874194,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Request refund or discount - Contact"
-    },
     {
       "ts": "2026-10-11T17:35:19.338401+00:00",
       "ticket_id": 243878418,
@@ -1203,6 +1191,18 @@
       "ticket_id": 245264431,
       "action": "skip_spam",
       "detail": "From heygracey and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-10-20T23:10:56.874135+00:00",
+      "ticket_id": 245277118,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order delay?"
+    },
+    {
+      "ts": "2026-10-20T23:10:58.576556+00:00",
+      "ticket_id": 245279668,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Discover New Flavors on the Hitide! \ud83c\udf89"
     }
   ]
 }
