@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 245244057,
-  "last_run_at": "2026-10-20T16:40:29.251668+00:00",
+  "last_processed_ticket_id": 245264431,
+  "last_run_at": "2026-10-20T20:08:56.224836+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-20",
   "ticket_actions": [
-    {
-      "ts": "2026-10-10T20:34:41.873208+00:00",
-      "ticket_id": 243774431,
-      "action": "skip_spam",
-      "detail": "taytayvs11 and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-10T23:48:54.330190+00:00",
-      "ticket_id": 243785944,
-      "action": "skip_spam",
-      "detail": "petsmart and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-10-11T17:35:14.837665+00:00",
-      "ticket_id": 243823351,
-      "action": "unknown_escalated_for_aj",
-      "detail": "3 lines on Elm & Rye product pages worth a look"
-    },
-    {
-      "ts": "2026-10-11T17:35:15.723916+00:00",
-      "ticket_id": 243857766,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Inquiry"
-    },
     {
       "ts": "2026-10-11T17:35:15.723944+00:00",
       "ticket_id": 243865811,
@@ -1203,6 +1179,30 @@
       "ticket_id": 245244057,
       "action": "unknown_escalated_for_aj",
       "detail": "custom boxes"
+    },
+    {
+      "ts": "2026-10-20T20:08:51.223026+00:00",
+      "ticket_id": 245250493,
+      "action": "unknown_escalated_for_aj",
+      "detail": ""
+    },
+    {
+      "ts": "2026-10-20T20:08:53.887146+00:00",
+      "ticket_id": 245258978,
+      "action": "unknown_escalated_for_aj",
+      "detail": "UKLASH's CX manager didn't want to turn on AI Agent. Here's what changed her mind."
+    },
+    {
+      "ts": "2026-10-20T20:08:56.224811+00:00",
+      "ticket_id": 245259731,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\ude80 882% ROAS? Google Ads That Beat Benchmarks \ud83d\udd25"
+    },
+    {
+      "ts": "2026-10-20T20:08:56.224834+00:00",
+      "ticket_id": 245264431,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
     }
   ]
 }
