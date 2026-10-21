@@ -1,93 +1,9 @@
 {
-  "last_processed_ticket_id": 245286125,
-  "last_run_at": "2026-10-21T01:38:12.954194+00:00",
+  "last_processed_ticket_id": 245402506,
+  "last_run_at": "2026-10-21T16:58:45.504306+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-21",
   "ticket_actions": [
-    {
-      "ts": "2026-10-11T17:35:20.652448+00:00",
-      "ticket_id": 243878436,
-      "action": "unknown_escalated_for_aj",
-      "detail": "TikTok Shop is passing Target"
-    },
-    {
-      "ts": "2026-10-11T21:03:24.997165+00:00",
-      "ticket_id": 243886919,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Quick content idea for Elm & Rye"
-    },
-    {
-      "ts": "2026-10-12T00:29:43.221074+00:00",
-      "ticket_id": 243905462,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Crocs built a show in four weeks"
-    },
-    {
-      "ts": "2026-10-12T00:29:44.557828+00:00",
-      "ticket_id": 243906920,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Test the material before you commit"
-    },
-    {
-      "ts": "2026-10-12T21:08:45.878467+00:00",
-      "ticket_id": 243907817,
-      "action": "error_crash",
-      "detail": "Re: Order #86638 confirmed"
-    },
-    {
-      "ts": "2026-10-12T21:08:45.878491+00:00",
-      "ticket_id": 243910599,
-      "action": "skip_spam",
-      "detail": "A new affiliate, Tristan Martin, has signed up for your program!"
-    },
-    {
-      "ts": "2026-10-12T21:08:48.083522+00:00",
-      "ticket_id": 243914458,
-      "action": "error_crash",
-      "detail": "Shipping Inquiry"
-    },
-    {
-      "ts": "2026-10-12T21:08:49.994738+00:00",
-      "ticket_id": 243915328,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Crocs built a show in four weeks"
-    },
-    {
-      "ts": "2026-10-12T21:08:49.994772+00:00",
-      "ticket_id": 243918347,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 12, 2026 ($81.34 USD)"
-    },
-    {
-      "ts": "2026-10-12T21:08:49.994781+00:00",
-      "ticket_id": 243925491,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-12T21:08:51.285113+00:00",
-      "ticket_id": 243984501,
-      "action": "unknown_escalated_for_aj",
-      "detail": "is someone doing this manually"
-    },
-    {
-      "ts": "2026-10-12T21:08:53.081901+00:00",
-      "ticket_id": 243986304,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.12.2026"
-    },
-    {
-      "ts": "2026-10-12T21:08:54.230813+00:00",
-      "ticket_id": 243990872,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Feedback - Contact"
-    },
-    {
-      "ts": "2026-10-12T21:08:54.230840+00:00",
-      "ticket_id": 243998020,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-10-12T21:08:56.589297+00:00",
       "ticket_id": 244007005,
@@ -1203,6 +1119,90 @@
       "ticket_id": 245286125,
       "action": "error_crash",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-21T16:58:33.097470+00:00",
+      "ticket_id": 245293144,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 21, 2026 ($46.09 USD)"
+    },
+    {
+      "ts": "2026-10-21T16:58:34.968800+00:00",
+      "ticket_id": 245296281,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Discover Premium Fragrance Oil Solutions"
+    },
+    {
+      "ts": "2026-10-21T16:58:34.968832+00:00",
+      "ticket_id": 245299202,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-21T16:58:36.890973+00:00",
+      "ticket_id": 245356906,
+      "action": "unknown_escalated_for_aj",
+      "detail": "App idea - support@buyeverest.com"
+    },
+    {
+      "ts": "2026-10-21T16:58:37.880965+00:00",
+      "ticket_id": 245361281,
+      "action": "unknown_escalated_for_aj",
+      "detail": "PR idea for elmandrye.com"
+    },
+    {
+      "ts": "2026-10-21T16:58:38.670987+00:00",
+      "ticket_id": 245367994,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-21T16:58:40.676265+00:00",
+      "ticket_id": 245378190,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Don't Miss Out on Today's Best Deals! \ud83c\udf89"
+    },
+    {
+      "ts": "2026-10-21T16:58:40.676316+00:00",
+      "ticket_id": 245378789,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-21T16:58:41.543528+00:00",
+      "ticket_id": 245388925,
+      "action": "error_crash",
+      "detail": "Re: Order #86523 confirmed"
+    },
+    {
+      "ts": "2026-10-21T16:58:42.752204+00:00",
+      "ticket_id": 245389205,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with Kenneth Ashley"
+    },
+    {
+      "ts": "2026-10-21T16:58:43.654603+00:00",
+      "ticket_id": 245391495,
+      "action": "unknown_escalated_for_aj",
+      "detail": "a quick idea for Pupper"
+    },
+    {
+      "ts": "2026-10-21T16:58:44.589854+00:00",
+      "ticket_id": 245394020,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pupper - Want to beat vetriscience.com at their own game?"
+    },
+    {
+      "ts": "2026-10-21T16:58:45.504274+00:00",
+      "ticket_id": 245401770,
+      "action": "unknown_escalated_for_aj",
+      "detail": "PR idea for elmandrye.com"
+    },
+    {
+      "ts": "2026-10-21T16:58:45.504302+00:00",
+      "ticket_id": 245402506,
+      "action": "skip_spam",
+      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
     }
   ]
 }
