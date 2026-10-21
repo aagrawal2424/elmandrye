@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 245402506,
-  "last_run_at": "2026-10-21T16:58:45.504306+00:00",
+  "last_processed_ticket_id": 245425394,
+  "last_run_at": "2026-10-21T20:32:38.691979+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-21",
   "ticket_actions": [
-    {
-      "ts": "2026-10-12T21:08:56.589297+00:00",
-      "ticket_id": 244007005,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Invoice 2916 from Nitro Logistics, LLC"
-    },
-    {
-      "ts": "2026-10-12T21:08:57.677981+00:00",
-      "ticket_id": 244009745,
-      "action": "unknown_escalated_for_aj",
-      "detail": "An invitation from Sheila Samton"
-    },
-    {
-      "ts": "2026-10-12T21:08:59.807240+00:00",
-      "ticket_id": 244034220,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don\u2019t Miss Out on Slam Juice Deals!"
-    },
-    {
-      "ts": "2026-10-12T21:08:59.807273+00:00",
-      "ticket_id": 244036996,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
     {
       "ts": "2026-10-12T21:09:01.328028+00:00",
       "ticket_id": 244052833,
@@ -1203,6 +1179,30 @@
       "ticket_id": 245402506,
       "action": "skip_spam",
       "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-10-21T20:32:34.885985+00:00",
+      "ticket_id": 245411072,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Hi - www.elmandrye.com  ?"
+    },
+    {
+      "ts": "2026-10-21T20:32:36.926272+00:00",
+      "ticket_id": 245416185,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Order Status"
+    },
+    {
+      "ts": "2026-10-21T20:32:36.926305+00:00",
+      "ticket_id": 245424062,
+      "action": "skip_spam",
+      "detail": "setriaglutathione and 4 others started following you"
+    },
+    {
+      "ts": "2026-10-21T20:32:38.691956+00:00",
+      "ticket_id": 245425394,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10/21/2026, Sponsored by Trulieve"
     }
   ]
 }
