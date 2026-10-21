@@ -1702,6 +1702,19 @@
       "price_usd": 79.99,
       "reddit_url": "",
       "why_interesting": "PubMed: 'alcohol' appears in 2 recent supplement-research papers (most recent example: \"Multimodal Nutraceutical and Psychological Intervention for GGT Reduction in Individuals with Alcohol Use Disorder.\"). High research signal \u2014 emerging compound with mechanism evidence."
+    },
+    {
+      "product_name": "Glycine",
+      "product_title": "Glycine capsules",
+      "category": "supplements",
+      "niche_score": 8,
+      "shopify_product_id": "gid://shopify/Product/15434020880596",
+      "handle": "glycine-capsules",
+      "image_url": "https://shopify-staged-uploads.storage.googleapis.com/tmp/52253098141/files/f5ce3307-8048-4c8d-bafc-9323d4a2ed5a/er-product-glycine-capsules.png",
+      "created_at": "2026-10-21",
+      "price_usd": 69.99,
+      "reddit_url": "",
+      "why_interesting": "PubMed: 'glycine' appears in 2 recent supplement-research papers (most recent example: \"Effect of glycine-enriched freezing medium on post-thaw quality and fertility of Murrah buffalo (Bubalus bubalis) bull semen.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
   ]
 }
