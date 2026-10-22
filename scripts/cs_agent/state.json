@@ -1,93 +1,9 @@
 {
-  "last_processed_ticket_id": 245439282,
-  "last_run_at": "2026-10-22T01:51:28.962088+00:00",
+  "last_processed_ticket_id": 245546342,
+  "last_run_at": "2026-10-22T16:58:07.697375+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-22",
   "ticket_actions": [
-    {
-      "ts": "2026-10-13T19:07:38.192688+00:00",
-      "ticket_id": 244102228,
-      "action": "error_crash",
-      "detail": "Order #86557"
-    },
-    {
-      "ts": "2026-10-13T19:07:41.131959+00:00",
-      "ticket_id": 244108437,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Jetpack Monthly Report - https://buyeverest.com"
-    },
-    {
-      "ts": "2026-10-13T19:07:41.131999+00:00",
-      "ticket_id": 244108809,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 13, 2026 ($81.59 USD)"
-    },
-    {
-      "ts": "2026-10-13T19:07:42.341061+00:00",
-      "ticket_id": 244112430,
-      "action": "error_crash",
-      "detail": "Re: Order #86603 confirmed"
-    },
-    {
-      "ts": "2026-10-13T19:07:43.700880+00:00",
-      "ticket_id": 244134480,
-      "action": "unknown_escalated_for_aj",
-      "detail": "last note"
-    },
-    {
-      "ts": "2026-10-13T19:07:44.730982+00:00",
-      "ticket_id": 244142575,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-13T19:07:45.875003+00:00",
-      "ticket_id": 244144233,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A direct investment in Pupper"
-    },
-    {
-      "ts": "2026-10-13T19:07:47.905992+00:00",
-      "ticket_id": 244144990,
-      "action": "unknown_escalated_for_aj",
-      "detail": "customer support at Everest"
-    },
-    {
-      "ts": "2026-10-13T19:07:47.906020+00:00",
-      "ticket_id": 244154211,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-13T19:07:50.141047+00:00",
-      "ticket_id": 244157842,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Looking at New Chemical Markets Across the Americas?"
-    },
-    {
-      "ts": "2026-10-13T19:07:50.141077+00:00",
-      "ticket_id": 244159089,
-      "action": "skip_spam",
-      "detail": "An API key on your Klaviyo account has been disabled"
-    },
-    {
-      "ts": "2026-10-13T19:07:51.312887+00:00",
-      "ticket_id": 244167074,
-      "action": "unknown_escalated_for_aj",
-      "detail": "custom boxes"
-    },
-    {
-      "ts": "2026-10-13T19:07:51.312917+00:00",
-      "ticket_id": 244168915,
-      "action": "skip_spam",
-      "detail": "From heygracey and others: 3 unread messages"
-    },
-    {
-      "ts": "2026-10-13T19:07:52.620826+00:00",
-      "ticket_id": 244168925,
-      "action": "unknown_escalated_for_aj",
-      "detail": "elmandrye.com vs takecareof.com"
-    },
     {
       "ts": "2026-10-13T19:07:54.086846+00:00",
       "ticket_id": 244170764,
@@ -1203,6 +1119,90 @@
       "ticket_id": 245439282,
       "action": "unknown_escalated_for_aj",
       "detail": "Security update: no action needed, and MFA at your next login"
+    },
+    {
+      "ts": "2026-10-22T16:57:51.549184+00:00",
+      "ticket_id": 245445903,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 22, 2026 ($46.09 USD)"
+    },
+    {
+      "ts": "2026-10-22T16:57:51.549204+00:00",
+      "ticket_id": 245446877,
+      "action": "skip_spam",
+      "detail": "Start Growing on TikTok Shop in Minutes"
+    },
+    {
+      "ts": "2026-10-22T16:57:53.847330+00:00",
+      "ticket_id": 245447693,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Hi Premium Bovine, Marine & Type II Collagen Solutions from YASIN"
+    },
+    {
+      "ts": "2026-10-22T16:57:56.035099+00:00",
+      "ticket_id": 245450020,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A small opportunity with Recharge subscriptions"
+    },
+    {
+      "ts": "2026-10-22T16:57:57.143745+00:00",
+      "ticket_id": 245518835,
+      "action": "error_crash",
+      "detail": "Order 86479"
+    },
+    {
+      "ts": "2026-10-22T16:57:59.286761+00:00",
+      "ticket_id": 245523209,
+      "action": "unknown_escalated_for_aj",
+      "detail": "What does this change mean for your product portfolio?"
+    },
+    {
+      "ts": "2026-10-22T16:58:00.342308+00:00",
+      "ticket_id": 245524930,
+      "action": "unknown_escalated_for_aj",
+      "detail": "i tested shilajit from 5 regions. here's what i found"
+    },
+    {
+      "ts": "2026-10-22T16:58:01.185046+00:00",
+      "ticket_id": 245526879,
+      "action": "error_crash",
+      "detail": "Re: Order #86518 confirmed"
+    },
+    {
+      "ts": "2026-10-22T16:58:02.118275+00:00",
+      "ticket_id": 245527377,
+      "action": "unknown_escalated_for_aj",
+      "detail": "your sale themes"
+    },
+    {
+      "ts": "2026-10-22T16:58:02.118329+00:00",
+      "ticket_id": 245532381,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-22T16:58:03.114477+00:00",
+      "ticket_id": 245534339,
+      "action": "unknown_escalated_for_aj",
+      "detail": "re: corrugated boxes"
+    },
+    {
+      "ts": "2026-10-22T16:58:05.261170+00:00",
+      "ticket_id": 245542645,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Available Test : Heavy Metals, Expanded 18"
+    },
+    {
+      "ts": "2026-10-22T16:58:06.563364+00:00",
+      "ticket_id": 245543144,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Gorgias Product Updates: AI Agent just got a lot more social"
+    },
+    {
+      "ts": "2026-10-22T16:58:07.697353+00:00",
+      "ticket_id": 245546342,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Get paid by referring Google Workspace"
     }
   ]
 }
