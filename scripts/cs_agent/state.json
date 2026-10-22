@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 245578761,
-  "last_run_at": "2026-10-22T20:29:18.565685+00:00",
+  "last_processed_ticket_id": 245590936,
+  "last_run_at": "2026-10-22T23:32:18.833962+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-22",
   "ticket_actions": [
-    {
-      "ts": "2026-10-13T23:16:17.379839+00:00",
-      "ticket_id": 244212477,
-      "action": "unknown_escalated_for_aj",
-      "detail": "NEW: DEA Says GAO Report Has \"No Bearing\" on Marijuana Rescheduling, Does Not Justify Further Delays"
-    },
-    {
-      "ts": "2026-10-14T01:59:25.373291+00:00",
-      "ticket_id": 244214976,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Maryland and DC"
-    },
-    {
-      "ts": "2026-10-14T01:59:28.805797+00:00",
-      "ticket_id": 244216949,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Please cancel subscription"
-    },
-    {
-      "ts": "2026-10-14T01:59:30.585472+00:00",
-      "ticket_id": 244219654,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elevate Your Packaging with Our Premium Custom Mylar Bags"
-    },
-    {
-      "ts": "2026-10-14T01:59:30.585505+00:00",
-      "ticket_id": 244219935,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 14, 2026 ($383.47 USD)"
-    },
     {
       "ts": "2026-10-14T16:56:06.122886+00:00",
       "ticket_id": 244223658,
@@ -1203,6 +1173,36 @@
       "ticket_id": 245578761,
       "action": "unknown_escalated_for_aj",
       "detail": "The Marijuana Herald Daily Newsletter for 10/22/2026, Sponsored by Trulieve"
+    },
+    {
+      "ts": "2026-10-22T23:32:15.611049+00:00",
+      "ticket_id": 245582092,
+      "action": "error_crash",
+      "detail": "Re: Order status - Contact"
+    },
+    {
+      "ts": "2026-10-22T23:32:16.954260+00:00",
+      "ticket_id": 245586635,
+      "action": "unknown_escalated_for_aj",
+      "detail": "One color problem can cost a whole order"
+    },
+    {
+      "ts": "2026-10-22T23:32:16.954291+00:00",
+      "ticket_id": 245588791,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-22T23:32:16.954296+00:00",
+      "ticket_id": 245590228,
+      "action": "skip_spam",
+      "detail": "chewy and 2 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-22T23:32:18.833943+00:00",
+      "ticket_id": 245590936,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order update"
     }
   ]
 }
