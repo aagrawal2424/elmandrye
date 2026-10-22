@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 245546342,
-  "last_run_at": "2026-10-22T16:58:07.697375+00:00",
+  "last_processed_ticket_id": 245578761,
+  "last_run_at": "2026-10-22T20:29:18.565685+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-22",
   "ticket_actions": [
-    {
-      "ts": "2026-10-13T19:07:54.086846+00:00",
-      "ticket_id": 244170764,
-      "action": "error_crash",
-      "detail": "Re: Did not receive order"
-    },
-    {
-      "ts": "2026-10-13T19:07:55.125572+00:00",
-      "ticket_id": 244176219,
-      "action": "error_crash",
-      "detail": "Re: Order #86621 confirmed"
-    },
-    {
-      "ts": "2026-10-13T19:07:56.310613+00:00",
-      "ticket_id": 244186058,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-13T19:07:58.728405+00:00",
-      "ticket_id": 244190976,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udcec 50x Return in the First Month Was Only the Start \ud83d\udcc8"
-    },
-    {
-      "ts": "2026-10-13T19:08:00.559768+00:00",
-      "ticket_id": 244192311,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Introducing Fin 4"
-    },
-    {
-      "ts": "2026-10-13T23:16:12.003370+00:00",
-      "ticket_id": 244198674,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10/13/2026, Sponsored by Trulieve"
-    },
-    {
-      "ts": "2026-10-13T23:16:14.177658+00:00",
-      "ticket_id": 244200204,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The 4% who came back"
-    },
-    {
-      "ts": "2026-10-13T23:16:15.927849+00:00",
-      "ticket_id": 244200248,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The 4% who came back"
-    },
     {
       "ts": "2026-10-13T23:16:17.379839+00:00",
       "ticket_id": 244212477,
@@ -1203,6 +1155,54 @@
       "ticket_id": 245546342,
       "action": "unknown_escalated_for_aj",
       "detail": "Get paid by referring Google Workspace"
+    },
+    {
+      "ts": "2026-10-22T20:29:07.357852+00:00",
+      "ticket_id": 245560256,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The body-sculpting routine is evolving. Your brand could own the pre-workout step."
+    },
+    {
+      "ts": "2026-10-22T20:29:08.589506+00:00",
+      "ticket_id": 245561921,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-22T20:29:11.011827+00:00",
+      "ticket_id": 245569500,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\ude80 Stop Waiting for Visibility, Google Ads Delivers Instantly \ud83d\udca5"
+    },
+    {
+      "ts": "2026-10-22T20:29:13.302959+00:00",
+      "ticket_id": 245570134,
+      "action": "error_crash",
+      "detail": "Re: A shipment from order #77464 is on the way"
+    },
+    {
+      "ts": "2026-10-22T20:29:13.302985+00:00",
+      "ticket_id": 245572716,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-10-22T20:29:14.801238+00:00",
+      "ticket_id": 245572775,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Get paid by referring Google Workspace"
+    },
+    {
+      "ts": "2026-10-22T20:29:16.880737+00:00",
+      "ticket_id": 245576089,
+      "action": "unknown_escalated_for_aj",
+      "detail": "12th Annual Oregon Growers Cup - Dec 12th -2026 Entry/Sponsor/Vendor Info"
+    },
+    {
+      "ts": "2026-10-22T20:29:18.565661+00:00",
+      "ticket_id": 245578761,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10/22/2026, Sponsored by Trulieve"
     }
   ]
 }
