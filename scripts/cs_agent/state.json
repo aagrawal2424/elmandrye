@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 245698732,
-  "last_run_at": "2026-10-23T16:50:21.024718+00:00",
+  "last_processed_ticket_id": 245716418,
+  "last_run_at": "2026-10-23T20:09:17.968678+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-23",
   "ticket_actions": [
-    {
-      "ts": "2026-10-14T16:56:31.529819+00:00",
-      "ticket_id": 244333448,
-      "action": "unknown_escalated_for_aj",
-      "detail": "quick question about your video ads"
-    },
     {
       "ts": "2026-10-14T16:56:33.453306+00:00",
       "ticket_id": 244334695,
@@ -1203,6 +1197,12 @@
       "ticket_id": 245698732,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-23T20:09:17.968661+00:00",
+      "ticket_id": 245716418,
+      "action": "skip_spam",
+      "detail": "See ever.wildapothecary, mbpfannerstill and more in your feed"
     }
   ]
 }
