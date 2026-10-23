@@ -1729,5 +1729,57 @@
       "reddit_url": "",
       "why_interesting": "PubMed: 'alcohol' appears in 2 recent supplement-research papers (most recent example: \"Multimodal Nutraceutical and Psychological Intervention for GGT Reduction in Individuals with Alcohol Use Disorder.\"). High research signal \u2014 emerging compound with mechanism evidence."
     }
+  ],
+  "skipped_no_image": [
+    {
+      "ts": "2026-10-23T18:47:30.842898+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-23T18:47:40.217610+00:00",
+      "product_name": "Moderate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-23T18:47:49.877766+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-23T18:48:00.100546+00:00",
+      "product_name": "Sinensetin Citrus",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-23T18:48:09.166253+00:00",
+      "product_name": "Boneset Eupatorium",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-23T18:48:18.418118+00:00",
+      "product_name": "Bitter Melon Charantin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-23T18:48:28.459651+00:00",
+      "product_name": "Schisandra Lignans",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-23T18:48:38.510017+00:00",
+      "product_name": "Strontium Citrate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-23T18:48:47.937065+00:00",
+      "product_name": "NADH Stabilized",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-23T18:48:57.624362+00:00",
+      "product_name": "Lithium Aspartate",
+      "error": "HTTP Error 400: Bad Request"
+    }
   ]
 }
