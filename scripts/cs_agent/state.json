@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 245716418,
-  "last_run_at": "2026-10-23T20:09:17.968678+00:00",
+  "last_processed_ticket_id": 245738653,
+  "last_run_at": "2026-10-23T23:09:52.060836+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-23",
   "ticket_actions": [
-    {
-      "ts": "2026-10-14T16:56:33.453306+00:00",
-      "ticket_id": 244334695,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.14.2026"
-    },
-    {
-      "ts": "2026-10-14T20:33:14.437090+00:00",
-      "ticket_id": 244336088,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-10-14T20:33:17.482916+00:00",
-      "ticket_id": 244338419,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Product Update] Google Tasks included in Google Workspace Intelligence admin controls starting Nov 14, 2026"
-    },
-    {
-      "ts": "2026-10-14T20:33:19.293497+00:00",
-      "ticket_id": 244338677,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Seed 50, promote five"
-    },
-    {
-      "ts": "2026-10-14T20:33:21.029221+00:00",
-      "ticket_id": 244338861,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Seed 50, promote five"
-    },
     {
       "ts": "2026-10-14T20:33:23.111877+00:00",
       "ticket_id": 244344433,
@@ -1203,6 +1173,36 @@
       "ticket_id": 245716418,
       "action": "skip_spam",
       "detail": "See ever.wildapothecary, mbpfannerstill and more in your feed"
+    },
+    {
+      "ts": "2026-10-23T23:09:45.217758+00:00",
+      "ticket_id": 245733292,
+      "action": "unknown_escalated_for_aj",
+      "detail": "U.S. Distribution"
+    },
+    {
+      "ts": "2026-10-23T23:09:48.123464+00:00",
+      "ticket_id": 245734792,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10/23/2026, Sponsored by Trulieve"
+    },
+    {
+      "ts": "2026-10-23T23:09:49.464080+00:00",
+      "ticket_id": 245738127,
+      "action": "error_crash",
+      "detail": "Re: Order #86471 confirmed"
+    },
+    {
+      "ts": "2026-10-23T23:09:50.197424+00:00",
+      "ticket_id": 245738508,
+      "action": "error_crash",
+      "detail": "Refund Pending Back Orders"
+    },
+    {
+      "ts": "2026-10-23T23:09:52.060814+00:00",
+      "ticket_id": 245738653,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Conversation with Allisyn Miele"
     }
   ]
 }
