@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 245812935,
-  "last_run_at": "2026-10-24T18:22:39.327215+00:00",
+  "last_processed_ticket_id": 245823326,
+  "last_run_at": "2026-10-24T21:02:40.344877+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-24",
   "ticket_actions": [
-    {
-      "ts": "2026-10-15T16:43:04.242674+00:00",
-      "ticket_id": 244461932,
-      "action": "unknown_escalated_for_aj",
-      "detail": "creator content in the stack"
-    },
-    {
-      "ts": "2026-10-15T16:43:04.242711+00:00",
-      "ticket_id": 244471985,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-10-15T16:43:05.499325+00:00",
       "ticket_id": 244509202,
@@ -1203,6 +1191,18 @@
       "ticket_id": 245812935,
       "action": "order_cancel_escalated_for_aj",
       "detail": "Report an issue - Contact"
+    },
+    {
+      "ts": "2026-10-24T21:02:39.156257+00:00",
+      "ticket_id": 245820655,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order #86489"
+    },
+    {
+      "ts": "2026-10-24T21:02:40.344856+00:00",
+      "ticket_id": 245823326,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Sales"
     }
   ]
 }
