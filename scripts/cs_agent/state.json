@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 245738653,
-  "last_run_at": "2026-10-23T23:09:52.060836+00:00",
+  "last_processed_ticket_id": 245747379,
+  "last_run_at": "2026-10-24T01:36:45.989253+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-23",
+  "daily_refund_date": "2026-10-24",
   "ticket_actions": [
-    {
-      "ts": "2026-10-14T20:33:23.111877+00:00",
-      "ticket_id": 244344433,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Order #86621 confirmed"
-    },
     {
       "ts": "2026-10-14T23:25:31.878242+00:00",
       "ticket_id": 244362921,
@@ -1203,6 +1197,12 @@
       "ticket_id": 245738653,
       "action": "unknown_escalated_for_aj",
       "detail": "Conversation with Allisyn Miele"
+    },
+    {
+      "ts": "2026-10-24T01:36:45.989236+00:00",
+      "ticket_id": 245747379,
+      "action": "skip_spam",
+      "detail": "How does a beauty and haircare brand generate $1M+ in LIVE GMV through consistent daily TikTok Shop LIVE sessions?"
     }
   ]
 }
