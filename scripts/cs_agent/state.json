@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 245747379,
-  "last_run_at": "2026-10-24T01:36:45.989253+00:00",
+  "last_processed_ticket_id": 245807213,
+  "last_run_at": "2026-10-24T15:42:44.261598+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-24",
   "ticket_actions": [
-    {
-      "ts": "2026-10-14T23:25:31.878242+00:00",
-      "ticket_id": 244362921,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Creator Event, Nov 14th. Stocked for the Season on Long Island's North Fork"
-    },
-    {
-      "ts": "2026-10-14T23:25:31.878274+00:00",
-      "ticket_id": 244368402,
-      "action": "skip_spam",
-      "detail": "See ever.wildapothecary, mbpfannerstill and more in your feed"
-    },
-    {
-      "ts": "2026-10-14T23:25:31.878282+00:00",
-      "ticket_id": 244369450,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
-    },
-    {
-      "ts": "2026-10-14T23:25:33.507057+00:00",
-      "ticket_id": 244370797,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Bankful Payment Gateway"
-    },
-    {
-      "ts": "2026-10-15T16:43:01.549537+00:00",
-      "ticket_id": 244378488,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: full spectrum gummies"
-    },
-    {
-      "ts": "2026-10-15T16:43:01.549570+00:00",
-      "ticket_id": 244378409,
-      "action": "skip_spam",
-      "detail": "proudpapa77 and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-15T16:43:01.549579+00:00",
-      "ticket_id": 244379334,
-      "action": "skip_spam",
-      "detail": "chewy and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-10-15T16:43:01.549586+00:00",
-      "ticket_id": 244411085,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-10-15T16:43:02.903044+00:00",
       "ticket_id": 244455160,
@@ -1203,6 +1155,54 @@
       "ticket_id": 245747379,
       "action": "skip_spam",
       "detail": "How does a beauty and haircare brand generate $1M+ in LIVE GMV through consistent daily TikTok Shop LIVE sessions?"
+    },
+    {
+      "ts": "2026-10-24T15:42:37.497869+00:00",
+      "ticket_id": 245748662,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
+    },
+    {
+      "ts": "2026-10-24T15:42:37.497888+00:00",
+      "ticket_id": 245748939,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-24T15:42:39.888227+00:00",
+      "ticket_id": 245754001,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Notice] Possible unresolved security risks in your Admin Console"
+    },
+    {
+      "ts": "2026-10-24T15:42:41.155880+00:00",
+      "ticket_id": 245755549,
+      "action": "unknown_escalated_for_aj",
+      "detail": "WHATSAPP NUMBER - support@elmandrye.com"
+    },
+    {
+      "ts": "2026-10-24T15:42:41.155909+00:00",
+      "ticket_id": 245799240,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-24T15:42:42.315694+00:00",
+      "ticket_id": 245800434,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-24T15:42:44.261519+00:00",
+      "ticket_id": 245800653,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Fwd: Order #86741 confirmed"
+    },
+    {
+      "ts": "2026-10-24T15:42:44.261592+00:00",
+      "ticket_id": 245807213,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Brandon Balfour, has signed up for your program!"
     }
   ]
 }
