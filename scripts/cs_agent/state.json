@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 245807213,
-  "last_run_at": "2026-10-24T15:42:44.261598+00:00",
+  "last_processed_ticket_id": 245812935,
+  "last_run_at": "2026-10-24T18:22:39.327215+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-24",
   "ticket_actions": [
-    {
-      "ts": "2026-10-15T16:43:02.903044+00:00",
-      "ticket_id": 244455160,
-      "action": "unknown_escalated_for_aj",
-      "detail": "creator content in the stack"
-    },
     {
       "ts": "2026-10-15T16:43:04.242674+00:00",
       "ticket_id": 244461932,
@@ -1203,6 +1197,12 @@
       "ticket_id": 245807213,
       "action": "skip_spam",
       "detail": "A new affiliate, Brandon Balfour, has signed up for your program!"
+    },
+    {
+      "ts": "2026-10-24T18:22:39.327190+00:00",
+      "ticket_id": 245812935,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Report an issue - Contact"
     }
   ]
 }
