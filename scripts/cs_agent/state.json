@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 245823326,
-  "last_run_at": "2026-10-24T23:07:26.220417+00:00",
+  "last_processed_ticket_id": 245835958,
+  "last_run_at": "2026-10-25T01:09:23.540749+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-24",
+  "daily_refund_date": "2026-10-25",
   "ticket_actions": [
-    {
-      "ts": "2026-10-15T16:43:05.499325+00:00",
-      "ticket_id": 244509202,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udee1\ufe0fAre your pet food bags PPWR-compliant?"
-    },
     {
       "ts": "2026-10-15T16:43:07.361558+00:00",
       "ticket_id": 244514181,
@@ -1203,6 +1197,12 @@
       "ticket_id": 245823326,
       "action": "unknown_escalated_for_aj",
       "detail": "Sales"
+    },
+    {
+      "ts": "2026-10-25T01:09:23.540729+00:00",
+      "ticket_id": 245835958,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Missing Order"
     }
   ]
 }
