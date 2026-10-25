@@ -1830,6 +1830,56 @@
       "ts": "2026-10-24T17:44:38.213467+00:00",
       "product_name": "Honokiol",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:57:57.045543+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:58:08.647565+00:00",
+      "product_name": "Moderate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:58:18.043886+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:58:29.476273+00:00",
+      "product_name": "Carbamylglutamate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:58:41.209040+00:00",
+      "product_name": "Ameliorate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:58:50.902189+00:00",
+      "product_name": "Black Seed Thymoquinone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:59:01.088150+00:00",
+      "product_name": "Lithium Orotate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:59:10.715890+00:00",
+      "product_name": "Boswellia AKBA",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:59:28.909247+00:00",
+      "product_name": "Holy Basil Ursolic Acid",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-25T17:59:39.204890+00:00",
+      "product_name": "Apigenin",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
