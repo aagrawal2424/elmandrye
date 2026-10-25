@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 245907144,
-  "last_run_at": "2026-10-25T18:45:22.809190+00:00",
+  "last_processed_ticket_id": 245918124,
+  "last_run_at": "2026-10-25T21:16:13.722941+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-25",
   "ticket_actions": [
-    {
-      "ts": "2026-10-15T20:04:03.858671+00:00",
-      "ticket_id": 244537061,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Please CANCEL all my subscriptions immediately"
-    },
-    {
-      "ts": "2026-10-15T20:04:05.643932+00:00",
-      "ticket_id": 244538413,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Please CANCEL all my subscriptions immediately"
-    },
     {
       "ts": "2026-10-16T01:15:18.973134+00:00",
       "ticket_id": 244555568,
@@ -1203,6 +1191,18 @@
       "ticket_id": 245907144,
       "action": "error_crash",
       "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-25T21:16:12.120207+00:00",
+      "ticket_id": 245909234,
+      "action": "unknown_escalated_for_aj",
+      "detail": "a dedicated page for your healthy dog foods range"
+    },
+    {
+      "ts": "2026-10-25T21:16:13.722922+00:00",
+      "ticket_id": 245918124,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Get paid by referring Google Workspace"
     }
   ]
 }
