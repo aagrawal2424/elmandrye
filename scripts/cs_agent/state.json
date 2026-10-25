@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 245835958,
-  "last_run_at": "2026-10-25T01:09:23.540749+00:00",
+  "last_processed_ticket_id": 245886589,
+  "last_run_at": "2026-10-25T15:53:29.797208+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-25",
   "ticket_actions": [
-    {
-      "ts": "2026-10-15T16:43:07.361558+00:00",
-      "ticket_id": 244514181,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Find Your Calm & Save 15% \u2728"
-    },
-    {
-      "ts": "2026-10-15T16:43:09.186020+00:00",
-      "ticket_id": 244515998,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Dark spots are a universal skin concern. A serum safe for sensitive skin is not."
-    },
-    {
-      "ts": "2026-10-15T16:43:10.895726+00:00",
-      "ticket_id": 244519163,
-      "action": "unknown_escalated_for_aj",
-      "detail": "928 creators, 1,600 videos"
-    },
-    {
-      "ts": "2026-10-15T16:43:12.564728+00:00",
-      "ticket_id": 244519593,
-      "action": "unknown_escalated_for_aj",
-      "detail": "928 creators, 1,600 videos"
-    },
-    {
-      "ts": "2026-10-15T20:03:51.077287+00:00",
-      "ticket_id": 244525839,
-      "action": "unknown_escalated_for_aj",
-      "detail": "88% came from affiliates"
-    },
-    {
-      "ts": "2026-10-15T20:03:52.743663+00:00",
-      "ticket_id": 244526000,
-      "action": "unknown_escalated_for_aj",
-      "detail": "88% came from affiliates"
-    },
-    {
-      "ts": "2026-10-15T20:03:55.084559+00:00",
-      "ticket_id": 244526066,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.15.2026"
-    },
-    {
-      "ts": "2026-10-15T20:03:57.325827+00:00",
-      "ticket_id": 244530822,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\udcec $290K Proves Email Deserves a Spot in Your Strategy \ud83d\udecd\ufe0f"
-    },
     {
       "ts": "2026-10-15T20:03:59.471188+00:00",
       "ticket_id": 244531709,
@@ -1203,6 +1155,54 @@
       "ticket_id": 245835958,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Missing Order"
+    },
+    {
+      "ts": "2026-10-25T15:53:24.858004+00:00",
+      "ticket_id": 245838252,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-10-25T15:53:24.858023+00:00",
+      "ticket_id": 245838352,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 26, 2026 (-$10.83 USD)"
+    },
+    {
+      "ts": "2026-10-25T15:53:24.858027+00:00",
+      "ticket_id": 245838667,
+      "action": "skip_spam",
+      "detail": "See what wellnexsolutions and 8 others shared"
+    },
+    {
+      "ts": "2026-10-25T15:53:26.161982+00:00",
+      "ticket_id": 245838842,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Immediate Action Needed: Update passwords for all users on your DreamHost account."
+    },
+    {
+      "ts": "2026-10-25T15:53:27.660488+00:00",
+      "ticket_id": 245841556,
+      "action": "error_crash",
+      "detail": "Re: Order #86644 confirmed"
+    },
+    {
+      "ts": "2026-10-25T15:53:27.660520+00:00",
+      "ticket_id": 245877454,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-25T15:53:29.797167+00:00",
+      "ticket_id": 245881430,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pupper data erasure request - from Nichelle Hackney - request: 2HRGG57Z"
+    },
+    {
+      "ts": "2026-10-25T15:53:29.797205+00:00",
+      "ticket_id": 245886589,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
     }
   ]
 }
