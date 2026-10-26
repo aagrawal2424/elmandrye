@@ -1880,6 +1880,56 @@
       "ts": "2026-10-25T17:59:39.204890+00:00",
       "product_name": "Apigenin",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:13:09.877281+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:13:19.101358+00:00",
+      "product_name": "Moderate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:13:28.517720+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:13:36.868174+00:00",
+      "product_name": "Carbamylglutamate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:13:46.858465+00:00",
+      "product_name": "Ameliorate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:13:57.446018+00:00",
+      "product_name": "Mulberry 1-Deoxynojirimycin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:14:07.028960+00:00",
+      "product_name": "Lion's Mane Erinacines",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:14:17.883178+00:00",
+      "product_name": "Lithium Aspartate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:14:27.818133+00:00",
+      "product_name": "Meso-Zeaxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-26T20:14:37.639781+00:00",
+      "product_name": "Tocotrienol Annatto",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
