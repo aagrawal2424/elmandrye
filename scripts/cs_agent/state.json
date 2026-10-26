@@ -1,93 +1,9 @@
 {
-  "last_processed_ticket_id": 245926021,
-  "last_run_at": "2026-10-26T01:26:49.850830+00:00",
+  "last_processed_ticket_id": 246046860,
+  "last_run_at": "2026-10-26T18:33:53.598620+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-26",
   "ticket_actions": [
-    {
-      "ts": "2026-10-16T16:25:23.261542+00:00",
-      "ticket_id": 244566004,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Greetings"
-    },
-    {
-      "ts": "2026-10-16T16:25:24.482935+00:00",
-      "ticket_id": 244567778,
-      "action": "unknown_escalated_for_aj",
-      "detail": "elmandrye.com is missing alt text on key images"
-    },
-    {
-      "ts": "2026-10-16T16:25:25.644641+00:00",
-      "ticket_id": 244595416,
-      "action": "unknown_escalated_for_aj",
-      "detail": "paying you $375 for quality traffic"
-    },
-    {
-      "ts": "2026-10-16T16:25:28.311443+00:00",
-      "ticket_id": 244634279,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1185-0985]"
-    },
-    {
-      "ts": "2026-10-16T16:25:30.159861+00:00",
-      "ticket_id": 244637612,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Unlock Gold Bar BOGO Savings!"
-    },
-    {
-      "ts": "2026-10-16T16:25:30.159902+00:00",
-      "ticket_id": 244646888,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-16T16:25:31.719607+00:00",
-      "ticket_id": 244649436,
-      "action": "unknown_escalated_for_aj",
-      "detail": "HURRY! One spot left for TODAY meeting + WGN Chicago this holiday season!"
-    },
-    {
-      "ts": "2026-10-16T19:39:06.590443+00:00",
-      "ticket_id": 244676599,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order 86606"
-    },
-    {
-      "ts": "2026-10-16T19:39:08.635743+00:00",
-      "ticket_id": 244677559,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.16.2026"
-    },
-    {
-      "ts": "2026-10-16T22:12:25.640023+00:00",
-      "ticket_id": 244689003,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your Google traffic"
-    },
-    {
-      "ts": "2026-10-16T22:12:27.830094+00:00",
-      "ticket_id": 244692428,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Subject: Action needed: Sendlane is shutting down in January 2027"
-    },
-    {
-      "ts": "2026-10-16T22:12:27.830124+00:00",
-      "ticket_id": 244695143,
-      "action": "skip_spam",
-      "detail": "Automatic reply: \ud83d\udea8 60% Off. Last Day. GO!"
-    },
-    {
-      "ts": "2026-10-17T00:33:30.166463+00:00",
-      "ticket_id": 244703222,
-      "action": "error_crash",
-      "detail": "Orders"
-    },
-    {
-      "ts": "2026-10-17T15:19:41.490960+00:00",
-      "ticket_id": 244707701,
-      "action": "skip_spam",
-      "detail": "See what snoopdogg and 9 others you follow shared"
-    },
     {
       "ts": "2026-10-17T15:19:43.358101+00:00",
       "ticket_id": 244708271,
@@ -1203,6 +1119,90 @@
       "ticket_id": 245926021,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Re: Did this catch your eye?"
+    },
+    {
+      "ts": "2026-10-26T18:33:39.303706+00:00",
+      "ticket_id": 245933582,
+      "action": "skip_spam",
+      "detail": "saloniisonii and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-26T18:33:40.626303+00:00",
+      "ticket_id": 245937546,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-26T18:33:40.626322+00:00",
+      "ticket_id": 245981787,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-26T18:33:41.477116+00:00",
+      "ticket_id": 246012145,
+      "action": "error_crash",
+      "detail": "Re: Order #86503 confirmed"
+    },
+    {
+      "ts": "2026-10-26T18:33:42.382551+00:00",
+      "ticket_id": 246016658,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A few observations about your online presence"
+    },
+    {
+      "ts": "2026-10-26T18:33:42.382584+00:00",
+      "ticket_id": 246020306,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-26T18:33:43.389744+00:00",
+      "ticket_id": 246022286,
+      "action": "unknown_escalated_for_aj",
+      "detail": "PupperWhat Might Be Making Customers Hesitate?"
+    },
+    {
+      "ts": "2026-10-26T18:33:44.838276+00:00",
+      "ticket_id": 246022881,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Update Request: Order #67517"
+    },
+    {
+      "ts": "2026-10-26T18:33:46.255988+00:00",
+      "ticket_id": 246023440,
+      "action": "unknown_escalated_for_aj",
+      "detail": "One line on your Libido page"
+    },
+    {
+      "ts": "2026-10-26T18:33:47.453493+00:00",
+      "ticket_id": 246027292,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-26T18:33:48.293414+00:00",
+      "ticket_id": 246033956,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Does Pupper revenue currently worth it?"
+    },
+    {
+      "ts": "2026-10-26T18:33:50.123020+00:00",
+      "ticket_id": 246037706,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Invoice 2925 from Nitro Logistics, LLC"
+    },
+    {
+      "ts": "2026-10-26T18:33:52.216308+00:00",
+      "ticket_id": 246042233,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.26.2026"
+    },
+    {
+      "ts": "2026-10-26T18:33:53.598608+00:00",
+      "ticket_id": 246046860,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Discover Gold Bar Deals! \ud83c\udf89"
     }
   ]
 }
