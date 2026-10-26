@@ -1,57 +1,9 @@
 {
-  "last_processed_ticket_id": 246046860,
-  "last_run_at": "2026-10-26T18:33:53.598620+00:00",
+  "last_processed_ticket_id": 246088587,
+  "last_run_at": "2026-10-26T22:52:08.291867+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-26",
   "ticket_actions": [
-    {
-      "ts": "2026-10-17T15:19:43.358101+00:00",
-      "ticket_id": 244708271,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Small creators move product too"
-    },
-    {
-      "ts": "2026-10-17T15:19:45.465385+00:00",
-      "ticket_id": 244709572,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Small creators move product too"
-    },
-    {
-      "ts": "2026-10-17T15:19:46.733659+00:00",
-      "ticket_id": 244711748,
-      "action": "unknown_escalated_for_aj",
-      "detail": "345 hours, zero brand-shot frames"
-    },
-    {
-      "ts": "2026-10-17T15:19:48.124193+00:00",
-      "ticket_id": 244711773,
-      "action": "unknown_escalated_for_aj",
-      "detail": "345 hours, zero brand-shot frames"
-    },
-    {
-      "ts": "2026-10-17T15:19:49.196663+00:00",
-      "ticket_id": 244732923,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elm & Rye \u2014 adding the next supplement"
-    },
-    {
-      "ts": "2026-10-17T15:19:50.101486+00:00",
-      "ticket_id": 244755388,
-      "action": "unknown_escalated_for_aj",
-      "detail": "custom boxes"
-    },
-    {
-      "ts": "2026-10-17T15:19:51.027109+00:00",
-      "ticket_id": 244757492,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Affordable UGC for Pupper"
-    },
-    {
-      "ts": "2026-10-17T15:19:51.027137+00:00",
-      "ticket_id": 244758112,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-10-17T17:53:04.938778+00:00",
       "ticket_id": 244764957,
@@ -1203,6 +1155,54 @@
       "ticket_id": 246046860,
       "action": "unknown_escalated_for_aj",
       "detail": "Discover Gold Bar Deals! \ud83c\udf89"
+    },
+    {
+      "ts": "2026-10-26T22:51:58.921659+00:00",
+      "ticket_id": 246067961,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Formal Notice Regarding Copyright Compliance and Request for Documentation"
+    },
+    {
+      "ts": "2026-10-26T22:52:00.029440+00:00",
+      "ticket_id": 246071275,
+      "action": "error_crash",
+      "detail": "Re: Order #86529 confirmed"
+    },
+    {
+      "ts": "2026-10-26T22:52:01.422291+00:00",
+      "ticket_id": 246073384,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Formal Notice Regarding Copyright Compliance and Request for Documentation"
+    },
+    {
+      "ts": "2026-10-26T22:52:02.279699+00:00",
+      "ticket_id": 246080185,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-26T22:52:04.107005+00:00",
+      "ticket_id": 246084611,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Special Invitation For You ; FOR DESKTOP PREVIEW ONLY!"
+    },
+    {
+      "ts": "2026-10-26T22:52:07.017229+00:00",
+      "ticket_id": 246085195,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Upcoming order"
+    },
+    {
+      "ts": "2026-10-26T22:52:07.017271+00:00",
+      "ticket_id": 246088343,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-10-26T22:52:08.291843+00:00",
+      "ticket_id": 246088587,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Notice] Possible unresolved security risks in your Admin Console"
     }
   ]
 }
