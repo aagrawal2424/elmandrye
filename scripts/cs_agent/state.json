@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 246210146,
-  "last_run_at": "2026-10-27T17:49:14.226685+00:00",
+  "last_processed_ticket_id": 246236953,
+  "last_run_at": "2026-10-27T21:33:22.595000+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-27",
   "ticket_actions": [
-    {
-      "ts": "2026-10-18T22:52:40.793101+00:00",
-      "ticket_id": 244884367,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Weekend Newsletter for 10/17-10/18 (2026)"
-    },
-    {
-      "ts": "2026-10-18T22:52:41.975582+00:00",
-      "ticket_id": 244886983,
-      "action": "unknown_escalated_for_aj",
-      "detail": "WHATSAPP NUMBER - www.pupper.com ?"
-    },
-    {
-      "ts": "2026-10-18T22:52:44.059664+00:00",
-      "ticket_id": 244889266,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Order"
-    },
-    {
-      "ts": "2026-10-19T00:49:30.303772+00:00",
-      "ticket_id": 244891304,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-19T00:49:32.119958+00:00",
-      "ticket_id": 244893981,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Request refund or discount - Contact"
-    },
-    {
-      "ts": "2026-10-19T00:49:33.550178+00:00",
-      "ticket_id": 244894072,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Order 86700"
-    },
-    {
-      "ts": "2026-10-19T18:35:53.693839+00:00",
-      "ticket_id": 244898151,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Sea moss"
-    },
     {
       "ts": "2026-10-19T18:35:55.287472+00:00",
       "ticket_id": 244900121,
@@ -1203,6 +1161,48 @@
       "ticket_id": 246210146,
       "action": "unknown_escalated_for_aj",
       "detail": "We paused payouts for your account"
+    },
+    {
+      "ts": "2026-10-27T21:33:11.303500+00:00",
+      "ticket_id": 246217908,
+      "action": "damaged_or_missing_escalated_no_orders",
+      "detail": "The money hiding in your damaged-order tickets"
+    },
+    {
+      "ts": "2026-10-27T21:33:13.400331+00:00",
+      "ticket_id": 246220129,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-10-27T21:33:15.957454+00:00",
+      "ticket_id": 246222445,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83d\udcb8 166% More Revenue With SEO Supporting Paid Ads \ud83c\udf31"
+    },
+    {
+      "ts": "2026-10-27T21:33:17.979643+00:00",
+      "ticket_id": 246223345,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.27.2026"
+    },
+    {
+      "ts": "2026-10-27T21:33:19.686435+00:00",
+      "ticket_id": 246224531,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Christmas Packaging"
+    },
+    {
+      "ts": "2026-10-27T21:33:21.393632+00:00",
+      "ticket_id": 246225355,
+      "action": "unknown_escalated_for_aj",
+      "detail": "[Notice] Possible unresolved security risks in your Admin Console"
+    },
+    {
+      "ts": "2026-10-27T21:33:22.594978+00:00",
+      "ticket_id": 246236953,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Hi Everest - would our 3.5g Mylar bags at $0.09 each suit your upcoming 20k order?"
     }
   ]
 }
