@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 246088587,
-  "last_run_at": "2026-10-26T22:52:08.291867+00:00",
+  "last_processed_ticket_id": 246096374,
+  "last_run_at": "2026-10-27T01:48:08.859061+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-26",
+  "daily_refund_date": "2026-10-27",
   "ticket_actions": [
-    {
-      "ts": "2026-10-17T17:53:04.938778+00:00",
-      "ticket_id": 244764957,
-      "action": "skip_spam",
-      "detail": "chewy and petco recently added to their stories"
-    },
-    {
-      "ts": "2026-10-17T17:53:04.938798+00:00",
-      "ticket_id": 244766247,
-      "action": "skip_spam",
-      "detail": "andrewjbookwalter and 7 others recently added to their stories"
-    },
     {
       "ts": "2026-10-17T17:53:06.763052+00:00",
       "ticket_id": 244767090,
@@ -1203,6 +1191,18 @@
       "ticket_id": 246088587,
       "action": "unknown_escalated_for_aj",
       "detail": "[Notice] Possible unresolved security risks in your Admin Console"
+    },
+    {
+      "ts": "2026-10-27T01:48:08.859030+00:00",
+      "ticket_id": 246094237,
+      "action": "unknown_escalated_for_aj",
+      "detail": "US retail distribution for Pupper"
+    },
+    {
+      "ts": "2026-10-27T01:48:08.859058+00:00",
+      "ticket_id": 246096374,
+      "action": "skip_spam",
+      "detail": "Start Growing on TikTok Shop in Minutes"
     }
   ]
 }
