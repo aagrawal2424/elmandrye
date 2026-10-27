@@ -1930,6 +1930,56 @@
       "ts": "2026-10-26T20:14:37.639781+00:00",
       "product_name": "Tocotrienol Annatto",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:44:39.616599+00:00",
+      "product_name": "L-Histidine Pure",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:44:48.930203+00:00",
+      "product_name": "Lithium Aspartate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:44:59.661911+00:00",
+      "product_name": "Honokiol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:45:09.384995+00:00",
+      "product_name": "Bladderwrack Fucoxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:45:19.817047+00:00",
+      "product_name": "Holy Basil Ursolic Acid",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:45:28.791841+00:00",
+      "product_name": "Carnosine L",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:45:39.544482+00:00",
+      "product_name": "Luteolin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:45:50.189234+00:00",
+      "product_name": "Pantethine Active B5",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:46:00.040920+00:00",
+      "product_name": "NADH Stabilized",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-27T19:46:11.160196+00:00",
+      "product_name": "Schisandra Lignans",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
