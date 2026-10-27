@@ -1,99 +1,9 @@
 {
-  "last_processed_ticket_id": 246096374,
-  "last_run_at": "2026-10-27T01:48:08.859061+00:00",
+  "last_processed_ticket_id": 246210146,
+  "last_run_at": "2026-10-27T17:49:14.226685+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-27",
   "ticket_actions": [
-    {
-      "ts": "2026-10-17T17:53:06.763052+00:00",
-      "ticket_id": 244767090,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Product shipment and receipt"
-    },
-    {
-      "ts": "2026-10-17T22:25:19.131289+00:00",
-      "ticket_id": 244786107,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-10-17T22:25:22.769246+00:00",
-      "ticket_id": 244788357,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your receipt from Sendlane #2621-8588"
-    },
-    {
-      "ts": "2026-10-18T00:11:51.185784+00:00",
-      "ticket_id": 244791839,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Your cart is about to expire."
-    },
-    {
-      "ts": "2026-10-18T00:11:51.185815+00:00",
-      "ticket_id": 244792386,
-      "action": "skip_spam",
-      "detail": "See what beserker12 and 8 others shared"
-    },
-    {
-      "ts": "2026-10-18T00:11:52.173263+00:00",
-      "ticket_id": 244792980,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-10-18T15:41:26.465320+00:00",
-      "ticket_id": 244803140,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-18T15:41:28.416092+00:00",
-      "ticket_id": 244840629,
-      "action": "unknown_escalated_for_aj",
-      "detail": "RE:  Sample Request"
-    },
-    {
-      "ts": "2026-10-18T15:41:28.416126+00:00",
-      "ticket_id": 244847984,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-18T18:17:04.156547+00:00",
-      "ticket_id": 244859457,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-18T18:17:06.802425+00:00",
-      "ticket_id": 244860663,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your FAQ page holds your best hook"
-    },
-    {
-      "ts": "2026-10-18T18:17:08.929464+00:00",
-      "ticket_id": 244864194,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your FAQ page holds your best hook"
-    },
-    {
-      "ts": "2026-10-18T18:17:11.300537+00:00",
-      "ticket_id": 244864902,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Colostrum \u00d7"
-    },
-    {
-      "ts": "2026-10-18T18:17:13.374022+00:00",
-      "ticket_id": 244865212,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Follower minimums are costing you"
-    },
-    {
-      "ts": "2026-10-18T20:54:22.306038+00:00",
-      "ticket_id": 244871654,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Follower minimums are costing you"
-    },
     {
       "ts": "2026-10-18T22:52:40.793101+00:00",
       "ticket_id": 244884367,
@@ -1203,6 +1113,96 @@
       "ticket_id": 246096374,
       "action": "skip_spam",
       "detail": "Start Growing on TikTok Shop in Minutes"
+    },
+    {
+      "ts": "2026-10-27T17:48:58.607558+00:00",
+      "ticket_id": 246098197,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Quick note about pupper.com: 1 compliance item found"
+    },
+    {
+      "ts": "2026-10-27T17:48:58.607587+00:00",
+      "ticket_id": 246098647,
+      "action": "skip_spam",
+      "detail": "Payout for Oct 27, 2026 ($121.83 USD)"
+    },
+    {
+      "ts": "2026-10-27T17:48:58.607595+00:00",
+      "ticket_id": 246100174,
+      "action": "skip_spam",
+      "detail": "petsmart and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-10-27T17:48:58.607601+00:00",
+      "ticket_id": 246140999,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-27T17:49:01.369201+00:00",
+      "ticket_id": 246161533,
+      "action": "refund_request_escalated_no_orders",
+      "detail": "Welcome to Smart Dispute Solutions"
+    },
+    {
+      "ts": "2026-10-27T17:49:01.369230+00:00",
+      "ticket_id": 246168995,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Maplo TRAN, has signed up for your program!"
+    },
+    {
+      "ts": "2026-10-27T17:49:02.813585+00:00",
+      "ticket_id": 246178325,
+      "action": "unknown_escalated_for_aj",
+      "detail": "YOU ARE ONE OF OUR HONORED GUEST"
+    },
+    {
+      "ts": "2026-10-27T17:49:02.813626+00:00",
+      "ticket_id": 246179973,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-27T17:49:05.522049+00:00",
+      "ticket_id": 246188620,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your whole spec sheet, one lab"
+    },
+    {
+      "ts": "2026-10-27T17:49:07.578651+00:00",
+      "ticket_id": 246195919,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A possible reorder gap at Elm & Rye"
+    },
+    {
+      "ts": "2026-10-27T17:49:09.350284+00:00",
+      "ticket_id": 246195483,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Accidental purchase"
+    },
+    {
+      "ts": "2026-10-27T17:49:10.433350+00:00",
+      "ticket_id": 246197156,
+      "action": "unknown_escalated_for_aj",
+      "detail": "improved shipping rates"
+    },
+    {
+      "ts": "2026-10-27T17:49:11.893012+00:00",
+      "ticket_id": 246199089,
+      "action": "unknown_escalated_for_aj",
+      "detail": "buyeverest.com requests confirmation of the administrator's registered email address"
+    },
+    {
+      "ts": "2026-10-27T17:49:13.001858+00:00",
+      "ticket_id": 246204662,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Affordable UGC for Pupper"
+    },
+    {
+      "ts": "2026-10-27T17:49:14.226669+00:00",
+      "ticket_id": 246210146,
+      "action": "unknown_escalated_for_aj",
+      "detail": "We paused payouts for your account"
     }
   ]
 }
