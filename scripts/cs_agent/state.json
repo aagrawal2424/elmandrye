@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 246236953,
-  "last_run_at": "2026-10-27T21:33:22.595000+00:00",
+  "last_processed_ticket_id": 246251395,
+  "last_run_at": "2026-10-28T00:43:13.306168+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-27",
+  "daily_refund_date": "2026-10-28",
   "ticket_actions": [
-    {
-      "ts": "2026-10-19T18:35:55.287472+00:00",
-      "ticket_id": 244900121,
-      "action": "unknown_escalated_for_aj",
-      "detail": "APIs, Custom peptides, Cosmetic peptides, Nootropic and supplement powders"
-    },
-    {
-      "ts": "2026-10-19T18:35:56.546263+00:00",
-      "ticket_id": 244901865,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: 3 lines on Elm & Rye product pages worth a look"
-    },
-    {
-      "ts": "2026-10-19T18:35:56.546295+00:00",
-      "ticket_id": 244902682,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-19T18:35:57.641911+00:00",
-      "ticket_id": 244903398,
-      "action": "error_crash",
-      "detail": "Order not delivered"
-    },
     {
       "ts": "2026-10-19T18:35:57.641939+00:00",
       "ticket_id": 244915090,
@@ -1203,6 +1179,30 @@
       "ticket_id": 246236953,
       "action": "unknown_escalated_for_aj",
       "detail": "Hi Everest - would our 3.5g Mylar bags at $0.09 each suit your upcoming 20k order?"
+    },
+    {
+      "ts": "2026-10-28T00:43:11.781136+00:00",
+      "ticket_id": 246242749,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Google Analytics performance report is in for September 30th - October 27th"
+    },
+    {
+      "ts": "2026-10-28T00:43:11.781170+00:00",
+      "ticket_id": 246247845,
+      "action": "skip_spam",
+      "detail": "From nitin___chandra and others: 3 unread messages"
+    },
+    {
+      "ts": "2026-10-28T00:43:11.781178+00:00",
+      "ticket_id": 246251032,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-28T00:43:13.306150+00:00",
+      "ticket_id": 246251395,
+      "action": "unknown_escalated_for_aj",
+      "detail": "WE CAN DISCUSS - support@buyeverest.com"
     }
   ]
 }
