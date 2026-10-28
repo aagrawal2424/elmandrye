@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 246368425,
-  "last_run_at": "2026-10-28T18:12:52.663035+00:00",
+  "last_processed_ticket_id": 246405259,
+  "last_run_at": "2026-10-28T22:40:48.428850+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-28",
   "ticket_actions": [
-    {
-      "ts": "2026-10-19T18:36:22.622676+00:00",
-      "ticket_id": 245015276,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your videos open with the pitch"
-    },
-    {
-      "ts": "2026-10-19T18:36:25.337705+00:00",
-      "ticket_id": 245063559,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Re: Report an issue - Contact"
-    },
-    {
-      "ts": "2026-10-19T22:37:49.569051+00:00",
-      "ticket_id": 245076717,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-19T22:37:49.569070+00:00",
-      "ticket_id": 245094800,
-      "action": "skip_spam",
-      "detail": "puppersupplements, catch up on moments you've missed"
-    },
-    {
-      "ts": "2026-10-19T22:37:51.236114+00:00",
-      "ticket_id": 245119100,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Legal Notice] Updates to Google Workspace Service Specific Terms and Agentic AI guidelines"
-    },
-    {
-      "ts": "2026-10-19T22:37:52.786718+00:00",
-      "ticket_id": 245119254,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10.19.2026"
-    },
     {
       "ts": "2026-10-19T22:37:53.837631+00:00",
       "ticket_id": 245119467,
@@ -1203,6 +1167,42 @@
       "ticket_id": 246368425,
       "action": "unknown_escalated_for_aj",
       "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
+    },
+    {
+      "ts": "2026-10-28T22:40:36.272292+00:00",
+      "ticket_id": 246387217,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.28.2026, Sponsored by Trulieve"
+    },
+    {
+      "ts": "2026-10-28T22:40:38.978997+00:00",
+      "ticket_id": 246393059,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A question about Elm & Rye"
+    },
+    {
+      "ts": "2026-10-28T22:40:41.111326+00:00",
+      "ticket_id": 246393429,
+      "action": "damaged_or_missing_escalated_no_orders",
+      "detail": "The money hiding in your damaged-order tickets"
+    },
+    {
+      "ts": "2026-10-28T22:40:43.359511+00:00",
+      "ticket_id": 246395320,
+      "action": "damaged_or_missing_escalated_no_orders",
+      "detail": "The money hiding in your damaged-order tickets"
+    },
+    {
+      "ts": "2026-10-28T22:40:45.205776+00:00",
+      "ticket_id": 246396247,
+      "action": "order_cancel_escalated_no_orders",
+      "detail": "New customer message on October 28, 2026 at 1:36 pm"
+    },
+    {
+      "ts": "2026-10-28T22:40:48.428832+00:00",
+      "ticket_id": 246405259,
+      "action": "order_cancel_escalated_for_aj",
+      "detail": "Fw: Subscription management reminder"
     }
   ]
 }
