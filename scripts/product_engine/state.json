@@ -1980,6 +1980,56 @@
       "ts": "2026-10-27T19:46:11.160196+00:00",
       "product_name": "Schisandra Lignans",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T19:58:39.991779+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T19:58:48.921546+00:00",
+      "product_name": "Moderate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T19:59:00.867818+00:00",
+      "product_name": "Doxorubicin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T19:59:09.743527+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T19:59:19.479479+00:00",
+      "product_name": "Ameliorate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T19:59:28.589281+00:00",
+      "product_name": "Bitter Melon Charantin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T19:59:39.384214+00:00",
+      "product_name": "He Shou Wu Stilbene",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T19:59:48.989084+00:00",
+      "product_name": "Apigenin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T19:59:59.197424+00:00",
+      "product_name": "Black Seed Thymoquinone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-28T20:00:08.424264+00:00",
+      "product_name": "Lithium Aspartate",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
