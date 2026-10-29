@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 246543400,
-  "last_run_at": "2026-10-29T18:18:42.584744+00:00",
+  "last_processed_ticket_id": 246564319,
+  "last_run_at": "2026-10-29T22:52:09.819919+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-29",
   "ticket_actions": [
-    {
-      "ts": "2026-10-20T23:10:56.874135+00:00",
-      "ticket_id": 245277118,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order delay?"
-    },
-    {
-      "ts": "2026-10-20T23:10:58.576556+00:00",
-      "ticket_id": 245279668,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Discover New Flavors on the Hitide! \ud83c\udf89"
-    },
-    {
-      "ts": "2026-10-21T01:38:12.954180+00:00",
-      "ticket_id": 245286125,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-10-21T16:58:33.097470+00:00",
       "ticket_id": 245293144,
@@ -1203,6 +1185,24 @@
       "ticket_id": 246543400,
       "action": "unknown_escalated_for_aj",
       "detail": "\ud83d\udd0d Is Your Cannabis Brand Showing Up at Every Step to Purchase? \ud83d\udcc8"
+    },
+    {
+      "ts": "2026-10-29T22:52:06.321611+00:00",
+      "ticket_id": 246551603,
+      "action": "skip_no_email",
+      "detail": "Conversation with Customer #565562245"
+    },
+    {
+      "ts": "2026-10-29T22:52:08.318491+00:00",
+      "ticket_id": 246552386,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-10-29T22:52:09.819901+00:00",
+      "ticket_id": 246564319,
+      "action": "error_crash",
+      "detail": "Other - Contact"
     }
   ]
 }
