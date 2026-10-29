@@ -2030,6 +2030,56 @@
       "ts": "2026-10-28T20:00:08.424264+00:00",
       "product_name": "Lithium Aspartate",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:56:18.775163+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:56:28.463297+00:00",
+      "product_name": "Polyendocrine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:56:41.847852+00:00",
+      "product_name": "Doxorubicin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:56:51.592224+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:57:02.849308+00:00",
+      "product_name": "Ameliorate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:57:12.111460+00:00",
+      "product_name": "Sulbutiamine Lipophilic",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:57:21.514406+00:00",
+      "product_name": "Gynostemma Gypenosides",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:57:32.564060+00:00",
+      "product_name": "Saffron Crocin Crocetin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:57:41.658968+00:00",
+      "product_name": "Hydroxytyrosol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-10-29T19:57:51.966457+00:00",
+      "product_name": "Holy Basil Ursolic Acid",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
