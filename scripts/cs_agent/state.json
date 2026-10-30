@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 246564319,
-  "last_run_at": "2026-10-29T22:52:09.819919+00:00",
+  "last_processed_ticket_id": 246579362,
+  "last_run_at": "2026-10-30T02:23:57.241533+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-10-29",
+  "daily_refund_date": "2026-10-30",
   "ticket_actions": [
-    {
-      "ts": "2026-10-21T16:58:33.097470+00:00",
-      "ticket_id": 245293144,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 21, 2026 ($46.09 USD)"
-    },
-    {
-      "ts": "2026-10-21T16:58:34.968800+00:00",
-      "ticket_id": 245296281,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Discover Premium Fragrance Oil Solutions"
-    },
-    {
-      "ts": "2026-10-21T16:58:34.968832+00:00",
-      "ticket_id": 245299202,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
     {
       "ts": "2026-10-21T16:58:36.890973+00:00",
       "ticket_id": 245356906,
@@ -1203,6 +1185,24 @@
       "ticket_id": 246564319,
       "action": "error_crash",
       "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-10-30T02:23:54.340597+00:00",
+      "ticket_id": 246572888,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A stronger first screen for Pupper"
+    },
+    {
+      "ts": "2026-10-30T02:23:57.241497+00:00",
+      "ticket_id": 246577572,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10.29.2026, Sponsored by Trulieve"
+    },
+    {
+      "ts": "2026-10-30T02:23:57.241529+00:00",
+      "ticket_id": 246579362,
+      "action": "skip_spam",
+      "detail": "\ud83d\udd25 Start Selling on TikTok Shop Today"
     }
   ]
 }
