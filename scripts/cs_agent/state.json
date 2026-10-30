@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 246692665,
-  "last_run_at": "2026-10-30T17:54:28.214997+00:00",
+  "last_processed_ticket_id": 246715015,
+  "last_run_at": "2026-10-30T22:01:46.450229+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-30",
   "ticket_actions": [
-    {
-      "ts": "2026-10-21T23:36:16.781239+00:00",
-      "ticket_id": 245436320,
-      "action": "error_crash",
-      "detail": "Refund"
-    },
-    {
-      "ts": "2026-10-21T23:36:16.781262+00:00",
-      "ticket_id": 245436332,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-21T23:36:16.781268+00:00",
-      "ticket_id": 245437084,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-21T23:36:18.384948+00:00",
-      "ticket_id": 245437286,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Order #67535"
-    },
     {
       "ts": "2026-10-21T23:36:20.416415+00:00",
       "ticket_id": 245439282,
@@ -1203,6 +1179,30 @@
       "ticket_id": 246692665,
       "action": "unknown_escalated_for_aj",
       "detail": "for Pip"
+    },
+    {
+      "ts": "2026-10-30T22:01:44.131978+00:00",
+      "ticket_id": 246695100,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 10/30/2026"
+    },
+    {
+      "ts": "2026-10-30T22:01:46.450182+00:00",
+      "ticket_id": 246706627,
+      "action": "unknown_escalated_for_aj",
+      "detail": "NEW: The DEA Has Granted Federal Registrations to More Than 900 Medical Marijuana Dispensaries Across Seven States"
+    },
+    {
+      "ts": "2026-10-30T22:01:46.450216+00:00",
+      "ticket_id": 246714971,
+      "action": "skip_spam",
+      "detail": "Automatic reply: Boo! 50% Off Is Here! \ud83d\udc7b"
+    },
+    {
+      "ts": "2026-10-30T22:01:46.450226+00:00",
+      "ticket_id": 246715015,
+      "action": "skip_spam",
+      "detail": "Automatic reply: Boo! 50% Off Is Here! \ud83d\udc7b"
     }
   ]
 }
