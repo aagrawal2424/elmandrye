@@ -1,123 +1,9 @@
 {
-  "last_processed_ticket_id": 246579362,
-  "last_run_at": "2026-10-30T02:23:57.241533+00:00",
+  "last_processed_ticket_id": 246692665,
+  "last_run_at": "2026-10-30T17:54:28.214997+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-30",
   "ticket_actions": [
-    {
-      "ts": "2026-10-21T16:58:36.890973+00:00",
-      "ticket_id": 245356906,
-      "action": "unknown_escalated_for_aj",
-      "detail": "App idea - support@buyeverest.com"
-    },
-    {
-      "ts": "2026-10-21T16:58:37.880965+00:00",
-      "ticket_id": 245361281,
-      "action": "unknown_escalated_for_aj",
-      "detail": "PR idea for elmandrye.com"
-    },
-    {
-      "ts": "2026-10-21T16:58:38.670987+00:00",
-      "ticket_id": 245367994,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-21T16:58:40.676265+00:00",
-      "ticket_id": 245378190,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Don't Miss Out on Today's Best Deals! \ud83c\udf89"
-    },
-    {
-      "ts": "2026-10-21T16:58:40.676316+00:00",
-      "ticket_id": 245378789,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-21T16:58:41.543528+00:00",
-      "ticket_id": 245388925,
-      "action": "error_crash",
-      "detail": "Re: Order #86523 confirmed"
-    },
-    {
-      "ts": "2026-10-21T16:58:42.752204+00:00",
-      "ticket_id": 245389205,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with Kenneth Ashley"
-    },
-    {
-      "ts": "2026-10-21T16:58:43.654603+00:00",
-      "ticket_id": 245391495,
-      "action": "unknown_escalated_for_aj",
-      "detail": "a quick idea for Pupper"
-    },
-    {
-      "ts": "2026-10-21T16:58:44.589854+00:00",
-      "ticket_id": 245394020,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Pupper - Want to beat vetriscience.com at their own game?"
-    },
-    {
-      "ts": "2026-10-21T16:58:45.504274+00:00",
-      "ticket_id": 245401770,
-      "action": "unknown_escalated_for_aj",
-      "detail": "PR idea for elmandrye.com"
-    },
-    {
-      "ts": "2026-10-21T16:58:45.504302+00:00",
-      "ticket_id": 245402506,
-      "action": "skip_spam",
-      "detail": "$1.55 payment to Route Insurance Solutions LLC was unsuccessful again"
-    },
-    {
-      "ts": "2026-10-21T20:32:34.885985+00:00",
-      "ticket_id": 245411072,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Hi - www.elmandrye.com  ?"
-    },
-    {
-      "ts": "2026-10-21T20:32:36.926272+00:00",
-      "ticket_id": 245416185,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Re: Order Status"
-    },
-    {
-      "ts": "2026-10-21T20:32:36.926305+00:00",
-      "ticket_id": 245424062,
-      "action": "skip_spam",
-      "detail": "setriaglutathione and 4 others started following you"
-    },
-    {
-      "ts": "2026-10-21T20:32:38.691956+00:00",
-      "ticket_id": 245425394,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10/21/2026, Sponsored by Trulieve"
-    },
-    {
-      "ts": "2026-10-21T23:36:08.965338+00:00",
-      "ticket_id": 245427967,
-      "action": "unknown_escalated_for_aj",
-      "detail": "NEW: DEA Urges Judge to Reject Effort to Reopen Marijuana Rescheduling Hearing, Calls Discovery Request a \u201cFishing Exped"
-    },
-    {
-      "ts": "2026-10-21T23:36:11.003064+00:00",
-      "ticket_id": 245433074,
-      "action": "unknown_escalated_for_aj",
-      "detail": "SPECIAL IV"
-    },
-    {
-      "ts": "2026-10-21T23:36:13.364066+00:00",
-      "ticket_id": 245435580,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Re: Order #86702 confirmed"
-    },
-    {
-      "ts": "2026-10-21T23:36:15.469642+00:00",
-      "ticket_id": 245436122,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Order #86715 - subscription"
-    },
     {
       "ts": "2026-10-21T23:36:16.781239+00:00",
       "ticket_id": 245436320,
@@ -1203,6 +1089,120 @@
       "ticket_id": 246579362,
       "action": "skip_spam",
       "detail": "\ud83d\udd25 Start Selling on TikTok Shop Today"
+    },
+    {
+      "ts": "2026-10-30T17:54:03.352365+00:00",
+      "ticket_id": 246581140,
+      "action": "unknown_escalated_for_aj",
+      "detail": "puppersupplements, see what's been happening on Instagram"
+    },
+    {
+      "ts": "2026-10-30T17:54:04.473611+00:00",
+      "ticket_id": 246589820,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Optimize Pupper\u2019s Product Page To Get More Traffic"
+    },
+    {
+      "ts": "2026-10-30T17:54:06.190182+00:00",
+      "ticket_id": 246590303,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Contract supplement manufacturing with GMP certified quality systems"
+    },
+    {
+      "ts": "2026-10-30T17:54:07.459644+00:00",
+      "ticket_id": 246616383,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Optimize elmandrye.com\u2019s Product Page To Get More Traffic"
+    },
+    {
+      "ts": "2026-10-30T17:54:09.763250+00:00",
+      "ticket_id": 246628226,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: commission-based Klaviyo for Pupper"
+    },
+    {
+      "ts": "2026-10-30T17:54:11.778315+00:00",
+      "ticket_id": 246651781,
+      "action": "unknown_escalated_for_aj",
+      "detail": "What Are Your Black Friday Campaigns Missing?"
+    },
+    {
+      "ts": "2026-10-30T17:54:13.848023+00:00",
+      "ticket_id": 246652657,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your NITRO LOGISTICS LLC receipt [#1803-7195]"
+    },
+    {
+      "ts": "2026-10-30T17:54:14.822670+00:00",
+      "ticket_id": 246655466,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your Ad"
+    },
+    {
+      "ts": "2026-10-30T17:54:16.285930+00:00",
+      "ticket_id": 246656211,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Unlock Exclusive Gold Bar Offers!"
+    },
+    {
+      "ts": "2026-10-30T17:54:18.257327+00:00",
+      "ticket_id": 246659480,
+      "action": "unknown_escalated_for_aj",
+      "detail": "NEW: DEA Urges Judge to Give GAO Report \u201cNo Weight\u201d in Marijuana Rescheduling Case"
+    },
+    {
+      "ts": "2026-10-30T17:54:18.257366+00:00",
+      "ticket_id": 246661226,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-30T17:54:19.144244+00:00",
+      "ticket_id": 246666550,
+      "action": "unknown_escalated_for_aj",
+      "detail": "recovering declined sales - Everest"
+    },
+    {
+      "ts": "2026-10-30T17:54:20.882872+00:00",
+      "ticket_id": 246667240,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Pupper x Mrs. Manifest, soft-life TikTok collab?"
+    },
+    {
+      "ts": "2026-10-30T17:54:22.112873+00:00",
+      "ticket_id": 246669286,
+      "action": "unknown_escalated_for_aj",
+      "detail": "proudpapa77 and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-10-30T17:54:23.309396+00:00",
+      "ticket_id": 246672913,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Press Opportunities with CNN, Forbes, and USA Today!"
+    },
+    {
+      "ts": "2026-10-30T17:54:24.530654+00:00",
+      "ticket_id": 246678451,
+      "action": "error_crash",
+      "detail": "Order status - Contact"
+    },
+    {
+      "ts": "2026-10-30T17:54:26.190656+00:00",
+      "ticket_id": 246687767,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Re: Order #86575 confirmed"
+    },
+    {
+      "ts": "2026-10-30T17:54:27.108769+00:00",
+      "ticket_id": 246691238,
+      "action": "unknown_escalated_for_aj",
+      "detail": "amazon question"
+    },
+    {
+      "ts": "2026-10-30T17:54:28.214976+00:00",
+      "ticket_id": 246692665,
+      "action": "unknown_escalated_for_aj",
+      "detail": "for Pip"
     }
   ]
 }
