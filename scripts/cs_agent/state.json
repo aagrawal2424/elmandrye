@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 246724019,
-  "last_run_at": "2026-10-31T01:32:22.161533+00:00",
+  "last_processed_ticket_id": 246801530,
+  "last_run_at": "2026-10-31T17:06:01.912135+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-31",
   "ticket_actions": [
-    {
-      "ts": "2026-10-22T16:57:51.549184+00:00",
-      "ticket_id": 245445903,
-      "action": "skip_spam",
-      "detail": "Payout for Oct 22, 2026 ($46.09 USD)"
-    },
-    {
-      "ts": "2026-10-22T16:57:51.549204+00:00",
-      "ticket_id": 245446877,
-      "action": "skip_spam",
-      "detail": "Start Growing on TikTok Shop in Minutes"
-    },
-    {
-      "ts": "2026-10-22T16:57:53.847330+00:00",
-      "ticket_id": 245447693,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Hi Premium Bovine, Marine & Type II Collagen Solutions from YASIN"
-    },
-    {
-      "ts": "2026-10-22T16:57:56.035099+00:00",
-      "ticket_id": 245450020,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A small opportunity with Recharge subscriptions"
-    },
-    {
-      "ts": "2026-10-22T16:57:57.143745+00:00",
-      "ticket_id": 245518835,
-      "action": "error_crash",
-      "detail": "Order 86479"
-    },
-    {
-      "ts": "2026-10-22T16:57:59.286761+00:00",
-      "ticket_id": 245523209,
-      "action": "unknown_escalated_for_aj",
-      "detail": "What does this change mean for your product portfolio?"
-    },
-    {
-      "ts": "2026-10-22T16:58:00.342308+00:00",
-      "ticket_id": 245524930,
-      "action": "unknown_escalated_for_aj",
-      "detail": "i tested shilajit from 5 regions. here's what i found"
-    },
     {
       "ts": "2026-10-22T16:58:01.185046+00:00",
       "ticket_id": 245526879,
@@ -1203,6 +1161,48 @@
       "ticket_id": 246724019,
       "action": "skip_spam",
       "detail": "chewy and petco recently added to their stories"
+    },
+    {
+      "ts": "2026-10-31T17:05:56.112015+00:00",
+      "ticket_id": 246735264,
+      "action": "skip_spam",
+      "detail": "Your TikTok Shop is one click away"
+    },
+    {
+      "ts": "2026-10-31T17:05:57.974001+00:00",
+      "ticket_id": 246752678,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Natural Eggshell Membrane Powder,"
+    },
+    {
+      "ts": "2026-10-31T17:05:59.249319+00:00",
+      "ticket_id": 246752698,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Att PI Requied"
+    },
+    {
+      "ts": "2026-10-31T17:06:01.912083+00:00",
+      "ticket_id": 246765732,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Question About Your Printing Consumables Supply Strategy"
+    },
+    {
+      "ts": "2026-10-31T17:06:01.912114+00:00",
+      "ticket_id": 246785392,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-10-31T17:06:01.912123+00:00",
+      "ticket_id": 246792942,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-10-31T17:06:01.912129+00:00",
+      "ticket_id": 246801530,
+      "action": "skip_spam",
+      "detail": "See ever.wildapothecary, nbamaze22 and more in your feed"
     }
   ]
 }
