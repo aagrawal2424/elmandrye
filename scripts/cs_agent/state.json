@@ -1,21 +1,9 @@
 {
-  "last_processed_ticket_id": 246801530,
-  "last_run_at": "2026-10-31T17:06:01.912135+00:00",
+  "last_processed_ticket_id": 246817552,
+  "last_run_at": "2026-10-31T20:26:34.182743+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-31",
   "ticket_actions": [
-    {
-      "ts": "2026-10-22T16:58:01.185046+00:00",
-      "ticket_id": 245526879,
-      "action": "error_crash",
-      "detail": "Re: Order #86518 confirmed"
-    },
-    {
-      "ts": "2026-10-22T16:58:02.118275+00:00",
-      "ticket_id": 245527377,
-      "action": "unknown_escalated_for_aj",
-      "detail": "your sale themes"
-    },
     {
       "ts": "2026-10-22T16:58:02.118329+00:00",
       "ticket_id": 245532381,
@@ -1203,6 +1191,18 @@
       "ticket_id": 246801530,
       "action": "skip_spam",
       "detail": "See ever.wildapothecary, nbamaze22 and more in your feed"
+    },
+    {
+      "ts": "2026-10-31T20:26:33.231516+00:00",
+      "ticket_id": 246809470,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order number 67549, 10/21"
+    },
+    {
+      "ts": "2026-10-31T20:26:34.182727+00:00",
+      "ticket_id": 246817552,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Fees on your cart"
     }
   ]
 }
