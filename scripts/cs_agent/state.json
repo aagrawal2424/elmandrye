@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 246817552,
-  "last_run_at": "2026-10-31T20:26:34.182743+00:00",
+  "last_processed_ticket_id": 246824958,
+  "last_run_at": "2026-10-31T23:37:20.802774+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-10-31",
   "ticket_actions": [
-    {
-      "ts": "2026-10-22T16:58:02.118329+00:00",
-      "ticket_id": 245532381,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-10-22T16:58:03.114477+00:00",
       "ticket_id": 245534339,
@@ -1203,6 +1197,12 @@
       "ticket_id": 246817552,
       "action": "unknown_escalated_for_aj",
       "detail": "Fees on your cart"
+    },
+    {
+      "ts": "2026-10-31T23:37:20.802753+00:00",
+      "ticket_id": 246824958,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Weekend Newsletter for 10.31.2026"
     }
   ]
 }
