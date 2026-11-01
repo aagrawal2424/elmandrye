@@ -2080,6 +2080,56 @@
       "ts": "2026-10-29T19:57:51.966457+00:00",
       "product_name": "Holy Basil Ursolic Acid",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:16:26.275525+00:00",
+      "product_name": "Lion's Mane Erinacines",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:16:36.415072+00:00",
+      "product_name": "PEA Palmitoylethanolamide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:16:47.339443+00:00",
+      "product_name": "Lipoic Acid R-Form",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:16:57.638483+00:00",
+      "product_name": "Apigenin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:17:07.180000+00:00",
+      "product_name": "Hawthorn Vitexin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:17:15.863801+00:00",
+      "product_name": "L-Tyrosine N-Acetyl",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:17:24.205082+00:00",
+      "product_name": "Citicoline CDP-Choline",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:17:33.719455+00:00",
+      "product_name": "Coleus Forskohlii 95%",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:17:41.711092+00:00",
+      "product_name": "Spermidine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-01T19:17:50.350185+00:00",
+      "product_name": "Phosphatidylserine Soy-Free",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
