@@ -1,45 +1,9 @@
 {
-  "last_processed_ticket_id": 246888127,
-  "last_run_at": "2026-11-01T17:49:22.912759+00:00",
+  "last_processed_ticket_id": 246909950,
+  "last_run_at": "2026-11-01T21:28:49.537332+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-11-01",
   "ticket_actions": [
-    {
-      "ts": "2026-10-22T20:29:11.011827+00:00",
-      "ticket_id": 245569500,
-      "action": "unknown_escalated_for_aj",
-      "detail": "\ud83d\ude80 Stop Waiting for Visibility, Google Ads Delivers Instantly \ud83d\udca5"
-    },
-    {
-      "ts": "2026-10-22T20:29:13.302959+00:00",
-      "ticket_id": 245570134,
-      "action": "error_crash",
-      "detail": "Re: A shipment from order #77464 is on the way"
-    },
-    {
-      "ts": "2026-10-22T20:29:13.302985+00:00",
-      "ticket_id": 245572716,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see what's been happening on Instagram"
-    },
-    {
-      "ts": "2026-10-22T20:29:14.801238+00:00",
-      "ticket_id": 245572775,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Get paid by referring Google Workspace"
-    },
-    {
-      "ts": "2026-10-22T20:29:16.880737+00:00",
-      "ticket_id": 245576089,
-      "action": "unknown_escalated_for_aj",
-      "detail": "12th Annual Oregon Growers Cup - Dec 12th -2026 Entry/Sponsor/Vendor Info"
-    },
-    {
-      "ts": "2026-10-22T20:29:18.565661+00:00",
-      "ticket_id": 245578761,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10/22/2026, Sponsored by Trulieve"
-    },
     {
       "ts": "2026-10-22T23:32:15.611049+00:00",
       "ticket_id": 245582092,
@@ -1203,6 +1167,42 @@
       "ticket_id": 246888127,
       "action": "unknown_escalated_for_aj",
       "detail": "New customer message on November 1, 2026 at 8:06 am"
+    },
+    {
+      "ts": "2026-11-01T21:28:43.525582+00:00",
+      "ticket_id": 246899034,
+      "action": "skip_spam",
+      "detail": "Your receipt from Klaviyo Inc #2909-3832-9690"
+    },
+    {
+      "ts": "2026-11-01T21:28:43.525602+00:00",
+      "ticket_id": 246900952,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-11-01T21:28:43.525608+00:00",
+      "ticket_id": 246901839,
+      "action": "skip_spam",
+      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
+    },
+    {
+      "ts": "2026-11-01T21:28:45.500978+00:00",
+      "ticket_id": 246905172,
+      "action": "error_crash",
+      "detail": "latest order"
+    },
+    {
+      "ts": "2026-11-01T21:28:47.311888+00:00",
+      "ticket_id": 246908722,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for pupper.com"
+    },
+    {
+      "ts": "2026-11-01T21:28:49.537310+00:00",
+      "ticket_id": 246909950,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A new report is ready"
     }
   ]
 }
