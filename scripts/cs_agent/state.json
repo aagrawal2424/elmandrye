@@ -1,93 +1,9 @@
 {
-  "last_processed_ticket_id": 246922481,
-  "last_run_at": "2026-11-02T00:59:36.940227+00:00",
+  "last_processed_ticket_id": 247073947,
+  "last_run_at": "2026-11-02T21:36:57.000556+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-11-02",
   "ticket_actions": [
-    {
-      "ts": "2026-10-22T23:32:16.954260+00:00",
-      "ticket_id": 245586635,
-      "action": "unknown_escalated_for_aj",
-      "detail": "One color problem can cost a whole order"
-    },
-    {
-      "ts": "2026-10-22T23:32:16.954291+00:00",
-      "ticket_id": 245588791,
-      "action": "skip_spam",
-      "detail": "Awin new publisher notification for Pupper"
-    },
-    {
-      "ts": "2026-10-22T23:32:16.954296+00:00",
-      "ticket_id": 245590228,
-      "action": "skip_spam",
-      "detail": "chewy and 2 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-22T23:32:18.833943+00:00",
-      "ticket_id": 245590936,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order update"
-    },
-    {
-      "ts": "2026-10-23T16:49:56.132524+00:00",
-      "ticket_id": 245596791,
-      "action": "skip_spam",
-      "detail": "How does a beauty-led hydration brand generate $337K in campaign GMV through one high-impact TikTok Shop launch?"
-    },
-    {
-      "ts": "2026-10-23T16:49:58.299429+00:00",
-      "ticket_id": 245599005,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-10-23T16:49:59.526802+00:00",
-      "ticket_id": 245605427,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Product question - Contact"
-    },
-    {
-      "ts": "2026-10-23T16:50:00.687900+00:00",
-      "ticket_id": 245614119,
-      "action": "unknown_escalated_for_aj",
-      "detail": "One App for Both iOS and Android | www.elmandrye.com"
-    },
-    {
-      "ts": "2026-10-23T16:50:02.173389+00:00",
-      "ticket_id": 245618424,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Discover Premium Fragrance Oil Solutions"
-    },
-    {
-      "ts": "2026-10-23T16:50:03.699370+00:00",
-      "ticket_id": 245644069,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Portable Electric Dab Rig For Live Rosin"
-    },
-    {
-      "ts": "2026-10-23T16:50:04.985109+00:00",
-      "ticket_id": 245651169,
-      "action": "unknown_escalated_for_aj",
-      "detail": "UGC video ads for Pupper"
-    },
-    {
-      "ts": "2026-10-23T16:50:07.273517+00:00",
-      "ticket_id": 245664502,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your NITRO LOGISTICS LLC receipt [#1524-6744]"
-    },
-    {
-      "ts": "2026-10-23T16:50:08.775923+00:00",
-      "ticket_id": 245668050,
-      "action": "unknown_escalated_for_aj",
-      "detail": "OEM 510 Thread Wax Knife factory price"
-    },
-    {
-      "ts": "2026-10-23T16:50:09.901669+00:00",
-      "ticket_id": 245670606,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Elm & Rye or Transparent Labs?"
-    },
     {
       "ts": "2026-10-23T16:50:11.288148+00:00",
       "ticket_id": 245671032,
@@ -1203,6 +1119,90 @@
       "ticket_id": 246922481,
       "action": "unknown_escalated_for_aj",
       "detail": "Following up on Pupper\u2019s retail plans"
+    },
+    {
+      "ts": "2026-11-02T21:36:37.935190+00:00",
+      "ticket_id": 246927234,
+      "action": "skip_spam",
+      "detail": "chewy and 2 others recently added to their stories"
+    },
+    {
+      "ts": "2026-11-02T21:36:40.033045+00:00",
+      "ticket_id": 246929417,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for buyeverest.com"
+    },
+    {
+      "ts": "2026-11-02T21:36:42.575542+00:00",
+      "ticket_id": 246930231,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on November 1, 2026 at 8:32 pm"
+    },
+    {
+      "ts": "2026-11-02T21:36:44.076487+00:00",
+      "ticket_id": 246930232,
+      "action": "unknown_escalated_for_aj",
+      "detail": "New customer message on November 1, 2026 at 8:32 pm"
+    },
+    {
+      "ts": "2026-11-02T21:36:44.076512+00:00",
+      "ticket_id": 246935682,
+      "action": "skip_spam",
+      "detail": "Payout for Nov 2, 2026 ($45.43 USD)"
+    },
+    {
+      "ts": "2026-11-02T21:36:45.737514+00:00",
+      "ticket_id": 246999393,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Google Workspace: Your invoice is available for elmandrye.com"
+    },
+    {
+      "ts": "2026-11-02T21:36:45.737541+00:00",
+      "ticket_id": 247010995,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-11-02T21:36:47.041961+00:00",
+      "ticket_id": 247013428,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Custom branded accessories,hardware,swag and more"
+    },
+    {
+      "ts": "2026-11-02T21:36:48.102564+00:00",
+      "ticket_id": 247042709,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elmandrye on Google"
+    },
+    {
+      "ts": "2026-11-02T21:36:50.760492+00:00",
+      "ticket_id": 247043623,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Gorgias: Update to our Data Sub-Processors"
+    },
+    {
+      "ts": "2026-11-02T21:36:51.871514+00:00",
+      "ticket_id": 247044503,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Other - Contact"
+    },
+    {
+      "ts": "2026-11-02T21:36:53.799323+00:00",
+      "ticket_id": 247059091,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A 26 MB video on your homepage"
+    },
+    {
+      "ts": "2026-11-02T21:36:55.656824+00:00",
+      "ticket_id": 247064702,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Check Out Our Top Savings Today!"
+    },
+    {
+      "ts": "2026-11-02T21:36:57.000538+00:00",
+      "ticket_id": 247073947,
+      "action": "error_crash",
+      "detail": "Re: Order #86711 confirmed"
     }
   ]
 }
