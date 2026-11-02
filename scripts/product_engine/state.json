@@ -2130,6 +2130,56 @@
       "ts": "2026-11-01T19:17:50.350185+00:00",
       "product_name": "Phosphatidylserine Soy-Free",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:56:38.540492+00:00",
+      "product_name": "Lion's Mane Erinacines",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:56:50.218489+00:00",
+      "product_name": "He Shou Wu Stilbene",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:56:59.761394+00:00",
+      "product_name": "Naringin Grapefruit",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:57:09.779486+00:00",
+      "product_name": "Lithium Orotate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:57:19.667845+00:00",
+      "product_name": "Meso-Zeaxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:57:28.102971+00:00",
+      "product_name": "Honokiol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:57:37.263036+00:00",
+      "product_name": "Pantethine Active B5",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:57:46.012183+00:00",
+      "product_name": "Luteolin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:57:55.927256+00:00",
+      "product_name": "L-Ornithine Sleep",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-02T22:58:06.031605+00:00",
+      "product_name": "Iodine Nascent",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
