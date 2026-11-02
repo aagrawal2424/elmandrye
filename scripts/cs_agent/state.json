@@ -1,15 +1,9 @@
 {
-  "last_processed_ticket_id": 246909950,
-  "last_run_at": "2026-11-01T21:28:49.537332+00:00",
+  "last_processed_ticket_id": 246922481,
+  "last_run_at": "2026-11-02T00:59:36.940227+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-11-01",
+  "daily_refund_date": "2026-11-02",
   "ticket_actions": [
-    {
-      "ts": "2026-10-22T23:32:15.611049+00:00",
-      "ticket_id": 245582092,
-      "action": "error_crash",
-      "detail": "Re: Order status - Contact"
-    },
     {
       "ts": "2026-10-22T23:32:16.954260+00:00",
       "ticket_id": 245586635,
@@ -1203,6 +1197,12 @@
       "ticket_id": 246909950,
       "action": "unknown_escalated_for_aj",
       "detail": "A new report is ready"
+    },
+    {
+      "ts": "2026-11-02T00:59:36.940211+00:00",
+      "ticket_id": 246922481,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Following up on Pupper\u2019s retail plans"
     }
   ]
 }
