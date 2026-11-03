@@ -2180,6 +2180,56 @@
       "ts": "2026-11-02T22:58:06.031605+00:00",
       "product_name": "Iodine Nascent",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:42:05.222632+00:00",
+      "product_name": "Lipoic Acid R-Form",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:42:15.591364+00:00",
+      "product_name": "Tocotrienol Annatto",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:42:25.669738+00:00",
+      "product_name": "Pantethine Active B5",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:42:35.578315+00:00",
+      "product_name": "Luteolin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:42:46.175344+00:00",
+      "product_name": "Lavender Silexan",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:42:56.271369+00:00",
+      "product_name": "Chaga Betulinic Acid",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:43:05.892764+00:00",
+      "product_name": "Apigenin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:43:17.181460+00:00",
+      "product_name": "Bladderwrack Fucoxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:43:29.027044+00:00",
+      "product_name": "Rutin Sophora",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-03T20:43:37.978598+00:00",
+      "product_name": "Olive Leaf Oleuropein",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
