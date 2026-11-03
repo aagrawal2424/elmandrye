@@ -1,27 +1,9 @@
 {
-  "last_processed_ticket_id": 247073947,
-  "last_run_at": "2026-11-02T21:36:57.000556+00:00",
+  "last_processed_ticket_id": 247089676,
+  "last_run_at": "2026-11-03T03:03:47.229298+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-11-02",
+  "daily_refund_date": "2026-11-03",
   "ticket_actions": [
-    {
-      "ts": "2026-10-23T16:50:11.288148+00:00",
-      "ticket_id": 245671032,
-      "action": "unknown_escalated_for_aj",
-      "detail": "your site traffic"
-    },
-    {
-      "ts": "2026-10-23T16:50:12.506470+00:00",
-      "ticket_id": 245678189,
-      "action": "unknown_escalated_for_aj",
-      "detail": "explaining your supplements"
-    },
-    {
-      "ts": "2026-10-23T16:50:12.506496+00:00",
-      "ticket_id": 245679550,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
     {
       "ts": "2026-10-23T16:50:14.512566+00:00",
       "ticket_id": 245679754,
@@ -1203,6 +1185,24 @@
       "ticket_id": 247073947,
       "action": "error_crash",
       "detail": "Re: Order #86711 confirmed"
+    },
+    {
+      "ts": "2026-11-03T03:03:45.738390+00:00",
+      "ticket_id": 247079957,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 11.2.2026"
+    },
+    {
+      "ts": "2026-11-03T03:03:45.738423+00:00",
+      "ticket_id": 247081918,
+      "action": "skip_spam",
+      "detail": "puppersupplements, catch up on moments you've missed"
+    },
+    {
+      "ts": "2026-11-03T03:03:47.229279+00:00",
+      "ticket_id": 247089676,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Order 10/05/2026"
     }
   ]
 }
