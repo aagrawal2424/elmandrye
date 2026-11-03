@@ -1,87 +1,9 @@
 {
-  "last_processed_ticket_id": 247089676,
-  "last_run_at": "2026-11-03T03:03:47.229298+00:00",
+  "last_processed_ticket_id": 247212622,
+  "last_run_at": "2026-11-03T19:20:13.463152+00:00",
   "daily_refund_total_usd": 0.0,
   "daily_refund_date": "2026-11-03",
   "ticket_actions": [
-    {
-      "ts": "2026-10-23T16:50:14.512566+00:00",
-      "ticket_id": 245679754,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Uncover the Latest Must-Have Products!"
-    },
-    {
-      "ts": "2026-10-23T16:50:16.131076+00:00",
-      "ticket_id": 245681096,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Following Up on Press Opportunities!"
-    },
-    {
-      "ts": "2026-10-23T16:50:18.240097+00:00",
-      "ticket_id": 245681924,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A 3-ad concept set for Hip and Joint Soft Chew"
-    },
-    {
-      "ts": "2026-10-23T16:50:19.369927+00:00",
-      "ticket_id": 245695273,
-      "action": "unknown_escalated_for_aj",
-      "detail": "performance based recovery - shopify"
-    },
-    {
-      "ts": "2026-10-23T16:50:21.024699+00:00",
-      "ticket_id": 245698732,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-23T20:09:17.968661+00:00",
-      "ticket_id": 245716418,
-      "action": "skip_spam",
-      "detail": "See ever.wildapothecary, mbpfannerstill and more in your feed"
-    },
-    {
-      "ts": "2026-10-23T23:09:45.217758+00:00",
-      "ticket_id": 245733292,
-      "action": "unknown_escalated_for_aj",
-      "detail": "U.S. Distribution"
-    },
-    {
-      "ts": "2026-10-23T23:09:48.123464+00:00",
-      "ticket_id": 245734792,
-      "action": "unknown_escalated_for_aj",
-      "detail": "The Marijuana Herald Daily Newsletter for 10/23/2026, Sponsored by Trulieve"
-    },
-    {
-      "ts": "2026-10-23T23:09:49.464080+00:00",
-      "ticket_id": 245738127,
-      "action": "error_crash",
-      "detail": "Re: Order #86471 confirmed"
-    },
-    {
-      "ts": "2026-10-23T23:09:50.197424+00:00",
-      "ticket_id": 245738508,
-      "action": "error_crash",
-      "detail": "Refund Pending Back Orders"
-    },
-    {
-      "ts": "2026-10-23T23:09:52.060814+00:00",
-      "ticket_id": 245738653,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Conversation with Allisyn Miele"
-    },
-    {
-      "ts": "2026-10-24T01:36:45.989236+00:00",
-      "ticket_id": 245747379,
-      "action": "skip_spam",
-      "detail": "How does a beauty and haircare brand generate $1M+ in LIVE GMV through consistent daily TikTok Shop LIVE sessions?"
-    },
-    {
-      "ts": "2026-10-24T15:42:37.497869+00:00",
-      "ticket_id": 245748662,
-      "action": "skip_spam",
-      "detail": "puppersupplements, see silverainb, tipsytina105 and more in your feed"
-    },
     {
       "ts": "2026-10-24T15:42:37.497888+00:00",
       "ticket_id": 245748939,
@@ -1203,6 +1125,84 @@
       "ticket_id": 247089676,
       "action": "where_is_my_order_escalated_no_orders",
       "detail": "Order 10/05/2026"
+    },
+    {
+      "ts": "2026-11-03T19:19:59.431305+00:00",
+      "ticket_id": 247093288,
+      "action": "skip_spam",
+      "detail": "Payout for Nov 3, 2026 ($194.66 USD)"
+    },
+    {
+      "ts": "2026-11-03T19:19:59.431329+00:00",
+      "ticket_id": 247095920,
+      "action": "skip_spam",
+      "detail": "See what andrewjbookwalter and 9 others you follow shared"
+    },
+    {
+      "ts": "2026-11-03T19:20:01.817276+00:00",
+      "ticket_id": 247096401,
+      "action": "unknown_escalated_for_aj",
+      "detail": "October Newsletter - Is Your Degree Recognised?"
+    },
+    {
+      "ts": "2026-11-03T19:20:01.817309+00:00",
+      "ticket_id": 247130869,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-11-03T19:20:01.817317+00:00",
+      "ticket_id": 247150510,
+      "action": "skip_spam",
+      "detail": "A new affiliate, Phuc Van Vu, has signed up for your program!"
+    },
+    {
+      "ts": "2026-11-03T19:20:03.161241+00:00",
+      "ticket_id": 247159359,
+      "action": "unknown_escalated_for_aj",
+      "detail": "a dedicated page for your healthy dog foods range"
+    },
+    {
+      "ts": "2026-11-03T19:20:04.572639+00:00",
+      "ticket_id": 247170475,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A new report is ready"
+    },
+    {
+      "ts": "2026-11-03T19:20:04.572815+00:00",
+      "ticket_id": 247173892,
+      "action": "skip_spam",
+      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
+    },
+    {
+      "ts": "2026-11-03T19:20:06.551706+00:00",
+      "ticket_id": 247177684,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your October Search performance for https://elmandrye.com/"
+    },
+    {
+      "ts": "2026-11-03T19:20:08.513726+00:00",
+      "ticket_id": 247178871,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Your October Search performance for https://pupper.com/"
+    },
+    {
+      "ts": "2026-11-03T19:20:09.434723+00:00",
+      "ticket_id": 247187561,
+      "action": "unknown_escalated_for_aj",
+      "detail": "should I close this out?"
+    },
+    {
+      "ts": "2026-11-03T19:20:11.328743+00:00",
+      "ticket_id": 247208731,
+      "action": "unknown_escalated_for_aj",
+      "detail": "10% off your first order -- quote back to you within a day"
+    },
+    {
+      "ts": "2026-11-03T19:20:13.463104+00:00",
+      "ticket_id": 247212622,
+      "action": "unknown_escalated_for_aj",
+      "detail": "\ud83c\udf31 9,444% ROAS Started With Just $1.5K per Store \ud83d\udcb8"
     }
   ]
 }
