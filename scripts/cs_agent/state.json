@@ -1,39 +1,9 @@
 {
-  "last_processed_ticket_id": 247212622,
-  "last_run_at": "2026-11-03T19:20:13.463152+00:00",
+  "last_processed_ticket_id": 247242595,
+  "last_run_at": "2026-11-04T00:02:02.309191+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-11-03",
+  "daily_refund_date": "2026-11-04",
   "ticket_actions": [
-    {
-      "ts": "2026-10-24T15:42:37.497888+00:00",
-      "ticket_id": 245748939,
-      "action": "skip_spam",
-      "detail": "alliejohoffman and 7 others recently added to their stories"
-    },
-    {
-      "ts": "2026-10-24T15:42:39.888227+00:00",
-      "ticket_id": 245754001,
-      "action": "unknown_escalated_for_aj",
-      "detail": "[Notice] Possible unresolved security risks in your Admin Console"
-    },
-    {
-      "ts": "2026-10-24T15:42:41.155880+00:00",
-      "ticket_id": 245755549,
-      "action": "unknown_escalated_for_aj",
-      "detail": "WHATSAPP NUMBER - support@elmandrye.com"
-    },
-    {
-      "ts": "2026-10-24T15:42:41.155909+00:00",
-      "ticket_id": 245799240,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-24T15:42:42.315694+00:00",
-      "ticket_id": 245800434,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
     {
       "ts": "2026-10-24T15:42:44.261519+00:00",
       "ticket_id": 245800653,
@@ -1203,6 +1173,36 @@
       "ticket_id": 247212622,
       "action": "unknown_escalated_for_aj",
       "detail": "\ud83c\udf31 9,444% ROAS Started With Just $1.5K per Store \ud83d\udcb8"
+    },
+    {
+      "ts": "2026-11-04T00:01:50.925306+00:00",
+      "ticket_id": 247221645,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Manufacturing"
+    },
+    {
+      "ts": "2026-11-04T00:01:50.925335+00:00",
+      "ticket_id": 247223688,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
+    },
+    {
+      "ts": "2026-11-04T00:01:57.541397+00:00",
+      "ticket_id": 247231987,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 11.3.2026, Sponsored by Trulieve"
+    },
+    {
+      "ts": "2026-11-04T00:02:02.309154+00:00",
+      "ticket_id": 247236432,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Shopify customer complaint notice"
+    },
+    {
+      "ts": "2026-11-04T00:02:02.309188+00:00",
+      "ticket_id": 247242595,
+      "action": "skip_spam",
+      "detail": "From heygracey and others: 3 unread messages"
     }
   ]
 }
