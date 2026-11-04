@@ -2230,6 +2230,56 @@
       "ts": "2026-11-03T20:43:37.978598+00:00",
       "product_name": "Olive Leaf Oleuropein",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T20:59:19.569276+00:00",
+      "product_name": "Evaluate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T20:59:29.052152+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T20:59:38.700087+00:00",
+      "product_name": "Polyendocrine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T20:59:49.816455+00:00",
+      "product_name": "Doxorubicin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T20:59:59.016369+00:00",
+      "product_name": "Mitigate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T21:00:08.289823+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T21:00:18.620820+00:00",
+      "product_name": "Ameliorate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T21:00:30.330359+00:00",
+      "product_name": "Sinensetin Citrus",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T21:00:40.279315+00:00",
+      "product_name": "Calcium D-Glucarate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-04T21:00:51.128063+00:00",
+      "product_name": "L-Histidine Pure",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
