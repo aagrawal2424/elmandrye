@@ -2280,6 +2280,56 @@
       "ts": "2026-11-04T21:00:51.128063+00:00",
       "product_name": "L-Histidine Pure",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:16:32.259321+00:00",
+      "product_name": "Eleutheroside E",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:16:42.687246+00:00",
+      "product_name": "Molybdenum Glycinate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:16:53.186302+00:00",
+      "product_name": "Holy Basil Ursolic Acid",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:17:04.067469+00:00",
+      "product_name": "Bergamot Polyphenols",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:17:13.145189+00:00",
+      "product_name": "Cinnamon Hydroxychalcone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:17:24.068997+00:00",
+      "product_name": "Sulforaphane Glucoraphanin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:17:34.341164+00:00",
+      "product_name": "Amla Indian Gooseberry",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:17:43.139923+00:00",
+      "product_name": "Diosmin Citrus",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:17:52.425104+00:00",
+      "product_name": "Indole-3-Carbinol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-05T21:18:02.825108+00:00",
+      "product_name": "Barley Grass Lutonarin",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
