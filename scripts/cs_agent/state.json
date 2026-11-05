@@ -1,51 +1,9 @@
 {
-  "last_processed_ticket_id": 247409374,
-  "last_run_at": "2026-11-04T19:38:27.760740+00:00",
+  "last_processed_ticket_id": 247433137,
+  "last_run_at": "2026-11-05T00:31:36.174224+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-11-04",
+  "daily_refund_date": "2026-11-05",
   "ticket_actions": [
-    {
-      "ts": "2026-10-26T18:33:42.382551+00:00",
-      "ticket_id": 246016658,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A few observations about your online presence"
-    },
-    {
-      "ts": "2026-10-26T18:33:42.382584+00:00",
-      "ticket_id": 246020306,
-      "action": "skip_spam",
-      "detail": "URGENT Action Required \u2013 Account Balance Critical: Affiliate Activity Offline"
-    },
-    {
-      "ts": "2026-10-26T18:33:43.389744+00:00",
-      "ticket_id": 246022286,
-      "action": "unknown_escalated_for_aj",
-      "detail": "PupperWhat Might Be Making Customers Hesitate?"
-    },
-    {
-      "ts": "2026-10-26T18:33:44.838276+00:00",
-      "ticket_id": 246022881,
-      "action": "where_is_my_order_escalated_no_orders",
-      "detail": "Update Request: Order #67517"
-    },
-    {
-      "ts": "2026-10-26T18:33:46.255988+00:00",
-      "ticket_id": 246023440,
-      "action": "unknown_escalated_for_aj",
-      "detail": "One line on your Libido page"
-    },
-    {
-      "ts": "2026-10-26T18:33:47.453493+00:00",
-      "ticket_id": 246027292,
-      "action": "error_crash",
-      "detail": "Order status - Contact"
-    },
-    {
-      "ts": "2026-10-26T18:33:48.293414+00:00",
-      "ticket_id": 246033956,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Does Pupper revenue currently worth it?"
-    },
     {
       "ts": "2026-10-26T18:33:50.123020+00:00",
       "ticket_id": 246037706,
@@ -1203,6 +1161,48 @@
       "ticket_id": 247409374,
       "action": "unknown_escalated_for_aj",
       "detail": "Conversation with Robert Hawk"
+    },
+    {
+      "ts": "2026-11-05T00:31:30.184360+00:00",
+      "ticket_id": 247414046,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Inventory and restocking question for Pupper"
+    },
+    {
+      "ts": "2026-11-05T00:31:31.494535+00:00",
+      "ticket_id": 247417623,
+      "action": "unknown_escalated_for_aj",
+      "detail": "The Marijuana Herald Daily Newsletter for 11.4.2026"
+    },
+    {
+      "ts": "2026-11-05T00:31:31.494587+00:00",
+      "ticket_id": 247423333,
+      "action": "skip_spam",
+      "detail": "Awin new publisher notification for Pupper"
+    },
+    {
+      "ts": "2026-11-05T00:31:32.621068+00:00",
+      "ticket_id": 247427557,
+      "action": "where_is_my_order_escalated_no_orders",
+      "detail": "Re: Missing Order"
+    },
+    {
+      "ts": "2026-11-05T00:31:33.806756+00:00",
+      "ticket_id": 247430193,
+      "action": "error_crash",
+      "detail": "Orders 86513 & 86780"
+    },
+    {
+      "ts": "2026-11-05T00:31:35.323135+00:00",
+      "ticket_id": 247430376,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Product question - Contact"
+    },
+    {
+      "ts": "2026-11-05T00:31:36.174199+00:00",
+      "ticket_id": 247433137,
+      "action": "unknown_escalated_for_aj",
+      "detail": "Elm & Rye x Beautypass, made for the model feed"
     }
   ]
 }
