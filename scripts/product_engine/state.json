@@ -2330,6 +2330,56 @@
       "ts": "2026-11-05T21:18:02.825108+00:00",
       "product_name": "Barley Grass Lutonarin",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:39:17.621686+00:00",
+      "product_name": "Polyendocrine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:39:27.941073+00:00",
+      "product_name": "Evaluate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:39:36.820316+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:39:45.074479+00:00",
+      "product_name": "Medicine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:39:57.623960+00:00",
+      "product_name": "Doxorubicin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:40:06.229979+00:00",
+      "product_name": "Mitigate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:40:14.461837+00:00",
+      "product_name": "Hormone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:40:25.107754+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:40:34.774252+00:00",
+      "product_name": "Sinensetin Citrus",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-06T20:40:45.945566+00:00",
+      "product_name": "Lion's Mane Erinacines",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
