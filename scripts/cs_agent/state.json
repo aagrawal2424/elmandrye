@@ -1,33 +1,9 @@
 {
-  "last_processed_ticket_id": 247559855,
-  "last_run_at": "2026-11-05T19:46:22.454305+00:00",
+  "last_processed_ticket_id": 247580724,
+  "last_run_at": "2026-11-06T00:34:24.264322+00:00",
   "daily_refund_total_usd": 0.0,
-  "daily_refund_date": "2026-11-05",
+  "daily_refund_date": "2026-11-06",
   "ticket_actions": [
-    {
-      "ts": "2026-10-27T17:49:05.522049+00:00",
-      "ticket_id": 246188620,
-      "action": "unknown_escalated_for_aj",
-      "detail": "Your whole spec sheet, one lab"
-    },
-    {
-      "ts": "2026-10-27T17:49:07.578651+00:00",
-      "ticket_id": 246195919,
-      "action": "unknown_escalated_for_aj",
-      "detail": "A possible reorder gap at Elm & Rye"
-    },
-    {
-      "ts": "2026-10-27T17:49:09.350284+00:00",
-      "ticket_id": 246195483,
-      "action": "order_cancel_escalated_for_aj",
-      "detail": "Accidental purchase"
-    },
-    {
-      "ts": "2026-10-27T17:49:10.433350+00:00",
-      "ticket_id": 246197156,
-      "action": "unknown_escalated_for_aj",
-      "detail": "improved shipping rates"
-    },
     {
       "ts": "2026-10-27T17:49:11.893012+00:00",
       "ticket_id": 246199089,
@@ -1203,6 +1179,30 @@
       "ticket_id": 247559855,
       "action": "unknown_escalated_for_aj",
       "detail": "Elm & Rye x Costco Mexico \u2013 Retail Partnership Opportunity"
+    },
+    {
+      "ts": "2026-11-06T00:34:21.501351+00:00",
+      "ticket_id": 247564396,
+      "action": "unknown_escalated_for_aj",
+      "detail": "A different way to reward shoppers?"
+    },
+    {
+      "ts": "2026-11-06T00:34:22.918619+00:00",
+      "ticket_id": 247566639,
+      "action": "unknown_escalated_for_aj",
+      "detail": "we run our own brands and warehouse"
+    },
+    {
+      "ts": "2026-11-06T00:34:24.264292+00:00",
+      "ticket_id": 247570006,
+      "action": "error_crash",
+      "detail": "Fwd: Lazaroff order 84881"
+    },
+    {
+      "ts": "2026-11-06T00:34:24.264320+00:00",
+      "ticket_id": 247580724,
+      "action": "skip_spam",
+      "detail": "alliejohoffman and 7 others recently added to their stories"
     }
   ]
 }
