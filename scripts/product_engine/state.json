@@ -2380,6 +2380,56 @@
       "ts": "2026-11-06T20:40:45.945566+00:00",
       "product_name": "Lion's Mane Erinacines",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:10:09.435914+00:00",
+      "product_name": "Lion's Mane Erinacines",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:10:20.131945+00:00",
+      "product_name": "Schisandra Lignans",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:10:29.836347+00:00",
+      "product_name": "Fadogia Agrestis",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:10:38.929830+00:00",
+      "product_name": "Pterostilbene",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:10:48.548482+00:00",
+      "product_name": "Boswellia AKBA",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:10:58.017139+00:00",
+      "product_name": "Luteolin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:11:06.491357+00:00",
+      "product_name": "L-Proline Pure",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:11:16.722707+00:00",
+      "product_name": "Hesperidin Citrus",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:11:26.067160+00:00",
+      "product_name": "Pau D'Arco Lapachol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-07T19:11:36.788133+00:00",
+      "product_name": "Methylfolate L-5-MTHF",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
