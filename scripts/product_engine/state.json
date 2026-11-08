@@ -2430,6 +2430,56 @@
       "ts": "2026-11-07T19:11:36.788133+00:00",
       "product_name": "Methylfolate L-5-MTHF",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:14:07.521926+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:14:16.205603+00:00",
+      "product_name": "Medicine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:14:26.613937+00:00",
+      "product_name": "Polyendocrine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:14:35.796560+00:00",
+      "product_name": "Evaluate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:14:44.261515+00:00",
+      "product_name": "Doxorubicin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:14:53.004853+00:00",
+      "product_name": "Mitigate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:15:02.541882+00:00",
+      "product_name": "Hormone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:15:10.949678+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:15:20.308103+00:00",
+      "product_name": "NADH Stabilized",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-08T19:15:32.207136+00:00",
+      "product_name": "Lithium Aspartate",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
