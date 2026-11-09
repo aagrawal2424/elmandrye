@@ -2480,6 +2480,56 @@
       "ts": "2026-11-08T19:15:32.207136+00:00",
       "product_name": "Lithium Aspartate",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:38:42.847654+00:00",
+      "product_name": "Mulberry 1-Deoxynojirimycin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:38:53.518337+00:00",
+      "product_name": "Cinnamon Hydroxychalcone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:39:02.789118+00:00",
+      "product_name": "Meso-Zeaxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:39:11.791112+00:00",
+      "product_name": "L-Histidine Pure",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:39:20.503866+00:00",
+      "product_name": "Fadogia Agrestis",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:39:29.663274+00:00",
+      "product_name": "Pantethine Active B5",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:39:39.114624+00:00",
+      "product_name": "Bergamot Polyphenols",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:39:48.054629+00:00",
+      "product_name": "Calcium D-Glucarate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:39:57.100752+00:00",
+      "product_name": "Centella Asiatica Triterpenes",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-09T23:40:07.761943+00:00",
+      "product_name": "Maitake D-Fraction",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
