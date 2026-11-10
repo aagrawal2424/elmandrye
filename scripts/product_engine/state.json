@@ -2530,6 +2530,56 @@
       "ts": "2026-11-09T23:40:07.761943+00:00",
       "product_name": "Maitake D-Fraction",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:05:39.802958+00:00",
+      "product_name": "Lithium Orotate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:05:49.741007+00:00",
+      "product_name": "Molybdenum Glycinate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:06:00.143698+00:00",
+      "product_name": "Hawthorn Vitexin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:06:10.174206+00:00",
+      "product_name": "Agmatine Sulfate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:06:19.993590+00:00",
+      "product_name": "D-Chiro Inositol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:06:29.399859+00:00",
+      "product_name": "NADH Stabilized",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:06:40.996970+00:00",
+      "product_name": "Saffron Crocin Crocetin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:06:50.582664+00:00",
+      "product_name": "Carnosine L",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:07:01.351639+00:00",
+      "product_name": "Copper Bisglycinate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-10T21:07:10.353885+00:00",
+      "product_name": "Manganese Chelate",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
