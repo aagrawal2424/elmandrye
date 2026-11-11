@@ -1,64 +1,25 @@
 {% comment %}
-  PostHog product analytics snippet for elmandrye.com.
+  PostHog Cloud US snippet for elmandrye.com.
 
-  Rendered in layout/theme.liquid just before </head> on every storefront
-  page (product, collection, blog, cart, home). NOT loaded inside
-  Shopify Checkout — checkout is a separate iframe domain Shopify
-  controls. If we want checkout-funnel events, add a Web Pixel via
-  Customer Events in Admin.
+  Canonical install is the official JS snippet inlined in
+  layout/theme.liquid (and checkout.liquid) immediately after
+  {{ content_for_header }}. This file is the same snippet so a
+  `{% render 'posthog' %}` include stays compatible.
 
-  What gets captured automatically (config: { autocapture: true }):
-    - $pageview on every page load with the full URL + referrer
-    - $autocapture on clicks, form submits, input changes (lets us
-      build funnels in PostHog without writing any custom event code)
-    - $rageclick
-    - Session recording is OFF by default — turn on per-environment
-      in the PostHog project settings if/when you want it.
-
-  Identity:
-    - If a customer is logged in, we identify them by Shopify customer
-      ID. Anonymous visitors stay anonymous (PostHog assigns a uuid).
-    - {{ customer.id }} is the Shopify-internal numeric id, not the
-      email — keeps PII out of PostHog by default.
-
-  Custom events worth adding later:
-    - product_viewed     (on product page load, with product handle/id/price)
-    - add_to_cart_clicked (on AddToCartForm submit)
-    - cart_viewed        (on /cart load)
-
-  Key handling:
-    - The project API key below is the PUBLIC project key (write-only,
-      cannot read or admin). Safe to ship in client code per PostHog docs.
-    - Filled in by scripts/sync_theme_snippet.py at deploy time when
-      the env var POSTHOG_ELMANDRYE_KEY is set. Without the substitution
-      the snippet emits nothing — fail-soft so a misconfigured push
-      doesn't break the page.
+  Init: token + us.i.posthog.com + defaults 2026-05-30
+  (pageviews, autocapture, session replay).
+  Super property: brand = elmandrye
+  Identify: Shopify customer.id when logged in; email is a
+  person property only. Anonymous visitors are not identified.
 {% endcomment %}
-{%- assign ph_key = '__POSTHOG_API_KEY__' -%}
-{%- assign ph_host = '__POSTHOG_HOST__' -%}
-{%- comment -%}
-  Fail-soft check: real PostHog public project keys always start with `phc_`.
-  If the placeholder hasn't been substituted by install_posthog.py, ph_key
-  will still be the literal `__POSTHOG_API_KEY__` (no `phc_` prefix) and
-  we skip rendering. Don't compare to the placeholder literal here — the
-  string-replace step would also replace it and break the check.
-{%- endcomment -%}
-{%- if ph_key contains 'phc_' -%}
 <script>
-  !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
-  posthog.init('{{ ph_key }}', {
-    api_host: '{{ ph_host | default: "https://us.i.posthog.com" }}',
-    person_profiles: 'identified_only',
-    autocapture: true,
-    capture_pageview: true,
-    capture_pageleave: true,
-    disable_session_recording: true
+  !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+  posthog.init('phc_u3fzS9jpk3eRtd9NfLQvhxda5HXVxnoM773Qxj7RkuoZ', {
+    api_host: 'https://us.i.posthog.com',
+    defaults: '2026-05-30',
   });
+  posthog.register({ brand: 'elmandrye' });
   {%- if customer -%}
-    posthog.identify('shopify_customer_{{ customer.id }}', {
-      shopify_customer_id: '{{ customer.id }}',
-      orders_count: {{ customer.orders_count | default: 0 }}
-    });
+  posthog.identify({{ customer.id | json }}, { email: {{ customer.email | json }} });
   {%- endif -%}
 </script>
-{%- endif -%}
