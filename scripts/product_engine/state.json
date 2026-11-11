@@ -2580,6 +2580,56 @@
       "ts": "2026-11-10T21:07:10.353885+00:00",
       "product_name": "Manganese Chelate",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:39:07.931521+00:00",
+      "product_name": "Medicine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:39:18.209025+00:00",
+      "product_name": "Polyendocrine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:39:27.465542+00:00",
+      "product_name": "Evaluate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:39:36.241935+00:00",
+      "product_name": "Fructooligosaccharide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:39:47.137883+00:00",
+      "product_name": "Doxorubicin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:39:57.053814+00:00",
+      "product_name": "Mitigate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:40:04.909878+00:00",
+      "product_name": "Hormone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:40:12.985538+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:40:21.207446+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-11T21:40:31.322184+00:00",
+      "product_name": "Mulberry 1-Deoxynojirimycin",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
