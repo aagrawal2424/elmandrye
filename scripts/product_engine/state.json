@@ -2630,6 +2630,56 @@
       "ts": "2026-11-11T21:40:31.322184+00:00",
       "product_name": "Mulberry 1-Deoxynojirimycin",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:38:52.362436+00:00",
+      "product_name": "Fructooligosaccharide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:39:03.844773+00:00",
+      "product_name": "Mulberry 1-Deoxynojirimycin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:39:13.150468+00:00",
+      "product_name": "Cinnamon Hydroxychalcone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:39:22.233274+00:00",
+      "product_name": "Boswellia AKBA",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:39:32.961666+00:00",
+      "product_name": "Mastic Gum Chios",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:39:44.802509+00:00",
+      "product_name": "Lithium Aspartate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:39:53.933213+00:00",
+      "product_name": "Molybdenum Glycinate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:40:02.892979+00:00",
+      "product_name": "Luteolin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:40:12.492957+00:00",
+      "product_name": "Fadogia Agrestis",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-12T21:40:22.694287+00:00",
+      "product_name": "NADH Stabilized",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
