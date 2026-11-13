@@ -2680,6 +2680,56 @@
       "ts": "2026-11-12T21:40:22.694287+00:00",
       "product_name": "NADH Stabilized",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:04:07.503142+00:00",
+      "product_name": "Medicine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:04:17.219720+00:00",
+      "product_name": "Polyendocrine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:04:26.275557+00:00",
+      "product_name": "Evaluate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:04:35.041680+00:00",
+      "product_name": "Fructooligosaccharide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:04:48.201395+00:00",
+      "product_name": "Doxorubicin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:04:57.462225+00:00",
+      "product_name": "Mitigate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:05:07.685945+00:00",
+      "product_name": "Hormone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:05:15.342865+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:05:24.320160+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-13T21:05:33.889577+00:00",
+      "product_name": "Eleutheroside E",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
