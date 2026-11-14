@@ -2730,6 +2730,56 @@
       "ts": "2026-11-13T21:05:33.889577+00:00",
       "product_name": "Eleutheroside E",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:33:32.153909+00:00",
+      "product_name": "Fructooligosaccharide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:33:41.882790+00:00",
+      "product_name": "Eleutheroside E",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:33:52.068163+00:00",
+      "product_name": "Lion's Mane Erinacines",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:34:01.823516+00:00",
+      "product_name": "Apigenin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:34:11.580571+00:00",
+      "product_name": "Molybdenum Glycinate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:34:21.539085+00:00",
+      "product_name": "Black Seed Thymoquinone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:34:30.711649+00:00",
+      "product_name": "D-Chiro Inositol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:34:40.078250+00:00",
+      "product_name": "Lavender Silexan",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:34:49.737669+00:00",
+      "product_name": "Fadogia Agrestis",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-14T19:34:59.833648+00:00",
+      "product_name": "Tocotrienol Annatto",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
