@@ -2780,6 +2780,56 @@
       "ts": "2026-11-14T19:34:59.833648+00:00",
       "product_name": "Tocotrienol Annatto",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:01:38.097659+00:00",
+      "product_name": "Fructooligosaccharide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:01:50.887953+00:00",
+      "product_name": "Boneset Eupatorium",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:02:00.693642+00:00",
+      "product_name": "Cinnamon Hydroxychalcone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:02:11.687680+00:00",
+      "product_name": "Pterostilbene",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:02:28.386421+00:00",
+      "product_name": "Black Seed Thymoquinone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:02:38.773516+00:00",
+      "product_name": "Hawthorn Vitexin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:02:48.328170+00:00",
+      "product_name": "Bladderwrack Fucoxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:02:57.294050+00:00",
+      "product_name": "Boswellia AKBA",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:03:06.689941+00:00",
+      "product_name": "Chaga Betulinic Acid",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-15T20:03:16.246154+00:00",
+      "product_name": "Lavender Silexan",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
