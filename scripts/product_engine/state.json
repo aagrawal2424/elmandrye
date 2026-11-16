@@ -2830,6 +2830,56 @@
       "ts": "2026-11-15T20:03:16.246154+00:00",
       "product_name": "Lavender Silexan",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:34:54.775311+00:00",
+      "product_name": "Fructooligosaccharide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:35:04.748281+00:00",
+      "product_name": "Maitake D-Fraction",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:35:12.755098+00:00",
+      "product_name": "Bitter Melon Charantin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:35:21.675282+00:00",
+      "product_name": "Agmatine Sulfate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:35:29.921263+00:00",
+      "product_name": "NADH Stabilized",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:35:38.656647+00:00",
+      "product_name": "PQQ Disodium",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:35:48.099611+00:00",
+      "product_name": "Grape Seed Procyanidins",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:35:57.319591+00:00",
+      "product_name": "Spirulina Phycocyanin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:36:06.401575+00:00",
+      "product_name": "Urolithin A",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-16T23:36:15.550466+00:00",
+      "product_name": "Camu Camu Vitamin C",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
