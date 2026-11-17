@@ -2880,6 +2880,56 @@
       "ts": "2026-11-16T23:36:15.550466+00:00",
       "product_name": "Camu Camu Vitamin C",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:43:44.665730+00:00",
+      "product_name": "Medicine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:43:53.903378+00:00",
+      "product_name": "Evaluate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:44:04.466780+00:00",
+      "product_name": "Fructooligosaccharide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:44:13.350280+00:00",
+      "product_name": "Polyendocrine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:44:22.714450+00:00",
+      "product_name": "Mitigate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:44:30.108258+00:00",
+      "product_name": "Hormone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:44:39.219673+00:00",
+      "product_name": "Alcohol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:44:49.948408+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:44:58.914862+00:00",
+      "product_name": "Eleutheroside E",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-17T22:45:08.519476+00:00",
+      "product_name": "Sinensetin Citrus",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
