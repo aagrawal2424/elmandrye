@@ -2930,6 +2930,56 @@
       "ts": "2026-11-17T22:45:08.519476+00:00",
       "product_name": "Sinensetin Citrus",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:25:16.653461+00:00",
+      "product_name": "Mastic Gum Chios",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:25:25.788410+00:00",
+      "product_name": "Lavender Silexan",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:25:35.326180+00:00",
+      "product_name": "Hydroxytyrosol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:25:45.139369+00:00",
+      "product_name": "NADH Stabilized",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:25:54.131249+00:00",
+      "product_name": "Naringin Grapefruit",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:26:05.100756+00:00",
+      "product_name": "Bergamot Polyphenols",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:26:14.608589+00:00",
+      "product_name": "PQQ Disodium",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:26:23.572863+00:00",
+      "product_name": "Diindolylmethane",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:26:32.050433+00:00",
+      "product_name": "Pumpkin Seed Cucurbitin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-18T22:26:40.600460+00:00",
+      "product_name": "Citicoline CDP-Choline",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
