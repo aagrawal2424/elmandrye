@@ -2980,6 +2980,56 @@
       "ts": "2026-11-18T22:26:40.600460+00:00",
       "product_name": "Citicoline CDP-Choline",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:30:26.448258+00:00",
+      "product_name": "L-Histidine Pure",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:30:35.989091+00:00",
+      "product_name": "Maitake D-Fraction",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:30:46.404915+00:00",
+      "product_name": "Schisandra Lignans",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:30:55.621831+00:00",
+      "product_name": "Pterostilbene",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:31:07.028949+00:00",
+      "product_name": "Chaga Betulinic Acid",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:31:16.699854+00:00",
+      "product_name": "NADH Stabilized",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:31:26.726083+00:00",
+      "product_name": "Apigenin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:31:36.153781+00:00",
+      "product_name": "Honokiol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:31:45.282777+00:00",
+      "product_name": "Bladderwrack Fucoxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-19T22:31:55.111412+00:00",
+      "product_name": "Strontium Citrate",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
