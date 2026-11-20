@@ -3030,6 +3030,56 @@
       "ts": "2026-11-19T22:31:55.111412+00:00",
       "product_name": "Strontium Citrate",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:02:15.231875+00:00",
+      "product_name": "Maitake D-Fraction",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:02:24.477903+00:00",
+      "product_name": "Pantethine Active B5",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:02:33.597360+00:00",
+      "product_name": "Centella Asiatica Triterpenes",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:02:42.688004+00:00",
+      "product_name": "Bitter Melon Charantin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:02:51.522695+00:00",
+      "product_name": "Carnosine L",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:03:02.227045+00:00",
+      "product_name": "D-Chiro Inositol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:03:11.706778+00:00",
+      "product_name": "Honokiol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:03:21.383881+00:00",
+      "product_name": "L-Tyrosine N-Acetyl",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:03:29.861135+00:00",
+      "product_name": "Diosmin Citrus",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-20T22:03:37.937682+00:00",
+      "product_name": "Rutin Sophora",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
