@@ -3080,6 +3080,56 @@
       "ts": "2026-11-20T22:03:37.937682+00:00",
       "product_name": "Rutin Sophora",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:42:19.419957+00:00",
+      "product_name": "Ceramide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:42:31.344833+00:00",
+      "product_name": "PEA Palmitoylethanolamide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:42:41.076564+00:00",
+      "product_name": "Maitake D-Fraction",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:42:49.883593+00:00",
+      "product_name": "Bitter Melon Charantin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:42:59.545848+00:00",
+      "product_name": "Lavender Silexan",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:43:08.449658+00:00",
+      "product_name": "Bladderwrack Fucoxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:43:18.221461+00:00",
+      "product_name": "Schisandra Lignans",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:43:26.789770+00:00",
+      "product_name": "Pantethine Active B5",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:43:35.907255+00:00",
+      "product_name": "Spermidine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-21T20:43:44.520460+00:00",
+      "product_name": "Grape Seed Procyanidins",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
