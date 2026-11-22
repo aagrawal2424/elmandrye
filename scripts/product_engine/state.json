@@ -3130,6 +3130,56 @@
       "ts": "2026-11-21T20:43:44.520460+00:00",
       "product_name": "Grape Seed Procyanidins",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:52:59.988831+00:00",
+      "product_name": "Ceramide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:53:11.025885+00:00",
+      "product_name": "Mulberry 1-Deoxynojirimycin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:53:21.831436+00:00",
+      "product_name": "Lion's Mane Erinacines",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:53:32.881142+00:00",
+      "product_name": "D-Chiro Inositol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:53:42.044140+00:00",
+      "product_name": "Naringin Grapefruit",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:53:50.963599+00:00",
+      "product_name": "Lipoic Acid R-Form",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:53:59.950980+00:00",
+      "product_name": "Eyebright Euphrasia",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:54:09.203932+00:00",
+      "product_name": "Boneset Eupatorium",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:54:19.097311+00:00",
+      "product_name": "Gynostemma Gypenosides",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-22T20:54:27.564925+00:00",
+      "product_name": "Luteolin",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
