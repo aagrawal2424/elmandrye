@@ -3180,6 +3180,56 @@
       "ts": "2026-11-22T20:54:27.564925+00:00",
       "product_name": "Luteolin",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:57:15.309107+00:00",
+      "product_name": "Ceramide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:57:25.259463+00:00",
+      "product_name": "Boswellia AKBA",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:57:35.274060+00:00",
+      "product_name": "L-Histidine Pure",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:57:47.607849+00:00",
+      "product_name": "Centella Asiatica Triterpenes",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:57:56.612119+00:00",
+      "product_name": "Boneset Eupatorium",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:58:05.166669+00:00",
+      "product_name": "Maitake D-Fraction",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:58:14.387509+00:00",
+      "product_name": "Bladderwrack Fucoxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:58:22.607235+00:00",
+      "product_name": "Luteolin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:58:32.428545+00:00",
+      "product_name": "Chaga Betulinic Acid",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-24T01:58:41.074372+00:00",
+      "product_name": "L-Proline Pure",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
