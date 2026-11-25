@@ -3280,6 +3280,56 @@
       "ts": "2026-11-24T23:42:49.628837+00:00",
       "product_name": "L-Proline Pure",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:25:01.591247+00:00",
+      "product_name": "Ceramide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:25:10.602599+00:00",
+      "product_name": "Sinensetin Citrus",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:25:19.985579+00:00",
+      "product_name": "L-Histidine Pure",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:25:29.513008+00:00",
+      "product_name": "NADH Stabilized",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:25:38.600631+00:00",
+      "product_name": "Lavender Silexan",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:25:48.141911+00:00",
+      "product_name": "Maitake D-Fraction",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:25:57.382247+00:00",
+      "product_name": "Calcium D-Glucarate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:26:07.212540+00:00",
+      "product_name": "Fadogia Agrestis",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:26:15.865777+00:00",
+      "product_name": "Agmatine Sulfate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-25T23:26:24.974201+00:00",
+      "product_name": "Saffron Crocin Crocetin",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
