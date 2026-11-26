@@ -3330,6 +3330,56 @@
       "ts": "2026-11-25T23:26:24.974201+00:00",
       "product_name": "Saffron Crocin Crocetin",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:24:07.814076+00:00",
+      "product_name": "Ceramide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:24:17.266018+00:00",
+      "product_name": "Lithium Orotate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:24:26.224876+00:00",
+      "product_name": "Calcium D-Glucarate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:24:35.898513+00:00",
+      "product_name": "Maitake D-Fraction",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:24:45.596416+00:00",
+      "product_name": "D-Chiro Inositol",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:24:55.072179+00:00",
+      "product_name": "Cinnamon Hydroxychalcone",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:25:05.092138+00:00",
+      "product_name": "Bladderwrack Fucoxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:25:15.175264+00:00",
+      "product_name": "L-Histidine Pure",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:25:25.645314+00:00",
+      "product_name": "Meso-Zeaxanthin",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-26T23:25:34.838655+00:00",
+      "product_name": "Diindolylmethane",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
