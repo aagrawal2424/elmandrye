@@ -3380,6 +3380,56 @@
       "ts": "2026-11-26T23:25:34.838655+00:00",
       "product_name": "Diindolylmethane",
       "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:03:52.125046+00:00",
+      "product_name": "Mitigate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:04:01.066102+00:00",
+      "product_name": "Evaluate",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:04:09.793802+00:00",
+      "product_name": "Scopolamine",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:04:18.456856+00:00",
+      "product_name": "Ceramide",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:04:27.635101+00:00",
+      "product_name": "Sulbutiamine Lipophilic",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:04:37.390371+00:00",
+      "product_name": "Chaga Betulinic Acid",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:04:45.830832+00:00",
+      "product_name": "Naringin Grapefruit",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:04:55.341461+00:00",
+      "product_name": "Lipoic Acid R-Form",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:05:05.949789+00:00",
+      "product_name": "Schisandra Lignans",
+      "error": "HTTP Error 400: Bad Request"
+    },
+    {
+      "ts": "2026-11-27T23:05:14.595790+00:00",
+      "product_name": "Eyebright Euphrasia",
+      "error": "HTTP Error 400: Bad Request"
     }
   ]
 }
